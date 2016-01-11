@@ -1,0 +1,17 @@
+
+| Loading Grails 2.2.5
+| Configuring classpath
+| Configuring classpath.
+| Environment set to development
+| Environment set to development.
+| Environment set to development..
+| Environment set to development...
+| Environment set to development....
+
+    +----------------------+-------+-------+
+    | Name                 | Files |  LOC  |
+    +----------------------+-------+-------+
+    +----------------------+-------+-------+
+    | Totals               |     0 |     0 | 
+    +----------------------+-------+-------+
+

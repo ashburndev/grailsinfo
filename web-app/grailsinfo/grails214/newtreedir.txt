@@ -1,0 +1,31 @@
+grails214app
+├── grails-app
+│   ├── conf
+│   │   ├── hibernate
+│   │   └── spring
+│   ├── controllers
+│   ├── domain
+│   ├── i18n
+│   ├── services
+│   ├── taglib
+│   ├── utils
+│   └── views
+│       └── layouts
+├── lib
+├── scripts
+├── src
+│   ├── groovy
+│   └── java
+├── test
+│   ├── integration
+│   └── unit
+└── web-app
+    ├── css
+    ├── images
+    │   └── skin
+    ├── js
+    ├── META-INF
+    └── WEB-INF
+        └── tld
+
+28 directories

@@ -1,0 +1,20 @@
+
+| Loading Grails 2.0.0
+| Configuring classpath
+| Configuring classpath.
+| Environment set to development
+| Environment set to development.
+| Environment set to development..
+| Environment set to development...
+| Obtaining dependency data...
+| Downloading: ivy-R8.xml
+| Downloading: ivy-2.0.8.xml
+| Downloading: ivy-1.0.1.xml
+| Downloading: ivy-1.8.xml
+| Downloading: core-renderer-R8.jar
+| Downloading: itext-2.0.8.jar
+| Downloading: grails-gdoc-engine-1.0.1.jar
+| Downloading: snakeyaml-1.8.jar
+| Downloading: snakeyaml-1.8.jar.
+| Downloading: snakeyaml-1.8.jar..
+| Dependency report output to [/home/ashburndave/g2projs/grails200app/target/dependency-report/index.html]

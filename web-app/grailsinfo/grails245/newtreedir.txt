@@ -1,0 +1,35 @@
+grails245app
+├── grails-app
+│   ├── assets
+│   │   ├── images
+│   │   ├── javascripts
+│   │   └── stylesheets
+│   ├── conf
+│   │   ├── hibernate
+│   │   └── spring
+│   ├── controllers
+│   ├── domain
+│   ├── i18n
+│   ├── services
+│   ├── taglib
+│   ├── utils
+│   └── views
+│       └── layouts
+├── lib
+├── scripts
+├── src
+│   ├── groovy
+│   └── java
+├── test
+│   ├── integration
+│   └── unit
+├── web-app
+│   ├── css
+│   ├── images
+│   ├── js
+│   ├── META-INF
+│   └── WEB-INF
+│       └── tld
+└── wrapper
+
+32 directories
