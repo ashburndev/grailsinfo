@@ -13,30 +13,6 @@ changeGrailsVersion () {
   echo "------------------------------------------------------------"
 }
 
-createGrailsApp2EchoOnly () {
-  echo "------------------------------------------------------------"
-  echo "in function createGrailsApp2EchoOnly, first arg = $1"
-  gvernodots=`echo "$1" | sed "s/\.//g"`
-  echo "in function createGrailsApp2EchoOnly, gvernodots = $gvernodots"
-  shortname="grails${gvernodots}"
-  echo "in function createGrailsApp2EchoOnly, shortname = $shortname"
-  appname="${shortname}app"
-  echo "in function createGrailsApp2EchoOnly, appname = $appname"
-  echo "     cd /home/ashburndave/g2projs"
-  echo "     grails create-app ${appname}"
-  echo "     tree -d -L 3 ${appname} > ~/grailsinfo/${shortname}/newtreedir.txt"
-  echo "     grails integrate-with --git"
-  echo "     grails integrate-with --eclipse"
-  echo "     grails install-templates"
-  echo "     grails refresh-dependencies"
-  echo "     grails dependency-report > ~/grailsinfo/${shortname}/dependency-report.txt"
-  echo "     mkdir -p ./grapis-app/domain/com/acme"
-  echo "     cp -p ../Book.groovy ./grails-app/domain/com/acme/Book.groovy"
-  echo "     grails generate-all ashburndev.Book"
-  echo "     grails stats > ~/grailsinfo/${shortname}/stats.txt"
-  echo "------------------------------------------------------------"
-}
-
 createGrailsApp2 () {
   echo "------------------------------------------------------------"
   gvernodots=`echo "$1" | sed "s/\.//g"`
