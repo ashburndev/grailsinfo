@@ -38,6 +38,10 @@ http://grails.org/plugin/cached-resources
 
 http://grails.org/plugin/cache-headers
 
+http://www.anyware.co.uk/2005/2011/09/12/optimising-your-application-with-grails-resources-plugin/
+
+http://www.technipelago.se/blog/show/grails-upgrade-1.3.7-to-2.0.1http://www.technipelago.se/blog/show/grails-upgrade-1.3.7-to-2.0.1
+
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 http://docs.grails.org/2.5.0/guide/upgradingFrom23.html
