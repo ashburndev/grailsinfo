@@ -60,5 +60,23 @@ If you are 100% sure that the value you wish to present on the page has not been
 
 ${raw(book.title)}
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+http://docs.grails.org/2.5.4/guide/theWebLayer.html#contentNegotiation
+
+Content Negotiation with URI Extensions
+
+Grails also supports content negotiation using URI extensions. For example given the following URI:
+
+/book/list.xml
+
+This works as a result of the default URL Mapping definition which is:
+
+"/$controller/$action?/$id?(.$format)?"{
+
+Note the inclusion of the format variable in the path. If you do not wish to use content negotiation via the file extension then simply remove this part of the URL mapping:
+
+"/$controller/$action?/$id?"{
+
 
 
