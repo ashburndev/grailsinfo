@@ -45,3 +45,20 @@ http://docs.grails.org/2.5.0/guide/upgradingFrom23.html
 Data Binding Changes
 
 Prior to Grails 2.4 when data binding was performed with the params object in a controller, if the request contained a body the body would be parsed and used for data binding instead of the params object. In Grails 2.4 this behavior has changed so that if binding is initiated with params, the binding will always be done with the params object, without regard to whether or not the request has a body. If binding is done with the request object, if the request has a body then the body will be parsed and used for data binding, otherwise the request parameters will be used for data binding.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+http://docs.grails.org/2.5.4/guide/security.html#xssPrevention
+
+GSP features the ability to automatically HTML encode GSP expressions, and as of Grails 2.3 this is the default configuration.
+
+Versions of Grails prior to 2.3, included the ability to set the default codec to html, however enabling this setting sometimes proved problematic when using existing plugins due to encoding being applied twice (once by the html codec and then again if the plugin manually called encodeAsHTML).
+
+Grails 2.3 includes double encoding prevention so that when an expression is evaluated, it will not encode if the data has already been encoded (Example ${foo.encodeAsHTML()}).
+
+If you are 100% sure that the value you wish to present on the page has not been received from user input, and you do not wish the value to be encoded then you can use the raw method:
+
+${raw(book.title)}
+
+
+
