@@ -42,6 +42,42 @@ http://www.anyware.co.uk/2005/2011/09/12/optimising-your-application-with-grails
 
 http://www.technipelago.se/blog/show/grails-upgrade-1.3.7-to-2.0.1http://www.technipelago.se/blog/show/grails-upgrade-1.3.7-to-2.0.1
 
+https://blog.oio.de/2011/04/13/displaying-hibernate-statistics-in-a-grails-app/
+
+http://grails.org/plugin/hibernate-stats
+
+http://www.groovymag.com/main.issues.description/id=6/
+
+https://bertramdev.github.io/grails-asset-pipeline/guide/usage.html
+
+https://bertramdev.github.io/grails-asset-pipeline/guide/usage.html
+
+http://www.oodlestechnologies.com/blogs/Importance-of-Grails-asset-pipeline-plugin
+
+http://www.redwindsw.com/blog/2013-08-03-grails-asset-pipeline-why-it-s-better
+
+https://github.com/bertramdev/grails-asset-pipeline/issues/324
+
+http://stackoverflow.com/questions/36324846/how-to-disable-digest-in-asset-pipeline-grails
+
+http://bertramdev.github.io/grails-asset-pipeline/guide/releases.html
+
+https://objectpartners.com/2015/05/14/list-of-groovy-versions-for-each-version-of-grails/
+
+http://grails.1312388.n4.nabble.com/request-JSON-empty-if-command-object-is-parameter-of-controller-method-td4655576.html
+
+http://docs.grails.org/latest/guide/theWebLayer.html#commandObjects%E2%80%A6
+
+http://docs.grails.org/latest/guide/theWebLayer.html#commandObjects
+
+http://stackoverflow.com/questions/24782459/how-to-group-js-and-css-using-grails-asset-pipeline-plugin
+
+http://stackoverflow.com/questions/25247844/converting-resources-plugin-modules-to-asset-pipeline
+
+http://tednaleid.github.io/asset-pipeline-presentation/?full#5
+
+http://tednaleid.github.io/asset-pipeline-presentation/
+
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 http://docs.grails.org/2.5.0/guide/upgradingFrom23.html
