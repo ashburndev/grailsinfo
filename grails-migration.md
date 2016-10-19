@@ -303,3 +303,25 @@ http://shengwangi.blogspot.com/2015/06/how-to-use-jmx-to-monitor-hibernate-43.ht
     </bean>
 
 
+# Hibernate Session in Quartz Jobs
+
+quartz-hibernate
+
+http://www.quartz-scheduler.org/
+
+http://stackoverflow.com/questions/4446103/using-hibernate-session-with-quartz
+
+http://forum.spring.io/forum/spring-projects/data/2787-quartz-and-hibernate-handling-session-management
+
+http://stackoverflow.com/questions/4446103/using-hibernate-session-with-quartz
+
+http://docs.spring.io/spring/docs/current/spring-framework-reference/html/scheduling.html
+
+http://websystique.com/spring/spring-4-quartz-scheduler-integration-example/
+
+
+
+
+
+http://docs.grails.org/2.4.0/guide/upgradingFrom23.html
+
