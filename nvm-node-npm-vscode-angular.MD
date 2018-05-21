@@ -74,19 +74,14 @@ https://www.npmjs.com/
 
 ### angular-development-with-typescript-second-edition
 
-https://www.manning.com/books/angular-development-with-typescript-second-edition
+    https://www.manning.com/books/angular-development-with-typescript-second-edition
 
 ### get-programming-with-node-js
 
-https://www.manning.com/books/get-programming-with-node-js
-
-https://livebook.manning.com/#!/book/get-programming-with-node-js/chapter-0/v-5/27
-
-https://git-scm.com/downloads
-
-https://www.google.com/chrome/
-
-https://atom.io/
-
-https://git-scm.com/downloads
+    https://www.manning.com/books/get-programming-with-node-js
+    https://livebook.manning.com/#!/book/get-programming-with-node-js/chapter-0/v-5/27
+    https://git-scm.com/downloads
+    https://www.google.com/chrome/
+    https://atom.io/
+    https://git-scm.com/downloads
 
