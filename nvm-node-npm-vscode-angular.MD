@@ -12,13 +12,12 @@ nvm-node-npm-vscode-angular
 
 ## NPM
 
-https://www.npmjs.com/
+    https://www.npmjs.com/
 
 ## VISUAL STUDIO CODE
 
     https://code.visualstudio.com/
     https://code.visualstudio.com/docs/setup/linux
-    https://code.visualstudio.com/docs/setup/linux#_updates
     https://code.visualstudio.com/docs/setup/linux#_updates
     https://code.visualstudio.com/docs/nodejs/nodejs-tutorial
     https://code.visualstudio.com/docs/nodejs/angular-tutorial
@@ -26,8 +25,11 @@ https://www.npmjs.com/
 ## ANGULAR
 
     https://angular.io/
-    https://angular.io/guide/quickstart
+    https://cli.angular.io/
     https://material.angular.io/
+    https://angular.io/guide/quickstart
+    https://angular.io/tutorial
+    https://github.com/angular/angular-cli
 
     https://blog.angular.io/version-6-of-angular-now-available-cc56b0efa7a4
 
@@ -40,6 +42,8 @@ https://www.npmjs.com/
     https://developer.okta.com/blog/2017/12/04/basic-crud-angular-and-spring-boot
     https://developer.okta.com/blog/2017/06/15/build-microservices-architecture-spring-boot
     https://developer.okta.com/blog/2018/05/02/testing-spring-boot-angular-components
+
+## BROWSER DEV TOOLS
 
     https://dzone.com/articles/time-saving-chrome-devtools-shortcuts
     https://developers.google.com/web/updates/
@@ -80,8 +84,9 @@ https://www.npmjs.com/
 
     https://www.manning.com/books/get-programming-with-node-js
     https://livebook.manning.com/#!/book/get-programming-with-node-js/chapter-0/v-5/27
+    https://livebook.manning.com/#!/book/get-programming-with-node-js/chapter-2/v-6/50
+    https://livebook.manning.com/#!/book/get-programming-with-node-js/chapter-1/v-6/1
     https://git-scm.com/downloads
     https://www.google.com/chrome/
     https://atom.io/
     https://git-scm.com/downloads
-
