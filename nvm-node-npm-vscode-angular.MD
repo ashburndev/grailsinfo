@@ -76,6 +76,10 @@ nvm-node-npm-vscode-angular
 
 ## MANNING BOOKS
 
+    http://localhost:8080/my254app/book2.html
+    http://dphmm2.local:8080/my254app/book2.html
+    http://192.168.1.166:8080/my254app/book2.html
+
 ### angular-development-with-typescript-second-edition
 
     https://www.manning.com/books/angular-development-with-typescript-second-edition
@@ -90,3 +94,6 @@ nvm-node-npm-vscode-angular
     https://www.google.com/chrome/
     https://atom.io/
     https://git-scm.com/downloads
+
+## LINUX (UBUNTU 17.10) SETUP
+
