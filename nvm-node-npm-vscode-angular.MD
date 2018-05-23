@@ -1,5 +1,7 @@
 nvm-node-npm-vscode-angular
 
+https://github.com/ashburndev/grailsinfo/blob/master/nvm-node-npm-vscode-angular.MD
+
 ## NVM
 
     http://nvm.sh
@@ -30,13 +32,9 @@ nvm-node-npm-vscode-angular
     https://angular.io/guide/quickstart
     https://angular.io/tutorial
     https://github.com/angular/angular-cli
-
     https://blog.angular.io/version-6-of-angular-now-available-cc56b0efa7a4
-
     http://gist.asciidoctor.org/?github-mraible/ng-demo//README.adoc
-
     https://dzone.com/articles/getting-started-with-angular-60
-
     https://developer.okta.com/blog/2018/05/09/upgrade-to-angular-6
     https://developer.okta.com/blog/2018/05/17/microservices-spring-boot-2-oauth
     https://developer.okta.com/blog/2017/12/04/basic-crud-angular-and-spring-boot
@@ -52,9 +50,7 @@ nvm-node-npm-vscode-angular
 
     http://start.spring.io/
     https://docs.spring.io/spring-boot/docs/2.1.0.BUILD-SNAPSHOT/actuator-api/html/#caches
-
     https://www.infoq.com/presentations/spring-boot-web-dev
-
     https://objectcomputing.com/training/catalog/grails/grails-security-workshop
     https://objectcomputing.com/search
     https://objectcomputing.com/resources/events/webinars/groovy-update-webinar
@@ -67,14 +63,13 @@ nvm-node-npm-vscode-angular
     https://tomcat.apache.org/download-80.cgi
     https://tomcat.apache.org/download-90.cgi
 
-
 ## MY GITHUB REPOSITORIES
 
     https://github.com/ashburndave
     https://github.com/ashburndev/raspinfo
+    https://github.com/ashburndev/grailsinfo
 
-
-## MANNING BOOKS
+## MANNING BOOKS THAT I OWN
 
     http://localhost:8080/my254app/book2.html
     http://dphmm2.local:8080/my254app/book2.html
