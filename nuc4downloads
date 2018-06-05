@@ -1,7 +1,7 @@
 ashburndave@dphnuc4:~/Downloads$ date
-Tue Jun  5 07:10:58 EDT 2018
+Tue Jun  5 07:16:29 EDT 2018
 ashburndave@dphnuc4:~/Downloads$ ls -latr
-total 13333676
+total 13343580
 -rw-rw-r--  1 ashburndave ashburndave 174157387 Mar 17 12:52 jdk-8u161-linux-x64.rpm
 -rw-rw-r--  1 ashburndave ashburndave 189756259 Mar 17 12:54 jdk-8u161-linux-x64.tar.gz
 -rw-rw-r--  1 ashburndave ashburndave 174204631 Mar 17 12:55 jdk-8u162-linux-x64.rpm
@@ -110,6 +110,7 @@ total 13333676
 -rw-rw-r--  1 ashburndave ashburndave  18913097 Jun  5 06:34 Angular_Development_with_Typescript_Sec_v6_MEAP.pdf
 -rw-rw-r--  1 ashburndave ashburndave   7433441 Jun  5 06:35 Get_Programming_with_Node.js_v6_MEAP.pdf
 -rw-rw-r--  1 ashburndave ashburndave  45462662 Jun  5 06:40 code_1.23.1-1525968403_amd64(1).deb
-drwxr-xr-x  2 ashburndave ashburndave      4096 Jun  5 06:40 .
 drwxr-xr-x 28 ashburndave ashburndave      4096 Jun  5 07:10 ..
+-rw-rw-r--  1 ashburndave ashburndave  10139054 Jun  5 07:15 apache-tomcat-8.5.31.zip
+drwxr-xr-x  2 ashburndave ashburndave      4096 Jun  5 07:16 .
 ashburndave@dphnuc4:~/Downloads$ 
