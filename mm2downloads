@@ -1,0 +1,213 @@
+dphmm2:Downloads davidho$ date
+Tue Jun 19 08:02:38 EDT 2018
+dphmm2:Downloads davidho$ 
+dphmm2:Downloads davidho$ pwd
+/Users/davidho/Downloads
+dphmm2:Downloads davidho$ 
+dphmm2:Downloads davidho$ du . | grep -v extbook | grep -v extjs
+0	./angello
+3236424	./archive-2017-07-05-raspbian-jessie
+3436840	./archive-2017-08-16-raspbian-stretch
+6512120	./archive-grails/grails
+30923864	./archive-grails
+9400304	./archive-ide
+2867944	./archive-java
+7198352	./archive-linux/mint-18.1
+73084832	./archive-linux/raspberrypi
+10846464	./archive-linux/ubuntu
+2955696	./archive-linux/ubuntu-16.04
+3112976	./archive-linux/ubuntu-16.10
+106447624	./archive-linux
+58012728	./archive-raspbian
+134960	./archive-tomcat
+3100864	./archive-ubuntu-16.04.3
+3142720	./archive-ubuntu-17.04
+2262440	./dmgtemp
+3104688	./ebooks/ora
+3104688	./ebooks
+459816	./ext
+144	./foreign/foreigninformationformsforclearance
+288	./foreign
+517488	./luna
+4477744	./mybooks4
+1918800	./myebooks-oreilly
+1824	./myebooks1/Java_in_a_Nutshell_Sixth_Edition/images
+11432	./myebooks1/Java_in_a_Nutshell_Sixth_Edition
+407792	./myebooks1
+1303928	./mypdfs
+3316288	./mypdfs2
+80	./noobs/defaults/slides
+80	./noobs/defaults
+32	./noobs/os/Data_Partition
+480	./noobs/os/Raspbian/slides_vga
+1475200	./noobs/os/Raspbian
+1475232	./noobs/os
+1524344	./noobs
+240	./Printable Ticket_files
+13135880	./raspbian9
+13056456	./rasptemp/temp
+29984216	./rasptemp
+15712	./temp
+99088	./temp-snp
+11427976	./test
+80	./ziptemp/defaults/slides
+80	./ziptemp/defaults
+32	./ziptemp/os/Data_Partition
+480	./ziptemp/os/Raspbian/slides_vga
+1442648	./ziptemp/os/Raspbian
+1442680	./ziptemp/os
+1488160	./ziptemp
+8367056	./ziptemp2
+361504552	.
+dphmm2:Downloads davidho$ 
+dphmm2:Downloads davidho$ ls -latr
+total 56328304
+-rw-r--r--    1 root     staff    67395879 Nov 17  2014 Firefox_33.1.dmg
+-rw-r--r--@   1 davidho  staff    66787010 Nov 25  2014 googlechrome.dmg
+-rw-------    1 davidho  staff           0 Nov 27  2014 .localized
+-rw-r-----@   1 davidho  staff      420657 Nov 27  2014 Mozilla Firefox.dmg
+drwxr-xr-x    9 davidho  staff         306 Nov 27  2014 myebooks1
+drwxr-xr-x    3 davidho  staff         102 Nov 28  2014 ebooks
+-rw-r--r--@   1 davidho  staff   130560160 Dec 14  2014 WebStorm-9.0.1.dmg
+-rw-r--r--@   1 davidho  staff     8014924 Dec 14  2014 Sublime Text 2.0.2.dmg
+drwxr-xr-x    5 davidho  staff         170 Dec 18  2014 foreign
+-rw-r-----@   1 davidho  staff    45401944 Dec 18  2014 apache-activemq-5.10.0-bin.tar.gz
+-rw-r-----@   1 davidho  staff   175131513 Dec 18  2014 mysql-5.6.22-osx10.9-x86_64.tar.gz
+-rw-r-----@   1 davidho  staff   175326954 Dec 18  2014 mysql-5.6.22-osx10.9-x86_64.dmg
+-rw-r-----@   1 davidho  staff     3811153 Dec 18  2014 mysql-connector-java-5.1.34.tar.gz
+-rw-r-----@   1 davidho  staff     4134979 Dec 18  2014 mysql-connector-java-5.1.34.zip
+-rw-r-----@   1 davidho  staff    40965182 Dec 18  2014 mysql-workbench-community-6.2.4-osx-i686.dmg
+-rw-r--r--@   1 davidho  staff   104558043 Dec 27  2014 OpenELEC-RPi.arm-4.0.5.img.gz
+-rw-r--r--@   1 davidho  staff   171966464 Dec 27  2014 OpenELEC-RPi.arm-4.0.5.img
+drwxr-xr-x   12 davidho  staff         408 Dec 27  2014 dmgtemp
+drwxr-xr-x   13 davidho  staff         442 Dec 27  2014 ziptemp
+drwxr-xr-x    4 davidho  staff         136 Dec 27  2014 ziptemp2
+-rw-r-----@   1 davidho  staff    64720632 Feb  5  2015 main.cvd
+-rw-r-----@   1 davidho  staff    33046574 Feb  5  2015 daily.cvd
+-rw-r-----@   1 davidho  staff       71319 Feb  5  2015 bytecode.cvd
+-rw-r--r--@   1 davidho  staff         506 Feb 17  2015 EventCalendarServlet.ics
+-rw-r--r--@   1 davidho  staff         507 Feb 17  2015 EventCalendarServlet-1.ics
+-rw-r--r--@   1 davidho  staff   711602866 Feb 22  2015 2015-02-03-pi-snappy.zip
+-rw-r--r--@   1 davidho  staff   104558043 Feb 22  2015 OpenELEC-RPi.arm-4.0.5(1).img.gz
+-rw-r-----@   1 davidho  staff   261303345 Mar  2  2015 android-studio-ide-135.1740770-mac.dmg
+-rw-r--r--@   1 davidho  staff       35038 Apr 30  2015 CsSPM020PDFBrdgOpen.do
+-rw-r--r--@   1 davidho  staff       80672 May  8  2015 Open CSRs_050515.xlsx
+-rw-r--r--@   1 davidho  staff       63488 May  8  2015 Holbert David 2015-12517 TOTES 00097.doc
+-rw-r--r--@   1 davidho  staff    82799284 May 12  2015 infoq-14-sep-groovyvampires-2.mp3
+drwxr-xr-x   55 davidho  staff        1870 May 13  2015 mypdfs
+-rw-r-----@   1 davidho  staff        4141 May 20  2015 connect.ics
+-rw-r-----@   1 davidho  staff        5358 May 20  2015 connect (1).ics
+drwxr-xr-x   38 davidho  staff        1292 May 20  2015 myebooks-oreilly
+-rw-r--r--@   1 davidho  staff       71378 May 20  2015 Open CSRs_051915.xlsx
+-rw-r--r--@   1 davidho  staff       71465 May 20  2015 Open CSRs_052015.xlsx
+-rw-r--r--@   1 davidho  staff       71465 May 20  2015 Open CSRs_052015-1.xlsx
+-rw-r--r--@   1 davidho  staff       71378 May 20  2015 Open CSRs_051915-1.xlsx
+-rw-r--r--@   1 davidho  staff       71465 May 20  2015 Open CSRs_052015-2.xlsx
+-rw-r--r--@   1 davidho  staff       59507 Jun  3  2015 Open CSRs_060115.xlsx
+drwxr-xr-x    3 davidho  staff         102 Jun  4  2015 luna
+-rw-r--r--@   1 davidho  staff       61327 Jun  4  2015 Open CSRs_060215.xlsx
+-rw-r--r--@   1 davidho  staff       63853 Jun  4  2015 Open CSRs_060415.xlsx
+-rw-r--r--@   1 davidho  staff     8042383 Jun  4  2015 apache-maven-3.3.3-bin.tar.gz
+-rw-r--r--@   1 davidho  staff          32 Jun  4  2015 apache-maven-3.3.3-bin.tar.gz.md5
+-rw-r--r--@   1 davidho  staff         181 Jun  4  2015 apache-maven-3.3.3-bin.tar.gz.asc
+drwxr-xr-x    3 davidho  staff         102 Jun  4  2015 temp
+-rw-r--r--@   1 davidho  staff       62541 Jun  8  2015 Open CSRs_060515.xlsx
+-rw-r--r--@   1 davidho  staff     1032193 Jun  9  2015 SCAN0071.JPG
+drwxr-xr-x   15 davidho  staff         510 Jul 23  2015 noobs
+-rw-r--r--@   1 davidho  staff       78336 Sep 11  2015 David Holberton 2015-14420 TOTES 00097.doc
+-rw-r-----@   1 davidho  staff     2001011 Oct  7  2015 Citrix Online Launcher (1).dmg
+-rw-r-----@   1 davidho  staff     2001011 Oct  7  2015 Citrix Online Launcher (2).dmg
+drwxr-xr-x    2 davidho  staff          68 Nov 18  2015 angello
+-rw-r--r--@   1 davidho  staff     8491533 Dec 18  2015 apache-maven-3.3.9-bin.tar.gz
+-rw-r--r--@   1 davidho  staff     8617253 Dec 18  2015 apache-maven-3.3.9-bin.zip
+-rw-r-----@   1 davidho  staff      325942 Jan  4  2016 spring-aop-2.5.6.jar
+-rw-r--r--@   1 davidho  staff    63665223 Jan 12  2016 jenkins.war
+-rw-r--r--@   1 davidho  staff    63520253 Jan 12  2016 jenkins-1.644.pkg
+-rw-r--r--@   1 davidho  staff    53613208 Jan 29  2016 apache-activemq-5.13.0-bin.tar.gz
+-rw-r--r--@   1 davidho  staff     8491533 Feb  2  2016 apache-maven-3.3.9-bin(1).tar.gz
+-rw-r--r--@   1 davidho  staff          32 Feb  2  2016 apache-maven-3.3.9-bin.tar.gz.md5
+-rw-r--r--@   1 davidho  staff         181 Feb  2  2016 apache-maven-3.3.9-bin.tar.gz.asc
+-rw-r--r--@   1 davidho  staff  4414115840 Apr 27  2016 Win10_1511_1_English_x64.iso
+-rw-r--r--@   1 davidho  staff       10591 May  5  2016 ojdbc.policy
+drwxr-xr-x   20 davidho  staff         680 Jun 20  2016 temp-snp
+-rw-r--r--@   1 davidho  staff       68406 Jun 21  2016 file
+drwxr-xr-x    7 davidho  staff         238 Jun 21  2016 Printable Ticket_files
+-rw-r--r--@   1 davidho  staff       67628 Jun 21  2016 Printable Ticket.html
+-rw-r--r--@   1 davidho  staff   274596963 Mar 21  2017 aws-java-sdk-1.11.106.zip
+-rw-r--r--@   1 davidho  staff         194 Mar 21  2017 credentials.csv
+-rw-r--r--@   1 davidho  staff        1179 Apr 25  2017 suntrust_chk_201701.csv
+-rw-r--r--@   1 davidho  staff        1185 Apr 25  2017 suntrust_chk_201702.csv
+-rw-r--r--@   1 davidho  staff        1059 Apr 25  2017 suntrust_chk_201703.csv
+-rw-r--r--@   1 davidho  staff         995 Apr 25  2017 Suntrust_History.csv
+-rw-r--r--@   1 davidho  staff         801 Apr 25  2017 suntrust_chk_201612.csv
+drwxr-xr-x    4 davidho  staff         136 May 10  2017 test
+-rw-r--r--@   1 davidho  staff   936818668 May 23  2017 aiyprojects-2017-05-03.img.xz
+drwxr-xr-x    8 davidho  staff         272 Aug 20  2017 archive-2017-07-05-raspbian-jessie
+drwxr-xr-x    8 davidho  staff         272 Aug 20  2017 archive-2017-08-16-raspbian-stretch
+drwxr-xr-x   21 davidho  staff         714 Aug 20  2017 archive-tomcat
+drwxr-xr-x   17 davidho  staff         578 Aug 20  2017 archive-ide
+drwxr-xr-x   19 davidho  staff         646 Aug 20  2017 archive-java
+drwxr-xr-x  132 davidho  staff        4488 Aug 20  2017 archive-grails
+drwxr-xr-x   11 davidho  staff         374 Aug 20  2017 archive-linux
+drwxr-xr-x   11 davidho  staff         374 Aug 20  2017 archive-ubuntu-16.04.3
+drwxr-xr-x   11 davidho  staff         374 Aug 20  2017 archive-ubuntu-17.04
+-rw-r--r--@   1 davidho  staff  4334315520 Aug 20  2017 Win10_1703_English_x64.iso
+-rw-r--r--@   1 davidho  staff  4380387328 Aug 20  2017 Win10_1607_English_x64.iso
+drwxr-xr-x   32 davidho  staff        1088 Aug 20  2017 archive-raspbian
+-rw-r--r--@   1 davidho  staff  1757290390 Sep  9  2017 2017-09-07-raspbian-stretch.zip
+-rw-r--r--@   1 davidho  staff   362914661 Sep  9  2017 2017-09-07-raspbian-stretch-lite.zip
+-rw-r--r--@   1 davidho  staff  1579983324 Sep  9  2017 NOOBS_v2_4_4.zip
+-rw-r--r--@   1 davidho  staff    33679083 Sep  9  2017 NOOBS_lite_v2_4.zip
+-rw-r--r--@   1 davidho  staff      154151 Oct 31  2017 nerd_herd_logo_by_ladymalk-d2zaah3.jpg
+-rw-r--r--@   1 davidho  staff     8812383 Jan 24 13:59 ZoomInstaller.pkg
+-rw-r--r--@   1 davidho  staff     5694727 Feb  5 08:56 TheUnarchiver.zip
+drwxr-xr-x   13 davidho  staff         442 Feb  5 08:58 rasptemp
+drwxr-xr-x    4 davidho  staff         136 Mar 13 09:37 ext
+-rw-r--r--@   1 davidho  staff   259118872 Mar 15 07:04 jdk-8u161-macosx-x64.dmg
+-rw-r--r--@   1 davidho  staff   259123815 Mar 15 07:05 jdk-8u162-macosx-x64.dmg
+-rw-r--r--@   1 davidho  staff    55705551 Mar 15 07:06 jdk-8u161-macosx-x86_64-demos.zip
+-rw-r--r--@   1 davidho  staff    55705634 Mar 15 07:07 jdk-8u162-macosx-x86_64-demos.zip
+-rw-r--r--@   1 davidho  staff        7091 Mar 15 07:08 8u161checksum.html
+-rw-r--r--@   1 davidho  staff        6555 Mar 15 07:09 8u162checksum.html
+-rw-r--r--@   1 davidho  staff    77769092 Mar 15 07:11 jre-8u161-macosx-x64.dmg
+-rw-r--r--@   1 davidho  staff    69055455 Mar 15 07:12 jre-8u161-macosx-x64.tar.gz
+-rw-r--r--@   1 davidho  staff    77782970 Mar 15 07:12 jre-8u162-macosx-x64.dmg
+-rw-r--r--@   1 davidho  staff    69063649 Mar 15 07:13 jre-8u162-macosx-x64.tar.gz
+-rw-r--r--@   1 davidho  staff   102844156 Mar 15 07:18 grails-3.2.10.zip
+-rw-r--r--@   1 davidho  staff   105987812 Mar 15 07:18 grails-3.2.11.zip
+-rw-r--r--@   1 davidho  staff   110551285 Mar 15 07:19 grails-3.3.1.zip
+-rw-r--r--@   1 davidho  staff    99643461 Mar 15 07:20 grails-3.3.2.zip
+-rw-r--r--@   1 davidho  staff    99638426 Mar 15 07:21 grails-3.3.3.zip
+-rw-r--r--@   1 davidho  staff     9297460 Mar 15 07:21 grails-docs-3.3.3.zip
+-rw-r--r--@   1 davidho  staff   400672048 Mar 15 08:12 jdk-9.0.4_osx-x64_bin.dmg
+-rw-r--r--@   1 davidho  staff        3176 Mar 15 08:19 9-0-4checksum.html
+-rw-r--r--@   1 davidho  staff    79473960 Mar 15 08:21 jre-9.0.4_osx-x64_bin.dmg
+-rw-r--r--@   1 davidho  staff    74599903 Mar 15 08:22 jre-9.0.4_osx-x64_bin.tar.gz
+drwxr-xr-x    9 davidho  staff         306 Mar 18 13:48 extbook
+-rw-r--r--@   1 davidho  staff  1776280071 Mar 27 07:48 2018-03-13-raspbian-stretch.zip
+-rw-r--r--@   1 davidho  staff   365765304 Mar 27 07:51 2018-03-13-raspbian-stretch-lite.zip
+-rw-r--r--@   1 davidho  staff  1357215611 Mar 27 08:01 NOOBS_v2_7_0.zip
+-rw-r--r--@   1 davidho  staff    34608427 Mar 27 08:02 NOOBS_lite_v2_7.zip
+-rw-r--r--@   1 davidho  staff  1357215611 Mar 27 08:11 NOOBS_v2_7_0(1).zip
+-rw-r--r--@   1 davidho  staff    34608427 Mar 27 08:11 NOOBS_lite_v2_7(1).zip
+drwxr-xr-x    5 davidho  staff         170 Apr  1 17:26 raspbian9
+-rw-r--r--@   1 davidho  staff    99634776 Apr 30 05:34 grails-3.3.4.zip
+-rw-r--r--@   1 davidho  staff    86114514 Apr 30 05:35 grails-3.3.5.zip
+-rw-r--r--@   1 davidho  staff     1186955 Apr 30 05:35 grails-3.3.5-single.html
+-rw-r--r--@   1 davidho  staff        1726 May 17 07:21 calendar.ics
+-rw-r--r--@   1 davidho  staff       22532 May 21 21:02 .DS_Store
+drwxr-xr-x+  77 davidho  staff        2618 May 21 21:36 ..
+-rw-r--r--@   1 davidho  staff   259882804 Jun 19 07:45 jdk-8u171-macosx-x64.dmg
+-rw-r--r--@   1 davidho  staff   259908002 Jun 19 07:46 jdk-8u172-macosx-x64.dmg
+drwxr-xr-x  148 davidho  staff        5032 Jun 19 07:46 mypdfs2
+-rw-r--r--@   1 davidho  staff    55705257 Jun 19 07:48 jdk-8u171-macosx-x86_64-demos.zip
+-rw-r--r--@   1 davidho  staff    59765923 Jun 19 07:48 jdk-8u172-macosx-x86_64-demos.zip
+-rw-r--r--@   1 davidho  staff        7057 Jun 19 07:48 8u171checksum.html
+-rw-r--r--@   1 davidho  staff        6524 Jun 19 07:48 8u172checksum.html
+-rw-r--r--@   1 davidho  staff   414667010 Jun 19 07:52 jdk-10.0.1_osx-x64_bin.dmg
+-rw-r--r--@   1 davidho  staff        3332 Jun 19 07:53 10-0-1checksum.html
+drwxr-xr-x   59 davidho  staff        2006 Jun 19 07:57 mybooks4
+-rw-r--r--@   1 davidho  staff    99720815 Jun 19 08:00 grails-3.3.6.zip
+-rw-r--r--@   1 davidho  staff     9305080 Jun 19 08:00 grails-docs-3.3.6.zip
+drwx------+ 148 davidho  staff        5032 Jun 19 08:00 .
+dphmm2:Downloads davidho$ 
