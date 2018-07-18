@@ -1,0 +1,290 @@
+urls-20180716
+
+## NVM
+
+    http://nvm.sh
+    https://github.com/creationix/nvm/blob/master/README.md
+
+## NODEJS
+
+    https://nodejs.org/en/
+    https://nodejs.org/en/download/package-manager/
+    https://blog.mozilla.org/webdev/2011/10/10/installing-node-js-on-windows/
+
+## NPM
+
+    https://www.npmjs.com/
+
+## VISUAL STUDIO CODE
+
+    https://code.visualstudio.com/
+    https://code.visualstudio.com/docs/setup/linux
+    https://code.visualstudio.com/docs/setup/linux#_updates
+    https://code.visualstudio.com/docs/nodejs/nodejs-tutorial
+    https://code.visualstudio.com/docs/nodejs/angular-tutorial
+
+## ANGULAR
+
+    https://angular.io/
+    https://cli.angular.io/
+    https://material.angular.io/
+    https://angular.io/guide/quickstart
+    https://angular.io/tutorial
+    https://github.com/angular/angular-cli
+
+    https://blog.angular.io/version-6-of-angular-now-available-cc56b0efa7a4
+
+    http://gist.asciidoctor.org/?github-mraible/ng-demo//README.adoc
+
+    https://dzone.com/articles/getting-started-with-angular-60
+
+    https://developer.okta.com/blog/2018/05/09/upgrade-to-angular-6
+    https://developer.okta.com/blog/2018/05/17/microservices-spring-boot-2-oauth
+    https://developer.okta.com/blog/2017/12/04/basic-crud-angular-and-spring-boot
+    https://developer.okta.com/blog/2017/06/15/build-microservices-architecture-spring-boot
+    https://developer.okta.com/blog/2018/05/02/testing-spring-boot-angular-components
+
+## BROWSER DEV TOOLS
+
+    https://dzone.com/articles/time-saving-chrome-devtools-shortcuts
+    https://developers.google.com/web/updates/
+
+## SPRING
+
+    http://start.spring.io/
+    https://docs.spring.io/spring-boot/docs/2.1.0.BUILD-SNAPSHOT/actuator-api/html/#caches
+
+    https://www.infoq.com/presentations/spring-boot-web-dev
+
+    https://objectcomputing.com/training/catalog/grails/grails-security-workshop
+    https://objectcomputing.com/search
+    https://objectcomputing.com/resources/events/webinars/groovy-update-webinar
+    https://objectcomputing.com/news/2018/03/12/intro-grails-security-workshop-may-2018
+
+## TOMCAT
+
+    https://wiki.apache.org/tomcat/TomcatVersions
+    http://tomcat.apache.org/
+    https://tomcat.apache.org/download-80.cgi
+    https://tomcat.apache.org/download-90.cgi
+
+
+## MY GITHUB REPOSITORIES
+
+    https://github.com/ashburndave
+    https://github.com/ashburndev/raspinfo
+
+
+## MANNING BOOKS
+
+    http://localhost:8080/my254app/book2.html
+    http://dphmm2.local:8080/my254app/book2.html
+    http://192.168.1.166:8080/my254app/book2.html
+
+### angular-development-with-typescript-second-edition
+
+    https://www.manning.com/books/angular-development-with-typescript-second-edition
+
+### get-programming-with-node-js
+
+    https://www.manning.com/books/get-programming-with-node-js
+    https://livebook.manning.com/#!/book/get-programming-with-node-js/chapter-0/v-5/27
+    https://livebook.manning.com/#!/book/get-programming-with-node-js/chapter-2/v-6/50
+    https://livebook.manning.com/#!/book/get-programming-with-node-js/chapter-1/v-6/1
+    https://git-scm.com/downloads
+    https://www.google.com/chrome/
+    https://atom.io/
+    https://git-scm.com/downloads
+
+
+## LINUX (UBUNTU 17.10) SETUP
+
+
+
+https://patch.com/virginia/ashburn/calendar/event/20180622/362504/brambleton-town-center-to-transform-for-jurassic-world-premiere
+
+http://releases.ubuntu.com/
+http://releases.ubuntu.com/17.10/
+http://releases.ubuntu.com/18.04/
+https://www.ubuntu.com/download/desktop?
+https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop
+https://help.ubuntu.com/community/BurningIsoHowto
+
+
+https://docs.microsoft.com/en-us/windows/wsl/about
+https://docs.microsoft.com/en-us/windows/wsl/install-win10
+
+https://support.microsoft.com/en-us/help/13443/windows-which-operating-system
+
+https://www.ilicomm.com/how-to-find-out-which-build-and-version-of-windows-10-you-have/
+
+https://www.jetbrains.com/idea/features/
+
+https://blogs.apache.org/netbeans/entry/announce-apache-netbeans-incubating-91
+
+https://github.com/apache/incubator-netbeans/tree/release90
+
+https://help.github.com/articles/connecting-to-github-with-ssh/
+
+https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-linux
+
+https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#platform-windows
+
+
+https://winaero.com/blog/enable-wsl-windows-10-fall-creators-update/
+
+https://winaero.com/blog/linux-distros-microsoft-store-windows-
+
+https://winaero.com/blog/linux-distros-microsoft-store-windows-10/
+
+https://docs.microsoft.com/en-us/windows/wsl/install-win10
+
+https://docs.microsoft.com/en-us/windows/wsl/faq
+
+https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
+
+https://www.sencha.com/blog/announcing-sencha-ext-js-6-6-with-open-tooling-ga/
+
+https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#platform-windows
+
+https://support.microsoft.com/en-us/help/12384/windows-10-upgrading-home-to-pro
+
+https://www.zdnet.com/article/going-pro-how-to-upgrade-windows-10-home-without-hassles/
+
+https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#platform-windows
+
+https://www.ssh.com/ssh/copy-id
+
+https://support.microsoft.com/en-us/help/13443/windows-which-operating-system
+
+https://support.microsoft.com/en-us/help/13443/windows-which-operating-system
+
+https://www.raspberrypi.org/blog/a-security-update-for-raspbian-pixel/
+
+https://help.ubuntu.com/community/BurningIsoHowto
+
+https://help.ubuntu.com/community/HowToSHA256SUM
+
+https://help.ubuntu.com/community/HowToSHA256SUM
+
+http://releases.ubuntu.com/
+
+http://releases.ubuntu.com/bionic/
+
+https://help.ubuntu.com/community/Installation/FromUSBStick
+
+https://askubuntu.com/questions/372607/how-to-create-a-bootable-ubuntu-usb-flash-drive-from-terminal
+
+https://askubuntu.com/questions/372607/how-to-create-a-bootable-ubuntu-usb-flash-drive-from-terminal
+
+https://www.ostechnix.com/how-to-create-bootable-usb-drive-using-dd-command/
+
+https://www.linux.com/blog/how-burn-iso-usb-drive
+
+https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos#0
+
+https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-ubuntu#0
+
+https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-web-client
+
+https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients
+
+https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-allow-access
+
+https://www.technig.com/remote-access-windows-10-via-ubuntu-vise-versa/
+
+https://www.tecmint.com/best-remote-linux-desktop-sharing-software/
+
+http://www.xrdp.org/
+
+https://mate-desktop.org/
+
+https://mate-desktop.org/
+
+https://github.com/mate-desktop/mate-terminal
+
+https://packages.ubuntu.com/xenial/mate-terminal
+
+http://linuxmafia.com/faq/Admin/release-files.html
+
+https://ubuntu-mate.org/download/
+
+https://ubuntu-mate.org/about/
+
+http://www.ltsp.org/
+
+https://wiki.x2go.org/
+
+https://en.wikipedia.org/wiki/Remote_desktop_software
+
+https://en.wikipedia.org/wiki/Comparison_of_remote_desktop_software
+
+https://en.wikipedia.org/wiki/Comparison_of_SSH_clients
+
+https://www.daveeddy.com/2017/10/18/persistent-sshagent-on-bash-on-ubuntu-on-windows/
+
+https://en.wikipedia.org/wiki/Java_version_history
+
+https://dzone.com/articles/jdk-91011-side-effects-from-on-java-string
+
+https://www.infoq.com/news/2018/06/open-source-jmc
+
+https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-ubuntu#0
+
+https://docs.microsoft.com/en-us/windows/wsl/install-win10
+
+http://wiki.netbeans.org/FaqFontSize
+
+http://grailsblog.objectcomputing.com/posts/2018/06/22/mock-vs-stub-vs-spy.html
+
+https://betanews.com/2018/06/29/linux-mint-19-tara-cinnamon-mate-xfce/
+
+https://betanews.com/2018/05/27/dell-precision-developer-ubuntu-linux-rhel/
+
+https://betanews.com/2018/04/26/ubuntu-linux-1804-bionic-beaver/
+
+https://betanews.com/2018/04/26/ubuntu-linux-1804-bionic-beaver/
+
+http://docs.sublimetext.info/en/latest/file_management/projects.html
+
+https://javarevisited.blogspot.com/2018/07/top-5-books-to-learn-spring-boot-and-spring-cloud-java.html
+
+https://blog.linuxmint.com/?p=3615
+
+http://guides.grails.org/grails-on-travis-basics/guide/index.html
+
+http://docs.sublimetext.info/en/latest/editing/editing.html
+
+https://www.loginradius.com/engineering/beginners-guide-for-sublime-text/
+
+http://docs.sublimetext.info/en/latest/file_management/projects.html
+
+https://help.ubuntu.com/stable/ubuntu-help/shell-keyboard-shortcuts.html.en
+
+https://help.ubuntu.com/stable/ubuntu-help/gs-use-windows-workspaces.html.en
+
+http://www.vogella.com/tutorials/Gradle/article.html#introduction-to-the-gradle-build-system
+
+http://mrhaki.blogspot.com/search/label/Gradle%3AGoodness
+
+http://www.vogella.com/tutorials/EclipseGradle/article.html
+
+https://blog.angularindepth.com/angular-5-or-angular-6-yes-please-d71b08b5e59b
+
+https://coursetro.com/posts/code/154/Angular-6-Tutorial---Learn-Angular-6-in-this-Crash-Course
+
+https://www.vojtechruzicka.com/documenting-spring-boot-rest-api-swagger-springfox/
+
+http://www.eclipse.org/community/eclipse_newsletter/2018/june/java9andbeyond.php
+
+https://coursetro.com/courses/19/Learn-Angular-5-from-Scratch---Angular-5-Tutorial?utm_source=in_article&utm_campaign=article&utm_medium=Learn+Angular+5+from+Scra
+
+https://coursetro.com/posts/code/105/How-to-Install-Angular-5-(Tutorial)
+
+https://coursetro.com/courses/19/Learn-Angular-5-from-Scratch---Angular-5-Tutorial
+
+https://coursetro.com/posts/code/154/Angular-6-Tutorial---Learn-Angular-6-in-this-Crash-Course
+
+http://guides.grails.org/grails-on-circleci-basics/guide/index.html
+
+
