@@ -10,8 +10,8 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 11/05/2017  12:07 PM    <DIR>          ubuntu-17.10
 01/24/2018  06:27 PM    <DIR>          raspbian
 03/15/2018  08:41 AM    <DIR>          tmp
-05/30/2018  07:51 AM    <DIR>          ..
-05/30/2018  07:51 AM    <DIR>          .
+07/24/2018  08:42 AM    <DIR>          ..
+07/24/2018  08:42 AM    <DIR>          .
 06/08/2017  08:22 AM         1,130,328 ChromeSetup.exe
 06/08/2017  08:26 AM           246,056 Firefox Setup Stub 53.0.3.exe
 06/08/2017  08:35 AM       207,649,848 jdk-8u131-windows-x64.exe
@@ -204,9 +204,46 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 05/30/2018  07:40 AM                64 2018-04-18-raspbian-stretch-lite.zip.sha256.txt
 05/30/2018  07:42 AM                64 NOOBS_v2_8_1.zip.sha256.txt
 05/30/2018  07:42 AM                64 NOOBS_lite_v2_8.zip.sha256.txt
-             192 File(s) 26,434,329,134 bytes
-               8 Dir(s)  370,307,526,656 bytes free
+06/19/2018  04:53 PM        99,634,776 grails-3.3.4.zip
+06/19/2018  04:55 PM        86,114,514 grails-3.3.5.zip
+06/19/2018  04:56 PM        99,720,815 grails-3.3.6.zip
+06/19/2018  04:56 PM         9,305,080 grails-docs-3.3.6.zip
+06/19/2018  05:05 PM         8,318,688 Sublime Text Build 3176 Setup.exe
+06/19/2018  05:05 PM        10,020,957 Sublime Text Build 3176.zip
+06/19/2018  05:05 PM         9,142,656 Sublime Text Build 3176 x64 Setup.exe
+06/19/2018  05:06 PM        11,193,365 Sublime Text Build 3176 x64.zip
+06/19/2018  05:13 PM       557,360,280 ideaIU-2018.1.5.exe
+06/19/2018  05:14 PM                86 ideaIU-2018.1.5.exe.sha256
+06/19/2018  05:21 PM       730,999,498 ideaIU-2018.1.5.win.zip
+06/19/2018  05:22 PM                90 ideaIU-2018.1.5.win.zip.sha256
+06/19/2018  05:27 PM       458,111,224 ideaIC-2018.1.5.exe
+06/19/2018  05:27 PM                86 ideaIC-2018.1.5.exe.sha256
+06/19/2018  05:32 PM       604,975,485 ideaIC-2018.1.5.win.zip
+06/19/2018  05:33 PM                90 ideaIC-2018.1.5.win.zip.sha256
+06/19/2018  05:55 PM       350,098,461 eclipse-jee-oxygen-3a-win32-x86_64.zip
+06/19/2018  05:57 PM               168 eclipse-jee-oxygen-3a-win32-x86_64.sha512
+06/19/2018  06:01 PM       191,686,417 eclipse-java-oxygen-3a-win32-x86_64.zip
+06/19/2018  06:02 PM               169 eclipse-java-oxygen-3a-win32-x86_64.sha512
+07/24/2018  07:34 AM       212,582,768 jdk-8u181-windows-x64.exe
+07/24/2018  07:36 AM        59,534,692 jdk-8u181-windows-x64-demos.zip
+07/24/2018  07:36 AM             7,057 8u181checksum.html
+07/24/2018  07:53 AM        51,267,837 server-jre-8u181-windows-x64.tar.gz
+07/24/2018  07:55 AM        71,792,504 jre-8u181-windows-x64.exe
+07/24/2018  07:56 AM        72,292,650 jre-8u181-windows-x64.tar.gz
+07/24/2018  08:02 AM       409,204,592 jdk-10.0.2_windows-x64_bin.exe
+07/24/2018  08:02 AM             3,332 10-0-2checksum.html
+07/24/2018  08:03 AM        56,077,854 serverjre-10.0.2_windows-x64_bin.tar.gz
+07/24/2018  08:05 AM       105,455,992 jre-10.0.2_windows-x64_bin.exe
+07/24/2018  08:05 AM        79,042,057 jre-10.0.2_windows-x64_bin.tar.gz
+07/24/2018  08:30 AM       192,214,252 mysql-8.0.11-winx64.zip
+07/24/2018  08:32 AM                32 mysql-8.0.11-winx64.zip.md5
+07/24/2018  08:32 AM               173 mysql-8.0.11-winx64.zip.asc
+07/24/2018  08:36 AM         5,034,718 mysql-connector-java-8.0.11.tar.gz
+07/24/2018  08:37 AM         5,740,175 mysql-connector-java-8.0.11.zip
+07/24/2018  08:38 AM        22,192,427 mysql-shell-8.0.11-windows-x86-64bit.zip
+07/24/2018  08:42 AM        29,601,792 mysql-workbench-community-6.3.10-winx64.msi
+             230 File(s) 31,033,056,943 bytes
+               8 Dir(s)  374,384,119,808 bytes free
 
 C:\Users\David Holberton\Downloads>
-
 
