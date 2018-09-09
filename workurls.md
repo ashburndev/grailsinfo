@@ -53,7 +53,9 @@ https://support.symantec.com/content/unifiedweb/en_US/article.DOC9306.html
 PGP Command Line 10.4.x User's Guide (March 29, 2018)
 https://support.symantec.com/content/unifiedweb/en_US/article.DOC9492.html
 
-https://symwisedownload.symantec.com//resources/sites/SYMWISE/content/live/DOCUMENTATION/9000/DOC9492/en_US/pgpCmdline_10_4_2_usersguide_en.pdf?__gda__=1530783977_ea77e142af609eb690bb817ffb0555ac
+https://symwisedownload.symantec.com//resources/sites/SYMWISE/content/live/DOCUMENTATION/9000/DOC9492/en_US/pgpCmdline_10_4_2_usersguide_en.pdf?
+
+__gda__=1530783977_ea77e142af609eb690bb817ffb0555ac
 
 https://stackoverflow.com/questions/21645071/using-gradle-to-find-dependency-tree
 https://docs.gradle.org/current/userguide/userguide_single.html#project_reports_plugin
@@ -123,4 +125,24 @@ https://github.com/spring-guides/gs-accessing-data-mysql/blob/master/initial/bui
 https://newsletter.gradle.com/2018/07
 https://guides.gradle.org/building-spring-boot-2-projects-with-gradle/?_ga=2.132865678.1637228746.1536154168-1893053136.1536154168
 https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Migration-Guide#spring-boot-gradle-plugin
+
+https://www.howtogeek.com/140352/how-to-host-an-ftp-server-on-windows-with-filezilla/
+
+https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/reg-query
+
+windows uninstall java command line
+
+https://www.google.com/search?ei=VSCUW56uIO2I5wKs7ZvwDg&q=windows+uninstall+java+command+line&oq=windows+uninstall+java+command+line&gs_l=psy-ab.3..0i71l8.0.0..66646...0.0..0.0.0.......0......gws-wiz.LPPfeoq0ILw
+
+https://www.java.com/en/download/help/uninstall_java.xml
+https://www.java.com/en/download/faq/uninstaller_toolfaq.xml
+
+https://tomcat.apache.org/tomcat-8.5-doc/windows-service-howto.html
+https://tomcat.apache.org/tomcat-8.5-doc/config/context.html
+https://tomcat.apache.org/tomcat-8.5-doc/config/http.html
+https://tomcat.apache.org/tomcat-8.5-doc/ssl-howto.html
+
+https://docs.oracle.com/cd/E19509-01/820-3503/6nf1il6er/index.html
+https://stackoverflow.com/questions/47434877/how-to-generate-keystore-and-truststore
+https://www.ibm.com/support/knowledgecenter/en/SSWRCJ_4.1.0/com.ibm.safos.doc_4.1/e2e_create_truststore.html
 ```
