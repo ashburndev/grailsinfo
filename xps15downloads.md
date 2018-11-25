@@ -1,249 +1,443 @@
-	C:\Users\David Holberton\Downloads>dir /o:gd
-	 Volume in drive C has no label.
-	 Volume Serial Number is 4603-A8D3
-    
-	 Directory of C:\Users\David Holberton\Downloads
-    
-	08/15/2017  11:57 AM    <DIR>          nuc6
-	08/15/2017  01:11 PM    <DIR>          nuc4
-	11/05/2017  11:53 AM    <DIR>          ubuntu-16.04.3
-	11/05/2017  12:07 PM    <DIR>          ubuntu-17.10
-	01/24/2018  06:27 PM    <DIR>          raspbian
-	03/15/2018  08:41 AM    <DIR>          tmp
-	07/24/2018  08:42 AM    <DIR>          ..
-	07/24/2018  08:42 AM    <DIR>          .
-	06/08/2017  08:22 AM         1,130,328 ChromeSetup.exe
-	06/08/2017  08:26 AM           246,056 Firefox Setup Stub 53.0.3.exe
-	06/08/2017  08:35 AM       207,649,848 jdk-8u131-windows-x64.exe
-	06/08/2017  08:35 AM        56,436,260 jdk-8u131-windows-x64-demos.zip
-	06/08/2017  08:39 AM       230,883,184 netbeans-8.2-windows.exe
-	06/08/2017  08:40 AM       230,883,184 netbeans-8.2-windows (1).exe
-	06/08/2017  08:43 AM        47,791,424 eclipse-inst-win64.exe
-	06/08/2017  08:44 AM        47,791,424 eclipse-inst-win64 (1).exe
-	06/08/2017  08:47 AM       319,075,640 eclipse-jee-neon-3-win32-x86_64.zip
-	06/08/2017  08:51 AM       169,101,919 eclipse-java-neon-3-win32-x86_64.zip
-	06/08/2017  08:52 AM       169,101,919 eclipse-java-neon-3-win32-x86_64 (1).zip
-	06/08/2017  03:46 PM       533,543,241 groovy-grails-tool-suite-3.6.4.RELEASE-e4.4.2-win32-x86_64.zip
-	08/02/2017  06:21 AM       207,382,584 jdk-8u144-windows-x64.exe
-	08/02/2017  06:22 AM        56,436,124 jdk-8u144-windows-x64-demos.zip
-	08/02/2017  06:24 AM             8,409 jce_policy-8.zip
-	08/02/2017  06:29 AM       207,387,192 jdk-8u141-windows-x64.exe
-	08/02/2017  06:30 AM       207,649,848 jdk-8u131-windows-x64(1).exe
-	08/02/2017  06:31 AM       205,004,856 jdk-8u121-windows-x64.exe
-	08/02/2017  06:35 AM       204,607,032 jdk-8u112-windows-x64.exe
-	08/02/2017  06:37 AM       204,139,576 jdk-8u102-windows-x64.exe
-	08/02/2017  06:39 AM       146,893,216 jdk-7u80-windows-x64.exe
-	08/02/2017  06:40 AM       146,861,984 jdk-7u79-windows-x64.exe
-	08/07/2017  06:37 PM         9,992,463 apache-tomcat-8.5.16.zip
-	08/07/2017  06:37 PM         9,417,469 apache-tomcat-8.5.16.tar.gz
-	08/07/2017  06:38 PM        10,702,761 apache-tomcat-8.5.16-windows-x86.zip
-	08/07/2017  06:38 PM        11,041,498 apache-tomcat-8.5.16-windows-x64.zip
-	08/07/2017  06:38 PM         9,728,707 apache-tomcat-8.5.16.exe
-	08/07/2017  07:03 PM        19,439,616 mysql-installer-web-community-5.7.19.0.msi
-	08/07/2017  07:10 PM       397,152,256 mysql-installer-community-5.7.19.0.msi
-	08/07/2017  07:14 PM       321,078,662 mysql-5.7.19-win32.zip
-	08/07/2017  07:20 PM       333,942,828 mysql-5.7.19-winx64.zip
-	08/07/2017  07:25 PM       390,095,890 mysql-5.7.19-win32-debug-test.zip
-	08/07/2017  07:30 PM       399,261,754 mysql-5.7.19-winx64-debug-test.zip
-	08/07/2017  09:21 PM         3,462,610 mysql-connector-java-5.1.43.tar.gz
-	08/07/2017  09:21 PM         3,818,438 mysql-connector-java-5.1.43.zip
-	08/07/2017  09:25 PM        19,439,616 mysql-installer-web-community-5.7.19.0(1).msi
-	08/07/2017  09:26 PM        29,650,944 mysql-workbench-community-6.3.9-winx64.msi
-	08/07/2017  09:27 PM       397,152,256 mysql-installer-community-5.7.19.0(1).msi
-	08/07/2017  09:30 PM        19,439,616 mysql-installer-web-community-5.7.19.0(2).msi
-	08/07/2017  09:33 PM       397,152,256 mysql-installer-community-5.7.19.0(2).msi
-	08/07/2017  09:33 PM        29,650,944 mysql-workbench-community-6.3.9-winx64(1).msi
-	08/07/2017  09:34 PM        29,650,944 mysql-workbench-community-6.3.9-winx64(2).msi
-	08/07/2017  09:41 PM        99,878,208 grails-3.3.0.zip
-	08/07/2017  09:41 PM         9,429,188 grails-docs-3.3.0.zip
-	08/07/2017  09:42 PM       105,987,812 grails-3.2.11.zip
-	08/07/2017  09:43 PM       113,677,517 grails-3.1.16.zip
-	08/07/2017  09:44 PM       111,324,197 grails-3.0.17.zip
-	08/07/2017  09:45 PM       138,229,006 grails-2.5.6.zip
-	08/07/2017  09:46 PM       137,608,538 grails-2.5.5.zip
-	08/07/2017  09:48 PM       137,572,132 grails-2.5.4.zip
-	08/07/2017  09:48 PM       146,271,722 grails-2.4.5.zip
-	08/07/2017  09:50 PM       140,045,626 grails-2.4.4.zip
-	08/07/2017  09:50 PM        58,851,853 grails-2.1.1.zip
-	08/07/2017  11:05 PM       416,500,381 spring-tool-suite-3.9.0.RELEASE-e4.7.0-win32-x86_64.zip
-	08/12/2017  11:43 AM         7,127,352 Setup.X64.en-US_HomeStudentRetail_084abf04-0a2f-44c0-b7ea-35676b95e903_TX_PR_.exe
-	08/13/2017  01:42 PM        18,908,000 upd-pcl6-x64-6.4.1.22169.exe
-	08/13/2017  01:43 PM        20,186,136 upd-ps-usb-setup-x64-6.4.1.22169.exe
-	08/13/2017  02:05 PM         1,544,192 Dot4x64.msi
-	08/13/2017  09:41 PM       146,050,400 DLS8Setup.8.6.2.exe
-	08/15/2017  05:35 PM         9,988,680 SYSKLi35.86A.0061.EB.WINPE64.EXE
-	08/15/2017  05:35 PM        12,866,120 WYLPT10H.86A.0045.EB.WINPE64.EXE
-	10/09/2017  04:51 PM           183,185 2017-09-07-raspbian-stretch.img.info
-	10/09/2017  04:59 PM     1,757,290,390 2017-09-07-raspbian-stretch.zip
-	10/09/2017  04:59 PM                74 2017-09-07-raspbian-stretch.zip.sha1
-	10/09/2017  04:59 PM                98 2017-09-07-raspbian-stretch.zip.sha256
-	10/09/2017  05:00 PM               473 2017-09-07-raspbian-stretch.zip.sig
-	10/09/2017  05:14 PM         1,381,582 7z1604-x64.exe
-	10/09/2017  05:20 PM        41,365,728 Etcher-Setup-1.1.2-x64.exe
-	10/09/2017  05:21 PM        41,110,680 Etcher-Portable-1.1.2-x64.exe
-	10/09/2017  05:31 PM             7,849 stuff-20171009.txt
-	11/28/2017  11:20 PM       373,778,744 ideaIC-2017.2.6.exe
-	11/28/2017  11:21 PM                86 ideaIC-2017.2.6.exe.sha256
-	11/28/2017  11:28 PM       532,968,776 ideaIU-2017.2.6.exe
-	11/28/2017  11:28 PM                86 ideaIU-2017.2.6.exe.sha256
-	11/28/2017  11:34 PM       504,914,624 ideaIC-2017.2.6.win.zip
-	11/28/2017  11:35 PM                90 ideaIC-2017.2.6.win.zip.sha256
-	11/28/2017  11:43 PM       692,594,653 ideaIU-2017.2.6.win.zip
-	11/28/2017  11:45 PM                90 ideaIU-2017.2.6.win.zip.sha256
-	11/28/2017  11:48 PM       110,551,285 grails-3.3.1.zip
-	11/28/2017  11:49 PM        99,643,461 grails-3.3.2.zip
-	11/28/2017  11:49 PM         9,199,162 grails-docs-3.3.2.zip
-	11/28/2017  11:54 PM       419,744,048 spring-tool-suite-3.9.1.RELEASE-e4.7.1a-win32-x86_64.zip
-	11/28/2017  11:56 PM         9,398,893 spring-boot-cli-1.5.9.RELEASE-bin.zip
-	11/29/2017  12:00 AM        48,691,144 eclipse-inst-win64(1).exe
-	11/29/2017  12:03 AM       189,292,076 eclipse-java-oxygen-1a-win32-x86_64.zip
-	11/29/2017  12:05 AM               169 eclipse-java-oxygen-1a-win32-x86_64.zip.sha512
-	11/29/2017  12:12 AM       347,076,012 eclipse-jee-oxygen-1a-win32-x86_64.zip
-	11/29/2017  03:34 AM               168 eclipse-jee-oxygen-1a-win32-x86_64.zip.sha512
-	01/24/2018  06:45 PM        48,691,144 eclipse-inst-win64(2).exe
-	01/24/2018  06:47 PM               152 eclipse-inst-win64.sha256
-	01/24/2018  06:50 PM       347,560,900 eclipse-jee-oxygen-2-win32-x86_64.zip
-	01/24/2018  06:51 PM               167 eclipse-jee-oxygen-2-win32-x86_64.sha512
-	01/24/2018  06:53 PM       189,752,755 eclipse-java-oxygen-2-win32-x86_64.zip
-	01/24/2018  06:57 PM               168 eclipse-java-oxygen-2-win32-x86_64.sha512
-	01/24/2018  08:16 PM        12,363,463 progit.pdf
-	02/04/2018  02:57 PM        52,801,712 Etcher-Setup-1.3.1-x64.exe
-	03/15/2018  07:42 AM        99,638,426 grails-3.3.3.zip
-	03/15/2018  07:42 AM         9,297,460 grails-docs-3.3.3.zip
-	03/15/2018  08:00 AM       208,185,912 jdk-8u161-windows-i586.exe
-	03/15/2018  08:01 AM       216,544,312 jdk-8u161-windows-x64.exe
-	03/15/2018  08:03 AM       208,220,728 jdk-8u162-windows-i586.exe
-	03/15/2018  08:04 AM       216,804,920 jdk-8u162-windows-x64.exe
-	03/15/2018  08:05 AM        56,452,005 jdk-8u161-windows-i586-demos.zip
-	03/15/2018  08:05 AM        56,474,669 jdk-8u161-windows-x64-demos.zip
-	03/15/2018  08:06 AM        56,452,302 jdk-8u162-windows-i586-demos.zip
-	03/15/2018  08:06 AM        56,474,506 jdk-8u162-windows-x64-demos.zip
-	03/15/2018  08:07 AM             7,091 8u161checksum.html
-	03/15/2018  08:07 AM             6,555 8u162checksum.html
-	03/15/2018  08:27 AM       393,799,736 jdk-9.0.4_windows-x64_bin.exe
-	03/15/2018  08:27 AM             3,176 9-0-4checksum.html
-	03/15/2018  08:28 AM        52,503,681 serverjre-9.0.4_windows-x64_bin.tar.gz
-	03/15/2018  08:30 AM       101,317,184 jre-9.0.4_windows-x64_bin.exe
-	03/15/2018  08:31 AM        76,086,793 jre-9.0.4_windows-x64_bin.tar.gz
-	03/17/2018  10:07 AM        64,333,888 jre-8u161-windows-i586.exe
-	03/17/2018  10:09 AM        71,328,320 jre-8u161-windows-x64.exe
-	03/17/2018  10:13 AM        64,343,104 jre-8u162-windows-i586.exe
-	03/17/2018  10:18 AM        71,581,248 jre-8u162-windows-x64.exe
-	03/17/2018  11:03 AM     1,776,280,071 2018-03-13-raspbian-stretch.zip
-	05/12/2018  02:14 PM       556,563,008 ideaIU-2018.1.3.exe
-	05/12/2018  02:17 PM                86 ideaIU-2018.1.3.exe.sha256
-	05/12/2018  02:19 PM       458,354,216 ideaIC-2018.1.3.exe
-	05/12/2018  02:20 PM                86 ideaIC-2018.1.3.exe.sha256
-	05/12/2018  02:24 PM       729,833,707 ideaIU-2018.1.3.win.zip
-	05/12/2018  02:25 PM                90 ideaIU-2018.1.3.win.zip.sha256
-	05/12/2018  02:26 PM       605,208,068 ideaIC-2018.1.3.win.zip
-	05/12/2018  02:27 PM                90 ideaIC-2018.1.3.win.zip.sha256
-	05/12/2018  02:34 PM        16,662,528 node-v8.11.1-x64.msi
-	05/12/2018  02:35 PM        17,211,392 node-v10.1.0-x64.msi
-	05/12/2018  02:45 PM        73,135,891 VSCode-win32-x64-1.23.1.zip
-	05/12/2018  02:48 PM        45,394,704 VSCodeSetup-x64-1.23.1.exe
-	05/30/2018  06:05 AM        17,020,695 node-v8.11.2-win-x64.zip
-	05/30/2018  06:05 AM        16,375,378 node-v10.3.0-win-x64.zip
-	05/30/2018  06:07 AM             3,856 node-20180530-SHASUMS256.txt.asc
-	05/30/2018  06:11 AM       217,342,912 jdk-8u171-windows-x64.exe
-	05/30/2018  06:12 AM       217,370,560 jdk-8u172-windows-x64.exe
-	05/30/2018  06:13 AM        56,477,583 jdk-8u171-windows-x64-demos.zip
-	05/30/2018  06:13 AM        60,537,348 jdk-8u172-windows-x64-demos.zip
-	05/30/2018  06:14 AM             7,057 8u171checksum.html
-	05/30/2018  06:14 AM             6,524 8u172checksum.html
-	05/30/2018  06:20 AM        71,830,472 jre-8u171-windows-x64.exe
-	05/30/2018  06:20 AM        72,266,395 jre-8u171-windows-x64.tar.gz
-	05/30/2018  06:21 AM        71,867,336 jre-8u172-windows-x64.exe
-	05/30/2018  06:22 AM        72,284,055 jre-8u172-windows-x64.tar.gz
-	05/30/2018  06:26 AM       409,146,304 jdk-10.0.1_windows-x64_bin.exe
-	05/30/2018  06:27 AM             3,332 10-0-1checksum.html
-	05/30/2018  06:28 AM       105,424,840 jre-10.0.1_windows-x64_bin.exe
-	05/30/2018  06:29 AM        79,040,285 jre-10.0.1_windows-x64_bin.tar.gz
-	05/30/2018  06:33 AM        56,082,153 serverjre-10.0.1_windows-x64_bin.tar.gz
-	05/30/2018  06:36 AM        51,029,401 server-jre-8u171-windows-x64.tar.gz
-	05/30/2018  06:36 AM        51,044,071 server-jre-8u172-windows-x64.tar.gz
-	05/30/2018  06:42 AM        69,312,273 jdk-10.0.1_doc-all.zip
-	05/30/2018  06:44 AM        93,487,834 jdk-8u171-docs-all.zip
-	05/30/2018  06:44 AM        10,603,580 javafx-8u171-apidocs.zip
-	05/30/2018  06:45 AM        93,491,812 jdk-8u172-docs-all.zip
-	05/30/2018  06:45 AM        10,602,744 javafx-8u172-apidocs.zip
-	05/30/2018  06:56 AM        10,139,054 apache-tomcat-8.5.31.zip
-	05/30/2018  06:57 AM               188 apache-tomcat-8.5.31.zip.asc
-	05/30/2018  06:57 AM                66 apache-tomcat-8.5.31.zip.sha1
-	05/30/2018  06:57 AM               154 apache-tomcat-8.5.31.zip.sha512
-	05/30/2018  06:58 AM        11,202,116 apache-tomcat-8.5.31-windows-x64.zip
-	05/30/2018  06:58 AM               188 apache-tomcat-8.5.31-windows-x64.zip.asc
-	05/30/2018  06:59 AM                78 apache-tomcat-8.5.31-windows-x64.zip.sha1
-	05/30/2018  06:59 AM               166 apache-tomcat-8.5.31-windows-x64.zip.sha512
-	05/30/2018  06:59 AM         9,874,808 apache-tomcat-8.5.31.exe
-	05/30/2018  06:59 AM               188 apache-tomcat-8.5.31.exe.asc
-	05/30/2018  06:59 AM                66 apache-tomcat-8.5.31.exe.sha1
-	05/30/2018  06:59 AM               154 apache-tomcat-8.5.31.exe.sha512
-	05/30/2018  07:02 AM        10,405,183 apache-tomcat-9.0.8.zip
-	05/30/2018  07:02 AM               188 apache-tomcat-9.0.8.zip.asc
-	05/30/2018  07:02 AM                65 apache-tomcat-9.0.8.zip.sha1
-	05/30/2018  07:02 AM               153 apache-tomcat-9.0.8.zip.sha512
-	05/30/2018  07:02 AM        11,468,235 apache-tomcat-9.0.8-windows-x64.zip
-	05/30/2018  07:02 AM               188 apache-tomcat-9.0.8-windows-x64.zip.asc
-	05/30/2018  07:03 AM                77 apache-tomcat-9.0.8-windows-x64.zip.sha1
-	05/30/2018  07:03 AM               165 apache-tomcat-9.0.8-windows-x64.zip.sha512
-	05/30/2018  07:03 AM        10,188,376 apache-tomcat-9.0.8.exe
-	05/30/2018  07:03 AM               188 apache-tomcat-9.0.8.exe.asc
-	05/30/2018  07:03 AM                65 apache-tomcat-9.0.8.exe.sha1
-	05/30/2018  07:03 AM               153 apache-tomcat-9.0.8.exe.sha512
-	05/30/2018  07:17 AM     1,776,761,413 2018-04-18-raspbian-stretch.zip
-	05/30/2018  07:27 AM       366,646,269 2018-04-18-raspbian-stretch-lite.zip
-	05/30/2018  07:34 AM     1,827,722,638 NOOBS_v2_8_1.zip
-	05/30/2018  07:34 AM        34,849,252 NOOBS_lite_v2_8.zip
-	05/30/2018  07:35 AM           187,560 2018-04-18-raspbian-stretch.info
-	05/30/2018  07:36 AM                74 2018-04-18-raspbian-stretch.zip.sha1
-	05/30/2018  07:36 AM                98 2018-04-18-raspbian-stretch.zip.sha256
-	05/30/2018  07:36 AM               473 2018-04-18-raspbian-stretch.zip.sig
-	05/30/2018  07:36 AM            34,163 2018-04-18-raspbian-stretch.zip.torrent
-	05/30/2018  07:39 AM                64 2018-04-18-raspbian-stretch.zip.sha256.txt
-	05/30/2018  07:40 AM                64 2018-04-18-raspbian-stretch-lite.zip.sha256.txt
-	05/30/2018  07:42 AM                64 NOOBS_v2_8_1.zip.sha256.txt
-	05/30/2018  07:42 AM                64 NOOBS_lite_v2_8.zip.sha256.txt
-	06/19/2018  04:53 PM        99,634,776 grails-3.3.4.zip
-	06/19/2018  04:55 PM        86,114,514 grails-3.3.5.zip
-	06/19/2018  04:56 PM        99,720,815 grails-3.3.6.zip
-	06/19/2018  04:56 PM         9,305,080 grails-docs-3.3.6.zip
-	06/19/2018  05:05 PM         8,318,688 Sublime Text Build 3176 Setup.exe
-	06/19/2018  05:05 PM        10,020,957 Sublime Text Build 3176.zip
-	06/19/2018  05:05 PM         9,142,656 Sublime Text Build 3176 x64 Setup.exe
-	06/19/2018  05:06 PM        11,193,365 Sublime Text Build 3176 x64.zip
-	06/19/2018  05:13 PM       557,360,280 ideaIU-2018.1.5.exe
-	06/19/2018  05:14 PM                86 ideaIU-2018.1.5.exe.sha256
-	06/19/2018  05:21 PM       730,999,498 ideaIU-2018.1.5.win.zip
-	06/19/2018  05:22 PM                90 ideaIU-2018.1.5.win.zip.sha256
-	06/19/2018  05:27 PM       458,111,224 ideaIC-2018.1.5.exe
-	06/19/2018  05:27 PM                86 ideaIC-2018.1.5.exe.sha256
-	06/19/2018  05:32 PM       604,975,485 ideaIC-2018.1.5.win.zip
-	06/19/2018  05:33 PM                90 ideaIC-2018.1.5.win.zip.sha256
-	06/19/2018  05:55 PM       350,098,461 eclipse-jee-oxygen-3a-win32-x86_64.zip
-	06/19/2018  05:57 PM               168 eclipse-jee-oxygen-3a-win32-x86_64.sha512
-	06/19/2018  06:01 PM       191,686,417 eclipse-java-oxygen-3a-win32-x86_64.zip
-	06/19/2018  06:02 PM               169 eclipse-java-oxygen-3a-win32-x86_64.sha512
-	07/24/2018  07:34 AM       212,582,768 jdk-8u181-windows-x64.exe
-	07/24/2018  07:36 AM        59,534,692 jdk-8u181-windows-x64-demos.zip
-	07/24/2018  07:36 AM             7,057 8u181checksum.html
-	07/24/2018  07:53 AM        51,267,837 server-jre-8u181-windows-x64.tar.gz
-	07/24/2018  07:55 AM        71,792,504 jre-8u181-windows-x64.exe
-	07/24/2018  07:56 AM        72,292,650 jre-8u181-windows-x64.tar.gz
-	07/24/2018  08:02 AM       409,204,592 jdk-10.0.2_windows-x64_bin.exe
-	07/24/2018  08:02 AM             3,332 10-0-2checksum.html
-	07/24/2018  08:03 AM        56,077,854 serverjre-10.0.2_windows-x64_bin.tar.gz
-	07/24/2018  08:05 AM       105,455,992 jre-10.0.2_windows-x64_bin.exe
-	07/24/2018  08:05 AM        79,042,057 jre-10.0.2_windows-x64_bin.tar.gz
-	07/24/2018  08:30 AM       192,214,252 mysql-8.0.11-winx64.zip
-	07/24/2018  08:32 AM                32 mysql-8.0.11-winx64.zip.md5
-	07/24/2018  08:32 AM               173 mysql-8.0.11-winx64.zip.asc
-	07/24/2018  08:36 AM         5,034,718 mysql-connector-java-8.0.11.tar.gz
-	07/24/2018  08:37 AM         5,740,175 mysql-connector-java-8.0.11.zip
-	07/24/2018  08:38 AM        22,192,427 mysql-shell-8.0.11-windows-x86-64bit.zip
-	07/24/2018  08:42 AM        29,601,792 mysql-workbench-community-6.3.10-winx64.msi
-	             230 File(s) 31,033,056,943 bytes
-	               8 Dir(s)  374,384,119,808 bytes free
-    
-	C:\Users\David Holberton\Downloads>
+'''
+C:\Users\David Holberton\Downloads>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
 
+ Directory of C:\Users\David Holberton\Downloads
+
+08/15/2017  10:57 AM    <DIR>          nuc6
+08/15/2017  12:11 PM    <DIR>          nuc4
+11/05/2017  10:53 AM    <DIR>          ubuntu-16.04.3
+11/05/2017  11:07 AM    <DIR>          ubuntu-17.10
+01/24/2018  05:27 PM    <DIR>          raspbian
+03/15/2018  07:41 AM    <DIR>          tmp
+11/25/2018  07:35 AM    <DIR>          .
+11/25/2018  07:35 AM    <DIR>          ..
+06/08/2017  07:22 AM         1,130,328 ChromeSetup.exe
+06/08/2017  07:26 AM           246,056 Firefox Setup Stub 53.0.3.exe
+06/08/2017  07:35 AM       207,649,848 jdk-8u131-windows-x64.exe
+06/08/2017  07:35 AM        56,436,260 jdk-8u131-windows-x64-demos.zip
+06/08/2017  07:39 AM       230,883,184 netbeans-8.2-windows.exe
+06/08/2017  07:40 AM       230,883,184 netbeans-8.2-windows (1).exe
+06/08/2017  07:43 AM        47,791,424 eclipse-inst-win64.exe
+06/08/2017  07:44 AM        47,791,424 eclipse-inst-win64 (1).exe
+06/08/2017  07:47 AM       319,075,640 eclipse-jee-neon-3-win32-x86_64.zip
+06/08/2017  07:51 AM       169,101,919 eclipse-java-neon-3-win32-x86_64.zip
+06/08/2017  07:52 AM       169,101,919 eclipse-java-neon-3-win32-x86_64 (1).zip
+06/08/2017  02:46 PM       533,543,241 groovy-grails-tool-suite-3.6.4.RELEASE-e4.4.2-win32-x86_64.zip
+08/02/2017  05:21 AM       207,382,584 jdk-8u144-windows-x64.exe
+08/02/2017  05:22 AM        56,436,124 jdk-8u144-windows-x64-demos.zip
+08/02/2017  05:24 AM             8,409 jce_policy-8.zip
+08/02/2017  05:29 AM       207,387,192 jdk-8u141-windows-x64.exe
+08/02/2017  05:30 AM       207,649,848 jdk-8u131-windows-x64(1).exe
+08/02/2017  05:31 AM       205,004,856 jdk-8u121-windows-x64.exe
+08/02/2017  05:35 AM       204,607,032 jdk-8u112-windows-x64.exe
+08/02/2017  05:37 AM       204,139,576 jdk-8u102-windows-x64.exe
+08/02/2017  05:39 AM       146,893,216 jdk-7u80-windows-x64.exe
+08/02/2017  05:40 AM       146,861,984 jdk-7u79-windows-x64.exe
+08/07/2017  05:37 PM         9,992,463 apache-tomcat-8.5.16.zip
+08/07/2017  05:37 PM         9,417,469 apache-tomcat-8.5.16.tar.gz
+08/07/2017  05:38 PM        10,702,761 apache-tomcat-8.5.16-windows-x86.zip
+08/07/2017  05:38 PM        11,041,498 apache-tomcat-8.5.16-windows-x64.zip
+08/07/2017  05:38 PM         9,728,707 apache-tomcat-8.5.16.exe
+08/07/2017  06:03 PM        19,439,616 mysql-installer-web-community-5.7.19.0.msi
+08/07/2017  06:10 PM       397,152,256 mysql-installer-community-5.7.19.0.msi
+08/07/2017  06:14 PM       321,078,662 mysql-5.7.19-win32.zip
+08/07/2017  06:20 PM       333,942,828 mysql-5.7.19-winx64.zip
+08/07/2017  06:25 PM       390,095,890 mysql-5.7.19-win32-debug-test.zip
+08/07/2017  06:30 PM       399,261,754 mysql-5.7.19-winx64-debug-test.zip
+08/07/2017  08:21 PM         3,462,610 mysql-connector-java-5.1.43.tar.gz
+08/07/2017  08:21 PM         3,818,438 mysql-connector-java-5.1.43.zip
+08/07/2017  08:25 PM        19,439,616 mysql-installer-web-community-5.7.19.0(1).msi
+08/07/2017  08:26 PM        29,650,944 mysql-workbench-community-6.3.9-winx64.msi
+08/07/2017  08:27 PM       397,152,256 mysql-installer-community-5.7.19.0(1).msi
+08/07/2017  08:30 PM        19,439,616 mysql-installer-web-community-5.7.19.0(2).msi
+08/07/2017  08:33 PM       397,152,256 mysql-installer-community-5.7.19.0(2).msi
+08/07/2017  08:33 PM        29,650,944 mysql-workbench-community-6.3.9-winx64(1).msi
+08/07/2017  08:34 PM        29,650,944 mysql-workbench-community-6.3.9-winx64(2).msi
+08/07/2017  08:41 PM        99,878,208 grails-3.3.0.zip
+08/07/2017  08:41 PM         9,429,188 grails-docs-3.3.0.zip
+08/07/2017  08:42 PM       105,987,812 grails-3.2.11.zip
+08/07/2017  08:43 PM       113,677,517 grails-3.1.16.zip
+08/07/2017  08:44 PM       111,324,197 grails-3.0.17.zip
+08/07/2017  08:45 PM       138,229,006 grails-2.5.6.zip
+08/07/2017  08:46 PM       137,608,538 grails-2.5.5.zip
+08/07/2017  08:48 PM       137,572,132 grails-2.5.4.zip
+08/07/2017  08:48 PM       146,271,722 grails-2.4.5.zip
+08/07/2017  08:50 PM       140,045,626 grails-2.4.4.zip
+08/07/2017  08:50 PM        58,851,853 grails-2.1.1.zip
+08/07/2017  10:05 PM       416,500,381 spring-tool-suite-3.9.0.RELEASE-e4.7.0-win32-x86_64.zip
+08/12/2017  10:43 AM         7,127,352 Setup.X64.en-US_HomeStudentRetail_084abf04-0a2f-44c0-b7ea-35676b95e903_TX_PR_.exe
+08/13/2017  12:42 PM        18,908,000 upd-pcl6-x64-6.4.1.22169.exe
+08/13/2017  12:43 PM        20,186,136 upd-ps-usb-setup-x64-6.4.1.22169.exe
+08/13/2017  01:05 PM         1,544,192 Dot4x64.msi
+08/13/2017  08:41 PM       146,050,400 DLS8Setup.8.6.2.exe
+08/15/2017  04:35 PM         9,988,680 SYSKLi35.86A.0061.EB.WINPE64.EXE
+08/15/2017  04:35 PM        12,866,120 WYLPT10H.86A.0045.EB.WINPE64.EXE
+10/09/2017  03:51 PM           183,185 2017-09-07-raspbian-stretch.img.info
+10/09/2017  03:59 PM     1,757,290,390 2017-09-07-raspbian-stretch.zip
+10/09/2017  03:59 PM                74 2017-09-07-raspbian-stretch.zip.sha1
+10/09/2017  03:59 PM                98 2017-09-07-raspbian-stretch.zip.sha256
+10/09/2017  04:00 PM               473 2017-09-07-raspbian-stretch.zip.sig
+10/09/2017  04:14 PM         1,381,582 7z1604-x64.exe
+10/09/2017  04:20 PM        41,365,728 Etcher-Setup-1.1.2-x64.exe
+10/09/2017  04:21 PM        41,110,680 Etcher-Portable-1.1.2-x64.exe
+10/09/2017  04:31 PM             7,849 stuff-20171009.txt
+11/28/2017  10:20 PM       373,778,744 ideaIC-2017.2.6.exe
+11/28/2017  10:21 PM                86 ideaIC-2017.2.6.exe.sha256
+11/28/2017  10:28 PM       532,968,776 ideaIU-2017.2.6.exe
+11/28/2017  10:28 PM                86 ideaIU-2017.2.6.exe.sha256
+11/28/2017  10:34 PM       504,914,624 ideaIC-2017.2.6.win.zip
+11/28/2017  10:35 PM                90 ideaIC-2017.2.6.win.zip.sha256
+11/28/2017  10:43 PM       692,594,653 ideaIU-2017.2.6.win.zip
+11/28/2017  10:45 PM                90 ideaIU-2017.2.6.win.zip.sha256
+11/28/2017  10:48 PM       110,551,285 grails-3.3.1.zip
+11/28/2017  10:49 PM        99,643,461 grails-3.3.2.zip
+11/28/2017  10:49 PM         9,199,162 grails-docs-3.3.2.zip
+11/28/2017  10:54 PM       419,744,048 spring-tool-suite-3.9.1.RELEASE-e4.7.1a-win32-x86_64.zip
+11/28/2017  10:56 PM         9,398,893 spring-boot-cli-1.5.9.RELEASE-bin.zip
+11/28/2017  11:00 PM        48,691,144 eclipse-inst-win64(1).exe
+11/28/2017  11:03 PM       189,292,076 eclipse-java-oxygen-1a-win32-x86_64.zip
+11/28/2017  11:05 PM               169 eclipse-java-oxygen-1a-win32-x86_64.zip.sha512
+11/28/2017  11:12 PM       347,076,012 eclipse-jee-oxygen-1a-win32-x86_64.zip
+11/29/2017  02:34 AM               168 eclipse-jee-oxygen-1a-win32-x86_64.zip.sha512
+01/24/2018  05:45 PM        48,691,144 eclipse-inst-win64(2).exe
+01/24/2018  05:47 PM               152 eclipse-inst-win64.sha256
+01/24/2018  05:50 PM       347,560,900 eclipse-jee-oxygen-2-win32-x86_64.zip
+01/24/2018  05:51 PM               167 eclipse-jee-oxygen-2-win32-x86_64.sha512
+01/24/2018  05:53 PM       189,752,755 eclipse-java-oxygen-2-win32-x86_64.zip
+01/24/2018  05:57 PM               168 eclipse-java-oxygen-2-win32-x86_64.sha512
+01/24/2018  07:16 PM        12,363,463 progit.pdf
+02/04/2018  01:57 PM        52,801,712 Etcher-Setup-1.3.1-x64.exe
+03/15/2018  06:42 AM        99,638,426 grails-3.3.3.zip
+03/15/2018  06:42 AM         9,297,460 grails-docs-3.3.3.zip
+03/15/2018  07:00 AM       208,185,912 jdk-8u161-windows-i586.exe
+03/15/2018  07:01 AM       216,544,312 jdk-8u161-windows-x64.exe
+03/15/2018  07:03 AM       208,220,728 jdk-8u162-windows-i586.exe
+03/15/2018  07:04 AM       216,804,920 jdk-8u162-windows-x64.exe
+03/15/2018  07:05 AM        56,452,005 jdk-8u161-windows-i586-demos.zip
+03/15/2018  07:05 AM        56,474,669 jdk-8u161-windows-x64-demos.zip
+03/15/2018  07:06 AM        56,452,302 jdk-8u162-windows-i586-demos.zip
+03/15/2018  07:06 AM        56,474,506 jdk-8u162-windows-x64-demos.zip
+03/15/2018  07:07 AM             7,091 8u161checksum.html
+03/15/2018  07:07 AM             6,555 8u162checksum.html
+03/15/2018  07:27 AM       393,799,736 jdk-9.0.4_windows-x64_bin.exe
+03/15/2018  07:27 AM             3,176 9-0-4checksum.html
+03/15/2018  07:28 AM        52,503,681 serverjre-9.0.4_windows-x64_bin.tar.gz
+03/15/2018  07:30 AM       101,317,184 jre-9.0.4_windows-x64_bin.exe
+03/15/2018  07:31 AM        76,086,793 jre-9.0.4_windows-x64_bin.tar.gz
+03/17/2018  09:07 AM        64,333,888 jre-8u161-windows-i586.exe
+03/17/2018  09:09 AM        71,328,320 jre-8u161-windows-x64.exe
+03/17/2018  09:13 AM        64,343,104 jre-8u162-windows-i586.exe
+03/17/2018  09:18 AM        71,581,248 jre-8u162-windows-x64.exe
+03/17/2018  10:03 AM     1,776,280,071 2018-03-13-raspbian-stretch.zip
+05/12/2018  01:14 PM       556,563,008 ideaIU-2018.1.3.exe
+05/12/2018  01:17 PM                86 ideaIU-2018.1.3.exe.sha256
+05/12/2018  01:19 PM       458,354,216 ideaIC-2018.1.3.exe
+05/12/2018  01:20 PM                86 ideaIC-2018.1.3.exe.sha256
+05/12/2018  01:24 PM       729,833,707 ideaIU-2018.1.3.win.zip
+05/12/2018  01:25 PM                90 ideaIU-2018.1.3.win.zip.sha256
+05/12/2018  01:26 PM       605,208,068 ideaIC-2018.1.3.win.zip
+05/12/2018  01:27 PM                90 ideaIC-2018.1.3.win.zip.sha256
+05/12/2018  01:34 PM        16,662,528 node-v8.11.1-x64.msi
+05/12/2018  01:35 PM        17,211,392 node-v10.1.0-x64.msi
+05/12/2018  01:45 PM        73,135,891 VSCode-win32-x64-1.23.1.zip
+05/12/2018  01:48 PM        45,394,704 VSCodeSetup-x64-1.23.1.exe
+05/30/2018  05:05 AM        17,020,695 node-v8.11.2-win-x64.zip
+05/30/2018  05:05 AM        16,375,378 node-v10.3.0-win-x64.zip
+05/30/2018  05:07 AM             3,856 node-20180530-SHASUMS256.txt.asc
+05/30/2018  05:11 AM       217,342,912 jdk-8u171-windows-x64.exe
+05/30/2018  05:12 AM       217,370,560 jdk-8u172-windows-x64.exe
+05/30/2018  05:13 AM        56,477,583 jdk-8u171-windows-x64-demos.zip
+05/30/2018  05:13 AM        60,537,348 jdk-8u172-windows-x64-demos.zip
+05/30/2018  05:14 AM             7,057 8u171checksum.html
+05/30/2018  05:14 AM             6,524 8u172checksum.html
+05/30/2018  05:20 AM        71,830,472 jre-8u171-windows-x64.exe
+05/30/2018  05:20 AM        72,266,395 jre-8u171-windows-x64.tar.gz
+05/30/2018  05:21 AM        71,867,336 jre-8u172-windows-x64.exe
+05/30/2018  05:22 AM        72,284,055 jre-8u172-windows-x64.tar.gz
+05/30/2018  05:26 AM       409,146,304 jdk-10.0.1_windows-x64_bin.exe
+05/30/2018  05:27 AM             3,332 10-0-1checksum.html
+05/30/2018  05:28 AM       105,424,840 jre-10.0.1_windows-x64_bin.exe
+05/30/2018  05:29 AM        79,040,285 jre-10.0.1_windows-x64_bin.tar.gz
+05/30/2018  05:33 AM        56,082,153 serverjre-10.0.1_windows-x64_bin.tar.gz
+05/30/2018  05:36 AM        51,029,401 server-jre-8u171-windows-x64.tar.gz
+05/30/2018  05:36 AM        51,044,071 server-jre-8u172-windows-x64.tar.gz
+05/30/2018  05:42 AM        69,312,273 jdk-10.0.1_doc-all.zip
+05/30/2018  05:44 AM        93,487,834 jdk-8u171-docs-all.zip
+05/30/2018  05:44 AM        10,603,580 javafx-8u171-apidocs.zip
+05/30/2018  05:45 AM        93,491,812 jdk-8u172-docs-all.zip
+05/30/2018  05:45 AM        10,602,744 javafx-8u172-apidocs.zip
+05/30/2018  05:56 AM        10,139,054 apache-tomcat-8.5.31.zip
+05/30/2018  05:57 AM               188 apache-tomcat-8.5.31.zip.asc
+05/30/2018  05:57 AM                66 apache-tomcat-8.5.31.zip.sha1
+05/30/2018  05:57 AM               154 apache-tomcat-8.5.31.zip.sha512
+05/30/2018  05:58 AM        11,202,116 apache-tomcat-8.5.31-windows-x64.zip
+05/30/2018  05:58 AM               188 apache-tomcat-8.5.31-windows-x64.zip.asc
+05/30/2018  05:59 AM                78 apache-tomcat-8.5.31-windows-x64.zip.sha1
+05/30/2018  05:59 AM               166 apache-tomcat-8.5.31-windows-x64.zip.sha512
+05/30/2018  05:59 AM         9,874,808 apache-tomcat-8.5.31.exe
+05/30/2018  05:59 AM               188 apache-tomcat-8.5.31.exe.asc
+05/30/2018  05:59 AM                66 apache-tomcat-8.5.31.exe.sha1
+05/30/2018  05:59 AM               154 apache-tomcat-8.5.31.exe.sha512
+05/30/2018  06:02 AM        10,405,183 apache-tomcat-9.0.8.zip
+05/30/2018  06:02 AM               188 apache-tomcat-9.0.8.zip.asc
+05/30/2018  06:02 AM                65 apache-tomcat-9.0.8.zip.sha1
+05/30/2018  06:02 AM               153 apache-tomcat-9.0.8.zip.sha512
+05/30/2018  06:02 AM        11,468,235 apache-tomcat-9.0.8-windows-x64.zip
+05/30/2018  06:02 AM               188 apache-tomcat-9.0.8-windows-x64.zip.asc
+05/30/2018  06:03 AM                77 apache-tomcat-9.0.8-windows-x64.zip.sha1
+05/30/2018  06:03 AM               165 apache-tomcat-9.0.8-windows-x64.zip.sha512
+05/30/2018  06:03 AM        10,188,376 apache-tomcat-9.0.8.exe
+05/30/2018  06:03 AM               188 apache-tomcat-9.0.8.exe.asc
+05/30/2018  06:03 AM                65 apache-tomcat-9.0.8.exe.sha1
+05/30/2018  06:03 AM               153 apache-tomcat-9.0.8.exe.sha512
+05/30/2018  06:17 AM     1,776,761,413 2018-04-18-raspbian-stretch.zip
+05/30/2018  06:27 AM       366,646,269 2018-04-18-raspbian-stretch-lite.zip
+05/30/2018  06:34 AM     1,827,722,638 NOOBS_v2_8_1.zip
+05/30/2018  06:34 AM        34,849,252 NOOBS_lite_v2_8.zip
+05/30/2018  06:36 AM                74 2018-04-18-raspbian-stretch.zip.sha1
+05/30/2018  06:36 AM                98 2018-04-18-raspbian-stretch.zip.sha256
+05/30/2018  06:36 AM               473 2018-04-18-raspbian-stretch.zip.sig
+05/30/2018  06:36 AM            34,163 2018-04-18-raspbian-stretch.zip.torrent
+05/30/2018  06:39 AM                64 2018-04-18-raspbian-stretch.zip.sha256.txt
+05/30/2018  06:40 AM                64 2018-04-18-raspbian-stretch-lite.zip.sha256.txt
+05/30/2018  06:42 AM                64 NOOBS_v2_8_1.zip.sha256.txt
+05/30/2018  06:42 AM                64 NOOBS_lite_v2_8.zip.sha256.txt
+06/19/2018  03:53 PM        99,634,776 grails-3.3.4.zip
+06/19/2018  03:55 PM        86,114,514 grails-3.3.5.zip
+06/19/2018  03:56 PM        99,720,815 grails-3.3.6.zip
+06/19/2018  03:56 PM         9,305,080 grails-docs-3.3.6.zip
+06/19/2018  04:05 PM         8,318,688 Sublime Text Build 3176 Setup.exe
+06/19/2018  04:05 PM        10,020,957 Sublime Text Build 3176.zip
+06/19/2018  04:05 PM         9,142,656 Sublime Text Build 3176 x64 Setup.exe
+06/19/2018  04:06 PM        11,193,365 Sublime Text Build 3176 x64.zip
+06/19/2018  04:13 PM       557,360,280 ideaIU-2018.1.5.exe
+06/19/2018  04:14 PM                86 ideaIU-2018.1.5.exe.sha256
+06/19/2018  04:21 PM       730,999,498 ideaIU-2018.1.5.win.zip
+06/19/2018  04:22 PM                90 ideaIU-2018.1.5.win.zip.sha256
+06/19/2018  04:27 PM       458,111,224 ideaIC-2018.1.5.exe
+06/19/2018  04:27 PM                86 ideaIC-2018.1.5.exe.sha256
+06/19/2018  04:32 PM       604,975,485 ideaIC-2018.1.5.win.zip
+06/19/2018  04:33 PM                90 ideaIC-2018.1.5.win.zip.sha256
+06/19/2018  04:55 PM       350,098,461 eclipse-jee-oxygen-3a-win32-x86_64.zip
+06/19/2018  04:57 PM               168 eclipse-jee-oxygen-3a-win32-x86_64.sha512
+06/19/2018  05:01 PM       191,686,417 eclipse-java-oxygen-3a-win32-x86_64.zip
+06/19/2018  05:02 PM               169 eclipse-java-oxygen-3a-win32-x86_64.sha512
+07/24/2018  06:34 AM       212,582,768 jdk-8u181-windows-x64.exe
+07/24/2018  06:36 AM        59,534,692 jdk-8u181-windows-x64-demos.zip
+07/24/2018  06:36 AM             7,057 8u181checksum.html
+07/24/2018  06:53 AM        51,267,837 server-jre-8u181-windows-x64.tar.gz
+07/24/2018  06:55 AM        71,792,504 jre-8u181-windows-x64.exe
+07/24/2018  06:56 AM        72,292,650 jre-8u181-windows-x64.tar.gz
+07/24/2018  07:02 AM       409,204,592 jdk-10.0.2_windows-x64_bin.exe
+07/24/2018  07:02 AM             3,332 10-0-2checksum.html
+07/24/2018  07:03 AM        56,077,854 serverjre-10.0.2_windows-x64_bin.tar.gz
+07/24/2018  07:05 AM       105,455,992 jre-10.0.2_windows-x64_bin.exe
+07/24/2018  07:05 AM        79,042,057 jre-10.0.2_windows-x64_bin.tar.gz
+07/24/2018  07:30 AM       192,214,252 mysql-8.0.11-winx64.zip
+07/24/2018  07:32 AM                32 mysql-8.0.11-winx64.zip.md5
+07/24/2018  07:32 AM               173 mysql-8.0.11-winx64.zip.asc
+07/24/2018  07:36 AM         5,034,718 mysql-connector-java-8.0.11.tar.gz
+07/24/2018  07:37 AM         5,740,175 mysql-connector-java-8.0.11.zip
+07/24/2018  07:38 AM        22,192,427 mysql-shell-8.0.11-windows-x86-64bit.zip
+07/24/2018  07:42 AM        29,601,792 mysql-workbench-community-6.3.10-winx64.msi
+07/26/2018  05:59 AM       539,114,880 ideaIU-2018.2.exe
+07/26/2018  05:59 AM                84 ideaIU-2018.2.exe.sha256
+07/26/2018  06:05 AM       706,304,763 ideaIU-2018.2.win.zip
+07/26/2018  06:11 AM                88 ideaIU-2018.2.win.zip.sha256
+07/26/2018  06:13 AM       441,710,736 ideaIC-2018.2.exe
+07/26/2018  06:13 AM                84 ideaIC-2018.2.exe.sha256
+07/26/2018  06:16 AM       581,977,565 ideaIC-2018.2.win.zip
+07/26/2018  06:17 AM                88 ideaIC-2018.2.win.zip.sha256
+08/25/2018  09:54 AM        99,676,981 grails-3.3.7.zip
+08/25/2018  09:55 AM        99,680,765 grails-3.3.8.zip
+08/25/2018  09:55 AM         9,305,672 grails-docs-3.3.8.zip
+08/25/2018  10:03 AM       540,417,528 ideaIU-2018.2.2.exe
+08/25/2018  10:04 AM                86 ideaIU-2018.2.2.exe.sha256
+08/25/2018  10:05 AM                90 ideaIU-2018.2.2.win.zip.sha256
+08/25/2018  10:06 AM       707,758,758 ideaIU-2018.2.2.win.zip
+08/25/2018  10:08 AM       441,889,400 ideaIC-2018.2.2.exe
+08/25/2018  10:08 AM                86 ideaIC-2018.2.2.exe.sha256
+08/25/2018  10:11 AM       582,229,011 ideaIC-2018.2.2.win.zip
+08/25/2018  10:12 AM                90 ideaIC-2018.2.2.win.zip.sha256
+08/25/2018  10:22 AM            17,001 incubating-netbeans-java-9.0-bin.zip
+08/26/2018  08:37 AM       169,301,845 incubating-netbeans-java-9.0-bin(1).zip
+08/26/2018  08:38 AM               874 incubating-netbeans-java-9.0-bin.zip.asc
+08/26/2018  08:39 AM                79 incubating-netbeans-java-9.0-bin.zip.sha1
+08/29/2018  05:53 AM            37,537 KEYS-tomcat.txt
+08/29/2018  05:53 AM        10,211,559 apache-tomcat-8.5.33.zip
+08/29/2018  05:54 AM               849 apache-tomcat-8.5.33.zip.asc
+08/29/2018  05:54 AM               154 apache-tomcat-8.5.33.zip.sha512
+08/29/2018  05:54 AM         9,621,331 apache-tomcat-8.5.33.tar.gz
+08/29/2018  05:54 AM               849 apache-tomcat-8.5.33.tar.gz.asc
+08/29/2018  05:55 AM               157 apache-tomcat-8.5.33.tar.gz.sha512
+08/29/2018  05:55 AM        10,936,767 apache-tomcat-8.5.33-windows-x86.zip
+08/29/2018  05:55 AM               849 apache-tomcat-8.5.33-windows-x86.zip.asc
+08/29/2018  05:55 AM               166 apache-tomcat-8.5.33-windows-x86.zip.sha512
+08/29/2018  05:56 AM        11,232,621 apache-tomcat-8.5.33-windows-x64.zip
+08/29/2018  05:56 AM               849 apache-tomcat-8.5.33-windows-x64.zip.asc
+08/29/2018  05:56 AM               166 apache-tomcat-8.5.33-windows-x64.zip.sha512
+08/29/2018  05:57 AM         9,895,312 apache-tomcat-8.5.33.exe
+08/29/2018  05:57 AM               849 apache-tomcat-8.5.33.exe.asc
+08/29/2018  05:57 AM               154 apache-tomcat-8.5.33.exe.sha512
+08/29/2018  06:01 AM        10,514,400 apache-tomcat-9.0.11.zip
+08/29/2018  06:02 AM               849 apache-tomcat-9.0.11.zip.asc
+08/29/2018  06:02 AM               154 apache-tomcat-9.0.11.zip.sha512
+08/29/2018  06:02 AM         9,904,915 apache-tomcat-9.0.11.tar.gz
+08/29/2018  06:03 AM               849 apache-tomcat-9.0.11.tar.gz.asc
+08/29/2018  06:03 AM               157 apache-tomcat-9.0.11.tar.gz.sha512
+08/29/2018  06:03 AM        11,239,606 apache-tomcat-9.0.11-windows-x86.zip
+08/29/2018  06:03 AM               849 apache-tomcat-9.0.11-windows-x86.zip.asc
+08/29/2018  06:04 AM               166 apache-tomcat-9.0.11-windows-x86.zip.sha512
+08/29/2018  06:04 AM        11,535,460 apache-tomcat-9.0.11-windows-x64.zip
+08/29/2018  06:04 AM               849 apache-tomcat-9.0.11-windows-x64.zip.asc
+08/29/2018  06:04 AM               166 apache-tomcat-9.0.11-windows-x64.zip.sha512
+08/29/2018  06:04 AM        10,246,376 apache-tomcat-9.0.11.exe
+08/29/2018  06:04 AM               849 apache-tomcat-9.0.11.exe.asc
+08/29/2018  06:05 AM               154 apache-tomcat-9.0.11.exe.sha512
+11/24/2018  03:25 PM       206,924,144 jdk-8u191-windows-i586.exe
+11/24/2018  03:27 PM       217,284,976 jdk-8u191-windows-x64.exe
+11/24/2018  03:28 PM        59,512,736 jdk-8u191-windows-i586-demos.zip
+11/24/2018  03:30 PM        59,535,185 jdk-8u191-windows-x64-demos.zip
+11/24/2018  03:32 PM       207,169,904 jdk-8u192-windows-i586.exe
+11/24/2018  03:33 PM       217,494,384 jdk-8u192-windows-x64.exe
+11/24/2018  03:33 PM        59,513,107 jdk-8u192-windows-i586-demos.zip
+11/24/2018  03:34 PM        59,535,052 jdk-8u192-windows-x64-demos.zip
+11/24/2018  03:45 PM       158,313,840 jdk-11.0.1_windows-x64_bin.exe
+11/24/2018  03:45 PM       179,293,338 jdk-11.0.1_windows-x64_bin.zip
+11/24/2018  03:58 PM        65,795,328 apache-activemq-5.15.8-bin.zip
+11/24/2018  03:58 PM               833 apache-activemq-5.15.8-bin.zip.asc
+11/24/2018  03:58 PM               161 apache-activemq-5.15.8-bin.zip.sha512
+11/24/2018  03:59 PM        58,561,031 apache-activemq-5.15.8-bin.tar.gz
+11/24/2018  03:59 PM               833 apache-activemq-5.15.8-bin.tar.gz.asc
+11/24/2018  03:59 PM               164 apache-activemq-5.15.8-bin.tar.gz.sha512
+11/24/2018  04:06 PM            84,823 KEYS-activemq.txt
+11/24/2018  04:11 PM         9,063,587 apache-maven-3.6.0-bin.tar.gz
+11/24/2018  04:12 PM               160 apache-maven-3.6.0-bin.tar.gz.sha512
+11/24/2018  04:12 PM         9,102,386 apache-maven-3.6.0-bin.zip
+11/24/2018  04:13 PM               157 apache-maven-3.6.0-bin.zip.sha512
+11/24/2018  04:13 PM             1,568 apache-maven-3.6.0-bin.zip.asc
+11/24/2018  04:13 PM         2,729,698 apache-maven-3.6.0-src.tar.gz
+11/24/2018  04:13 PM               160 apache-maven-3.6.0-src.tar.gz.sha512
+11/24/2018  04:14 PM             1,568 apache-maven-3.6.0-src.tar.gz.asc
+11/24/2018  04:14 PM         4,569,014 apache-maven-3.6.0-src.zip
+11/24/2018  04:14 PM               157 apache-maven-3.6.0-src.zip.sha512
+11/24/2018  04:14 PM             1,568 apache-maven-3.6.0-src.zip.asc
+11/24/2018  04:15 PM           178,669 KEYS-maven.txt
+11/24/2018  04:34 PM       422,459,131 spring-tool-suite-3.9.6.RELEASE-e4.9.0-win32-x86_64.zip
+11/24/2018  04:35 PM       422,324,228 spring-tool-suite-3.9.6.RELEASE-e4.9.0-win32.zip
+11/24/2018  04:49 PM       169,301,845 incubating-netbeans-java-9.0-bin(2).zip
+11/24/2018  04:56 PM        53,700,822 apache-groovy-sdk-2.5.4.zip
+11/24/2018  04:57 PM        29,847,597 apache-groovy-binary-2.5.4.zip
+11/24/2018  04:57 PM               838 apache-groovy-binary-2.5.4.zip.asc
+11/24/2018  04:58 PM                66 apache-groovy-binary-2.5.4.zip.sha256
+11/24/2018  04:58 PM        16,197,879 apache-groovy-docs-2.5.4.zip
+11/24/2018  04:58 PM               838 apache-groovy-docs-2.5.4.zip.asc
+11/24/2018  04:58 PM                66 apache-groovy-docs-2.5.4.zip.sha256
+11/24/2018  05:07 PM        78,420,037 gradle-4.10.2-bin.zip
+11/24/2018  05:07 PM                64 gradle-4.10.2-bin.zip.sha256
+11/24/2018  05:09 PM       116,855,693 gradle-4.10.2-all.zip
+11/24/2018  05:10 PM                64 gradle-4.10.2-all.zip.sha256
+11/24/2018  05:19 PM         9,061,269 apache-ant-1.10.5-bin.zip
+11/24/2018  05:19 PM               224 apache-ant-1.10.5-bin.zip.asc
+11/24/2018  05:19 PM                41 apache-ant-1.10.5-bin.zip.sha1
+11/24/2018  05:20 PM               129 apache-ant-1.10.5-bin.zip.sha512
+11/24/2018  05:20 PM         8,718,291 apache-ant-1.9.13-bin.zip
+11/24/2018  05:20 PM               224 apache-ant-1.9.13-bin.zip.asc
+11/24/2018  05:20 PM                41 apache-ant-1.9.13-bin.zip.sha1
+11/24/2018  05:21 PM               129 apache-ant-1.9.13-bin.zip.sha512
+11/24/2018  05:21 PM         6,108,214 apache-ant-1.10.5-bin.tar.gz
+11/24/2018  05:21 PM               224 apache-ant-1.10.5-bin.tar.gz.asc
+11/24/2018  05:21 PM                41 apache-ant-1.10.5-bin.tar.gz.sha1
+11/24/2018  05:21 PM               129 apache-ant-1.10.5-bin.tar.gz.sha512
+11/24/2018  05:22 PM         5,829,814 apache-ant-1.9.13-bin.tar.gz
+11/24/2018  05:22 PM               224 apache-ant-1.9.13-bin.tar.gz.asc
+11/24/2018  05:22 PM                41 apache-ant-1.9.13-bin.tar.gz.sha1
+11/24/2018  05:22 PM               129 apache-ant-1.9.13-bin.tar.gz.sha512
+11/24/2018  05:22 PM         4,730,768 apache-ant-1.10.5-bin.tar.bz2
+11/24/2018  05:22 PM               224 apache-ant-1.10.5-bin.tar.bz2.asc
+11/24/2018  05:22 PM                41 apache-ant-1.10.5-bin.tar.bz2.sha1
+11/24/2018  05:23 PM               129 apache-ant-1.10.5-bin.tar.bz2.sha512
+11/24/2018  05:23 PM         4,485,344 apache-ant-1.9.13-bin.tar.bz2
+11/24/2018  05:23 PM               224 apache-ant-1.9.13-bin.tar.bz2.asc
+11/24/2018  05:23 PM                41 apache-ant-1.9.13-bin.tar.bz2.sha1
+11/24/2018  05:23 PM               129 apache-ant-1.9.13-bin.tar.bz2.sha512
+11/24/2018  05:23 PM         4,469,364 apache-ant-1.10.5-bin.tar.xz
+11/24/2018  05:23 PM               248 apache-ant-1.10.5-bin.tar.xz.asc
+11/24/2018  05:24 PM                41 apache-ant-1.10.5-bin.tar.xz.sha1
+11/24/2018  05:24 PM               129 apache-ant-1.10.5-bin.tar.xz.sha512
+11/24/2018  06:00 PM        69,750,595 jre-8u191-windows-i586.tar.gz
+11/24/2018  06:01 PM        74,618,232 jre-8u191-windows-x64.exe
+11/24/2018  06:01 PM        74,789,282 jre-8u191-windows-x64.tar.gz
+11/24/2018  06:01 PM        69,729,387 jre-8u192-windows-i586.tar.gz
+11/24/2018  06:01 PM        74,830,712 jre-8u192-windows-x64.exe
+11/24/2018  06:02 PM        74,752,577 jre-8u192-windows-x64.tar.gz
+11/24/2018  06:04 PM        51,273,928 server-jre-8u191-windows-x64.tar.gz
+11/24/2018  06:05 PM        51,273,709 server-jre-8u192-windows-x64.tar.gz
+11/24/2018  06:05 PM            10,221 8u191checksum.html
+11/24/2018  06:05 PM             9,688 8u192checksum.html
+11/24/2018  06:07 PM             5,535 11-0-1checksum.html
+11/24/2018  06:11 PM       575,456,936 ideaIU-2018.3.exe
+11/24/2018  06:12 PM                84 ideaIU-2018.3.exe.sha256
+11/24/2018  06:12 PM       756,751,953 ideaIU-2018.3.win.zip
+11/24/2018  06:13 PM                88 ideaIU-2018.3.win.zip.sha256
+11/24/2018  06:14 PM       464,010,808 ideaIC-2018.3.exe
+11/24/2018  06:14 PM                84 ideaIC-2018.3.exe.sha256
+11/24/2018  06:15 PM       610,918,045 ideaIC-2018.3.win.zip
+11/24/2018  06:15 PM                88 ideaIC-2018.3.win.zip.sha256
+11/24/2018  06:28 PM        11,881,669 The_Joy_of_Kotlin_v8.pdf
+11/24/2018  06:29 PM         6,188,539 React_Native_in_Action_v16.pdf
+11/24/2018  06:30 PM         8,344,845 Get_Programming_with_Node.js_v7.pdf
+11/24/2018  06:30 PM        22,762,293 Angular_Development_with_Typescript_Sec_v7.pdf
+11/24/2018  06:30 PM        16,068,912 The_Java_Module_System_v10.pdf
+11/24/2018  06:30 PM        12,329,489 Docker_in_Practice_Second_Edition_v6.pdf
+11/24/2018  06:31 PM        17,660,243 Spring_in_Action_Fifth_Edition.pdf
+11/24/2018  06:32 PM         8,701,188 Modern_Java_in_Action.pdf
+11/24/2018  06:32 PM        42,019,941 Amazon_Web_Services_in_Action_Second_Ed.pdf
+11/24/2018  06:33 PM        10,516,183 Angular_in_Action.pdf
+11/24/2018  06:33 PM        10,253,121 The_Quick_Python_Book_Third_Edition.pdf
+11/24/2018  06:34 PM        24,548,413 Get_Programming_with_JavaScript_Next.pdf
+11/24/2018  06:34 PM        33,447,640 Get_Programming.pdf
+11/24/2018  06:35 PM        12,248,153 Kubernetes_in_Action.pdf
+11/24/2018  06:35 PM        17,652,207 D3.js_in_Action_Second_Edition.pdf
+11/24/2018  06:35 PM        57,546,763 iOS_Development_with_Swift.pdf
+11/24/2018  06:36 PM        20,511,250 Spring_Microservices_in_Action.pdf
+11/24/2018  06:36 PM         9,311,364 Kotlin_in_Action.pdf
+11/24/2018  06:36 PM        14,833,353 Angular_2_Development_with_TypeScript.pdf
+11/24/2018  06:37 PM        17,653,928 ActiveMQ_in_Action_v1.pdf
+11/24/2018  06:39 PM           221,907 AMQinA-src.zip
+11/24/2018  07:17 PM        45,660,864 VSCodeUserSetup-x64-1.29.1.exe
+11/24/2018  07:18 PM        45,660,568 VSCodeSetup-x64-1.29.1.exe
+11/24/2018  07:18 PM        67,496,226 VSCode-win32-x64-1.29.1.zip
+11/24/2018  07:24 PM         9,142,656 Sublime Text Build 3176 x64 Setup(1).exe
+11/24/2018  07:24 PM        11,193,365 Sublime Text Build 3176 x64(1).zip
+11/24/2018  07:24 PM         8,318,688 Sublime Text Build 3176 Setup(1).exe
+11/24/2018  07:24 PM        10,020,957 Sublime Text Build 3176(1).zip
+11/25/2018  07:12 AM           187,320 2018-03-13-raspbian-stretch.info
+11/25/2018  07:13 AM           187,560 2018-04-18-raspbian-stretch.info
+11/25/2018  07:16 AM           182,197 2018-06-27-raspbian-stretch.info
+11/25/2018  07:17 AM     1,747,608,337 2018-06-27-raspbian-stretch.zip
+11/25/2018  07:18 AM                74 2018-06-27-raspbian-stretch.zip.sha1
+11/25/2018  07:18 AM                98 2018-06-27-raspbian-stretch.zip.sha256
+11/25/2018  07:19 AM               473 2018-06-27-raspbian-stretch.zip.sig
+11/25/2018  07:20 AM           183,022 2018-10-09-raspbian-stretch.info
+11/25/2018  07:22 AM     1,431,204,144 2018-10-09-raspbian-stretch.zip
+11/25/2018  07:24 AM                74 2018-10-09-raspbian-stretch.zip.sha1
+11/25/2018  07:24 AM                98 2018-10-09-raspbian-stretch.zip.sha256
+11/25/2018  07:25 AM               473 2018-10-09-raspbian-stretch.zip.sig
+11/25/2018  07:25 AM           162,935 2018-11-13-raspbian-stretch.info
+11/25/2018  07:26 AM     1,084,899,556 2018-11-13-raspbian-stretch.zip
+11/25/2018  07:26 AM                74 2018-11-13-raspbian-stretch.zip.sha1
+11/25/2018  07:26 AM                98 2018-11-13-raspbian-stretch.zip.sha256
+11/25/2018  07:26 AM               473 2018-11-13-raspbian-stretch.zip.sig
+11/25/2018  07:33 AM           203,500 2018-11-13-raspbian-stretch-full.info
+11/25/2018  07:34 AM     1,978,611,497 2018-11-13-raspbian-stretch-full.zip
+11/25/2018  07:35 AM                79 2018-11-13-raspbian-stretch-full.zip.sha1
+11/25/2018  07:35 AM               103 2018-11-13-raspbian-stretch-full.zip.sha256
+11/25/2018  07:35 AM               473 2018-11-13-raspbian-stretch-full.zip.sig
+             423 File(s) 48,748,634,785 bytes
+               8 Dir(s)  356,387,651,584 bytes free
+
+C:\Users\David Holberton\Downloads>
+'''
