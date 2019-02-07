@@ -108,4 +108,44 @@ Message: Client does not support authentication protocol requested by server; co
 |    382 | getInstance        in     ''
 |   1013 | createSQLException in com.mysql.jdbc.SQLError
 |   3593 | checkErrorPacket   in com.mysql.jdbc.MysqlIO
+
+C:\Users\David Holberton\.m2\repository\mysql\mysql-connector-java>dir /o:gd /s
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\.m2\repository\mysql\mysql-connector-java
+
+02/06/2019  09:31 AM    <DIR>          5.1.14
+02/07/2019  04:27 AM    <DIR>          ..
+02/07/2019  04:27 AM    <DIR>          .
+02/07/2019  04:27 AM    <DIR>          8.0.14
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\David Holberton\.m2\repository\mysql\mysql-connector-java\5.1.14
+
+02/06/2019  09:31 AM    <DIR>          ..
+02/06/2019  09:31 AM    <DIR>          .
+02/06/2019  09:31 AM             1,105 mysql-connector-java-5.1.14.pom
+02/06/2019  09:31 AM                74 mysql-connector-java-5.1.14.pom.sha1
+02/06/2019  09:31 AM           775,688 mysql-connector-java-5.1.14.jar
+02/06/2019  09:31 AM               229 _remote.repositories
+02/06/2019  09:31 AM                41 mysql-connector-java-5.1.14.jar.sha1
+               5 File(s)        777,137 bytes
+
+ Directory of C:\Users\David Holberton\.m2\repository\mysql\mysql-connector-java\8.0.14
+
+02/07/2019  04:27 AM    <DIR>          ..
+02/07/2019  04:27 AM    <DIR>          .
+02/07/2019  04:27 AM             1,068 mysql-connector-java-8.0.14.pom
+02/07/2019  04:27 AM                41 mysql-connector-java-8.0.14.pom.sha1
+02/07/2019  04:27 AM         2,134,907 mysql-connector-java-8.0.14.jar
+02/07/2019  04:27 AM                41 mysql-connector-java-8.0.14.jar.sha1
+02/07/2019  04:27 AM               229 _remote.repositories
+               5 File(s)      2,136,286 bytes
+
+     Total Files Listed:
+              10 File(s)      2,913,423 bytes
+               8 Dir(s)  268,309,413,888 bytes free
+
+C:\Users\David Holberton\.m2\repository\mysql\mysql-connector-java>
 ```
