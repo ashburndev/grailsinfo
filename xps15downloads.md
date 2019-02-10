@@ -13,8 +13,11 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 03/15/2018  07:41 AM    <DIR>          tmp
 12/02/2018  11:12 AM    <DIR>          books
 01/30/2019  11:14 AM    <DIR>          temp
-01/31/2019  05:27 AM    <DIR>          .
-01/31/2019  05:27 AM    <DIR>          ..
+02/05/2019  03:48 PM    <DIR>          foo
+02/09/2019  01:36 PM    <DIR>          bar
+02/10/2019  07:14 AM    <DIR>          Downloads for Amazon Corretto 8 - Amazon Corretto 8_files
+02/10/2019  07:24 AM    <DIR>          ..
+02/10/2019  07:24 AM    <DIR>          .
 06/08/2017  07:22 AM         1,130,328 ChromeSetup.exe
 06/08/2017  07:26 AM           246,056 Firefox Setup Stub 53.0.3.exe
 06/08/2017  07:35 AM       207,649,848 jdk-8u131-windows-x64.exe
@@ -467,8 +470,41 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 01/31/2019  05:26 AM        93,792,495 jdk-8u202-docs-all.zip
 01/31/2019  05:27 AM        10,565,807 javafx-8u202-apidocs.zip
 01/31/2019  05:27 AM        51,570,202 jdk-11.0.2_doc-all.zip
-             452 File(s) 52,723,234,539 bytes
-              10 Dir(s)  268,082,237,440 bytes free
+02/06/2019  09:18 AM        45,936,840 VSCodeUserSetup-x64-1.30.2.exe
+02/06/2019  09:18 AM        45,936,624 VSCodeSetup-x64-1.30.2.exe
+02/06/2019  09:20 AM        67,975,274 VSCode-win32-x64-1.30.2.zip
+02/08/2019  06:19 AM        48,939,360 VSCodeUserSetup-x64-1.31.0.exe
+02/08/2019  06:22 AM        48,939,336 VSCodeSetup-x64-1.31.0.exe
+02/08/2019  06:23 AM        71,661,762 VSCode-win32-x64-1.31.0.zip
+02/09/2019  11:49 AM        87,430,521 gradle-5.2.1-bin.zip
+02/09/2019  11:49 AM                64 gradle-5.2.1-bin.zip.sha256
+02/09/2019  11:53 AM       132,549,774 gradle-5.2.1-all.zip
+02/09/2019  11:54 AM                64 gradle-5.2.1-all.zip.sha256
+02/09/2019  12:11 PM        29,977,599 apache-groovy-binary-2.5.6.zip
+02/09/2019  12:12 PM               838 apache-groovy-binary-2.5.6.zip.asc
+02/09/2019  12:12 PM                66 apache-groovy-binary-2.5.6.zip.sha256
+02/09/2019  12:13 PM        17,198,864 apache-groovy-docs-2.5.6.zip
+02/09/2019  12:14 PM               838 apache-groovy-docs-2.5.6.zip.asc
+02/09/2019  12:14 PM                66 apache-groovy-docs-2.5.6.zip.sha256
+02/09/2019  12:52 PM       350,224,720 eclipse-jee-2018-12-R-win32-x86_64.zip
+02/09/2019  12:55 PM               168 eclipse-jee-2018-12-R-win32-x86_64.zip.sha512
+02/09/2019  01:11 PM       193,191,007 eclipse-java-2018-12-R-win32-x86_64.zip
+02/09/2019  01:13 PM               169 eclipse-java-2018-12-R-win32-x86_64.zip.sha512
+02/09/2019  01:19 PM        51,108,160 eclipse-inst-win64(3).exe
+02/09/2019  01:21 PM               152 eclipse-inst-win64(3).exe.sha512
+02/10/2019  07:14 AM            39,789 Downloads for Amazon Corretto 8 - Amazon Corretto 8.html
+02/10/2019  07:20 AM       110,860,800 amazon-corretto-8.202.08.2-windows-x86.msi
+02/10/2019  07:20 AM       125,583,723 amazon-corretto-8.202.08.2-windows-x86-jdk.zip
+02/10/2019  07:21 AM               287 amazon-corretto-8.202.08.2-windows-x86-jdk.zip.sig
+02/10/2019  07:21 AM        45,500,623 amazon-corretto-8.202.08.2-windows-x86-jre.zip
+02/10/2019  07:21 AM               287 amazon-corretto-8.202.08.2-windows-x86-jre.zip.sig
+02/10/2019  07:22 AM       112,288,768 amazon-corretto-8.202.08.2-windows-x64.msi
+02/10/2019  07:22 AM       126,342,436 amazon-corretto-8.202.08.2-windows-x64-jdk.zip
+02/10/2019  07:22 AM               287 amazon-corretto-8.202.08.2-windows-x64-jdk.zip.sig
+02/10/2019  07:22 AM        46,281,918 amazon-corretto-8.202.08.2-windows-x64-jre.zip
+02/10/2019  07:23 AM               287 amazon-corretto-8.202.08.2-windows-x64-jre.zip.sig
+             485 File(s) 54,481,206,010 bytes
+              13 Dir(s)  264,726,814,720 bytes free
 
 C:\Users\David Holberton\Downloads>
 ```
