@@ -53,9 +53,7 @@ https://support.symantec.com/content/unifiedweb/en_US/article.DOC9306.html
 PGP Command Line 10.4.x User's Guide (March 29, 2018)
 https://support.symantec.com/content/unifiedweb/en_US/article.DOC9492.html
 
-https://symwisedownload.symantec.com//resources/sites/SYMWISE/content/live/DOCUMENTATION/9000/DOC9492/en_US/pgpCmdline_10_4_2_usersguide_en.pdf?
-
-__gda__=1530783977_ea77e142af609eb690bb817ffb0555ac
+https://symwisedownload.symantec.com//resources/sites/SYMWISE/content/live/DOCUMENTATION/9000/DOC9492/en_US/pgpCmdline_10_4_2_usersguide_en.pdf?__gda__=1530783977_ea77e142af609eb690bb817ffb0555ac
 
 https://stackoverflow.com/questions/21645071/using-gradle-to-find-dependency-tree
 https://docs.gradle.org/current/userguide/userguide_single.html#project_reports_plugin
@@ -145,4 +143,138 @@ https://tomcat.apache.org/tomcat-8.5-doc/ssl-howto.html
 https://docs.oracle.com/cd/E19509-01/820-3503/6nf1il6er/index.html
 https://stackoverflow.com/questions/47434877/how-to-generate-keystore-and-truststore
 https://www.ibm.com/support/knowledgecenter/en/SSWRCJ_4.1.0/com.ibm.safos.doc_4.1/e2e_create_truststore.html
+
+http://javahowto.blogspot.com/2014/07/javautilproperties-and-character.html
+
+https://ec.haxx.se/usingcurl-smtp.html
+https://curl.haxx.se/docs/sslcerts.html
+https://stackoverflow.com/questions/10523147/what-are-the-curl-smtp-command-line-arguments-to-support-gmail-tls-starttls-vs-s
+
+https://www.symantec.com/connect/forums/understanding-pgp-command-line-license-expiration-and-purpose-upg-assurance-purchase
+
+https://support.symantec.com/en_US/article.DOC6231.html
+
+https://support.symantec.com/en_US/article.DOC6231.html
+
+
+https://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html
+https://en.wikipedia.org/wiki/Java_Cryptography_Extension
+https://golb.hplar.ch/2017/10/JCE-policy-changes-in-Java-SE-8u151-and-8u152.html
+https://dzone.com/articles/install-java-cryptography-extension-jce-unlimited
+https://www.oracle.com/technetwork/java/javase/8u151-relnotes-3850493.html
+
+https://docs.oracle.com/javase/8/docs/technotes/guides/security/crypto/CryptoSpec.html
+https://docs.oracle.com/javase/9/security/java-cryptography-architecture-jca-reference-guide.htm#JSSEC-GUID-F2CF205E-744E-4C16-B504-B6F79781E762
+https://docs.oracle.com/javase/9/migrate/toc.htm#JSMIG-GUID-D6EE05FB-6791-43B3-A610-3F4416DEE508
+
+Security Updates
+
+Some security-related defaults have changed in JDK 9.
+JCE Jurisdiction Policy File Default is Unlimited
+
+If your application previously required the Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files, then you no longer need to download or install them. They are included in the JDK and are activated by default.
+
+If your country or usage requires a more restrictive policy, the limited Java cryptographic policy files are still available.
+
+If you have requirements that are not met by either of the policy files provided by default, then you can customize these policy files to meet your needs.
+
+See the crypto.policy Security property in the <java-home>/conf/security/java.security file, or Cryptographic Strength Configuration in the Java Platform, Standard Edition Security Developer's Guide.
+
+
+https://bugs.java.com/view_bug.do?bug_id=JDK-8170157
+https://www.oracle.com/technetwork/java/javase/8u161-relnotes-4021379.html
+
+
+security-libs/javax.crypto
+ Unlimited cryptography enabled by default
+
+The JDK uses the Java Cryptography Extension (JCE) Jurisdiction Policy files to configure cryptographic algorithm restrictions. Previously, the Policy files in the JDK placed limits on various algorithms. This release ships with both the limited and unlimited jurisdiction policy files, with unlimited being the default. The behavior can be controlled via the new 'crypto.policy' Security property found in the /lib/java.security file. Please refer to that file for more information on this property.
+
+
+http://docs.sublimetext.info/en/sublime-text-2/getting_started/install.html
+
+http://activemq.apache.org/getting-started.html#GettingStarted-OnWindows:
+
+https://www.sslshopper.com/article-how-to-create-a-self-signed-certificate.html
+
+https://www.sslshopper.com/article-how-to-create-and-install-an-apache-self-signed-certificate.html
+
+https://www.sslshopper.com/article-how-to-create-a-self-signed-certificate-using-java-keytool.html
+
+https://www.sslshopper.com/tomcat-ssl-installation-instructions.html
+
+
+limiting MS IE browser to one server
+
+https://www.itprotoday.com/compute-engines/how-can-i-use-group-policy-restrict-access-microsoft-internet-explorer-ie
+
+https://searchenterprisedesktop.techtarget.com/tip/Block-Internet-Explorer-Web-surfing-via-Group-Policy
+
+https://www.makeuseof.com/tag/block-windows-internet-explorer-accessing-internet/
+
+http://techgenix.com/restricting-specific-web-sites-internet-explorer-using-group-policy/
+
+https://en.wikipedia.org/wiki/PAC
+
+https://campus.barracuda.com/product/websecurityservice/doc/6553612/how-to-configure-proxy-settings-using-pac-files-and-wpad/
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Proxy_servers_and_tunneling/Proxy_Auto-Configuration_(PAC)_file
+
+https://en.wikipedia.org/wiki/Proxy_auto-config
+
+https://support.mozilla.org/en-US/kb/connection-settings-firefox
+
+https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Enterprise_deployment_before_60
+https://support.mozilla.org/en-US/kb/customizing-firefox-using-autoconfig
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+http://apache.mirrors.pair.com/tomcat/tomcat-8/
+http://apache.mirrors.pair.com/tomcat/tomcat-8/v8.5.37/
+http://apache.mirrors.pair.com/tomcat/tomcat-8/v8.5.37/bin/
+http://apache.mirrors.pair.com/tomcat/tomcat-8/v8.5.37/README.html
+http://apache.mirrors.pair.com/tomcat/tomcat-8/v8.5.37/RELEASE-NOTES
+
+http://apache.mirrors.pair.com/tomcat/tomcat-9/
+http://apache.mirrors.pair.com/tomcat/tomcat-9/v9.0.14/
+http://apache.mirrors.pair.com/tomcat/tomcat-9/v9.0.14/bin/
+http://apache.mirrors.pair.com/tomcat/tomcat-9/v9.0.14/README.html
+http://apache.mirrors.pair.com/tomcat/tomcat-9/v9.0.14/RELEASE-NOTES
+
+https://www.tutorialspoint.com/servlets/servlets-annotations.htm
+
+https://dev.mysql.com/doc/refman/8.0/en/windows-install-archive.html
+
+https://www.microsoft.com/en-us/download/details.aspx?id=53840
+
+https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html
+https://dev.mysql.com/doc/refman/5.5/en/mysqldump.html
+
+https://dev.mysql.com/downloads/connector/j/
+
+MySQL Connector/J 8.0 is highly recommended for use with MySQL Server 8.0, 5.7, 5.6, and 5.5. Please upgrade to MySQL Connector/J 8.0.
+
+
+https://aws.amazon.com/blogs/opensource/amazon-corretto-no-cost-distribution-openjdk-long-term-support/
+https://docs.aws.amazon.com/corretto/#lang/en_us
+https://aws.amazon.com/corretto/
+
+https://examples.javacodegeeks.com/enterprise-java/maven/apache-maven-eclipse-integration-tutorial/
+https://maven.apache.org/configure.html
+https://maven.apache.org/ide.html
+http://www.eclipse.org/m2e/
+
+https://maven.apache.org/guides/introduction/introduction-to-repositories.html
+https://maven.apache.org/guides/mini/guide-multiple-repositories.html
+https://maven.apache.org/pom.html#Repositories
+https://maven.apache.org/settings.html
+https://maven.apache.org/guides/mini/guide-configuring-maven.html
+https://stackoverflow.com/questions/5325407/how-to-set-order-of-repositories-in-maven-settings-xml
+https://developer.jboss.org/message/576851?_sscc=t
+https://stackoverflow.com/questions/2941605/sample-settings-xml-for-maven
+https://stackoverflow.com/questions/37286808/add-local-repository-to-maven-settings-xml
+https://examples.javacodegeeks.com/enterprise-java/maven/maven-settings-xml-example/
+https://crunchify.com/missing-maven-settings-xml-file-for-your-eclipse-what-if-you-need-two-settings-xml-file-for-work-personal-workspace/
+https://gist.github.com/ozkansari/5882919
+
 ```
