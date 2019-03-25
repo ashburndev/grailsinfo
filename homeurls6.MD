@@ -873,5 +873,37 @@ https://www.zdnet.com/pictures/how-to-clean-up-after-a-battery-leak/#ftag=CAD-00
 https://www.zdnet.com/pictures/raspberry-pi-essentials-accessories-to-take-your-single-board-projects-to-the-next-level/
 https://www.zdnet.com/pictures/repair-toolkit-essentials-for-smartphones-tablets-macs-and-pcs/
 
+https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html
+
+https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html
+
+https://www.oracle.com/technetwork/java/javase/jdk-relnotes-index-2162236.html
+
+https://docs.oracle.com/en/java/javase/12/install/overview-jdk-installation.html#GUID-8677A77F-231A-40F7-98B9-1FD0B48C346A
+
+https://docs.oracle.com/en/java/javase/12/install/installation-jdk-microsoft-windows-platforms.html#GUID-A7E27B90-A28D-4237-9383-A58B416071CA
+
+https://docs.oracle.com/en/java/javase/12/install/installed-directory-structure-jdk.html#GUID-F7178F2F-DC92-47E9-8062-CA6B2612D350
+
+https://jdk.java.net/12/
+
+https://docs.oracle.com/en/java/javase/12/tools/tools-and-command-reference.html
+
+https://www.eclipse.org/downloads/
+
+https://www.nextofwindows.com/5-ways-to-generate-and-verify-md5-sha-checksum-of-any-file-in-windows-10
+
+https://www.jetbrains.com/idea/download/#section=windows
+
+http://docs.grails.org/latest/guide/gettingStarted.html
+
+https://objectcomputing.com/news/2019/02/19/grails-4-milestone-1-released
+
+https://github.com/grails/grails-core/releases/tag/v4.0.0.M1
+
+http://docs.grails.org/4.0.x/guide/introduction.html#whatsNew
+
+http://docs.grails.org/4.0.x/guide/single.html
+
 
 ```
