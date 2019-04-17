@@ -1,8 +1,5 @@
 ```
 
-C:\Users\David Holberton\Downloads>date /t
-Mon 03/25/2019
-
 C:\Users\David Holberton\Downloads>dir /o:gd
  Volume in drive C has no label.
  Volume Serial Number is 4603-A8D3
@@ -21,8 +18,8 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 03/19/2019  08:17 PM    <DIR>          yui_2.8.0
 03/19/2019  09:38 PM    <DIR>          yuibookcode
 03/24/2019  12:13 PM    <DIR>          packtbooks
-03/24/2019  01:19 PM    <DIR>          ..
-03/24/2019  01:19 PM    <DIR>          .
+04/16/2019  09:02 PM    <DIR>          ..
+04/16/2019  09:02 PM    <DIR>          .
 06/08/2017  08:22 AM         1,130,328 ChromeSetup.exe
 06/08/2017  08:26 AM           246,056 Firefox Setup Stub 53.0.3.exe
 06/08/2017  08:35 AM       207,649,848 jdk-8u131-windows-x64.exe
@@ -552,10 +549,57 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 03/24/2019  01:00 PM       614,223,937 ideaIC-2018.3.5.win.zip
 03/24/2019  01:00 PM                90 ideaIC-2018.3.5.win.zip.sha256
 03/24/2019  01:19 PM       127,396,938 grails-4.0.0.M1.zip
-             529 File(s) 58,383,055,970 bytes
-              14 Dir(s)  267,966,251,008 bytes free
+04/07/2019  10:02 AM       318,063,051 incubating-netbeans-11.0-bin.zip
+04/07/2019  10:03 AM               165 incubating-netbeans-11.0-bin.zip.sha512
+04/07/2019  10:04 AM               833 incubating-netbeans-11.0-bin.zip.asc
+04/07/2019  10:21 AM       587,877,408 ideaIU-2019.1.exe
+04/07/2019  10:22 AM                84 ideaIU-2019.1.exe.sha256
+04/07/2019  10:23 AM       609,759,072 ideaIU-2019.1-jbr11.exe
+04/07/2019  10:23 AM                90 ideaIU-2019.1-jbr11.exe.sha256
+04/07/2019  10:25 AM       768,602,378 ideaIU-2019.1.win.zip
+04/07/2019  10:25 AM                88 ideaIU-2019.1.win.zip.sha256
+04/07/2019  10:26 AM       708,437,067 ideaIU-2019.1-jbr11.win.zip
+04/07/2019  10:26 AM                94 ideaIU-2019.1-jbr11.win.zip.sha256
+04/07/2019  10:28 AM       501,775,280 ideaIC-2019.1.exe
+04/07/2019  10:28 AM                84 ideaIC-2019.1.exe.sha256
+04/07/2019  10:29 AM       523,655,968 ideaIC-2019.1-jbr11.exe
+04/07/2019  10:29 AM                90 ideaIC-2019.1-jbr11.exe.sha256
+04/07/2019  10:30 AM       647,467,131 ideaIC-2019.1.win.zip
+04/07/2019  10:30 AM                88 ideaIC-2019.1.win.zip.sha256
+04/07/2019  10:31 AM       587,330,501 ideaIC-2019.1-jbr11.win.zip
+04/07/2019  10:32 AM                94 ideaIC-2019.1-jbr11.win.zip.sha256
+04/07/2019  10:39 AM       127,990,902 grails-4.0.0.M2.zip
+04/07/2019  10:41 AM        12,758,786 micronaut-1.0.5.zip
+04/16/2019  08:27 PM       212,458,336 jdk-8u211-windows-i586.exe
+04/16/2019  08:28 PM       225,748,832 jdk-8u211-windows-x64.exe
+04/16/2019  08:29 PM        59,782,690 jdk-8u211-windows-i586-demos.zip
+04/16/2019  08:29 PM        59,804,583 jdk-8u211-windows-x64-demos.zip
+04/16/2019  08:30 PM       212,484,448 jdk-8u212-windows-i586.exe
+04/16/2019  08:30 PM       225,718,112 jdk-8u212-windows-x64.exe
+04/16/2019  08:31 PM        59,781,895 jdk-8u212-windows-i586-demos.zip
+04/16/2019  08:31 PM        59,805,051 jdk-8u212-windows-x64-demos.zip
+04/16/2019  08:31 PM            10,018 8u211checksum.html
+04/16/2019  08:32 PM             9,485 8u212checksum.html
+04/16/2019  08:38 PM       166,190,448 jdk-12.0.1_windows-x64_bin.exe
+04/16/2019  08:38 PM       188,166,452 jdk-12.0.1_windows-x64_bin.zip
+04/16/2019  08:39 PM             5,194 12-0-1-checksum.html
+04/16/2019  08:43 PM        12,803,339 micronaut-1.1.0.zip
+04/16/2019  08:44 PM        12,980,777 micronaut-core-1.1.0.zip
+04/16/2019  08:44 PM         9,278,540 micronaut-core-1.1.0.tar.gz
+04/16/2019  08:57 PM       112,433,664 amazon-corretto-8.212.04.1-windows-x64.msi
+04/16/2019  08:57 PM       118,448,982 amazon-corretto-8.212.04.1-windows-x64-jdk.zip
+04/16/2019  08:58 PM        46,936,797 amazon-corretto-8.212.04.1-windows-x64-jre.zip
+04/16/2019  08:58 PM       110,955,008 amazon-corretto-8.212.04.1-windows-x86.msi
+04/16/2019  08:59 PM       117,592,967 amazon-corretto-8.212.04.1-windows-x86-jdk.zip
+04/16/2019  08:59 PM        46,130,734 amazon-corretto-8.212.04.1-windows-x86-jre.zip
+04/16/2019  09:00 PM               287 amazon-corretto-8.212.04.1-windows-x64-jdk.zip.sig
+04/16/2019  09:00 PM               287 amazon-corretto-8.212.04.1-windows-x64-jre.zip.sig
+04/16/2019  09:00 PM               287 amazon-corretto-8.212.04.1-windows-x86-jdk.zip.sig
+04/16/2019  09:00 PM               287 amazon-corretto-8.212.04.1-windows-x86-jre.zip.sig
+04/16/2019  09:03 PM             2,683 amazon-corretto-8.212.04.1.md5.txt
+             577 File(s) 65,834,305,407 bytes
+              14 Dir(s)  252,676,366,336 bytes free
 
 C:\Users\David Holberton\Downloads>
 
 ```
-
