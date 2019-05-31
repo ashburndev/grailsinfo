@@ -730,4 +730,10 @@ https://www.w3schools.com/tags/ev_onchange.asp
 https://www.youtube.com/watch?v=FHdPFo5KWew&list=PLZvUh8gmpi-ABuHt_IPS4jCrh_ncyhDlK
 https://www.youtube.com/watch?v=mg_pDqszL3g
 
+https://www.mkyong.com/spring-mvc/spring-mvc-hidden-value-example/
+https://www.mkyong.com/spring-mvc/gradle-spring-4-mvc-hello-world-example-annotation/
+https://www.mkyong.com/spring-mvc/gradle-spring-mvc-web-project-example/
+https://www.mkyong.com/spring-mvc/spring-mvc-dropdown-box-example/
+https://www.mkyong.com/spring-mvc/spring-mvc-and-list-example/
+
 ```
