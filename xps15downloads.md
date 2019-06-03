@@ -1,7 +1,7 @@
 ```
 
 C:\Users\David Holberton\Downloads>date /t
-Fri 04/26/2019
+Mon 06/03/2019
 
 C:\Users\David Holberton\Downloads>dir /o:gd
  Volume in drive C has no label.
@@ -22,14 +22,13 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 03/19/2019  09:38 PM    <DIR>          yuibookcode
 03/24/2019  12:13 PM    <DIR>          packtbooks
 04/25/2019  07:55 AM    <DIR>          Downloads for Amazon Corretto 11 - Amazon Corretto_files
-04/26/2019  07:18 AM    <DIR>          .
-04/26/2019  07:18 AM    <DIR>          ..
+06/02/2019  10:56 AM    <DIR>          .
+06/02/2019  10:56 AM    <DIR>          ..
 06/08/2017  08:22 AM         1,130,328 ChromeSetup.exe
 06/08/2017  08:26 AM           246,056 Firefox Setup Stub 53.0.3.exe
 06/08/2017  08:35 AM       207,649,848 jdk-8u131-windows-x64.exe
 06/08/2017  08:35 AM        56,436,260 jdk-8u131-windows-x64-demos.zip
 06/08/2017  08:39 AM       230,883,184 netbeans-8.2-windows.exe
-06/08/2017  08:40 AM       230,883,184 netbeans-8.2-windows (1).exe
 06/08/2017  08:43 AM        47,791,424 eclipse-inst-win64.exe
 06/08/2017  08:44 AM        47,791,424 eclipse-inst-win64 (1).exe
 06/08/2017  08:47 AM       319,075,640 eclipse-jee-neon-3-win32-x86_64.zip
@@ -93,7 +92,6 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 10/09/2017  05:14 PM         1,381,582 7z1604-x64.exe
 10/09/2017  05:20 PM        41,365,728 Etcher-Setup-1.1.2-x64.exe
 10/09/2017  05:21 PM        41,110,680 Etcher-Portable-1.1.2-x64.exe
-10/09/2017  05:31 PM             7,849 stuff-20171009.txt
 11/28/2017  11:20 PM       373,778,744 ideaIC-2017.2.6.exe
 11/28/2017  11:21 PM                86 ideaIC-2017.2.6.exe.sha256
 11/28/2017  11:28 PM       532,968,776 ideaIU-2017.2.6.exe
@@ -271,8 +269,7 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 08/25/2018  11:08 AM                86 ideaIC-2018.2.2.exe.sha256
 08/25/2018  11:11 AM       582,229,011 ideaIC-2018.2.2.win.zip
 08/25/2018  11:12 AM                90 ideaIC-2018.2.2.win.zip.sha256
-08/25/2018  11:22 AM            17,001 incubating-netbeans-java-9.0-bin.zip
-08/26/2018  09:37 AM       169,301,845 incubating-netbeans-java-9.0-bin(1).zip
+08/26/2018  09:37 AM       169,301,845 incubating-netbeans-java-9.0-bin.zip
 08/26/2018  09:38 AM               874 incubating-netbeans-java-9.0-bin.zip.asc
 08/26/2018  09:39 AM                79 incubating-netbeans-java-9.0-bin.zip.sha1
 08/29/2018  06:53 AM            37,537 KEYS-tomcat.txt
@@ -337,7 +334,6 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 11/24/2018  05:15 PM           178,669 KEYS-maven.txt
 11/24/2018  05:34 PM       422,459,131 spring-tool-suite-3.9.6.RELEASE-e4.9.0-win32-x86_64.zip
 11/24/2018  05:35 PM       422,324,228 spring-tool-suite-3.9.6.RELEASE-e4.9.0-win32.zip
-11/24/2018  05:49 PM       169,301,845 incubating-netbeans-java-9.0-bin(2).zip
 11/24/2018  05:56 PM        53,700,822 apache-groovy-sdk-2.5.4.zip
 11/24/2018  05:57 PM        29,847,597 apache-groovy-binary-2.5.4.zip
 11/24/2018  05:57 PM               838 apache-groovy-binary-2.5.4.zip.asc
@@ -609,7 +605,14 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 04/26/2019  07:16 AM       158,309,744 jdk-11.0.3_windows-x64_bin.exe
 04/26/2019  07:17 AM       179,303,482 jdk-11.0.3_windows-x64_bin.zip
 04/26/2019  07:18 AM             5,590 11-0-3-checksum.html
-             585 File(s) 66,650,589,007 bytes
-              15 Dir(s)  255,512,141,824 bytes free
+06/02/2019  10:39 AM       100,695,418 grails-3.3.10.zip
+06/02/2019  10:42 AM         9,317,063 grails-docs-3.3.10.zip
+06/02/2019  10:45 AM        12,807,913 micronaut-1.1.2.zip
+06/02/2019  10:55 AM       420,544,623 spring-tool-suite-3.9.8.RELEASE-e4.11.0-win32-x86_64.zip
+06/02/2019  10:56 AM       386,668,725 spring-tool-suite-4-4.2.2.RELEASE-e4.11.0-win32.win32.x86_64.zip
+             586 File(s) 67,180,412,870 bytes
+              15 Dir(s)  241,922,867,200 bytes free
+
+C:\Users\David Holberton\Downloads>
 
 ```
