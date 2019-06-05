@@ -771,4 +771,9 @@ https://www.zdnet.com/article/all-chromebooks-will-also-be-linux-laptops-going-f
 https://www.zdnet.com/article/programming-languages-why-javascript-developers-are-choosing-typescript/
 https://www.zdnet.com/pictures/the-best-raspberry-pi-alternatives/
 
+
+https://github.com/grails/grails-core/releases/tag/v4.0.0.RC2
+https://thehill.com/policy/cybersecurity/446963-nsa-warns-microsoft-windows-users-to-update-systems-to-protect-against
+https://www.javacodegeeks.com/2014/04/java-interview-questions-and-answers.html
+
 ```
