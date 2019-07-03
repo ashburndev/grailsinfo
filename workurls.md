@@ -623,4 +623,105 @@ https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html
 
 https://www.mkyong.com/spring-mvc/spring-mvc-hidden-value-example/
 
+
+
+1:41 PM 6/19/2019
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+script tag type attribute
+
+https://www.w3schools.com/tags/att_script_type.asp
+
+In HTML5, the type attribute is no longer required for JavaScript. The default value is "application/javascript".
+
+https://www.w3schools.com/tags/tag_script.asp
+
+https://stackoverflow.com/questions/4195427/is-the-type-attribute-necessary-for-script-tags
+
+For HTML 5, it is optional. If it is not specified, it defaults to text/javascript.
+
+The HTML 5.2 standard (late 2017) says you should omit the type attribute.
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script
+
+The HTML5 specification urges authors to omit the attribute
+
+https://www.tutorialspoint.com/html/html_script_tag.htm
+
+https://www.w3.org/TR/REC-html40/interact/scripts.html
+
+http://javascriptkit.com/javatutors/languageattri.shtml
+
+https://eager.io/blog/everything-I-know-about-the-script-tag/
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+grails resource plugin disable compression
+
+https://www.oodlestechnologies.com/blogs/Importance-of-Grails-asset-pipeline-plugin/
+
+ <script type="application/javascript">
+   document.getElementById("demo").innerHTML = "Hello JavaScript!";
+ </script> 
+
+Development mode all CSS and JS will be include as individual tags. For other environment, bundling is enabled and can be forced also in development mode by using
+
+grails.assets.bundle=true //enable bundling on development mode
+
+During WAR build assets minified.By default this feature is enabled and to disable this feature, use
+
+grails.assets.minifyJs = false //disable minification during WAR build
+
+
+
+
+
+
+https://grails-plugins.github.io/grails-resources/guide/9.%20Configuration.html
+
+You can turn off resource processing completely with the trivial Config variable:
+
+grails.resources.processing.enabled = false
+
+https://github.com/rosenfeld/grails-resources-example/blob/master/grails-app/conf/Config.groovy
+
+grails.views.gsp.sitemesh.preprocess = true   // enable Sitemesh preprocessing of GSP pages
+
+http://www.prosperasoft.com/blog/grails/how-to-configure-amazon-cloud-front-with-grails-web-application/
+
+grails.resources.mappers.bundle.excludes = ['**/*']
+
+https://objectcomputing.com/resources/publications/sett/july-2017-web-app-step-by-step-grails-edition
+
+https://objectcomputing.com/news/2017/06/28/grails-vs-spring-boot
+
+
+
+	
+
+7:45 AM 6/20/2019
+
+https://yui.github.io/yui2/docs/yui_2.8.1/docs/YAHOO.lang.JSON.html
+
+6:14 PM 7/3/2019
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+yui table checkbox cell
+
+https://yuilibrary.com/yui/docs/datatable/
+https://yuilibrary.com/yui/docs/datatable/datatable-chkboxselect.html
+https://yuilibrary.com/forum-archive/forum/viewtopic.php@f=92&t=11998.html
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+yui 2.8 table checkbox cell
+
+http://yui.github.io/yui2/docs/yui_2.9.0_full/datatable/
+
+
+
 ```
