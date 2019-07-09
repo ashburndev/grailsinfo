@@ -724,4 +724,35 @@ http://yui.github.io/yui2/docs/yui_2.9.0_full/datatable/
 
 
 
+
+2:12 PM 7/9/2019
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+yui table checkbox cell
+
+https://yuilibrary.com/yui/docs/datatable/
+https://yuilibrary.com/yui/docs/datatable/datatable-chkboxselect.html
+https://yuilibrary.com/forum-archive/forum/viewtopic.php@f=92&t=11998.html
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+yui 2.8 table checkbox cell
+
+http://yui.github.io/yui2/docs/yui_2.9.0_full/datatable/
+
+yahoo yui 2 datatable
+
+https://yui.github.io/yui2/docs/yui_2.9.0_full/datatable/index.html
+https://yui.github.io/yui2/docs/yui_2.9.0_full/examples/datatable/index.html
+https://yui.github.io/yui2/docs/yui_2.9.0_full/examples/datatable/dt_basic.html
+https://yui.github.io/yui2/docs/yui_2.9.0_full/examples/datatable/dt_enhanced.html
+https://yui.github.io/yui2/docs/yui_2.9.0_full/examples/datatable/dt_formatting.html
+https://yui.github.io/yui2/docs/yui_2.9.0_full/examples/datatable/dt_clientsorting.html
+https://yui.github.io/yui2/docs/yui_2.9.0_full/examples/datatable/dt_rowselect.html
+https://yui.github.io/yui2/docs/yui_2.9.0_full/examples/datatable/dt_cellselect.html
+
+
+
+
 ```
