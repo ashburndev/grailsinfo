@@ -1,8 +1,5 @@
 ```
 
-C:\Users\David Holberton\Downloads>date /t
-Mon 06/03/2019
-
 C:\Users\David Holberton\Downloads>dir /o:gd
  Volume in drive C has no label.
  Volume Serial Number is 4603-A8D3
@@ -22,8 +19,9 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 03/19/2019  09:38 PM    <DIR>          yuibookcode
 03/24/2019  12:13 PM    <DIR>          packtbooks
 04/25/2019  07:55 AM    <DIR>          Downloads for Amazon Corretto 11 - Amazon Corretto_files
-06/02/2019  10:56 AM    <DIR>          .
-06/02/2019  10:56 AM    <DIR>          ..
+07/11/2019  06:52 AM    <DIR>          yuiprojects
+07/31/2019  08:05 AM    <DIR>          .
+07/31/2019  08:05 AM    <DIR>          ..
 06/08/2017  08:22 AM         1,130,328 ChromeSetup.exe
 06/08/2017  08:26 AM           246,056 Firefox Setup Stub 53.0.3.exe
 06/08/2017  08:35 AM       207,649,848 jdk-8u131-windows-x64.exe
@@ -610,8 +608,57 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 06/02/2019  10:45 AM        12,807,913 micronaut-1.1.2.zip
 06/02/2019  10:55 AM       420,544,623 spring-tool-suite-3.9.8.RELEASE-e4.11.0-win32-x86_64.zip
 06/02/2019  10:56 AM       386,668,725 spring-tool-suite-4-4.2.2.RELEASE-e4.11.0-win32.win32.x86_64.zip
-             586 File(s) 67,180,412,870 bytes
-              15 Dir(s)  241,922,867,200 bytes free
+06/12/2019  07:06 AM            53,865 demojsp.zip
+06/23/2019  11:05 AM       363,294,288 eclipse-jee-2019-06-R-win32-x86_64.zip
+06/23/2019  11:07 AM               169 eclipse-jee-2019-06-R-win32-x86_64.zip.sha512
+06/23/2019  11:08 AM       204,969,496 eclipse-java-2019-06-R-win32-x86_64.zip
+06/23/2019  11:10 AM               169 eclipse-java-2019-06-R-win32-x86_64.zip.sha512
+06/23/2019  11:13 AM       425,591,485 spring-tool-suite-3.9.9.RELEASE-e4.12.0-win32-x86_64.zip
+06/23/2019  11:14 AM       391,772,153 spring-tool-suite-4-4.3.0.RELEASE-e4.12.0-win32.win32.x86_64.zip
+06/23/2019  11:18 AM       128,502,403 grails-4.0.0.RC2.zip
+06/23/2019  11:18 AM        14,000,451 grails-core-4.0.0.RC2.zip
+06/23/2019  11:51 AM            54,382 sb216javmavjar.zip
+06/23/2019  11:52 AM            54,889 sb216javmavwar.zip
+06/23/2019  11:53 AM            58,600 sb216javgrajar.zip
+06/23/2019  11:53 AM            59,098 sb216javgrawar.zip
+06/23/2019  12:02 PM            54,528 sb216gromavjar.zip
+06/23/2019  12:02 PM            55,026 sb216gromavwar.zip
+06/23/2019  12:03 PM            58,629 sb216grograjar.zip
+06/23/2019  12:03 PM            59,121 sb216grograwar.zip
+06/23/2019  12:58 PM        12,808,283 micronaut-1.1.3.zip
+07/14/2019  10:13 AM        12,808,295 micronaut-1.1.4.zip
+07/14/2019  10:16 AM       128,526,095 grails-4.0.0.zip
+07/14/2019  10:16 AM         9,098,832 grails-docs-4.0.0.zip
+07/31/2019  07:43 AM       212,578,264 jdk-8u221-windows-i586.exe
+07/31/2019  07:45 AM       225,811,416 jdk-8u221-windows-x64.exe
+07/31/2019  07:45 AM        60,038,388 jdk-8u221-windows-i586-demos.zip
+07/31/2019  07:45 AM        60,061,032 jdk-8u221-windows-x64-demos.zip
+07/31/2019  07:48 AM       158,569,960 jdk-11.0.4_windows-x64_bin.exe
+07/31/2019  07:48 AM       179,565,714 jdk-11.0.4_windows-x64_bin.zip
+07/31/2019  07:49 AM       166,331,880 jdk-12.0.2_windows-x64_bin.exe
+07/31/2019  07:50 AM       188,291,265 jdk-12.0.2_windows-x64_bin.zip
+07/31/2019  07:52 AM             9,741 8u221checksum.html
+07/31/2019  07:52 AM             5,589 11-0-4-checksum.html
+07/31/2019  07:52 AM             5,450 12-0-2-checksum.html
+07/31/2019  07:54 AM       334,785,395 netbeans-11.1-bin.zip
+07/31/2019  07:55 AM               154 netbeans-11.1-bin.zip.sha512
+07/31/2019  07:55 AM               866 netbeans-11.1-bin.zip.asc
+07/31/2019  07:56 AM       183,295,608 Apache-NetBeans-11.1-bin-windows-x64.exe
+07/31/2019  07:56 AM               171 Apache-NetBeans-11.1-bin-windows-x64.exe.sha512
+07/31/2019  07:56 AM               862 Apache-NetBeans-11.1-bin-windows-x64.exe.asc
+07/31/2019  07:59 AM       671,966,032 ideaIU-2019.2.exe
+07/31/2019  07:59 AM                84 ideaIU-2019.2.exe.sha256
+07/31/2019  08:00 AM       771,594,660 ideaIU-2019.2.win.zip
+07/31/2019  08:00 AM                88 ideaIU-2019.2.win.zip.sha256
+07/31/2019  08:00 AM       571,820,928 ideaIC-2019.2.exe
+07/31/2019  08:01 AM                84 ideaIC-2019.2.exe.sha256
+07/31/2019  08:01 AM       635,819,276 ideaIC-2019.2.win.zip
+07/31/2019  08:01 AM                88 ideaIC-2019.2.win.zip.sha256
+07/31/2019  08:03 AM        52,914,928 VSCodeUserSetup-x64-1.36.1.exe
+07/31/2019  08:03 AM        52,914,784 VSCodeSetup-x64-1.36.1.exe
+07/31/2019  08:03 AM        76,699,167 VSCode-win32-x64-1.36.1.zip
+             635 File(s) 73,475,375,001 bytes
+              16 Dir(s)  233,860,808,704 bytes free
 
 C:\Users\David Holberton\Downloads>
 
