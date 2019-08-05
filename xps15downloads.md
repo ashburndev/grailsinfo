@@ -20,8 +20,8 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 03/24/2019  12:13 PM    <DIR>          packtbooks
 04/25/2019  07:55 AM    <DIR>          Downloads for Amazon Corretto 11 - Amazon Corretto_files
 07/11/2019  06:52 AM    <DIR>          yuiprojects
-07/31/2019  08:05 AM    <DIR>          .
-07/31/2019  08:05 AM    <DIR>          ..
+08/03/2019  06:26 PM    <DIR>          ..
+08/03/2019  06:26 PM    <DIR>          .
 06/08/2017  08:22 AM         1,130,328 ChromeSetup.exe
 06/08/2017  08:26 AM           246,056 Firefox Setup Stub 53.0.3.exe
 06/08/2017  08:35 AM       207,649,848 jdk-8u131-windows-x64.exe
@@ -657,8 +657,15 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 07/31/2019  08:03 AM        52,914,928 VSCodeUserSetup-x64-1.36.1.exe
 07/31/2019  08:03 AM        52,914,784 VSCodeSetup-x64-1.36.1.exe
 07/31/2019  08:03 AM        76,699,167 VSCode-win32-x64-1.36.1.zip
-             635 File(s) 73,475,375,001 bytes
-              16 Dir(s)  233,860,808,704 bytes free
+08/03/2019  04:28 PM       393,618,327 spring-tool-suite-4-4.3.1.RELEASE-e4.12.0-win32.win32.x86_64.zip
+08/03/2019  04:33 PM        47,087,448 Git-2.22.0-64-bit.exe
+08/03/2019  04:33 PM        47,087,448 Git-2.22.0-64-bit(1).exe
+08/03/2019  04:34 PM        43,091,984 PortableGit-2.22.0-64-bit.7z.exe
+08/03/2019  04:40 PM       425,591,485 spring-tool-suite-3.9.9.RELEASE-e4.12.0-win32-x86_64(1).zip
+08/03/2019  06:25 PM               411 stuff-20190803.txt
+08/03/2019  06:26 PM        47,087,448 Git-2.22.0-64-bit(2).exe
+             642 File(s) 74,478,939,552 bytes
+              16 Dir(s)  235,124,809,728 bytes free
 
 C:\Users\David Holberton\Downloads>
 
