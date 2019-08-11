@@ -1,3 +1,5 @@
+```
+
 dphmm2:Downloads davidho$ date
 Tue Jun 19 08:02:38 EDT 2018
 dphmm2:Downloads davidho$ 
@@ -60,8 +62,13 @@ dphmm2:Downloads davidho$ du . | grep -v extbook | grep -v extjs
 8367056	./ziptemp2
 361504552	.
 dphmm2:Downloads davidho$ 
+
+
+dphmm2:Downloads davidho$ date
+Sun Aug 11 13:17:27 EDT 2019
+dphmm2:Downloads davidho$ 
 dphmm2:Downloads davidho$ ls -latr
-total 56328304
+total 75052712
 -rw-r--r--    1 root     staff    67395879 Nov 17  2014 Firefox_33.1.dmg
 -rw-r--r--@   1 davidho  staff    66787010 Nov 25  2014 googlechrome.dmg
 -rw-------    1 davidho  staff           0 Nov 27  2014 .localized
@@ -158,56 +165,177 @@ drwxr-xr-x   32 davidho  staff        1088 Aug 20  2017 archive-raspbian
 -rw-r--r--@   1 davidho  staff   362914661 Sep  9  2017 2017-09-07-raspbian-stretch-lite.zip
 -rw-r--r--@   1 davidho  staff  1579983324 Sep  9  2017 NOOBS_v2_4_4.zip
 -rw-r--r--@   1 davidho  staff    33679083 Sep  9  2017 NOOBS_lite_v2_4.zip
--rw-r--r--@   1 davidho  staff      154151 Oct 31  2017 nerd_herd_logo_by_ladymalk-d2zaah3.jpg
--rw-r--r--@   1 davidho  staff     8812383 Jan 24 13:59 ZoomInstaller.pkg
--rw-r--r--@   1 davidho  staff     5694727 Feb  5 08:56 TheUnarchiver.zip
-drwxr-xr-x   13 davidho  staff         442 Feb  5 08:58 rasptemp
-drwxr-xr-x    4 davidho  staff         136 Mar 13 09:37 ext
--rw-r--r--@   1 davidho  staff   259118872 Mar 15 07:04 jdk-8u161-macosx-x64.dmg
--rw-r--r--@   1 davidho  staff   259123815 Mar 15 07:05 jdk-8u162-macosx-x64.dmg
--rw-r--r--@   1 davidho  staff    55705551 Mar 15 07:06 jdk-8u161-macosx-x86_64-demos.zip
--rw-r--r--@   1 davidho  staff    55705634 Mar 15 07:07 jdk-8u162-macosx-x86_64-demos.zip
--rw-r--r--@   1 davidho  staff        7091 Mar 15 07:08 8u161checksum.html
--rw-r--r--@   1 davidho  staff        6555 Mar 15 07:09 8u162checksum.html
--rw-r--r--@   1 davidho  staff    77769092 Mar 15 07:11 jre-8u161-macosx-x64.dmg
--rw-r--r--@   1 davidho  staff    69055455 Mar 15 07:12 jre-8u161-macosx-x64.tar.gz
--rw-r--r--@   1 davidho  staff    77782970 Mar 15 07:12 jre-8u162-macosx-x64.dmg
--rw-r--r--@   1 davidho  staff    69063649 Mar 15 07:13 jre-8u162-macosx-x64.tar.gz
--rw-r--r--@   1 davidho  staff   102844156 Mar 15 07:18 grails-3.2.10.zip
--rw-r--r--@   1 davidho  staff   105987812 Mar 15 07:18 grails-3.2.11.zip
--rw-r--r--@   1 davidho  staff   110551285 Mar 15 07:19 grails-3.3.1.zip
--rw-r--r--@   1 davidho  staff    99643461 Mar 15 07:20 grails-3.3.2.zip
--rw-r--r--@   1 davidho  staff    99638426 Mar 15 07:21 grails-3.3.3.zip
--rw-r--r--@   1 davidho  staff     9297460 Mar 15 07:21 grails-docs-3.3.3.zip
--rw-r--r--@   1 davidho  staff   400672048 Mar 15 08:12 jdk-9.0.4_osx-x64_bin.dmg
--rw-r--r--@   1 davidho  staff        3176 Mar 15 08:19 9-0-4checksum.html
--rw-r--r--@   1 davidho  staff    79473960 Mar 15 08:21 jre-9.0.4_osx-x64_bin.dmg
--rw-r--r--@   1 davidho  staff    74599903 Mar 15 08:22 jre-9.0.4_osx-x64_bin.tar.gz
-drwxr-xr-x    9 davidho  staff         306 Mar 18 13:48 extbook
--rw-r--r--@   1 davidho  staff  1776280071 Mar 27 07:48 2018-03-13-raspbian-stretch.zip
--rw-r--r--@   1 davidho  staff   365765304 Mar 27 07:51 2018-03-13-raspbian-stretch-lite.zip
--rw-r--r--@   1 davidho  staff  1357215611 Mar 27 08:01 NOOBS_v2_7_0.zip
--rw-r--r--@   1 davidho  staff    34608427 Mar 27 08:02 NOOBS_lite_v2_7.zip
--rw-r--r--@   1 davidho  staff  1357215611 Mar 27 08:11 NOOBS_v2_7_0(1).zip
--rw-r--r--@   1 davidho  staff    34608427 Mar 27 08:11 NOOBS_lite_v2_7(1).zip
-drwxr-xr-x    5 davidho  staff         170 Apr  1 17:26 raspbian9
--rw-r--r--@   1 davidho  staff    99634776 Apr 30 05:34 grails-3.3.4.zip
--rw-r--r--@   1 davidho  staff    86114514 Apr 30 05:35 grails-3.3.5.zip
--rw-r--r--@   1 davidho  staff     1186955 Apr 30 05:35 grails-3.3.5-single.html
--rw-r--r--@   1 davidho  staff        1726 May 17 07:21 calendar.ics
--rw-r--r--@   1 davidho  staff       22532 May 21 21:02 .DS_Store
-drwxr-xr-x+  77 davidho  staff        2618 May 21 21:36 ..
--rw-r--r--@   1 davidho  staff   259882804 Jun 19 07:45 jdk-8u171-macosx-x64.dmg
--rw-r--r--@   1 davidho  staff   259908002 Jun 19 07:46 jdk-8u172-macosx-x64.dmg
-drwxr-xr-x  148 davidho  staff        5032 Jun 19 07:46 mypdfs2
--rw-r--r--@   1 davidho  staff    55705257 Jun 19 07:48 jdk-8u171-macosx-x86_64-demos.zip
--rw-r--r--@   1 davidho  staff    59765923 Jun 19 07:48 jdk-8u172-macosx-x86_64-demos.zip
--rw-r--r--@   1 davidho  staff        7057 Jun 19 07:48 8u171checksum.html
--rw-r--r--@   1 davidho  staff        6524 Jun 19 07:48 8u172checksum.html
--rw-r--r--@   1 davidho  staff   414667010 Jun 19 07:52 jdk-10.0.1_osx-x64_bin.dmg
--rw-r--r--@   1 davidho  staff        3332 Jun 19 07:53 10-0-1checksum.html
-drwxr-xr-x   59 davidho  staff        2006 Jun 19 07:57 mybooks4
--rw-r--r--@   1 davidho  staff    99720815 Jun 19 08:00 grails-3.3.6.zip
--rw-r--r--@   1 davidho  staff     9305080 Jun 19 08:00 grails-docs-3.3.6.zip
-drwx------+ 148 davidho  staff        5032 Jun 19 08:00 .
+-rw-r--r--@   1 davidho  staff     8812383 Jan 24  2018 ZoomInstaller.pkg
+-rw-r--r--@   1 davidho  staff     5694727 Feb  5  2018 TheUnarchiver.zip
+drwxr-xr-x   13 davidho  staff         442 Feb  5  2018 rasptemp
+drwxr-xr-x    4 davidho  staff         136 Mar 13  2018 ext
+-rw-r--r--@   1 davidho  staff   259118872 Mar 15  2018 jdk-8u161-macosx-x64.dmg
+-rw-r--r--@   1 davidho  staff   259123815 Mar 15  2018 jdk-8u162-macosx-x64.dmg
+-rw-r--r--@   1 davidho  staff    55705551 Mar 15  2018 jdk-8u161-macosx-x86_64-demos.zip
+-rw-r--r--@   1 davidho  staff    55705634 Mar 15  2018 jdk-8u162-macosx-x86_64-demos.zip
+-rw-r--r--@   1 davidho  staff        7091 Mar 15  2018 8u161checksum.html
+-rw-r--r--@   1 davidho  staff        6555 Mar 15  2018 8u162checksum.html
+-rw-r--r--@   1 davidho  staff    77769092 Mar 15  2018 jre-8u161-macosx-x64.dmg
+-rw-r--r--@   1 davidho  staff    69055455 Mar 15  2018 jre-8u161-macosx-x64.tar.gz
+-rw-r--r--@   1 davidho  staff    77782970 Mar 15  2018 jre-8u162-macosx-x64.dmg
+-rw-r--r--@   1 davidho  staff    69063649 Mar 15  2018 jre-8u162-macosx-x64.tar.gz
+-rw-r--r--@   1 davidho  staff   102844156 Mar 15  2018 grails-3.2.10.zip
+-rw-r--r--@   1 davidho  staff   105987812 Mar 15  2018 grails-3.2.11.zip
+-rw-r--r--@   1 davidho  staff   110551285 Mar 15  2018 grails-3.3.1.zip
+-rw-r--r--@   1 davidho  staff    99643461 Mar 15  2018 grails-3.3.2.zip
+-rw-r--r--@   1 davidho  staff    99638426 Mar 15  2018 grails-3.3.3.zip
+-rw-r--r--@   1 davidho  staff     9297460 Mar 15  2018 grails-docs-3.3.3.zip
+-rw-r--r--@   1 davidho  staff   400672048 Mar 15  2018 jdk-9.0.4_osx-x64_bin.dmg
+-rw-r--r--@   1 davidho  staff        3176 Mar 15  2018 9-0-4checksum.html
+-rw-r--r--@   1 davidho  staff    79473960 Mar 15  2018 jre-9.0.4_osx-x64_bin.dmg
+-rw-r--r--@   1 davidho  staff    74599903 Mar 15  2018 jre-9.0.4_osx-x64_bin.tar.gz
+drwxr-xr-x    9 davidho  staff         306 Mar 18  2018 extbook
+-rw-r--r--@   1 davidho  staff  1776280071 Mar 27  2018 2018-03-13-raspbian-stretch.zip
+-rw-r--r--@   1 davidho  staff   365765304 Mar 27  2018 2018-03-13-raspbian-stretch-lite.zip
+-rw-r--r--@   1 davidho  staff  1357215611 Mar 27  2018 NOOBS_v2_7_0.zip
+-rw-r--r--@   1 davidho  staff    34608427 Mar 27  2018 NOOBS_lite_v2_7.zip
+-rw-r--r--@   1 davidho  staff  1357215611 Mar 27  2018 NOOBS_v2_7_0(1).zip
+-rw-r--r--@   1 davidho  staff    34608427 Mar 27  2018 NOOBS_lite_v2_7(1).zip
+drwxr-xr-x    5 davidho  staff         170 Apr  1  2018 raspbian9
+-rw-r--r--@   1 davidho  staff    99634776 Apr 30  2018 grails-3.3.4.zip
+-rw-r--r--@   1 davidho  staff    86114514 Apr 30  2018 grails-3.3.5.zip
+-rw-r--r--@   1 davidho  staff     1186955 Apr 30  2018 grails-3.3.5-single.html
+-rw-r--r--@   1 davidho  staff        1726 May 17  2018 calendar.ics
+-rw-r--r--@   1 davidho  staff   259882804 Jun 19  2018 jdk-8u171-macosx-x64.dmg
+-rw-r--r--@   1 davidho  staff   259908002 Jun 19  2018 jdk-8u172-macosx-x64.dmg
+drwxr-xr-x  148 davidho  staff        5032 Jun 19  2018 mypdfs2
+-rw-r--r--@   1 davidho  staff    55705257 Jun 19  2018 jdk-8u171-macosx-x86_64-demos.zip
+-rw-r--r--@   1 davidho  staff    59765923 Jun 19  2018 jdk-8u172-macosx-x86_64-demos.zip
+-rw-r--r--@   1 davidho  staff        7057 Jun 19  2018 8u171checksum.html
+-rw-r--r--@   1 davidho  staff        6524 Jun 19  2018 8u172checksum.html
+-rw-r--r--@   1 davidho  staff   414667010 Jun 19  2018 jdk-10.0.1_osx-x64_bin.dmg
+-rw-r--r--@   1 davidho  staff        3332 Jun 19  2018 10-0-1checksum.html
+drwxr-xr-x   59 davidho  staff        2006 Jun 19  2018 mybooks4
+-rw-r--r--@   1 davidho  staff    99720815 Jun 19  2018 grails-3.3.6.zip
+-rw-r--r--@   1 davidho  staff     9305080 Jun 19  2018 grails-docs-3.3.6.zip
+-rw-r--r--@   1 davidho  staff     8344845 Jul 11  2018 Get_Programming_with_Node.js_v7.pdf
+-rw-r--r--@   1 davidho  staff     4714654 Jul 11  2018 The_Joy_of_Kotlin_v4.pdf
+-rw-r--r--@   1 davidho  staff    16014451 Jul 11  2018 Spring_in_Action_Fifth_Edition_v6.pdf
+-rw-r--r--@   1 davidho  staff    22762293 Jul 11  2018 Angular_Development_with_Typescript_Sec_v7.pdf
+-rw-r--r--@   1 davidho  staff    30635359 Jul 11  2018 Amazon_Web_Services_in_Action_Second_Ed_v7.pdf
+-rw-r--r--@   1 davidho  staff     8774420 Jul 11  2018 Modern_Java_in_Action_v7.pdf
+-rw-r--r--@   1 davidho  staff     5503168 Jul 11  2018 React_Native_in_Action_v15.pdf
+-rw-r--r--@   1 davidho  staff    16068912 Jul 11  2018 The_Java_Module_System_v10.pdf
+-rw-r--r--@   1 davidho  staff    12329489 Jul 11  2018 Docker_in_Practice_Second_Edition_v6.pdf
+-rw-r--r--@   1 davidho  staff    99676981 Aug 15  2018 grails-3.3.7.zip
+-rw-r--r--@   1 davidho  staff    99680765 Aug 15  2018 grails-3.3.8.zip
+-rw-r--r--@   1 davidho  staff     9305672 Aug 15  2018 grails-docs-3.3.8.zip
+-rw-r--r--@   1 davidho  staff   169301845 Aug 15  2018 incubating-netbeans-java-9.0-bin.zip
+-rw-r--r--@   1 davidho  staff         874 Aug 15  2018 incubating-netbeans-java-9.0-bin.zip.asc
+-rw-r--r--@   1 davidho  staff          79 Aug 15  2018 incubating-netbeans-java-9.0-bin.zip.sha1
+-rw-r--r--@   1 davidho  staff   636625311 Aug 15  2018 ideaIU-2018.2.1.dmg
+-rw-r--r--@   1 davidho  staff          86 Aug 15  2018 ideaIU-2018.2.1.dmg.sha256
+-rw-r--r--@   1 davidho  staff   510947010 Aug 15  2018 ideaIC-2018.2.1.dmg
+-rw-r--r--@   1 davidho  staff          86 Aug 15  2018 ideaIC-2018.2.1.dmg.sha256
+-rw-r--r--@   1 davidho  staff      213352 Oct 23  2018 vzbill_paper_3427_102018_102318092252.pdf
+drwxr-xr-x  114 davidho  staff        3876 Oct 24  2018 The Largest 4G LTE Network - Verizon Wireless_files
+-rw-r--r--@   1 davidho  staff       82995 Oct 24  2018 The Largest 4G LTE Network - Verizon Wireless.html
+-rw-r--r--@   1 davidho  staff     2056869 Oct 24  2018 Verizon_bill_October_07_2018.pdf
+-rw-r--r--@   1 davidho  staff        3859 Oct 29  2018 new.template
+-rw-rw-rw-@   1 davidho  staff   257870170 Dec 30  2018 jdk-8u191-macosx-x64.dmg
+-rw-rw-rw-@   1 davidho  staff    58763177 Dec 30  2018 jdk-8u191-macosx-x86_64-demos.zip
+-rw-rw-rw-@   1 davidho  staff   257868944 Dec 30  2018 jdk-8u192-macosx-x64.dmg
+-rw-rw-rw-@   1 davidho  staff    58763903 Dec 30  2018 jdk-8u192-macosx-x86_64-demos.zip
+-rw-rw-rw-@   1 davidho  staff       10223 Dec 30  2018 8u191checksum.html
+-rw-rw-rw-@   1 davidho  staff        9690 Dec 30  2018 8u192checksum.html
+-rw-rw-rw-@   1 davidho  staff   254624361 Dec 30  2018 jdk-8u181-macosx-x64.dmg
+-rw-rw-rw-@   1 davidho  staff    78200329 Dec 30  2018 jre-8u181-macosx-x64.dmg
+-rw-rw-rw-@   1 davidho  staff    69442197 Dec 30  2018 jre-8u181-macosx-x64.tar.gz
+-rw-rw-rw-@   1 davidho  staff   174271016 Dec 30  2018 jdk-11.0.1_osx-x64_bin.dmg
+-rw-rw-rw-@   1 davidho  staff   174636363 Dec 30  2018 jdk-11.0.1_osx-x64_bin.tar.gz
+-rw-rw-rw-@   1 davidho  staff        5538 Dec 30  2018 11-0-1checksum.html
+-rw-rw-rw-@   1 davidho  staff    51573427 Dec 30  2018 jdk-11.0.1_doc-all.zip
+-rw-rw-rw-@   1 davidho  staff    93801248 Dec 30  2018 jdk-8u191-docs-all.zip
+-rw-rw-rw-@   1 davidho  staff    10566760 Dec 30  2018 javafx-8u191-apidocs.zip
+-rw-rw-rw-@   1 davidho  staff    93801790 Dec 30  2018 jdk-8u192-docs-all.zip
+-rw-rw-rw-@   1 davidho  staff    10565710 Dec 30  2018 javafx-8u192-apidocs.zip
+-rw-rw-rw-@   1 davidho  staff   257863467 Jan 31  2019 jdk-8u201-macosx-x64.dmg
+-rw-rw-rw-@   1 davidho  staff    58979034 Jan 31  2019 jdk-8u201-macosx-x86_64-demos.zip
+-rw-rw-rw-@   1 davidho  staff   261255287 Jan 31  2019 jdk-8u202-macosx-x64.dmg
+-rw-rw-rw-@   1 davidho  staff    58980556 Jan 31  2019 jdk-8u202-macosx-x86_64-demos.zip
+-rw-rw-rw-@   1 davidho  staff       10278 Jan 31  2019 8u201checksum.html
+-rw-rw-rw-@   1 davidho  staff        9776 Jan 31  2019 8u202checksum.html
+-rw-rw-rw-@   1 davidho  staff   174203405 Jan 31  2019 jdk-11.0.2_osx-x64_bin.dmg
+-rw-rw-rw-@   1 davidho  staff   174578066 Jan 31  2019 jdk-11.0.2_osx-x64_bin.tar.gz
+-rw-rw-rw-@   1 davidho  staff        5593 Jan 31  2019 11-0-2-checksum.html
+-rw-rw-rw-@   1 davidho  staff    79878240 Jan 31  2019 jre-8u201-macosx-x64.dmg
+-rw-rw-rw-@   1 davidho  staff    71060257 Jan 31  2019 jre-8u201-macosx-x64.tar.gz
+-rw-rw-rw-@   1 davidho  staff    81572859 Jan 31  2019 jre-8u202-macosx-x64.dmg
+-rw-rw-rw-@   1 davidho  staff    72743467 Jan 31  2019 jre-8u202-macosx-x64.tar.gz
+-rw-rw-rw-@   1 davidho  staff    93773608 Jan 31  2019 jdk-8u201-docs-all.zip
+-rw-rw-rw-@   1 davidho  staff    10564415 Jan 31  2019 javafx-8u201-apidocs.zip
+-rw-rw-rw-@   1 davidho  staff    93792495 Jan 31  2019 jdk-8u202-docs-all.zip
+-rw-rw-rw-@   1 davidho  staff    10565807 Jan 31  2019 javafx-8u202-apidocs.zip
+-rw-rw-rw-@   1 davidho  staff       73353 Apr 23 06:03 CMS-L564E.PDF
+-rw-rw-rw-@   1 davidho  staff       69632 Apr 23 06:03 CMS40B-E.pdf
+-rw-rw-rw-@   1 davidho  staff      124285 Apr 23 06:20 DaveHolbertonProofOfHealthcareCorrectedName.pdf
+-rw-rw-rw-@   1 davidho  staff      151975 Apr 23 06:24 Loss Less than Deductible-I130.pdf
+-rw-rw-rw-@   1 davidho  staff       72934 Apr 30 07:55 -GLOBAL-SU-SSSTMTS2.LINEX.SSSTMTS_183_SSSTMTS^04052019.pdf
+-rw-rw-rw-@   1 davidho  staff   264481383 May 16 05:37 jdk-8u211-macosx-x64.dmg
+-rw-rw-rw-@   1 davidho  staff    59032805 May 16 05:38 jdk-8u211-macosx-x86_64-demos.zip
+-rw-rw-rw-@   1 davidho  staff   264502407 May 16 05:39 jdk-8u212-macosx-x64.dmg
+-rw-rw-rw-@   1 davidho  staff    59032846 May 16 05:39 jdk-8u212-macosx-x86_64-demos.zip
+-rw-rw-rw-@   1 davidho  staff       10275 May 16 05:39 8u211checksum.html
+-rw-rw-rw-@   1 davidho  staff        9742 May 16 05:39 8u212checksum.html
+-rw-rw-rw-@   1 davidho  staff   174270777 May 16 05:40 jdk-11.0.3_osx-x64_bin.dmg
+-rw-rw-rw-@   1 davidho  staff   174613714 May 16 05:41 jdk-11.0.3_osx-x64_bin.tar.gz
+-rw-rw-rw-@   1 davidho  staff        5590 May 16 05:41 11-0-3-checksum.html
+-rw-rw-rw-@   1 davidho  staff    11249479 May 24 10:57 ZoomInstallOnly.pkg
+-rw-rw-rw-@   1 davidho  staff    11249479 May 24 10:59 ZoomInstallOnly-1.pkg
+-rw-rw-rw-@   1 davidho  staff   264782679 Aug 11 12:35 jdk-8u221-macosx-x64.dmg
+-rw-rw-rw-@   1 davidho  staff    59292253 Aug 11 12:36 jdk-8u221-macosx-x86_64-demos.zip
+-rw-rw-rw-@   1 davidho  staff        9741 Aug 11 12:36 8u221checksum.html
+-rw-rw-rw-@   1 davidho  staff   174675140 Aug 11 12:37 jdk-11.0.4_osx-x64_bin.dmg
+-rw-r--r--@   1 davidho  staff       36868 Aug 11 12:38 .DS_Store
+-rw-rw-rw-@   1 davidho  staff   175063722 Aug 11 12:38 jdk-11.0.4_osx-x64_bin.tar.gz
+-rw-rw-rw-@   1 davidho  staff        5589 Aug 11 12:39 11-0-4-checksum.html
+-rw-rw-rw-@   1 davidho  staff   182069264 Aug 11 12:39 jdk-12.0.2_osx-x64_bin.dmg
+-rw-rw-rw-@   1 davidho  staff   182434867 Aug 11 12:40 jdk-12.0.2_osx-x64_bin.tar.gz
+-rw-rw-rw-@   1 davidho  staff        5450 Aug 11 12:40 12-0-2-checksum.html
+-rw-rw-rw-@   1 davidho  staff    12924586 Aug 11 12:41 micronaut-1.2.0.zip
+-rw-rw-rw-@   1 davidho  staff    99693308 Aug 11 12:43 grails-3.3.9.zip
+-rw-rw-rw-@   1 davidho  staff   100695418 Aug 11 12:44 grails-3.3.10.zip
+-rw-rw-rw-@   1 davidho  staff   128526095 Aug 11 12:44 grails-4.0.0.zip
+-rw-rw-rw-@   1 davidho  staff     9098832 Aug 11 12:44 grails-docs-4.0.0.zip
+-rw-rw-rw-@   1 davidho  staff    30368648 Aug 11 12:45 apache-groovy-binary-2.5.8.zip
+-rw-rw-rw-@   1 davidho  staff         821 Aug 11 12:45 apache-groovy-binary-2.5.8.zip.asc
+-rw-rw-rw-@   1 davidho  staff          65 Aug 11 12:45 apache-groovy-binary-2.5.8.zip.sha256
+-rw-rw-rw-@   1 davidho  staff    17904432 Aug 11 12:45 apache-groovy-docs-2.5.8.zip
+-rw-rw-rw-@   1 davidho  staff         821 Aug 11 12:45 apache-groovy-docs-2.5.8.zip.asc
+-rw-rw-rw-@   1 davidho  staff          65 Aug 11 12:46 apache-groovy-docs-2.5.8.zip.sha256
+-rw-rw-rw-@   1 davidho  staff    55957703 Aug 11 12:46 apache-groovy-sdk-2.5.8.zip
+-rw-rw-rw-@   1 davidho  staff         821 Aug 11 12:46 apache-groovy-sdk-2.5.8.zip.asc
+-rw-rw-rw-@   1 davidho  staff          65 Aug 11 12:46 apache-groovy-sdk-2.5.8.zip.sha256
+-rw-rw-rw-@   1 davidho  staff    89152247 Aug 11 12:47 gradle-5.5.1-bin.zip
+-rw-rw-rw-@   1 davidho  staff          64 Aug 11 12:47 gradle-5.5.1-bin.zip.sha256
+-rw-rw-rw-@   1 davidho  staff     9136463 Aug 11 12:49 apache-maven-3.6.1-bin.tar.gz
+-rw-rw-rw-@   1 davidho  staff         160 Aug 11 12:49 apache-maven-3.6.1-bin.tar.gz.sha512
+-rw-rw-rw-@   1 davidho  staff        1528 Aug 11 12:49 apache-maven-3.6.1-bin.tar.gz.asc
+-rw-rw-rw-@   1 davidho  staff     9181276 Aug 11 12:49 apache-maven-3.6.1-bin.zip
+-rw-rw-rw-@   1 davidho  staff         157 Aug 11 12:49 apache-maven-3.6.1-bin.zip.sha512
+-rw-rw-rw-@   1 davidho  staff        1528 Aug 11 12:49 apache-maven-3.6.1-bin.zip.asc
+-rw-rw-rw-@   1 davidho  staff    77407561 Aug 11 12:50 VSCode-darwin-stable.zip
+-rw-rw-rw-@   1 davidho  staff    51295224 Aug 11 12:57 eclipse-inst-mac64.dmg
+-rw-r--r--    1 davidho  staff         154 Aug 11 12:59 eclipse-inst-mac64.dmg.sha512
+-rw-rw-rw-@   1 davidho  staff   359477793 Aug 11 13:01 eclipse-jee-2019-06-R-macosx-cocoa-x86_64.dmg
+-rw-r--r--    1 davidho  staff         177 Aug 11 13:02 eclipse-jee-2019-06-R-macosx-cocoa-x86_64.dmg.sha512
+-rw-rw-rw-@   1 davidho  staff   201807107 Aug 11 13:02 eclipse-java-2019-06-R-macosx-cocoa-x86_64.dmg
+-rw-r--r--    1 davidho  staff         178 Aug 11 13:03 eclipse-java-2019-06-R-macosx-cocoa-x86_64.dmg.sha512
+drwxr-xr-x+  86 davidho  staff        2924 Aug 11 13:03 ..
+-rw-rw-rw-@   1 davidho  staff   334785395 Aug 11 13:06 netbeans-11.1-bin.zip
+-rw-rw-rw-@   1 davidho  staff         154 Aug 11 13:06 netbeans-11.1-bin.zip.sha512
+-rw-rw-rw-@   1 davidho  staff         866 Aug 11 13:06 netbeans-11.1-bin.zip.asc
+-rw-rw-rw-@   1 davidho  staff   333728933 Aug 11 13:07 Apache-NetBeans-11.1-bin-macosx.dmg
+-rw-rw-rw-@   1 davidho  staff         166 Aug 11 13:07 Apache-NetBeans-11.1-bin-macosx.dmg.sha512
+-rw-rw-rw-@   1 davidho  staff         862 Aug 11 13:07 Apache-NetBeans-11.1-bin-macosx.dmg.asc
+-rw-rw-rw-@   1 davidho  staff   421505718 Aug 11 13:08 spring-tool-suite-3.9.9.RELEASE-e4.12.0-macosx-cocoa-x86_64.dmg
+-rw-rw-rw-@   1 davidho  staff   389142442 Aug 11 13:09 spring-tool-suite-4-4.3.1.RELEASE-e4.12.0-macosx.cocoa.x86_64.dmg
+drwx------+ 267 davidho  staff        9078 Aug 11 13:16 .
 dphmm2:Downloads davidho$ 
+
+```
