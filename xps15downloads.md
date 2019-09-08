@@ -1,5 +1,8 @@
 ```
 
+C:\Users\David Holberton\Downloads>date /t
+Sun 09/08/2019
+
 C:\Users\David Holberton\Downloads>dir /o:gd
  Volume in drive C has no label.
  Volume Serial Number is 4603-A8D3
@@ -20,8 +23,10 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 03/24/2019  12:13 PM    <DIR>          packtbooks
 04/25/2019  07:55 AM    <DIR>          Downloads for Amazon Corretto 11 - Amazon Corretto_files
 07/11/2019  06:52 AM    <DIR>          yuiprojects
-08/03/2019  06:26 PM    <DIR>          ..
-08/03/2019  06:26 PM    <DIR>          .
+09/07/2019  10:55 AM    <DIR>          Downloads for Amazon Corretto 8.222.10.1 - Amazon Corretto_files
+09/07/2019  10:58 AM    <DIR>          Downloads for Amazon Corretto 11.0.4.11.1 - Amazon Corretto_files
+09/08/2019  10:48 AM    <DIR>          ..
+09/08/2019  10:48 AM    <DIR>          .
 06/08/2017  08:22 AM         1,130,328 ChromeSetup.exe
 06/08/2017  08:26 AM           246,056 Firefox Setup Stub 53.0.3.exe
 06/08/2017  08:35 AM       207,649,848 jdk-8u131-windows-x64.exe
@@ -661,11 +666,75 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 08/03/2019  04:33 PM        47,087,448 Git-2.22.0-64-bit.exe
 08/03/2019  04:33 PM        47,087,448 Git-2.22.0-64-bit(1).exe
 08/03/2019  04:34 PM        43,091,984 PortableGit-2.22.0-64-bit.7z.exe
-08/03/2019  04:40 PM       425,591,485 spring-tool-suite-3.9.9.RELEASE-e4.12.0-win32-x86_64(1).zip
-08/03/2019  06:25 PM               411 stuff-20190803.txt
 08/03/2019  06:26 PM        47,087,448 Git-2.22.0-64-bit(2).exe
-             642 File(s) 74,478,939,552 bytes
-              16 Dir(s)  235,124,809,728 bytes free
+09/07/2019  09:25 AM       706,373,848 ideaIU-2019.2.2.exe
+09/07/2019  09:25 AM                86 ideaIU-2019.2.2.exe.sha256
+09/07/2019  09:26 AM       805,807,407 ideaIU-2019.2.2.win.zip
+09/07/2019  09:26 AM                90 ideaIU-2019.2.2.win.zip.sha256
+09/07/2019  09:27 AM       604,897,888 ideaIC-2019.2.2.exe
+09/07/2019  09:27 AM                86 ideaIC-2019.2.2.exe.sha256
+09/07/2019  09:27 AM       669,181,827 ideaIC-2019.2.2.win.zip
+09/07/2019  09:27 AM                90 ideaIC-2019.2.2.win.zip.sha256
+09/07/2019  09:31 AM        12,925,809 micronaut-1.2.1.zip
+09/07/2019  09:33 AM        55,957,703 apache-groovy-sdk-2.5.8.zip
+09/07/2019  09:34 AM            33,513 apache-groovy-sdk-2.5.8.KEYS.txt
+09/07/2019  09:35 AM               821 apache-groovy-binary-2.5.8.zip.asc
+09/07/2019  09:35 AM                65 apache-groovy-binary-2.5.8.zip.sha256
+09/07/2019  09:35 AM        17,904,432 apache-groovy-docs-2.5.8.zip
+09/07/2019  09:36 AM               821 apache-groovy-docs-2.5.8.zip.asc
+09/07/2019  09:36 AM                65 apache-groovy-docs-2.5.8.zip.sha256
+09/07/2019  09:37 AM        30,368,648 apache-groovy-binary-2.5.8.zip
+09/07/2019  09:44 AM        17,958,508 apache-groovy-docs-2.5.7.zip
+09/07/2019  09:46 AM        93,890,597 gradle-5.6.2-bin.zip
+09/07/2019  09:46 AM                64 gradle-5.6.2-bin.zip.sha256
+09/07/2019  09:48 AM         9,142,315 apache-maven-3.6.2-bin.tar.gz
+09/07/2019  09:49 AM               128 apache-maven-3.6.2-bin.tar.gz.sha512
+09/07/2019  09:49 AM               488 apache-maven-3.6.2-bin.tar.gz.asc
+09/07/2019  09:49 AM         9,176,616 apache-maven-3.6.2-bin.zip
+09/07/2019  09:49 AM               128 apache-maven-3.6.2-bin.zip.sha512
+09/07/2019  09:49 AM               488 apache-maven-3.6.2-bin.zip.asc
+09/07/2019  09:56 AM        10,305,839 apache-tomcat-8.5.45.zip
+09/07/2019  09:56 AM               849 apache-tomcat-8.5.45.zip.asc
+09/07/2019  09:56 AM               154 apache-tomcat-8.5.45.zip.sha512
+09/07/2019  09:56 AM         9,722,154 apache-tomcat-8.5.45.tar.gz
+09/07/2019  09:57 AM               849 apache-tomcat-8.5.45.tar.gz.asc
+09/07/2019  09:57 AM               157 apache-tomcat-8.5.45.tar.gz.sha512
+09/07/2019  09:57 AM        11,640,597 apache-tomcat-8.5.45-windows-x64.zip
+09/07/2019  09:57 AM               849 apache-tomcat-8.5.45-windows-x64.zip.asc
+09/07/2019  09:57 AM               166 apache-tomcat-8.5.45-windows-x64.zip.sha512
+09/07/2019  09:57 AM        10,632,520 apache-tomcat-8.5.45.exe
+09/07/2019  09:57 AM               849 apache-tomcat-8.5.45.exe.asc
+09/07/2019  09:57 AM               154 apache-tomcat-8.5.45.exe.sha512
+09/07/2019  09:58 AM         5,589,351 apache-tomcat-8.5.45-fulldocs.tar.gz
+09/07/2019  09:58 AM               849 apache-tomcat-8.5.45-fulldocs.tar.gz.asc
+09/07/2019  09:58 AM               166 apache-tomcat-8.5.45-fulldocs.tar.gz.sha512
+09/07/2019  09:58 AM        11,522,031 apache-tomcat-9.0.24.zip
+09/07/2019  09:58 AM               849 apache-tomcat-9.0.24.zip.asc
+09/07/2019  09:58 AM               154 apache-tomcat-9.0.24.zip.sha512
+09/07/2019  09:59 AM        10,914,435 apache-tomcat-9.0.24.tar.gz
+09/07/2019  09:59 AM               849 apache-tomcat-9.0.24.tar.gz.asc
+09/07/2019  09:59 AM               157 apache-tomcat-9.0.24.tar.gz.sha512
+09/07/2019  09:59 AM        12,856,789 apache-tomcat-9.0.24-windows-x64.zip
+09/07/2019  09:59 AM               849 apache-tomcat-9.0.24-windows-x64.zip.asc
+09/07/2019  09:59 AM               166 apache-tomcat-9.0.24-windows-x64.zip.sha512
+09/07/2019  09:59 AM        11,786,840 apache-tomcat-9.0.24.exe
+09/07/2019  09:59 AM               849 apache-tomcat-9.0.24.exe.asc
+09/07/2019  09:59 AM               154 apache-tomcat-9.0.24.exe.sha512
+09/07/2019  09:59 AM         5,868,757 apache-tomcat-9.0.24-fulldocs.tar.gz
+09/07/2019  10:00 AM               849 apache-tomcat-9.0.24-fulldocs.tar.gz.asc
+09/07/2019  10:00 AM               166 apache-tomcat-9.0.24-fulldocs.tar.gz.sha512
+09/07/2019  10:02 AM        53,471,240 VSCodeUserSetup-x64-1.38.0.exe
+09/07/2019  10:02 AM        53,471,144 VSCodeSetup-x64-1.38.0.exe
+09/07/2019  10:03 AM        79,596,217 VSCode-win32-x64-1.38.0.zip
+09/07/2019  10:22 AM       114,194,432 amazon-corretto-8.222.10.3-windows-x64.msi
+09/07/2019  10:22 AM       119,838,632 amazon-corretto-8.222.10.3-windows-x64-jdk.zip
+09/07/2019  10:22 AM        48,244,311 amazon-corretto-8.222.10.3-windows-x64-jre.zip
+09/07/2019  10:55 AM            44,777 Downloads for Amazon Corretto 8.222.10.1 - Amazon Corretto.html
+09/07/2019  10:56 AM       168,257,536 amazon-corretto-11.0.4.11.1-windows-x64.msi
+09/07/2019  10:56 AM       183,486,269 amazon-corretto-11.0.4.11.1-windows-x64.zip
+09/07/2019  10:58 AM            35,252 Downloads for Amazon Corretto 11.0.4.11.1 - Amazon Corretto.html
+             706 File(s) 78,008,459,394 bytes
+              18 Dir(s)  229,196,808,192 bytes free
 
 C:\Users\David Holberton\Downloads>
 
