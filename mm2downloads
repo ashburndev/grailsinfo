@@ -63,12 +63,13 @@ dphmm2:Downloads davidho$ du . | grep -v extbook | grep -v extjs
 361504552	.
 dphmm2:Downloads davidho$ 
 
-
-dphmm2:Downloads davidho$ date
-Sun Aug 11 13:17:27 EDT 2019
 dphmm2:Downloads davidho$ 
+dphmm2:Downloads davidho$ date
+Mon Oct 21 06:03:52 EDT 2019
+dphmm2:Downloads davidho$ pwd
+/Users/davidho/Downloads
 dphmm2:Downloads davidho$ ls -latr
-total 75052712
+total 97347648
 -rw-r--r--    1 root     staff    67395879 Nov 17  2014 Firefox_33.1.dmg
 -rw-r--r--@   1 davidho  staff    66787010 Nov 25  2014 googlechrome.dmg
 -rw-------    1 davidho  staff           0 Nov 27  2014 .localized
@@ -291,7 +292,6 @@ drwxr-xr-x  114 davidho  staff        3876 Oct 24  2018 The Largest 4G LTE Netwo
 -rw-rw-rw-@   1 davidho  staff    59292253 Aug 11 12:36 jdk-8u221-macosx-x86_64-demos.zip
 -rw-rw-rw-@   1 davidho  staff        9741 Aug 11 12:36 8u221checksum.html
 -rw-rw-rw-@   1 davidho  staff   174675140 Aug 11 12:37 jdk-11.0.4_osx-x64_bin.dmg
--rw-r--r--@   1 davidho  staff       36868 Aug 11 12:38 .DS_Store
 -rw-rw-rw-@   1 davidho  staff   175063722 Aug 11 12:38 jdk-11.0.4_osx-x64_bin.tar.gz
 -rw-rw-rw-@   1 davidho  staff        5589 Aug 11 12:39 11-0-4-checksum.html
 -rw-rw-rw-@   1 davidho  staff   182069264 Aug 11 12:39 jdk-12.0.2_osx-x64_bin.dmg
@@ -326,7 +326,6 @@ drwxr-xr-x  114 davidho  staff        3876 Oct 24  2018 The Largest 4G LTE Netwo
 -rw-r--r--    1 davidho  staff         177 Aug 11 13:02 eclipse-jee-2019-06-R-macosx-cocoa-x86_64.dmg.sha512
 -rw-rw-rw-@   1 davidho  staff   201807107 Aug 11 13:02 eclipse-java-2019-06-R-macosx-cocoa-x86_64.dmg
 -rw-r--r--    1 davidho  staff         178 Aug 11 13:03 eclipse-java-2019-06-R-macosx-cocoa-x86_64.dmg.sha512
-drwxr-xr-x+  86 davidho  staff        2924 Aug 11 13:03 ..
 -rw-rw-rw-@   1 davidho  staff   334785395 Aug 11 13:06 netbeans-11.1-bin.zip
 -rw-rw-rw-@   1 davidho  staff         154 Aug 11 13:06 netbeans-11.1-bin.zip.sha512
 -rw-rw-rw-@   1 davidho  staff         866 Aug 11 13:06 netbeans-11.1-bin.zip.asc
@@ -335,7 +334,25 @@ drwxr-xr-x+  86 davidho  staff        2924 Aug 11 13:03 ..
 -rw-rw-rw-@   1 davidho  staff         862 Aug 11 13:07 Apache-NetBeans-11.1-bin-macosx.dmg.asc
 -rw-rw-rw-@   1 davidho  staff   421505718 Aug 11 13:08 spring-tool-suite-3.9.9.RELEASE-e4.12.0-macosx-cocoa-x86_64.dmg
 -rw-rw-rw-@   1 davidho  staff   389142442 Aug 11 13:09 spring-tool-suite-4-4.3.1.RELEASE-e4.12.0-macosx.cocoa.x86_64.dmg
-drwx------+ 267 davidho  staff        9078 Aug 11 13:16 .
+-rw-rw-rw-@   1 davidho  staff   112584969 Aug 14 05:57 get-programming-with-nodejs.zip
+drwxr-xr-x    5 davidho  staff         170 Aug 14 05:58 nodejsbooks
+-rw-rw-rw-@   1 davidho  staff    17873164 Aug 14 06:01 node-v10.16.2.pkg
+-rw-rw-rw-@   1 davidho  staff    17632497 Aug 14 06:01 node-v10.16.2-darwin-x64.tar.gz
+-rw-rw-rw-@   1 davidho  staff  5388175360 Sep 14 09:40 Win10_1809Oct_v2_English_x64.iso
+-rw-rw-rw-@   1 davidho  staff  4939528192 Sep 14 09:44 Win10_1903_V1_English_x64.iso
+-rw-r--r--@   1 davidho  staff       43012 Oct 21 05:29 .DS_Store
+-rw-rw-rw-@   1 davidho  staff   181175715 Oct 21 05:37 jdk-13.0.1_osx-x64_bin.dmg
+-rw-rw-rw-@   1 davidho  staff   181517001 Oct 21 05:37 jdk-13.0.1_osx-x64_bin.tar.gz
+-rw-rw-rw-@   1 davidho  staff        5447 Oct 21 05:38 13-0-1-checksum.html
+-rw-rw-rw-@   1 davidho  staff   265706096 Oct 21 05:46 jdk-8u231-macosx-x64.dmg
+-rw-rw-rw-@   1 davidho  staff    59292406 Oct 21 05:47 jdk-8u231-macosx-x86_64-demos.zip
+-rw-rw-rw-@   1 davidho  staff        9744 Oct 21 05:47 8u231checksum.html
+-rw-rw-rw-@   1 davidho  staff   100738177 Oct 21 05:49 grails-3.3.11.zip
+-rw-rw-rw-@   1 davidho  staff   128699556 Oct 21 05:49 grails-4.0.1.zip
+-rw-rw-rw-@   1 davidho  staff     9108538 Oct 21 05:49 grails-docs-4.0.1.zip
+-rw-rw-rw-@   1 davidho  staff    12928549 Oct 21 05:49 micronaut-1.2.5.zip
+drwxr-xr-x+  90 davidho  staff        3060 Oct 21 05:51 ..
+drwx------+ 283 davidho  staff        9622 Oct 21 05:55 .
 dphmm2:Downloads davidho$ 
 
 ```
