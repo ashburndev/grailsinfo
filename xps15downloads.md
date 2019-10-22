@@ -1,7 +1,7 @@
 ```
 
 C:\Users\David Holberton\Downloads>date /t
-Sun 09/08/2019
+Mon 10/21/2019
 
 C:\Users\David Holberton\Downloads>dir /o:gd
  Volume in drive C has no label.
@@ -25,8 +25,9 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 07/11/2019  06:52 AM    <DIR>          yuiprojects
 09/07/2019  10:55 AM    <DIR>          Downloads for Amazon Corretto 8.222.10.1 - Amazon Corretto_files
 09/07/2019  10:58 AM    <DIR>          Downloads for Amazon Corretto 11.0.4.11.1 - Amazon Corretto_files
-09/08/2019  10:48 AM    <DIR>          ..
-09/08/2019  10:48 AM    <DIR>          .
+09/11/2019  09:26 AM    <DIR>          temp
+10/21/2019  07:55 PM    <DIR>          ..
+10/21/2019  07:55 PM    <DIR>          .
 06/08/2017  08:22 AM         1,130,328 ChromeSetup.exe
 06/08/2017  08:26 AM           246,056 Firefox Setup Stub 53.0.3.exe
 06/08/2017  08:35 AM       207,649,848 jdk-8u131-windows-x64.exe
@@ -733,9 +734,53 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 09/07/2019  10:56 AM       168,257,536 amazon-corretto-11.0.4.11.1-windows-x64.msi
 09/07/2019  10:56 AM       183,486,269 amazon-corretto-11.0.4.11.1-windows-x64.zip
 09/07/2019  10:58 AM            35,252 Downloads for Amazon Corretto 11.0.4.11.1 - Amazon Corretto.html
-             706 File(s) 78,008,459,394 bytes
-              18 Dir(s)  229,196,808,192 bytes free
+09/11/2019  08:23 AM            54,870 sb218mavjav8.zip
+09/11/2019  08:58 AM            55,254 sb218mavjav8w.zip
+09/11/2019  09:25 AM            53,737 taco-cloud.zip
+09/14/2019  10:00 AM        12,924,396 micronaut-1.2.2.zip
+10/03/2019  06:37 AM       167,579,000 jdk-13_windows-x64_bin.exe
+10/03/2019  06:37 AM       187,660,991 jdk-13_windows-x64_bin.zip
+10/03/2019  06:38 AM             5,418 13checksum.html
+10/03/2019  06:43 AM       369,940,487 eclipse-jee-2019-09-R-win32-x86_64.zip
+10/03/2019  06:45 AM               170 eclipse-jee-2019-09-R-win32-x86_64.zip.sha512
+10/03/2019  06:47 AM       211,104,334 eclipse-java-2019-09-R-win32-x86_64.zip
+10/03/2019  06:49 AM               171 eclipse-java-2019-09-R-win32-x86_64.zip.sha512
+10/03/2019  06:50 AM        12,924,382 micronaut-1.2.3.zip
+10/03/2019  06:54 AM       706,680,656 ideaIU-2019.2.3.exe
+10/03/2019  06:54 AM                86 ideaIU-2019.2.3.exe.sha256
+10/03/2019  06:55 AM       805,981,762 ideaIU-2019.2.3.win.zip
+10/03/2019  06:56 AM                90 ideaIU-2019.2.3.win.zip.sha256
+10/03/2019  06:56 AM       605,364,360 ideaIC-2019.2.3.exe
+10/03/2019  06:56 AM                86 ideaIC-2019.2.3.exe.sha256
+10/03/2019  06:56 AM       669,687,782 ideaIC-2019.2.3.win.zip
+10/03/2019  06:56 AM                90 ideaIC-2019.2.3.win.zip.sha256
+10/03/2019  07:01 AM     2,664,314,355 2019-09-26-raspbian-buster-full.zip
+10/03/2019  07:02 AM                66 2019-09-26-raspbian-buster-full.zip.sha256
+10/03/2019  07:03 AM     1,176,971,370 2019-09-26-raspbian-buster.zip
+10/03/2019  07:05 AM                66 2019-09-26-raspbian-buster.zip.sha256
+10/03/2019  07:05 AM       454,279,954 2019-09-26-raspbian-buster-lite.zip
+10/03/2019  07:06 AM                66 2019-09-26-raspbian-buster-lite.zip.sha256
+10/03/2019  07:07 AM             2,313 2019-09-26-raspbian-buster.txt
+10/03/2019  07:09 AM        53,464,344 VSCodeUserSetup-x64-1.38.1.exe
+10/03/2019  07:10 AM        53,464,192 VSCodeSetup-x64-1.38.1.exe
+10/03/2019  07:11 AM        79,595,564 VSCode-win32-x64-1.38.1.zip
+10/19/2019  11:59 AM            46,116 1Password Emergency Kit A3-7ZV264-my.pdf
+10/19/2019  12:02 PM        11,301,200 1PasswordSetup-7.3.712.exe
+10/21/2019  07:42 PM       167,606,832 jdk-13.0.1_windows-x64_bin.exe
+10/21/2019  07:42 PM       187,679,458 jdk-13.0.1_windows-x64_bin.zip
+10/21/2019  07:42 PM             5,448 13-0-1-checksum.html
+10/21/2019  07:44 PM       209,946,656 jdk-8u231-windows-i586.exe
+10/21/2019  07:44 PM       220,392,992 jdk-8u231-windows-x64.exe
+10/21/2019  07:44 PM        60,044,234 jdk-8u231-windows-i586-demos.zip
+10/21/2019  07:45 PM        60,066,232 jdk-8u231-windows-x64-demos.zip
+10/21/2019  07:45 PM             9,745 8u231checksum.html
+10/21/2019  07:47 PM       100,738,177 grails-3.3.11.zip
+10/21/2019  07:50 PM       128,699,556 grails-4.0.1.zip
+10/21/2019  07:51 PM         9,108,538 grails-docs-4.0.1.zip
+10/21/2019  07:53 PM        12,928,549 micronaut-1.2.5.zip
+             750 File(s) 87,409,143,539 bytes
+              19 Dir(s)  212,368,269,312 bytes free
 
-C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>C:\Users\David Holberton\Downloads>
 
 ```
