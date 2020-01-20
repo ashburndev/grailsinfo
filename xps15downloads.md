@@ -812,21 +812,22 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 01/19/2020  03:52 PM       432,820,170 spring-tool-suite-3.9.11.RELEASE-e4.14.0-win32-x86_64.zip
 01/19/2020  03:56 PM       397,612,527 spring-tool-suite-4-4.5.0.RELEASE-e4.14.0-win32.win32.x86_64.self-extracting.jar
 01/19/2020  04:04 PM        12,928,674 micronaut-1.2.9.zip
-01/20/2020  10:18 AM            37,381 incubating-netbeans-11.0-source.zip
-01/20/2020  10:22 AM            34,733 netbeans-11.2-bin.zip
 01/20/2020  10:23 AM               154 netbeans-11.2-bin.zip.sha512
 01/20/2020  10:23 AM               866 netbeans-11.2-bin.zip.asc
-01/20/2020  10:23 AM            34,905 netbeans-11.2-source.zip
 01/20/2020  10:24 AM               157 netbeans-11.2-source.zip.sha512
 01/20/2020  10:24 AM               866 netbeans-11.2-source.zip.asc
-01/20/2020  10:24 AM            29,962 Apache-NetBeans-11.2-bin-windows-x64.exe.html
 01/20/2020  10:24 AM               171 Apache-NetBeans-11.2-bin-windows-x64.exe.sha512
 01/20/2020  10:24 AM               862 Apache-NetBeans-11.2-bin-windows-x64.exe.asc
-             790 File(s) 93,065,191,869 bytes
-              19 Dir(s)  210,237,874,176 bytes free
+01/20/2020  10:50 AM       338,524,882 netbeans-11.2-bin.zip
+01/20/2020  10:50 AM       141,083,795 netbeans-11.2-source.zip
+01/20/2020  10:52 AM       184,578,032 Apache-NetBeans-11.2-bin-windows-x64.exe
+01/20/2020  10:55 AM       135,732,943 incubating-netbeans-11.0-source.zip
+01/20/2020  10:57 AM               168 incubating-netbeans-11.0-source.zip.sha512
+01/20/2020  10:57 AM               833 incubating-netbeans-11.0-source.zip.asc
+             792 File(s) 93,864,975,541 bytes
+              19 Dir(s)  209,162,358,784 bytes free
 
 C:\Users\David Holberton\Downloads>
-
 ```
 
 ```
