@@ -5,9 +5,12 @@ Microsoft Windows [Version 10.0.17763.973]
 C:\Users\David Holberton>cd Downloads
 
 C:\Users\David Holberton\Downloads>date /t
-Mon 01/20/2020
+Sat 02/29/2020
 
-C:\Users\David Holberton\Downloads>dir /o:gd
+C:\Users\David Holberton\Downloads>time /t
+11:21 AM
+
+C:\Users\David Holberton\Downloads>dir /o:gd/p
  Volume in drive C has no label.
  Volume Serial Number is 4603-A8D3
 
@@ -30,8 +33,8 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 09/07/2019  09:55 AM    <DIR>          Downloads for Amazon Corretto 8.222.10.1 - Amazon Corretto_files
 09/07/2019  09:58 AM    <DIR>          Downloads for Amazon Corretto 11.0.4.11.1 - Amazon Corretto_files
 09/11/2019  08:26 AM    <DIR>          temp
-01/20/2020  10:24 AM    <DIR>          .
-01/20/2020  10:24 AM    <DIR>          ..
+02/29/2020  11:17 AM    <DIR>          ..
+02/29/2020  11:17 AM    <DIR>          .
 06/08/2017  07:22 AM         1,130,328 ChromeSetup.exe
 06/08/2017  07:26 AM           246,056 Firefox Setup Stub 53.0.3.exe
 06/08/2017  07:35 AM       207,649,848 jdk-8u131-windows-x64.exe
@@ -824,40 +827,97 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 01/20/2020  10:55 AM       135,732,943 incubating-netbeans-11.0-source.zip
 01/20/2020  10:57 AM               168 incubating-netbeans-11.0-source.zip.sha512
 01/20/2020  10:57 AM               833 incubating-netbeans-11.0-source.zip.asc
-             792 File(s) 93,864,975,541 bytes
-              19 Dir(s)  209,162,358,784 bytes free
+02/04/2020  06:18 PM       705,646,752 ideaIU-2019.3.2.exe
+02/04/2020  06:19 PM                86 ideaIU-2019.3.2.exe.sha256
+02/04/2020  06:19 PM       805,736,949 ideaIU-2019.3.2.win.zip
+02/04/2020  06:20 PM                90 ideaIU-2019.3.2.win.zip.sha256
+02/04/2020  06:20 PM       600,961,912 ideaIC-2019.3.2.exe
+02/04/2020  06:20 PM                86 ideaIC-2019.3.2.exe.sha256
+02/04/2020  06:21 PM       666,846,609 ideaIC-2019.3.2.win.zip
+02/04/2020  06:21 PM                90 ideaIC-2019.3.2.win.zip.sha256
+02/04/2020  06:24 PM       196,926,353 mysql-8.0.19-winx64.zip
+02/04/2020  06:26 PM                32 mysql-8.0.19-winx64.zip.md5
+02/04/2020  06:26 PM               173 mysql-8.0.19-winx64.zip.asc
+02/04/2020  06:27 PM       426,442,261 mysql-8.0.19-winx64-debug-test.zip
+02/04/2020  06:28 PM                32 mysql-8.0.19-winx64-debug-test.zip.md5
+02/04/2020  06:28 PM               173 mysql-8.0.19-winx64-debug-test.zip.asc
+02/04/2020  06:35 PM        19,488,768 mysql-installer-web-community-8.0.19.0.msi
+02/04/2020  06:39 PM                32 mysql-installer-web-community-8.0.19.0.msi.md5
+02/04/2020  06:39 PM               173 mysql-installer-web-community-8.0.19.0.msi.asc
+02/04/2020  06:41 PM       418,246,656 mysql-installer-community-8.0.19.0.msi
+02/04/2020  06:43 PM                32 mysql-installer-community-8.0.19.0.msi.md5
+02/04/2020  06:44 PM               173 mysql-installer-community-8.0.19.0.msi.asc
+02/23/2020  09:48 AM       706,085,896 ideaIU-2019.3.3.exe
+02/23/2020  09:49 AM                86 ideaIU-2019.3.3.exe.sha256
+02/23/2020  09:50 AM       805,598,253 ideaIU-2019.3.3.win.zip
+02/23/2020  09:50 AM                90 ideaIU-2019.3.3.win.zip.sha256
+02/23/2020  09:51 AM       600,838,632 ideaIC-2019.3.3.exe
+02/23/2020  09:51 AM                86 ideaIC-2019.3.3.exe.sha256
+02/23/2020  09:51 AM       666,539,407 ideaIC-2019.3.3.win.zip
+02/23/2020  09:51 AM                90 ideaIC-2019.3.3.win.zip.sha256
+02/23/2020  10:00 AM        59,681,024 VSCodeUserSetup-x64-1.42.1.exe
+02/23/2020  10:00 AM        59,680,736 VSCodeSetup-x64-1.42.1.exe
+02/23/2020  10:01 AM        86,897,862 VSCode-win32-x64-1.42.1.zip
+02/23/2020  10:14 AM            37,537 KEYS-apache-tomcat.txt
+02/23/2020  10:15 AM        10,903,721 apache-tomcat-8.5.51.zip
+02/23/2020  10:16 AM               849 apache-tomcat-8.5.51.zip.asc
+02/23/2020  10:16 AM               154 apache-tomcat-8.5.51.zip.sha512
+02/23/2020  10:16 AM        10,315,164 apache-tomcat-8.5.51.tar.gz
+02/23/2020  10:16 AM               849 apache-tomcat-8.5.51.tar.gz.asc
+02/23/2020  10:16 AM               157 apache-tomcat-8.5.51.tar.gz.sha512
+02/23/2020  10:16 AM        11,616,324 apache-tomcat-8.5.51-windows-x64.zip
+02/23/2020  10:16 AM               849 apache-tomcat-8.5.51-windows-x64.zip.asc
+02/23/2020  10:16 AM               166 apache-tomcat-8.5.51-windows-x64.zip.sha512
+02/23/2020  10:17 AM        11,160,112 apache-tomcat-8.5.51.exe
+02/23/2020  10:17 AM               849 apache-tomcat-8.5.51.exe.asc
+02/23/2020  10:17 AM               154 apache-tomcat-8.5.51.exe.sha512
+02/23/2020  10:17 AM         6,155,252 apache-tomcat-8.5.51-fulldocs.tar.gz
+02/23/2020  10:17 AM               849 apache-tomcat-8.5.51-fulldocs.tar.gz.asc
+02/23/2020  10:17 AM               166 apache-tomcat-8.5.51-fulldocs.tar.gz.sha512
+02/23/2020  10:20 AM        11,651,113 apache-tomcat-9.0.31.zip
+02/23/2020  10:20 AM               849 apache-tomcat-9.0.31.zip.asc
+02/23/2020  10:21 AM               154 apache-tomcat-9.0.31.zip.sha512
+02/23/2020  10:21 AM        11,042,076 apache-tomcat-9.0.31.tar.gz
+02/23/2020  10:21 AM               849 apache-tomcat-9.0.31.tar.gz.asc
+02/23/2020  10:21 AM               157 apache-tomcat-9.0.31.tar.gz.sha512
+02/23/2020  10:21 AM        12,363,716 apache-tomcat-9.0.31-windows-x64.zip
+02/23/2020  10:21 AM               849 apache-tomcat-9.0.31-windows-x64.zip.asc
+02/23/2020  10:22 AM               166 apache-tomcat-9.0.31-windows-x64.zip.sha512
+02/23/2020  10:22 AM         6,450,609 apache-tomcat-9.0.31-fulldocs.tar.gz
+02/23/2020  10:22 AM               849 apache-tomcat-9.0.31-fulldocs.tar.gz.asc
+02/23/2020  10:22 AM               166 apache-tomcat-9.0.31-fulldocs.tar.gz.sha512
+02/23/2020  10:26 AM       129,081,519 grails-4.0.2.zip
+02/23/2020  10:26 AM         9,100,226 grails-docs-4.0.2.zip
+02/23/2020  10:26 AM        13,037,978 micronaut-1.3.2.zip
+02/23/2020  10:27 AM        97,724,809 gradle-6.2-bin.zip
+02/23/2020  10:28 AM                64 gradle-6.2-bin.zip.sha256
+02/23/2020  10:30 AM        73,338,907 apache-groovy-sdk-3.0.1.zip
+02/23/2020  10:30 AM        21,316,048 apache-groovy-docs-3.0.1.zip
+02/23/2020  11:42 AM         9,602,303 apache-maven-3.6.3-bin.zip
+02/23/2020  11:42 AM               128 apache-maven-3.6.3-bin.zip.sha512
+02/23/2020  11:42 AM               235 apache-maven-3.6.3-bin.zip.asc
+02/23/2020  11:44 AM         8,724,929 apache-ant-1.9.14-bin.zip
+02/23/2020  11:44 AM               833 apache-ant-1.9.14-bin.zip.asc
+02/23/2020  11:44 AM               129 apache-ant-1.9.14-bin.zip.sha512
+02/23/2020  11:45 AM        10,186,279 apache-ant-1.10.7-bin.zip
+02/23/2020  11:45 AM               833 apache-ant-1.10.7-bin.zip.asc
+02/23/2020  11:45 AM               129 apache-ant-1.10.7-bin.zip.sha512
+02/23/2020  11:51 AM     2,653,723,839 2020-02-13-raspbian-buster-full.zip
+02/23/2020  11:52 AM            26,258 2020-02-13-raspbian-buster-full_release_notes.txt
+02/23/2020  11:53 AM                66 2020-02-13-raspbian-buster-full.zip.sha256
+02/23/2020  11:57 AM     1,191,759,016 2020-02-13-raspbian-buster.zip
+02/23/2020  11:58 AM            26,258 2020-02-13-raspbian-buster_release_notes.txt
+02/23/2020  11:59 AM                66 2020-02-13-raspbian-buster.zip.sha256
+02/23/2020  12:00 PM       454,047,405 2020-02-13-raspbian-buster-lite.zip
+02/23/2020  12:01 PM            26,258 2020-02-13-raspbian-buster-lite_release_notes.txt
+02/23/2020  12:02 PM                66 2020-02-13-raspbian-buster-lite.zip.sha256
+02/23/2020  12:04 PM             2,304 2020-02-13-raspbian-buster.txt
+02/23/2020  05:16 PM        19,673,088 node-v12.16.1-x64.msi
+02/23/2020  05:16 PM        18,664,379 node-v12.16.1-win-x64.zip
+02/23/2020  05:17 PM             3,684 node-v12.16.1-SHASUMS256.txt.asc
+             880 File(s) 105,492,367,876 bytes
+              19 Dir(s)  187,083,743,232 bytes free
 
 C:\Users\David Holberton\Downloads>
 ```
 
-```
-3:42 PM 1/19/2020
-
-https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
-https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html
-https://www.oracle.com/technetwork/java/javase/downloads/jdk13-downloads-5672538.html
-
-https://www.eclipse.org/downloads/packages/release/2019-12/r/eclipse-ide-enterprise-java-developers
-https://www.eclipse.org/downloads/packages/release/2019-12/r/eclipse-ide-java-developers
-
-https://code.visualstudio.com/download#
-https://code.visualstudio.com/docs/?dv=winzip
-https://code.visualstudio.com/docs/getstarted/introvideos
-
-https://spring.io/tools3/sts/all
-https://spring.io/tools
-
-https://micronaut.io/download.html
-
-https://www.jetbrains.com/idea/download/#section=windows
-
-10:42 AM 1/20/2020
-
-https://netbeans.apache.org/download/index.html
-https://netbeans.apache.org/download/nb110/index.html
-https://netbeans.apache.org/download/nb110/nb110.html
-https://netbeans.apache.org/download/nb111/index.html
-https://netbeans.apache.org/download/nb111/nb111.html
-https://netbeans.apache.org/download/nb112/index.html
-https://netbeans.apache.org/download/nb112/nb112.html
-```
