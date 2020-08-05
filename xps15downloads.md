@@ -1119,3 +1119,53 @@ C:\Users\David Holberton\Downloads>dir /o:gd/p
 
 C:\Users\David Holberton\Downloads>
 ```
+
+```
+C:\Users\David Holberton\Downloads>dir /o:gn jdk*exe | findstr "x64"
+05/30/2018  06:26 AM       409,146,304 jdk-10.0.1_windows-x64_bin.exe
+07/24/2018  08:02 AM       409,204,592 jdk-10.0.2_windows-x64_bin.exe
+11/24/2018  04:45 PM       158,313,840 jdk-11.0.1_windows-x64_bin.exe
+01/30/2019  12:02 PM       158,268,784 jdk-11.0.2_windows-x64_bin.exe
+04/26/2019  07:16 AM       158,309,744 jdk-11.0.3_windows-x64_bin.exe
+07/31/2019  07:48 AM       158,569,960 jdk-11.0.4_windows-x64_bin.exe
+01/19/2020  04:15 PM       158,933,336 jdk-11.0.6_windows-x64_bin.exe
+04/16/2020  12:46 PM       159,574,680 jdk-11.0.7_windows-x64_bin.exe
+07/16/2020  10:25 AM       159,105,176 jdk-11.0.8_windows-x64_bin.exe
+04/16/2019  08:38 PM       166,190,448 jdk-12.0.1_windows-x64_bin.exe
+07/31/2019  07:49 AM       166,331,880 jdk-12.0.2_windows-x64_bin.exe
+03/24/2019  11:56 AM       166,190,440 jdk-12_windows-x64_bin.exe
+10/21/2019  07:42 PM       167,606,832 jdk-13.0.1_windows-x64_bin.exe
+01/19/2020  04:18 PM       167,594,544 jdk-13.0.2_windows-x64_bin.exe
+10/03/2019  06:37 AM       167,579,000 jdk-13_windows-x64_bin.exe
+04/16/2020  12:37 PM       169,944,728 jdk-14.0.1_windows-x64_bin.exe
+03/29/2020  10:52 AM       169,957,520 jdk-14_windows-x64_bin.exe
+08/02/2017  06:40 AM       146,861,984 jdk-7u79-windows-x64.exe
+08/02/2017  06:39 AM       146,893,216 jdk-7u80-windows-x64.exe
+08/02/2017  06:37 AM       204,139,576 jdk-8u102-windows-x64.exe
+08/02/2017  06:35 AM       204,607,032 jdk-8u112-windows-x64.exe
+08/02/2017  06:31 AM       205,004,856 jdk-8u121-windows-x64.exe
+08/02/2017  06:30 AM       207,649,848 jdk-8u131-windows-x64(1).exe
+06/08/2017  08:35 AM       207,649,848 jdk-8u131-windows-x64.exe
+08/02/2017  06:29 AM       207,387,192 jdk-8u141-windows-x64.exe
+08/02/2017  06:21 AM       207,382,584 jdk-8u144-windows-x64.exe
+03/15/2018  08:01 AM       216,544,312 jdk-8u161-windows-x64.exe
+03/15/2018  08:04 AM       216,804,920 jdk-8u162-windows-x64.exe
+05/30/2018  06:11 AM       217,342,912 jdk-8u171-windows-x64.exe
+05/30/2018  06:12 AM       217,370,560 jdk-8u172-windows-x64.exe
+07/24/2018  07:34 AM       212,582,768 jdk-8u181-windows-x64.exe
+11/24/2018  04:27 PM       217,284,976 jdk-8u191-windows-x64.exe
+11/24/2018  04:33 PM       217,494,384 jdk-8u192-windows-x64.exe
+01/30/2019  11:14 AM       217,539,936 jdk-8u201-windows-x64.exe
+01/30/2019  11:17 AM       221,852,512 jdk-8u202-windows-x64.exe
+04/16/2019  08:28 PM       225,748,832 jdk-8u211-windows-x64.exe
+04/16/2019  08:30 PM       225,718,112 jdk-8u212-windows-x64.exe
+07/31/2019  07:45 AM       225,811,416 jdk-8u221-windows-x64.exe
+10/21/2019  07:44 PM       220,392,992 jdk-8u231-windows-x64.exe
+01/19/2020  04:12 PM       221,163,040 jdk-8u241-windows-x64.exe
+04/16/2020  12:26 PM       221,816,968 jdk-8u251-windows-x64.exe
+07/20/2020  06:36 AM       174,353,032 jdk-8u261-windows-x64(1).exe
+07/16/2020  10:10 AM       174,353,032 jdk-8u261-windows-x64.exe
+03/15/2018  08:27 AM       393,799,736 jdk-9.0.4_windows-x64_bin.exe
+
+C:\Users\David Holberton\Downloads>
+```
