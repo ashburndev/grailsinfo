@@ -1,16 +1,16 @@
 ```
-Microsoft Windows [Version 10.0.18363.959]
-(c) 2019 Microsoft Corporation. All rights reserved.
+Microsoft Windows [Version 10.0.19041.450]
+(c) 2020 Microsoft Corporation. All rights reserved.
 
 C:\Users\David Holberton>cd Downloads
 
 C:\Users\David Holberton\Downloads>date /t
-Wed 08/05/2020
+Mon 09/14/2020
 
 C:\Users\David Holberton\Downloads>time /t
-07:46 AM
+07:24 AM
 
-C:\Users\David Holberton\Downloads>dir /o:gd/p
+C:\Users\David Holberton\Downloads>dir /o:gd
  Volume in drive C has no label.
  Volume Serial Number is 4603-A8D3
 
@@ -36,8 +36,9 @@ C:\Users\David Holberton\Downloads>dir /o:gd/p
 03/12/2020  05:46 AM    <DIR>          bar
 03/30/2020  09:06 AM    <DIR>          gitwin
 04/26/2020  12:35 PM    <DIR>          rp
-07/29/2020  07:24 AM    <DIR>          ..
-07/29/2020  07:24 AM    <DIR>          .
+08/11/2020  09:45 AM    <DIR>          temp2
+09/14/2020  07:39 AM    <DIR>          ..
+09/14/2020  07:39 AM    <DIR>          .
 06/08/2017  08:22 AM         1,130,328 ChromeSetup.exe
 06/08/2017  08:26 AM           246,056 Firefox Setup Stub 53.0.3.exe
 06/08/2017  08:35 AM       207,649,848 jdk-8u131-windows-x64.exe
@@ -1114,8 +1115,44 @@ C:\Users\David Holberton\Downloads>dir /o:gd/p
 07/29/2020  07:23 AM     2,645,200,349 2020-05-27-raspios-buster-full-armhf(1).zip
 07/29/2020  07:24 AM     1,181,855,929 2020-05-27-raspios-buster-armhf(1).zip
 07/29/2020  07:24 AM       452,715,448 2020-05-27-raspios-buster-lite-armhf(1).zip
-            1076 File(s) 143,115,639,008 bytes
-              22 Dir(s)  140,766,720,000 bytes free
+08/07/2020  07:01 AM            12,417 jce_policy-8(1).zip
+08/11/2020  08:42 AM        37,993,048 real-world-cryptography_pack.zip
+08/11/2020  08:43 AM        65,329,526 math-for-programmers_pack.zip
+08/11/2020  08:43 AM         5,892,416 aws-cloudformation-in-action_pack.zip
+08/11/2020  08:45 AM        11,760,419 spring-in-action-sixth-edition_pack.zip
+08/11/2020  08:48 AM       859,026,658 Creating a Simple Angular App.zip
+09/02/2020  07:50 AM        58,657,592 VSCodeUserSetup-x64-1.48.2.exe
+09/02/2020  07:51 AM        58,657,272 VSCodeSetup-x64-1.48.2.exe
+09/02/2020  07:51 AM        83,447,019 VSCode-win32-x64-1.48.2.zip
+09/02/2020  12:01 PM           134,418 introduction_to_spring_cloud_-_s1_2020.pdf
+09/02/2020  12:10 PM       399,600,816 spring-tool-suite-4-4.7.1.RELEASE-e4.16.0-win32.win32.x86_64.self-extracting.jar
+09/02/2020  12:42 PM       218,179,016 eclipse-java-2020-06-R-win32-x86_64(1).zip
+09/02/2020  12:46 PM               171 eclipse-java-2020-06-R-win32-x86_64(1).zip.sha512
+09/02/2020  12:47 PM       409,828,211 eclipse-jee-2020-06-R-win32-x86_64(1).zip
+09/02/2020  12:49 PM               170 eclipse-jee-2020-06-R-win32-x86_64(1).zip.sha512
+09/12/2020  10:39 AM        64,047,312 VSCodeUserSetup-x64-1.49.0.exe
+09/12/2020  10:39 AM        64,047,256 VSCodeSetup-x64-1.49.0.exe
+09/12/2020  10:40 AM        89,295,548 VSCode-win32-x64-1.49.0.zip
+09/13/2020  10:02 AM       115,368,960 amazon-corretto-8.265.01.1-windows-x64.msi
+09/13/2020  10:04 AM                34 amazon-corretto-8.265.01.1-windows-x64.msi.md5
+09/13/2020  10:05 AM       121,033,240 amazon-corretto-8.265.01.1-windows-x64-jdk.zip
+09/13/2020  10:06 AM                34 amazon-corretto-8.265.01.1-windows-x64-jdk.zip.md5
+09/13/2020  10:09 AM       167,721,984 amazon-corretto-11.0.8.10.1-windows-x64.msi
+09/13/2020  10:11 AM                34 amazon-corretto-11.0.8.10.1-windows-x64.msi.md5
+09/13/2020  10:11 AM       185,607,712 amazon-corretto-11.0.8.10.1-windows-x64-jdk.zip
+09/13/2020  10:12 AM                34 amazon-corretto-11.0.8.10.1-windows-x64-jdk.zip.md5
+09/13/2020  10:15 AM       422,340,778 spring-tool-suite-4-4.7.2.RELEASE-e4.16.0-win32.win32.x86_64.self-extracting.jar
+09/13/2020  10:52 AM        11,704,381 micronaut-cli-2.0.1.zip
+09/13/2020  10:55 AM       696,713,376 ideaIU-2020.2.1.exe
+09/13/2020  10:57 AM                86 ideaIU-2020.2.1.exe.sha256
+09/13/2020  10:58 AM       806,690,186 ideaIU-2020.2.1.win.zip
+09/13/2020  10:58 AM                90 ideaIU-2020.2.1.win.zip.sha256
+09/13/2020  10:59 AM       600,760,544 ideaIC-2020.2.1.exe
+09/13/2020  10:59 AM                86 ideaIC-2020.2.1.exe.sha256
+09/13/2020  10:59 AM       674,876,576 ideaIC-2020.2.1.win.zip
+09/13/2020  10:59 AM                90 ideaIC-2020.2.1.win.zip.sha256
+            1112 File(s) 149,344,366,518 bytes
+              23 Dir(s)  131,765,202,944 bytes free
 
 C:\Users\David Holberton\Downloads>
 ```
@@ -1166,6 +1203,57 @@ C:\Users\David Holberton\Downloads>dir /o:gn jdk*exe | findstr "x64"
 07/20/2020  06:36 AM       174,353,032 jdk-8u261-windows-x64(1).exe
 07/16/2020  10:10 AM       174,353,032 jdk-8u261-windows-x64.exe
 03/15/2018  08:27 AM       393,799,736 jdk-9.0.4_windows-x64_bin.exe
+
+C:\Users\David Holberton\Downloads>
+```
+
+```
+C:\Users\David Holberton\Downloads>dir /o:gd | findstr /i "corretto"
+02/10/2019  08:14 AM    <DIR>          Downloads for Amazon Corretto 8 - Amazon Corretto 8_files
+04/25/2019  07:55 AM    <DIR>          Downloads for Amazon Corretto 11 - Amazon Corretto_files
+09/07/2019  10:55 AM    <DIR>          Downloads for Amazon Corretto 8.222.10.1 - Amazon Corretto_files
+09/07/2019  10:58 AM    <DIR>          Downloads for Amazon Corretto 11.0.4.11.1 - Amazon Corretto_files
+02/10/2019  08:14 AM            39,789 Downloads for Amazon Corretto 8 - Amazon Corretto 8.html
+02/10/2019  08:20 AM       110,860,800 amazon-corretto-8.202.08.2-windows-x86.msi
+02/10/2019  08:20 AM       125,583,723 amazon-corretto-8.202.08.2-windows-x86-jdk.zip
+02/10/2019  08:21 AM               287 amazon-corretto-8.202.08.2-windows-x86-jdk.zip.sig
+02/10/2019  08:21 AM        45,500,623 amazon-corretto-8.202.08.2-windows-x86-jre.zip
+02/10/2019  08:21 AM               287 amazon-corretto-8.202.08.2-windows-x86-jre.zip.sig
+02/10/2019  08:22 AM       112,288,768 amazon-corretto-8.202.08.2-windows-x64.msi
+02/10/2019  08:22 AM       126,342,436 amazon-corretto-8.202.08.2-windows-x64-jdk.zip
+02/10/2019  08:22 AM               287 amazon-corretto-8.202.08.2-windows-x64-jdk.zip.sig
+02/10/2019  08:22 AM        46,281,918 amazon-corretto-8.202.08.2-windows-x64-jre.zip
+02/10/2019  08:23 AM               287 amazon-corretto-8.202.08.2-windows-x64-jre.zip.sig
+04/16/2019  08:57 PM       112,433,664 amazon-corretto-8.212.04.1-windows-x64.msi
+04/16/2019  08:57 PM       118,448,982 amazon-corretto-8.212.04.1-windows-x64-jdk.zip
+04/16/2019  08:58 PM        46,936,797 amazon-corretto-8.212.04.1-windows-x64-jre.zip
+04/16/2019  08:58 PM       110,955,008 amazon-corretto-8.212.04.1-windows-x86.msi
+04/16/2019  08:59 PM       117,592,967 amazon-corretto-8.212.04.1-windows-x86-jdk.zip
+04/16/2019  08:59 PM        46,130,734 amazon-corretto-8.212.04.1-windows-x86-jre.zip
+04/16/2019  09:00 PM               287 amazon-corretto-8.212.04.1-windows-x64-jdk.zip.sig
+04/16/2019  09:00 PM               287 amazon-corretto-8.212.04.1-windows-x64-jre.zip.sig
+04/16/2019  09:00 PM               287 amazon-corretto-8.212.04.1-windows-x86-jdk.zip.sig
+04/16/2019  09:00 PM               287 amazon-corretto-8.212.04.1-windows-x86-jre.zip.sig
+04/16/2019  09:03 PM             2,683 amazon-corretto-8.212.04.1.md5.txt
+04/25/2019  07:48 AM       167,276,544 amazon-corretto-11.0.3.7.1-windows-x64.msi
+04/25/2019  07:50 AM       182,909,990 amazon-corretto-11.0.3.7.1-windows-x64.zip
+04/25/2019  07:51 AM               287 amazon-corretto-11.0.3.7.1-windows-x64.zip.sig
+04/25/2019  07:55 AM            29,812 Downloads for Amazon Corretto 11 - Amazon Corretto.html
+09/07/2019  10:22 AM       114,194,432 amazon-corretto-8.222.10.3-windows-x64.msi
+09/07/2019  10:22 AM       119,838,632 amazon-corretto-8.222.10.3-windows-x64-jdk.zip
+09/07/2019  10:22 AM        48,244,311 amazon-corretto-8.222.10.3-windows-x64-jre.zip
+09/07/2019  10:55 AM            44,777 Downloads for Amazon Corretto 8.222.10.1 - Amazon Corretto.html
+09/07/2019  10:56 AM       168,257,536 amazon-corretto-11.0.4.11.1-windows-x64.msi
+09/07/2019  10:56 AM       183,486,269 amazon-corretto-11.0.4.11.1-windows-x64.zip
+09/07/2019  10:58 AM            35,252 Downloads for Amazon Corretto 11.0.4.11.1 - Amazon Corretto.html
+09/13/2020  10:02 AM       115,368,960 amazon-corretto-8.265.01.1-windows-x64.msi
+09/13/2020  10:04 AM                34 amazon-corretto-8.265.01.1-windows-x64.msi.md5
+09/13/2020  10:05 AM       121,033,240 amazon-corretto-8.265.01.1-windows-x64-jdk.zip
+09/13/2020  10:06 AM                34 amazon-corretto-8.265.01.1-windows-x64-jdk.zip.md5
+09/13/2020  10:09 AM       167,721,984 amazon-corretto-11.0.8.10.1-windows-x64.msi
+09/13/2020  10:11 AM                34 amazon-corretto-11.0.8.10.1-windows-x64.msi.md5
+09/13/2020  10:11 AM       185,607,712 amazon-corretto-11.0.8.10.1-windows-x64-jdk.zip
+09/13/2020  10:12 AM                34 amazon-corretto-11.0.8.10.1-windows-x64-jdk.zip.md5
 
 C:\Users\David Holberton\Downloads>
 ```
