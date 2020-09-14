@@ -1,4 +1,73 @@
 ```
+7:17 AM 9/14/2020
+
+software to download
+  1. Oracle JDK 8u261, 11.0.8, 14.0.1, 15
+  2. AWS JDK (Corretto) 8, 11
+  3. Eclipse 2020-06 (Java and JEE)
+  4. JetBrains Intellij Idea 2020.2.1
+  5. Microsoft Visual Studio Code (49)
+  6. Netbeans
+  7. Spring Tool Suite (STS)
+  8. Groovy and Grails Tool Suite (GGTS)
+  9. Apache Groovy 3.0.4
+ 10. Grails 4.0.4
+ 11. Microaut 2.0.1
+ 12. Maven
+ 13. Gradle
+ 14. Node, npm, angular, typescript
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+https://www.oracle.com/java/technologies/javase-jdk11-downloads.html
+https://www.oracle.com/java/technologies/javase/jdk14-archive-downloads.html
+
+https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html
+https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html
+
+https://www.eclipse.org/downloads/
+https://www.eclipse.org/downloads/packages/
+https://marketplace.eclipse.org/category/free-tagging/groovy
+https://marketplace.eclipse.org/content/groovy-development-tools
+https://github.com/groovy/groovy-eclipse/wiki
+https://github.com/groovy/groovy-eclipse/wiki/3.8.0-Release-Notes
+https://dist.springsource.org/release/GRECLIPSE/e4.16
+
+https://www.jetbrains.com/idea/download/#section=windows
+
+https://code.visualstudio.com/download
+
+https://netbeans.org/downloads/8.2/rc/
+https://netbeans.apache.org/download/index.html
+
+https://spring.io/tools
+https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-dev-pack
+https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-initializr
+https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-boot-dashboard
+https://spring.io/blog/2015/03/11/spring-tool-suite-and-groovy-grails-tool-suite-3-6-4-released
+https://spring.io/tools/sts/all    404 error
+https://spring.io/tools/ggts/all   404 error
+https://docs.spring.io/sts/nan/v364/NewAndNoteworthy.html
+https://stackoverflow.com/questions/25000757/where-can-i-download-groovy-grails-tool-suite-version-3-5-1-for-windows
+http://download.springsource.com/release/STS/3.5.1/dist/e4.4/groovy-grails-tool-suite-3.5.1.RELEASE-e4.4-win32-x86_64.zip
+
+http://groovy-lang.org/download.html
+
+https://grails.org/download.html
+
+https://micronaut.io/download.html
+https://github.com/micronaut-projects/micronaut-core/releases/tag/v2.0.1
+
+https://maven.apache.org/download.cgi
+
+https://gradle.org/install/
+https://gradle.org/releases/
+
+https://www.typescriptlang.org/download
+```
+
+```
 Microsoft Windows [Version 10.0.19041.450]
 (c) 2020 Microsoft Corporation. All rights reserved.
 
