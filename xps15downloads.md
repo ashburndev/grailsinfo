@@ -4,18 +4,19 @@
 software to download
   1. Oracle JDK 8u261, 11.0.8, 14.0.1, 15
   2. AWS JDK (Corretto) 8, 11
-  3. Eclipse 2020-06 (Java and JEE)
+  3. Eclipse 2020-09 (Java and JEE)
   4. JetBrains Intellij Idea 2020.2.1
   5. Microsoft Visual Studio Code (49)
-  6. Netbeans
+  6. Netbeans (8.2, 12.0, 12.1)
   7. Spring Tool Suite (STS)
   8. Groovy and Grails Tool Suite (GGTS)
   9. Apache Groovy 3.0.4
  10. Grails 4.0.4
- 11. Microaut 2.0.1
+ 11. Microaut 2.0.2
  12. Maven
  13. Gradle
- 14. Node, npm, angular, typescript
+ 14. Tomcat, Ant
+ 15. Node, npm, angular, typescript
  
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
   1. Oracle JDK 8u261, 11.0.8, 14.0.1, 15
@@ -52,10 +53,16 @@ https://www.jetbrains.com/idea/download/#section=windows
 https://code.visualstudio.com/download
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-  6. Netbeans
+  6. Netbeans (8.2, 12.0, 12.1)
   
+https://netbeans.org/
 https://netbeans.org/downloads/8.2/rc/
+https://netbeans.apache.org
 https://netbeans.apache.org/download/index.html
+https://netbeans.apache.org/download/nb120/nb120.html    Downloading Apache NetBeans 12.0
+https://netbeans.apache.org/download/nb120/index.html    Apache NetBeans 12.0 Features
+https://netbeans.apache.org/download/nb121/nb121.html    Downloading Apache NetBeans 12.1
+https://netbeans.apache.org/download/nb121/index.html    Apache NetBeans 12.1 Features
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
   7. Spring Tool Suite (STS)
@@ -86,10 +93,11 @@ http://groovy-lang.org/download.html
 https://grails.org/download.html
  
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
- 11. Microaut 2.0.1
+ 11. Microaut 2.0.2
  
 https://micronaut.io/download.html
 https://github.com/micronaut-projects/micronaut-core/releases/tag/v2.0.1
+https://github.com/micronaut-projects/micronaut-core/releases/tag/v2.0.2
  
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
  12. Maven
@@ -101,9 +109,12 @@ https://maven.apache.org/download.cgi
  
 https://gradle.org/install/
 https://gradle.org/releases/
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 14. Tomcat, Ant
  
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
- 14. Node, npm, angular, typescript
+ 15. Node, npm, angular, typescript
  
 https://www.typescriptlang.org/download
 
