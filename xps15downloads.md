@@ -1273,8 +1273,39 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 09/13/2020  10:59 AM                86 ideaIC-2020.2.1.exe.sha256
 09/13/2020  10:59 AM       674,876,576 ideaIC-2020.2.1.win.zip
 09/13/2020  10:59 AM                90 ideaIC-2020.2.1.win.zip.sha256
-            1112 File(s) 149,344,366,518 bytes
-              23 Dir(s)  131,765,202,944 bytes free
+
+09/16/2020  07:07 AM       124,517,576 jdk-8u261-docs-all.zip
+09/16/2020  07:07 AM        10,569,118 javafx-8u261-apidocs.zip
+09/16/2020  07:08 AM        53,665,320 jdk-11.0.8_doc-all.zip
+09/16/2020  07:09 AM        52,312,117 jdk-14.0.2_doc-all.zip
+09/16/2020  07:13 AM       169,989,784 jdk-14.0.2_windows-x64_bin.exe
+09/16/2020  07:14 AM       190,381,364 jdk-14.0.2_windows-x64_bin.zip
+09/16/2020  07:16 AM            11,214 14-0-2-checksum.html
+09/16/2020  07:30 AM       195,901,213 openjdk-15_windows-x64_bin.zip
+09/16/2020  07:32 AM                66 openjdk-15_windows-x64_bin.zip.sha256
+09/16/2020  07:35 AM       167,435,408 jdk-15_windows-x64_bin.exe
+09/16/2020  07:35 AM       187,941,876 jdk-15_windows-x64_bin.zip
+09/16/2020  07:36 AM            11,439 15checksum.html
+09/16/2020  07:48 AM        50,530,306 jdk-15_doc-all.zip
+09/19/2020  10:42 AM       400,348,966 eclipse-jee-2020-09-R-win32-x86_64.zip
+09/19/2020  10:44 AM               170 eclipse-jee-2020-09-R-win32-x86_64.zip.sha512
+09/19/2020  10:44 AM       206,465,870 eclipse-java-2020-09-R-win32-x86_64.zip
+09/19/2020  10:45 AM               171 eclipse-java-2020-09-R-win32-x86_64.zip.sha512
+09/19/2020  10:50 AM        12,819,663 micronaut-cli-2.0.2.zip
+09/21/2020  05:49 AM       374,859,809 netbeans-12.0-bin.zip
+09/21/2020  05:50 AM               154 netbeans-12.0-bin.zip.sha512
+09/21/2020  05:50 AM               858 netbeans-12.0-bin.zip.asc
+09/21/2020  05:53 AM       375,039,784 Apache-NetBeans-12.0-bin-windows-x64.exe
+09/21/2020  05:53 AM               173 Apache-NetBeans-12.0-bin-windows-x64.exe.sha512
+09/21/2020  05:53 AM               858 Apache-NetBeans-12.0-bin-windows-x64.exe.asc
+09/21/2020  05:56 AM       392,629,201 netbeans-12.1-bin.zip
+09/21/2020  05:57 AM               154 netbeans-12.1-bin.zip.sha512
+09/21/2020  05:57 AM               866 netbeans-12.1-bin.zip.asc
+09/21/2020  05:58 AM       392,842,408 Apache-NetBeans-12.1-bin-windows-x64.exe
+09/21/2020  05:59 AM               171 Apache-NetBeans-12.1-bin-windows-x64.exe.sha512
+09/21/2020  05:59 AM               866 Apache-NetBeans-12.1-bin-windows-x64.exe.asc
+            1142 File(s) 152,702,643,461 bytes
+              24 Dir(s)  118,978,383,872 bytes free
 
 C:\Users\David Holberton\Downloads>
 ```
@@ -1297,7 +1328,9 @@ C:\Users\David Holberton\Downloads>dir /o:gn jdk*exe | findstr "x64"
 01/19/2020  04:18 PM       167,594,544 jdk-13.0.2_windows-x64_bin.exe
 10/03/2019  06:37 AM       167,579,000 jdk-13_windows-x64_bin.exe
 04/16/2020  12:37 PM       169,944,728 jdk-14.0.1_windows-x64_bin.exe
+09/16/2020  07:13 AM       169,989,784 jdk-14.0.2_windows-x64_bin.exe
 03/29/2020  10:52 AM       169,957,520 jdk-14_windows-x64_bin.exe
+09/16/2020  07:35 AM       167,435,408 jdk-15_windows-x64_bin.exe
 08/02/2017  06:40 AM       146,861,984 jdk-7u79-windows-x64.exe
 08/02/2017  06:39 AM       146,893,216 jdk-7u80-windows-x64.exe
 08/02/2017  06:37 AM       204,139,576 jdk-8u102-windows-x64.exe
