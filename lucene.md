@@ -1,0 +1,41 @@
+```
+
+http://www.lucenetutorial.com/ 20200930.191146 
+http://www.lucenetutorial.com/lucene-in-5-minutes.html 20200930.191200 
+http://www.lucenetutorial.com/sample-apps/textfileindexer-java.html 20200930.193538 
+https://coderanch.com/t/424178/open-source/PDF-file-indexing-Searching-lucene 20201001.004401 
+https://cwiki.apache.org/confluence/display/LUCENE/Home 20201001.010934 
+https://github.com/snowtide/lucene-pdf 20201001.003121 
+https://howtodoinjava.com/lucene/lucene-index-and-search-text-files/ 20201001.060927 
+https://lucene.472066.n3.nabble.com/Iterating-over-all-documents-in-an-index-td2480114.html 20201001.054738 
+https://lucene.apache.org/ 20200929.202733 
+https://lucene.apache.org/core/ 20200929.202841 
+https://lucene.apache.org/core/2_9_4/fileformats.html 20200929.202643 
+https://lucene.apache.org/core/3_0_3/fileformats.pdf 20200929.202109 
+https://lucene.apache.org/core/8_6_2/core/allclasses-noframe.html 20201001.010905 
+https://lucene.apache.org/core/8_6_2/core/overview-summary.html#overview.description 20201001.010455 
+https://lucene.apache.org/core/8_6_2/index.html 20201001.010329 
+https://lucene.apache.org/core/corenews.html 20200929.203059 
+https://lucene.apache.org/core/documentation.html 20201001.010317 
+https://lucene.apache.org/core/index.html 20200929.203044 
+https://lucene.apache.org/core/quickstart.html 20201001.005512 
+https://mvnrepository.com/artifact/org.apache.lucene/lucene-core 20200929.212754 
+https://mvnrepository.com/artifact/org.apache.lucene/lucene-core/8.6.2/usages 20200929.212848 
+https://mvnrepository.com/search.html?query=Lucene 20200929.212544 
+https://nullbeans.com/spring-boot-and-lucene-configuration-example/ 20200929.212127 
+https://stackoverflow.com/questions/2311845/is-it-possible-to-iterate-through-documents-stored-in-lucene-index 20201001.053948 
+https://stackoverflow.com/questions/23762015/how-to-index-pdf-file-with-lucene 20200929.201958 
+https://stackoverflow.com/questions/30810879/how-to-check-if-document-exists-in-lucene-index 20201001.055206 
+https://stackoverflow.com/questions/7211798/how-to-get-all-documents-of-lucene-index 20201001.053220 
+https://www.avajava.com/tutorials/lessons/how-do-i-use-lucene-to-index-and-search-text-files.html 20201001.060636 
+https://www.avajava.com/tutorials/lessons/how-do-i-use-lucene-to-index-and-search-text-files.html?page=2 20201001.060800 
+https://www.baeldung.com/lucene 20200929.212114 
+https://www.baeldung.com/lucene-file-search 20201001.055341 
+https://www.programcreek.com/java-api-examples/?class=org.apache.lucene.index.DirectoryReader&method=indexExists 20201001.062336 
+https://www.quora.com/How-do-I-search-keywords-in-a-PDF-files-using-Lucene 20201001.004635 
+https://www.snowtide.com/help/2.7.0/indexing-pdf-documents-with-lucene-and-pdftextstream 20200929.202019 
+https://www.snowtide.com/help/3.7.5/indexing-pdf-documents-with-lucene-and-pdfxstream 20200930.194104 
+https://www.tutorialspoint.com/lucene/index.htm 20200930.193809 
+https://www.tutorialspoint.com/lucene/lucene_indexing_process.htm 20201001.062005 
+https://www.tutorialspoint.com/lucene/lucene_tutorial.pdf 20201001.004733 
+```
