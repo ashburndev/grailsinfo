@@ -121,17 +121,18 @@ https://www.typescriptlang.org/download
 ```
 
 ```
-Microsoft Windows [Version 10.0.19041.450]
+Microsoft Windows [Version 10.0.19041.508]
 (c) 2020 Microsoft Corporation. All rights reserved.
 
 C:\Users\David Holberton>cd Downloads
 
 C:\Users\David Holberton\Downloads>date /t
-Mon 09/14/2020
+Tue 10/06/2020
 
 C:\Users\David Holberton\Downloads>time /t
-07:24 AM
+07:02 AM
 
+C:\Users\David Holberton\Downloads>
 C:\Users\David Holberton\Downloads>dir /o:gd
  Volume in drive C has no label.
  Volume Serial Number is 4603-A8D3
@@ -159,8 +160,9 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 03/30/2020  09:06 AM    <DIR>          gitwin
 04/26/2020  12:35 PM    <DIR>          rp
 08/11/2020  09:45 AM    <DIR>          temp2
-09/14/2020  07:39 AM    <DIR>          ..
-09/14/2020  07:39 AM    <DIR>          .
+09/16/2020  07:53 AM    <DIR>          jdk15
+10/06/2020  06:46 AM    <DIR>          .
+10/06/2020  06:46 AM    <DIR>          ..
 06/08/2017  08:22 AM         1,130,328 ChromeSetup.exe
 06/08/2017  08:26 AM           246,056 Firefox Setup Stub 53.0.3.exe
 06/08/2017  08:35 AM       207,649,848 jdk-8u131-windows-x64.exe
@@ -1255,6 +1257,7 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 09/12/2020  10:39 AM        64,047,312 VSCodeUserSetup-x64-1.49.0.exe
 09/12/2020  10:39 AM        64,047,256 VSCodeSetup-x64-1.49.0.exe
 09/12/2020  10:40 AM        89,295,548 VSCode-win32-x64-1.49.0.zip
+
 09/13/2020  10:02 AM       115,368,960 amazon-corretto-8.265.01.1-windows-x64.msi
 09/13/2020  10:04 AM                34 amazon-corretto-8.265.01.1-windows-x64.msi.md5
 09/13/2020  10:05 AM       121,033,240 amazon-corretto-8.265.01.1-windows-x64-jdk.zip
@@ -1273,7 +1276,6 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 09/13/2020  10:59 AM                86 ideaIC-2020.2.1.exe.sha256
 09/13/2020  10:59 AM       674,876,576 ideaIC-2020.2.1.win.zip
 09/13/2020  10:59 AM                90 ideaIC-2020.2.1.win.zip.sha256
-
 09/16/2020  07:07 AM       124,517,576 jdk-8u261-docs-all.zip
 09/16/2020  07:07 AM        10,569,118 javafx-8u261-apidocs.zip
 09/16/2020  07:08 AM        53,665,320 jdk-11.0.8_doc-all.zip
@@ -1304,8 +1306,56 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 09/21/2020  05:58 AM       392,842,408 Apache-NetBeans-12.1-bin-windows-x64.exe
 09/21/2020  05:59 AM               171 Apache-NetBeans-12.1-bin-windows-x64.exe.sha512
 09/21/2020  05:59 AM               866 Apache-NetBeans-12.1-bin-windows-x64.exe.asc
-            1142 File(s) 152,702,643,461 bytes
-              24 Dir(s)  118,978,383,872 bytes free
+09/23/2020  07:02 AM     2,653,267,468 2020-08-20-raspios-buster-armhf-full.zip
+09/23/2020  07:10 AM     1,187,281,347 2020-08-20-raspios-buster-armhf.zip
+09/23/2020  07:12 AM       455,166,810 2020-08-20-raspios-buster-armhf-lite.zip
+09/23/2020  07:12 AM             2,449 2020-08-20-raspios-buster-armhf.txt
+09/23/2020  07:17 AM            29,726 2020-08-20-raspios-buster-armhf-release-notes.txt
+09/23/2020  07:21 AM            56,671 sbtest1.zip
+09/23/2020  07:23 AM           806,059 ggtest1.zip
+09/23/2020  07:25 AM            60,709 mntest1.zip
+10/04/2020  11:44 AM         9,602,303 apache-maven-3.6.3-bin(1).zip
+10/04/2020  11:49 AM       102,673,746 gradle-6.6.1-bin.zip
+10/04/2020  11:49 AM                64 gradle-6.6.1-bin.zip.sha256
+10/04/2020  11:50 AM       145,214,952 gradle-6.6.1-all.zip
+10/04/2020  11:50 AM                64 gradle-6.6.1-all.zip.sha256
+10/04/2020  12:00 PM        43,587,616 apache-groovy-binary-3.0.6.zip
+10/04/2020  12:00 PM               838 apache-groovy-binary-3.0.6.zip.asc
+10/04/2020  12:00 PM                66 apache-groovy-binary-3.0.6.zip.sha256
+10/04/2020  12:01 PM         9,200,846 apache-groovy-src-3.0.6.zip
+10/04/2020  12:02 PM               838 apache-groovy-src-3.0.6.zip.asc
+10/04/2020  12:02 PM                66 apache-groovy-src-3.0.6.zip.sha256
+10/04/2020  12:02 PM        21,843,697 apache-groovy-docs-3.0.6.zip
+10/04/2020  12:02 PM               838 apache-groovy-docs-3.0.6.zip.asc
+10/04/2020  12:03 PM                66 apache-groovy-docs-3.0.6.zip.sha256
+10/04/2020  12:03 PM        74,677,219 apache-groovy-sdk-3.0.6.zip
+10/04/2020  12:04 PM               838 apache-groovy-sdk-3.0.6.zip.asc
+10/04/2020  12:04 PM                66 apache-groovy-sdk-3.0.6.zip.sha256
+10/06/2020  06:27 AM        64,045,368 VSCodeUserSetup-x64-1.49.3.exe
+10/06/2020  06:28 AM        64,045,136 VSCodeSetup-x64-1.49.3.exe
+10/06/2020  06:29 AM        89,294,634 VSCode-win32-x64-1.49.3.zip
+10/06/2020  06:34 AM        97,353,656 lucene-8.6.2.zip
+10/06/2020  06:35 AM               833 lucene-8.6.2.zip.asc
+10/06/2020  06:35 AM               147 lucene-8.6.2.zip.sha512
+10/06/2020  06:36 AM        84,582,166 lucene-8.6.2.tgz
+10/06/2020  06:36 AM               833 lucene-8.6.2.tgz.asc
+10/06/2020  06:36 AM               147 lucene-8.6.2.tgz.sha512
+10/06/2020  06:36 AM        48,630,025 lucene-8.6.2-src.tgz
+10/06/2020  06:36 AM               833 lucene-8.6.2-src.tgz.asc
+10/06/2020  06:37 AM               151 lucene-8.6.2-src.tgz.sha512
+10/06/2020  06:39 AM       196,772,857 solr-8.6.2.zip
+10/06/2020  06:39 AM               833 solr-8.6.2.zip.asc
+10/06/2020  06:39 AM               145 solr-8.6.2.zip.sha512
+10/06/2020  06:40 AM       195,624,713 solr-8.6.2.tgz
+10/06/2020  06:40 AM               833 solr-8.6.2.tgz.asc
+10/06/2020  06:40 AM               145 solr-8.6.2.tgz.sha512
+10/06/2020  06:41 AM        77,795,264 solr-8.6.2-src.tgz
+10/06/2020  06:41 AM               833 solr-8.6.2-src.tgz.asc
+10/06/2020  06:41 AM               149 solr-8.6.2-src.tgz.sha512
+10/06/2020  06:46 AM        64,107,235 LIAsourcecode.zip
+10/06/2020  07:09 AM        12,900,003 micronaut-cli-2.1.0.zip
+            1190 File(s) 158,401,275,762 bytes
+              24 Dir(s)  110,984,970,240 bytes free
 
 C:\Users\David Holberton\Downloads>
 ```
