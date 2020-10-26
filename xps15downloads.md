@@ -19,11 +19,21 @@ software to download
  15. Node, npm, angular, typescript
  
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-  1. Oracle JDK 8u261, 11.0.8, 14.0.1, 15
+  1. Oracle JDK 8u271, 11.0.9, 14.0.2, 15.0.1
   
+https://www.oracle.com/java/technologies/javase-downloads.html
+
 https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+https://www.oracle.com/java/technologies/javase-jdk8-doc-downloads.html
+
 https://www.oracle.com/java/technologies/javase-jdk11-downloads.html
+https://www.oracle.com/java/technologies/javase-jdk11-doc-downloads.html
+
 https://www.oracle.com/java/technologies/javase/jdk14-archive-downloads.html
+https://www.oracle.com/java/technologies/javase-jdk14-doc-downloads.html
+
+https://www.oracle.com/java/technologies/javase-jdk15-downloads.html
+https://www.oracle.com/java/technologies/javase-jdk15-doc-downloads.html
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
   2. AWS JDK (Corretto) 8, 11
@@ -126,13 +136,13 @@ Microsoft Windows [Version 10.0.19041.508]
 
 C:\Users\David Holberton>cd Downloads
 
+C:\Users\David Holberton\Downloads>
 C:\Users\David Holberton\Downloads>date /t
-Tue 10/06/2020
+Mon 10/26/2020
 
 C:\Users\David Holberton\Downloads>time /t
-07:02 AM
+08:18 AM
 
-C:\Users\David Holberton\Downloads>
 C:\Users\David Holberton\Downloads>dir /o:gd
  Volume in drive C has no label.
  Volume Serial Number is 4603-A8D3
@@ -161,8 +171,8 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 04/26/2020  12:35 PM    <DIR>          rp
 08/11/2020  09:45 AM    <DIR>          temp2
 09/16/2020  07:53 AM    <DIR>          jdk15
-10/06/2020  06:46 AM    <DIR>          .
-10/06/2020  06:46 AM    <DIR>          ..
+10/26/2020  08:16 AM    <DIR>          ..
+10/26/2020  08:16 AM    <DIR>          .
 06/08/2017  08:22 AM         1,130,328 ChromeSetup.exe
 06/08/2017  08:26 AM           246,056 Firefox Setup Stub 53.0.3.exe
 06/08/2017  08:35 AM       207,649,848 jdk-8u131-windows-x64.exe
@@ -1257,7 +1267,6 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 09/12/2020  10:39 AM        64,047,312 VSCodeUserSetup-x64-1.49.0.exe
 09/12/2020  10:39 AM        64,047,256 VSCodeSetup-x64-1.49.0.exe
 09/12/2020  10:40 AM        89,295,548 VSCode-win32-x64-1.49.0.zip
-
 09/13/2020  10:02 AM       115,368,960 amazon-corretto-8.265.01.1-windows-x64.msi
 09/13/2020  10:04 AM                34 amazon-corretto-8.265.01.1-windows-x64.msi.md5
 09/13/2020  10:05 AM       121,033,240 amazon-corretto-8.265.01.1-windows-x64-jdk.zip
@@ -1354,111 +1363,38 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 10/06/2020  06:41 AM               149 solr-8.6.2-src.tgz.sha512
 10/06/2020  06:46 AM        64,107,235 LIAsourcecode.zip
 10/06/2020  07:09 AM        12,900,003 micronaut-cli-2.1.0.zip
-            1190 File(s) 158,401,275,762 bytes
-              24 Dir(s)  110,984,970,240 bytes free
-
-C:\Users\David Holberton\Downloads>
-```
-
-```
-C:\Users\David Holberton\Downloads>dir /o:gn jdk*exe | findstr "x64"
-05/30/2018  06:26 AM       409,146,304 jdk-10.0.1_windows-x64_bin.exe
-07/24/2018  08:02 AM       409,204,592 jdk-10.0.2_windows-x64_bin.exe
-11/24/2018  04:45 PM       158,313,840 jdk-11.0.1_windows-x64_bin.exe
-01/30/2019  12:02 PM       158,268,784 jdk-11.0.2_windows-x64_bin.exe
-04/26/2019  07:16 AM       158,309,744 jdk-11.0.3_windows-x64_bin.exe
-07/31/2019  07:48 AM       158,569,960 jdk-11.0.4_windows-x64_bin.exe
-01/19/2020  04:15 PM       158,933,336 jdk-11.0.6_windows-x64_bin.exe
-04/16/2020  12:46 PM       159,574,680 jdk-11.0.7_windows-x64_bin.exe
-07/16/2020  10:25 AM       159,105,176 jdk-11.0.8_windows-x64_bin.exe
-04/16/2019  08:38 PM       166,190,448 jdk-12.0.1_windows-x64_bin.exe
-07/31/2019  07:49 AM       166,331,880 jdk-12.0.2_windows-x64_bin.exe
-03/24/2019  11:56 AM       166,190,440 jdk-12_windows-x64_bin.exe
-10/21/2019  07:42 PM       167,606,832 jdk-13.0.1_windows-x64_bin.exe
-01/19/2020  04:18 PM       167,594,544 jdk-13.0.2_windows-x64_bin.exe
-10/03/2019  06:37 AM       167,579,000 jdk-13_windows-x64_bin.exe
-04/16/2020  12:37 PM       169,944,728 jdk-14.0.1_windows-x64_bin.exe
-09/16/2020  07:13 AM       169,989,784 jdk-14.0.2_windows-x64_bin.exe
-03/29/2020  10:52 AM       169,957,520 jdk-14_windows-x64_bin.exe
-09/16/2020  07:35 AM       167,435,408 jdk-15_windows-x64_bin.exe
-08/02/2017  06:40 AM       146,861,984 jdk-7u79-windows-x64.exe
-08/02/2017  06:39 AM       146,893,216 jdk-7u80-windows-x64.exe
-08/02/2017  06:37 AM       204,139,576 jdk-8u102-windows-x64.exe
-08/02/2017  06:35 AM       204,607,032 jdk-8u112-windows-x64.exe
-08/02/2017  06:31 AM       205,004,856 jdk-8u121-windows-x64.exe
-08/02/2017  06:30 AM       207,649,848 jdk-8u131-windows-x64(1).exe
-06/08/2017  08:35 AM       207,649,848 jdk-8u131-windows-x64.exe
-08/02/2017  06:29 AM       207,387,192 jdk-8u141-windows-x64.exe
-08/02/2017  06:21 AM       207,382,584 jdk-8u144-windows-x64.exe
-03/15/2018  08:01 AM       216,544,312 jdk-8u161-windows-x64.exe
-03/15/2018  08:04 AM       216,804,920 jdk-8u162-windows-x64.exe
-05/30/2018  06:11 AM       217,342,912 jdk-8u171-windows-x64.exe
-05/30/2018  06:12 AM       217,370,560 jdk-8u172-windows-x64.exe
-07/24/2018  07:34 AM       212,582,768 jdk-8u181-windows-x64.exe
-11/24/2018  04:27 PM       217,284,976 jdk-8u191-windows-x64.exe
-11/24/2018  04:33 PM       217,494,384 jdk-8u192-windows-x64.exe
-01/30/2019  11:14 AM       217,539,936 jdk-8u201-windows-x64.exe
-01/30/2019  11:17 AM       221,852,512 jdk-8u202-windows-x64.exe
-04/16/2019  08:28 PM       225,748,832 jdk-8u211-windows-x64.exe
-04/16/2019  08:30 PM       225,718,112 jdk-8u212-windows-x64.exe
-07/31/2019  07:45 AM       225,811,416 jdk-8u221-windows-x64.exe
-10/21/2019  07:44 PM       220,392,992 jdk-8u231-windows-x64.exe
-01/19/2020  04:12 PM       221,163,040 jdk-8u241-windows-x64.exe
-04/16/2020  12:26 PM       221,816,968 jdk-8u251-windows-x64.exe
-07/20/2020  06:36 AM       174,353,032 jdk-8u261-windows-x64(1).exe
-07/16/2020  10:10 AM       174,353,032 jdk-8u261-windows-x64.exe
-03/15/2018  08:27 AM       393,799,736 jdk-9.0.4_windows-x64_bin.exe
-
-C:\Users\David Holberton\Downloads>
-```
-
-```
-C:\Users\David Holberton\Downloads>dir /o:gd | findstr /i "corretto"
-02/10/2019  08:14 AM    <DIR>          Downloads for Amazon Corretto 8 - Amazon Corretto 8_files
-04/25/2019  07:55 AM    <DIR>          Downloads for Amazon Corretto 11 - Amazon Corretto_files
-09/07/2019  10:55 AM    <DIR>          Downloads for Amazon Corretto 8.222.10.1 - Amazon Corretto_files
-09/07/2019  10:58 AM    <DIR>          Downloads for Amazon Corretto 11.0.4.11.1 - Amazon Corretto_files
-02/10/2019  08:14 AM            39,789 Downloads for Amazon Corretto 8 - Amazon Corretto 8.html
-02/10/2019  08:20 AM       110,860,800 amazon-corretto-8.202.08.2-windows-x86.msi
-02/10/2019  08:20 AM       125,583,723 amazon-corretto-8.202.08.2-windows-x86-jdk.zip
-02/10/2019  08:21 AM               287 amazon-corretto-8.202.08.2-windows-x86-jdk.zip.sig
-02/10/2019  08:21 AM        45,500,623 amazon-corretto-8.202.08.2-windows-x86-jre.zip
-02/10/2019  08:21 AM               287 amazon-corretto-8.202.08.2-windows-x86-jre.zip.sig
-02/10/2019  08:22 AM       112,288,768 amazon-corretto-8.202.08.2-windows-x64.msi
-02/10/2019  08:22 AM       126,342,436 amazon-corretto-8.202.08.2-windows-x64-jdk.zip
-02/10/2019  08:22 AM               287 amazon-corretto-8.202.08.2-windows-x64-jdk.zip.sig
-02/10/2019  08:22 AM        46,281,918 amazon-corretto-8.202.08.2-windows-x64-jre.zip
-02/10/2019  08:23 AM               287 amazon-corretto-8.202.08.2-windows-x64-jre.zip.sig
-04/16/2019  08:57 PM       112,433,664 amazon-corretto-8.212.04.1-windows-x64.msi
-04/16/2019  08:57 PM       118,448,982 amazon-corretto-8.212.04.1-windows-x64-jdk.zip
-04/16/2019  08:58 PM        46,936,797 amazon-corretto-8.212.04.1-windows-x64-jre.zip
-04/16/2019  08:58 PM       110,955,008 amazon-corretto-8.212.04.1-windows-x86.msi
-04/16/2019  08:59 PM       117,592,967 amazon-corretto-8.212.04.1-windows-x86-jdk.zip
-04/16/2019  08:59 PM        46,130,734 amazon-corretto-8.212.04.1-windows-x86-jre.zip
-04/16/2019  09:00 PM               287 amazon-corretto-8.212.04.1-windows-x64-jdk.zip.sig
-04/16/2019  09:00 PM               287 amazon-corretto-8.212.04.1-windows-x64-jre.zip.sig
-04/16/2019  09:00 PM               287 amazon-corretto-8.212.04.1-windows-x86-jdk.zip.sig
-04/16/2019  09:00 PM               287 amazon-corretto-8.212.04.1-windows-x86-jre.zip.sig
-04/16/2019  09:03 PM             2,683 amazon-corretto-8.212.04.1.md5.txt
-04/25/2019  07:48 AM       167,276,544 amazon-corretto-11.0.3.7.1-windows-x64.msi
-04/25/2019  07:50 AM       182,909,990 amazon-corretto-11.0.3.7.1-windows-x64.zip
-04/25/2019  07:51 AM               287 amazon-corretto-11.0.3.7.1-windows-x64.zip.sig
-04/25/2019  07:55 AM            29,812 Downloads for Amazon Corretto 11 - Amazon Corretto.html
-09/07/2019  10:22 AM       114,194,432 amazon-corretto-8.222.10.3-windows-x64.msi
-09/07/2019  10:22 AM       119,838,632 amazon-corretto-8.222.10.3-windows-x64-jdk.zip
-09/07/2019  10:22 AM        48,244,311 amazon-corretto-8.222.10.3-windows-x64-jre.zip
-09/07/2019  10:55 AM            44,777 Downloads for Amazon Corretto 8.222.10.1 - Amazon Corretto.html
-09/07/2019  10:56 AM       168,257,536 amazon-corretto-11.0.4.11.1-windows-x64.msi
-09/07/2019  10:56 AM       183,486,269 amazon-corretto-11.0.4.11.1-windows-x64.zip
-09/07/2019  10:58 AM            35,252 Downloads for Amazon Corretto 11.0.4.11.1 - Amazon Corretto.html
-09/13/2020  10:02 AM       115,368,960 amazon-corretto-8.265.01.1-windows-x64.msi
-09/13/2020  10:04 AM                34 amazon-corretto-8.265.01.1-windows-x64.msi.md5
-09/13/2020  10:05 AM       121,033,240 amazon-corretto-8.265.01.1-windows-x64-jdk.zip
-09/13/2020  10:06 AM                34 amazon-corretto-8.265.01.1-windows-x64-jdk.zip.md5
-09/13/2020  10:09 AM       167,721,984 amazon-corretto-11.0.8.10.1-windows-x64.msi
-09/13/2020  10:11 AM                34 amazon-corretto-11.0.8.10.1-windows-x64.msi.md5
-09/13/2020  10:11 AM       185,607,712 amazon-corretto-11.0.8.10.1-windows-x64-jdk.zip
-09/13/2020  10:12 AM                34 amazon-corretto-11.0.8.10.1-windows-x64-jdk.zip.md5
+10/12/2020  09:24 AM        48,791,495 lucene-8.6.3-src.tgz
+10/12/2020  09:24 AM               833 lucene-8.6.3-src.tgz.asc
+10/12/2020  09:24 AM               151 lucene-8.6.3-src.tgz.sha512
+10/24/2020  10:05 AM       161,982,088 jdk-8u271-windows-i586.exe
+10/24/2020  10:06 AM       174,888,584 jdk-8u271-windows-x64.exe
+10/24/2020  10:08 AM        56,163,566 jdk-8u271-windows-i586-demos.zip
+10/24/2020  10:08 AM        56,184,070 jdk-8u271-windows-x64-demos.zip
+10/24/2020  10:09 AM            15,668 8u271checksum.html
+10/24/2020  10:13 AM       159,488,664 jdk-11.0.9_windows-x64_bin.exe
+10/24/2020  10:14 AM       179,769,466 jdk-11.0.9_windows-x64_bin.zip
+10/24/2020  10:15 AM            11,756 11-0-9-checksum.html
+10/24/2020  10:20 AM       167,452,312 jdk-15.0.1_windows-x64_bin.exe
+10/24/2020  10:20 AM       187,976,880 jdk-15.0.1_windows-x64_bin.zip
+10/24/2020  10:22 AM            11,483 15-0-1-checksum.html
+10/24/2020  10:22 AM        50,537,451 jdk-15.0.1_doc-all.zip
+10/24/2020  10:29 AM       125,159,025 jdk-8u271-docs-all.zip
+10/24/2020  10:31 AM        10,568,299 javafx-8u271-apidocs.zip
+10/24/2020  10:34 AM        53,658,875 jdk-11.0.9_doc-all.zip
+10/26/2020  07:11 AM        12,907,868 micronaut-cli-2.1.2.zip
+10/26/2020  07:14 AM       134,272,314 grails-4.0.5.zip
+10/26/2020  07:14 AM         9,113,697 grails-docs-4.0.5.zip
+10/26/2020  07:23 AM     2,785,017,856 ubuntu-20.04.1-desktop-amd64.iso
+10/26/2020  07:25 AM     2,942,003,200 ubuntu-20.10-desktop-amd64.iso
+10/26/2020  07:26 AM     2,193,522,688 ubuntu-18.04.5-desktop-amd64.iso
+10/26/2020  07:27 AM               202 ubuntu-18.04.5-SHASUMS.txt
+10/26/2020  07:30 AM     1,676,877,588 ubuntu-20.10-preinstalled-desktop-arm64+raspi.img.xz
+10/26/2020  07:34 AM               392 ubuntu-16.04.7-SHA256SUMS.txt
+10/26/2020  07:42 AM     1,697,906,688 ubuntu-16.04.7-desktop-amd64.iso
+10/26/2020  07:52 AM     1,697,906,688 ubuntu-16.04.7-desktop-amd64(1).iso
+10/26/2020  08:16 AM               198 ubuntu-20.10-SHA256SUMS.txt
+            1220 File(s) 172,983,465,807 bytes
+              24 Dir(s)  107,507,937,280 bytes free
 
 C:\Users\David Holberton\Downloads>
 ```
