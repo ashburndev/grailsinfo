@@ -1395,12 +1395,23 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 11/11/2020  08:35 AM        62,887,288 VSCodeSetup-x64-1.51.0.exe
 11/11/2020  08:36 AM        87,570,192 VSCode-win32-x64-1.51.0.zip
 11/11/2020  08:37 AM        13,674,116 micronaut-cli-2.1.3.zip
-            1223 File(s) 173,210,480,345 bytes
-              24 Dir(s)  103,079,124,992 bytes free
+11/11/2020  09:09 AM         2,079,880 jre-8u271-windows-i586-iftw.exe
+11/11/2020  09:10 AM        72,904,328 jre-8u271-windows-i586.exe
+11/11/2020  09:10 AM        71,855,802 jre-8u271-windows-i586.tar.gz
+11/11/2020  09:10 AM        83,364,488 jre-8u271-windows-x64.exe
+11/11/2020  09:10 AM        77,496,345 jre-8u271-windows-x64.tar.gz
+11/11/2020  09:13 AM     1,984,790,528 linuxmint-20-cinnamon-64bit.iso
+11/11/2020  09:17 AM     2,057,551,872 linuxmint-20-mate-64bit.iso
+11/11/2020  09:19 AM     1,949,515,776 linuxmint-20-xfce-64bit.iso
+11/11/2020  09:21 AM               286 sha256sum.txt
+11/11/2020  09:21 AM               286 linuxmint-20-sha256sum.txt
+11/11/2020  09:21 AM               833 sha256sum.txt.gpg
+11/11/2020  09:21 AM               833 linuxmint-20-sha256sum.txt.gpg
+            1235 File(s) 179,510,041,602 bytes
+              24 Dir(s)  96,643,923,968 bytes free
 
 C:\Users\David Holberton\Downloads>
 ```
-
 
 ```
 C:\Users\David Holberton\Downloads>dir /o:gd *jdk*
@@ -1560,6 +1571,8 @@ C:\Users\David Holberton\Downloads>dir /o:gd *jdk*
 
 C:\Users\David Holberton\Downloads>
 ```
+
+```
 C:\Users\David Holberton\Downloads>dir /o:gd *jre*
  Volume in drive C has no label.
  Volume Serial Number is 4603-A8D3
@@ -1623,8 +1636,13 @@ C:\Users\David Holberton\Downloads>dir /o:gd *jre*
 07/20/2020  05:50 AM        83,038,856 jre-8u261-windows-x64.exe
 07/20/2020  05:50 AM        77,255,447 jre-8u261-windows-x64.tar.gz
 07/20/2020  05:53 AM        52,343,486 server-jre-8u261-windows-x64.tar.gz
-              57 File(s)  3,388,916,499 bytes
-               0 Dir(s)  103,078,346,752 bytes free
+11/11/2020  09:09 AM         2,079,880 jre-8u271-windows-i586-iftw.exe
+11/11/2020  09:10 AM        72,904,328 jre-8u271-windows-i586.exe
+11/11/2020  09:10 AM        71,855,802 jre-8u271-windows-i586.tar.gz
+11/11/2020  09:10 AM        83,364,488 jre-8u271-windows-x64.exe
+11/11/2020  09:10 AM        77,496,345 jre-8u271-windows-x64.tar.gz
+              62 File(s)  3,696,617,342 bytes
+               0 Dir(s)  96,647,012,352 bytes free
 
 C:\Users\David Holberton\Downloads>
 ```
@@ -1677,16 +1695,5 @@ C:\Users\David Holberton\Downloads>dir /o:gd *checksum.html
               38 File(s)        302,482 bytes
                0 Dir(s)  103,077,777,408 bytes free
 
-C:\Users\David Holberton\Downloads>
 ```
-
-
-
-
-
-
-
-
-
-
 
