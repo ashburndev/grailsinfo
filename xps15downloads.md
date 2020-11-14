@@ -1418,8 +1418,10 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 11/14/2020  01:53 PM                86 ideaIC-2020.2.3.exe.sha256
 11/14/2020  01:53 PM       675,182,337 ideaIC-2020.2.3.win.zip
 11/14/2020  01:54 PM                90 ideaIC-2020.2.3.win.zip.sha256
-            1244 File(s) 180,645,292,331 bytes
-              24 Dir(s)  94,379,134,976 bytes free
+11/14/2020  02:16 PM           807,978 bookstore405web.zip
+11/14/2020  02:17 PM           264,485 bookstore405ng.zip
+            1246 File(s) 180,646,364,794 bytes
+              24 Dir(s)  94,405,840,896 bytes free
 
 C:\Users\David Holberton\Downloads>
 ```
