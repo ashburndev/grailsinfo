@@ -1403,12 +1403,15 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 11/11/2020  09:13 AM     1,984,790,528 linuxmint-20-cinnamon-64bit.iso
 11/11/2020  09:17 AM     2,057,551,872 linuxmint-20-mate-64bit.iso
 11/11/2020  09:19 AM     1,949,515,776 linuxmint-20-xfce-64bit.iso
-11/11/2020  09:21 AM               286 sha256sum.txt
 11/11/2020  09:21 AM               286 linuxmint-20-sha256sum.txt
-11/11/2020  09:21 AM               833 sha256sum.txt.gpg
 11/11/2020  09:21 AM               833 linuxmint-20-sha256sum.txt.gpg
-            1235 File(s) 179,510,041,602 bytes
-              24 Dir(s)  96,643,923,968 bytes free
+11/14/2020  12:58 PM               202 ubuntu-20.04.1-desktop-amd64.iso.SHA256SUMS.txt
+11/14/2020  12:59 PM               833 ubuntu-20.04.1-desktop-amd64.iso.SHA256SUMS.gpg
+11/14/2020  01:07 PM               198 ubuntu-20.10-desktop-amd64.iso.SHA256SUMS.txt
+11/14/2020  01:07 PM               833 ubuntu-20.10-desktop-amd64.iso.SHA256SUMS.gpg
+11/14/2020  01:31 PM        52,326,238 server-jre-8u271-windows-x64.tar.gz
+            1236 File(s) 177,864,461,901 bytes
+              24 Dir(s)  97,634,336,768 bytes free
 
 C:\Users\David Holberton\Downloads>
 ```
@@ -1641,8 +1644,9 @@ C:\Users\David Holberton\Downloads>dir /o:gd *jre*
 11/11/2020  09:10 AM        71,855,802 jre-8u271-windows-i586.tar.gz
 11/11/2020  09:10 AM        83,364,488 jre-8u271-windows-x64.exe
 11/11/2020  09:10 AM        77,496,345 jre-8u271-windows-x64.tar.gz
-              62 File(s)  3,696,617,342 bytes
-               0 Dir(s)  96,647,012,352 bytes free
+11/14/2020  01:31 PM        52,326,238 server-jre-8u271-windows-x64.tar.gz
+              63 File(s)  3,748,943,580 bytes
+               0 Dir(s)  97,636,225,024 bytes free
 
 C:\Users\David Holberton\Downloads>
 ```
