@@ -1410,8 +1410,16 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 11/14/2020  01:07 PM               198 ubuntu-20.10-desktop-amd64.iso.SHA256SUMS.txt
 11/14/2020  01:07 PM               833 ubuntu-20.10-desktop-amd64.iso.SHA256SUMS.gpg
 11/14/2020  01:31 PM        52,326,238 server-jre-8u271-windows-x64.tar.gz
-            1236 File(s) 177,864,461,901 bytes
-              24 Dir(s)  97,634,336,768 bytes free
+11/14/2020  01:50 PM       697,317,424 ideaIU-2020.2.3.exe
+11/14/2020  01:51 PM                86 ideaIU-2020.2.3.exe.sha256
+11/14/2020  01:52 PM       806,810,701 ideaIU-2020.2.3.win.zip
+11/14/2020  01:52 PM                90 ideaIU-2020.2.3.win.zip.sha256
+11/14/2020  01:52 PM       601,519,616 ideaIC-2020.2.3.exe
+11/14/2020  01:53 PM                86 ideaIC-2020.2.3.exe.sha256
+11/14/2020  01:53 PM       675,182,337 ideaIC-2020.2.3.win.zip
+11/14/2020  01:54 PM                90 ideaIC-2020.2.3.win.zip.sha256
+            1244 File(s) 180,645,292,331 bytes
+              24 Dir(s)  94,379,134,976 bytes free
 
 C:\Users\David Holberton\Downloads>
 ```
