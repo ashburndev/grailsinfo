@@ -1420,8 +1420,32 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 11/14/2020  01:54 PM                90 ideaIC-2020.2.3.win.zip.sha256
 11/14/2020  02:16 PM           807,978 bookstore405web.zip
 11/14/2020  02:17 PM           264,485 bookstore405ng.zip
-            1246 File(s) 180,646,364,794 bytes
-              24 Dir(s)  94,405,840,896 bytes free
+11/27/2020  08:30 AM       696,383,360 ideaIU-2020.2.4.exe
+11/27/2020  08:30 AM                86 ideaIU-2020.2.4.exe.sha256
+11/27/2020  08:31 AM       806,463,379 ideaIU-2020.2.4.win.zip
+11/27/2020  08:31 AM                90 ideaIU-2020.2.4.win.zip.sha256
+11/27/2020  08:31 AM       600,598,752 ideaIC-2020.2.4.exe
+11/27/2020  08:31 AM                86 ideaIC-2020.2.4.exe.sha256
+11/27/2020  08:32 AM       674,842,892 ideaIC-2020.2.4.win.zip
+11/27/2020  08:32 AM                90 ideaIC-2020.2.4.win.zip.sha256
+11/27/2020  08:33 AM        25,057,520 micronaut-cli-2.2.0.zip
+11/27/2020  08:37 AM       169,987,495 grails-4.1.0.M2.zip
+11/27/2020  08:38 AM        14,034,052 grails-core-4.1.0.M2.zip
+12/02/2020  05:32 AM       748,722,840 ideaIU-2020.3.exe
+12/02/2020  05:32 AM                84 ideaIU-2020.3.exe.sha256
+12/02/2020  05:33 AM       865,075,031 ideaIU-2020.3.win.zip
+12/02/2020  05:33 AM                88 ideaIU-2020.3.win.zip.sha256
+12/02/2020  05:34 AM       645,770,200 ideaIC-2020.3.exe
+12/02/2020  05:34 AM                84 ideaIC-2020.3.exe.sha256
+12/02/2020  05:34 AM       726,248,481 ideaIC-2020.3.win.zip
+12/02/2020  05:34 AM                88 ideaIC-2020.3.win.zip.sha256
+12/02/2020  05:36 AM        73,154,688 jetbrains-toolbox-1.18.7609.exe
+12/02/2020  05:36 AM                98 jetbrains-toolbox-1.18.7609.exe.sha256
+            1267 File(s) 186,692,704,278 bytes
+              24 Dir(s)  81,791,340,544 bytes free
+
+C:\Users\David Holberton\Downloads>date /t
+Wed 12/02/2020
 
 C:\Users\David Holberton\Downloads>
 ```
