@@ -1441,11 +1441,25 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 12/02/2020  05:34 AM                88 ideaIC-2020.3.win.zip.sha256
 12/02/2020  05:36 AM        73,154,688 jetbrains-toolbox-1.18.7609.exe
 12/02/2020  05:36 AM                98 jetbrains-toolbox-1.18.7609.exe.sha256
-            1267 File(s) 186,692,704,278 bytes
-              24 Dir(s)  81,791,340,544 bytes free
+12/09/2020  08:16 AM     3,092,088,753 2020-12-02-raspios-buster-armhf-full.zip
+12/09/2020  08:17 AM                66 2020-12-02-raspios-buster-armhf-full.zip.sha256
+12/09/2020  08:22 AM     1,233,848,100 2020-12-02-raspios-buster-armhf.zip
+12/09/2020  08:23 AM                66 2020-12-02-raspios-buster-armhf.zip.sha256
+12/09/2020  08:25 AM       459,032,481 2020-12-02-raspios-buster-armhf-lite.zip
+12/09/2020  08:26 AM                66 2020-12-02-raspios-buster-armhf-lite.zip.sha256
+12/09/2020  08:29 AM            32,394 2020-12-02-raspios-buster-armhf-relnotes.txt
+12/09/2020  08:33 AM       398,020,745 netbeans-12.2-bin.zip
+12/09/2020  08:33 AM               154 netbeans-12.2-bin.zip.sha512
+12/09/2020  08:34 AM               862 netbeans-12.2-bin.zip.asc
+12/09/2020  08:36 AM       398,217,112 Apache-NetBeans-12.2-bin-windows-x64.exe
+12/09/2020  08:36 AM               171 Apache-NetBeans-12.2-bin-windows-x64.exe.sha512
+12/09/2020  08:36 AM               866 Apache-NetBeans-12.2-bin-windows-x64.exe.asc
+12/09/2020  08:39 AM        25,063,763 micronaut-cli-2.2.1.zip
+            1281 File(s) 192,299,009,877 bytes
+              25 Dir(s)  78,308,704,256 bytes free
 
 C:\Users\David Holberton\Downloads>date /t
-Wed 12/02/2020
+Wed 12/09/2020
 
 C:\Users\David Holberton\Downloads>
 ```
