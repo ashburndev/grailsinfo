@@ -1455,8 +1455,20 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 12/09/2020  08:36 AM               171 Apache-NetBeans-12.2-bin-windows-x64.exe.sha512
 12/09/2020  08:36 AM               866 Apache-NetBeans-12.2-bin-windows-x64.exe.asc
 12/09/2020  08:39 AM        25,063,763 micronaut-cli-2.2.1.zip
-            1281 File(s) 192,299,009,877 bytes
-              25 Dir(s)  78,308,704,256 bytes free
+12/12/2020  01:29 PM       592,629,145 spring-tool-suite-4-4.8.1.RELEASE-e4.17.0-win32.win32.x86_64.self-extracting.jar
+12/13/2020  08:43 AM        63,420,824 VSCodeUserSetup-x64-1.52.0.exe
+12/13/2020  08:43 AM        63,420,640 VSCodeSetup-x64-1.52.0.exe
+12/13/2020  08:44 AM        88,195,879 VSCode-win32-x64-1.52.0.zip
+12/13/2020  09:33 AM        15,327,143 spring-quickly_pack.zip
+12/13/2020  09:34 AM        20,241,821 spring-in-action-fifth-edition_pack.zip
+12/13/2020  09:34 AM        19,034,949 spring-in-action-sixth-edition_pack(1).zip
+12/13/2020  09:35 AM         8,565,393 Spring_in_Action_Sixth_Edition_v3_MEAP.pdf
+12/13/2020  09:35 AM         5,892,420 aws-cloudformation-in-action-cx_pack.zip
+12/13/2020  09:36 AM        66,655,929 math-for-programmers_pack(1).zip
+12/13/2020  09:37 AM        43,368,389 real-world-cryptography_pack(1).zip
+12/13/2020  09:38 AM        41,599,818 typescript-quickly_pack.zip
+            1293 File(s) 193,327,362,227 bytes
+              25 Dir(s)  66,255,163,392 bytes free
 
 C:\Users\David Holberton\Downloads>date /t
 Wed 12/09/2020
