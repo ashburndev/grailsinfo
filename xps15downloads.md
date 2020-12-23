@@ -1454,24 +1454,75 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 12/09/2020  08:36 AM       398,217,112 Apache-NetBeans-12.2-bin-windows-x64.exe
 12/09/2020  08:36 AM               171 Apache-NetBeans-12.2-bin-windows-x64.exe.sha512
 12/09/2020  08:36 AM               866 Apache-NetBeans-12.2-bin-windows-x64.exe.asc
-12/09/2020  08:39 AM        25,063,763 micronaut-cli-2.2.1.zip
+12/09/2020  08:39 AM        25,063,763 micronaut-cli-2.2.1.zip    
 12/12/2020  01:29 PM       592,629,145 spring-tool-suite-4-4.8.1.RELEASE-e4.17.0-win32.win32.x86_64.self-extracting.jar
 12/13/2020  08:43 AM        63,420,824 VSCodeUserSetup-x64-1.52.0.exe
 12/13/2020  08:43 AM        63,420,640 VSCodeSetup-x64-1.52.0.exe
 12/13/2020  08:44 AM        88,195,879 VSCode-win32-x64-1.52.0.zip
-12/13/2020  09:33 AM        15,327,143 spring-quickly_pack.zip
-12/13/2020  09:34 AM        20,241,821 spring-in-action-fifth-edition_pack.zip
-12/13/2020  09:34 AM        19,034,949 spring-in-action-sixth-edition_pack(1).zip
-12/13/2020  09:35 AM         8,565,393 Spring_in_Action_Sixth_Edition_v3_MEAP.pdf
-12/13/2020  09:35 AM         5,892,420 aws-cloudformation-in-action-cx_pack.zip
-12/13/2020  09:36 AM        66,655,929 math-for-programmers_pack(1).zip
-12/13/2020  09:37 AM        43,368,389 real-world-cryptography_pack(1).zip
-12/13/2020  09:38 AM        41,599,818 typescript-quickly_pack.zip
-            1293 File(s) 193,327,362,227 bytes
-              25 Dir(s)  66,255,163,392 bytes free
+12/13/2020  12:18 PM        11,013,125 apache-tomcat-8.5.61.zip
+12/13/2020  12:20 PM               849 apache-tomcat-8.5.61.zip.asc
+12/13/2020  12:20 PM               154 apache-tomcat-8.5.61.zip.sha512
+12/13/2020  12:20 PM               849 apache-tomcat-8.5.61.tar.gz.asc
+12/13/2020  12:20 PM        10,492,067 apache-tomcat-8.5.61.tar.gz
+12/13/2020  12:20 PM               157 apache-tomcat-8.5.61.tar.gz.sha512
+12/13/2020  12:20 PM               849 apache-tomcat-8.5.61-windows-x64.zip.asc
+12/13/2020  12:21 PM        11,736,182 apache-tomcat-8.5.61-windows-x64.zip
+12/13/2020  12:21 PM               166 apache-tomcat-8.5.61-windows-x64.zip.sha512
+12/13/2020  12:21 PM         6,158,423 apache-tomcat-8.5.61-fulldocs.tar.gz
+12/13/2020  12:21 PM               849 apache-tomcat-8.5.61-fulldocs.tar.gz.asc
+12/13/2020  12:21 PM               166 apache-tomcat-8.5.61-fulldocs.tar.gz.sha512
+12/13/2020  12:22 PM         2,720,919 apache-tomcat-8.5.61-deployer.zip
+12/13/2020  12:22 PM               849 apache-tomcat-8.5.61-deployer.zip.asc
+12/13/2020  12:22 PM               163 apache-tomcat-8.5.61-deployer.zip.sha512
+12/13/2020  12:22 PM         2,715,100 apache-tomcat-8.5.61-deployer.tar.gz
+12/13/2020  12:22 PM               849 apache-tomcat-8.5.61-deployer.tar.gz.asc
+12/13/2020  12:23 PM               166 apache-tomcat-8.5.61-deployer.tar.gz.sha512
+12/13/2020  12:23 PM            15,062 catalina-jmx-remote.jar
+12/13/2020  12:23 PM               849 catalina-jmx-remote.jar.asc
+12/13/2020  12:23 PM               153 catalina-jmx-remote.jar.sha512
+12/13/2020  12:23 PM            14,073 catalina-ws.jar
+12/13/2020  12:24 PM               849 catalina-ws.jar.asc
+12/13/2020  12:24 PM               145 catalina-ws.jar.sha512
+12/13/2020  12:24 PM            37,537 apache-tomcat-8.5.61.KEYS.txt
+12/13/2020  12:26 PM        11,983,597 apache-tomcat-9.0.41.zip
+12/13/2020  12:26 PM               849 apache-tomcat-9.0.41.zip.asc
+12/13/2020  12:26 PM               154 apache-tomcat-9.0.41.zip.sha512
+12/13/2020  12:26 PM        11,442,169 apache-tomcat-9.0.41.tar.gz
+12/13/2020  12:26 PM               849 apache-tomcat-9.0.41.tar.gz.asc
+12/13/2020  12:26 PM               157 apache-tomcat-9.0.41.tar.gz.sha512
+12/13/2020  12:26 PM        12,706,654 apache-tomcat-9.0.41-windows-x64.zip
+12/13/2020  12:26 PM               849 apache-tomcat-9.0.41-windows-x64.zip.asc
+12/13/2020  12:26 PM               166 apache-tomcat-9.0.41-windows-x64.zip.sha512
+12/13/2020  12:27 PM         6,501,359 apache-tomcat-9.0.41-fulldocs.tar.gz
+12/13/2020  12:27 PM               849 apache-tomcat-9.0.41-fulldocs.tar.gz.asc
+12/13/2020  12:27 PM               166 apache-tomcat-9.0.41-fulldocs.tar.gz.sha512
+12/13/2020  12:28 PM         2,790,902 apache-tomcat-9.0.41-deployer.zip
+12/13/2020  12:28 PM               849 apache-tomcat-9.0.41-deployer.zip.asc
+12/13/2020  12:28 PM               163 apache-tomcat-9.0.41-deployer.zip.sha512
+12/13/2020  12:28 PM         2,781,210 apache-tomcat-9.0.41-deployer.tar.gz
+12/13/2020  12:28 PM               849 apache-tomcat-9.0.41-deployer.tar.gz.asc
+12/13/2020  12:28 PM               166 apache-tomcat-9.0.41-deployer.tar.gz.sha512
+12/13/2020  12:29 PM            33,886 apache-tomcat-9.0.41.KEYS.txt
+12/13/2020  12:33 PM             4,290 apache-tomcat-8.5.61-README.html
+12/13/2020  12:36 PM             3,822 apache-tomcat-9.0.41.README.html
+12/17/2020  03:46 PM       523,216,961 eclipse-jee-2020-12-R-win32-x86_64.zip
+12/17/2020  03:48 PM               170 eclipse-jee-2020-12-R-win32-x86_64.zip.sha512
+12/17/2020  03:49 PM       336,926,229 eclipse-java-2020-12-R-win32-x86_64.zip
+12/17/2020  03:51 PM               171 eclipse-java-2020-12-R-win32-x86_64.zip.sha512
+12/17/2020  03:51 PM       107,329,512 eclipse-inst-jre-win64.exe
+12/17/2020  03:52 PM               158 eclipse-inst-jre-win64.exe.sha512
+12/20/2020  07:24 AM       565,013,935 spring-tool-suite-4-4.9.0.RELEASE-e4.18.0-win32.win32.x86_64.self-extracting.jar
+12/20/2020  07:48 AM        28,204,528 python-3.9.1-amd64.exe
+12/20/2020  07:48 AM               836 python-3.9.1-amd64.exe.asc
+12/20/2020  08:05 AM       464,857,648 pycharm-professional-2020.3.exe
+12/20/2020  08:06 AM                98 pycharm-professional-2020.3.exe.sha256
+12/20/2020  08:06 AM       365,634,800 pycharm-community-2020.3.exe
+12/20/2020  08:06 AM                95 pycharm-community-2020.3.exe.sha256
+            1344 File(s) 195,591,026,011 bytes
+              25 Dir(s)  54,830,710,784 bytes free
 
 C:\Users\David Holberton\Downloads>date /t
-Wed 12/09/2020
+Wed 12/23/2020
 
 C:\Users\David Holberton\Downloads>
 ```
