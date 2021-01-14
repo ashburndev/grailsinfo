@@ -131,16 +131,16 @@ https://www.typescriptlang.org/download
 ```
 
 ```
-Microsoft Windows [Version 10.0.19042.572]
+Microsoft Windows [Version 10.0.19042.685]
 (c) 2020 Microsoft Corporation. All rights reserved.
 
 C:\Users\David Holberton>cd Downloads
 
 C:\Users\David Holberton\Downloads>date /t
-Wed 11/11/2020
+Thu 01/14/2021
 
 C:\Users\David Holberton\Downloads>time /t
-08:54 AM
+03:34 PM
 
 C:\Users\David Holberton\Downloads>dir /o:gd
  Volume in drive C has no label.
@@ -154,7 +154,6 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 11/05/2017  11:07 AM    <DIR>          ubuntu-17.10
 01/24/2018  05:27 PM    <DIR>          raspbian
 03/15/2018  07:41 AM    <DIR>          tmp
-12/02/2018  11:12 AM    <DIR>          books
 02/05/2019  03:48 PM    <DIR>          foo
 02/10/2019  07:14 AM    <DIR>          Downloads for Amazon Corretto 8 - Amazon Corretto 8_files
 03/19/2019  07:17 PM    <DIR>          yui_2.8.0
@@ -170,8 +169,11 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 04/26/2020  11:35 AM    <DIR>          rp
 08/11/2020  08:45 AM    <DIR>          temp2
 09/16/2020  06:53 AM    <DIR>          jdk15
-11/11/2020  08:47 AM    <DIR>          ..
-11/11/2020  08:47 AM    <DIR>          .
+12/09/2020  08:55 AM    <DIR>          rpitemp
+12/25/2020  10:24 AM    <DIR>          magpipdfs
+12/26/2020  09:58 AM    <DIR>          books
+01/14/2021  03:09 PM    <DIR>          ..
+01/14/2021  03:09 PM    <DIR>          .
 06/08/2017  07:22 AM         1,130,328 ChromeSetup.exe
 06/08/2017  07:26 AM           246,056 Firefox Setup Stub 53.0.3.exe
 06/08/2017  07:35 AM       207,649,848 jdk-8u131-windows-x64.exe
@@ -1518,13 +1520,33 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 12/20/2020  08:06 AM                98 pycharm-professional-2020.3.exe.sha256
 12/20/2020  08:06 AM       365,634,800 pycharm-community-2020.3.exe
 12/20/2020  08:06 AM                95 pycharm-community-2020.3.exe.sha256
-            1344 File(s) 195,591,026,011 bytes
-              25 Dir(s)  54,830,710,784 bytes free
-
-C:\Users\David Holberton\Downloads>date /t
-Wed 12/23/2020
+12/25/2020  08:43 AM       352,424,728 WebStorm-2020.3.exe
+12/25/2020  08:44 AM                86 WebStorm-2020.3.exe.sha256
+01/07/2021  05:55 PM        85,644,952 grails-4.0.6.zip
+01/07/2021  05:56 PM         9,066,960 grails-docs-4.0.6.zip
+01/10/2021  07:51 PM       170,314,041 grails-4.1.0.M3.zip
+01/10/2021  07:52 PM        14,042,002 grails-core-4.1.0.M3.zip
+01/10/2021  07:59 PM       107,841,145 gradle-6.8-bin.zip
+01/10/2021  07:59 PM                64 gradle-6.8-bin.zip.sha256
+01/14/2021  02:45 PM     3,002,523,031 2021-01-11-raspios-buster-armhf-full.zip
+01/14/2021  02:46 PM                66 2021-01-11-raspios-buster-armhf-full.sha256
+01/14/2021  02:55 PM     1,227,921,990 2021-01-11-raspios-buster-armhf.zip
+01/14/2021  02:56 PM                66 2021-01-11-raspios-buster-armhf.sha256
+01/14/2021  03:00 PM       459,635,953 2021-01-11-raspios-buster-armhf-lite.zip
+01/14/2021  03:01 PM                66 2021-01-11-raspios-buster-armhf-lite.sha256
+01/14/2021  03:07 PM            34,344 2021-01-11-raspios-buster-armhf-release-notes.txt
+            1359 File(s) 201,020,475,505 bytes
+              26 Dir(s)  64,642,236,416 bytes free
 
 C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>date /t
+Thu 01/14/2021
+
+C:\Users\David Holberton\Downloads>
+
+
+
+
 ```
 
 ```
