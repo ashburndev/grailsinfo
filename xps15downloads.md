@@ -136,13 +136,7 @@ Microsoft Windows [Version 10.0.19042.685]
 
 C:\Users\David Holberton>cd Downloads
 
-C:\Users\David Holberton\Downloads>date /t
-Thu 01/14/2021
-
-C:\Users\David Holberton\Downloads>time /t
-03:34 PM
-
-C:\Users\David Holberton\Downloads>dir /o:gd
+C:\Users\David Holberton\Downloads>dir /o:gd | more
  Volume in drive C has no label.
  Volume Serial Number is 4603-A8D3
 
@@ -169,11 +163,11 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 04/26/2020  11:35 AM    <DIR>          rp
 08/11/2020  08:45 AM    <DIR>          temp2
 09/16/2020  06:53 AM    <DIR>          jdk15
-12/09/2020  08:55 AM    <DIR>          rpitemp
 12/25/2020  10:24 AM    <DIR>          magpipdfs
 12/26/2020  09:58 AM    <DIR>          books
-01/14/2021  03:09 PM    <DIR>          ..
-01/14/2021  03:09 PM    <DIR>          .
+01/14/2021  03:48 PM    <DIR>          rpitemp
+01/20/2021  07:43 AM    <DIR>          ..
+01/20/2021  07:43 AM    <DIR>          .
 06/08/2017  07:22 AM         1,130,328 ChromeSetup.exe
 06/08/2017  07:26 AM           246,056 Firefox Setup Stub 53.0.3.exe
 06/08/2017  07:35 AM       207,649,848 jdk-8u131-windows-x64.exe
@@ -1535,18 +1529,33 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 01/14/2021  03:00 PM       459,635,953 2021-01-11-raspios-buster-armhf-lite.zip
 01/14/2021  03:01 PM                66 2021-01-11-raspios-buster-armhf-lite.sha256
 01/14/2021  03:07 PM            34,344 2021-01-11-raspios-buster-armhf-release-notes.txt
-            1359 File(s) 201,020,475,505 bytes
-              26 Dir(s)  64,642,236,416 bytes free
+01/20/2021  07:08 AM       162,205,832 jdk-8u281-windows-i586.exe
+01/20/2021  07:10 AM       175,084,680 jdk-8u281-windows-x64.exe
+01/20/2021  07:12 AM        56,163,321 jdk-8u281-windows-i586-demos.zip
+01/20/2021  07:12 AM        56,183,587 jdk-8u281-windows-x64-demos.zip
+01/20/2021  07:14 AM            15,693 8u281checksum.html
+01/20/2021  07:14 AM       159,718,040 jdk-11.0.10_windows-x64_bin.exe
+01/20/2021  07:15 AM       180,005,376 jdk-11.0.10_windows-x64_bin.zip
+01/20/2021  07:15 AM            11,793 11-0-10-checksum.html
+01/20/2021  07:25 AM        50,541,226 jdk-15.0.2_doc-all.zip
+01/20/2021  07:25 AM        53,712,841 jdk-11.0.10_doc-all.zip
+01/20/2021  07:26 AM       125,154,083 jdk-8u281-docs-all.zip
+01/20/2021  07:26 AM        10,567,677 javafx-8u281-apidocs.zip
+01/20/2021  07:34 AM       195,939,486 openjdk-15.0.2_windows-x64_bin.zip
+01/20/2021  07:34 AM                64 openjdk-15.0.2_windows-x64_bin.zip.sha256
+01/20/2021  07:38 AM        66,167,440 jmc-7.1.2_windows-x64.zip
+01/20/2021  07:38 AM                65 jmc-7.1.2_windows-x64.zip.sha256
+01/20/2021  07:42 AM       167,464,600 jdk-15.0.2_windows-x64_bin.exe
+01/20/2021  07:42 AM       187,986,283 jdk-15.0.2_windows-x64_bin.zip
+01/20/2021  07:42 AM            11,508 15-0-2-checksum.html
+            1378 File(s) 202,667,409,100 bytes
+              26 Dir(s)  50,817,216,512 bytes free
 
 C:\Users\David Holberton\Downloads>
 C:\Users\David Holberton\Downloads>date /t
-Thu 01/14/2021
+Wed 01/20/2021
 
 C:\Users\David Holberton\Downloads>
-
-
-
-
 ```
 
 ```
@@ -1709,77 +1718,176 @@ C:\Users\David Holberton\Downloads>
 ```
 
 ```
-C:\Users\David Holberton\Downloads>dir /o:gd *jre*
+C:\Users\David Holberton\Downloads>date /t
+Wed 01/20/2021
+
+C:\Users\David Holberton\Downloads>dir /o:gd *jdk*
  Volume in drive C has no label.
  Volume Serial Number is 4603-A8D3
 
  Directory of C:\Users\David Holberton\Downloads
 
-03/15/2018  07:28 AM        52,503,681 serverjre-9.0.4_windows-x64_bin.tar.gz
-03/15/2018  07:30 AM       101,317,184 jre-9.0.4_windows-x64_bin.exe
-03/15/2018  07:31 AM        76,086,793 jre-9.0.4_windows-x64_bin.tar.gz
-03/17/2018  09:07 AM        64,333,888 jre-8u161-windows-i586.exe
-03/17/2018  09:09 AM        71,328,320 jre-8u161-windows-x64.exe
-03/17/2018  09:13 AM        64,343,104 jre-8u162-windows-i586.exe
-03/17/2018  09:18 AM        71,581,248 jre-8u162-windows-x64.exe
-05/30/2018  05:20 AM        71,830,472 jre-8u171-windows-x64.exe
-05/30/2018  05:20 AM        72,266,395 jre-8u171-windows-x64.tar.gz
-05/30/2018  05:21 AM        71,867,336 jre-8u172-windows-x64.exe
-05/30/2018  05:22 AM        72,284,055 jre-8u172-windows-x64.tar.gz
-05/30/2018  05:28 AM       105,424,840 jre-10.0.1_windows-x64_bin.exe
-05/30/2018  05:29 AM        79,040,285 jre-10.0.1_windows-x64_bin.tar.gz
-05/30/2018  05:33 AM        56,082,153 serverjre-10.0.1_windows-x64_bin.tar.gz
-05/30/2018  05:36 AM        51,029,401 server-jre-8u171-windows-x64.tar.gz
-05/30/2018  05:36 AM        51,044,071 server-jre-8u172-windows-x64.tar.gz
-07/24/2018  06:53 AM        51,267,837 server-jre-8u181-windows-x64.tar.gz
-07/24/2018  06:55 AM        71,792,504 jre-8u181-windows-x64.exe
-07/24/2018  06:56 AM        72,292,650 jre-8u181-windows-x64.tar.gz
-07/24/2018  07:03 AM        56,077,854 serverjre-10.0.2_windows-x64_bin.tar.gz
-07/24/2018  07:05 AM       105,455,992 jre-10.0.2_windows-x64_bin.exe
-07/24/2018  07:05 AM        79,042,057 jre-10.0.2_windows-x64_bin.tar.gz
-11/24/2018  06:00 PM        69,750,595 jre-8u191-windows-i586.tar.gz
-11/24/2018  06:01 PM        74,618,232 jre-8u191-windows-x64.exe
-11/24/2018  06:01 PM        74,789,282 jre-8u191-windows-x64.tar.gz
-11/24/2018  06:01 PM        69,729,387 jre-8u192-windows-i586.tar.gz
-11/24/2018  06:01 PM        74,830,712 jre-8u192-windows-x64.exe
-11/24/2018  06:02 PM        74,752,577 jre-8u192-windows-x64.tar.gz
-11/24/2018  06:04 PM        51,273,928 server-jre-8u191-windows-x64.tar.gz
-11/24/2018  06:05 PM        51,273,709 server-jre-8u192-windows-x64.tar.gz
-01/30/2019  10:20 AM         1,962,336 jre-8u201-windows-i586-iftw.exe
-01/30/2019  10:20 AM        66,613,600 jre-8u201-windows-i586.exe
-01/30/2019  10:20 AM        69,736,256 jre-8u201-windows-i586.tar.gz
-01/30/2019  10:20 AM        74,907,488 jre-8u201-windows-x64.exe
-01/30/2019  10:21 AM        74,756,768 jre-8u201-windows-x64.tar.gz
-01/30/2019  10:21 AM         1,922,400 jre-8u202-windows-i586-iftw.exe
-01/30/2019  10:21 AM        68,922,208 jre-8u202-windows-i586.exe
-01/30/2019  10:21 AM        71,722,524 jre-8u202-windows-i586.tar.gz
-01/30/2019  10:21 AM        77,278,048 jre-8u202-windows-x64.exe
-01/30/2019  10:21 AM        76,809,474 jre-8u202-windows-x64.tar.gz
-01/30/2019  10:23 AM        51,286,772 server-jre-8u201-windows-x64.tar.gz
-01/30/2019  10:23 AM        51,160,715 server-jre-8u202-windows-x64.tar.gz
-02/10/2019  07:21 AM        45,500,623 amazon-corretto-8.202.08.2-windows-x86-jre.zip
-02/10/2019  07:21 AM               287 amazon-corretto-8.202.08.2-windows-x86-jre.zip.sig
-02/10/2019  07:22 AM        46,281,918 amazon-corretto-8.202.08.2-windows-x64-jre.zip
-02/10/2019  07:23 AM               287 amazon-corretto-8.202.08.2-windows-x64-jre.zip.sig
-04/16/2019  07:58 PM        46,936,797 amazon-corretto-8.212.04.1-windows-x64-jre.zip
-04/16/2019  07:59 PM        46,130,734 amazon-corretto-8.212.04.1-windows-x86-jre.zip
-04/16/2019  08:00 PM               287 amazon-corretto-8.212.04.1-windows-x64-jre.zip.sig
-04/16/2019  08:00 PM               287 amazon-corretto-8.212.04.1-windows-x86-jre.zip.sig
-09/07/2019  09:22 AM        48,244,311 amazon-corretto-8.222.10.3-windows-x64-jre.zip
-07/20/2020  05:49 AM         2,083,464 jre-8u261-windows-i586-iftw.exe
-07/20/2020  05:49 AM        72,990,856 jre-8u261-windows-i586.exe
-07/20/2020  05:50 AM        71,719,728 jre-8u261-windows-i586.tar.gz
-07/20/2020  05:50 AM        83,038,856 jre-8u261-windows-x64.exe
-07/20/2020  05:50 AM        77,255,447 jre-8u261-windows-x64.tar.gz
-07/20/2020  05:53 AM        52,343,486 server-jre-8u261-windows-x64.tar.gz
-11/11/2020  09:09 AM         2,079,880 jre-8u271-windows-i586-iftw.exe
-11/11/2020  09:10 AM        72,904,328 jre-8u271-windows-i586.exe
-11/11/2020  09:10 AM        71,855,802 jre-8u271-windows-i586.tar.gz
-11/11/2020  09:10 AM        83,364,488 jre-8u271-windows-x64.exe
-11/11/2020  09:10 AM        77,496,345 jre-8u271-windows-x64.tar.gz
-11/14/2020  01:31 PM        52,326,238 server-jre-8u271-windows-x64.tar.gz
-              63 File(s)  3,748,943,580 bytes
-               0 Dir(s)  97,636,225,024 bytes free
+09/16/2020  06:53 AM    <DIR>          jdk15
+06/08/2017  07:35 AM       207,649,848 jdk-8u131-windows-x64.exe
+06/08/2017  07:35 AM        56,436,260 jdk-8u131-windows-x64-demos.zip
+08/02/2017  05:21 AM       207,382,584 jdk-8u144-windows-x64.exe
+08/02/2017  05:22 AM        56,436,124 jdk-8u144-windows-x64-demos.zip
+08/02/2017  05:29 AM       207,387,192 jdk-8u141-windows-x64.exe
+08/02/2017  05:30 AM       207,649,848 jdk-8u131-windows-x64(1).exe
+08/02/2017  05:31 AM       205,004,856 jdk-8u121-windows-x64.exe
+08/02/2017  05:35 AM       204,607,032 jdk-8u112-windows-x64.exe
+08/02/2017  05:37 AM       204,139,576 jdk-8u102-windows-x64.exe
+08/02/2017  05:39 AM       146,893,216 jdk-7u80-windows-x64.exe
+08/02/2017  05:40 AM       146,861,984 jdk-7u79-windows-x64.exe
+03/15/2018  07:00 AM       208,185,912 jdk-8u161-windows-i586.exe
+03/15/2018  07:01 AM       216,544,312 jdk-8u161-windows-x64.exe
+03/15/2018  07:03 AM       208,220,728 jdk-8u162-windows-i586.exe
+03/15/2018  07:04 AM       216,804,920 jdk-8u162-windows-x64.exe
+03/15/2018  07:05 AM        56,452,005 jdk-8u161-windows-i586-demos.zip
+03/15/2018  07:05 AM        56,474,669 jdk-8u161-windows-x64-demos.zip
+03/15/2018  07:06 AM        56,452,302 jdk-8u162-windows-i586-demos.zip
+03/15/2018  07:06 AM        56,474,506 jdk-8u162-windows-x64-demos.zip
+03/15/2018  07:27 AM       393,799,736 jdk-9.0.4_windows-x64_bin.exe
+05/30/2018  05:11 AM       217,342,912 jdk-8u171-windows-x64.exe
+05/30/2018  05:12 AM       217,370,560 jdk-8u172-windows-x64.exe
+05/30/2018  05:13 AM        56,477,583 jdk-8u171-windows-x64-demos.zip
+05/30/2018  05:13 AM        60,537,348 jdk-8u172-windows-x64-demos.zip
+05/30/2018  05:26 AM       409,146,304 jdk-10.0.1_windows-x64_bin.exe
+05/30/2018  05:42 AM        69,312,273 jdk-10.0.1_doc-all.zip
+05/30/2018  05:44 AM        93,487,834 jdk-8u171-docs-all.zip
+05/30/2018  05:45 AM        93,491,812 jdk-8u172-docs-all.zip
+07/24/2018  06:34 AM       212,582,768 jdk-8u181-windows-x64.exe
+07/24/2018  06:36 AM        59,534,692 jdk-8u181-windows-x64-demos.zip
+07/24/2018  07:02 AM       409,204,592 jdk-10.0.2_windows-x64_bin.exe
+11/24/2018  03:25 PM       206,924,144 jdk-8u191-windows-i586.exe
+11/24/2018  03:27 PM       217,284,976 jdk-8u191-windows-x64.exe
+11/24/2018  03:28 PM        59,512,736 jdk-8u191-windows-i586-demos.zip
+11/24/2018  03:30 PM        59,535,185 jdk-8u191-windows-x64-demos.zip
+11/24/2018  03:32 PM       207,169,904 jdk-8u192-windows-i586.exe
+11/24/2018  03:33 PM       217,494,384 jdk-8u192-windows-x64.exe
+11/24/2018  03:33 PM        59,513,107 jdk-8u192-windows-i586-demos.zip
+11/24/2018  03:34 PM        59,535,052 jdk-8u192-windows-x64-demos.zip
+11/24/2018  03:45 PM       158,313,840 jdk-11.0.1_windows-x64_bin.exe
+11/24/2018  03:45 PM       179,293,338 jdk-11.0.1_windows-x64_bin.zip
+01/30/2019  10:14 AM       207,258,976 jdk-8u201-windows-i586.exe
+01/30/2019  10:14 AM       217,539,936 jdk-8u201-windows-x64.exe
+01/30/2019  10:15 AM        59,728,380 jdk-8u201-windows-i586-demos.zip
+01/30/2019  10:16 AM        59,751,235 jdk-8u201-windows-x64-demos.zip
+01/30/2019  10:17 AM       211,438,432 jdk-8u202-windows-i586.exe
+01/30/2019  10:17 AM       221,852,512 jdk-8u202-windows-x64.exe
+01/30/2019  10:17 AM        59,729,820 jdk-8u202-windows-i586-demos.zip
+01/30/2019  10:17 AM        59,752,566 jdk-8u202-windows-x64-demos.zip
+01/30/2019  11:02 AM       158,268,784 jdk-11.0.2_windows-x64_bin.exe
+01/30/2019  11:02 AM       179,264,632 jdk-11.0.2_windows-x64_bin.zip
+01/31/2019  05:25 AM        93,773,608 jdk-8u201-docs-all.zip
+01/31/2019  05:26 AM        93,792,495 jdk-8u202-docs-all.zip
+01/31/2019  05:27 AM        51,570,202 jdk-11.0.2_doc-all.zip
+02/10/2019  07:20 AM       125,583,723 amazon-corretto-8.202.08.2-windows-x86-jdk.zip
+02/10/2019  07:21 AM               287 amazon-corretto-8.202.08.2-windows-x86-jdk.zip.sig
+02/10/2019  07:22 AM       126,342,436 amazon-corretto-8.202.08.2-windows-x64-jdk.zip
+02/10/2019  07:22 AM               287 amazon-corretto-8.202.08.2-windows-x64-jdk.zip.sig
+03/24/2019  10:56 AM       166,190,440 jdk-12_windows-x64_bin.exe
+03/24/2019  10:57 AM       188,156,149 jdk-12_windows-x64_bin.zip
+03/24/2019  11:08 AM       196,405,895 openjdk-12_windows-x64_bin.zip
+03/24/2019  11:08 AM                64 openjdk-12_windows-x64_bin.zip.sha256
+04/16/2019  07:27 PM       212,458,336 jdk-8u211-windows-i586.exe
+04/16/2019  07:28 PM       225,748,832 jdk-8u211-windows-x64.exe
+04/16/2019  07:29 PM        59,782,690 jdk-8u211-windows-i586-demos.zip
+04/16/2019  07:29 PM        59,804,583 jdk-8u211-windows-x64-demos.zip
+04/16/2019  07:30 PM       212,484,448 jdk-8u212-windows-i586.exe
+04/16/2019  07:30 PM       225,718,112 jdk-8u212-windows-x64.exe
+04/16/2019  07:31 PM        59,781,895 jdk-8u212-windows-i586-demos.zip
+04/16/2019  07:31 PM        59,805,051 jdk-8u212-windows-x64-demos.zip
+04/16/2019  07:38 PM       166,190,448 jdk-12.0.1_windows-x64_bin.exe
+04/16/2019  07:38 PM       188,166,452 jdk-12.0.1_windows-x64_bin.zip
+04/16/2019  07:57 PM       118,448,982 amazon-corretto-8.212.04.1-windows-x64-jdk.zip
+04/16/2019  07:59 PM       117,592,967 amazon-corretto-8.212.04.1-windows-x86-jdk.zip
+04/16/2019  08:00 PM               287 amazon-corretto-8.212.04.1-windows-x64-jdk.zip.sig
+04/16/2019  08:00 PM               287 amazon-corretto-8.212.04.1-windows-x86-jdk.zip.sig
+04/26/2019  06:16 AM       158,309,744 jdk-11.0.3_windows-x64_bin.exe
+04/26/2019  06:17 AM       179,303,482 jdk-11.0.3_windows-x64_bin.zip
+07/31/2019  06:43 AM       212,578,264 jdk-8u221-windows-i586.exe
+07/31/2019  06:45 AM       225,811,416 jdk-8u221-windows-x64.exe
+07/31/2019  06:45 AM        60,038,388 jdk-8u221-windows-i586-demos.zip
+07/31/2019  06:45 AM        60,061,032 jdk-8u221-windows-x64-demos.zip
+07/31/2019  06:48 AM       158,569,960 jdk-11.0.4_windows-x64_bin.exe
+07/31/2019  06:48 AM       179,565,714 jdk-11.0.4_windows-x64_bin.zip
+07/31/2019  06:49 AM       166,331,880 jdk-12.0.2_windows-x64_bin.exe
+07/31/2019  06:50 AM       188,291,265 jdk-12.0.2_windows-x64_bin.zip
+09/07/2019  09:22 AM       119,838,632 amazon-corretto-8.222.10.3-windows-x64-jdk.zip
+10/03/2019  05:37 AM       167,579,000 jdk-13_windows-x64_bin.exe
+10/03/2019  05:37 AM       187,660,991 jdk-13_windows-x64_bin.zip
+10/21/2019  06:42 PM       167,606,832 jdk-13.0.1_windows-x64_bin.exe
+10/21/2019  06:42 PM       187,679,458 jdk-13.0.1_windows-x64_bin.zip
+10/21/2019  06:44 PM       209,946,656 jdk-8u231-windows-i586.exe
+10/21/2019  06:44 PM       220,392,992 jdk-8u231-windows-x64.exe
+10/21/2019  06:44 PM        60,044,234 jdk-8u231-windows-i586-demos.zip
+10/21/2019  06:45 PM        60,066,232 jdk-8u231-windows-x64-demos.zip
+01/19/2020  03:10 PM       210,621,984 jdk-8u241-windows-i586.exe
+01/19/2020  03:12 PM       221,163,040 jdk-8u241-windows-x64.exe
+01/19/2020  03:13 PM        60,043,889 jdk-8u241-windows-i586-demos.zip
+01/19/2020  03:13 PM        60,066,016 jdk-8u241-windows-x64-demos.zip
+01/19/2020  03:15 PM       158,933,336 jdk-11.0.6_windows-x64_bin.exe
+01/19/2020  03:16 PM       180,006,626 jdk-11.0.6_windows-x64_bin.zip
+01/19/2020  03:18 PM       167,594,544 jdk-13.0.2_windows-x64_bin.exe
+01/19/2020  03:19 PM       187,688,123 jdk-13.0.2_windows-x64_bin.zip
+03/29/2020  09:52 AM       169,957,520 jdk-14_windows-x64_bin.exe
+03/29/2020  09:53 AM       190,363,644 jdk-14_windows-x64_bin.zip
+04/16/2020  11:25 AM       210,945,160 jdk-8u251-windows-i586.exe
+04/16/2020  11:26 AM       221,816,968 jdk-8u251-windows-x64.exe
+04/16/2020  11:28 AM        60,041,286 jdk-8u251-windows-i586-demos.zip
+04/16/2020  11:29 AM        60,064,027 jdk-8u251-windows-x64-demos.zip
+04/16/2020  11:37 AM       169,944,728 jdk-14.0.1_windows-x64_bin.exe
+04/16/2020  11:37 AM       190,345,685 jdk-14.0.1_windows-x64_bin.zip
+04/16/2020  11:46 AM       159,574,680 jdk-11.0.7_windows-x64_bin.exe
+04/16/2020  11:47 AM       180,719,967 jdk-11.0.7_windows-x64_bin.zip
+07/16/2020  09:09 AM       162,022,536 jdk-8u261-windows-i586.exe
+07/16/2020  09:10 AM       174,353,032 jdk-8u261-windows-x64.exe
+07/16/2020  09:13 AM        56,163,524 jdk-8u261-windows-i586-demos.zip
+07/16/2020  09:13 AM        56,183,887 jdk-8u261-windows-x64-demos.zip
+07/16/2020  09:25 AM       159,105,176 jdk-11.0.8_windows-x64_bin.exe
+07/16/2020  09:27 AM       179,477,589 jdk-11.0.8_windows-x64_bin.zip
+07/20/2020  05:36 AM       174,353,032 jdk-8u261-windows-x64(1).exe
+09/13/2020  09:05 AM       121,033,240 amazon-corretto-8.265.01.1-windows-x64-jdk.zip
+09/13/2020  09:06 AM                34 amazon-corretto-8.265.01.1-windows-x64-jdk.zip.md5
+09/13/2020  09:11 AM       185,607,712 amazon-corretto-11.0.8.10.1-windows-x64-jdk.zip
+09/13/2020  09:12 AM                34 amazon-corretto-11.0.8.10.1-windows-x64-jdk.zip.md5
+09/16/2020  06:07 AM       124,517,576 jdk-8u261-docs-all.zip
+09/16/2020  06:08 AM        53,665,320 jdk-11.0.8_doc-all.zip
+09/16/2020  06:09 AM        52,312,117 jdk-14.0.2_doc-all.zip
+09/16/2020  06:13 AM       169,989,784 jdk-14.0.2_windows-x64_bin.exe
+09/16/2020  06:14 AM       190,381,364 jdk-14.0.2_windows-x64_bin.zip
+09/16/2020  06:30 AM       195,901,213 openjdk-15_windows-x64_bin.zip
+09/16/2020  06:32 AM                66 openjdk-15_windows-x64_bin.zip.sha256
+09/16/2020  06:35 AM       167,435,408 jdk-15_windows-x64_bin.exe
+09/16/2020  06:35 AM       187,941,876 jdk-15_windows-x64_bin.zip
+09/16/2020  06:48 AM        50,530,306 jdk-15_doc-all.zip
+10/24/2020  09:05 AM       161,982,088 jdk-8u271-windows-i586.exe
+10/24/2020  09:06 AM       174,888,584 jdk-8u271-windows-x64.exe
+10/24/2020  09:08 AM        56,163,566 jdk-8u271-windows-i586-demos.zip
+10/24/2020  09:08 AM        56,184,070 jdk-8u271-windows-x64-demos.zip
+10/24/2020  09:13 AM       159,488,664 jdk-11.0.9_windows-x64_bin.exe
+10/24/2020  09:14 AM       179,769,466 jdk-11.0.9_windows-x64_bin.zip
+10/24/2020  09:20 AM       167,452,312 jdk-15.0.1_windows-x64_bin.exe
+10/24/2020  09:20 AM       187,976,880 jdk-15.0.1_windows-x64_bin.zip
+10/24/2020  09:22 AM        50,537,451 jdk-15.0.1_doc-all.zip
+10/24/2020  09:29 AM       125,159,025 jdk-8u271-docs-all.zip
+10/24/2020  09:34 AM        53,658,875 jdk-11.0.9_doc-all.zip
+01/20/2021  07:08 AM       162,205,832 jdk-8u281-windows-i586.exe
+01/20/2021  07:10 AM       175,084,680 jdk-8u281-windows-x64.exe
+01/20/2021  07:12 AM        56,163,321 jdk-8u281-windows-i586-demos.zip
+01/20/2021  07:12 AM        56,183,587 jdk-8u281-windows-x64-demos.zip
+01/20/2021  07:14 AM       159,718,040 jdk-11.0.10_windows-x64_bin.exe
+01/20/2021  07:15 AM       180,005,376 jdk-11.0.10_windows-x64_bin.zip
+01/20/2021  07:25 AM        50,541,226 jdk-15.0.2_doc-all.zip
+01/20/2021  07:25 AM        53,712,841 jdk-11.0.10_doc-all.zip
+01/20/2021  07:26 AM       125,154,083 jdk-8u281-docs-all.zip
+01/20/2021  07:34 AM       195,939,486 openjdk-15.0.2_windows-x64_bin.zip
+01/20/2021  07:34 AM                64 openjdk-15.0.2_windows-x64_bin.zip.sha256
+01/20/2021  07:42 AM       167,464,600 jdk-15.0.2_windows-x64_bin.exe
+01/20/2021  07:42 AM       187,986,283 jdk-15.0.2_windows-x64_bin.zip
+             158 File(s) 22,059,269,804 bytes
+               1 Dir(s)  50,809,696,256 bytes free
 
 C:\Users\David Holberton\Downloads>
 ```
