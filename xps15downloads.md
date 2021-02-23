@@ -1591,10 +1591,16 @@ C:\Users\David Holberton\Downloads>dir /o:gd | more
 02/23/2021  06:35 AM        25,171,055 micronaut-cli-2.3.3.zip
 02/23/2021  06:35 AM       132,306,923 grails-4.0.8.zip
 02/23/2021  06:36 AM                 9 grails-docs-4.0.8.zip
-            1420 File(s) 206,964,122,160 bytes
-              26 Dir(s)  47,507,570,688 bytes free
+02/23/2021  06:55 AM       107,843,517 gradle-6.8.3-bin.zip
+02/23/2021  06:56 AM                64 gradle-6.8.3-bin.zip.sha256
+            1422 File(s) 207,071,965,741 bytes
+              26 Dir(s)  47,360,421,888 bytes free
 
-C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton>
+C:\Users\David Holberton>date /t
+Tue 02/23/2021
+
+C:\Users\David Holberton>
 ```
 
 ```
