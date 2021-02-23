@@ -131,8 +131,11 @@ https://www.typescriptlang.org/download
 ```
 
 ```
-Microsoft Windows [Version 10.0.19042.685]
+Microsoft Windows [Version 10.0.19042.746]
 (c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\David Holberton>date /t
+Tue 02/23/2021
 
 C:\Users\David Holberton>cd Downloads
 
@@ -166,8 +169,8 @@ C:\Users\David Holberton\Downloads>dir /o:gd | more
 12/25/2020  10:24 AM    <DIR>          magpipdfs
 12/26/2020  09:58 AM    <DIR>          books
 01/14/2021  03:48 PM    <DIR>          rpitemp
-01/20/2021  07:43 AM    <DIR>          ..
-01/20/2021  07:43 AM    <DIR>          .
+02/23/2021  06:36 AM    <DIR>          ..
+02/23/2021  06:36 AM    <DIR>          .
 06/08/2017  07:22 AM         1,130,328 ChromeSetup.exe
 06/08/2017  07:26 AM           246,056 Firefox Setup Stub 53.0.3.exe
 06/08/2017  07:35 AM       207,649,848 jdk-8u131-windows-x64.exe
@@ -1385,8 +1388,6 @@ C:\Users\David Holberton\Downloads>dir /o:gd | more
 10/26/2020  06:30 AM     1,676,877,588 ubuntu-20.10-preinstalled-desktop-arm64+raspi.img.xz
 10/26/2020  06:34 AM               392 ubuntu-16.04.7-SHA256SUMS.txt
 10/26/2020  06:42 AM     1,697,906,688 ubuntu-16.04.7-desktop-amd64.iso
-10/26/2020  06:52 AM     1,697,906,688 ubuntu-16.04.7-desktop-amd64(1).iso
-10/26/2020  07:16 AM               198 ubuntu-20.10-SHA256SUMS.txt
 11/11/2020  08:34 AM        62,887,672 VSCodeUserSetup-x64-1.51.0.exe
 11/11/2020  08:35 AM        62,887,288 VSCodeSetup-x64-1.51.0.exe
 11/11/2020  08:36 AM        87,570,192 VSCode-win32-x64-1.51.0.zip
@@ -1450,7 +1451,7 @@ C:\Users\David Holberton\Downloads>dir /o:gd | more
 12/09/2020  08:36 AM       398,217,112 Apache-NetBeans-12.2-bin-windows-x64.exe
 12/09/2020  08:36 AM               171 Apache-NetBeans-12.2-bin-windows-x64.exe.sha512
 12/09/2020  08:36 AM               866 Apache-NetBeans-12.2-bin-windows-x64.exe.asc
-12/09/2020  08:39 AM        25,063,763 micronaut-cli-2.2.1.zip    
+12/09/2020  08:39 AM        25,063,763 micronaut-cli-2.2.1.zip
 12/12/2020  01:29 PM       592,629,145 spring-tool-suite-4-4.8.1.RELEASE-e4.17.0-win32.win32.x86_64.self-extracting.jar
 12/13/2020  08:43 AM        63,420,824 VSCodeUserSetup-x64-1.52.0.exe
 12/13/2020  08:43 AM        63,420,640 VSCodeSetup-x64-1.52.0.exe
@@ -1548,12 +1549,50 @@ C:\Users\David Holberton\Downloads>dir /o:gd | more
 01/20/2021  07:42 AM       167,464,600 jdk-15.0.2_windows-x64_bin.exe
 01/20/2021  07:42 AM       187,986,283 jdk-15.0.2_windows-x64_bin.zip
 01/20/2021  07:42 AM            11,508 15-0-2-checksum.html
-            1378 File(s) 202,667,409,100 bytes
-              26 Dir(s)  50,817,216,512 bytes free
-
-C:\Users\David Holberton\Downloads>
-C:\Users\David Holberton\Downloads>date /t
-Wed 01/20/2021
+02/01/2021  07:12 AM        43,340,743 apache-groovy-binary-3.0.7.zip
+02/01/2021  07:12 AM               838 apache-groovy-binary-3.0.7.zip.asc
+02/01/2021  07:13 AM                66 apache-groovy-binary-3.0.7.zip.sha256
+02/01/2021  07:13 AM         9,217,758 apache-groovy-src-3.0.7.zip
+02/01/2021  07:14 AM               838 apache-groovy-src-3.0.7.zip.asc
+02/01/2021  07:14 AM                66 apache-groovy-src-3.0.7.zip.sha256
+02/01/2021  07:14 AM        21,845,555 apache-groovy-docs-3.0.7.zip
+02/01/2021  07:14 AM               838 apache-groovy-docs-3.0.7.zip.asc
+02/01/2021  07:14 AM                66 apache-groovy-docs-3.0.7.zip.sha256
+02/01/2021  07:14 AM        74,448,862 apache-groovy-sdk-3.0.7.zip
+02/01/2021  07:15 AM               838 apache-groovy-sdk-3.0.7.zip.asc
+02/01/2021  07:15 AM                66 apache-groovy-sdk-3.0.7.zip.sha256
+02/01/2021  07:20 AM        63,396,712 VSCodeUserSetup-x64-1.52.1.exe
+02/01/2021  07:21 AM        63,396,560 VSCodeSetup-x64-1.52.1.exe
+02/01/2021  07:21 AM        88,195,052 VSCode-win32-x64-1.52.1.zip
+02/07/2021  07:12 AM        85,644,952 grails-4.0.6(1).zip
+02/07/2021  07:12 AM         9,066,960 grails-docs-4.0.6(1).zip
+02/07/2021  07:17 AM       132,494,377 grails-4.0.7.zip
+02/07/2021  07:17 AM        14,006,324 grails-core-4.0.7.zip
+02/07/2021  07:35 AM        25,156,296 micronaut-cli-2.3.1.zip
+02/07/2021  07:36 AM       107,843,212 gradle-6.8.2-bin.zip
+02/07/2021  07:37 AM                64 gradle-6.8.2-bin.zip.sha256
+02/07/2021  07:37 AM       150,630,920 gradle-6.8.2-all.zip
+02/07/2021  07:37 AM                64 gradle-6.8.2-all.zip.sha256
+02/07/2021  07:43 AM        70,479,744 VSCodeUserSetup-x64-1.53.0.exe
+02/07/2021  07:44 AM        70,479,616 VSCodeSetup-x64-1.53.0.exe
+02/07/2021  07:45 AM        96,680,027 VSCode-win32-x64-1.53.0.zip
+02/07/2021  07:48 AM           145,647 keyboard-shortcuts-windows.pdf
+02/07/2021  07:48 AM           206,761 keyboard-shortcuts-macos.pdf
+02/07/2021  07:48 AM           147,889 keyboard-shortcuts-linux.pdf
+02/07/2021  08:04 AM       749,035,240 ideaIU-2020.3.2.exe
+02/07/2021  08:04 AM                86 ideaIU-2020.3.2.exe.sha256
+02/07/2021  08:04 AM       865,585,638 ideaIU-2020.3.2.win.zip
+02/07/2021  08:04 AM                90 ideaIU-2020.3.2.win.zip.sha256
+02/07/2021  08:05 AM       645,824,352 ideaIC-2020.3.2.exe
+02/07/2021  08:05 AM                86 ideaIC-2020.3.2.exe.sha256
+02/07/2021  08:05 AM       726,794,121 ideaIC-2020.3.2.win.zip
+02/07/2021  08:05 AM                90 ideaIC-2020.3.2.win.zip.sha256
+02/14/2021  07:53 AM        25,167,659 micronaut-cli-2.3.2.zip
+02/23/2021  06:35 AM        25,171,055 micronaut-cli-2.3.3.zip
+02/23/2021  06:35 AM       132,306,923 grails-4.0.8.zip
+02/23/2021  06:36 AM                 9 grails-docs-4.0.8.zip
+            1420 File(s) 206,964,122,160 bytes
+              26 Dir(s)  47,507,570,688 bytes free
 
 C:\Users\David Holberton\Downloads>
 ```
