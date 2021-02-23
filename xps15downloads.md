@@ -1593,14 +1593,20 @@ C:\Users\David Holberton\Downloads>dir /o:gd | more
 02/23/2021  06:36 AM                 9 grails-docs-4.0.8.zip
 02/23/2021  06:55 AM       107,843,517 gradle-6.8.3-bin.zip
 02/23/2021  06:56 AM                64 gradle-6.8.3-bin.zip.sha256
-            1422 File(s) 207,071,965,741 bytes
-              26 Dir(s)  47,360,421,888 bytes free
+02/23/2021  10:18 AM        26,880,079 node-v15.10.0-win-x64.zip
+02/23/2021  10:18 AM        28,587,391 node-v14.16.0-win-x64.zip
+02/23/2021  10:18 AM             3,490 node-20210223-SHASUMS256.txt.asc
+02/23/2021  10:21 AM        70,560,104 VSCodeUserSetup-x64-1.53.2.exe
+02/23/2021  10:21 AM        70,560,016 VSCodeSetup-x64-1.53.2.exe
+02/23/2021  10:21 AM        96,816,007 VSCode-win32-x64-1.53.2.zip
+            1428 File(s) 207,365,372,828 bytes
+              26 Dir(s)  44,100,587,520 bytes free
 
-C:\Users\David Holberton>
-C:\Users\David Holberton>date /t
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>date /t
 Tue 02/23/2021
 
-C:\Users\David Holberton>
+C:\Users\David Holberton\Downloads>
 ```
 
 ```
