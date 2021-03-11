@@ -91,3 +91,124 @@ https://www.techrepublic.com/article/c-java-and-python-hold-onto-the-top-3-spots
 https://www.zdnet.com/article/programming-language-rankings-javascript-still-rules-python-holds-off-java/ 20210303.205901 
 https://www.zdnet.com/article/programming-language-rankings-javascript-still-rules-python-holds-off-java/ 20210303.210950 
 https://www.zdnet.com/article/programming-language-rankings-javascript-still-rules-python-holds-off-java/ 20210303.211359 
+
+
+
+
+https://www.codota.com/code/java/classes/javax.net.ssl.SSLSession 20210311.020808 
+
+https://www.codota.com/code/java/classes/javax.net.ssl.SSLSession 20210311.023057 
+
+https://docs.oracle.com/en/java/javase/11/docs/api/java.base/javax/net/ssl/SSLSession.html 20210311.023239 
+
+https://www.programcreek.com/java-api-examples/?api=javax.net.ssl.SSLSession 20210311.023643 
+
+https://github.com/openjdk-mirror/jdk7u-jdk/blob/master/src/share/classes/javax/net/ssl/SSLSession.java 20210311.024107 
+
+https://docs.oracle.com/javase/7/docs/api/javax/net/ssl/SSLSession.html 20210311.024223 
+
+https://alvinalexander.com//blog/post/java/simple-https-example 20210311.024623 
+
+https://mkyong.com/java/java-https-client-httpsurlconnection-example/ 20210311.024745 
+
+https://mkyong.com/java/java-https-client-httpsurlconnection-example/ 20210311.024924 
+
+https://mkyong.com/java/how-to-send-http-request-getpost-in-java/ 20210311.025304 
+
+https://mkyong.com/java/java-sslsocket-tls-1-3-example/ 20210311.025437 
+
+https://mkyong.com/java/java-sslsocket-tls-1-3-example/ 20210311.025637 
+
+https://stackoverflow.com/questions/17122682/sslsocket-of-httpsurlconnection 20210311.025934 
+
+https://stackoverflow.com/questions/17122682/sslsocket-of-httpsurlconnection 20210311.030105 
+
+https://www.codota.com/code/java/methods/javax.net.ssl.HttpsURLConnection/setSSLSocketFactory 20210311.030221 
+
+https://www.codota.com/code/java/methods/javax.net.ssl.HttpsURLConnection/getSSLSocketFactory 20210311.030241 
+
+https://www.programcreek.com/java-api-examples/?api=javax.net.ssl.HttpsURLConnection 20210311.030544 
+
+https://www.programcreek.com/java-api-examples/?api=javax.net.ssl.HttpsURLConnection 20210311.030722 
+
+https://dzone.com/articles/how-setup-custom 20210311.030905 
+
+https://dzone.com/articles/how-setup-custom 20210311.031025 
+
+https://www.etsy.com/listing/235682175/rgb-keypad-for-osu 20210311.031323 
+
+https://www.youtube.com/watch?v=1O5CpUaumTs 20210311.031658 
+
+https://www.youtube.com/watch?v=TbCOVruJGHc 20210311.031943 
+
+https://www.youtube.com/watch?v=TbCOVruJGHc 20210311.032213 
+
+https://plugins.grails.org/plugin/bertramlabs/seed-me 20210311.032931 
+
+https://plugins.grails.org/plugin/bertramlabs/seed-me 20210311.033108 
+
+https://blog.jetbrains.com/webstorm/2021/03/webstorm-under-the-hood-how-we-build-our-javascript-ide/ 20210311.033549 
+
+https://blog.jetbrains.com/webstorm/2021/03/webstorm-under-the-hood-how-we-build-our-javascript-ide/ 20210311.033711 
+
+https://stackoverflow.com/questions/66565912/pdfbox-getting-error-while-executing-this-line-pddocument-loadinput?utm_source=dlvr.it&utm_medium=twitter 20210311.033744 
+
+https://micronaut.io/blog/2021-03-09-micronaut-2-4-release.html 20210311.034023 
+
+https://micronaut.io/blog/2021-01-22-2-dot-3-release.html 20210311.034046 
+
+https://micronaut.io/blog/2020-11-19-micronaut-22-released.html 20210311.034103 
+
+https://billykorando.com/2021/03/10/java-local-records/ 20210311.034432 
+
+https://www.ubuntu-server.com/ubuntu/how-to-install-eclipse-ide-on-ubuntu-20-04-linux/ 20210311.034524 
+
+https://www.ubuntu-server.com/ubuntu/how-to-install-eclipse-ide-on-ubuntu-20-04-linux/ 20210311.034558 
+
+https://go.oracle.com/LP=107281 20210311.035219 
+
+https://www.jetbrains.com/help/idea/shared-indexes.html 20210311.040301 
+
+https://www.foxnews.com/science/cicadas-living-underground-for-past-17-years-to-emerge-in-these-states-this-summer 20210311.040914 
+
+https://www.zdnet.com/article/heres-how-you-can-master-python-one-of-the-most-popular-coding-languages/ 20210311.041439 
+
+https://www.zdnet.com/article/heres-how-you-can-master-python-one-of-the-most-popular-coding-languages/ 20210311.041518 
+
+https://www.defensenews.com/land/2021/03/11/northrop-unveils-new-sky-viper-chain-gun-as-us-army-considers-weapons-for-future-helos/ 20210311.041848 
+
+https://www.lonelyplanet.com/articles/us-most-scenic-drives 20210311.043707 
+
+https://www.lonelyplanet.com/articles/us-most-scenic-drives 20210311.062324 
+
+https://www.popularmechanics.com/military/research/a35786347/pentagon-hypersonic-engine-pratt-whitney-j58-sr-71-blackbird/ 20210311.062652 
+
+https://www.techradar.com/reviews/dell-precision-5750-mobile-workstation 20210311.063032 
+
+https://www.techradar.com/reviews/dell-precision-5750-mobile-workstation 20210311.064119 
+
+https://www.javacodegeeks.com/2021/03/14-best-and-free-plugins-for-eclipse-ide-in-2021.html 20210311.065404 
+
+https://www.javacodegeeks.com/2021/03/14-best-and-free-plugins-for-eclipse-ide-in-2021.html 20210311.065527 
+
+https://www.javacodegeeks.com/2021/03/14-best-and-free-plugins-for-eclipse-ide-in-2021.html 20210311.065954 
+
+https://mail.openjdk.java.net/pipermail/discuss/2021-March/005720.html 20210311.070142 
+
+https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/api-gateway-invoking-lambda-example.html?sc_channel=sm&sc_campaign=Docs&sc_publisher=TWITTER&sc_country=Global,Global%20(Public%20Sector%20Users)&sc_geo=GLOBAL&sc_outcome=awareness&trk=Docs_TWITTER&sc_content=Docs&sc_category=AWS_Lambda&linkId=113016113 20210311.070233 
+
+https://netbeans.apache.org/download/nb123/nb123.html 20210311.070325 
+
+https://cwiki.apache.org/confluence/display/NETBEANS/Release+Schedule 20210311.070347 
+
+https://cwiki.apache.org/confluence/display/NETBEANS/Release+Schedule 20210311.070442 
+
+http://netbeans.apache.org/ 20210311.070458 
+
+https://www.meetup.com/virtualJUG/events/276432781 20210311.070751 
+
+http://virtualjug.com/ 20210311.070843 
+
+http://virtualjug.com/ 20210311.070925 
+
+
