@@ -1549,63 +1549,88 @@ C:\Users\David Holberton\Downloads>dir /o:gd | more
 01/20/2021  07:42 AM       167,464,600 jdk-15.0.2_windows-x64_bin.exe
 01/20/2021  07:42 AM       187,986,283 jdk-15.0.2_windows-x64_bin.zip
 01/20/2021  07:42 AM            11,508 15-0-2-checksum.html
-02/01/2021  07:12 AM        43,340,743 apache-groovy-binary-3.0.7.zip
-02/01/2021  07:12 AM               838 apache-groovy-binary-3.0.7.zip.asc
-02/01/2021  07:13 AM                66 apache-groovy-binary-3.0.7.zip.sha256
-02/01/2021  07:13 AM         9,217,758 apache-groovy-src-3.0.7.zip
-02/01/2021  07:14 AM               838 apache-groovy-src-3.0.7.zip.asc
-02/01/2021  07:14 AM                66 apache-groovy-src-3.0.7.zip.sha256
-02/01/2021  07:14 AM        21,845,555 apache-groovy-docs-3.0.7.zip
-02/01/2021  07:14 AM               838 apache-groovy-docs-3.0.7.zip.asc
-02/01/2021  07:14 AM                66 apache-groovy-docs-3.0.7.zip.sha256
-02/01/2021  07:14 AM        74,448,862 apache-groovy-sdk-3.0.7.zip
-02/01/2021  07:15 AM               838 apache-groovy-sdk-3.0.7.zip.asc
-02/01/2021  07:15 AM                66 apache-groovy-sdk-3.0.7.zip.sha256
-02/01/2021  07:20 AM        63,396,712 VSCodeUserSetup-x64-1.52.1.exe
-02/01/2021  07:21 AM        63,396,560 VSCodeSetup-x64-1.52.1.exe
-02/01/2021  07:21 AM        88,195,052 VSCode-win32-x64-1.52.1.zip
-02/07/2021  07:12 AM        85,644,952 grails-4.0.6(1).zip
-02/07/2021  07:12 AM         9,066,960 grails-docs-4.0.6(1).zip
-02/07/2021  07:17 AM       132,494,377 grails-4.0.7.zip
-02/07/2021  07:17 AM        14,006,324 grails-core-4.0.7.zip
-02/07/2021  07:35 AM        25,156,296 micronaut-cli-2.3.1.zip
-02/07/2021  07:36 AM       107,843,212 gradle-6.8.2-bin.zip
-02/07/2021  07:37 AM                64 gradle-6.8.2-bin.zip.sha256
-02/07/2021  07:37 AM       150,630,920 gradle-6.8.2-all.zip
-02/07/2021  07:37 AM                64 gradle-6.8.2-all.zip.sha256
-02/07/2021  07:43 AM        70,479,744 VSCodeUserSetup-x64-1.53.0.exe
-02/07/2021  07:44 AM        70,479,616 VSCodeSetup-x64-1.53.0.exe
-02/07/2021  07:45 AM        96,680,027 VSCode-win32-x64-1.53.0.zip
-02/07/2021  07:48 AM           145,647 keyboard-shortcuts-windows.pdf
-02/07/2021  07:48 AM           206,761 keyboard-shortcuts-macos.pdf
-02/07/2021  07:48 AM           147,889 keyboard-shortcuts-linux.pdf
-02/07/2021  08:04 AM       749,035,240 ideaIU-2020.3.2.exe
-02/07/2021  08:04 AM                86 ideaIU-2020.3.2.exe.sha256
-02/07/2021  08:04 AM       865,585,638 ideaIU-2020.3.2.win.zip
-02/07/2021  08:04 AM                90 ideaIU-2020.3.2.win.zip.sha256
-02/07/2021  08:05 AM       645,824,352 ideaIC-2020.3.2.exe
-02/07/2021  08:05 AM                86 ideaIC-2020.3.2.exe.sha256
-02/07/2021  08:05 AM       726,794,121 ideaIC-2020.3.2.win.zip
-02/07/2021  08:05 AM                90 ideaIC-2020.3.2.win.zip.sha256
-02/14/2021  07:53 AM        25,167,659 micronaut-cli-2.3.2.zip
-02/23/2021  06:35 AM        25,171,055 micronaut-cli-2.3.3.zip
-02/23/2021  06:35 AM       132,306,923 grails-4.0.8.zip
-02/23/2021  06:36 AM                 9 grails-docs-4.0.8.zip
-02/23/2021  06:55 AM       107,843,517 gradle-6.8.3-bin.zip
-02/23/2021  06:56 AM                64 gradle-6.8.3-bin.zip.sha256
-02/23/2021  10:18 AM        26,880,079 node-v15.10.0-win-x64.zip
-02/23/2021  10:18 AM        28,587,391 node-v14.16.0-win-x64.zip
-02/23/2021  10:18 AM             3,490 node-20210223-SHASUMS256.txt.asc
-02/23/2021  10:21 AM        70,560,104 VSCodeUserSetup-x64-1.53.2.exe
-02/23/2021  10:21 AM        70,560,016 VSCodeSetup-x64-1.53.2.exe
-02/23/2021  10:21 AM        96,816,007 VSCode-win32-x64-1.53.2.zip
-            1428 File(s) 207,365,372,828 bytes
-              26 Dir(s)  44,100,587,520 bytes free
+02/01/2021  08:12 AM        43,340,743 apache-groovy-binary-3.0.7.zip
+02/01/2021  08:12 AM               838 apache-groovy-binary-3.0.7.zip.asc
+02/01/2021  08:13 AM                66 apache-groovy-binary-3.0.7.zip.sha256
+02/01/2021  08:13 AM         9,217,758 apache-groovy-src-3.0.7.zip
+02/01/2021  08:14 AM               838 apache-groovy-src-3.0.7.zip.asc
+02/01/2021  08:14 AM                66 apache-groovy-src-3.0.7.zip.sha256
+02/01/2021  08:14 AM        21,845,555 apache-groovy-docs-3.0.7.zip
+02/01/2021  08:14 AM               838 apache-groovy-docs-3.0.7.zip.asc
+02/01/2021  08:14 AM                66 apache-groovy-docs-3.0.7.zip.sha256
+02/01/2021  08:14 AM        74,448,862 apache-groovy-sdk-3.0.7.zip
+02/01/2021  08:15 AM               838 apache-groovy-sdk-3.0.7.zip.asc
+02/01/2021  08:15 AM                66 apache-groovy-sdk-3.0.7.zip.sha256
+02/01/2021  08:20 AM        63,396,712 VSCodeUserSetup-x64-1.52.1.exe
+02/01/2021  08:21 AM        63,396,560 VSCodeSetup-x64-1.52.1.exe
+02/01/2021  08:21 AM        88,195,052 VSCode-win32-x64-1.52.1.zip
+02/07/2021  08:12 AM        85,644,952 grails-4.0.6(1).zip
+02/07/2021  08:12 AM         9,066,960 grails-docs-4.0.6(1).zip
+02/07/2021  08:17 AM       132,494,377 grails-4.0.7.zip
+02/07/2021  08:17 AM        14,006,324 grails-core-4.0.7.zip
+02/07/2021  08:35 AM        25,156,296 micronaut-cli-2.3.1.zip
+02/07/2021  08:36 AM       107,843,212 gradle-6.8.2-bin.zip
+02/07/2021  08:37 AM                64 gradle-6.8.2-bin.zip.sha256
+02/07/2021  08:37 AM       150,630,920 gradle-6.8.2-all.zip
+02/07/2021  08:37 AM                64 gradle-6.8.2-all.zip.sha256
+02/07/2021  08:43 AM        70,479,744 VSCodeUserSetup-x64-1.53.0.exe
+02/07/2021  08:44 AM        70,479,616 VSCodeSetup-x64-1.53.0.exe
+02/07/2021  08:45 AM        96,680,027 VSCode-win32-x64-1.53.0.zip
+02/07/2021  08:48 AM           145,647 keyboard-shortcuts-windows.pdf
+02/07/2021  08:48 AM           206,761 keyboard-shortcuts-macos.pdf
+02/07/2021  08:48 AM           147,889 keyboard-shortcuts-linux.pdf
+02/07/2021  09:04 AM       749,035,240 ideaIU-2020.3.2.exe
+02/07/2021  09:04 AM                86 ideaIU-2020.3.2.exe.sha256
+02/07/2021  09:04 AM       865,585,638 ideaIU-2020.3.2.win.zip
+02/07/2021  09:04 AM                90 ideaIU-2020.3.2.win.zip.sha256
+02/07/2021  09:05 AM       645,824,352 ideaIC-2020.3.2.exe
+02/07/2021  09:05 AM                86 ideaIC-2020.3.2.exe.sha256
+02/07/2021  09:05 AM       726,794,121 ideaIC-2020.3.2.win.zip
+02/07/2021  09:05 AM                90 ideaIC-2020.3.2.win.zip.sha256
+02/14/2021  08:53 AM        25,167,659 micronaut-cli-2.3.2.zip
+02/23/2021  07:35 AM        25,171,055 micronaut-cli-2.3.3.zip
+02/23/2021  07:35 AM       132,306,923 grails-4.0.8.zip
+02/23/2021  07:36 AM                 9 grails-docs-4.0.8.zip
+02/23/2021  07:55 AM       107,843,517 gradle-6.8.3-bin.zip
+02/23/2021  07:56 AM                64 gradle-6.8.3-bin.zip.sha256
+02/23/2021  11:18 AM        26,880,079 node-v15.10.0-win-x64.zip
+02/23/2021  11:18 AM        28,587,391 node-v14.16.0-win-x64.zip
+02/23/2021  11:18 AM             3,490 node-20210223-SHASUMS256.txt.asc
+02/23/2021  11:21 AM        70,560,104 VSCodeUserSetup-x64-1.53.2.exe
+02/23/2021  11:21 AM        70,560,016 VSCodeSetup-x64-1.53.2.exe
+02/23/2021  11:21 AM        96,816,007 VSCode-win32-x64-1.53.2.zip
+03/07/2021  11:29 AM        73,215,824 VSCodeUserSetup-x64-1.54.1.exe
+03/07/2021  11:30 AM        73,215,440 VSCodeSetup-x64-1.54.1.exe
+03/07/2021  11:30 AM       100,280,066 VSCode-win32-x64-1.54.1.zip
+03/18/2021  06:56 AM       157,861,136 jdk-16_windows-x64_bin.exe
+03/18/2021  06:57 AM       176,936,924 jdk-16_windows-x64_bin.zip
+03/18/2021  06:58 AM            11,482 16checksum.html
+03/18/2021  07:00 AM       750,944,608 ideaIU-2020.3.3.exe
+03/18/2021  07:00 AM                86 ideaIU-2020.3.3.exe.sha256
+03/18/2021  07:01 AM       867,226,565 ideaIU-2020.3.3.win.zip
+03/18/2021  07:01 AM                90 ideaIU-2020.3.3.win.zip.sha256
+03/18/2021  07:02 AM       648,604,624 ideaIC-2020.3.3.exe
+03/18/2021  07:02 AM                86 ideaIC-2020.3.3.exe.sha256
+03/18/2021  07:02 AM       729,011,734 ideaIC-2020.3.3.win.zip
+03/18/2021  07:03 AM                90 ideaIC-2020.3.3.win.zip.sha256
+03/18/2021  07:08 AM       544,526,125 eclipse-jee-2021-03-R-win32-x86_64.zip
+03/18/2021  07:10 AM               170 eclipse-jee-2021-03-R-win32-x86_64.zip.sha512
+03/18/2021  07:12 AM       343,797,569 eclipse-java-2021-03-R-win32-x86_64.zip
+03/18/2021  07:13 AM               171 eclipse-java-2021-03-R-win32-x86_64.zip.sha512
+03/18/2021  07:17 AM       132,377,574 grails-4.0.9.zip
+03/18/2021  07:17 AM                 9 grails-docs-4.0.9.zip
+03/18/2021  07:20 AM         7,496,026 micronaut-projects-micronaut-core-v2.4.0-0-gc0af534.zip
+03/18/2021  07:52 AM       573,404,200 spring-tool-suite-4-4.10.0.RELEASE-e4.19.0-win32.win32.x86_64.self-extracting.jar
+            1450 File(s) 212,544,283,427 bytes
+              26 Dir(s)  34,632,290,304 bytes free
+
+C:\Users\David Holberton\Downloads>date /t
+Thu 03/18/2021
+
+C:\Users\David Holberton\Downloads>time /t
+09:49 AM
 
 C:\Users\David Holberton\Downloads>
-C:\Users\David Holberton\Downloads>date /t
-Tue 02/23/2021
-
 C:\Users\David Holberton\Downloads>
 ```
 
