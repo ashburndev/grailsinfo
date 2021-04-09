@@ -1621,19 +1621,49 @@ C:\Users\David Holberton\Downloads>dir /o:gd | more
 03/18/2021  07:17 AM                 9 grails-docs-4.0.9.zip
 03/18/2021  07:20 AM         7,496,026 micronaut-projects-micronaut-core-v2.4.0-0-gc0af534.zip
 03/18/2021  07:52 AM       573,404,200 spring-tool-suite-4-4.10.0.RELEASE-e4.19.0-win32.win32.x86_64.self-extracting.jar
-            1450 File(s) 212,544,283,427 bytes
-              26 Dir(s)  34,632,290,304 bytes free
+03/21/2021  11:35 AM        62,824,903 faspmanager-sdk-java-3.7.2.0.zip
+03/21/2021  11:35 AM            30,991 faspmanager-sdk-python-3.7.2-d787953b521f059412ad1713afaa38ccbb760a47.zip
+03/21/2021  11:35 AM            60,555 faspmanager-sdk-csharp-3.7.2.0.zip
+03/21/2021  11:35 AM        49,742,920 faspmanager-sdk-go-3.7.2.0-16bc76835d6c00409badc9d3788851e78b3eebb2.zip
+03/21/2021  12:27 PM         1,100,438 ibm-aspera-faspex-v3-sdk-docs.zip
+03/27/2021  10:51 AM            57,838 actuator-service.zip
+03/27/2021  02:23 PM            57,803 actservwar.zip
+03/28/2021  06:31 AM     3,007,638,235 2021-03-04-raspios-buster-armhf-full.zip
+03/28/2021  06:33 AM                66 2021-03-04-raspios-buster-armhf-full.zip.sha256
+03/28/2021  06:34 AM     1,231,874,816 2021-03-04-raspios-buster-armhf.zip
+03/28/2021  06:35 AM                66 2021-03-04-raspios-buster-armhf.zip.sha256
+03/28/2021  06:36 AM       463,405,209 2021-03-04-raspios-buster-armhf-lite.zip
+03/28/2021  06:37 AM                66 2021-03-04-raspios-buster-armhf-lite.zip.sha256
+03/28/2021  06:38 AM            33,517 2021-03-04-raspios-buster-armhf-release-notes.txt
+03/28/2021  06:41 AM        19,762,296 imager_1.6.exe
+04/08/2021  06:17 PM       764,216,640 ideaIU-2021.1.exe
+04/08/2021  06:17 PM                84 ideaIU-2021.1.exe.sha256
+04/08/2021  06:17 PM       934,924,625 ideaIU-2021.1.win.zip
+04/08/2021  06:18 PM                88 ideaIU-2021.1.win.zip.sha256
+04/08/2021  06:18 PM       674,725,704 ideaIC-2021.1.exe
+04/08/2021  06:19 PM                84 ideaIC-2021.1.exe.sha256
+04/08/2021  06:20 PM       810,305,520 ideaIC-2021.1.win.zip
+04/08/2021  06:20 PM                88 ideaIC-2021.1.win.zip.sha256
+04/08/2021  06:21 PM        72,251,096 VSCodeUserSetup-x64-1.55.1.exe
+04/08/2021  06:21 PM        72,251,072 VSCodeSetup-x64-1.55.1.exe
+04/08/2021  06:21 PM        98,847,948 VSCode-win32-x64-1.55.1.zip
+04/08/2021  07:46 PM        44,763,308 redhat.java-0.76.0.vsix
+04/09/2021  07:28 AM       132,381,687 grails-4.0.10.zip
+            1478 File(s) 220,985,541,090 bytes
+              26 Dir(s)  44,484,247,552 bytes free
 
+C:\Users\David Holberton\Downloads>
 C:\Users\David Holberton\Downloads>date /t
-Thu 03/18/2021
+Fri 04/09/2021
 
 C:\Users\David Holberton\Downloads>time /t
-09:49 AM
+07:32 AM
+
+C:\Users\David Holberton\Downloads>hostname
+dphxps15
 
 C:\Users\David Holberton\Downloads>
 C:\Users\David Holberton\Downloads>
-```
-
 ```
 C:\Users\David Holberton\Downloads>dir /o:gd *jdk*
  Volume in drive C has no label.
