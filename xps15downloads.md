@@ -1649,20 +1649,38 @@ C:\Users\David Holberton\Downloads>dir /o:gd | more
 04/08/2021  06:21 PM        98,847,948 VSCode-win32-x64-1.55.1.zip
 04/08/2021  07:46 PM        44,763,308 redhat.java-0.76.0.vsix
 04/09/2021  07:28 AM       132,381,687 grails-4.0.10.zip
-            1478 File(s) 220,985,541,090 bytes
-              26 Dir(s)  44,484,247,552 bytes free
+04/10/2021  10:08 AM       112,554,948 gradle-7.0-bin.zip
+04/10/2021  10:08 AM                64 gradle-7.0-bin.zip.sha256
+04/10/2021  10:08 AM       154,770,448 gradle-7.0-all.zip
+04/10/2021  10:08 AM                64 gradle-7.0-all.zip.sha256
+04/10/2021  10:15 AM         9,536,838 apache-maven-3.8.1-bin.tar.gz
+04/10/2021  10:15 AM               128 apache-maven-3.8.1-bin.tar.gz.sha512
+04/10/2021  10:16 AM               235 apache-maven-3.8.1-bin.tar.gz.asc
+04/10/2021  10:16 AM         9,636,097 apache-maven-3.8.1-bin.zip
+04/10/2021  10:16 AM               128 apache-maven-3.8.1-bin.zip.sha512
+04/10/2021  10:16 AM               235 apache-maven-3.8.1-bin.zip.asc
+04/10/2021  10:16 AM         2,763,744 apache-maven-3.8.1-src.tar.gz
+04/10/2021  10:16 AM               128 apache-maven-3.8.1-src.tar.gz.sha512
+04/10/2021  10:16 AM               235 apache-maven-3.8.1-src.tar.gz.asc
+04/10/2021  10:16 AM         4,608,555 apache-maven-3.8.1-src.zip
+04/10/2021  10:16 AM               128 apache-maven-3.8.1-src.zip.sha512
+04/10/2021  10:17 AM               235 apache-maven-3.8.1-src.zip.asc
+04/10/2021  10:23 AM           808,223 bookstore4010web.zip
+04/10/2021  10:24 AM           265,096 bookstore4010ang.zip
+04/10/2021  10:29 AM            92,201 bookstore4010res.zip
+04/10/2021  10:33 AM         1,208,476 grails-4010-single.html
+            1498 File(s) 221,281,787,296 bytes
+              26 Dir(s)  39,755,132,928 bytes free
 
-C:\Users\David Holberton\Downloads>
 C:\Users\David Holberton\Downloads>date /t
-Fri 04/09/2021
+Wed 04/14/2021
 
 C:\Users\David Holberton\Downloads>time /t
-07:32 AM
+06:49 AM
 
 C:\Users\David Holberton\Downloads>hostname
 dphxps15
 
-C:\Users\David Holberton\Downloads>
 C:\Users\David Holberton\Downloads>
 ```
 C:\Users\David Holberton\Downloads>dir /o:gd *jdk*
