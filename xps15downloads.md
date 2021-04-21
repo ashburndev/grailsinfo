@@ -1685,8 +1685,10 @@ https://docs.oracle.com/en/java/javase/16/docs/api/index.html
 https://docs.oracle.com/en/java/javase/16/books.html
 
 https://www.oracle.com/java/technologies/javase-downloads.html
+https://www.oracle.com/java/technologies/javase/jdk-relnotes-index.html
 
 https://openjdk.java.net/
+https://openjdk.java.net/install/index.html
 https://jdk.java.net/16/
 
 https://visualvm.github.io/
