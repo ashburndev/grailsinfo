@@ -1,0 +1,181 @@
+6:29 AM 6/17/2021
+
+https://gradle.org/install/
+https://gradle.org/install/#manually
+https://gradle.org/releases/
+
+https://www.raspberrypi.org/software/
+https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-versions.html
+Chapter 2 Compatibility with MySQL and Java Versions
+
+https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-installing-maven.html
+4.2 Installing Connector/J Using Maven
+
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>x.y.z</version>
+</dependency>
+
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>x.y.z</version>
+    <exclusions>
+        <exclusion>
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java</artifactId>
+        </exclusion>
+    </exclusions> 
+</dependency>
+
+https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-usagenotes-tomcat.html
+Chapter 13 Using Connector/J with Tomcat
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://mvnrepository.com/artifact/mysql/mysql-connector-java
+
+<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.25</version>
+</dependency>
+
+// https://mvnrepository.com/artifact/mysql/mysql-connector-java
+implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.25'
+
+../
+INFO_BIN                                          2021-04-27 10:46       187      
+INFO_BIN.asc                                      2021-04-27 10:46       232      
+INFO_BIN.md5                                      2021-04-27 10:46        33      
+INFO_BIN.sha1                                     2021-04-27 10:46        41      
+INFO_SRC                                          2021-04-27 10:46       136      
+INFO_SRC.asc                                      2021-04-27 10:46       232      
+INFO_SRC.md5                                      2021-04-27 10:46        33      
+INFO_SRC.sha1                                     2021-04-27 10:46        41      
+LICENSE                                           2021-04-27 10:46    100769      
+LICENSE.asc                                       2021-04-27 10:46       232      
+LICENSE.md5                                       2021-04-27 10:46        33      
+LICENSE.sha1                                      2021-04-27 10:46        41      
+README                                            2021-04-27 10:46      1245      
+README.asc                                        2021-04-27 10:46       232      
+README.md5                                        2021-04-27 10:46        33      
+README.sha1                                       2021-04-27 10:46        41      
+mysql-connector-java-8.0.25-sources.jar           2021-04-27 10:46   1556319      
+mysql-connector-java-8.0.25-sources.jar.asc       2021-04-27 10:46       232      
+mysql-connector-java-8.0.25-sources.jar.md5       2021-04-27 10:46        33      
+mysql-connector-java-8.0.25-sources.jar.sha1      2021-04-27 10:46        41      
+mysql-connector-java-8.0.25.jar                   2021-04-27 10:46   2428320      
+mysql-connector-java-8.0.25.jar.asc               2021-04-27 10:46       232      
+mysql-connector-java-8.0.25.jar.md5               2021-04-27 10:46        33      
+mysql-connector-java-8.0.25.jar.sha1              2021-04-27 10:46        41      
+mysql-connector-java-8.0.25.pom                   2021-04-27 10:46      2504      
+mysql-connector-java-8.0.25.pom.asc               2021-04-27 10:46       232      
+mysql-connector-java-8.0.25.pom.md5               2021-04-27 10:46        33      
+mysql-connector-java-8.0.25.pom.sha1              2021-04-27 10:46        41  
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc11
+
+<!-- https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc11 -->
+<dependency>
+    <groupId>com.oracle.database.jdbc</groupId>
+    <artifactId>ojdbc11</artifactId>
+    <version>21.1.0.0</version>
+</dependency>
+
+// https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc11
+implementation group: 'com.oracle.database.jdbc', name: 'ojdbc11', version: '21.1.0.0'
+
+../
+ojdbc11-21.1.0.0-javadoc.jar                      2021-01-14 14:17   2464665      
+ojdbc11-21.1.0.0-javadoc.jar.asc                  2021-01-14 14:17       836      
+ojdbc11-21.1.0.0-javadoc.jar.md5                  2021-01-14 14:17        32      
+ojdbc11-21.1.0.0-javadoc.jar.sha1                 2021-01-14 14:17        40      
+ojdbc11-21.1.0.0-sources.jar                      2021-01-14 14:17       285      
+ojdbc11-21.1.0.0-sources.jar.asc                  2021-01-14 14:17       836      
+ojdbc11-21.1.0.0-sources.jar.md5                  2021-01-14 14:17        32      
+ojdbc11-21.1.0.0-sources.jar.sha1                 2021-01-14 14:17        40      
+ojdbc11-21.1.0.0.jar                              2021-01-14 14:17   5132090      
+ojdbc11-21.1.0.0.jar.asc                          2021-01-14 14:17       836      
+ojdbc11-21.1.0.0.jar.md5                          2021-01-14 14:17        32      
+ojdbc11-21.1.0.0.jar.sha1                         2021-01-14 14:17        40      
+ojdbc11-21.1.0.0.pom                              2021-01-14 14:17      1452      
+ojdbc11-21.1.0.0.pom.asc                          2021-01-14 14:17       836      
+ojdbc11-21.1.0.0.pom.md5                          2021-01-14 14:17        32      
+ojdbc11-21.1.0.0.pom.sha1                         2021-01-14 14:17        40   
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Operating system images
+
+Many operating systems are available for Raspberry Pi, including Raspberry Pi OS, our official supported operating system, and operating systems from other organisations.
+
+Raspberry Pi Imager is the quick and easy way to install an operating system to a microSD card ready to use with your Raspberry Pi. Alternatively, choose from the operating systems below, available to download and install manually.
+Download:
+
+    Raspberry Pi OS (32-bit)
+    Raspberry Pi Desktop
+    Third-Party operating systems
+
+Raspberry Pi OS
+
+Compatible with:
+
+    All Raspberry Pi models
+
+Raspberry Pi OS with desktop and recommended software
+
+    Release date: May 7th 2021
+    Kernel version: 5.10
+    Size: 2,867MB
+
+Show SHA256 file integrity hash:84a711d9ff4c295711a40af43fea38893a20b3b087a48370d8fb926fb541faf5
+
+Release notes
+Download
+Download torrent
+Raspberry Pi OS with desktop
+
+    Release date: May 7th 2021
+    Kernel version: 5.10
+    Size: 1,180MB
+
+Show SHA256 file integrity hash:b6c04b34d231f522278fc822d913fed3828d0849e1e7d786db72f52c28036c62
+
+Release notes
+Download
+Download torrent
+Raspberry Pi OS Lite
+
+    Release date: May 7th 2021
+    Kernel version: 5.10
+    Size: 444MB
+
+Show SHA256 file integrity hash:c5dad159a2775c687e9281b1a0e586f7471690ae28f2f2282c90e7d59f64273c
+
+Release notes
+Download
+Download torrent
+Raspberry Pi Desktop
+
+Compatible with:
+
+    PC and Mac
+
+Debian Buster with Raspberry Pi Desktop
+
+    Release date: January 11th 2021
+    Kernel version: 4.19
+    Size: 2,948MB
+
+Show SHA256 file integrity hash:c78c8dca8ca80ffbac90f4cedfedb6793b37b06df307b0c87e778eef3842a9be
+
+
