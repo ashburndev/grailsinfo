@@ -131,10 +131,13 @@ https://www.typescriptlang.org/download
 ```
 
 ```
+bar.txt
 
-C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>hostname
+dphxps15
+
 C:\Users\David Holberton\Downloads>date /t
-Wed 04/21/2021
+Thu 06/17/2021
 
 C:\Users\David Holberton\Downloads>dir /o:gd
  Volume in drive C has no label.
@@ -164,13 +167,15 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 08/11/2020  09:45 AM    <DIR>          temp2
 09/16/2020  07:53 AM    <DIR>          jdk15
 12/25/2020  11:24 AM    <DIR>          magpipdfs
-12/26/2020  10:58 AM    <DIR>          books
 03/27/2021  02:24 PM    <DIR>          dphtemp
 04/14/2021  06:56 AM    <DIR>          temp4010
 04/17/2021  01:07 PM    <DIR>          tempgrails2
 04/17/2021  01:14 PM    <DIR>          tempgrails
-04/21/2021  07:01 AM    <DIR>          ..
-04/21/2021  07:01 AM    <DIR>          .
+04/25/2021  03:17 PM    <DIR>          books
+05/13/2021  10:55 AM    <DIR>          mygrails4010app
+05/22/2021  09:44 AM    <DIR>          awstemp
+06/17/2021  07:01 AM    <DIR>          .
+06/17/2021  07:01 AM    <DIR>          ..
 06/08/2017  08:22 AM         1,130,328 ChromeSetup.exe
 06/08/2017  08:26 AM           246,056 Firefox Setup Stub 53.0.3.exe
 06/08/2017  08:35 AM       207,649,848 jdk-8u131-windows-x64.exe
@@ -627,8 +632,6 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 02/10/2019  08:22 AM               287 amazon-corretto-8.202.08.2-windows-x64-jdk.zip.sig
 02/10/2019  08:22 AM        46,281,918 amazon-corretto-8.202.08.2-windows-x64-jre.zip
 02/10/2019  08:23 AM               287 amazon-corretto-8.202.08.2-windows-x64-jre.zip.sig
-02/10/2019  08:36 AM            51,248 sbmj1.zip
-02/10/2019  09:22 AM            57,948 sbgj1.zip
 02/10/2019  09:51 AM           819,672 gafgg339app1.zip
 02/10/2019  10:06 AM             1,029 D95A3146.pub
 03/19/2019  07:59 PM           928,583 OH93aZPD.html
@@ -734,14 +737,6 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 06/23/2019  11:10 AM               169 eclipse-java-2019-06-R-win32-x86_64.zip.sha512
 06/23/2019  11:13 AM       425,591,485 spring-tool-suite-3.9.9.RELEASE-e4.12.0-win32-x86_64.zip
 06/23/2019  11:14 AM       391,772,153 spring-tool-suite-4-4.3.0.RELEASE-e4.12.0-win32.win32.x86_64.zip
-06/23/2019  11:51 AM            54,382 sb216javmavjar.zip
-06/23/2019  11:52 AM            54,889 sb216javmavwar.zip
-06/23/2019  11:53 AM            58,600 sb216javgrajar.zip
-06/23/2019  11:53 AM            59,098 sb216javgrawar.zip
-06/23/2019  12:02 PM            54,528 sb216gromavjar.zip
-06/23/2019  12:02 PM            55,026 sb216gromavwar.zip
-06/23/2019  12:03 PM            58,629 sb216grograjar.zip
-06/23/2019  12:03 PM            59,121 sb216grograwar.zip
 06/23/2019  12:58 PM        12,808,283 micronaut-1.1.3.zip
 07/14/2019  10:13 AM        12,808,295 micronaut-1.1.4.zip
 07/31/2019  07:43 AM       212,578,264 jdk-8u221-windows-i586.exe
@@ -843,8 +838,6 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 09/07/2019  10:56 AM       168,257,536 amazon-corretto-11.0.4.11.1-windows-x64.msi
 09/07/2019  10:56 AM       183,486,269 amazon-corretto-11.0.4.11.1-windows-x64.zip
 09/07/2019  10:58 AM            35,252 Downloads for Amazon Corretto 11.0.4.11.1 - Amazon Corretto.html
-09/11/2019  08:23 AM            54,870 sb218mavjav8.zip
-09/11/2019  08:58 AM            55,254 sb218mavjav8w.zip
 09/11/2019  09:25 AM            53,737 taco-cloud.zip
 09/14/2019  10:00 AM        12,924,396 micronaut-1.2.2.zip
 10/03/2019  06:37 AM       167,579,000 jdk-13_windows-x64_bin.exe
@@ -1119,26 +1112,6 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 05/30/2020  03:32 PM       452,715,448 2020-05-27-raspios-buster-lite-armhf.zip
 05/30/2020  03:32 PM            28,077 2020-05-27-raspios-buster-release_notes.txt
 05/30/2020  03:34 PM             2,443 2020-05-27-raspios-buster-raspberrypios.txt
-07/07/2020  07:22 AM         5,892,416 gehman_pack.zip
-07/07/2020  07:22 AM         3,204,932 AWS_CloudFormation_in_Action_v2_MEAP.pdf
-07/07/2020  07:23 AM        34,688,511 wong_pack.zip
-07/07/2020  07:24 AM        14,622,882 Real-World_Cryptography_v7_MEAP.pdf
-07/07/2020  07:25 AM        11,760,419 walls8_pack.zip
-07/07/2020  07:25 AM         5,529,655 Spring_in_Action_Sixth_Edition_v1_MEAP.pdf
-07/07/2020  07:26 AM        59,519,833 orland_pack.zip
-07/07/2020  07:27 AM        29,199,629 Math_for_Programmers_v10_MEAP.pdf
-07/07/2020  07:28 AM        41,599,813 fain3_pack.zip
-07/07/2020  07:29 AM        37,728,891 TypeScript_Quickly.pdf
-07/07/2020  07:30 AM        39,644,089 parlog_pack.zip
-07/07/2020  07:30 AM        15,041,882 The_Java_Module_System.pdf
-07/07/2020  07:31 AM        17,276,788 saumont2_pack.zip
-07/07/2020  07:31 AM         5,416,384 The_Joy_of_Kotlin.pdf
-07/07/2020  07:32 AM            37,676 AWSCloudFormationInAction-master.zip
-07/07/2020  07:32 AM           185,599 sia6-examples.zip
-07/07/2020  07:33 AM        14,409,995 source-code.zip
-07/07/2020  07:33 AM        14,053,310 getts-master.zip
-07/07/2020  07:34 AM        43,432,454 jpms-monitor.zip
-07/07/2020  07:34 AM         1,499,622 fpinkotlin-master.zip
 07/13/2020  03:13 PM       677,962,416 ideaIU-2020.1.3.exe
 07/13/2020  03:14 PM                86 ideaIU-2020.1.3.exe.sha256
 07/13/2020  03:14 PM       774,289,953 ideaIU-2020.1.3.win.zip
@@ -1202,10 +1175,6 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 07/29/2020  07:24 AM     1,181,855,929 2020-05-27-raspios-buster-armhf(1).zip
 07/29/2020  07:24 AM       452,715,448 2020-05-27-raspios-buster-lite-armhf(1).zip
 08/07/2020  07:01 AM            12,417 jce_policy-8(1).zip
-08/11/2020  08:42 AM        37,993,048 real-world-cryptography_pack.zip
-08/11/2020  08:43 AM        65,329,526 math-for-programmers_pack.zip
-08/11/2020  08:43 AM         5,892,416 aws-cloudformation-in-action_pack.zip
-08/11/2020  08:45 AM        11,760,419 spring-in-action-sixth-edition_pack.zip
 08/11/2020  08:48 AM       859,026,658 Creating a Simple Angular App.zip
 09/02/2020  07:50 AM        58,657,592 VSCodeUserSetup-x64-1.48.2.exe
 09/02/2020  07:51 AM        58,657,272 VSCodeSetup-x64-1.48.2.exe
@@ -1272,7 +1241,6 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 09/23/2020  07:12 AM       455,166,810 2020-08-20-raspios-buster-armhf-lite.zip
 09/23/2020  07:12 AM             2,449 2020-08-20-raspios-buster-armhf.txt
 09/23/2020  07:17 AM            29,726 2020-08-20-raspios-buster-armhf-release-notes.txt
-09/23/2020  07:21 AM            56,671 sbtest1.zip
 09/23/2020  07:23 AM           806,059 ggtest1.zip
 09/23/2020  07:25 AM            60,709 mntest1.zip
 10/04/2020  11:44 AM         9,602,303 apache-maven-3.6.3-bin(1).zip
@@ -1313,7 +1281,6 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 10/06/2020  06:41 AM        77,795,264 solr-8.6.2-src.tgz
 10/06/2020  06:41 AM               833 solr-8.6.2-src.tgz.asc
 10/06/2020  06:41 AM               149 solr-8.6.2-src.tgz.sha512
-10/06/2020  06:46 AM        64,107,235 LIAsourcecode.zip
 10/06/2020  07:09 AM        12,900,003 micronaut-cli-2.1.0.zip
 10/12/2020  09:24 AM        48,791,495 lucene-8.6.3-src.tgz
 10/12/2020  09:24 AM               833 lucene-8.6.3-src.tgz.asc
@@ -1368,8 +1335,6 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 11/14/2020  02:53 PM                86 ideaIC-2020.2.3.exe.sha256
 11/14/2020  02:53 PM       675,182,337 ideaIC-2020.2.3.win.zip
 11/14/2020  02:54 PM                90 ideaIC-2020.2.3.win.zip.sha256
-11/14/2020  03:16 PM           807,978 bookstore405web.zip
-11/14/2020  03:17 PM           264,485 bookstore405ng.zip
 11/27/2020  09:30 AM       696,383,360 ideaIU-2020.2.4.exe
 11/27/2020  09:30 AM                86 ideaIU-2020.2.4.exe.sha256
 11/27/2020  09:31 AM       806,463,379 ideaIU-2020.2.4.win.zip
@@ -1587,6 +1552,7 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 04/08/2021  06:21 PM        72,251,072 VSCodeSetup-x64-1.55.1.exe
 04/08/2021  06:21 PM        98,847,948 VSCode-win32-x64-1.55.1.zip
 04/08/2021  07:46 PM        44,763,308 redhat.java-0.76.0.vsix
+04/09/2021  07:28 AM       132,381,687 grails-4.0.10.zip
 04/10/2021  10:08 AM       112,554,948 gradle-7.0-bin.zip
 04/10/2021  10:08 AM                64 gradle-7.0-bin.zip.sha256
 04/10/2021  10:08 AM       154,770,448 gradle-7.0-all.zip
@@ -1603,9 +1569,6 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 04/10/2021  10:16 AM         4,608,555 apache-maven-3.8.1-src.zip
 04/10/2021  10:16 AM               128 apache-maven-3.8.1-src.zip.sha512
 04/10/2021  10:17 AM               235 apache-maven-3.8.1-src.zip.asc
-04/10/2021  10:23 AM           808,223 bookstore4010web.zip
-04/10/2021  10:24 AM           265,096 bookstore4010ang.zip
-04/10/2021  10:29 AM            92,201 bookstore4010res.zip
 04/17/2021  12:27 PM       405,963,068 netbeans-12.3-bin.zip
 04/17/2021  12:29 PM               154 netbeans-12.3-bin.zip.sha512
 04/17/2021  12:29 PM               862 netbeans-12.3-bin.zip.asc
@@ -1624,25 +1587,6 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 04/21/2021  06:35 AM       179,857,854 jdk-11.0.11_windows-x64_bin.zip
 04/21/2021  06:35 AM            11,773 11-0-11-checksum.html
 04/21/2021  06:36 AM        53,849,979 jdk-11.0.11_doc-all.zip
-04/21/2021  06:38 AM           235,334 migration-guide.pdf
-04/21/2021  06:38 AM           293,700 installation-guide.pdf
-04/21/2021  06:38 AM           408,222 internationalization-guide.pdf
-04/21/2021  06:38 AM           766,260 java-core-libraries-developer-guide.pdf
-04/21/2021  06:39 AM            74,436 java-remote-method-invocation-api-guide.pdf
-04/21/2021  06:39 AM           562,121 hotspot-virtual-machine-garbage-collection-tuning-guide.pdf
-04/21/2021  06:39 AM           964,513 java-virtual-machine-guide.pdf
-04/21/2021  06:39 AM           260,198 jrockit-hotspot-migration-guide.pdf
-04/21/2021  06:39 AM           197,243 java-se-language-updates.pdf
-04/21/2021  06:39 AM           922,471 java-management-extensions-guide.pdf
-04/21/2021  06:39 AM         1,294,537 java-se-monitoring-and-management-guide.pdf
-04/21/2021  06:39 AM           247,358 java-scripting-programmers-guide.pdf
-04/21/2021  06:39 AM           271,347 nashorn-users-guide.pdf
-04/21/2021  06:40 AM         4,443,282 security-developer-guide.pdf
-04/21/2021  06:40 AM           255,453 java-shell-user-guide.pdf
-04/21/2021  06:40 AM           252,532 javadoc-guide.pdf
-04/21/2021  06:40 AM         1,306,095 tools-reference.pdf
-04/21/2021  06:40 AM         3,306,211 troubleshooting-guide.pdf
-04/21/2021  06:40 AM           287,346 java-accessibility-guide.pdf
 04/21/2021  06:42 AM       157,873,432 jdk-16.0.1_windows-x64_bin.exe
 04/21/2021  06:42 AM       176,977,284 jdk-16.0.1_windows-x64_bin.zip
 04/21/2021  06:42 AM            11,490 16-0-1-checksum.html
@@ -1655,19 +1599,109 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 04/21/2021  07:01 AM        21,948,352 apache-groovy-docs-3.0.8.zip
 04/21/2021  07:01 AM               838 apache-groovy-docs-3.0.8.zip.asc
 04/21/2021  07:01 AM                66 apache-groovy-docs-3.0.8.zip.sha256
-
-            1484 File(s) 218,742,962,823 bytes
-              29 Dir(s)  18,337,484,800 bytes free
+05/02/2021  12:57 PM       764,705,864 ideaIU-2021.1.1.exe
+05/02/2021  12:57 PM                86 ideaIU-2021.1.1.exe.sha256
+05/02/2021  12:57 PM       935,424,963 ideaIU-2021.1.1.win.zip
+05/02/2021  12:58 PM                90 ideaIU-2021.1.1.win.zip.sha256
+05/02/2021  12:58 PM       674,840,672 ideaIC-2021.1.1.exe
+05/02/2021  12:58 PM                86 ideaIC-2021.1.1.exe.sha256
+05/02/2021  12:59 PM       810,436,438 ideaIC-2021.1.1.win.zip
+05/02/2021  12:59 PM                90 ideaIC-2021.1.1.win.zip.sha256
+05/02/2021  01:14 PM       751,189,256 ideaIU-2020.3.4.exe
+05/02/2021  01:15 PM       867,106,080 ideaIU-2020.3.4.win.zip
+05/02/2021  01:17 PM       648,407,464 ideaIC-2020.3.4.exe
+05/02/2021  01:18 PM       728,902,007 ideaIC-2020.3.4.win.zip
+05/02/2021  01:26 PM        72,257,112 VSCodeUserSetup-x64-1.55.2.exe
+05/02/2021  01:26 PM        72,256,968 VSCodeSetup-x64-1.55.2.exe
+05/02/2021  01:27 PM        98,826,307 VSCode-win32-x64-1.55.2.zip
+05/02/2021  01:39 PM        25,460,838 micronaut-cli-2.5.0.zip
+05/02/2021  01:51 PM         4,923,928 grails-4.0.10-docs.zip
+05/11/2021  06:31 AM       108,129,558 gradle-6.9-bin.zip
+05/11/2021  06:31 AM                64 gradle-6.9-bin.zip.sha256
+05/11/2021  06:33 AM       150,849,355 gradle-6.9-all.zip
+05/11/2021  06:33 AM                64 gradle-6.9-all.zip.sha256
+05/11/2021  06:33 AM       112,062,196 gradle-7.0.1-bin.zip
+05/11/2021  06:33 AM                64 gradle-7.0.1-bin.zip.sha256
+05/11/2021  06:33 AM       154,338,174 gradle-7.0.1-all.zip
+05/11/2021  06:33 AM                64 gradle-7.0.1-all.zip.sha256
+05/11/2021  06:38 AM        80,042,000 VSCodeUserSetup-x64-1.56.0.exe
+05/11/2021  06:39 AM        80,041,848 VSCodeSetup-x64-1.56.0.exe
+05/11/2021  06:39 AM       111,114,416 VSCode-win32-x64-1.56.0.zip
+05/16/2021  01:31 PM       112,062,163 gradle-7.0.2-bin.zip
+05/16/2021  01:32 PM                64 gradle-7.0.2-bin.zip.sha256
+05/16/2021  01:32 PM       154,338,277 gradle-7.0.2-all.zip
+05/16/2021  01:32 PM                64 gradle-7.0.2-all.zip.sha256
+05/22/2021  09:41 AM       751,771,527 aws-java-sdk-1.11.1024.zip
+05/22/2021  04:55 PM               194 new_user_credentials.csv
+05/23/2021  09:14 PM                33 key
+06/02/2021  09:15 AM           182,263 fidelity-2017-1099-R.pdf
+06/02/2021  09:16 AM           186,204 fidelity-2018-1099-R.pdf
+06/02/2021  09:17 AM           196,958 fidelity-2019-1099-R.pdf
+06/02/2021  09:18 AM           199,243 fidelity-2020-1099-R.pdf
+06/02/2021  09:23 AM           186,210 fidelity-401k-2018-1099-R.pdf
+06/13/2021  08:47 AM       763,487,888 ideaIU-2021.1.2.exe
+06/13/2021  08:47 AM                86 ideaIU-2021.1.2.exe.sha256
+06/13/2021  08:47 AM       934,084,454 ideaIU-2021.1.2.win.zip
+06/13/2021  08:48 AM                90 ideaIU-2021.1.2.win.zip.sha256
+06/13/2021  08:48 AM       673,200,768 ideaIC-2021.1.2.exe
+06/13/2021  08:48 AM                86 ideaIC-2021.1.2.exe.sha256
+06/13/2021  08:49 AM       808,822,534 ideaIC-2021.1.2.win.zip
+06/13/2021  08:49 AM                90 ideaIC-2021.1.2.win.zip.sha256
+06/13/2021  08:52 AM        79,913,496 VSCodeUserSetup-x64-1.57.0.exe
+06/13/2021  08:52 AM        79,913,592 VSCodeSetup-x64-1.57.0.exe
+06/13/2021  08:53 AM       111,100,965 VSCode-win32-x64-1.57.0.zip
+06/13/2021  09:21 AM       428,321,926 netbeans-12.4-bin.zip
+06/13/2021  09:22 AM               154 netbeans-12.4-bin.zip.sha512
+06/13/2021  09:22 AM               862 netbeans-12.4-bin.zip.asc
+06/13/2021  09:28 AM       467,615,400 pycharm-professional-2021.1.2.exe
+06/13/2021  09:28 AM       380,900,896 pycharm-community-2021.1.2.exe
+06/13/2021  09:29 AM       395,436,576 WebStorm-2021.1.2.exe
+06/13/2021  09:29 AM                88 WebStorm-2021.1.2.exe.sha256
+06/13/2021  09:30 AM               100 pycharm-professional-2021.1.2.exe.sha256
+06/13/2021  09:30 AM                97 pycharm-community-2021.1.2.exe.sha256
+06/13/2021  09:31 AM       402,712,136 datagrip-2021.1.3.exe
+06/13/2021  09:31 AM                88 datagrip-2021.1.3.exe.sha256
+06/13/2021  09:46 AM       210,976,242 mysql-8.0.25-winx64.zip
+06/13/2021  09:47 AM               232 mysql-8.0.25-winx64.zip.asc
+06/13/2021  09:48 AM                34 mysql-8.0.25-winx64.zip.md5
+06/13/2021  09:48 AM       514,736,575 mysql-8.0.25-winx64-debug-test.zip
+06/13/2021  09:49 AM               232 mysql-8.0.25-winx64-debug-test.zip.asc
+06/13/2021  09:51 AM                34 mysql-8.0.25-winx64-debug-test.zip.md5
+06/13/2021  09:53 AM         2,498,560 mysql-installer-web-community-8.0.25.0.msi
+06/13/2021  09:54 AM               232 mysql-installer-web-community-8.0.25.0.msi.asc
+06/13/2021  10:01 AM       456,855,552 mysql-installer-community-8.0.25.0.msi
+06/13/2021  10:01 AM               232 mysql-installer-community-8.0.25.0.msi.asc
+06/13/2021  10:03 AM                34 mysql-installer-web-community-8.0.25.0.msi.md5
+06/13/2021  10:04 AM                34 mysql-installer-community-8.0.25.0.msi.md5
+06/13/2021  10:07 AM        11,775,823 apache-tomcat-8.5.66-windows-x64.zip
+06/13/2021  10:08 AM               849 apache-tomcat-8.5.66-windows-x64.zip.asc
+06/13/2021  10:08 AM               166 apache-tomcat-8.5.66-windows-x64.zip.sha512
+06/13/2021  10:09 AM        12,759,972 apache-tomcat-9.0.46-windows-x64.zip
+06/13/2021  10:09 AM               849 apache-tomcat-9.0.46-windows-x64.zip.asc
+06/13/2021  10:10 AM               166 apache-tomcat-9.0.46-windows-x64.zip.sha512
+06/13/2021  10:11 AM        13,089,654 apache-tomcat-10.0.6-windows-x64.zip
+06/13/2021  10:11 AM               849 apache-tomcat-10.0.6-windows-x64.zip.asc
+06/13/2021  10:11 AM               166 apache-tomcat-10.0.6-windows-x64.zip.sha512
+06/17/2021  06:47 AM       112,229,529 gradle-7.1-bin.zip
+06/17/2021  06:48 AM                64 gradle-7.1-bin.zip.sha256
+06/17/2021  06:54 AM     3,005,999,855 2021-05-07-raspios-buster-armhf-full.zip
+06/17/2021  06:56 AM                66 2021-05-07-raspios-buster-armhf-full.zip.sha256
+06/17/2021  06:57 AM     1,237,837,307 2021-05-07-raspios-buster-armhf.zip
+06/17/2021  06:58 AM                66 2021-05-07-raspios-buster-armhf.zip.sha256
+06/17/2021  06:59 AM       465,662,909 2021-05-07-raspios-buster-armhf-lite.zip
+06/17/2021  06:59 AM                66 2021-05-07-raspios-buster-armhf-lite.zip.sha256
+06/17/2021  07:03 AM            34,449 2021-05-07-raspios-buster-armhf-release-notes.txt
+            1515 File(s) 238,116,612,602 bytes
+              31 Dir(s)   6,374,764,544 bytes free
 
 C:\Users\David Holberton\Downloads>
 C:\Users\David Holberton\Downloads>date /t
-Wed 04/21/2021
-
-C:\Users\David Holberton\Downloads>hostname
-dphxps15
+Thu 06/17/2021
 
 C:\Users\David Holberton\Downloads>
+```
 
+```
 6:23 AM 4/21/2021
 
 https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
