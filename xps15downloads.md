@@ -131,14 +131,13 @@ https://www.typescriptlang.org/download
 ```
 
 ```
-bar.txt
+C:\Users\David Holberton\Downloads>date /t
+Fri 06/25/2021
 
 C:\Users\David Holberton\Downloads>hostname
 dphxps15
 
-C:\Users\David Holberton\Downloads>date /t
-Thu 06/17/2021
-
+C:\Users\David Holberton\Downloads>
 C:\Users\David Holberton\Downloads>dir /o:gd
  Volume in drive C has no label.
  Volume Serial Number is 4603-A8D3
@@ -174,8 +173,8 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 04/25/2021  03:17 PM    <DIR>          books
 05/13/2021  10:55 AM    <DIR>          mygrails4010app
 05/22/2021  09:44 AM    <DIR>          awstemp
-06/17/2021  07:01 AM    <DIR>          .
-06/17/2021  07:01 AM    <DIR>          ..
+06/20/2021  04:03 PM    <DIR>          .
+06/20/2021  04:03 PM    <DIR>          ..
 06/08/2017  08:22 AM         1,130,328 ChromeSetup.exe
 06/08/2017  08:26 AM           246,056 Firefox Setup Stub 53.0.3.exe
 06/08/2017  08:35 AM       207,649,848 jdk-8u131-windows-x64.exe
@@ -1691,12 +1690,20 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 06/17/2021  06:59 AM       465,662,909 2021-05-07-raspios-buster-armhf-lite.zip
 06/17/2021  06:59 AM                66 2021-05-07-raspios-buster-armhf-lite.zip.sha256
 06/17/2021  07:03 AM            34,449 2021-05-07-raspios-buster-armhf-release-notes.txt
-            1515 File(s) 238,116,612,602 bytes
-              31 Dir(s)   6,374,764,544 bytes free
+06/20/2021  09:23 AM       541,618,756 eclipse-jee-2021-06-R-win32-x86_64.zip
+06/20/2021  09:25 AM               170 eclipse-jee-2021-06-R-win32-x86_64.zip.sha512
+06/20/2021  09:27 AM       335,099,276 eclipse-java-2021-06-R-win32-x86_64.zip
+06/20/2021  09:28 AM               171 eclipse-java-2021-06-R-win32-x86_64.zip.sha512
+06/20/2021  09:34 AM       116,146,208 eclipse-inst-jre-win64(1).exe
+06/20/2021  03:37 PM             3,110 findDupFiles.java
+06/20/2021  04:10 PM             3,324 FindDuplicates.java
+06/20/2021  04:10 PM             3,456 FindDuplicates.class
+            1523 File(s) 239,109,487,073 bytes
+              31 Dir(s)   9,175,035,904 bytes free
 
 C:\Users\David Holberton\Downloads>
 C:\Users\David Holberton\Downloads>date /t
-Thu 06/17/2021
+Fri 06/25/2021
 
 C:\Users\David Holberton\Downloads>
 ```
