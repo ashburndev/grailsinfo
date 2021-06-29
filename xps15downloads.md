@@ -132,12 +132,8 @@ https://www.typescriptlang.org/download
 
 ```
 C:\Users\David Holberton\Downloads>date /t
-Fri 06/25/2021
+Tue 06/29/2021
 
-C:\Users\David Holberton\Downloads>hostname
-dphxps15
-
-C:\Users\David Holberton\Downloads>
 C:\Users\David Holberton\Downloads>dir /o:gd
  Volume in drive C has no label.
  Volume Serial Number is 4603-A8D3
@@ -173,8 +169,8 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 04/25/2021  03:17 PM    <DIR>          books
 05/13/2021  10:55 AM    <DIR>          mygrails4010app
 05/22/2021  09:44 AM    <DIR>          awstemp
-06/20/2021  04:03 PM    <DIR>          .
-06/20/2021  04:03 PM    <DIR>          ..
+06/29/2021  07:57 AM    <DIR>          .
+06/29/2021  07:57 AM    <DIR>          ..
 06/08/2017  08:22 AM         1,130,328 ChromeSetup.exe
 06/08/2017  08:26 AM           246,056 Firefox Setup Stub 53.0.3.exe
 06/08/2017  08:35 AM       207,649,848 jdk-8u131-windows-x64.exe
@@ -1698,16 +1694,25 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 06/20/2021  03:37 PM             3,110 findDupFiles.java
 06/20/2021  04:10 PM             3,324 FindDuplicates.java
 06/20/2021  04:10 PM             3,456 FindDuplicates.class
-            1523 File(s) 239,109,487,073 bytes
-              31 Dir(s)   9,175,035,904 bytes free
+06/29/2021  07:50 AM       131,833,883 grails-4.0.11.zip
+06/29/2021  07:50 AM         8,917,608 grails-4.0.11-docs.zip
+06/29/2021  07:53 AM        30,136,688 gpg4win-3.1.16.exe
+06/29/2021  07:53 AM               876 gpg4win-3.1.16.exe.sig
+06/29/2021  07:54 AM                66 gpg4win-3.1.16.exe.sha256
+06/29/2021  07:55 AM       272,984,804 gpg4win-3.1.16.tar.bz2
+06/29/2021  07:56 AM               876 gpg4win-3.1.16.tar.bz2.sig
+06/29/2021  07:56 AM                66 gpg4win-3.1.16.tar.bz2.sha256
+06/29/2021  07:57 AM         3,688,311 gpg4win-compendium-en.pdf
+06/29/2021  07:57 AM             5,410 gpg4win-compendium.html
+            1533 File(s) 239,557,055,661 bytes
+              31 Dir(s)   5,039,095,808 bytes free
 
-C:\Users\David Holberton\Downloads>
 C:\Users\David Holberton\Downloads>date /t
-Fri 06/25/2021
+Tue 06/29/2021
 
 C:\Users\David Holberton\Downloads>
 ```
-
+  
 ```
 6:23 AM 4/21/2021
 
