@@ -1,0 +1,20 @@
+
+https://dev.mysql.com/doc/refman/8.0/en/windows-install-archive.html 20210706.015131 
+
+https://dev.mysql.com/downloads/mysql/5.5.html?os=3&version=5 20210706.015321 
+
+https://dev.mysql.com/doc/refman/8.0/en/windows-installation.html 20210706.015402 
+
+https://dev.mysql.com/downloads/mysql/ 20210706.015431 
+
+https://dev.mysql.com/downloads/workbench/ 20210706.015510 
+
+https://dev.mysql.com/downloads/workbench/ 20210706.015534 
+
+https://dev.mysql.com/doc/workbench/en/wb-installing-windows.html 20210706.015718 
+
+https://dev.mysql.com/doc/workbench/en/wb-installing-windows.html 20210706.015808 
+
+https://dev.mysql.com/downloads/windows/installer/ 20210706.015850 
+
+https://dev.mysql.com/doc/index-connectors.html 20210706.020033 
