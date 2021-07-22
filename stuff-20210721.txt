@@ -1,0 +1,56 @@
+6:42 AM 7/21/2021
+
+https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+https://www.oracle.com/java/technologies/javase-jdk11-downloads.html
+https://www.oracle.com/java/technologies/javase-jdk16-downloads.html
+
+https://www.oracle.com/java/technologies/javase/8-relnotes.html
+https://www.oracle.com/java/technologies/javase/8u-relnotes.html
+https://www.oracle.com/java/technologies/javase/8u301-relnotes.html
+
+https://www.oracle.com/java/technologies/javase/11-relnotes.html
+https://www.oracle.com/java/technologies/javase/11u-relnotes.html
+https://www.oracle.com/java/technologies/javase/11-0-12-relnotes.html
+
+https://www.oracle.com/java/technologies/javase/16-relnotes.html
+https://www.oracle.com/java/technologies/javase/16u-relnotes.html
+https://www.oracle.com/java/technologies/javase/16-0-2-relnotes.html
+
+https://jdk.java.net/16/release-notes
+https://www.java.com/en/download/manual.jsp
+https://openjdk.java.net/
+https://openjdk.java.net/install/
+https://adoptopenjdk.net/
+
+
+Java SE Development Kit 8 Downloads
+
+Thank you for downloading this release of the Java™ Platform, Standard Edition Development Kit (JDK™). The JDK is a development environment for building applications, applets, and components using the Java programming language.
+
+The JDK includes tools useful for developing and testing programs written in the Java programming language and running on the Java platform.
+
+Important Oracle JDK License Update
+
+The Oracle JDK License has changed for releases starting April 16, 2019.
+
+The new Oracle Technology Network License Agreement for Oracle Java SE is substantially different from prior Oracle JDK licenses. The new license permits certain uses, such as personal use and development use, at no cost -- but other uses authorized under prior Oracle JDK licenses may no longer be available. Please review the terms carefully before downloading and using this product. An FAQ is available here.
+
+Commercial license and support is available with a low cost Java SE Subscription.
+
+Oracle also provides the latest OpenJDK release under the open source GPL License at jdk.java.net.
+
+07/21/2021  06:43 AM       164,047,680 jdk-8u301-windows-i586.exe
+07/21/2021  06:44 AM       177,687,872 jdk-8u301-windows-x64.exe
+07/21/2021  06:44 AM        56,163,401 jdk-8u301-windows-i586-demos.zip
+07/21/2021  06:45 AM        56,184,157 jdk-8u301-windows-x64-demos.zip
+07/21/2021  06:45 AM            15,737 8u301checksum.html
+07/21/2021  06:47 AM       159,206,224 jdk-11.0.12_windows-x64_bin.exe
+07/21/2021  06:47 AM       179,591,451 jdk-11.0.12_windows-x64_bin.zip
+07/21/2021  06:47 AM            11,834 11-0-12-checksum.html
+07/21/2021  06:49 AM       157,893,968 jdk-16.0.2_windows-x64_bin.exe
+07/21/2021  06:49 AM       177,000,115 jdk-16.0.2_windows-x64_bin.zip
+07/21/2021  06:50 AM            11,549 16-0-2-checksum.html
+07/21/2021  07:07 AM        93,618,176 OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.msi
+07/21/2021  07:08 AM       173,363,200 OpenJDK11U-jdk_x64_windows_hotspot_11.0.11_9.msi
+07/21/2021  07:08 AM       179,912,704 OpenJDK16U-jdk_x64_windows_hotspot_16.0.1_9.msi
+
