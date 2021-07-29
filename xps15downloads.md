@@ -131,8 +131,13 @@ https://www.typescriptlang.org/download
 ```
 
 ```
+
+
 C:\Users\David Holberton\Downloads>date /t
-Tue 06/29/2021
+Thu 07/29/2021
+
+C:\Users\David Holberton\Downloads>time /t
+08:21 AM
 
 C:\Users\David Holberton\Downloads>dir /o:gd
  Volume in drive C has no label.
@@ -169,8 +174,9 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 04/25/2021  03:17 PM    <DIR>          books
 05/13/2021  10:55 AM    <DIR>          mygrails4010app
 05/22/2021  09:44 AM    <DIR>          awstemp
-06/29/2021  07:57 AM    <DIR>          .
-06/29/2021  07:57 AM    <DIR>          ..
+06/29/2021  08:08 AM    <DIR>          gpgtemp
+07/29/2021  07:17 AM    <DIR>          ..
+07/29/2021  07:17 AM    <DIR>          .
 06/08/2017  08:22 AM         1,130,328 ChromeSetup.exe
 06/08/2017  08:26 AM           246,056 Firefox Setup Stub 53.0.3.exe
 06/08/2017  08:35 AM       207,649,848 jdk-8u131-windows-x64.exe
@@ -1704,11 +1710,90 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 06/29/2021  07:56 AM                66 gpg4win-3.1.16.tar.bz2.sha256
 06/29/2021  07:57 AM         3,688,311 gpg4win-compendium-en.pdf
 06/29/2021  07:57 AM             5,410 gpg4win-compendium.html
-            1533 File(s) 239,557,055,661 bytes
-              31 Dir(s)   5,039,095,808 bytes free
+07/10/2021  11:47 AM       765,116,656 ideaIU-2021.1.3.exe
+07/10/2021  11:47 AM                86 ideaIU-2021.1.3.exe.sha256
+07/10/2021  11:48 AM       936,349,137 ideaIU-2021.1.3.win.zip
+07/10/2021  11:48 AM                90 ideaIU-2021.1.3.win.zip.sha256
+07/10/2021  11:49 AM       675,038,744 ideaIC-2021.1.3.exe
+07/10/2021  11:49 AM                86 ideaIC-2021.1.3.exe.sha256
+07/10/2021  11:49 AM       811,174,276 ideaIC-2021.1.3.win.zip
+07/10/2021  11:50 AM                90 ideaIC-2021.1.3.win.zip.sha256
+07/16/2021  07:30 AM        80,529,600 VSCodeUserSetup-x64-1.58.2.exe
+07/16/2021  07:30 AM        80,529,392 VSCodeSetup-x64-1.58.2.exe
+07/16/2021  07:31 AM       111,780,489 VSCode-win32-x64-1.58.2.zip
+07/21/2021  06:43 AM       164,047,680 jdk-8u301-windows-i586.exe
+07/21/2021  06:44 AM       177,687,872 jdk-8u301-windows-x64.exe
+07/21/2021  06:44 AM        56,163,401 jdk-8u301-windows-i586-demos.zip
+07/21/2021  06:45 AM        56,184,157 jdk-8u301-windows-x64-demos.zip
+07/21/2021  06:45 AM            15,737 8u301checksum.html
+07/21/2021  06:47 AM       159,206,224 jdk-11.0.12_windows-x64_bin.exe
+07/21/2021  06:47 AM       179,591,451 jdk-11.0.12_windows-x64_bin.zip
+07/21/2021  06:47 AM            11,834 11-0-12-checksum.html
+07/21/2021  06:49 AM       157,893,968 jdk-16.0.2_windows-x64_bin.exe
+07/21/2021  06:49 AM       177,000,115 jdk-16.0.2_windows-x64_bin.zip
+07/21/2021  06:50 AM            11,549 16-0-2-checksum.html
+07/21/2021  07:07 AM        93,618,176 OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.msi
+07/21/2021  07:08 AM       173,363,200 OpenJDK11U-jdk_x64_windows_hotspot_11.0.11_9.msi
+07/21/2021  07:08 AM       179,912,704 OpenJDK16U-jdk_x64_windows_hotspot_16.0.1_9.msi
+07/29/2021  06:49 AM       775,341,200 ideaIU-2021.2.exe
+07/29/2021  06:49 AM                84 ideaIU-2021.2.exe.sha256
+07/29/2021  06:49 AM       959,339,358 ideaIU-2021.2.win.zip
+07/29/2021  06:49 AM                88 ideaIU-2021.2.win.zip.sha256
+07/29/2021  06:50 AM       681,511,920 ideaIC-2021.2.exe
+07/29/2021  06:50 AM                84 ideaIC-2021.2.exe.sha256
+07/29/2021  06:50 AM       828,427,706 ideaIC-2021.2.win.zip
+07/29/2021  06:50 AM                88 ideaIC-2021.2.win.zip.sha256
+07/29/2021  06:52 AM        11,083,019 apache-tomcat-8.5.69.zip
+07/29/2021  06:52 AM               849 apache-tomcat-8.5.69.zip.asc
+07/29/2021  06:52 AM               154 apache-tomcat-8.5.69.zip.sha512
+07/29/2021  06:52 AM        10,561,246 apache-tomcat-8.5.69.tar.gz
+07/29/2021  06:53 AM               849 apache-tomcat-8.5.69.tar.gz.asc
+07/29/2021  06:53 AM               157 apache-tomcat-8.5.69.tar.gz.sha512
+07/29/2021  06:53 AM        11,803,648 apache-tomcat-8.5.69-windows-x64.zip
+07/29/2021  06:53 AM               849 apache-tomcat-8.5.69-windows-x64.zip.asc
+07/29/2021  06:53 AM               166 apache-tomcat-8.5.69-windows-x64.zip.sha512
+07/29/2021  06:54 AM         6,402,960 apache-tomcat-8.5.69-fulldocs.tar.gz
+07/29/2021  06:54 AM               849 apache-tomcat-8.5.69-fulldocs.tar.gz.asc
+07/29/2021  06:54 AM               166 apache-tomcat-8.5.69-fulldocs.tar.gz.sha512
+07/29/2021  06:56 AM        12,048,850 apache-tomcat-9.0.50.zip
+07/29/2021  06:56 AM               833 apache-tomcat-9.0.50.zip.asc
+07/29/2021  06:56 AM               154 apache-tomcat-9.0.50.zip.sha512
+07/29/2021  06:56 AM        11,507,318 apache-tomcat-9.0.50.tar.gz
+07/29/2021  06:56 AM               833 apache-tomcat-9.0.50.tar.gz.asc
+07/29/2021  06:57 AM               157 apache-tomcat-9.0.50.tar.gz.sha512
+07/29/2021  06:57 AM        12,769,478 apache-tomcat-9.0.50-windows-x64.zip
+07/29/2021  06:57 AM               833 apache-tomcat-9.0.50-windows-x64.zip.asc
+07/29/2021  06:57 AM               166 apache-tomcat-9.0.50-windows-x64.zip.sha512
+07/29/2021  06:57 AM         6,537,647 apache-tomcat-9.0.50-fulldocs.tar.gz
+07/29/2021  06:57 AM               833 apache-tomcat-9.0.50-fulldocs.tar.gz.asc
+07/29/2021  06:57 AM               166 apache-tomcat-9.0.50-fulldocs.tar.gz.sha512
+07/29/2021  06:59 AM        12,395,383 apache-tomcat-10.0.8.zip
+07/29/2021  06:59 AM               849 apache-tomcat-10.0.8.zip.asc
+07/29/2021  06:59 AM               154 apache-tomcat-10.0.8.zip.sha512
+07/29/2021  06:59 AM        11,849,843 apache-tomcat-10.0.8.tar.gz
+07/29/2021  06:59 AM               849 apache-tomcat-10.0.8.tar.gz.asc
+07/29/2021  06:59 AM               157 apache-tomcat-10.0.8.tar.gz.sha512
+07/29/2021  06:59 AM        13,116,017 apache-tomcat-10.0.8-windows-x64.zip
+07/29/2021  06:59 AM               849 apache-tomcat-10.0.8-windows-x64.zip.asc
+07/29/2021  06:59 AM               166 apache-tomcat-10.0.8-windows-x64.zip.sha512
+07/29/2021  06:59 AM         6,365,141 apache-tomcat-10.0.8-fulldocs.tar.gz
+07/29/2021  07:00 AM               849 apache-tomcat-10.0.8-fulldocs.tar.gz.asc
+07/29/2021  07:00 AM               166 apache-tomcat-10.0.8-fulldocs.tar.gz.sha512
+07/29/2021  07:05 AM       218,340,180 mysql-8.0.26-winx64.zip
+07/29/2021  07:06 AM               232 mysql-8.0.26-winx64.zip.asc
+07/29/2021  07:08 AM                34 mysql-8.0.26-winx64.zip.md5
+07/29/2021  07:08 AM       524,492,660 mysql-8.0.26-winx64-debug-test.zip
+07/29/2021  07:08 AM               232 mysql-8.0.26-winx64-debug-test.zip.asc
+07/29/2021  07:09 AM                34 mysql-8.0.26-winx64-debug-test.zip.md5
+07/29/2021  07:16 AM        44,265,472 mysql-workbench-community-8.0.26-winx64.msi
+07/29/2021  07:16 AM               232 mysql-workbench-community-8.0.26-winx64.msi.asc
+07/29/2021  07:17 AM                34 mysql-workbench-community-8.0.26-winx64.msi.md5
+
+            1611 File(s) 248,750,454,616 bytes
+              32 Dir(s)  40,156,086,272 bytes free
 
 C:\Users\David Holberton\Downloads>date /t
-Tue 06/29/2021
+Thu 07/29/2021
 
 C:\Users\David Holberton\Downloads>
 ```
