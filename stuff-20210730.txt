@@ -1,0 +1,211 @@
+6:49 AM 7/30/2021
+
+https://tomcat.apache.org/index.html
+https://tomcat.apache.org/whichversion.html
+https://www.apache.org/info/verification.html
+
+https://tomcat.apache.org/download-10.cgi
+https://downloads.apache.org/tomcat/tomcat-10/KEYS
+https://tomcat.apache.org/tomcat-10.0-doc/index.html
+https://tomcat.apache.org/tomcat-10.0-doc/changelog.html
+https://tomcat.apache.org/tomcat-10.0-doc/RELEASE-NOTES.txt
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://apache.claz.org/
+https://mirrors.gigenet.com/apache/
+https://mirrors.ocf.berkeley.edu/apache/
+
+07/29/2021  06:59 AM        13,116,017 apache-tomcat-10.0.8-windows-x64.zip
+07/29/2021  06:59 AM               849 apache-tomcat-10.0.8-windows-x64.zip.asc
+07/29/2021  06:59 AM               166 apache-tomcat-10.0.8-windows-x64.zip.sha512
+
+07/30/2021  06:51 AM        13,116,017 apache-tomcat-10.0.8-windows-x64(1).zip
+07/30/2021  06:52 AM               849 apache-tomcat-10.0.8-windows-x64(1).zip.asc
+07/30/2021  06:52 AM               166 apache-tomcat-10.0.8-windows-x64(1).zip.sha512
+07/30/2021  06:55 AM        13,116,017 apache-tomcat-10.0.8-windows-x64(2).zip
+07/30/2021  06:55 AM               849 apache-tomcat-10.0.8-windows-x64(2).zip.asc
+07/30/2021  06:55 AM               166 apache-tomcat-10.0.8-windows-x64(2).zip.sha512
+07/30/2021  06:57 AM        13,116,017 apache-tomcat-10.0.8-windows-x64(3).zip
+07/30/2021  06:57 AM               849 apache-tomcat-10.0.8-windows-x64(3).zip.asc
+07/30/2021  06:58 AM               166 apache-tomcat-10.0.8-windows-x64(3).zip.sha512
+07/30/2021  07:06 AM            28,613 apache-tomcat-20210730.KEYS.txt
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\gpg\GnuPG\bin\gpg --verify apache-tomcat-10.0.8-windows-x64.zip.asc apache-tomcat-10.0.8-windows-x64.zip
+C:\gpg\GnuPG\bin\gpg --verify "apache-tomcat-10.0.8-windows-x64(1).zip.asc" "apache-tomcat-10.0.8-windows-x64(1).zip"
+C:\gpg\GnuPG\bin\gpg --verify "apache-tomcat-10.0.8-windows-x64(2).zip.asc" "apache-tomcat-10.0.8-windows-x64(2).zip"
+C:\gpg\GnuPG\bin\gpg --verify "apache-tomcat-10.0.8-windows-x64(3).zip.asc" "apache-tomcat-10.0.8-windows-x64(3).zip"
+
+certutil -hashfile apache-tomcat-10.0.8-windows-x64.zip SHA512
+certutil -hashfile apache-tomcat-10.0.8-windows-x64(1).zip SHA512
+certutil -hashfile apache-tomcat-10.0.8-windows-x64(2).zip SHA512
+certutil -hashfile apache-tomcat-10.0.8-windows-x64(3).zip SHA512
+
+type apache-tomcat-10.0.8-windows-x64.zip.sha512
+type apache-tomcat-10.0.8-windows-x64(1).zip.sha512
+type apache-tomcat-10.0.8-windows-x64(2).zip.sha512
+type apache-tomcat-10.0.8-windows-x64(3).zip.sha512
+
+gpg --keyserver pgpkeys.mit.edu --recv-key 2F6059E7
+
+
+C:\Users\David Holberton\Downloads>C:\gpg\GnuPG\bin\gpg --verify apache-tomcat-10.0.8-windows-x64.zip.asc apache-tomcat-10.0.8-windows-x64.zip
+gpg: Signature made 6/25/2021 7:09:57 PM Eastern Daylight Time
+gpg:                using RSA key A9C5DF4D22E99998D9875A5110C01C5A2F6059E7
+gpg: Can't check signature: No public key
+
+C:\Users\David Holberton\Downloads>C:\gpg\GnuPG\bin\gpg --verify "apache-tomcat-10.0.8-windows-x64(1).zip.asc" "apache-tomcat-10.0.8-windows-x64(1).zip"
+gpg: Signature made 6/25/2021 7:09:57 PM Eastern Daylight Time
+gpg:                using RSA key A9C5DF4D22E99998D9875A5110C01C5A2F6059E7
+gpg: Can't check signature: No public key
+
+C:\Users\David Holberton\Downloads>C:\gpg\GnuPG\bin\gpg --verify "apache-tomcat-10.0.8-windows-x64(2).zip.asc" "apache-tomcat-10.0.8-windows-x64(2).zip"
+gpg: Signature made 6/25/2021 7:09:57 PM Eastern Daylight Time
+gpg:                using RSA key A9C5DF4D22E99998D9875A5110C01C5A2F6059E7
+gpg: Can't check signature: No public key
+
+C:\Users\David Holberton\Downloads>C:\gpg\GnuPG\bin\gpg --verify "apache-tomcat-10.0.8-windows-x64(3).zip.asc" "apache-tomcat-10.0.8-windows-x64(3).zip"
+gpg: Signature made 6/25/2021 7:09:57 PM Eastern Daylight Time
+gpg:                using RSA key A9C5DF4D22E99998D9875A5110C01C5A2F6059E7
+gpg: Can't check signature: No public key
+
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>certutil -hashfile apache-tomcat-10.0.8-windows-x64.zip SHA512
+SHA512 hash of apache-tomcat-10.0.8-windows-x64.zip:
+59a75d1dff89047ea4dcf6a88017eaf7031c7a376504d4692c0349fc9f4c281a14b3136a9392fd5e4c5103b426b0b59e8081c92b84b61be15d811dbce382067c
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\David Holberton\Downloads>certutil -hashfile apache-tomcat-10.0.8-windows-x64(1).zip SHA512
+SHA512 hash of apache-tomcat-10.0.8-windows-x64(1).zip:
+59a75d1dff89047ea4dcf6a88017eaf7031c7a376504d4692c0349fc9f4c281a14b3136a9392fd5e4c5103b426b0b59e8081c92b84b61be15d811dbce382067c
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\David Holberton\Downloads>certutil -hashfile apache-tomcat-10.0.8-windows-x64(2).zip SHA512
+SHA512 hash of apache-tomcat-10.0.8-windows-x64(2).zip:
+59a75d1dff89047ea4dcf6a88017eaf7031c7a376504d4692c0349fc9f4c281a14b3136a9392fd5e4c5103b426b0b59e8081c92b84b61be15d811dbce382067c
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\David Holberton\Downloads>certutil -hashfile apache-tomcat-10.0.8-windows-x64(3).zip SHA512
+SHA512 hash of apache-tomcat-10.0.8-windows-x64(3).zip:
+59a75d1dff89047ea4dcf6a88017eaf7031c7a376504d4692c0349fc9f4c281a14b3136a9392fd5e4c5103b426b0b59e8081c92b84b61be15d811dbce382067c
+CertUtil: -hashfile command completed successfully.
+
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>type apache-tomcat-10.0.8-windows-x64.zip.sha512
+59a75d1dff89047ea4dcf6a88017eaf7031c7a376504d4692c0349fc9f4c281a14b3136a9392fd5e4c5103b426b0b59e8081c92b84b61be15d811dbce382067c *apache-tomcat-10.0.8-windows-x64.zip
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>type apache-tomcat-10.0.8-windows-x64(1).zip.sha512
+59a75d1dff89047ea4dcf6a88017eaf7031c7a376504d4692c0349fc9f4c281a14b3136a9392fd5e4c5103b426b0b59e8081c92b84b61be15d811dbce382067c *apache-tomcat-10.0.8-windows-x64.zip
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>type apache-tomcat-10.0.8-windows-x64(2).zip.sha512
+59a75d1dff89047ea4dcf6a88017eaf7031c7a376504d4692c0349fc9f4c281a14b3136a9392fd5e4c5103b426b0b59e8081c92b84b61be15d811dbce382067c *apache-tomcat-10.0.8-windows-x64.zip
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>type apache-tomcat-10.0.8-windows-x64(3).zip.sha512
+59a75d1dff89047ea4dcf6a88017eaf7031c7a376504d4692c0349fc9f4c281a14b3136a9392fd5e4c5103b426b0b59e8081c92b84b61be15d811dbce382067c *apache-tomcat-10.0.8-windows-x64.zip
+C:\Users\David Holberton\Downloads>
+
+
+C:\Users\David Holberton\Downloads>C:\gpg\GnuPG\bin\gpg --list-keys
+C:/gpg/keys-dh/pubring.kbx
+--------------------------
+pub   rsa4096 2021-07-05 [SC]
+      14912E2F9B4D33703F5241ED90A2D107CF1C45C4
+uid           [ultimate] David Holberton <dph@gmail.com>
+sub   rsa4096 2021-07-05 [E]
+
+pub   rsa4096 2021-07-05 [SC]
+      E3D6F0B4BFE739B74B822001378549D87A82554F
+uid           [ unknown] James Bond <agent007@mi6.gov>
+sub   rsa4096 2021-07-05 [E]
+
+
+C:\Users\David Holberton\Downloads>
+Microsoft Windows [Version 10.0.19042.1110]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\David Holberton>cd downloads
+
+C:\Users\David Holberton\Downloads>C:\gpg\GnuPG\bin\gpg --list-keys
+C:/gpg/keys-apache/pubring.kbx
+------------------------------
+pub   rsa4096 2021-07-05 [SC]
+      14912E2F9B4D33703F5241ED90A2D107CF1C45C4
+uid           [ultimate] David Holberton <dph@gmail.com>
+sub   rsa4096 2021-07-05 [E]
+
+pub   rsa4096 2021-07-05 [SC]
+      E3D6F0B4BFE739B74B822001378549D87A82554F
+uid           [ unknown] James Bond <agent007@mi6.gov>
+sub   rsa4096 2021-07-05 [E]
+
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>C:\gpg\GnuPG\bin\gpg --import apache-tomcat-20210730.KEYS.txt
+gpg: key 10C01C5A2F6059E7: 39 signatures not checked due to missing keys
+gpg: key 10C01C5A2F6059E7: public key "Mark E D Thomas <markt@apache.org>" imported
+gpg: Total number processed: 1
+gpg:               imported: 1
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
+
+C:\Users\David Holberton\Downloads>C:\gpg\GnuPG\bin\gpg --list-keys
+C:/gpg/keys-apache/pubring.kbx
+------------------------------
+pub   rsa4096 2021-07-05 [SC]
+      14912E2F9B4D33703F5241ED90A2D107CF1C45C4
+uid           [ultimate] David Holberton <dph@gmail.com>
+sub   rsa4096 2021-07-05 [E]
+
+pub   rsa4096 2021-07-05 [SC]
+      E3D6F0B4BFE739B74B822001378549D87A82554F
+uid           [ unknown] James Bond <agent007@mi6.gov>
+sub   rsa4096 2021-07-05 [E]
+
+pub   rsa4096 2009-09-18 [SC]
+      A9C5DF4D22E99998D9875A5110C01C5A2F6059E7
+uid           [ unknown] Mark E D Thomas <markt@apache.org>
+sub   rsa4096 2009-09-18 [E]
+
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>C:\gpg\GnuPG\bin\gpg --verify apache-tomcat-10.0.8-windows-x64.zip.asc apache-tomcat-10.0.8-windows-x64.zip
+gpg: Signature made 6/25/2021 7:09:57 PM Eastern Daylight Time
+gpg:                using RSA key A9C5DF4D22E99998D9875A5110C01C5A2F6059E7
+gpg: Good signature from "Mark E D Thomas <markt@apache.org>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: A9C5 DF4D 22E9 9998 D987  5A51 10C0 1C5A 2F60 59E7
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>C:\gpg\GnuPG\bin\gpg --verify "apache-tomcat-10.0.8-windows-x64(1).zip.asc" "apache-tomcat-10.0.8-windows-x64(1).zip"
+gpg: Signature made 6/25/2021 7:09:57 PM Eastern Daylight Time
+gpg:                using RSA key A9C5DF4D22E99998D9875A5110C01C5A2F6059E7
+gpg: Good signature from "Mark E D Thomas <markt@apache.org>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: A9C5 DF4D 22E9 9998 D987  5A51 10C0 1C5A 2F60 59E7
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>C:\gpg\GnuPG\bin\gpg --verify "apache-tomcat-10.0.8-windows-x64(2).zip.asc" "apache-tomcat-10.0.8-windows-x64(2).zip"
+gpg: Signature made 6/25/2021 7:09:57 PM Eastern Daylight Time
+gpg:                using RSA key A9C5DF4D22E99998D9875A5110C01C5A2F6059E7
+gpg: Good signature from "Mark E D Thomas <markt@apache.org>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: A9C5 DF4D 22E9 9998 D987  5A51 10C0 1C5A 2F60 59E7
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>C:\gpg\GnuPG\bin\gpg --verify "apache-tomcat-10.0.8-windows-x64(3).zip.asc" "apache-tomcat-10.0.8-windows-x64(3).zip"
+gpg: Signature made 6/25/2021 7:09:57 PM Eastern Daylight Time
+gpg:                using RSA key A9C5DF4D22E99998D9875A5110C01C5A2F6059E7
+gpg: Good signature from "Mark E D Thomas <markt@apache.org>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: A9C5 DF4D 22E9 9998 D987  5A51 10C0 1C5A 2F60 59E7
+
+C:\Users\David Holberton\Downloads>
+
