@@ -1,0 +1,1856 @@
+MyUrls
+https://www.nationalreview.com/corner/the-war-on-retirement/ 20210524.222157 
+
+https://blogs.apache.org/netbeans/entry/jep-411-deprecate-the-security1 20210524.223955 
+
+https://blogs.apache.org/netbeans/entry/jep-411-deprecate-the-security1 20210524.224049 
+
+https://www.slideshare.net/SimonRitter/java-performance-monitoring-248497652 20210524.224549 
+
+https://www.slideshare.net/SimonRitter/java-performance-monitoring-248497652 20210524.224554 
+
+https://www.raspberrypi.org/blog/announcing-the-raspberry-pi-poe-hat/ 20210524.224811 
+
+https://scitechdaily.com/dont-miss-the-red-blood-supermoon-total-lunar-eclipse/ 20210525.053055 
+
+https://scitechdaily.com/dont-miss-the-red-blood-supermoon-total-lunar-eclipse/ 20210525.054612 
+
+https://info.jetbrains.com/index.php/email/emailWebview?md_id=44519 20210525.215707 
+
+https://www.raspberrypi.org/blog/announcing-the-raspberry-pi-poe-hat/ 20210525.220800 
+
+https://my.matterport.com/show/?m=S54T3NfjXMr 20210525.221544 
+
+https://my.matterport.com/show/?m=S54T3NfjXMr 20210525.221558 
+
+https://blogs.oracle.com/graalvm/graalvm-ampere-a1 20210525.221932 
+
+https://blogs.oracle.com/graalvm/graalvm-ampere-a1 20210525.222021 
+
+https://blogs.oracle.com/javamagazine/java-quiz-date-time-duration-period 20210525.222155 
+
+https://www.kickstarter.com/projects/upperstory/spintronics-build-mechanical-circuits 20210525.222336 
+
+https://stackoverflow.com/questions/67687851/hdiv-plugin-not-load-the-main-page-after-upgrading-to-grails-2-5-6?utm_source=dlvr.it&utm_medium=twitter 20210525.222856 
+
+https://www.macworld.com/article/347436/mac-mini-refresh-could-bring-slimmer-design-borrow-imac-features.html 20210526.014734 
+
+https://www.macworld.com/article/347436/mac-mini-refresh-could-bring-slimmer-design-borrow-imac-features.html 20210526.014827 
+
+https://www.infoq.com/news/2021/05/graalvm-21-1-supports-jdk16/ 20210526.015015 
+
+https://www.infoq.com/news/2021/05/graalvm-21-1-supports-jdk16/ 20210526.015035 
+
+https://www.infoq.com/news/2021/05/graalvm-21-1-supports-jdk16/ 20210526.015443 
+
+https://nypost.com/2021/05/25/how-to-watch-the-super-flower-blood-moon-lunar-eclipse/ 20210526.020026 
+
+https://nypost.com/2021/05/25/how-to-watch-the-super-flower-blood-moon-lunar-eclipse/ 20210526.020320 
+
+https://nypost.com/2021/05/25/how-to-watch-the-super-flower-blood-moon-lunar-eclipse/ 20210526.020335 
+
+https://nypost.com/2021/05/25/how-to-watch-the-super-flower-blood-moon-lunar-eclipse/ 20210526.020437 
+
+https://nypost.com/2021/05/25/how-to-watch-the-super-flower-blood-moon-lunar-eclipse/ 20210526.052220 
+
+https://www.space.com/super-flower-blood-moon-eclipse-what-time 20210526.052259 
+
+https://www.space.com/super-flower-blood-moon-eclipse-what-time 20210526.052527 
+
+https://www.cnet.com/news/usb-c-upgrade-delivers-a-whopping-240w-for-gaming-laptops-and-other-power-hungry-devices/ 20210526.053020 
+
+https://www.cnet.com/news/usb-c-upgrade-delivers-a-whopping-240w-for-gaming-laptops-and-other-power-hungry-devices/ 20210526.053612 
+
+https://www.zdnet.com/article/java-developers-microsofts-openjdk-build-is-now-generally-available/ 20210526.063922 
+
+https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack 20210526.064055 
+
+https://code.visualstudio.com/docs/languages/java 20210526.064241 
+
+https://code.visualstudio.com/docs/java/java-tutorial 20210526.064532 
+
+https://www.macrumors.com/2021/05/25/high-end-mac-mini-renders/ 20210526.064624 
+
+https://www.macrumors.com/2021/05/18/apple-working-on-high-end-mac-mini/ 20210526.064650 
+
+https://9to5google.com/2021/05/25/google-releases-fuchsia-os-nest-hub/ 20210526.065225 
+
+https://www.tomitribe.com/blog/apache-tomee-jakarta-ee-certified-after-10-years/ 20210526.094214 
+
+https://www.tomitribe.com/blog/apache-tomee-jakarta-ee-certified-after-10-years/ 20210526.095054 
+
+https://tomee.apache.org/ 20210526.095112 
+
+https://tomee.apache.org/comparison.html 20210526.095400 
+
+https://www.raspberrypi.org/blog/debugging-embedded-software-with-raspberry-pi-pico/ 20210526.100730 
+
+https://www.jetbrains.com/youtrack/compare/youtrack-competitive-offer/ 20210526.101741 
+
+https://www.youtube.com/watch?v=qaCROdt5Hi0 20210526.103103 
+
+https://www.youtube.com/watch?v=qaCROdt5Hi0 20210526.103158 
+
+https://wtop.com/business-finance/2021/05/caci-cuts-ribbon-on-new-reston-headquarters/ 20210526.103803 
+
+https://www.technologyreview.com/2021/05/24/1025195/colonial-pipeline-ransomware-bitdefender/ 20210526.104620 
+
+https://www.technologyreview.com/2021/05/24/1025195/colonial-pipeline-ransomware-bitdefender/ 20210526.104626 
+
+https://www.infoworld.com/article/3619560/7-tools-transforming-javascript-development.html 20210526.104957 
+
+https://www.infoworld.com/article/3619560/7-tools-transforming-javascript-development.html 20210526.105012 
+
+https://www.infoq.com/news/2021/05/java-news-roundup-may17-2021/ 20210526.110524 
+
+https://www.infoq.com/news/2021/05/java-news-roundup-may17-2021/ 20210526.110822 
+
+https://www.cnbc.com/2021/05/25/covid-argentina-nepal-and-others-see-cases-rising-rapidly-like-india.html 20210526.112740 
+
+https://www.macworld.com/article/347436/mac-mini-refresh-could-bring-slimmer-design-borrow-imac-features.html 20210526.225038 
+
+https://www.macworld.com/article/347436/mac-mini-refresh-could-bring-slimmer-design-borrow-imac-features.html 20210526.225122 
+
+https://www.wavy.com/news/local-news/accomack-county/sounding-rocket-to-launch-wednesday-night-from-nasa-wallops/ 20210526.225516 
+
+https://arstechnica.com/gadgets/2021/05/ifixit-tears-down-the-apple-tv-4k-and-its-accompanying-siri-remote/ 20210526.230238 
+
+https://www.nationalreview.com/corner/what-the-ap-left-out-of-another-report-on-gaza/ 20210526.232306 
+
+https://devclass.com/2021/05/25/one-ide-to-rule-them-er-both-jetbrains-progresses-with-cross-platform-mobile-sdk/ 20210527.044045 
+
+https://devclass.com/2021/05/25/one-ide-to-rule-them-er-both-jetbrains-progresses-with-cross-platform-mobile-sdk/ 20210527.044349 
+
+https://www.infoq.com/podcasts/java-project-loom/ 20210527.044633 
+
+https://www.washingtonexaminer.com/news/senate-cheers-paul-gain-function-amendment-passes 20210527.045009 
+
+https://thehackernews.com/2021/05/newly-discovered-bugs-in-vscode.html 20210527.045225 
+
+https://thehackernews.com/2021/05/newly-discovered-bugs-in-vscode.html 20210527.045824 
+
+https://snyk.io/research/zip-slip-vulnerability 20210527.050018 
+
+https://snyk.io/research/zip-slip-vulnerability 20210527.050901 
+
+https://www.youtube.com/watch?v=_rTFZbvMfJA 20210527.215404 
+
+https://register.jfrog.com/swampup2021/begin?utm_campaign=swampUP2021&utm_medium=social&utm_source=twitter 20210527.215846 
+
+https://blogs.oracle.com/javamagazine/pedal-to-the-metal-high-performance-java-with-graalvm-native-image 20210527.215921 
+
+https://snyk.io/research/zip-slip-vulnerability 20210527.215941 
+
+https://blog.jetbrains.com/idea/2019/11/java-13-and-intellij-idea/ 20210527.220632 
+
+https://blog.jetbrains.com/idea/2019/11/java-13-and-intellij-idea/ 20210528.044930 
+
+https://www.macworld.com/article/347466/the-next-mac-mini-slimmer-speedier-and-slicker.html 20210528.045054 
+
+https://www.macworld.com/article/347466/the-next-mac-mini-slimmer-speedier-and-slicker.html 20210528.045455 
+
+https://www.techrepublic.com/article/raspberry-pi-after-launching-five-devices-in-less-than-a-year-heres-what-theyre-doing-next/ 20210528.045822 
+
+https://www.techrepublic.com/article/raspberry-pi-after-launching-five-devices-in-less-than-a-year-heres-what-theyre-doing-next/ 20210528.050627 
+
+https://www.cnet.com/roadshow/news/ev-tax-credits-legislation-tesla-gm/ 20210528.051117 
+
+https://dev.to/jarjanazy/taste-of-spring-reactive-stack-5ep5 20210528.051138 
+
+https://dev.to/jarjanazy/taste-of-spring-reactive-stack-5ep5 20210528.051248 
+
+https://www.smashingmagazine.com/2021/05/useful-vs-code-extensions-web-developers/ 20210528.051628 
+
+https://www.foxnews.com/media/ingraham-exposes-beijings-american-collaborators-who-cover-for-china 20210528.051843 
+
+https://www.laptopmag.com/reviews/acer-conceptd-5-hands-on-review 20210528.052225 
+
+https://www.usatoday.com/story/news/nation/2021/05/27/solar-eclipse-ring-fire-seen-north-america-june-10/7448080002/ 20210528.053515 
+
+https://www.pcmag.com/reviews/intel-nuc-11-pro-kit-nuc11tnki5-tiger-canyon 20210528.053811 
+
+https://www.pcmag.com/reviews/intel-nuc-11-pro-kit-nuc11tnki5-tiger-canyon 20210528.053936 
+
+https://www.nationalreview.com/2021/05/the-madness-of-the-maricopa-county-election-audit/ 20210528.054313 
+
+https://www.tomshardware.com/news/raspberry-pi-gpio-support-part-of-ubuntu-update 20210528.054708 
+
+https://www.tomshardware.com/news/raspberry-pi-gpio-support-part-of-ubuntu-update 20210528.054927 
+
+https://nypost.com/2021/05/26/biden-stopped-wuhan-inquiry-out-of-spite-forced-to-reverse-course/ 20210528.055049 
+
+https://nypost.com/2021/05/26/biden-stopped-wuhan-inquiry-out-of-spite-forced-to-reverse-course/ 20210528.055255 
+
+https://www.infoworld.com/article/3613942/typescript-43-brings-type-specification-for-properties.html 20210528.060555 
+
+https://www.howtogeek.com/728051/how-to-make-your-raspberry-pi-look-like-windows-or-macos/ 20210528.060818 
+
+https://www.howtogeek.com/728051/how-to-make-your-raspberry-pi-look-like-windows-or-macos/ 20210528.061121 
+
+https://www.techrepublic.com/article/developers-explain-what-makes-them-most-productive-and-what-can-totally-ruin-their-day/ 20210528.061740 
+
+https://www.techrepublic.com/article/developers-explain-what-makes-them-most-productive-and-what-can-totally-ruin-their-day/ 20210528.062138 
+
+https://www.washingtonexaminer.com/opinion/the-left-wants-racial-accountability-and-that-can-only-mean-one-very-bad-thing-that-should-never-happen-on-a-national-level 20210528.062321 
+
+https://www.washingtonexaminer.com/opinion/the-left-wants-racial-accountability-and-that-can-only-mean-one-very-bad-thing-that-should-never-happen-on-a-national-level 20210528.062642 
+
+https://ggwash.org/view/81471/an-anti-nimby-bill-will-soon-be-law-in-virginia-will-it-have-an-impact-on-affordable-housing 20210528.063242 
+
+https://blogs.oracle.com/cloud-infrastructure/announcing-github-actions-arm-runners-for-the-arm-compute-platform-on-oracle-cloud-infrastructure?source=:so:tw:or:awr:odv:::&SC=:so:tw:or:awr:odv:::&pcode= 20210529.053207 
+
+https://www.techrepublic.com/article/raspberry-pi-after-launching-five-devices-in-less-than-a-year-heres-what-theyre-doing-next/ 20210529.053238 
+
+https://www.techrepublic.com/article/raspberry-pi-after-launching-five-devices-in-less-than-a-year-heres-what-theyre-doing-next/ 20210529.053312 
+
+https://www.jetbrains.com/idea/guide/tutorials/working-with-gradle/ 20210529.053424 
+
+https://www.jetbrains.com/idea/guide/tutorials/working-with-gradle/ 20210529.053934 
+
+https://www.raspberrypi.org/blog/raspberry-pi-pico-controlled-model-railroad/ 20210529.054121 
+
+https://foojay.io/today/interviews-with-robert-savage-and-johan-vos-on-the-state-of-java-on-raspberry-pi/ 20210529.054358 
+
+https://foojay.io/today/interviews-with-robert-savage-and-johan-vos-on-the-state-of-java-on-raspberry-pi/ 20210529.054655 
+
+https://github.com/spring-petclinic/spring-petclinic-data-jdbc/commit/a50ae3b08c662a9587ab81864efbd04deedf7272 20210529.054820 
+
+https://blog.jooq.org/2016/07/05/say-no-to-venn-diagrams-when-explaining-joins/ 20210529.055249 
+
+https://blog.jooq.org/2016/07/05/say-no-to-venn-diagrams-when-explaining-joins/ 20210529.055533 
+
+https://blogs.oracle.com/javamagazine/java-jareto-rest-json-http 20210529.145152 
+
+https://sergiodelamo.com/blog/micronaut-guide-aws-lambda-s3-event-thumbnails-generation.html 20210529.145454 
+
+https://sergiodelamo.com/blog/micronaut-guide-aws-lambda-s3-event-thumbnails-generation.html 20210529.145515 
+
+https://guides.micronaut.io/latest/micronaut-aws-lambda-s3-event-gradle-java.html 20210529.145546 
+
+https://www.youtube.com/watch?v=7VRdaqMDalQ 20210529.145904 
+
+https://blogs.oracle.com/javamagazine/openjdk-mercurial-git-github 20210529.150459 
+
+https://blog.jetbrains.com/idea/2021/05/intellij-idea-2021-2-eap-1/ 20210529.151443 
+
+https://blog.jetbrains.com/idea/2021/04/introducing-the-intellij-idea-guide/ 20210529.152031 
+
+https://blog.jetbrains.com/blog/2021/05/28/code-completion-episode-1-scenarios-and-requirements/ 20210529.154802 
+
+https://dev.to/marcushellberg/how-to-send-web-push-notifications-in-java-21lo 20210529.154852 
+
+https://dev.to/marcushellberg/how-to-send-web-push-notifications-in-java-21lo 20210529.154929 
+
+https://blog.jetbrains.com/idea/2019/11/java-13-and-intellij-idea/ 20210529.154939 
+
+https://www.amazon.com/Irwin-Industrial-Tools-4935055-Performance/dp/B002M78QP0 20210529.154951 
+
+https://www.amazon.com/Bosch-BDT11S-11Piece-Tap-Die/dp/B07G92CXDP 20210529.155007 
+
+https://www.tomshardware.com/news/raspberry-pi-gaming-pc-by-print-n-play 20210529.155225 
+
+https://9to5mac.com/2021/05/28/apple-cant-advertise-the-best-feature-of-the-ipad-pro-yet/ 20210529.155719 
+
+https://9to5mac.com/2021/05/28/apple-cant-advertise-the-best-feature-of-the-ipad-pro-yet/ 20210529.220147 
+
+https://hedgehogreview.com/blog/thr/posts/lawn-care 20210530.052822 
+
+https://blog.jetbrains.com/blog/2021/05/28/code-completion-episode-1-scenarios-and-requirements/ 20210530.052920 
+
+https://blog.jetbrains.com/blog/2021/05/28/code-completion-episode-1-scenarios-and-requirements/ 20210530.053112 
+
+https://blog.jetbrains.com/blog/2021/05/28/code-completion-episode-1-scenarios-and-requirements/ 20210530.053126 
+
+https://arstechnica.com/gadgets/2021/05/amazon-devices-will-soon-automatically-share-your-internet-with-neighbors/ 20210530.053815 
+
+https://www.androidcentral.com/why-google-updating-first-generation-home-hubs-fuchsia 20210530.054455 
+
+https://www.androidcentral.com/why-google-updating-first-generation-home-hubs-fuchsia 20210530.054835 
+
+https://blogs.oracle.com/javamagazine/java-generics-tutorial-wildcards-subtyping-typeerasure 20210530.204223 
+
+https://cloud.google.com/blog/topics/developers-practitioners/handy-new-google-cloud-aws-and-azure-product-map?twclid=11399164216406417408 20210530.204636 
+
+https://cloud.google.com/blog/topics/developers-practitioners/handy-new-google-cloud-aws-and-azure-product-map?twclid=11399164216406417408 20210530.204814 
+
+https://kenkousen.substack.com/p/tales-from-the-jar-side-titles-are?r=2dwq5&utm_campaign=post&utm_medium=web&utm_source=twitter 20210530.205312 
+
+https://kenkousen.substack.com/p/tales-from-the-jar-side-titles-are?r=2dwq5&utm_campaign=post&utm_medium=web&utm_source=twitter 20210530.205628 
+
+https://kenkousen.substack.com/p/tales-from-the-jar-side-java-11-v 20210530.205646 
+
+https://blog.jetbrains.com/idea/2021/05/summary-of-the-first-ever-intellij-idea-conf/ 20210530.213545 
+
+https://www.jetbrains.com/academy/ 20210531.045846 
+
+https://blogs.microsoft.com/ai-for-business/Microsoft-Research-tools-help-developers-write-bug-free-code-faster/?OCID=BuildBlog_FY21Q4_pmc_inno_tw 20210531.050117 
+
+https://blogs.microsoft.com/ai-for-business/Microsoft-Research-tools-help-developers-write-bug-free-code-faster/?OCID=BuildBlog_FY21Q4_pmc_inno_tw 20210531.050130 
+
+https://www.tomsguide.com/news/windows-10-is-getting-biggest-update-in-a-decade-what-to-expect 20210531.050255 
+
+https://www.tomsguide.com/news/windows-10-may-2021-update-just-killed-off-these-features 20210531.050429 
+
+https://dzone.com/articles/the-real-real-4-reasons-java-is-so-popular-among-d 20210531.050827 
+
+https://dzone.com/articles/the-real-real-4-reasons-java-is-so-popular-among-d 20210531.051016 
+
+https://towardsdatascience.com/the-nice-way-to-use-docker-with-vscode-f475c49aab1b 20210531.051047 
+
+https://towardsdatascience.com/the-nice-way-to-use-docker-with-vscode-f475c49aab1b 20210531.051133 
+
+https://dev.to/aws-builders/modern-full-stack-serverless-part-iii-ha 20210531.051200 
+
+https://dev.to/aws-builders/modern-full-stack-serverless-part-iii-ha 20210531.051308 
+
+https://www.latimes.com/california/story/2021-05-29/column-on-the-road-to-going-all-electric-are-we-there-yet-no-but-moving-in-the-right-direction 20210531.052233 
+
+https://www.latimes.com/california/story/2021-05-29/column-on-the-road-to-going-all-electric-are-we-there-yet-no-but-moving-in-the-right-direction 20210531.052257 
+
+https://en.wikipedia.org/wiki/Late_binding 20210531.053855 
+
+https://wccftech.com/intel-announces-beast-canyon-nuc-8-core-10nm-sfe-tiger-lake-cpu-and-the-biggest-gpu-you-can-get/ 20210531.061239 
+
+https://wccftech.com/intel-announces-beast-canyon-nuc-8-core-10nm-sfe-tiger-lake-cpu-and-the-biggest-gpu-you-can-get/ 20210531.061448 
+
+https://www.tomshardware.com/news/how-to-track-satellite-fly-bys-with-raspberry-pi 20210531.061918 
+
+https://www.tomshardware.com/news/how-to-track-satellite-fly-bys-with-raspberry-pi 20210531.062007 
+
+https://www.tomshardware.com/best-picks/raspberry-pi-microsd-cards 20210531.062021 
+
+https://www.infoq.com/news/2021/05/java-news-roundup-may24-2021/ 20210531.062213 
+
+https://www.infoq.com/news/2021/05/java-news-roundup-may24-2021/ 20210531.062615 
+
+https://www.usatoday.com/story/news/nation/2021/05/26/lunar-eclipse-super-flower-blood-moon-photos/7444599002/ 20210531.063356 
+
+https://www.techradar.com/news/sleep-tracking-might-be-one-of-your-smartwatchs-most-important-features 20210531.063423 
+
+https://www.engadget.com/fitbit-snore-and-noise-detect-feature-apk-180609545.html 20210531.063718 
+
+https://www.engadget.com/fitbit-snore-and-noise-detect-feature-apk-180609545.html 20210531.063914 
+
+https://www.theverge.com/2021/5/29/22459675/fitbit-snoring-detection-fitness-trackers-smartwatch-sleep-animal 20210531.063947 
+
+https://www.theverge.com/2021/5/29/22459675/fitbit-snoring-detection-fitness-trackers-smartwatch-sleep-animal 20210531.063954 
+
+https://www.theverge.com/2021/5/29/22459675/fitbit-snoring-detection-fitness-trackers-smartwatch-sleep-animal 20210531.064218 
+
+https://9to5google.com/2021/05/27/fitbit-snore-and-noise-detection-your-sleep-animal/ 20210531.064249 
+
+https://www.infoq.com/news/2021/05/google-fuchsia-net-hub/ 20210531.072357 
+
+https://www.youtube.com/watch?v=IkVJuJzioVg 20210531.073054 
+
+https://www.jetbrains.com/academy/ 20210531.073434 
+
+https://blog.jetbrains.com/idea/2021/05/summary-of-the-first-ever-intellij-idea-conf/ 20210531.073850 
+
+https://blog.mrhaki.com/2010/06/groovy-goodness-strip-leading-spaces.html 20210531.075139 
+
+https://docs.groovy-lang.org/latest/html/documentation/ 20210531.075221 
+
+https://docs.groovy-lang.org/latest/html/documentation/#_running_groovy_from_the_commandline 20210531.083904 
+
+https://www.macworld.com/article/347466/2021-mac-mini-design-processor-m1x-gpu-ram-storage-price-release.html 20210531.185220 
+
+https://www.notebookcheck.net/Dell-XPS-13-9310-OLED-Laptop-Review-Is-It-Better-Than-IPS.541450.0.html 20210531.185341 
+
+https://www.notebookcheck.net/Dell-XPS-13-9310-OLED-Laptop-Review-Is-It-Better-Than-IPS.541450.0.html 20210531.214700 
+
+https://blogs.oracle.com/javamagazine/book-review-junit-action-tudose-java-testing-bdd-tdd 20210531.220423 
+
+https://www.i-programmer.info/news/90-tools/14608-netbeans-124-adds-java-16-support.html 20210531.220618 
+
+https://foojay.io/today/jreleaser-0-4-0-is-now-available/ 20210531.220719 
+
+https://foojay.io/ 20210531.220739 
+
+https://inside.java/2021/04/30/failed-writing-core-dump/ 20210531.220941 
+
+https://blog.jetbrains.com/idea/2021/05/get-started-with-profiling-in-intellij-idea/ 20210531.221035 
+
+https://www.jetbrains.com/idea/guide/tutorials/writing-tests-with-spock/ 20210531.221132 
+
+https://wkorando.github.io/sip-of-java/004.html 20210531.221419 
+
+https://wkorando.github.io/sip-of-java/004.html 20210531.221814 
+
+https://wkorando.github.io/sip-of-java/004.html 20210531.221952 
+
+https://www.jetbrains.com/academy/ 20210531.222104 
+
+https://www.jetbrains.com/academy/ 20210531.222112 
+
+https://www.jetbrains.com/academy/ 20210531.222818 
+
+https://mbonnin.medium.com/actual-footage-of-different-kinds-of-gradle-configurations-9678bd681793 20210531.223040 
+
+https://mbonnin.medium.com/actual-footage-of-different-kinds-of-gradle-configurations-9678bd681793 20210531.223125 
+
+https://arstechnica.com/gadgets/2021/05/amazon-devices-will-soon-automatically-share-your-internet-with-neighbors/ 20210531.224206 
+
+https://arstechnica.com/gadgets/2021/05/amazon-devices-will-soon-automatically-share-your-internet-with-neighbors/ 20210531.224219 
+
+https://arstechnica.com/gadgets/2021/05/amazon-devices-will-soon-automatically-share-your-internet-with-neighbors/ 20210601.041550 
+
+https://thedriven.io/2021/06/01/kia-e-niro-test-drive-an-enjoyable-everyday-ev-but-not-an-everyday-price/ 20210601.042302 
+
+https://thedriven.io/2021/06/01/kia-e-niro-test-drive-an-enjoyable-everyday-ev-but-not-an-everyday-price/ 20210601.042307 
+
+https://blogs.oracle.com/javamagazine/java-cookbook-4th-edition 20210601.042634 
+
+https://blogs.oracle.com/javamagazine/java-cookbook-4th-edition 20210601.042902 
+
+https://www.raspberrypi.org/blog/raspberry-pi-rp2040-on-sale/ 20210601.043007 
+
+https://www.raspberrypi.org/blog/raspberry-pi-rp2040-on-sale/ 20210601.043112 
+
+https://docs.micronaut.io/3.0.x/guide/index.html#whatsNew 20210601.043346 
+
+https://blogs.oracle.com/javamagazine/book-review-junit-action-tudose-java-testing-bdd-tdd 20210601.043500 
+
+https://www.i-programmer.info/news/90-tools/14608-netbeans-124-adds-java-16-support.html 20210601.043538 
+
+https://blog.jetbrains.com/idea/2021/05/get-started-with-profiling-in-intellij-idea/ 20210601.043931 
+
+https://www.thurrott.com/windows/windows-10/250647/microsoft-releases-winget-1-0 20210601.055722 
+
+https://www.thurrott.com/windows/windows-10/250647/microsoft-releases-winget-1-0 20210601.060959 
+
+https://9to5linux.com/firefox-89-is-now-available-for-download-with-fresh-new-look-improved-privacy 20210601.061421 
+
+https://9to5linux.com/firefox-89-is-now-available-for-download-with-fresh-new-look-improved-privacy 20210601.061529 
+
+https://www.nationalreview.com/corner/two-great-memorial-day-movies-about-ww-ii/ 20210601.061924 
+
+https://www.howtogeek.com/728000/how-to-add-a-vpn-shortcut-to-your-desktop-in-windows-10/ 20210601.062236 
+
+https://www.howtogeek.com/728000/how-to-add-a-vpn-shortcut-to-your-desktop-in-windows-10/ 20210601.062251 
+
+https://www.howtogeek.com/728000/how-to-add-a-vpn-shortcut-to-your-desktop-in-windows-10/ 20210601.062530 
+
+https://www.howtogeek.com/howto/30508/make-sure-downloads-are-safe-before-downloading-them/ 20210601.062747 
+
+https://www.howtogeek.com/728502/how-to-rotate-a-picture-on-iphone-and-ipad/ 20210601.062832 
+
+https://www.howtogeek.com/728502/how-to-rotate-a-picture-on-iphone-and-ipad/ 20210601.063107 
+
+https://www.howtogeek.com/728149/what-is-aspect-ratio/ 20210601.063139 
+
+https://www.howtogeek.com/728149/what-is-aspect-ratio/ 20210601.063151 
+
+https://projects.ncsu.edu/cals/course/zo150/mozley/humans.html 20210601.212245 
+
+https://www.howtogeek.com/728000/how-to-add-a-vpn-shortcut-to-your-desktop-in-windows-10/ 20210601.212302 
+
+https://www.theguardian.com/technology/2021/jun/01/amazon-us-customers-given-one-week-to-opt-out-of-mass-wireless-sharing 20210601.212403 
+
+https://www.laptopmag.com/news/mozilla-firefox-gets-a-massive-overhaul-and-now-im-ditching-google-chrome 20210601.212457 
+
+https://www.cbsnews.com/news/how-to-watch-ring-of-fire-solar-eclipse/ 20210601.212544 
+
+https://www.infoq.com/news/2021/06/aws-lambda-extensions-ga/ 20210601.212630 
+
+https://www.theguardian.com/commentisfree/2021/jun/01/wuhan-coronavirus-lab-leak-covid-virus-origins-china 20210601.212923 
+
+http://upbeatnews.com/spa/these-controversial-vintage-ads-would-instantly-be-banned-today 20210601.213249 
+
+https://www.theguardian.com/commentisfree/2021/jun/01/wuhan-coronavirus-lab-leak-covid-virus-origins-china 20210601.214424 
+
+https://www.infoq.com/news/2021/06/openjdk-post-securitymanager/ 20210601.214536 
+
+https://www.infoq.com/news/2021/06/openjdk-post-securitymanager/ 20210601.214856 
+
+http://content.time.com/time/subscriber/article/0,33009,944670,00.html 20210601.215353 
+
+https://www.forbes.com/sites/jamiecartereurope/2021/05/27/7-things-to-know-about-the-rare-weird-and-risky-sunrise-solar-eclipse-in-north-america-on-june-10/ 20210602.062429 
+
+https://www.forbes.com/sites/jamiecartereurope/2021/05/27/7-things-to-know-about-the-rare-weird-and-risky-sunrise-solar-eclipse-in-north-america-on-june-10/ 20210602.062812 
+
+https://www.cnet.com/how-to/how-to-set-up-a-vpn-on-windows-10/ 20210602.063530 
+
+https://www.cnet.com/how-to/how-to-set-up-a-vpn-on-windows-10/ 20210602.064127 
+
+https://www.cnet.com/how-to/how-to-set-up-a-vpn-on-windows-10/ 20210602.064146 
+
+https://www.barracuda.com/glossary/vpn-client 20210602.064311 
+
+https://www.barracuda.com/glossary/vpn-client 20210602.064324 
+
+https://en.wikipedia.org/wiki/Virtual_private_network 20210602.064733 
+
+https://en.wikipedia.org/wiki/Virtual_private_network 20210602.065203 
+
+http://www.cisco.com/en/US/docs/net_mgmt/active_network_abstraction/4.1/administration/user/guide/intro.html 20210602.065343 
+
+https://www.cisco.com/c/en_au/products/security/adaptive-security-appliance-asa-software/index.html 20210602.065531 
+
+https://www.cisco.com/c/en_au/products/security/adaptive-security-appliance-asa-software/index.html 20210602.065729 
+
+https://foojay.io/today/asynchronous-completablefuture-san-francisco-adventure-java-challenge/ 20210602.072105 
+
+https://foojay.io/today/asynchronous-completablefuture-san-francisco-adventure-java-challenge/ 20210602.072151 
+
+https://stackoverflow.com/questions/67784967/failed-to-run-grails-cmd?utm_source=dlvr.it&utm_medium=twitter 20210602.072516 
+
+https://springone.io/?utm_campaign=Global_FE_Q322_Event_SpringOneFY22&utm_source=twitter&utm_medium=social 20210602.073317 
+
+https://springone.io/?utm_campaign=Global_FE_Q322_Event_SpringOneFY22&utm_source=twitter&utm_medium=social 20210602.073328 
+
+https://blog.jetbrains.com/idea/2021/06/intellij-idea-2021-1-2/ 20210602.073554 
+
+https://blog.jetbrains.com/idea/2021/06/intellij-idea-2021-1-2/ 20210602.073806 
+
+https://foojay.io/today/book-review-java-by-comparison/ 20210602.074407 
+
+https://developer.okta.com/blog/2021/06/01/kubernetes-spring-boot-jhipster 20210602.093730 
+
+https://developer.okta.com/blog/2021/06/01/kubernetes-spring-boot-jhipster 20210602.093742 
+
+https://openjdk.java.net/jeps/408 20210602.094409 
+
+https://openjdk.java.net/jeps/306 20210602.095313 
+
+https://www.i-programmer.info/news/90-tools/14608-netbeans-124-adds-java-16-support.html 20210602.095544 
+
+https://www.i-programmer.info/news/90-tools/14608-netbeans-124-adds-java-16-support.html 20210602.095553 
+
+https://www.i-programmer.info/news/90-tools/14608-netbeans-124-adds-java-16-support.html 20210602.213732 
+
+https://medium.com/graalvm/supercharge-your-java-apps-with-python-ec5d30634d18 20210604.034147 
+
+https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/examples-s3.html 20210604.034259 
+
+https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/setup-project-maven.html 20210604.034536 
+
+https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/setup-project-maven.html 20210604.034836 
+
+https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/setup-project-maven.html 20210604.035238 
+
+https://www.baeldung.com/aws-s3-java 20210604.041502 
+
+https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/get-started.html 20210604.041624 
+
+https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/get-started.html 20210604.041740 
+
+https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/using.html 20210604.042309 
+
+https://blogs.oracle.com/javamagazine/java-functional-programming-lambda-method-references 20210604.043758 
+
+https://patch.com/virginia/ashburn/loudon-prince-william-county-acreage-house-new-data-centers 20210604.055052 
+
+https://www.foxnews.com/politics/barrett-gorsuch-kavanaugh-liberal-supreme-court-justices-computer-fraud-case 20210604.060641 
+
+https://www.newsweek.com/exclusive-how-amateur-sleuths-broke-wuhan-lab-story-embarrassed-media-1596958 20210604.062444 
+
+https://www.newsweek.com/exclusive-how-amateur-sleuths-broke-wuhan-lab-story-embarrassed-media-1596958 20210604.062502 
+
+https://www.newsweek.com/exclusive-how-amateur-sleuths-broke-wuhan-lab-story-embarrassed-media-1596958 20210604.062530 
+
+https://www.newsweek.com/exclusive-how-amateur-sleuths-broke-wuhan-lab-story-embarrassed-media-1596958 20210604.065454 
+
+https://www.storagereview.com/review/simply-nuc-ruby-r8-cbm1r8rb-amd-nuc-review 20210604.065902 
+
+https://simplynuc.com/ 20210604.065942 
+
+https://www.techradar.com/news/microsoft-doubles-down-on-windows-subsystem-for-linux 20210604.071303 
+
+https://www.youtube.com/embed/xiT4rEbC56k 20210605.043305 
+
+https://stackoverflow.com/questions/67846607/grails-test-app-tries-to-insert-updated-tables-instead-of-update-them?utm_source=dlvr.it&utm_medium=twitter 20210605.043941 
+
+https://stackoverflow.com/questions/67846607/grails-test-app-tries-to-insert-updated-tables-instead-of-update-them?utm_source=dlvr.it&utm_medium=twitter 20210605.044037 
+
+https://www.jetbrains.com/idea/guide/tutorials/working-with-gradle/ 20210605.044122 
+
+https://inside.java/2021/06/04/experimenting-with-jfr-mirror-events/ 20210605.044342 
+
+https://training.linuxfoundation.org/training/introduction-to-nodejs-lfw111/?utm_source=lftraining&utm_medium=twitter&utm_campaign=lfw111feb21 20210605.044605 
+
+https://developer.ibm.com/conferences/openjs-world/ 20210605.044722 
+
+https://blogs.oracle.com/javamagazine/jakarta-application-server-helidon-piranha-hammock 20210605.044834 
+
+https://blog.jetbrains.com/idea/2021/06/intellij-idea-2021-2-eap-2/ 20210605.062631 
+
+https://blog.jetbrains.com/idea/2021/06/intellij-idea-2021-2-eap-2/ 20210605.062644 
+
+https://blog.jetbrains.com/idea/2021/06/intellij-idea-2021-2-eap-2/ 20210605.063403 
+
+https://stackoverflow.com/questions/67838841/memory-leak-while-stopping-tomcat-server-9-war-file-grails?utm_source=dlvr.it&utm_medium=twitter 20210605.063751 
+
+https://us02web.zoom.us/webinar/register/7016227494065/WN_QcdtQJYSQJmj9DHCuAJ_Sg?utm_campaign=Reimagine%20the%20Possibilities&utm_content=168894087&utm_medium=social&utm_source=twitter&hss_channel=tw-36743180 20210605.064131 
+
+https://blog.jetbrains.com/blog/2021/06/04/code-completion-episode-2-why-machine-learning/ 20210605.064213 
+
+https://go.oracle.com/LP=111955?elqCampaignId=287459&src1=:so:tw:or:dg:jav:::&SC=:so:tw:or:dg:jav:::&pcode=WWMK210208P00062 20210605.065118 
+
+https://www.jetbrains.com/space/solutions/small-business/ 20210605.065820 
+
+https://www.raspberrypi.org/blog/shred-through-guitar-hero-with-a-raspberry-pi-powered-robot/ 20210605.070239 
+
+https://downloads.raspberrypi.org/raspios_full_armhf/release_notes.txt 20210605.070442 
+
+https://blogs.oracle.com/developers/how-to-set-up-and-run-a-really-powerful-free-minecraft-server-in-the-cloud?source=:so:tw:or:awr:odv:::&SC=:so:tw:or:awr:odv:::&pcode= 20210605.070526 
+
+https://blogs.oracle.com/developers/how-to-set-up-and-run-a-really-powerful-free-minecraft-server-in-the-cloud?source=:so:tw:or:awr:odv:::&SC=:so:tw:or:awr:odv:::&pcode= 20210605.070547 
+
+https://blog.jetbrains.com/clion/2021/06/7-top-tips-for-debugging-cpp/ 20210605.070652 
+
+https://spring.io/blog/2021/05/20/spring-boot-2-5-is-now-ga 20210605.070724 
+
+https://spring.io/blog/2021/05/20/spring-boot-2-5-is-now-ga 20210605.070731 
+
+https://spring.io/blog/2021/05/20/spring-boot-2-5-is-now-ga 20210605.070740 
+
+https://stackoverflow.com/questions/67837642/error-in-switching-user-spring-securtity-in-grails?utm_source=dlvr.it&utm_medium=twitter 20210605.070847 
+
+https://www.raspberrypi.org/weekly/not-one-product-launch-but-two/ 20210605.071039 
+
+https://www.slashgear.com/this-satechi-ipad-pro-dock-turns-apples-tablet-into-a-mini-imac-03676172/ 20210605.071626 
+
+https://www.cnbc.com/2021/06/04/why-intel-tsmc-are-building-water-dependent-chip-plants-in-arizona.html 20210605.071754 
+
+https://www.newsweek.com/colonial-pipeline-hackers-used-unprotected-vpn-access-network-report-1597842 20210605.072412 
+
+https://www.newsweek.com/colonial-pipeline-hackers-used-unprotected-vpn-access-network-report-1597842 20210605.072901 
+
+https://www.newsweek.com/colonial-pipeline-cyberattack-gives-democrats-opportunity-get-tough-foreign-hacking-opinion-1597368 20210605.074053 
+
+https://blogs.oracle.com/javamagazine/java-jareto-rest-json-http 20210605.215503 
+
+https://itsfoss.com/vs-code-shortcuts/ 20210606.061539 
+
+https://www.tomshardware.com/how-to/clean-boot-windows-10 20210606.061730 
+
+https://dzone.com/articles/get-started-with-java-serverless-functions 20210606.061905 
+
+https://dzone.com/articles/get-started-with-java-serverless-functions 20210606.063808 
+
+https://electrek.co/2021/06/04/with-438000-in-pre-orders-raine-one-electric-scooter-founders-bail-wont-issue-refunds/ 20210606.064701 
+
+https://www.motorbiscuit.com/consumer-reports-doubles-2021-subaru-forester/ 20210606.070101 
+
+https://www.tomshardware.com/how-to/raspberry-pi-pico-camera-button 20210606.070434 
+
+https://www.tomshardware.com/how-to/raspberry-pi-pico-camera-button 20210606.070555 
+
+https://www.tomshardware.com/how-to/raspberry-pi-pico-camera-button 20210606.070607 
+
+https://www.accuweather.com/en/space-news/ring-of-fire-solar-eclipse-to-unfold-thursday-morning/957991 20210606.070800 
+
+https://www.usatoday.com/in-depth/news/world/2021/06/04/wuhan-lab-leak-theory-murky-due-us-lack-human-intel-china/7492291002/ 20210606.071639 
+
+https://www.usatoday.com/in-depth/news/world/2021/06/04/wuhan-lab-leak-theory-murky-due-us-lack-human-intel-china/7492291002/ 20210606.071651 
+
+https://testguild.com/podcast/automation/a351-gojko/ 20210606.093635 
+
+https://enterprisecraftsmanship.com/posts/nulls-in-value-objects/ 20210606.125420 
+
+https://blogs.oracle.com/javamagazine/openjdk-mercurial-git-github 20210606.125450 
+
+https://www.jetbrains.com/help/idea/getting-started-with-groovy.html 20210606.130318 
+
+https://www.jetbrains.com/help/idea/getting-started-with-groovy.html 20210606.130523 
+
+https://www.jetbrains.com/help/idea/getting-started-with-groovy.html 20210606.130534 
+
+https://www.jetbrains.com/help/idea/getting-started-with-groovy-java-9-project.html 20210606.130950 
+
+https://www.jetbrains.com/help/idea/getting-started-with-groovy-java-9-project.html 20210606.201514 
+
+https://www.jetbrains.com/help/idea/coding-assistance-in-groovy.html 20210606.201537 
+
+https://www.jetbrains.com/help/idea/coding-assistance-in-groovy.html 20210606.201654 
+
+https://www.jetbrains.com/help/idea/coding-assistance-in-groovy.html 20210606.201705 
+
+https://9to5mac.com/2021/06/06/airplay-support-comes-to-google-nest-speakers-in-latest-update-for-starling-home-hub/ 20210607.050624 
+
+https://www.tomshardware.com/news/raspberry-pi-satellite-detecting-dashboard 20210607.051720 
+
+https://www.tomshardware.com/news/raspberry-pi-satellite-detecting-dashboard 20210607.051727 
+
+https://www.tomshardware.com/news/how-to-track-satellite-fly-bys-with-raspberry-pi 20210607.052027 
+
+https://www.tomshardware.com/reviews/arduino-nano-rp2040-connect 20210607.052223 
+
+https://css-tricks.com/vs-code-extensions-for-html/ 20210607.215159 
+
+https://css-tricks.com/vs-code-extensions-for-html/ 20210607.215614 
+
+https://thehill.com/homenews/senate/557233-democrats-reach-turning-point-with-manchin 20210607.220544 
+
+https://thehill.com/homenews/senate/557233-democrats-reach-turning-point-with-manchin 20210607.220553 
+
+https://www.infoq.com/news/2021/06/zesty-disk-ebs/ 20210607.220952 
+
+https://www.infoq.com/news/2021/06/zesty-disk-ebs/ 20210607.221038 
+
+https://blogs.oracle.com/javamagazine/java-builder-pattern-bloch 20210608.050636 
+
+https://blogs.oracle.com/java-platform-group/a-magnificent-match%3a-java-on-arm-on-oci?source=:so:tw:or:awr:jav:::&SC=:so:tw:or:awr:jav:::&pcode= 20210608.051001 
+
+https://www.raspberrypi.org/blog/get-outside-with-these-raspberry-pi-summer-projects/ 20210608.051109 
+
+https://www.raspberrypi.org/blog/get-outside-with-these-raspberry-pi-summer-projects/ 20210608.051534 
+
+https://github.com/grails/grails-core/issues/11825 20210608.051602 
+
+https://github.com/grails/grails-core/issues/11825 20210608.052016 
+
+https://github.com/grails/grails-core/issues/11825 20210608.052945 
+
+https://9to5google.com/2021/06/07/google-nest-hub-max-keyboard/ 20210608.053304 
+
+https://9to5google.com/2021/06/07/google-nest-hub-max-keyboard/ 20210608.053313 
+
+https://9to5google.com/2021/06/07/google-nest-hub-max-keyboard/ 20210608.053449 
+
+https://blog.jetbrains.com/idea/2021/06/java-annotated-monthly-june-2021/ 20210608.060943 
+
+https://blog.jetbrains.com/idea/2021/06/java-annotated-monthly-june-2021/ 20210608.060953 
+
+https://nipafx.dev/java-record-semantics/ 20210609.065553 
+
+https://nipafx.dev/java-record-semantics/ 20210609.065603 
+
+https://blogs.oracle.com/javamagazine/java-quiz-optional-null-exception 20210609.065751 
+
+https://www.youtube.com/watch?v=xiT4rEbC56k 20210609.065815 
+
+https://sergiodelamo.com/blog/apachecon-2021-static-website-with-apache-groovy.html 20210609.070205 
+
+https://www.youtube.com/watch?v=xiT4rEbC56k 20210609.070511 
+
+https://www.nasa.gov/feature/jpl/see-the-first-images-nasa-s-juno-took-as-it-sailed-by-ganymede 20210609.071154 
+
+https://stackoverflow.com/questions/67886651/grails-4-https-repo-grails-org-grails-core-no-longer-able-to-download-dependen?utm_source=dlvr.it&utm_medium=twitter 20210609.071733 
+
+https://www.airspacemag.com/airspacemag/just-right-word-180973113/ 20210609.071929 
+
+https://semaphoreci.com/blog/dave-thomas-testing-past-present-future?utm_source=twitter&utm_medium=social&utm_campaign=DaveThomas 20210609.072231 
+
+https://semaphoreci.com/blog/dave-thomas-testing-past-present-future?utm_source=twitter&utm_medium=social&utm_campaign=DaveThomas 20210609.072238 
+
+https://www.youtube.com/watch?v=OGAWZWHLVqQ 20210609.072827 
+
+https://blog.jetbrains.com/idea/2021/06/java-annotated-monthly-june-2021/ 20210609.072945 
+
+https://blogs.oracle.com/javamagazine/java-builder-pattern-bloch 20210609.073848 
+
+https://www.zdnet.com/article/how-a-raspberry-pi-made-it-difficult-for-one-astronaut-to-get-to-sleep-on-the-iss/ 20210609.074011 
+
+https://www.zdnet.com/article/fastlys-global-outage-heres-what-went-wrong/ 20210609.074418 
+
+https://www.techrepublic.com/article/programming-languages-python-is-coming-for-the-crown-as-possible-future-champions-wait-in-the-wings/ 20210609.074737 
+
+https://www.techrepublic.com/article/programming-languages-python-is-coming-for-the-crown-as-possible-future-champions-wait-in-the-wings/ 20210609.075042 
+
+https://patch.com/virginia/ashburn/unemployment-improves-ashburn-area-feds 20210609.075109 
+
+https://patch.com/virginia/ashburn/unemployment-improves-ashburn-area-feds 20210609.075314 
+
+https://patch.com/virginia/mclean/va-primary-election-2021-mcauliffe-aims-2nd-governors-term 20210609.075447 
+
+https://tv.ring.com/detail/videos/animals-wildlife/video/6256165273001/is-that-a-giant-bear-knocking-on-the-door?autoStart=trueutm_source=patch&utm_medium=cpm&utm_campaign=native&utm_content=ken 20210609.075510 
+
+https://tv.ring.com/detail/videos/animals-wildlife/video/6247616622001/no-chickens-for-this-giant-bear 20210609.075641 
+
+https://spockframework.org/spock/docs/2.0/all_in_one.html#_fixture_methods 20210609.082844 
+
+https://wtop.com/washington-nationals/2021/06/nationals-park-makes-changes-to-ballpark-protocols-as-capacity-restrictions-lift/ 20210609.090324 
+
+https://www.cbsnews.com/news/condoleezza-rice-coronavirus-lab-leak-face-the-nation/ 20210609.090730 
+
+https://www.nationalreview.com/2021/06/the-1619-project-comes-for-the-second-amendment/ 20210609.205558 
+
+https://manlybands.com/pages/mlb 20210609.205747 
+
+https://arstechnica.com/gadgets/2021/06/nameless-malware-collects-1-2tb-of-sensitive-data-and-stashes-it-online/ 20210609.211100 
+
+https://arstechnica.com/gadgets/2021/06/nameless-malware-collects-1-2tb-of-sensitive-data-and-stashes-it-online/ 20210609.211628 
+
+https://www.cnbc.com/2021/06/09/congress-wants-to-make-more-changes-to-the-us-retirement-system.html 20210609.211846 
+
+https://www.npr.org/2021/06/09/1004908006/developer-abandons-keystone-xl-pipeline-project-ending-decade-long-battle 20210609.212219 
+
+https://nypost.com/2021/06/08/graham-skeptics-of-wuhan-lab-leak-theory-were-covering-their-ass/ 20210609.212753 
+
+https://nypost.com/2021/06/08/graham-skeptics-of-wuhan-lab-leak-theory-were-covering-their-ass/ 20210609.213318 
+
+https://objectcomputing.com/services/training/catalog/grails/data-science-with-groovy?utm_campaign=2GM%20Community%20Engagement&utm_content=169302040&utm_medium=social&utm_source=twitter&hss_channel=tw-45415746 20210610.045322 
+
+https://blogs.oracle.com/java/announcing-java-management-service?source=:so:tw:or:awr:jav:::&SC=:so:tw:or:awr:jav:::&pcode= 20210610.045516 
+
+https://blogs.oracle.com/java/announcing-java-management-service?source=:so:tw:or:awr:jav:::&SC=:so:tw:or:awr:jav:::&pcode= 20210610.045617 
+
+https://blogs.oracle.com/javamagazine/java-functional-programming-lambda-method-references 20210610.045640 
+
+https://marketplace.eclipse.org/content/buildship-gradle-integration 20210610.045955 
+
+https://marketplace.eclipse.org/content/buildship-gradle-integration 20210610.050103 
+
+https://blog.jetbrains.com/idea/2021/05/new-live-stream-fixing-security-flaws-in-spring-boot-applications-using-intellij-idea-and-snyk/ 20210610.050314 
+
+https://blog.jetbrains.com/idea/2021/05/new-live-stream-fixing-security-flaws-in-spring-boot-applications-using-intellij-idea-and-snyk/ 20210610.050604 
+
+https://www.raspberrypi.org/blog/the-computers-that-made-britain-on-sale-now/ 20210610.050758 
+
+https://www.raspberrypi.org/blog/the-computers-that-made-britain-on-sale-now/ 20210610.050832 
+
+https://wireframe.raspberrypi.org/books/computers-that-made-britain 20210610.050944 
+
+https://pragprog.com/titles/mrpython/portable-python-projects/ 20210610.051147 
+
+https://www.youtube.com/watch?v=5EDuw1_pB74 20210610.051407 
+
+https://stackoverflow.com/questions/67914277/grails-clustered-application?utm_source=dlvr.it&utm_medium=twitter 20210610.051714 
+
+https://stackoverflow.com/questions/67914277/grails-clustered-application?utm_source=dlvr.it&utm_medium=twitter 20210610.051723 
+
+https://patch.com/virginia/ashburn/nine-nova-counties-cities-rank-top-30-population-growth 20210611.023859 
+
+https://patch.com/virginia/ashburn/nine-nova-counties-cities-rank-top-30-population-growth 20210611.024108 
+
+https://patch.com/virginia/ashburn/loudoun-county-ranks-1st-population-growth-virginia 20210611.024136 
+
+https://www.space.com/ring-of-fire-solar-eclipse-2021-satellite-photo 20210611.030442 
+
+https://www.space.com/ring-of-fire-solar-eclipse-2021-satellite-photo 20210611.030609 
+
+https://www.pragprog.com/titles/mrpython/portable-python-projects/ 20210611.031251 
+
+https://persistentminds.com/2017/06/28/how-to-install-cucumber-plugin-for-eclipse-ide/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost 20210611.031512 
+
+https://www.zdnet.com/article/apple-will-finally-give-iphone-and-ipad-users-an-important-choice-to-make/ 20210612.045658 
+
+https://www.tomshardware.com/news/adafruit-trinkey-qt2040-announce 20210612.050127 
+
+https://9to5google.com/2021/06/11/how-to-know-fuchsia-os-nest-hub-update/ 20210612.051042 
+
+https://9to5google.com/2021/06/11/how-to-know-fuchsia-os-nest-hub-update/ 20210612.051050 
+
+https://www.foxnews.com/politics/house-republicans-who-voted-to-remove-taylor-greene-from-committees-demand-pelosi-do-the-same-for-ilhan-omar 20210612.051431 
+
+https://www.zdnet.com/article/best-internet-speed-test/ 20210612.052933 
+
+https://www.space.com/sunrise-solar-eclipse-2021-nasa-photos 20210612.053212 
+
+https://lifehacker.com/12-science-and-history-facts-that-changed-since-you-wer-1847071056 20210612.054841 
+
+https://arstechnica.com/gadgets/2021/06/mysql-101-installation-care-and-feeding-on-ubuntu/ 20210612.063212 
+
+https://visualstudiomagazine.com/articles/2021/06/11/vs-code-may-2021.aspx?m=2 20210612.063243 
+
+https://visualstudiomagazine.com/articles/2021/06/11/vs-code-may-2021.aspx?m=2 20210612.063251 
+
+https://www.insidenova.com/headlines/sorry-pittsburgh-starkist-is-moving-headquarters-to-reston/article_5cb63056-ca22-11eb-b4c3-27226625df2b.html 20210612.063716 
+
+https://www.marketwatch.com/story/should-i-roll-over-my-401-k-when-i-move-to-a-new-job-and-if-so-how-what-to-know-about-rolling-over-your-retirement-accounts-11623369810 20210612.063945 
+
+https://www.marketwatch.com/story/should-i-roll-over-my-401-k-when-i-move-to-a-new-job-and-if-so-how-what-to-know-about-rolling-over-your-retirement-accounts-11623369810 20210612.064042 
+
+https://www.nbcnews.com/news/china/wandering-elephants-are-touching-hearts-china-humans-may-be-reason-n1270450 20210612.064346 
+
+https://www.nbcnews.com/news/china/wandering-elephants-are-touching-hearts-china-humans-may-be-reason-n1270450 20210612.064952 
+
+https://lifehacker.com/update-hbomax-if-youre-an-apple-tv-user-1847073278 20210612.065012 
+
+https://arstechnica.com/gadgets/2021/06/mysql-101-installation-care-and-feeding-on-ubuntu/ 20210612.070635 
+
+https://arstechnica.com/gadgets/2021/06/mysql-101-installation-care-and-feeding-on-ubuntu/ 20210612.070935 
+
+https://www.zdnet.com/product/raspberry-pi-4-model-b/ 20210612.072728 
+
+https://bigdatadave.com/2020/11/21/snowflake-vs-code-sql-tools-and-fun/ 20210612.075230 
+
+https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-mysql-client2 20210612.075358 
+
+https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-mysql-client2 20210612.075537 
+
+https://marketplace.visualstudio.com/items?itemName=bajdzis.vscode-database 20210612.075701 
+
+https://levelup.gitconnected.com/top-10-vs-code-extensions-for-software-developers-9c3a807c6656 20210612.075803 
+
+https://levelup.gitconnected.com/top-10-vs-code-extensions-for-software-developers-9c3a807c6656 20210612.080147 
+
+https://marketplace.visualstudio.com/items?itemName=bajdzis.vscode-database 20210612.080226 
+
+https://www.mysql.com/products/workbench/ 20210612.080448 
+
+https://www.mysql.com/products/workbench/ 20210612.080643 
+
+https://jakarta.ee/specifications/authentication/2.0/ 20210612.091855 
+
+https://foojay.io/today/foojay-status-report-january-june-2021/ 20210612.093627 
+
+https://foojay.io/today/foojay-status-report-january-june-2021/ 20210612.093632 
+
+https://foojay.io/today/ 20210612.093932 
+
+https://foojay.io/today/creating-mobile-apps-with-javafx-part-1/ 20210612.093947 
+
+https://foojay.io/today/java-encryption-and-hashing/ 20210612.094120 
+
+https://www.manning.com/books/classic-computer-science-problems-in-java?utm_source=twitter&utm_medium=organic&utm_campaign=book_kopec3_classic_6_24_20 20210612.094649 
+
+https://www.boston.com/news/animals/2021/06/11/cape-cod-lobster-diver-humpback-whale-mouth/?s_campaign=bcom%3Asocialflow%3Atwitter 20210612.095914 
+
+https://www.boston.com/news/animals/2021/06/11/cape-cod-lobster-diver-humpback-whale-mouth/?s_campaign=bcom%3Asocialflow%3Atwitter 20210612.095928 
+
+https://grails.org/blog/2021-06-10-grails-wrapper-update.html 20210612.101402 
+
+https://grails.org/blog/2021-06-10-grails-wrapper-update.html 20210612.101626 
+
+https://code.visualstudio.com/blogs/2021/06/10/remote-repositories?WT.mc_id=devcloud-00000-cxa 20210612.233159 
+
+https://code.visualstudio.com/blogs/2021/06/10/remote-repositories?WT.mc_id=devcloud-00000-cxa 20210612.233653 
+
+https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github 20210612.233708 
+
+https://code.visualstudio.com/docs/editor/github 20210612.233816 
+
+https://code.visualstudio.com/docs/editor/github 20210613.051742 
+
+https://blogs.oracle.com/javamagazine/guava-library-collections-bimap-multimap-cache-eventbus 20210613.051812 
+
+https://blogs.oracle.com/java-platform-group/a-magnificent-match%3a-java-on-arm-on-oci?source=:so:tw:or:awr:jav:::&SC=:so:tw:or:awr:jav:::&pcode= 20210613.052200 
+
+https://blogs.oracle.com/java-platform-group/a-magnificent-match%3a-java-on-arm-on-oci?source=:so:tw:or:awr:jav:::&SC=:so:tw:or:awr:jav:::&pcode= 20210613.052257 
+
+https://www.raspberrypi.org/weekly/the-computers-that-made-britain/ 20210613.054027 
+
+https://www.archunit.org/ 20210613.054526 
+
+https://opensource.com/article/21/6/teach-python-raspberry-pi 20210613.060350 
+
+https://opensource.com/article/18/8/getting-started-mu-python-editor-beginners 20210613.060406 
+
+https://opensource.com/article/18/8/getting-started-mu-python-editor-beginners 20210613.060710 
+
+https://opensource.com/article/21/6/teach-python-raspberry-pi 20210613.061241 
+
+https://opensource.com/downloads/kubernetes-raspberry-pi 20210613.061326 
+
+https://thenewstack.io/where-to-turn-for-a-centos-replacement-heres-5-solid-linux-distros-to-check-out/ 20210613.061517 
+
+https://thenewstack.io/where-to-turn-for-a-centos-replacement-heres-5-solid-linux-distros-to-check-out/ 20210613.062241 
+
+https://www.npr.org/2021/06/12/1005885975/china-elephants-kunming-yunnan-chinese-wandering-moving 20210613.062415 
+
+https://www.npr.org/2021/06/12/1005918788/humpback-whale-swallowed-lobster-diver-cape-cod-michael-packard 20210613.062857 
+
+https://git-scm.com/docs/git-request-pull 20210613.064332 
+
+https://stackoverflow.com/questions/30517886/how-to-create-a-git-pull-request-from-within-eclipse 20210613.064543 
+
+https://stackoverflow.com/questions/30517886/how-to-create-a-git-pull-request-from-within-eclipse 20210613.064707 
+
+https://opensource.com/article/19/7/create-pull-request-github 20210613.065032 
+
+https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request 20210613.065353 
+
+https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request 20210613.203609 
+
+https://www.zdnet.com/product/raspberry-pi-4-model-b/ 20210613.203918 
+
+https://www.zdnet.com/article/booting-my-raspberry-pi-4-from-a-usb-device/ 20210613.205216 
+
+https://www.infoq.com/presentations/new-java-16/ 20210613.205257 
+
+https://www.fool.com/retirement/2021/06/13/3-steps-to-claiming-the-3895-max-monthly-social-se/ 20210613.210914 
+
+https://www.techradar.com/news/VPN-tech-arsenal 20210613.212047 
+
+https://sergiodelamo.com/blog/micronaut-cli-jwkgen.html 20210613.212620 
+
+https://sergiodelamo.com/blog/micronaut-cli-jwkgen.html 20210613.212650 
+
+https://guides.micronaut.io/latest/micronaut-cli-jwkgen.html 20210613.212705 
+
+https://guides.micronaut.io/latest/micronaut-cli-jwkgen-gradle-java.html 20210613.212730 
+
+https://www.engadget.com/google-workspace-open-everyone-free-spaces-100004157.html 20210614.070802 
+
+https://www.engadget.com/google-workspace-open-everyone-free-spaces-100004157.html 20210614.071104 
+
+https://dzone.com/articles/hackathon-tools-for-java-developers 20210614.071528 
+
+https://dzone.com/articles/hackathon-tools-for-java-developers 20210614.071858 
+
+https://www.infoq.com/news/2021/06/java-news-roundup-jun07-2021/ 20210614.072007 
+
+https://www.infoq.com/news/2021/06/java-news-roundup-jun07-2021/ 20210614.072217 
+
+https://www.nj.com/news/2021/06/rocket-launch-on-tuesday-may-be-visible-from-nj-other-eastern-states.html 20210614.072608 
+
+https://www.youtube.com/user/NASAWallops?sub_confirmation=1 20210614.072623 
+
+https://www.youtube.com/user/NASAWallops?sub_confirmation=1 20210614.072740 
+
+https://nationalinterest.org/blog/reboot/sr-72-darkstar-sr-71-way-better-armed-187551 20210614.074242 
+
+https://nationalinterest.org/blog/reboot/sr-72-darkstar-sr-71-way-better-armed-187551 20210614.074253 
+
+https://www.youtube.com/watch?v=r7hNmuizMB8 20210614.074750 
+
+https://www.infoq.com/news/2021/06/amazon-location-service/ 20210614.074957 
+
+https://www.infoq.com/news/2021/06/amazon-location-service/ 20210614.075028 
+
+https://blogs.oracle.com/javamagazine/java-runtime-encapsulation-internals?source=:so:tw:or:awr:jav:::&SC=:so:tw:or:awr:jav:::&pcode= 20210614.213136 
+
+https://blogs.oracle.com/javamagazine/java-runtime-encapsulation-internals?source=:so:tw:or:awr:jav:::&SC=:so:tw:or:awr:jav:::&pcode= 20210614.213329 
+
+https://docs.gradle.org/7.1/release-notes.html 20210614.213347 
+
+https://docs.gradle.org/7.1/release-notes.html 20210614.213429 
+
+https://www.jetbrains.com/idea/guide/tutorials/getting-started-spring-data-jpa/ 20210614.213638 
+
+https://blogs.oracle.com/javamagazine/java-quiz-garbage-collector-gc-eligibility 20210614.213708 
+
+https://blogs.oracle.com/javamagazine/java-quiz-garbage-collector-gc-eligibility 20210614.213717 
+
+https://medium.com/graalvm/gradle-and-maven-plugins-for-native-image-with-initial-junit-testing-support-dde00a8caf0b 20210614.213810 
+
+https://plugins.jetbrains.com/plugin/16631-rustlings 20210614.214258 
+
+https://blog.jetbrains.com/idea/2021/03/java-16-and-intellij-idea/ 20210614.214929 
+
+https://www.youtube.com/watch?v=s3otQAhPNZg 20210614.214956 
+
+https://www.youtube.com/watch?v=wLommOw616M 20210614.215145 
+
+https://www.youtube.com/watch?v=wLommOw616M 20210614.215152 
+
+https://docs.gluonhq.com/#_gluonfx_plugin_for_maven 20210614.220048 
+
+https://inside.java/2021/06/13/podcast-017/ 20210614.220134 
+
+https://github.com/AlmasB/FXGL 20210614.220227 
+
+https://stackoverflow.com/questions/67964892/using-multiple-mockfor-in-grails-2-2-3-unit-test?utm_source=dlvr.it&utm_medium=twitter 20210614.220428 
+
+https://stackoverflow.com/questions/67975125/grails-is-not-working-even-when-grails-wrapper-jar-is-updated?utm_source=dlvr.it&utm_medium=twitter 20210614.220944 
+
+https://www.youtube.com/watch?v=wosdvjBMCYA 20210614.221029 
+
+https://blogs.oracle.com/javamagazine/java-runtime-encapsulation-internals 20210614.222530 
+
+https://stackoverflow.com/questions/67958765/grails-database-migration-plugin-grails-4?utm_source=dlvr.it&utm_medium=twitter 20210614.222650 
+
+https://kenkousen.substack.com/p/tales-from-the-jar-side-a-groovy-18e?r=2dwq5&utm_campaign=post&utm_medium=web&utm_source=twitter 20210614.222836 
+
+https://blogs.oracle.com/developers/configuring-the-oracle-jdbc-drivers-in-a-springboot-project-take-2?source=:so:tw:or:awr:odv:::&SC=:so:tw:or:awr:odv:::&pcode= 20210614.223040 
+
+https://blogs.oracle.com/developers/configuring-the-oracle-jdbc-drivers-in-a-springboot-project-take-2?source=:so:tw:or:awr:odv:::&SC=:so:tw:or:awr:odv:::&pcode= 20210614.223219 
+
+https://code.visualstudio.com/blogs/2021/06/10/remote-repositories?WT.mc_id=devcloud-00000-cxa 20210614.223925 
+
+https://code.visualstudio.com/blogs/2021/06/10/remote-repositories?WT.mc_id=devcloud-00000-cxa 20210614.223937 
+
+https://www.infoq.com/news/2021/06/amazon-location-service/ 20210615.002100 
+
+https://www.cnn.com/2021/06/14/us/northrop-grumman-minotaur-1-rocket-launch-scn/index.html 20210615.002317 
+
+https://www.tomshardware.com/news/linux-kernel-welcomes-raspberry-pi-400 20210615.052517 
+
+https://www.tomshardware.com/news/raspberry-pi-rp2040-hex-robot-pcb 20210615.053518 
+
+https://www.tomshardware.com/news/raspberry-pi-rp2040-hex-robot-pcb 20210615.053850 
+
+https://blog.jetbrains.com/idea/2021/02/tutorial-spock-part-2-writing-tests/ 20210620.111326 
+
+https://docs.oracle.com/javase/tutorial/jdbc/basics/prepared.html 20210620.111339 
+
+https://docs.oracle.com/javase/tutorial/jdbc/basics/prepared.html 20210620.111347 
+
+https://docs.oracle.com/javase/tutorial/jdbc/basics/prepared.html 20210620.111353 
+
+https://docs.oracle.com/javase/tutorial/jdbc/basics/prepared.html 20210620.111402 
+
+https://docs.oracle.com/javase/tutorial/jdbc/basics/processingsqlstatements.html 20210620.111420 
+
+https://thehill.com/policy/international/middle-east-north-africa/559287-new-israeli-prime-minister-calls-on-world-to 20210620.111851 
+
+https://thehill.com/policy/international/middle-east-north-africa/559287-new-israeli-prime-minister-calls-on-world-to 20210620.111857 
+
+https://thehill.com/policy/international/middle-east-north-africa/559287-new-israeli-prime-minister-calls-on-world-to 20210620.111906 
+
+https://www.torquenews.com/1084/final-subaru-defective-windshield-lawsuit-settlement-details 20210620.112323 
+
+https://www.torquenews.com/1084/final-subaru-defective-windshield-lawsuit-settlement-details 20210620.112523 
+
+https://en.wikipedia.org/wiki/MacOS_version_history 20210620.113123 
+
+https://www.theguardian.com/commentisfree/2021/jun/20/iran-elections-president-elect-ebrahim-raisi 20210620.114630 
+
+https://www.marketwatch.com/story/im-62-unemployed-living-off-my-savings-and-waiting-on-social-security-can-i-go-fishing-for-the-next-25-years-and-forget-about-work-11624026442 20210621.041035 
+
+https://www.mlb.com/gameday/mets-vs-nationals/2021/06/20/633557/final/video 20210621.210310 
+
+https://www.notebookcheck.net/Intel-launches-the-Core-i5-11320H-and-Core-i7-11390H-more-of-the-same-for-the-Tiger-Lake-H35-series.546735.0.html 20210621.211618 
+
+https://www.rt.com/op-ed/527187-ben-affleck-cia-agency/ 20210621.212306 
+
+https://screenrant.com/pixar-movies-after-luca-release-dates-turning-red-lightyear/ 20210621.212627 
+
+https://screenrant.com/pixar-movies-after-luca-release-dates-turning-red-lightyear/ 20210621.213029 
+
+https://screenrant.com/pixar-luca-movie-easter-eggs-references-explained/ 20210621.213050 
+
+https://www.foxnews.com/media/washington-post-stacey-abrams-democrats-evolution-voter-id 20210622.050028 
+
+https://dzone.com/articles/early-access-java-concurrency-with-project-loom 20210623.040957 
+
+https://www.infoq.com/news/2021/06/java-news-roundup-jun14-2021/ 20210623.041217 
+
+https://www.infoq.com/news/2021/06/java-news-roundup-jun14-2021/ 20210623.041228 
+
+https://www.infoq.com/news/2021/06/java-news-roundup-jun14-2021/ 20210623.041326 
+
+https://patch.com/virginia/leesburg/loudoun-county-government-next-loudoun-household-hazardous-waste-event-june-26 20210623.041914 
+
+https://tv.ring.com/detail/videos/animals-wildlife/video/6254264567001/seeing-one-mountain-lion-in-your-yard-is-rare-but-four?autoStart=trueutm_source=patch&utm_medium=cpm&utm_campaign=native&utm_content=richard 20210623.042109 
+
+https://stackoverflow.com/questions/68089960/does-anyone-know-how-to-connect-grails-app-to-mongodb-cloud-database?utm_source=dlvr.it&utm_medium=twitter 20210623.050043 
+
+https://stackoverflow.com/questions/68089960/does-anyone-know-how-to-connect-grails-app-to-mongodb-cloud-database?utm_source=dlvr.it&utm_medium=twitter 20210623.050104 
+
+https://blogs.oracle.com/javamagazine/java-quiz-nio-filechannel-filelock 20210623.050951 
+
+https://blogs.oracle.com/javamagazine/java-quiz-nio-filechannel-filelock 20210623.051000 
+
+https://www.darkcoding.net/software/a-day-in-the-life-of-a-professional-software-engineer/ 20210623.051233 
+
+https://www.darkcoding.net/software/a-day-in-the-life-of-a-professional-software-engineer/ 20210623.051242 
+
+https://www.darkcoding.net/software/a-day-in-the-life-of-a-professional-software-engineer/ 20210623.051719 
+
+https://blogs.oracle.com/javamagazine/happy-anniversary-celebrating-10-years-of-java-magazine?source=:so:tw:or:awr:jav:::&SC=:so:tw:or:awr:jav:::&pcode= 20210623.052126 
+
+https://stackoverflow.com/questions/68083292/grails-oauth-provider-404-on-token?utm_source=dlvr.it&utm_medium=twitter 20210623.052159 
+
+https://stackoverflow.com/questions/68083292/grails-oauth-provider-404-on-token?utm_source=dlvr.it&utm_medium=twitter 20210623.062827 
+
+https://magpi.raspberrypi.org/articles/raspberry-pi-ri 20210623.063013 
+
+https://magpi.raspberrypi.org/articles/raspberry-pi-ri 20210623.063017 
+
+https://magpi.raspberrypi.org/articles/raspberry-pi-ri 20210623.064312 
+
+https://foojay.io/board/ 20210623.064842 
+
+https://foojay.io/today/apache-cassandra-4-0-taming-tail-latencies-with-java-16-zgc/ 20210623.064942 
+
+https://foojay.io/today/apache-cassandra-4-0-taming-tail-latencies-with-java-16-zgc/ 20210623.065059 
+
+https://foojay.io/today/apache-cassandra-4-0-taming-tail-latencies-with-java-16-zgc/ 20210623.065108 
+
+https://www.raspberrypi.org/blog/raspberry-pi-r2d2-console-plus-tons-of-other-star-wars-projects/ 20210623.065308 
+
+https://www.raspberrypi.org/blog/raspberry-pi-r2d2-console-plus-tons-of-other-star-wars-projects/ 20210623.065450 
+
+https://developer.okta.com/blog/2021/06/18/native-java-framework-comparison 20210623.070435 
+
+https://developer.okta.com/blog/2021/06/18/native-java-framework-comparison 20210623.070546 
+
+https://blogs.oracle.com/javamagazine/10-good-reads-from-the-java-magazine-archives 20210623.070655 
+
+https://stackoverflow.com/questions/1455037/is-there-a-good-gnupg-encryption-library-for-java-scala 20210623.072614 
+
+https://stackoverflow.com/questions/1455037/is-there-a-good-gnupg-encryption-library-for-java-scala 20210623.072851 
+
+https://eng.wealthfront.com/2011/02/23/encrypting-using-gpg-from-java/ 20210623.073210 
+
+https://eng.wealthfront.com/2011/02/23/encrypting-using-gpg-from-java/ 20210623.073445 
+
+https://www.baeldung.com/java-cipher-input-output-stream 20210623.073502 
+
+https://www.baeldung.com/java-cipher-input-output-stream 20210623.073807 
+
+https://www.geeksforgeeks.org/encrypting-and-decrypting-the-files-using-gnupg-in-linux/ 20210623.073922 
+
+https://www.geeksforgeeks.org/encrypting-and-decrypting-the-files-using-gnupg-in-linux/ 20210623.073947 
+
+https://www.geeksforgeeks.org/encrypting-and-decrypting-the-files-using-gnupg-in-linux/ 20210623.074002 
+
+https://gnupg.org/download/index.html 20210623.074014 
+
+https://gnupg.org/download/index.html 20210623.074057 
+
+https://gnupg.org/download/integrity_check.html 20210623.074107 
+
+https://gnupg.org/download/integrity_check.html 20210623.074343 
+
+https://gnupg.org/signature_key.html 20210623.074401 
+
+https://gnupg.org/signature_key.html 20210623.074440 
+
+https://gnupg.org/documentation/index.html 20210623.074502 
+
+https://lists.gnupg.org/pipermail/gnupg-announce/2019q4/000443.html 20210623.074851 
+
+https://lists.gnupg.org/pipermail/gnupg-announce/2021q1/000457.html 20210623.075035 
+
+https://kathirmunai.com/java-pgp-gpg-encrypt-and-decrypt-a-file 20210623.075359 
+
+https://kathirmunai.com/java-pgp-gpg-encrypt-and-decrypt-a-file 20210623.075617 
+
+https://github.com/kathirmunai/java-tech 20210623.075712 
+
+https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk15on/1.65 20210623.080403 
+
+https://www.bouncycastle.org/java.html 20210623.080448 
+
+https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk15on/1.65 20210623.080455 
+
+https://www.bouncycastle.org/fips-java/BCFipsIn100.pdf 20210623.081034 
+
+https://www.bouncycastle.org/fips-java/BCFipsIn100.pdf 20210623.082405 
+
+https://www.bouncycastle.org/latest_releases.html 20210623.082443 
+
+https://www.bouncycastle.org/latest_releases.html 20210623.082743 
+
+https://github.com/bcgit/bc-java 20210623.083236 
+
+https://repo1.maven.org/maven2/org/bouncycastle/ 20210623.083249 
+
+https://kathirmunai.com/java-csv-reader-and-writer 20210623.083426 
+
+https://kathirmunai.com/java-csv-reader-and-writer 20210623.083534 
+
+https://kathirmunai.com/java-aws-upload-excel-file 20210623.083859 
+
+https://hackaday.com/2021/06/21/a-collection-of-linux-tools-on-steroids/ 20210623.090501 
+
+https://hackaday.com/2021/06/23/the-compromises-of-raspberry-pi-hardware-documentation/ 20210623.090519 
+
+https://hackaday.com/2021/06/23/the-compromises-of-raspberry-pi-hardware-documentation/ 20210623.091139 
+
+https://www.infoq.com/news/2021/06/internals-encapsulated-jdk17/ 20210623.230303 
+
+https://www.infoq.com/news/2021/06/java-news-roundup-jun07-2021/ 20210623.230335 
+
+https://www.mlb.com/gameday/nationals-vs-phillies/2021/06/23/633546/final/box 20210623.232228 
+
+https://www.mlb.com/gameday/nationals-vs-phillies/2021/06/23/633546/final/box 20210623.232237 
+
+https://www.youtube.com/watch?v=Twwpk6vub1M&list=PLX8CzqL3ArzX8ZzPNjBgji7rznFFiOr58 20210623.232750 
+
+http://deltaechox.blogspot.com/2019/07/symantec-pgp-command-line-tutorial.html 20210624.034213 
+
+https://www.cdw.com/product/symantec-pgp-command-line-initial-subscription-license-1-year-support/4673661 20210624.034240 
+
+https://docs.broadcom.com/doc/pgp-command-line-en 20210624.034258 
+
+https://knowledge.broadcom.com/external/article/159237/using-pgp-command-line-with-symantec-enc.html 20210624.034315 
+
+https://www.netsecuritystore.com/Symantec-Encryption-PGP-Command-Line.asp 20210624.034349 
+
+https://www.cnet.com/products/symantec-pgp-command-line-v-10-2-basic-maintenance-series/ 20210624.034433 
+
+https://community.spiceworks.com/products/51781-symantec-pgp-command-line 20210624.034520 
+
+https://www.shi.com/product/26782908/Symantec-PGP-Command-Line 20210624.034617 
+
+https://www.coviantsoftware.com/solutions/automate-openpgp-command-line/ 20210624.034704 
+
+https://www.coviantsoftware.com/solutions/automate-openpgp-command-line/ 20210624.034742 
+
+https://usermanual.wiki/Document/pgpCmdline103usersen.626779542 20210624.034834 
+
+https://usermanual.wiki/Document/pgpCmdline103usersen.626779542 20210624.041715 
+
+https://www.howtogeek.com/737021/how-to-check-if-your-windows-10-pc-can-run-windows-11/ 20210624.223919 
+
+https://www.howtogeek.com/737021/how-to-check-if-your-windows-10-pc-can-run-windows-11/ 20210624.223957 
+
+https://www.wired.com/story/dell-firmware-vulnerabilities/ 20210624.224651 
+
+https://www.wired.com/story/dell-firmware-vulnerabilities/ 20210624.224655 
+
+www.infoq.com/news/2021/06/jakarta-ee-9-1/ 20210624.225219 
+
+https://www.nationalreview.com/2021/06/the-pride-flags-growing-absurdity/ 20210624.225927 
+
+https://www.creativebloq.com/buying-guides/best-monitors-for-mac-mini 20210625.051854 
+
+https://www.creativebloq.com/buying-guides/best-monitors-for-mac-mini 20210625.052549 
+
+https://www.creativebloq.com/buying-guides/best-monitors-for-mac-mini 20210625.053422 
+
+https://www.creativebloq.com/buying-guides/best-dell-laptops 20210625.053700 
+
+https://www.theburn.com/2021/06/24/fords-fish-shack-planning-to-close-original-ashburn-location/ 20210626.052125 
+
+https://www.theburn.com/2021/06/24/fords-fish-shack-planning-to-close-original-ashburn-location/ 20210626.052927 
+
+https://www.theburn.com/2020/03/18/fords-fish-shack-lays-off-staff-fights-to-keep-brand-operating/ 20210626.053416 
+
+https://www.nationalreview.com/2021/06/national-review-institute-fundraiser-fighting-the-great-derangement-of-our-times/ 20210626.053617 
+
+https://www.nationalreview.com/2021/06/national-review-institute-fundraiser-fighting-the-great-derangement-of-our-times/ 20210626.053622 
+
+https://rootsaid.com/raspberry-pi-4-as-desktop-pc/ 20210626.054310 
+
+https://rootsaid.com/raspberry-pi-4-as-desktop-pc/ 20210626.054450 
+
+https://blogs.oracle.com/javamagazine/10-good-reads-from-the-java-magazine-archives?source=:so:tw:or:awr:jav:::&SC=:so:tw:or:awr:jav:::&pcode= 20210626.060108 
+
+https://blogs.oracle.com/javamagazine/10-good-reads-from-the-java-magazine-archives?source=:so:tw:or:awr:jav:::&SC=:so:tw:or:awr:jav:::&pcode= 20210626.060113 
+
+https://blogs.oracle.com/javamagazine/10-good-reads-from-the-java-magazine-archives 20210626.060622 
+
+https://inside.java/2021/06/13/podcast-017/ 20210626.060743 
+
+https://go.oracle.com/LP=28277?elqCampaignId=38358&nsl=jvm 20210626.061524 
+
+https://www.raspberrypi.org/app/uploads/2021/06/Raspberry_Pi_Factory_Wales_2021.png 20210626.062019 
+
+https://foojay.io/today/jmc-8-0-1-released/ 20210626.062105 
+
+https://rootsaid.com/raspberry-pi-4-as-desktop-pc/ 20210626.062146 
+
+https://blogs.oracle.com/java/post/announcing-java-management-service?source=:so:tw:or:awr:ocorp:::&SC=:so:tw:or:awr:ocorp:::&pcode= 20210626.082341 
+
+https://blogs.oracle.com/java/post/announcing-java-management-service?source=:so:tw:or:awr:ocorp:::&SC=:so:tw:or:awr:ocorp:::&pcode= 20210626.082544 
+
+https://emamo.com/event/jlove-2021/s/skyrocket-micronaut-microservices-into-google-cloud-NVMKAo 20210626.082925 
+
+https://emamo.com/event/jlove-2021/s/skyrocket-micronaut-microservices-into-google-cloud-NVMKAo 20210626.083025 
+
+https://foojay.io/today/creating-mobile-apps-with-javafx-part-3/ 20210626.083513 
+
+https://foojay.io/today/creating-mobile-apps-with-javafx-part-3/ 20210626.083547 
+
+https://stackoverflow.com/questions/68135283/stale-gorm-session-causes-spock-unit-test-to-fail?utm_source=dlvr.it&utm_medium=twitter 20210626.083705 
+
+https://blog.jetbrains.com/idea/2021/06/new-live-stream-fxgl-cross-platform-javafx-game-engine-for-java-and-kotlin/ 20210626.083853 
+
+https://blogs.oracle.com/javamagazine/10-good-reads-from-the-java-magazine-archives?source=:so:tw:or:awr:odv:::&SC=:so:tw:or:awr:odv:::&pcode= 20210626.084251 
+
+https://spring.io/blog/2021/06/24/a-bootiful-podcast-webassembly-iot-data-science-and-java-guru-brian-sletten 20210626.084335 
+
+https://stackoverflow.com/questions/68123752/how-can-i-use-grails-createcriteria-on-non-string-columns-stored-inside-map-f?utm_source=dlvr.it&utm_medium=twitter 20210626.084421 
+
+https://github.com/HanSolo/JDKMon/releases/tag/3.3 20210626.085045 
+
+https://github.com/HanSolo/JDKMon/releases/tag/3.3 20210627.035658 
+
+https://stackoverflow.com/questions/68145393/unable-to-get-data-from-github-api-in-grails-app?utm_source=dlvr.it&utm_medium=twitter 20210627.040217 
+
+https://blogs.oracle.com/javamagazine/book-review-junit-action-tudose-java-testing-bdd-tdd 20210627.042512 
+
+https://medium.com/javarevisited/7-best-webflux-and-reactive-spring-boot-courses-for-java-programmers-33b7c6fa8995 20210627.133105 
+
+https://support.apple.com/kb/sp710?locale=en_US 20210627.154518 
+
+https://support.apple.com/kb/sp710?locale=en_US 20210627.154559 
+
+https://www.cnet.com/reviews/apple-mac-mini-2014-review/ 20210627.154622 
+
+https://www.cnet.com/reviews/apple-mac-mini-2014-review/ 20210627.154641 
+
+https://itsfoss.com/reset-linux-password-wsl/ 20210627.155850 
+
+https://www.usatoday.com/in-depth/news/health/2021/06/27/immunocompromised-must-cautious-covid-vaccines-not-protective/7663956002/ 20210627.160729 
+
+https://www.usatoday.com/in-depth/news/health/2021/06/27/immunocompromised-must-cautious-covid-vaccines-not-protective/7663956002/ 20210627.160828 
+
+https://www.cnet.com/news/you-should-free-your-iphone-from-its-case-already-heres-why-i-already-did-so/ 20210627.161705 
+
+https://www.glump.net/howto/cryptography/practical-introduction-to-gnu-privacy-guard-in-windows 20210627.204526 
+
+https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/find 20210628.005415 
+
+https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/findstr 20210628.010007 
+
+https://news.google.com/articles/CBMiQ2h0dHBzOi8vd3d3LnhkYS1kZXZlbG9wZXJzLmNvbS9kZWxsLXhwcy0xNS0xNy1yZXBsYWNlbWVudC1jaGFyZ2Vycy_SAUdodHRwczovL3d3dy54ZGEtZGV2ZWxvcGVycy5jb20vZGVsbC14cHMtMTUtMTctcmVwbGFjZW1lbnQtY2hhcmdlcnMvYW1wLw?hl=en-US&gl=US&ceid=US%3Aen 20210628.012718 
+
+https://www.xda-developers.com/dell-xps-15-17-replacement-chargers/ 20210628.012733 
+
+https://www.xda-developers.com/dell-xps-15-17-replacement-chargers/ 20210628.013031 
+
+https://www.xda-developers.com/dell-xps-13-linux/ 20210628.013307 
+
+https://www.forbes.com/sites/jamiecartereurope/2021/06/23/there-is-only-one-other-planet-in-our-galaxy-that-could-be-earth-like-say-scientists/ 20210628.015349 
+
+https://blogs.oracle.com/javamagazine/java-functional-programming-lambda-lexical-scoping-closure-reduce 20210628.033914 
+
+https://kenkousen.substack.com/p/tales-from-the-jar-side-a-new-medium?r=2dwq5&utm_campaign=post&utm_medium=web&utm_source=twitter 20210628.033948 
+
+https://assets.infoq.com/newsletter/architect/en/newsletter_sample/47Architects_NL_June2021.html 20210628.084340 
+
+https://info.jetbrains.com/idea-webinar-july-2021.html?utm_source=marketo&utm_medium=email&utm_content=event&utm_campaign=july-webinar&mkt_tok=NDI2LVFWRC0xMTQAAAF98Z2SZ41n5ISENdaMNZRr6hdnrkk5FmYdkyoe5UJ2Y3YNvCd-89-L5yvtFTSTfvhVi-92SexZpLCylCSlDhxHfiUtAZAZYxQ92UmqPJMnUOb5XwE 20210628.084516 
+
+https://info.jetbrains.com/idea-webinar-july-2021.html?utm_source=marketo&utm_medium=email&utm_content=event&utm_campaign=july-webinar 20210628.084529 
+
+https://kenkousen.substack.com/p/tales-from-the-jar-side-a-new-medium?r=2dwq5&utm_campaign=post&utm_medium=web&utm_source=twitter 20210628.084632 
+
+https://stackoverflow.com/questions/68157313/i-am-doing-facebook-login-in-grails-4?utm_source=dlvr.it&utm_medium=twitter 20210628.085239 
+
+https://www.youtube.com/watch?v=vsUx-kod2O4 20210628.085929 
+
+https://www.azul.com/blog/the-importance-of-java-security-updates/ 20210628.090232 
+
+https://www.azul.com/blog/the-importance-of-java-security-updates/ 20210628.090238 
+
+https://www.azul.com/blog/the-importance-of-java-security-updates/ 20210628.090914 
+
+https://www.raspberrypi.org/weekly/in-which-we-remember-star-wars-is-a-thing/ 20210628.091132 
+
+https://www.raspberrypi.org/blog/raspberry-pi-zero-makes-a-xylophone-play-itself/ 20210628.091155 
+
+https://www.raspberrypi.org/blog/raspberry-pi-zero-makes-a-xylophone-play-itself/ 20210628.091349 
+
+https://www.raspberrypi.org/blog/duelling-pianos-literally/ 20210628.091410 
+
+https://github.com/redhat-developer/vscode-xml/blob/master/CHANGELOG.md#0170-june-28-2021 20210628.210440 
+
+https://blogs.oracle.com/javamagazine/10-good-reads-from-the-java-magazine-archives 20210628.210741 
+
+https://gradle.com/blog/announcing-test-distribution-auto-scaling/?utm_source=twitter&utm_medium=blog&utm_campaign=article 20210628.210906 
+
+https://us02web.zoom.us/webinar/register/7016227494065/WN_QcdtQJYSQJmj9DHCuAJ_Sg?utm_campaign=Reimagine%20the%20Possibilities&utm_content=170007126&utm_medium=social&utm_source=twitter&hss_channel=tw-36743180 20210628.211125 
+
+https://www.youtube.com/watch?v=vsUx-kod2O4 20210628.211838 
+
+https://blog.logrocket.com/how-to-debug-node-js-apps-in-visual-studio-code/ 20210628.212337 
+
+https://www.omgubuntu.co.uk/2021/06/ubuntu-21-10-yarn-theme-change 20210628.212519 
+
+https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10 20210628.212555 
+
+https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10 20210628.212752 
+
+https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10 20210629.013426 
+
+https://www.mlb.com/gameday/mets-vs-nationals/2021/06/28/634620/final/box 20210629.014248 
+
+https://www.infoq.com/news/2021/06/java-news-roundup-jun21-2021/ 20210629.015147 
+
+https://www.cloudsavvyit.com/12234/whats-new-in-the-es2021-standard-for-javascript/ 20210629.021328 
+
+https://www.cloudsavvyit.com/12234/whats-new-in-the-es2021-standard-for-javascript/ 20210629.022220 
+
+https://nypost.com/2021/06/28/as-biden-bumbles-whos-really-running-the-us/ 20210629.024701 
+
+https://mspoweruser.com/the-new-powertoys-v0-41-2-for-windows-10-released-with-tool-to-keep-your-pc-awake/ 20210629.025113 
+
+https://www.torquenews.com/1084/subaru-plant-makes-outback-shuts-down-it-s-not-shortages-time 20210629.030005 
+
+https://www.torquenews.com/1084/subaru-plant-makes-outback-shuts-down-it-s-not-shortages-time 20210629.030342 
+
+https://www.howtogeek.com/736545/how-to-open-the-group-policy-editor-on-windows/ 20210629.032455 
+
+https://www.howtogeek.com/736545/how-to-open-the-group-policy-editor-on-windows/ 20210629.032726 
+
+https://www.howtogeek.com/736545/how-to-open-the-group-policy-editor-on-windows/ 20210629.235414 
+
+https://finance.yahoo.com/news/fat-401-ks-causing-people-to-retire-early-oxford-economics-202802644.html 20210630.061205 
+
+https://www.xda-developers.com/windows-11-on-lumia-950-xl-raspberry-pi-4/ 20210630.061503 
+
+https://appleinsider.com/articles/21/06/29/apple-suppliers-gearing-up-for-new-airpods-macbook-pro-releases-in-late-2021 20210630.062201 
+
+https://appleinsider.com/articles/21/06/29/anker-launches-new-thunderbolt-4-dock-with-12-total-ports 20210630.062954 
+
+https://forums.appleinsider.com/discussion/222579/anker-launches-new-thunderbolt-4-dock-with-12-total-ports 20210630.063258 
+
+https://www.howtogeek.com/728369/how-to-factory-reset-the-google-nest-hub/ 20210630.063834 
+
+https://www.howtogeek.com/728369/how-to-factory-reset-the-google-nest-hub/ 20210630.064041 
+
+https://www.mlb.com/gameday/nationals-vs-phillies/2021/06/23/633546/final 20210630.065010 
+
+https://www.zdnet.com/article/what-windows-11-means-well-be-stuck-with-millions-of-windows-10-zombies/ 20210630.081324 
+
+https://www.zdnet.com/article/what-windows-11-means-well-be-stuck-with-millions-of-windows-10-zombies/ 20210630.083043 
+
+https://www.engadget.com/dell-4k-ultrasharp-webcam-sony-140030012.html 20210630.083228 
+
+https://www.engadget.com/dell-4k-ultrasharp-webcam-sony-140030012.html 20210630.083241 
+
+https://www.engadget.com/dell-4k-ultrasharp-webcam-sony-140030012.html 20210630.083427 
+
+https://www.cnx-software.com/2021/06/28/custom-raspberry-pi-3-sbc-emmc-flash-gateway-washing-machines/ 20210630.083938 
+
+https://www.tomshardware.com/how-to/install-windows-11-raspberry-pi 20210630.230341 
+
+https://www.tomshardware.com/how-to/install-windows-11-raspberry-pi 20210630.230434 
+
+https://www.tomshardware.com/how-to/install-windows-11-raspberry-pi 20210630.231106 
+
+https://appleinsider.com/articles/21/06/30/satechis-new-mac-mini-hub-gives-you-more-storage-options-with-an-ssd-enclosure 20210630.231744 
+
+https://appleinsider.com/articles/21/06/30/satechis-new-mac-mini-hub-gives-you-more-storage-options-with-an-ssd-enclosure 20210630.231932 
+
+https://appleinsider.com/articles/21/06/30/satechis-new-mac-mini-hub-gives-you-more-storage-options-with-an-ssd-enclosure 20210701.061245 
+
+https://www.cnet.com/news/apples-always-sold-itself-as-the-anti-microsoft-now-windows-11-is-the-anti-apple/ 20210701.061543 
+
+https://www.tararaconcerts.com/ 20210701.062509 
+
+https://www.tararaconcerts.com/ 20210701.062521 
+
+https://loudounnow.com/2021/06/30/july-1-brings-new-laws-ends-declared-emergency/ 20210701.062739 
+
+https://www.mlb.com/gameday/rays-vs-nationals/2021/06/30/633427/final/video 20210701.063211 
+
+https://blogs.oracle.com/javamagazine/java-functional-programming-lambda-method-references?source=:so:tw:or:awr:jav:::&SC=:so:tw:or:awr:jav:::&pcode= 20210701.070547 
+
+https://www.youtube.com/watch?v=ck6xQqSOlpw 20210701.070951 
+
+https://quarkus.io/guides/cli-tooling 20210701.072043 
+
+https://blog.jetbrains.com/idea/2021/06/intellij-idea-eap-6/#automatic_migration_from_java_ee_to_jakarta_ee 20210701.072829 
+
+https://blogs.oracle.com/javamagazine/java-javafx-fxgl-game-development 20210701.073036 
+
+https://www.techrepublic.com/article/can-you-still-use-the-java-programming-language-for-free-what-you-need-to-know/ 20210701.073303 
+
+https://www.infoq.com/presentations/java-11-production-story/ 20210701.073439 
+
+https://www.infoq.com/presentations/java-11-production-story/ 20210701.073446 
+
+https://www.infoq.com/presentations/java-11-production-story/ 20210701.080514 
+
+https://www.techrepublic.com/article/these-old-programming-languages-are-still-critical-to-big-companies-but-nobody-wants-to-learn-them/ 20210701.211244 
+
+https://www.techrepublic.com/article/these-old-programming-languages-are-still-critical-to-big-companies-but-nobody-wants-to-learn-them/ 20210701.211548 
+
+https://www.howtogeek.com/727894/how-to-get-a-fullscreen-clock-on-the-google-nest-hub/ 20210701.211716 
+
+https://www.howtogeek.com/727894/how-to-get-a-fullscreen-clock-on-the-google-nest-hub/ 20210701.212006 
+
+https://arstechnica.com/gadgets/2021/07/new-macbook-pro-with-new-apple-chip-mini-led-display-expected-this-fall/ 20210702.054310 
+
+https://arstechnica.com:444/video/watch/unsolved-mysteries-unsolved-mysteries-of-quantum-leap-with-donald-p-bellisario 20210702.054457 
+
+https://loudounnow.com/2021/07/01/youngkin-unveils-education-plan-at-rally-in-ashburn/ 20210702.055057 
+
+https://www.inverse.com/entertainment/loki-episode-4-titan-thanos-theory 20210702.055903 
+
+https://www.washingtonexaminer.com/news/loudoun-county-school-culture-war-blowup-fuels-virginia-governor-race 20210702.080030 
+
+https://www.washingtonexaminer.com/news/loudoun-county-school-culture-war-blowup-fuels-virginia-governor-race 20210702.080359 
+
+https://www.notebookcheck.net/CrowPi2-The-Raspberry-Pi-laptop-kit-is-now-purchasable-worldwide.548546.0.html 20210702.080503 
+
+https://www.notebookcheck.net/CrowPi2-The-Raspberry-Pi-laptop-kit-is-now-purchasable-worldwide.548546.0.html 20210702.080646 
+
+https://docs.github.com/en/github/authenticating-to-github/managing-commit-signature-verification/generating-a-new-gpg-key 20210702.080719 
+
+https://docs.github.com/en/github/authenticating-to-github/managing-commit-signature-verification/generating-a-new-gpg-key 20210702.081033 
+
+https://www.gnupg.org/gph/en/manual/c14.html 20210702.081047 
+
+https://blogs.oracle.com/javamagazine/java-javafx-fxgl-game-development 20210702.091413 
+
+https://guides.micronaut.io/latest/micronaut-oracle-function-http.html 20210702.092310 
+
+https://docs.aws.amazon.com/greengrass/v2/developerguide/greengrass-release-2021-06-29.html 20210702.092427 
+
+https://www.youtube.com/watch?v=deHpxfaiIdg 20210702.092503 
+
+https://www.youtube.com/watch?v=deHpxfaiIdg 20210702.092521 
+
+https://stackoverflow.com/questions/68210396/grails-3-3-9-problem-displaying-jsp-in-grails-3-3-9-project?utm_source=dlvr.it&utm_medium=twitter 20210702.093550 
+
+https://player.vimeo.com/video/565782077 20210702.094302 
+
+https://blog.bitsrc.io/not-all-microservices-need-to-be-rest-3-alternatives-to-the-classic-41cedbf1a907 20210702.094956 
+
+https://blog.bitsrc.io/not-all-microservices-need-to-be-rest-3-alternatives-to-the-classic-41cedbf1a907 20210702.095232 
+
+https://guides.grails.org/grails-upload-file/guide/index.html 20210702.100136 
+
+https://guides.grails.org/grails-upload-file/guide/index.html 20210703.023645 
+
+https://www.gnupg.org/documentation/manuals/gnupg/GPG-Configuration.html 20210703.055408 
+
+https://www.gnupg.org/documentation/manuals/gnupg/Programmatic-use-of-GnuPG.html#Programmatic-use-of-GnuPG 20210703.084305 
+
+https://wiki.gnupg.org/APIs 20210703.084413 
+
+https://github.com/guardianproject/gnupg-for-java 20210703.084455 
+
+https://visualstudiomagazine.com/articles/2021/07/01/aws-vscode.aspx?m=1 20210703.091933 
+
+https://visualstudiomagazine.com/articles/2021/07/01/aws-vscode.aspx?m=1 20210703.092412 
+
+https://security.stackexchange.com/questions/144551/is-it-a-coincidence-that-the-first-4-bytes-of-a-pgp-gpg-file-are-ellipsis-smile 20210703.094514 
+
+https://en.wikipedia.org/wiki/File_format 20210703.094912 
+
+https://www.gnupg.org/documentation/manuals/gnupg/Programmatic-use-of-GnuPG.html#Programmatic-use-of-GnuPG 20210703.095145 
+
+https://www.gnupg.org/documentation/manuals/gnupg/GPG-Configuration.html 20210703.095237 
+
+https://inside.java/2021/06/29/podcast-018/ 20210703.101010 
+
+https://www.youtube.com/watch?v=S5rMEP-3q1A 20210703.101216 
+
+https://stackoverflow.com/questions/68230119/hi-team-am-new-in-groovy-i-know-that-its-simple-but-i-got-confused-in-my-cont?utm_source=dlvr.it&utm_medium=twitter 20210703.101559 
+
+https://stackoverflow.com/questions/68232928/how-to-conect-a-sqlite-datasource-in-grails-3-3-9-in-intellij-j-2021?utm_source=dlvr.it&utm_medium=twitter 20210703.101942 
+
+https://www.youtube.com/user/intellijideavideo 20210703.102118 
+
+https://github.com/raphw/byte-buddy/releases/tag/byte-buddy-1.11.6 20210703.102903 
+
+https://www.raspberrypi.org/weekly/i-want-to-cuddle/ 20210703.103510 
+
+https://www.raspberrypi.org/blog/machine-learning-made-easy-with-raspberry-pi-adafruit-and-microsoft/ 20210703.103608 
+
+https://persistentminds.com/2017/06/28/how-to-install-cucumber-plugin-for-eclipse-ide/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost 20210703.104059 
+
+https://www.gnupg.org/documentation/manuals/gnupg/Installation.html#Installation 20210703.115913 
+
+https://www.gnupg.org/documentation/manuals/gnupg/Specify-a-User-ID.html#Specify-a-User-ID 20210703.120150 
+
+https://www.gnupg.org/documentation/manuals/gnupg/System-Notes.html#System-Notes 20210703.120317 
+
+https://gnupg.org/download/ 20210703.120507 
+
+https://gnupg.org/download/ 20210703.120550 
+
+https://gpg4win.org/download.html 20210703.120558 
+
+https://gpg4win.org/version3.html 20210703.120943 
+
+https://gpg4win.org/version3.html 20210703.121035 
+
+https://files.gpg4win.org/doc/gpg4win-compendium-en.pdf 20210703.121216 
+
+https://docs.github.com/en/github/authenticating-to-github/managing-commit-signature-verification/generating-a-new-gpg-key 20210703.221718 
+
+https://www.gnupg.org/gph/en/manual/c14.html 20210703.221819 
+
+https://www.gnupg.org/gph/en/manual/c14.html 20210703.222043 
+
+https://www.gnupg.org/documentation/manuals/gnupg/Unattended-GPG-key-generation.html 20210703.222438 
+
+https://www.gnupg.org/documentation/manuals/gnupg/Unattended-GPG-key-generation.html#Unattended-GPG-key-generation 20210704.050311 
+
+https://www.reviewgeek.com/89140/dell-u2722de-usb-c-monitor-review-the-perfect-display-for-laptop-power-users/ 20210704.055506 
+
+https://www.reviewgeek.com/89140/dell-u2722de-usb-c-monitor-review-the-perfect-display-for-laptop-power-users/ 20210704.060029 
+
+https://www.thurrott.com/hardware/252908/qualcomm-drops-arm-to-compete-in-pc-market 20210704.060359 
+
+https://www.thurrott.com/hardware/252908/qualcomm-drops-arm-to-compete-in-pc-market 20210704.060412 
+
+https://www.slashgear.com/nasas-most-popular-free-software-was-originally-designed-to-enable-space-exploration-03680950/ 20210704.060539 
+
+https://www.washingtonexaminer.com/opinion/op-eds/how-long-will-it-take-the-us-to-become-like-peru 20210704.062642 
+
+https://www.washingtonexaminer.com/opinion/op-eds/how-long-will-it-take-the-us-to-become-like-peru 20210704.062917 
+
+https://www.techradar.com/news/do-you-really-need-a-4k-monitor 20210704.063004 
+
+https://www.techradar.com/news/do-you-really-need-a-4k-monitor 20210704.063639 
+
+https://www.techradar.com/news/do-you-really-need-a-4k-monitor 20210704.063833 
+
+https://www.techradar.com/news/do-you-really-need-a-4k-monitor 20210704.064119 
+
+https://nationalinterest.org/blog/buzz/us-militarys-eye-sky-why-global-hawk-powerful-asset-189182 20210704.064228 
+
+https://nationalinterest.org/blog/buzz/us-militarys-eye-sky-why-global-hawk-powerful-asset-189182 20210704.064432 
+
+https://nationalinterest.org/blog/buzz/us-militarys-eye-sky-why-global-hawk-powerful-asset-189182 20210704.064852 
+
+https://bangordailynews.com/2021/07/03/news/new-england/heavily-armed-men-on-their-way-to-maine-standing-off-with-mass-police-on-i-95/ 20210704.065530 
+
+https://9to5toys.com/2021/07/02/dell-july-4th-sale-2021/ 20210704.070903 
+
+https://9to5toys.com/2021/07/02/dell-july-4th-sale-2021/ 20210704.071026 
+
+https://thorben-janssen.com/migrating-jpa-2-x-to-3-0/?utm_source=social&utm_medium=twitter&utm_campaign=tutorial 20210704.071921 
+
+https://thorben-janssen.com/migrating-jpa-2-x-to-3-0/?utm_source=social&utm_medium=twitter&utm_campaign=tutorial 20210704.072159 
+
+https://blogs.oracle.com/javamagazine/10-good-reads-from-the-java-magazine-archives 20210704.072302 
+
+https://dzone.com/articles/java-object-size-estimation-measuring-verifying 20210704.072856 
+
+https://www.java67.com/2020/04/top-5-advanced-courses-to-learn-java-perofrmance-concurrency-memory-management.html 20210704.073120 
+
+https://www.javacodegeeks.com/2019/03/java-12-general-availability.html 20210704.073259 
+
+https://www.javacodegeeks.com/2019/03/java-12-general-availability.html 20210704.073355 
+
+https://www.javacodegeeks.com/2019/03/java-12-general-availability.html 20210704.073412 
+
+https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio 20210704.073545 
+
+https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio 20210704.073555 
+
+https://www.baeldung.com/cs/tcp-udp-vs-sctp 20210704.074228 
+
+https://www.baeldung.com/cs/tcp-udp-vs-sctp 20210704.074331 
+
+https://quarkus.io/quarkus2/ 20210704.074556 
+
+https://quarkus.io/quarkus2/ 20210704.074635 
+
+https://www.redhat.com/sysadmin/creating-gpg-keypairs 20210704.075329 
+
+https://www.redhat.com/sysadmin/creating-gpg-keypairs 20210704.075821 
+
+https://docs.github.com/en/github/authenticating-to-github/managing-commit-signature-verification/generating-a-new-gpg-key 20210704.075841 
+
+http://irtfweb.ifa.hawaii.edu/~lockhart/gpg/ 20210704.080040 
+
+http://irtfweb.ifa.hawaii.edu/~lockhart/gpg/ 20210704.080443 
+
+https://www.linuxbabe.com/security/a-practical-guide-to-gpg-part-1-generate-your-keypair 20210704.081136 
+
+https://www.linuxbabe.com/security/a-pratical-gpg-guide-part-2-encrypt-and-decrypt-message 20210704.081202 
+
+https://www.linuxbabe.com/security/a-pratical-gpg-guide-part-2-encrypt-and-decrypt-message 20210704.081437 
+
+https://www.linuxbabe.com/security/a-practical-guide-to-gpg-part-4-digital-signature 20210704.081806 
+
+https://unix.stackexchange.com/questions/60213/gpg-asks-for-password-even-with-passphrase 20210704.082434 
+
+https://unix.stackexchange.com/questions/60213/gpg-asks-for-password-even-with-passphrase 20210704.083650 
+
+https://unix.stackexchange.com/questions/60213/gpg-asks-for-password-even-with-passphrase 20210704.084232 
+
+https://stackoverflow.com/questions/49072403/suppress-the-passphrase-prompt-in-gpg-command 20210704.085433 
+
+https://stackoverflow.com/questions/49072403/suppress-the-passphrase-prompt-in-gpg-command 20210704.100422 
+
+https://astera.zendesk.com/hc/en-us/community/posts/115000231383-How-to-pass-the-passphrase-into-GPG-for-decryption 20210704.100901 
+
+https://astera.zendesk.com/hc/en-us/community/posts/115000231383-How-to-pass-the-passphrase-into-GPG-for-decryption 20210704.101114 
+
+https://www.linuxbabe.com/security/a-practical-guide-to-gpg-part-4-digital-signature 20210704.101157 
+
+https://www.linuxbabe.com/security/a-practical-guide-to-gpg-part-3-working-with-public-key 20210704.101208 
+
+https://www.linuxbabe.com/security/a-pratical-gpg-guide-part-2-encrypt-and-decrypt-message 20210704.101224 
+
+https://www.linuxbabe.com/security/a-practical-guide-to-gpg-part-1-generate-your-keypair 20210704.101249 
+
+https://www.linuxbabe.com/security/a-practical-guide-to-gpg-part-1-generate-your-keypair 20210704.101302 
+
+https://www.gnupg.org/documentation/manuals/gnupg/Ephemeral-home-directories.html#Ephemeral-home-directories 20210704.101316 
+
+https://files.gpg4win.org/doc/gpg4win-compendium-en.pdf#page25 20210704.101330 
+
+https://files.gpg4win.org/doc/gpg4win-compendium-en.pdf#page25 20210704.102113 
+
+https://www.gnupg.org/gph/en/manual/r684.html 20210704.102131 
+
+https://www.gnupg.org/gph/en/manual/book1.html 20210704.102145 
+
+https://www.gnupg.org/gph/en/manual/c14.html#AEN25 20210704.102214 
+
+https://usermanual.wiki/Document/pgpCmdline103usersen.626779542 20210704.102237 
+
+https://usermanual.wiki/Document/pgpCmdline103usersen.626779542 20210704.102508 
+
+https://www.makeuseof.com/update-graphics-drivers-in-windows-10/ 20210704.102835 
+
+https://www.makeuseof.com/update-graphics-drivers-in-windows-10/ 20210704.102843 
+
+https://www.makeuseof.com/update-graphics-drivers-in-windows-10/ 20210704.102953 
+
+https://www.winhelponline.com/blog/compare-two-directories-files-find-differences/ 20210704.104032 
+
+https://www.winhelponline.com/blog/compare-two-directories-files-find-differences/ 20210704.104044 
+
+https://www.winhelponline.com/blog/compare-two-directories-files-find-differences/ 20210704.234414 
+
+https://www.makeuseof.com/update-graphics-drivers-in-windows-10/ 20210704.234512 
+
+https://usermanual.wiki/Document/pgpCmdline103usersen.626779542/view 20210705.031502 
+
+https://www.geeksforgeeks.org/encrypting-and-decrypting-the-files-using-gnupg-in-linux/ 20210705.062117 
+
+https://eng.wealthfront.com/2011/02/23/encrypting-using-gpg-from-java/ 20210705.062730 
+
+https://www.infoq.com/news/2021/07/visual-studio-code-java-ide/ 20210705.073048 
+
+https://www.infoq.com/news/2021/07/visual-studio-code-java-ide/ 20210705.073752 
+
+https://code.visualstudio.com/docs/java/extensions 20210705.074143 
+
+https://code.visualstudio.com/docs/java/extensions 20210705.074332 
+
+https://foojay.io/ 20210705.102005 
+
+https://foojay.slack.com/signup#/domain-signup 20210705.102029 
+
+https://www.oracle.com/news/connect/arm-chips-move-into-cloud-data-centers.html?source=:so:tw:or:awr:ocorp:::&SC=:so:tw:or:awr:ocorp:::&pcode= 20210705.133945 
+
+https://www.oracle.com/news/connect/arm-chips-move-into-cloud-data-centers.html?source=:so:tw:or:awr:ocorp:::&SC=:so:tw:or:awr:ocorp:::&pcode= 20210705.134112 
+
+https://info.jetbrains.com/info.jetbrains.com/ijplatform-webinar-july-2021.html 20210705.134253 
+
+https://wkorando.github.io/sip-of-java/009.html 20210705.134537 
+
+https://wkorando.github.io/sip-of-java/009.html 20210705.135110 
+
+https://thezebra.org/2021/07/05/firefly-cellars-is-catching-great-wine-press/ 20210705.140350 
+
+https://thezebra.org/2021/07/05/firefly-cellars-is-catching-great-wine-press/ 20210705.140402 
+
+https://www.foxnews.com/media/pbs-vanessa-williams-backlash-black-national-anthem 20210705.142036 
+
+https://thenewstack.io/what-should-be-a-students-first-programming-language/ 20210705.142611 
+
+https://thenewstack.io/what-should-be-a-students-first-programming-language/ 20210705.145058 
+
+https://www.infoq.com/news/2021/07/java-news-roundup-jun28-2021/ 20210705.214352 
+
+https://www.infoq.com/news/2021/07/java-news-roundup-jun28-2021/ 20210705.214648 
+
+https://confluence.jetbrains.com/display/IDEADEV/IntelliJ+IDEA+2021.1.3+%28211.7628.21+build%29+Release+Notes 20210705.214712 
+
+https://www.jetbrains.com/idea/ 20210705.215000 
+
+https://www.tomshardware.com/news/raspberry-pi-barcode-scanning-nutritional 20210705.215323 
+
+https://www.hackster.io/kutluhan-aktar/barcode-based-nutrient-profiling-and-food-labelling-w-tf-28a371 20210705.215557 
+
+https://www.atkinsondev.com/post/code-coverage-helpful/ 20210705.220045 
+
+https://stackoverflow.com/questions/68262725/getting-started-with-grails-3-3-9-and-postgresql-12-7-error-org-postgresql-dri?utm_source=dlvr.it&utm_medium=twitter 20210705.220253 
+
+https://www.foxnews.com/politics/clyburn-voter-id-requirement 20210705.220959 
+
+https://hackaday.com/2021/07/05/wooden-linear-clock-aided-by-gps/ 20210705.221330 
+
+https://wccftech.com/apple-m2-chipset-for-2022-macbook-air/ 20210706.014637 
+
+https://dev.mysql.com/doc/refman/8.0/en/windows-install-archive.html 20210706.015131 
+
+https://dev.mysql.com/downloads/mysql/5.5.html?os=3&version=5 20210706.015321 
+
+https://dev.mysql.com/doc/refman/8.0/en/windows-installation.html 20210706.015402 
+
+https://dev.mysql.com/downloads/mysql/ 20210706.015431 
+
+https://dev.mysql.com/downloads/workbench/ 20210706.015510 
+
+https://dev.mysql.com/downloads/workbench/ 20210706.015534 
+
+https://dev.mysql.com/doc/workbench/en/wb-installing-windows.html 20210706.015718 
+
+https://dev.mysql.com/doc/workbench/en/wb-installing-windows.html 20210706.015808 
+
+https://dev.mysql.com/downloads/windows/installer/ 20210706.015850 
+
+https://dev.mysql.com/doc/index-connectors.html 20210706.020033 
+
+
