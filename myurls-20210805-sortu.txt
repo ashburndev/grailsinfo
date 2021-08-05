@@ -1,5 +1,5 @@
 
-MyUrls
+MyUrls-20210805
 http://g-ecx.images-amazon.com/images/G/01/digital/fiona/general/About_Your_Kindle.pdf 20210719.213806 
 http://g-ecx.images-amazon.com/images/G/01/digital/fiona/general/About_Your_Kindle.pdf 20210719.213833 
 http://m.connectionnewspapers.com/news/2021/jul/24/historic-herndon-oak-tree-removed/ 20210724.161402 
@@ -46,6 +46,7 @@ https://austingil.com/svg-favicons/ 20210709.064455
 https://austingil.com/svg-favicons/ 20210709.064625 
 https://betanews.com/2021/07/31/microsoft-just-made-it-even-easier-to-install-windows-subsystem-for-linux-in-windows-11-and-10/ 20210802.023745 
 https://betanews.com/2021/07/31/microsoft-just-made-it-even-easier-to-install-windows-subsystem-for-linux-in-windows-11-and-10/ 20210802.031516 
+https://blog.jetbrains.com/blog/2021/08/04/what-is-in-code-with-me-2021-2/ 20210805.070047 
 https://blog.jetbrains.com/idea/2020/10/webinar-summary-working-with-sql-and-databases-in-intellij-idea/ 20210711.211357 
 https://blog.jetbrains.com/idea/2020/10/webinar-summary-working-with-sql-and-databases-in-intellij-idea/ 20210712.060434 
 https://blog.jetbrains.com/idea/2021/06/intellij-idea-2021-1-3/ 20210708.210126 
@@ -356,6 +357,8 @@ https://videocardz.com/newz/dell-xps-9510-suffers-from-poor-gpu-performance-rtx-
 https://videocardz.com/newz/dell-xps-9510-suffers-from-poor-gpu-performance-rtx-3050-ti-slower-than-gtx-1650-ti 20210803.080215 
 https://visualvm.github.io/docs/command-line-options.html 20210802.211932 
 https://visualvm.github.io/docs/command-line-options.html 20210802.212026 
+https://visualvm.github.io/docs/command-line-options.html 20210805.072809 
+https://visualvm.github.io/docs/command-line-options.html 20210805.072823 
 https://visualvm.github.io/index.html 20210802.212039 
 https://visualvm.github.io/index.html 20210802.212143 
 https://wccftech.com/microsoft-confirms-windows-10-21h2-update-for-later-this-year/ 20210715.062604 
@@ -809,6 +812,7 @@ https://www.youtube.com/watch?v=dRX_stwoOgo 20210726.214148
 https://www.youtube.com/watch?v=eLjzPeM7wRc 20210717.073102 
 https://www.youtube.com/watch?v=eLjzPeM7wRc 20210717.074939 
 https://www.youtube.com/watch?v=fIPr_ANBpFk 20210801.102449 
+https://www.youtube.com/watch?v=vFh6em8jPYo 20210805.065535 
 https://www.zdnet.com/article/a-deeper-dive-into-facebooks-mysql-8-0-migration/ 20210724.073919 
 https://www.zdnet.com/article/a-deeper-dive-into-facebooks-mysql-8-0-migration/ 20210724.074537 
 https://www.zdnet.com/article/ifixit-ceo-names-and-shames-tech-giants-for-right-to-repair-obstruction/ 20210725.092403 
