@@ -1,0 +1,131 @@
+9:06 AM 8/7/2021
+
+Device name	dphxps15
+Processor	Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz   2.80 GHz
+Installed RAM	16.0 GB (15.9 GB usable)
+Device ID	E5600C2C-91D0-49A9-B555-8731958C0404
+Product ID	00330-80000-00000-AA027
+System type	64-bit operating system, x64-based processor
+Pen and touch	Touch support with 10 touch points
+
+Edition	Windows 10 Pro
+Version	21H1
+Installed on	‎9/‎1/‎2020
+OS build	19043.1151
+Experience	Windows Feature Experience Pack 120.2212.3530.0
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://code.visualstudio.com/download#
+
+08/07/2021  09:09 AM        83,230,816 VSCodeUserSetup-x64-1.59.0.exe
+08/07/2021  09:09 AM        83,230,752 VSCodeSetup-x64-1.59.0.exe
+08/07/2021  09:10 AM       114,289,424 VSCode-win32-x64-1.59.0.zip
+
+https://mkyong.com/maven/maven-display-project-dependency/
+
+mvn dependency:tree
+
+https://stackoverflow.com/questions/45112660/jersey-servlet-running-on-tomcat
+https://www.jetbrains.com/help/idea/maven-projects-tool-window.html
+
+
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\David Holberton\temprepos\simple-service-webapp>
+C:\Users\David Holberton\temprepos\simple-service-webapp>mvn -version
+Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T14:41:47-04:00)
+Maven home: C:\LocalApps\apache-maven-3.6.0\bin\..
+Java version: 1.8.0_281, vendor: Oracle Corporation, runtime: C:\LocalApps\Java\jdk1.8.0_281\jre
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+
+C:\Users\David Holberton\temprepos\simple-service-webapp>
+C:\Users\David Holberton\temprepos\simple-service-webapp>mvn dependency:tree
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.pom (6.5 kB at 12 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.jar (79 kB at 749 kB/s)
+[INFO]
+[INFO] -----------------< com.example:simple-service-webapp >------------------
+[INFO] Building simple-service-webapp 1.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.34/jersey-container-servlet-core-2.34.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.34/jersey-container-servlet-core-2.34.pom (3.4 kB at 71 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.34/jersey-container-servlet-core-2.34.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.34/jersey-container-servlet-core-2.34.jar (73 kB at 765 kB/s)
+[INFO]
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ simple-service-webapp ---
+[INFO] com.example:simple-service-webapp:war:1.0-SNAPSHOT
+[INFO] +- org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.34:compile
+[INFO] |  +- org.glassfish.hk2.external:jakarta.inject:jar:2.6.1:compile
+[INFO] |  +- org.glassfish.jersey.core:jersey-common:jar:2.34:compile
+[INFO] |  |  +- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+[INFO] |  |  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.3:compile
+[INFO] |  +- org.glassfish.jersey.core:jersey-server:jar:2.34:compile
+[INFO] |  |  +- org.glassfish.jersey.core:jersey-client:jar:2.34:compile
+[INFO] |  |  \- jakarta.validation:jakarta.validation-api:jar:2.0.2:compile
+[INFO] |  \- jakarta.ws.rs:jakarta.ws.rs-api:jar:2.1.6:compile
+[INFO] \- org.glassfish.jersey.inject:jersey-hk2:jar:2.34:compile
+[INFO]    +- org.glassfish.hk2:hk2-locator:jar:2.6.1:compile
+[INFO]    |  +- org.glassfish.hk2.external:aopalliance-repackaged:jar:2.6.1:compile
+[INFO]    |  +- org.glassfish.hk2:hk2-api:jar:2.6.1:compile
+[INFO]    |  \- org.glassfish.hk2:hk2-utils:jar:2.6.1:compile
+[INFO]    \- org.javassist:javassist:jar:3.25.0-GA:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.219 s
+[INFO] Finished at: 2021-08-07T09:17:40-04:00
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\David Holberton\temprepos\simple-service-webapp>
+C:\Users\David Holberton\temprepos\simple-service-webapp>
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>certutil -hashfile apache-tomcat-10.0.8.zip SHA512
+SHA512 hash of apache-tomcat-10.0.8.zip:
+04e94d45d10d0a5fab263aac0a0714f4610f28583a107534cbd8e636a3ddf1c2d0b4494fd721e1abdf8c1cd8e2514b3ec7819bb1d51c88123625e341a72940d4
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\David Holberton\Downloads>type apache-tomcat-10.0.8.zip.sha512
+04e94d45d10d0a5fab263aac0a0714f4610f28583a107534cbd8e636a3ddf1c2d0b4494fd721e1abdf8c1cd8e2514b3ec7819bb1d51c88123625e341a72940d4 *apache-tomcat-10.0.8.zip
+04e94d45d10d0a5fab263aac0a0714f4610f28583a107534cbd8e636a3ddf1c2d0b4494fd721e1abdf8c1cd8e2514b3ec7819bb1d51c88123625e341a72940d4
+C:\Users\David Holberton\Downloads>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+cd "C:\Users\David Holberton\temprepos\simple-service-webapp"
+mvn clean package
+copy target\simple-service-webapp.war \LocalApps\apache-tomcat-10.0.8\webapps
+
+cd "C:\Users\David Holberton\temprepos\simple-service-webapp"
+mvn clean package
+copy target\simple-service-webapp.war \LocalApps\apache-tomcat-8.5.61\webapps
+
+https://localhost/                                            works fine
+https://localhost/simple-service-webapp/                      works fine
+https://localhost/simple-service-webapp/myresource            fails 404
+https://localhost/simple-service-webapp/webapi/myresource     works fine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

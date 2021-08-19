@@ -1,0 +1,72 @@
+9:42 AM 7/11/2021
+
+https://stackoverflow.com/questions/318239/how-do-i-set-environment-variables-from-java
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Microsoft Windows [Version 10.0.19042.1083]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\David Holberton>gpg --list-secret-keys
+C:/gpg/keys-dh/pubring.kbx
+--------------------------
+sec   rsa4096 2021-07-05 [SC]
+      14912E2F9B4D33703F5241ED90A2D107CF1C45C4
+uid           [ultimate] David Holberton <dph@gmail.com>
+ssb   rsa4096 2021-07-05 [E]
+
+
+C:\Users\David Holberton>date /t
+Sun 07/11/2021
+
+C:\Users\David Holberton>time /t
+09:42 AM
+
+C:\Users\David Holberton>
+
+this was at the end of the path, and I removed it
+
+C:\Program Files (x86)\Gpg4win\..\GnuPG\bin
+C:\Users\David Holberton>gpg --version
+'gpg' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\David Holberton>
+C:\Users\David Holberton>C:\gpg\GnuPG\bin\gpg.exe --version
+gpg (GnuPG) 2.2.28
+libgcrypt 1.8.8
+Copyright (C) 2021 g10 Code GmbH
+License GNU GPL-3.0-or-later <https://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Home: C:/gpg/keys-dh
+Supported algorithms:
+Pubkey: RSA, ELG, DSA, ECDH, ECDSA, EDDSA
+Cipher: IDEA, 3DES, CAST5, BLOWFISH, AES, AES192, AES256, TWOFISH,
+        CAMELLIA128, CAMELLIA192, CAMELLIA256
+Hash: SHA1, RIPEMD160, SHA256, SHA384, SHA512, SHA224
+Compression: Uncompressed, ZIP, ZLIB, BZIP2
+
+C:\Users\David Holberton>C:\gpg\GnuPG\bin\gpg.exe --list-secret-keys
+C:/gpg/keys-dh/pubring.kbx
+--------------------------
+sec   rsa4096 2021-07-05 [SC]
+      14912E2F9B4D33703F5241ED90A2D107CF1C45C4
+uid           [ultimate] David Holberton <dph@gmail.com>
+ssb   rsa4096 2021-07-05 [E]
+
+
+C:\Users\David Holberton>
+
+
+In java code, add one environment varialbe and append to the path
+
+GNUPGHOME=C:\gpg\keys-dh
+
+
+
+
+
+
+

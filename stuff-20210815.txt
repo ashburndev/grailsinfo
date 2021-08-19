@@ -1,0 +1,80 @@
+7:46 AM 8/15/2021
+
+https://mirror.nodesdirect.com/apache/maven/maven-3/3.8.2/binaries/apache-maven-3.8.2-bin.zip
+https://downloads.apache.org/maven/maven-3/3.8.2/binaries/apache-maven-3.8.2-bin.zip.sha512
+https://downloads.apache.org/maven/maven-3/3.8.2/binaries/apache-maven-3.8.2-bin.zip.asc
+
+08/15/2021  07:45 AM         9,428,963 apache-maven-3.8.2-bin.zip
+08/15/2021  07:46 AM               128 apache-maven-3.8.2-bin.zip.sha512
+08/15/2021  07:47 AM               484 apache-maven-3.8.2-bin.zip.asc
+
+C:\Users\David Holberton\Downloads>certutil -hashfile apache-maven-3.8.2-bin.zip SHA512
+SHA512 hash of apache-maven-3.8.2-bin.zip:
+59ad2cbd6b7abde34ebedda94ce5631256373718e71b55202035bd1190d0144f071433f78b99e16f1204413b3eb888659e5039009e1ad0106f16332e3c62bced
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\David Holberton\Downloads>type apache-maven-3.8.2-bin.zip.sha512
+59ad2cbd6b7abde34ebedda94ce5631256373718e71b55202035bd1190d0144f071433f78b99e16f1204413b3eb888659e5039009e1ad0106f16332e3c62bced
+C:\Users\David Holberton\Downloads>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://docs.oracle.com/javase/8/docs/
+
+07/21/2021  06:43 AM       164,047,680 jdk-8u301-windows-i586.exe
+07/21/2021  06:44 AM       177,687,872 jdk-8u301-windows-x64.exe
+07/21/2021  06:44 AM        56,163,401 jdk-8u301-windows-i586-demos.zip
+07/21/2021  06:45 AM        56,184,157 jdk-8u301-windows-x64-demos.zip
+07/21/2021  06:45 AM            15,737 8u301checksum.html
+
+certutil -hashfile jdk-8u301-windows-x64.exe SHA256
+findstr /i "jdk-8u301-windows-x64.exe" 8u301checksum.html
+
+C:\Users\David Holberton\Downloads>findstr /i "jdk-8u301-windows-x64.exe" 8u301checksum.html
+<tr><td>jdk-8u301-windows-x64.exe</td><td> sha256: 8006c3ee538097ade90b6be0283360de7f4d23a09b2687058cc0ea2a37b995fa</br> md5: 171cd779fb9882197c79ecbf6367d660</td></tr>
+
+C:\Users\David Holberton\Downloads>certutil -hashfile jdk-8u301-windows-x64.exe SHA256
+SHA256 hash of jdk-8u301-windows-x64.exe:
+8006c3ee538097ade90b6be0283360de7f4d23a09b2687058cc0ea2a37b995fa
+CertUtil: -hashfile command completed successfully.
+8006c3ee538097ade90b6be0283360de7f4d23a09b2687058cc0ea2a37b995fa
+
+C:\Users\David Holberton\Downloads>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Microsoft Windows [Version 10.0.19043.1151]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\David Holberton>java -version
+java version "1.8.0_301"
+Java(TM) SE Runtime Environment (build 1.8.0_301-b09)
+Java HotSpot(TM) 64-Bit Server VM (build 25.301-b09, mixed mode)
+
+C:\Users\David Holberton>javac -version
+javac 1.8.0_301
+
+C:\Users\David Holberton>mvn --version
+Apache Maven 3.8.2 (ea98e05a04480131370aa0c110b8c54cf726c06f)
+Maven home: C:\LocalApps\apache-maven-3.8.2
+Java version: 1.8.0_301, vendor: Oracle Corporation, runtime: C:\LocalApps\Java\jdk1.8.0_301\jre
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+
+C:\Users\David Holberton>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+6:46 AM 7/29/2021
+
+https://www.jetbrains.com/idea/download/#section=windows
+
+https://confluence.jetbrains.com/display/IDEADEV/IntelliJ+IDEA+2021.2+%28212.4746.92+build%29+Release+Notes
+
+https://confluence.jetbrains.com/display/IDEADEV/IntelliJ+IDEA+2021.2+%28212.4746.92+build%29+Release+Notes?_gl=1*7eyurh*_ga*MTQwMDg2NTA3Ny4xNTExOTI1MjMw*_ga_V0XZL7QHEB*MTYyNzU1NTU1MS4yMS4wLjE2Mjc1NTU1NTEuNjA.&_ga=2.164547903.1480841247.1627555552-1400865077.1511925230
+
+https://tomcat.apache.org/download-80.cgi
+https://tomcat.apache.org/download-90.cgi
+https://tomcat.apache.org/download-10.cgi
+
+https://dev.mysql.com/downloads/mysql/
+https://dev.mysql.com/downloads/windows/installer/8.0.html
+https://dev.mysql.com/downloads/connector/j/
+https://www.mysql.com/products/connector/
+https://dev.mysql.com/doc/connector-j/8.0/en/
+https://dev.mysql.com/downloads/workbench/

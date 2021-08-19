@@ -1,0 +1,182 @@
+7:01 AM 8/2/2021
+
+https://www.jetbrains.com/help/idea/java-ee.html
+https://www.jetbrains.com/help/idea/restful-webservices.html
+https://www.jetbrains.com/help/idea/creating-and-running-your-first-restful-web-service.html
+https://www.jetbrains.com/help/idea/preparing-for-rest-development.html
+https://www.jetbrains.com/help/idea/coding-assistance-for-rest-development.html
+https://javaee.github.io/glassfish/download
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\David Holberton\RestGlassfishHelloWorld>
+C:\Users\David Holberton\RestGlassfishHelloWorld>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\RestGlassfishHelloWorld
+
+08/02/2021  07:22 AM    <DIR>          src
+08/02/2021  07:25 AM    <DIR>          .idea
+08/02/2021  07:27 AM    <DIR>          ..
+08/02/2021  07:27 AM    <DIR>          .
+08/02/2021  07:22 AM             1,898 pom.xml
+08/02/2021  07:25 AM             2,357 RestGlassfishHelloWorld.iml
+08/02/2021  07:29 AM               539 .gitignore
+               3 File(s)          4,794 bytes
+               4 Dir(s)  37,651,320,832 bytes free
+
+C:\Users\David Holberton\RestGlassfishHelloWorld>dir /o:gd .idea
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\RestGlassfishHelloWorld\.idea
+
+08/02/2021  07:25 AM    <DIR>          libraries
+08/02/2021  07:25 AM    <DIR>          artifacts
+08/02/2021  07:25 AM    <DIR>          ..
+08/02/2021  07:25 AM    <DIR>          .
+08/02/2021  07:22 AM               293 modules.xml
+08/02/2021  07:22 AM             1,882 workspace.xml
+08/02/2021  07:22 AM               184 .gitignore
+08/02/2021  07:25 AM               673 compiler.xml
+08/02/2021  07:25 AM               600 misc.xml
+08/02/2021  07:25 AM               864 jarRepositories.xml
+               6 File(s)          4,496 bytes
+               4 Dir(s)  37,651,320,832 bytes free
+
+C:\Users\David Holberton\RestGlassfishHelloWorld>
+C:\Users\David Holberton\RestGlassfishHelloWorld>tree /a /f
+Folder PATH listing
+Volume serial number is 4603-A8D3
+C:.
+|   .gitignore
+|   pom.xml
+|   RestGlassfishHelloWorld.iml
+|
++---.idea
+|   |   .gitignore
+|   |   compiler.xml
+|   |   jarRepositories.xml
+|   |   misc.xml
+|   |   modules.xml
+|   |   workspace.xml
+|   |
+|   +---artifacts
+|   |       RestGlassfishHelloWorld_war.xml
+|   |       RestGlassfishHelloWorld_war_exploded.xml
+|   |
+|   \---libraries
+|           Maven__javax_servlet_javax_servlet_api_4_0_1.xml
+|           Maven__javax_ws_rs_javax_ws_rs_api_2_1_1.xml
+|           Maven__org_apiguardian_apiguardian_api_1_1_0.xml
+|           Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml
+|           Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml
+|           Maven__org_junit_platform_junit_platform_commons_1_7_1.xml
+|           Maven__org_junit_platform_junit_platform_engine_1_7_1.xml
+|           Maven__org_opentest4j_opentest4j_1_2_0.xml
+|
+\---src
+    +---main
+    |   +---java
+    |   |   \---com
+    |   |       \---example
+    |   |           \---RestGlassfishHelloWorld
+    |   |                   HelloApplication.java
+    |   |                   HelloResource.java
+    |   |
+    |   \---resources
+    \---test
+        +---java
+        \---resources
+
+C:\Users\David Holberton\RestGlassfishHelloWorld>
+C:\Users\David Holberton\RestGlassfishHelloWorld>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\David Holberton\RestGlassfishHelloWorld>
+
+git remote add origin git@github.com:ashburndev/RestGlassfishHelloWorld.git
+git branch -M main
+git push -u origin main
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\David Holberton\RestGlassfishHelloWorld>java -version
+java version "1.8.0_281"
+Java(TM) SE Runtime Environment (build 1.8.0_281-b09)
+Java HotSpot(TM) 64-Bit Server VM (build 25.281-b09, mixed mode)
+
+C:\Users\David Holberton\RestGlassfishHelloWorld>javac -version
+javac 1.8.0_281
+
+C:\Users\David Holberton\RestGlassfishHelloWorld>mvn -version
+Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T14:41:47-04:00)
+Maven home: C:\LocalApps\apache-maven-3.6.0\bin\..
+Java version: 1.8.0_281, vendor: Oracle Corporation, runtime: C:\LocalApps\Java\jdk1.8.0_281\jre
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+
+C:\Users\David Holberton\RestGlassfishHelloWorld>
+C:\Users\David Holberton\RestGlassfishHelloWorld>mvn package
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ----------------< com.example:RestGlassfishHelloWorld >-----------------
+[INFO] Building RestGlassfishHelloWorld 1.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ RestGlassfishHelloWorld ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ RestGlassfishHelloWorld ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to C:\Users\David Holberton\RestGlassfishHelloWorld\target\classes
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ RestGlassfishHelloWorld ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ RestGlassfishHelloWorld ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ RestGlassfishHelloWorld ---
+[INFO]
+[INFO] --- maven-war-plugin:3.3.1:war (default-war) @ RestGlassfishHelloWorld ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [RestGlassfishHelloWorld] in [C:\Users\David Holberton\RestGlassfishHelloWorld\target\RestGlassfishHelloWorld-1.0-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Building war: C:\Users\David Holberton\RestGlassfishHelloWorld\target\RestGlassfishHelloWorld-1.0-SNAPSHOT.war
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.597 s
+[INFO] Finished at: 2021-08-02T07:45:10-04:00
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\David Holberton\RestGlassfishHelloWorld>
+C:\Users\David Holberton\RestGlassfishHelloWorld>git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 1.64 KiB | 70.00 KiB/s, done.
+From github.com:ashburndev/RestGlassfishHelloWorld
+   d454b8a..429f7e6  main       -> origin/main
+Updating d454b8a..429f7e6
+Fast-forward
+ README.md | 105 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 105 insertions(+)
+ create mode 100644 README.md
+
+C:\Users\David Holberton\RestGlassfishHelloWorld>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\David Holberton\RestGlassfishHelloWorld>
+C:\Users\David Holberton\RestGlassfishHelloWorld>
+

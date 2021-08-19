@@ -1,0 +1,764 @@
+11:50 AM 8/18/2021
+
+Device name	dphxps15
+Processor	Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz   2.80 GHz
+Installed RAM	16.0 GB (15.9 GB usable)
+Device ID	E5600C2C-91D0-49A9-B555-8731958C0404
+Product ID	00330-80000-00000-AA027
+System type	64-bit operating system, x64-based processor
+Pen and touch	Touch support with 10 touch points
+
+Edition	Windows 10 Pro
+Version	21H1
+Installed on	‎9/‎1/‎2020
+OS build	19043.1151
+Experience	Windows Feature Experience Pack 120.2212.3530.0
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\David Holberton>cd .ssh
+
+C:\Users\David Holberton\.ssh>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\.ssh
+
+02/10/2019  09:06 AM    <DIR>          ..
+02/10/2019  09:06 AM    <DIR>          .
+02/10/2019  09:04 AM             3,243 id_rsa
+02/10/2019  09:04 AM               746 id_rsa.pub
+12/23/2020  08:13 AM             3,031 known_hosts
+               3 File(s)          7,020 bytes
+               2 Dir(s)  37,003,485,184 bytes free
+
+C:\Users\David Holberton\.ssh>
+C:\Users\David Holberton\.ssh>type id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC9sMnYumw46Xqmq+m1K9cFPbwjwU3nPuuEiHzITXSHzo15mvQPGQ4o6m5tX5JYjV7Lwu4J9sVSFh1dxYwXcm1YmACCk8W8Qz+TFJENu5Z7GA1QxyF/kUCNYVYnYfCNDfRiv0Y+MRWo36L5s/Mq8Y7eIkAMsYGLqrL+JrwDKPG69nfoXLc+Yrwc4v9UepSV8KPPQU5epXFHY/ptTovDxVIPBABW5l10kuwmIUWZLX6QyEQjTXLkuJgjAotqm8oIctTmaGVHwoKOgtv7bpYGz7xgREkHoz1U0DjM0uchSw97v/AKY+AVVEHKH+ANRqobtLbVQBE9gyMMNAIZKgB74ayf7fiwPdGEO/dx2GDpIVT1RPVzcK1olUYoiC1MGA6C+xLd8dxJHjUoQSb7FOoZEn7kmG/W4P9ueurLNRHYeARn3Ii54ap7zTB6JnHvMW32f6hti/QMnQKJ4GQiSfwspDcTpJXzC5ePSQ4gtqjoBTJ5ZpGlkTjjExHqLXiOJNp8IXLE8fExjwPTC9y5zPosg4Lpj5ElQ2caMeOgUraQWeeC4DHm8QRwHIh/sYXwzU7JSPTavH6VePvcZj7b9k9edSc6QV/go6UeZ/G++cb/CMcZVmXtlTzBhr2B7h4OZzFkiY8lwGgJML34WBqwF8puyCKp8Bwacd5ND8jXmgGfRFWhVw== ashburndev@gmail.com
+
+++++++++++..........++++++++++..........++++++++++..........++++++++++..........
+00000000011111111112222222222333333333344444444445555555555666666666677777777778
+12345678901234567890123456789012345678901234567890123456789012345678901234567890
+++++++++++..........++++++++++..........++++++++++..........++++++++++..........
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC9sMnYumw46Xqmq+m1K9cFPbwj
+wU3nPuuEiHzITXSHzo15mvQPGQ4o6m5tX5JYjV7Lwu4J9sVSFh1dxYwXcm1YmACC
+k8W8Qz+TFJENu5Z7GA1QxyF/kUCNYVYnYfCNDfRiv0Y+MRWo36L5s/Mq8Y7eIkAM
+sYGLqrL+JrwDKPG69nfoXLc+Yrwc4v9UepSV8KPPQU5epXFHY/ptTovDxVIPBABW
+5l10kuwmIUWZLX6QyEQjTXLkuJgjAotqm8oIctTmaGVHwoKOgtv7bpYGz7xgREkH
+oz1U0DjM0uchSw97v/AKY+AVVEHKH+ANRqobtLbVQBE9gyMMNAIZKgB74ayf7fiw
+PdGEO/dx2GDpIVT1RPVzcK1olUYoiC1MGA6CxLd8dxJHjUoQSb7FOoZEn7kmG/W4
+P9ueurLNRHYeARn3Ii54ap7zTB6JnHvMW32f6hti/QMnQKJ4GQiSfwspDcTpJXzC
+5ePSQ4gtqjoBTJ5ZpGlkTjjExHqLXiOJNp8IXLE8fExjwPTC9y5zPosg4Lpj5ElQ
+2caMeOgUraQWeeC4DHm8QRwHIh/sYXwzU7JSPTavH6VePvcZj7b9k9edSc6QV/go
+6UeZ/G++cb/CMcZVmXtlTzBhr2B7h4OZzFkiY8lwGgJML34WBqwF8puyCKp8Bwac
+d5ND8jXmgGfRFWhVw== ashburndev@gmail.com
+
+C:\Users\David Holberton\.ssh>
+C:\Users\David Holberton\.ssh>type id_rsa
+-----BEGIN RSA PRIVATE KEY-----
+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
+-----END RSA PRIVATE KEY-----
+
+C:\Users\David Holberton\.ssh>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Microsoft Windows [Version 10.0.19043.1151]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\David Holberton>
+C:\Users\David Holberton>java -version
+java version "1.8.0_301"
+Java(TM) SE Runtime Environment (build 1.8.0_301-b09)
+Java HotSpot(TM) 64-Bit Server VM (build 25.301-b09, mixed mode)
+
+C:\Users\David Holberton>javac -version
+javac 1.8.0_301
+
+C:\Users\David Holberton>groovy --version
+Groovy Version: 3.0.7 JVM: 1.8.0_301 Vendor: Oracle Corporation OS: Windows 10
+
+C:\Users\David Holberton>
+C:\Users\David Holberton>git --version
+git version 2.33.0.windows.1
+
+C:\Users\David Holberton>mvn --version
+Apache Maven 3.8.2 (ea98e05a04480131370aa0c110b8c54cf726c06f)
+Maven home: C:\LocalApps\apache-maven-3.8.2
+Java version: 1.8.0_301, vendor: Oracle Corporation, runtime: C:\LocalApps\Java\jdk1.8.0_301\jre
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+
+C:\Users\David Holberton>
+C:\Users\David Holberton>gradle --version
+
+Welcome to Gradle 6.9!
+
+Here are the highlights of this release:
+ - This is a small backport release.
+ - Java 16 can be used to compile when used with Java toolchains
+ - Dynamic versions can be used within plugin declarations
+ - Native support for Apple Silicon processors
+
+For more details see https://docs.gradle.org/6.9/release-notes.html
+
+
+------------------------------------------------------------
+Gradle 6.9
+------------------------------------------------------------
+
+Build time:   2021-05-07 07:28:53 UTC
+Revision:     afe2e24ababc7b0213ccffff44970aa18035fc0e
+
+Kotlin:       1.4.20
+Groovy:       2.5.12
+Ant:          Apache Ant(TM) version 1.10.9 compiled on September 27 2020
+JVM:          1.8.0_301 (Oracle Corporation 25.301-b09)
+OS:           Windows 10 10.0 amd64
+
+C:\Users\David Holberton>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\David Holberton>gpg --version
+'gpg' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\David Holberton>
+
+C:\Program Files (x86)\GnuPG\bin>
+C:\Program Files (x86)\GnuPG\bin>gpg.exe --version
+gpg (GnuPG) 2.2.28
+libgcrypt 1.8.8
+Copyright (C) 2021 g10 Code GmbH
+License GNU GPL-3.0-or-later <https://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Home: C:/gpg/keys-apache
+Supported algorithms:
+Pubkey: RSA, ELG, DSA, ECDH, ECDSA, EDDSA
+Cipher: IDEA, 3DES, CAST5, BLOWFISH, AES, AES192, AES256, TWOFISH,
+        CAMELLIA128, CAMELLIA192, CAMELLIA256
+Hash: SHA1, RIPEMD160, SHA256, SHA384, SHA512, SHA224
+Compression: Uncompressed, ZIP, ZLIB, BZIP2
+
+C:\Program Files (x86)\GnuPG\bin>
+C:\Program Files (x86)\GnuPG\bin>gpg --list-keys
+C:/gpg/keys-apache/pubring.kbx
+------------------------------
+pub   rsa4096 2021-07-05 [SC]
+      14912E2F9B4D33703F5241ED90A2D107CF1C45C4
+uid           [ultimate] David Holberton <dph@gmail.com>
+sub   rsa4096 2021-07-05 [E]
+
+pub   rsa4096 2021-07-05 [SC]
+      E3D6F0B4BFE739B74B822001378549D87A82554F
+uid           [ unknown] James Bond <agent007@mi6.gov>
+sub   rsa4096 2021-07-05 [E]
+
+pub   rsa4096 2009-09-18 [SC]
+      A9C5DF4D22E99998D9875A5110C01C5A2F6059E7
+uid           [ unknown] Mark E D Thomas <markt@apache.org>
+sub   rsa4096 2009-09-18 [E]
+
+
+C:\Program Files (x86)\GnuPG\bin>
+C:\Program Files (x86)\GnuPG\bin>gpg --list-secret-keys
+C:/gpg/keys-apache/pubring.kbx
+------------------------------
+sec   rsa4096 2021-07-05 [SC]
+      14912E2F9B4D33703F5241ED90A2D107CF1C45C4
+uid           [ultimate] David Holberton <dph@gmail.com>
+ssb   rsa4096 2021-07-05 [E]
+
+
+C:\Program Files (x86)\GnuPG\bin>
+C:\Program Files (x86)\GnuPG\bin>gpg --fingerprint
+C:/gpg/keys-apache/pubring.kbx
+------------------------------
+pub   rsa4096 2021-07-05 [SC]
+      1491 2E2F 9B4D 3370 3F52  41ED 90A2 D107 CF1C 45C4
+uid           [ultimate] David Holberton <dph@gmail.com>
+sub   rsa4096 2021-07-05 [E]
+
+pub   rsa4096 2021-07-05 [SC]
+      E3D6 F0B4 BFE7 39B7 4B82  2001 3785 49D8 7A82 554F
+uid           [ unknown] James Bond <agent007@mi6.gov>
+sub   rsa4096 2021-07-05 [E]
+
+pub   rsa4096 2009-09-18 [SC]
+      A9C5 DF4D 22E9 9998 D987  5A51 10C0 1C5A 2F60 59E7
+uid           [ unknown] Mark E D Thomas <markt@apache.org>
+sub   rsa4096 2009-09-18 [E]
+
+
+C:\Program Files (x86)\GnuPG\bin>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+cd my-app
+
+mvn package
+
+Java 9 or later
+
+By default your version of Maven might use an old version of the maven-compiler-plugin that is not compatible with Java 9 or later versions. To target Java 9 or later, you should at least use version 3.6.0 of the maven-compiler-plugin and set the maven.compiler.release property to the Java release you are targetting (e.g. 9, 10, 11, 12, etc.).
+
+In the following example, we have configured our Maven project to use version 3.8.1 of maven-compiler-plugin and target Java 11:
+
+Running Maven Tools
+Maven Phases
+
+Although hardly a comprehensive list, these are the most common default lifecycle phases executed.
+
+    validate: validate the project is correct and all necessary information is available
+    compile: compile the source code of the project
+    test: test the compiled source code using a suitable unit testing framework. These tests should not require the code be packaged or deployed
+    package: take the compiled code and package it in its distributable format, such as a JAR.
+    integration-test: process and deploy the package if necessary into an environment where integration tests can be run
+    verify: run any checks to verify the package is valid and meets quality criteria
+    install: install the package into the local repository, for use as a dependency in other projects locally
+    deploy: done in an integration or release environment, copies the final package to the remote repository for sharing with other developers and projects.
+
+There are two other Maven lifecycles of note beyond the default list above. They are
+
+    clean: cleans up artifacts created by prior builds
+
+    site: generates site documentation for this project
+
+Phases are actually mapped to underlying goals. The specific goals executed per phase is dependant upon the packaging type of the project. For example, package executes jar:jar if the project type is a JAR, and war:war if the project type is - you guessed it - a WAR.
+
+An interesting thing to note is that phases and goals may be executed in sequence.
+
+mvn clean dependency:copy-dependencies package
+
+This command will clean the project, copy dependencies, and package the project (executing all phases up to package, of course).
+Generating the Site
+
+mvn site
+
+https://maven.apache.org/guides/getting-started/index.html
+
+mvn -B archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4
+
+mvn compile
+mvn test
+mvn test-compile
+mvn package
+mvn install
+mvn site
+mvn clean
+
+mvn -B archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4
+
+    mvn archetype:generate \
+      -DarchetypeGroupId=org.apache.maven.archetypes \
+      -DarchetypeArtifactId=maven-archetype-site \
+      -DgroupId=com.mycompany.app \
+      -DartifactId=my-app-site
+
+    mvn archetype:generate \
+        -DarchetypeGroupId=org.apache.maven.archetypes \
+        -DarchetypeArtifactId=maven-archetype-webapp \
+        -DgroupId=com.mycompany.app \
+        -DartifactId=my-webapp
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+jersey-quickstart-webapp
+
+https://howtodoinjava.com/jersey/jersey-quickstart-archetype-hello-world-application-example/
+
+    org.glassfish.jersey.archthypes    jersey-quickstart-webapp    2.2.0
+
+https://howtodoinjava.com/eclipse/how-to-import-maven-remote-archetype-catalogs-in-eclipse/
+    web page: Last Modified: August 30, 2020
+    Go to Windows -> Preferences -> Maven -> Archetypes
+    http://repo1.maven.org/maven2/archetype-catalog.xml
+
+https://maven.apache.org/archetype/maven-archetype-plugin/specification/archetype-catalog.html
+
+https://repo1.maven.org/maven2/org/glassfish/jersey/archetypes/jersey-quickstart-webapp/
+https://repo1.maven.org/maven2/org/glassfish/jersey/archetypes/jersey-quickstart-webapp/2.26/    2017-09-05 10:16
+https://repo1.maven.org/maven2/org/glassfish/jersey/archetypes/jersey-quickstart-webapp/2.29/    2019-06-25 05:15
+https://repo1.maven.org/maven2/org/glassfish/jersey/archetypes/jersey-quickstart-webapp/2.34/    2021-04-16 19:26
+
+https://mvnrepository.com/artifact/org.glassfish.jersey.archetypes/jersey-quickstart-webapp
+https://mvnrepository.com/artifact/org.glassfish.jersey.archetypes/jersey-quickstart-webapp/2.26    Sep, 2017
+https://mvnrepository.com/artifact/org.glassfish.jersey.archetypes/jersey-quickstart-webapp/2.29    Jun, 2019
+https://mvnrepository.com/artifact/org.glassfish.jersey.archetypes/jersey-quickstart-webapp/2.34    Apr, 2021
+
+<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.archetypes/jersey-quickstart-webapp -->
+<dependency>
+    <groupId>org.glassfish.jersey.archetypes</groupId>
+    <artifactId>jersey-quickstart-webapp</artifactId>
+    <version>2.34</version>
+</dependency>
+
+// https://mvnrepository.com/artifact/org.glassfish.jersey.archetypes/jersey-quickstart-webapp
+implementation group: 'org.glassfish.jersey.archetypes', name: 'jersey-quickstart-webapp', version: '2.34'
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Eclipse 2021-06 catalog url
+
+https://download.eclipse.org/technology/m2e/discovery/directory-1.15.xml
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+mvn install -Dmaven.test.skip=true
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\David Holberton\temprepos\simple-service-webapp>
+C:\Users\David Holberton\temprepos\simple-service-webapp>mvn --version
+Apache Maven 3.8.2 (ea98e05a04480131370aa0c110b8c54cf726c06f)
+Maven home: C:\LocalApps\apache-maven-3.8.2
+Java version: 1.8.0_301, vendor: Oracle Corporation, runtime: C:\LocalApps\Java\jdk1.8.0_301\jre
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+
+C:\Users\David Holberton\temprepos\simple-service-webapp>
+C:\Users\David Holberton\temprepos\simple-service-webapp>mvn help:active-profiles
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/maven-metadata.xml
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/maven-metadata.xml (652 B at 1.3 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.2.0/maven-help-plugin-3.2.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.2.0/maven-help-plugin-3.2.0.pom (11 kB at 145 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.2.0/maven-help-plugin-3.2.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.2.0/maven-help-plugin-3.2.0.jar (86 kB at 1.0 MB/s)
+[INFO]
+[INFO] -----------------< com.example:simple-service-webapp >------------------
+[INFO] Building simple-service-webapp 1.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO]
+[INFO] --- maven-help-plugin:3.2.0:active-profiles (default-cli) @ simple-service-webapp ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.6.1/maven-model-3.6.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.6.1/maven-model-3.6.1.pom (4.0 kB at 86 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.6.1/maven-3.6.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.6.1/maven-3.6.1.pom (24 kB at 339 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.2.0/plexus-utils-3.2.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.2.0/plexus-utils-3.2.0.pom (4.8 kB at 127 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.5.2/maven-plugin-tools-generators-3.5.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.5.2/maven-plugin-tools-generators-3.5.2.pom (4.2 kB at 113 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-api/3.5.2/maven-plugin-tools-api-3.5.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-api/3.5.2/maven-plugin-tools-api-3.5.2.pom (2.9 kB at 94 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/sf/jtidy/jtidy/r938/jtidy-r938.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/sf/jtidy/jtidy/r938/jtidy-r938.pom (9.2 kB at 288 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.10.0/maven-artifact-transfer-0.10.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.10.0/maven-artifact-transfer-0.10.0.pom (12 kB at 178 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4/plexus-utils-1.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4/plexus-utils-1.4.pom (1.2 kB at 34 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6/jdom2-2.0.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6/jdom2-2.0.6.pom (4.6 kB at 121 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.11.1/xstream-1.4.11.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.11.1/xstream-1.4.11.1.pom (20 kB at 610 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.4.11.1/xstream-parent-1.4.11.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.4.11.1/xstream-parent-1.4.11.1.pom (37 kB at 814 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.pom (28 kB at 672 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.6.1/maven-model-3.6.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.5.2/maven-plugin-tools-generators-3.5.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/net/sf/jtidy/jtidy/r938/jtidy-r938.jar
+Downloading from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.1/commons-collections-3.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-api/3.5.2/maven-plugin-tools-api-3.5.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.6.1/maven-model-3.6.1.jar (186 kB at 2.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.10.0/maven-artifact-transfer-0.10.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-api/3.5.2/maven-plugin-tools-api-3.5.2.jar (24 kB at 227 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.5.2/maven-plugin-tools-generators-3.5.2.jar (48 kB at 390 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.2.0/plexus-utils-3.2.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6/jdom2-2.0.6.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/net/sf/jtidy/jtidy/r938/jtidy-r938.jar (250 kB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.11.1/xstream-1.4.11.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.10.0/maven-artifact-transfer-0.10.0.jar (128 kB at 535 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.2.0/plexus-utils-3.2.0.jar (263 kB at 942 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6/jdom2-2.0.6.jar (305 kB at 1.1 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.1/commons-collections-3.1.jar (559 kB at 1.9 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar (500 kB at 1.4 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.11.1/xstream-1.4.11.1.jar (621 kB at 1.7 MB/s)
+[INFO]
+Active Profiles for Project 'com.example:simple-service-webapp:war:1.0-SNAPSHOT':
+
+The following profiles are active:
+
+
+
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.468 s
+[INFO] Finished at: 2021-08-18T23:04:39-04:00
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\David Holberton\temprepos\simple-service-webapp>
+C:\Users\David Holberton\temprepos\simple-service-webapp>mvn --version
+Apache Maven 3.8.2 (ea98e05a04480131370aa0c110b8c54cf726c06f)
+Maven home: C:\LocalApps\apache-maven-3.8.2
+Java version: 1.8.0_301, vendor: Oracle Corporation, runtime: C:\LocalApps\Java\jdk1.8.0_301\jre
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+
+C:\Users\David Holberton\temprepos\simple-service-webapp>
+C:\Users\David Holberton\temprepos\simple-service-webapp>mvn help:active-profiles
+[INFO] Scanning for projects...
+[INFO]
+[INFO] -----------------< com.example:simple-service-webapp >------------------
+[INFO] Building simple-service-webapp 1.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO]
+[INFO] --- maven-help-plugin:3.2.0:active-profiles (default-cli) @ simple-service-webapp ---
+[INFO]
+Active Profiles for Project 'com.example:simple-service-webapp:war:1.0-SNAPSHOT':
+
+The following profiles are active:
+
+
+
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.145 s
+[INFO] Finished at: 2021-08-18T23:05:00-04:00
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\David Holberton\temprepos\simple-service-webapp>
+C:\Users\David Holberton\temprepos\simple-service-webapp>mvn -X clean | findstr /i "setting"
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG] Reading global settings from C:\LocalApps\apache-maven-3.8.2\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\David Holberton\.m2\settings.xml
+
+C:\Users\David Holberton\temprepos\simple-service-webapp>
+C:\Users\David Holberton\temprepos\simple-service-webapp>cd C:\LocalApps\apache-maven-3.8.2\conf
+
+C:\LocalApps\apache-maven-3.8.2\conf>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\LocalApps\apache-maven-3.8.2\conf
+
+08/04/2021  06:57 PM    <DIR>          ..
+08/04/2021  06:57 PM    <DIR>          logging
+08/04/2021  06:57 PM    <DIR>          .
+08/04/2021  06:57 PM             3,747 toolchains.xml
+08/04/2021  06:57 PM            10,742 settings.xml
+               2 File(s)         14,489 bytes
+               3 Dir(s)  36,093,550,592 bytes free
+
+C:\LocalApps\apache-maven-3.8.2\conf>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://github.com/settings/keys
+
+SSH keys
+
+This is a list of SSH keys associated with your account. Remove any keys that you do not recognize.
+
+SSH
+ssh-key-xps15
+SHA256:KflU1B3q0XJnGd3RStq54WggM/jGTzoswgxBsPV0778 Added on Oct 12, 2020 Last used within the last 2 weeks — Read/write
+
+SSH
+ssh-key-nuc4
+SHA256:wx5gSvcCH8stwv+QX8KrQ53KLZdbZhF/EWdFudwgtOg Added on Nov 11, 2020 Last used within the last 10 months — Read/write 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://mvnrepository.com/artifact/org.glassfish.jersey.archetypes/jersey-quickstart-webapp
+https://howtodoinjava.com/jersey/jersey-quickstart-archetype-hello-world-application-example/
+https://howtodoinjava.com/eclipse/how-to-import-maven-remote-archetype-catalogs-in-eclipse/
+https://maven.apache.org/archetype/maven-archetype-plugin/specification/archetype-catalog.html
+https://repo1.maven.org/maven2/org/glassfish/jersey/archetypes/jersey-quickstart-webapp/
+https://github.com/settings/keys
+
+
+https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-client
+https://mvnrepository.com/artifact/com.sun.jersey
+https://stackoverflow.com/questions/27893973/maven-dependencies-needed-for-jersey-2-x-2-6
+https://stackoverflow.com/questions/27806529/using-default-providers-messagebodywriters-in-jersey-2/27853698#27853698
+
+https://eclipse-ee4j.github.io/jersey/
+https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest/index.html
+https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest/getting-started.html
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest/getting-started.html
+
+mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-grizzly2 \
+-DarchetypeGroupId=org.glassfish.jersey.archetypes -DinteractiveMode=false \
+-DgroupId=com.example -DartifactId=simple-service -Dpackage=com.example \
+-DarchetypeVersion=2.34
+
+mvn exec:java
+
+$ curl http://localhost:8080/myapp/myresource
+Got it!
+
+curl -i http://localhost:8080/myapp/myresource
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Date: Sun, 26 May 2013 18:27:19 GMT
+Content-Length: 7
+
+Got it!
+
+mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-webapp \
+                -DarchetypeGroupId=org.glassfish.jersey.archetypes -DinteractiveMode=false \
+                -DgroupId=com.example -DartifactId=simple-service-webapp -Dpackage=com.example \
+                -DarchetypeVersion=2.34
+
+mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-webapp -DarchetypeGroupId=org.glassfish.jersey.archetypes -DinteractiveMode=false -DgroupId=com.example -DartifactId=simple-service-webapp -Dpackage=com.example -DarchetypeVersion=2.34
+
+mvn clean package
+
+ Now you are ready to take the packaged WAR (located under ./target/simple-service-webapp.war) and deploy it to a Servlet container of your choice.
+Important
+
+To deploy a Jersey application, you will need a Servlet container that supports Servlet 2.5 or later. For full set of advanced features (such as JAX-RS 2.0 Async Support) you will need a Servlet 3.0 or later compliant container. 
+
+
+mvn archetype:generate -DarchetypeArtifactId=jersey-heroku-webapp \
+                -DarchetypeGroupId=org.glassfish.jersey.archetypes -DinteractiveMode=false \
+                -DgroupId=com.example -DartifactId=simple-heroku-webapp -Dpackage=com.example \
+                -DarchetypeVersion=2.34
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\David Holberton\temprepos2>mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-webapp -DarchetypeGroupId=org.glassfish.jersey.archetypes -DinteractiveMode=false -DgroupId=com.example -DartifactId=simple-service-webapp -Dpackage=com.example -DarchetypeVersion=2.34
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------< org.apache.maven:standalone-pom >-------------------
+[INFO] Building Maven Stub Project (No POM) 1
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO]
+[INFO] >>> maven-archetype-plugin:3.2.0:generate (default-cli) > generate-sources @ standalone-pom >>>
+[INFO]
+[INFO] <<< maven-archetype-plugin:3.2.0:generate (default-cli) < generate-sources @ standalone-pom <<<
+[INFO]
+[INFO]
+[INFO] --- maven-archetype-plugin:3.2.0:generate (default-cli) @ standalone-pom ---
+[INFO] Generating project in Batch mode
+[INFO] Archetype repository not defined. Using the one from [org.glassfish.jersey.archetypes:jersey-quickstart-webapp:3.0.2] found in catalog remote
+[INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Old (1.x) Archetype: jersey-quickstart-webapp:2.34
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: basedir, Value: C:\Users\David Holberton\temprepos2
+[INFO] Parameter: package, Value: com.example
+[INFO] Parameter: groupId, Value: com.example
+[INFO] Parameter: artifactId, Value: simple-service-webapp
+[INFO] Parameter: packageName, Value: com.example
+[INFO] Parameter: version, Value: 1.0-SNAPSHOT
+[INFO] project created from Old (1.x) Archetype in dir: C:\Users\David Holberton\temprepos2\simple-service-webapp
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.216 s
+[INFO] Finished at: 2021-08-18T23:45:24-04:00
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\David Holberton\temprepos2>
+C:\Users\David Holberton\temprepos2>cd simple-service-webapp
+C:\Users\David Holberton\temprepos2\simple-service-webapp>tree /a
+Folder PATH listing
+Volume serial number is 4603-A8D3
+C:.
+\---src
+    \---main
+        +---java
+        |   \---com
+        |       \---example
+        +---resources
+        \---webapp
+            \---WEB-INF
+
+C:\Users\David Holberton\temprepos2\simple-service-webapp>tree /a /f
+Folder PATH listing
+Volume serial number is 4603-A8D3
+C:.
+|   pom.xml
+|
+\---src
+    \---main
+        +---java
+        |   \---com
+        |       \---example
+        |               MyResource.java
+        |
+        +---resources
+        \---webapp
+            |   index.jsp
+            |
+            \---WEB-INF
+                    web.xml
+
+
+C:\Users\David Holberton\temprepos2\simple-service-webapp>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\temprepos2\simple-service-webapp
+
+08/18/2021  11:45 PM    <DIR>          ..
+08/18/2021  11:45 PM    <DIR>          src
+08/18/2021  11:45 PM    <DIR>          .
+08/18/2021  11:45 PM             2,323 pom.xml
+               1 File(s)          2,323 bytes
+               3 Dir(s)  35,847,733,248 bytes free
+
+C:\Users\David Holberton\temprepos2\simple-service-webapp>
+C:\Users\David Holberton\temprepos2\simple-service-webapp>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+7:46 AM 8/19/2021
+
+C:\Users\David Holberton\temprepos2\simple-service-webapp>
+C:\Users\David Holberton\temprepos2\simple-service-webapp>
+C:\Users\David Holberton\temprepos2\simple-service-webapp>mvn -X clean | findstr /i "setting"
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG] Reading global settings from C:\LocalApps\apache-maven-3.8.2\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\David Holberton\.m2\settings.xml
+
+C:\Users\David Holberton\temprepos2\simple-service-webapp>
+C:\Users\David Holberton\temprepos2\simple-service-webapp>mvn help:effective-settings
+[INFO] Scanning for projects...
+[INFO]
+[INFO] -----------------< com.example:simple-service-webapp >------------------
+[INFO] Building simple-service-webapp 1.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO]
+[INFO] --- maven-help-plugin:3.2.0:effective-settings (default-cli) @ simple-service-webapp ---
+[INFO]
+Effective user-specific configuration settings:
+
+<?xml version="1.0" encoding="Cp1252"?>
+<!-- ====================================================================== -->
+<!--                                                                        -->
+<!-- Generated by Maven Help Plugin on 2021-08-19T07:46:07-04:00            -->
+<!-- See: http://maven.apache.org/plugins/maven-help-plugin/                -->
+<!--                                                                        -->
+<!-- ====================================================================== -->
+<!-- ====================================================================== -->
+<!--                                                                        -->
+<!-- Effective Settings for 'David Holberton' on 'dphxps15'                 -->
+<!--                                                                        -->
+<!-- ====================================================================== -->
+<settings xmlns="http://maven.apache.org/SETTINGS/1.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 http://maven.apache.org/xsd/settings-1.2.0.xsd">
+  <localRepository>C:\Users\David Holberton\.m2\repository</localRepository>
+  <mirrors>
+    <mirror>
+      <mirrorOf>external:http:*</mirrorOf>
+      <name>Pseudo repository to mirror external repositories initially using HTTP.</name>
+      <url>http://0.0.0.0/</url>
+      <blocked>true</blocked>
+      <id>maven-default-http-blocker</id>
+    </mirror>
+  </mirrors>
+  <pluginGroups>
+    <pluginGroup>org.apache.maven.plugins</pluginGroup>
+    <pluginGroup>org.codehaus.mojo</pluginGroup>
+  </pluginGroups>
+</settings>
+
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.074 s
+[INFO] Finished at: 2021-08-19T07:46:07-04:00
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\David Holberton\temprepos2\simple-service-webapp>
+C:\Users\David Holberton\temprepos2\simple-service-webapp>mvn dependency:tree
+[INFO] Scanning for projects...
+[INFO]
+[INFO] -----------------< com.example:simple-service-webapp >------------------
+[INFO] Building simple-service-webapp 1.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO]
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ simple-service-webapp ---
+[INFO] com.example:simple-service-webapp:war:1.0-SNAPSHOT
+[INFO] +- org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.34:compile
+[INFO] |  +- org.glassfish.hk2.external:jakarta.inject:jar:2.6.1:compile
+[INFO] |  +- org.glassfish.jersey.core:jersey-common:jar:2.34:compile
+[INFO] |  |  +- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+[INFO] |  |  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.3:compile
+[INFO] |  +- org.glassfish.jersey.core:jersey-server:jar:2.34:compile
+[INFO] |  |  +- org.glassfish.jersey.core:jersey-client:jar:2.34:compile
+[INFO] |  |  \- jakarta.validation:jakarta.validation-api:jar:2.0.2:compile
+[INFO] |  \- jakarta.ws.rs:jakarta.ws.rs-api:jar:2.1.6:compile
+[INFO] \- org.glassfish.jersey.inject:jersey-hk2:jar:2.34:compile
+[INFO]    +- org.glassfish.hk2:hk2-locator:jar:2.6.1:compile
+[INFO]    |  +- org.glassfish.hk2.external:aopalliance-repackaged:jar:2.6.1:compile
+[INFO]    |  +- org.glassfish.hk2:hk2-api:jar:2.6.1:compile
+[INFO]    |  \- org.glassfish.hk2:hk2-utils:jar:2.6.1:compile
+[INFO]    \- org.javassist:javassist:jar:3.25.0-GA:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.501 s
+[INFO] Finished at: 2021-08-19T07:48:00-04:00
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\David Holberton\temprepos2\simple-service-webapp>
+
+
+
+
+

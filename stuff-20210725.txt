@@ -1,0 +1,155 @@
+10:36 AM 7/25/2021
+
+https://www.eclipse.org/eclipse/news/4.20/
+
+Eclipse 4.20 - New and Noteworthy
+Welcome to the Eclipse SDK project!
+The Eclipse SDK project is part of the Eclipse 2021-06 simultaneous release. The Eclipse SDK and related resources can be downloaded from the Eclipse Project downloads page. The Eclipse installer and other packages can be downloaded from the Eclipse Installer page.
+
+The 4.20 release notes for the Eclipse SDK project can be found here. 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://www.eclipse.org/eclipse/development/readme_eclipse_4.20.php
+
+Eclipse Project Release Notes
+Release 4.20
+Last revised May 25, 2020 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://www.eclipse.org/eclipseide/2021-06/
+https://github.com/groovy/groovy-eclipse
+https://github.com/groovy/groovy-eclipse/wiki
+
+July 20th, 2021 	Snapshot builds for Eclipse 2021-09 are now available
+June 30th, 2021 	Groovy-Eclipse 4.2.0 released! 4.2.0 Release Notes
+April 19th, 2021 	Groovy 3.0.8 support is available in the latest snapshot builds
+April 16th, 2021 	Groovy 4.0.0-alpha-3 support is available in the latest snapshot builds
+April 10th, 2021 	Snapshot builds for Eclipse 2021-06 are now available
+March 31st, 2021 	Groovy-Eclipse 4.1.0 released! 4.1.0 Release Notes
+
+file:///C:/LocalApps/eclipse-jee-2021-06-R-win32-x86_64/readme/readme_eclipse.html
+
+As shown above, Eclipse 4.20 requires at least a Java SE 11. Perhaps an older version of the VM is being found in your path. To explicitly specify which VM to run with, use the Eclipse -vm command-line argument. (See also the Running Eclipse section below.)
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Microsoft Windows [Version 10.0.19042.1110]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\David Holberton>java -version
+java version "11.0.10" 2021-01-19 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.10+8-LTS-162)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.10+8-LTS-162, mixed mode)
+
+C:\Users\David Holberton>javac -version
+javac 11.0.10
+
+C:\Users\David Holberton>mvn --version
+Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T14:41:47-04:00)
+Maven home: C:\LocalApps\apache-maven-3.6.0\bin\..
+Java version: 11.0.10, vendor: Oracle Corporation, runtime: C:\LocalApps\Java\jdk-11.0.10
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+
+C:\Users\David Holberton>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+07/21/2021  06:43 AM       164,047,680 jdk-8u301-windows-i586.exe
+07/21/2021  06:44 AM       177,687,872 jdk-8u301-windows-x64.exe
+07/21/2021  06:44 AM        56,163,401 jdk-8u301-windows-i586-demos.zip
+07/21/2021  06:45 AM        56,184,157 jdk-8u301-windows-x64-demos.zip
+07/21/2021  06:47 AM       159,206,224 jdk-11.0.12_windows-x64_bin.exe
+07/21/2021  06:47 AM       179,591,451 jdk-11.0.12_windows-x64_bin.zip
+07/21/2021  06:49 AM       157,893,968 jdk-16.0.2_windows-x64_bin.exe
+07/21/2021  06:49 AM       177,000,115 jdk-16.0.2_windows-x64_bin.zip
+             159 File(s) 23,324,735,726 bytes
+               1 Dir(s)  40,848,195,584 bytes free
+
+09/19/2020  10:42 AM       400,348,966 eclipse-jee-2020-09-R-win32-x86_64.zip
+09/19/2020  10:44 AM               170 eclipse-jee-2020-09-R-win32-x86_64.zip.sha512
+12/17/2020  04:46 PM       523,216,961 eclipse-jee-2020-12-R-win32-x86_64.zip
+12/17/2020  04:48 PM               170 eclipse-jee-2020-12-R-win32-x86_64.zip.sha512
+03/18/2021  07:08 AM       544,526,125 eclipse-jee-2021-03-R-win32-x86_64.zip
+03/18/2021  07:10 AM               170 eclipse-jee-2021-03-R-win32-x86_64.zip.sha512
+06/20/2021  09:23 AM       541,618,756 eclipse-jee-2021-06-R-win32-x86_64.zip
+06/20/2021  09:25 AM               170 eclipse-jee-2021-06-R-win32-x86_64.zip.sha512
+              31 File(s)  6,422,520,375 bytes
+               0 Dir(s)  41,596,219,392 bytes free
+
+C:\LocalApps\eclipse-jee-2021-06-R-win32-x86_64>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\LocalApps\eclipse-jee-2021-06-R-win32-x86_64
+
+06/12/2021  08:37 PM    <DIR>          p2
+06/12/2021  08:37 PM    <DIR>          plugins
+06/12/2021  08:37 PM    <DIR>          features
+06/12/2021  08:37 PM    <DIR>          dropins
+06/12/2021  08:37 PM    <DIR>          readme
+06/12/2021  08:37 PM    <DIR>          configuration
+06/12/2021  08:39 PM    <DIR>          .
+06/12/2021  08:39 PM    <DIR>          ..
+06/11/2021  08:06 PM                61 .eclipseproduct
+06/12/2021  08:37 PM           276,233 artifacts.xml
+06/12/2021  08:37 PM               812 eclipse.ini
+06/12/2021  08:39 PM           426,192 eclipse.exe
+06/12/2021  08:39 PM           131,280 eclipsec.exe
+               5 File(s)        834,578 bytes
+               8 Dir(s)  40,847,384,576 bytes free
+
+C:\LocalApps\eclipse-jee-2021-06-R-win32-x86_64>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>certutil /?
+C:\Users\David Holberton\Downloads>certutil -hashfile /?
+Usage:
+  CertUtil [Options] -hashfile InFile [HashAlgorithm]
+  Generate and display cryptographic hash over a file
+
+Options:
+  -Unicode          -- Write redirected output in Unicode
+  -gmt              -- Display times as GMT
+  -seconds          -- Display times with seconds and milliseconds
+  -v                -- Verbose operation
+  -privatekey       -- Display password and private key data
+  -pin PIN                  -- Smart Card PIN
+  -sid WELL_KNOWN_SID_TYPE  -- Numeric SID
+            22 -- Local System
+            23 -- Local Service
+            24 -- Network Service
+
+Hash algorithms: MD2 MD4 MD5 SHA1 SHA256 SHA384 SHA512
+
+CertUtil -?              -- Display a verb list (command list)
+CertUtil -hashfile -?    -- Display help text for the "hashfile" verb
+CertUtil -v -?           -- Display all help text for all verbs
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>certutil -hashfile eclipse-jee-2021-06-R-win32-x86_64.zip SHA512
+SHA512 hash of eclipse-jee-2021-06-R-win32-x86_64.zip:
+b0c0497ef6697ffba91e2c88434813ebde3968108a440a930ec5269a50bd7bb0ae5fd45171a078c36da9a4d700f23c9ec93395c5a1aa697119dbd7663e7d8210
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\David Holberton\Downloads>type eclipse-jee-2021-06-R-win32-x86_64.zip.sha512
+b0c0497ef6697ffba91e2c88434813ebde3968108a440a930ec5269a50bd7bb0ae5fd45171a078c36da9a4d700f23c9ec93395c5a1aa697119dbd7663e7d8210  eclipse-jee-2021-06-R-win32-x86_64.zip
+
+C:\Users\David Holberton\Downloads>
+
+b0c0497ef6697ffba91e2c88434813ebde3968108a440a930ec5269a50bd7bb0ae5fd45171a078c36da9a4d700f23c9ec93395c5a1aa697119dbd7663e7d8210
+b0c0497ef6697ffba91e2c88434813ebde3968108a440a930ec5269a50bd7bb0ae5fd45171a078c36da9a4d700f23c9ec93395c5a1aa697119dbd7663e7d8210  eclipse-jee-2021-06-R-win32-x86_64.zip
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+
+
+
+
+

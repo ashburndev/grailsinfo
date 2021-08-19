@@ -1,0 +1,78 @@
+12:00 PM 7/10/2021
+
+Microsoft Windows [Version 10.0.19042.1083]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\David Holberton>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Device name	dphxps15
+Processor	Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz   2.80 GHz
+Installed RAM	16.0 GB (15.9 GB usable)
+Device ID	E5600C2C-91D0-49A9-B555-8731958C0404
+Product ID	00330-80000-00000-AA027
+System type	64-bit operating system, x64-based processor
+Pen and touch	Touch support with 10 touch points
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Edition	Windows 10 Pro
+Version	20H2
+Installed on	‎9/‎1/‎2020
+OS build	19042.1083
+Experience	Windows Feature Experience Pack 120.2212.3530.0
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\David Holberton>gpg --list-keys
+C:/gpg/keys-dh/pubring.kbx
+--------------------------
+pub   rsa4096 2021-07-05 [SC]
+      14912E2F9B4D33703F5241ED90A2D107CF1C45C4
+uid           [ultimate] David Holberton <dph@gmail.com>
+sub   rsa4096 2021-07-05 [E]
+
+pub   rsa4096 2021-07-05 [SC]
+      E3D6F0B4BFE739B74B822001378549D87A82554F
+uid           [ unknown] James Bond <agent007@mi6.gov>
+sub   rsa4096 2021-07-05 [E]
+
+
+C:\Users\David Holberton>
+C:\Users\David Holberton>gpg --list-secret-keys
+gpg: can't connect to the agent: IPC connect call failed
+
+C:\Users\David Holberton>
+C:\Program Files (x86)\GnuPG>gpg --version
+gpg (GnuPG) 2.2.28
+libgcrypt 1.8.8
+Copyright (C) 2021 g10 Code GmbH
+License GNU GPL-3.0-or-later <https://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Home: C:/gpg/keys-dh
+Supported algorithms:
+Pubkey: RSA, ELG, DSA, ECDH, ECDSA, EDDSA
+Cipher: IDEA, 3DES, CAST5, BLOWFISH, AES, AES192, AES256, TWOFISH,
+        CAMELLIA128, CAMELLIA192, CAMELLIA256
+Hash: SHA1, RIPEMD160, SHA256, SHA384, SHA512, SHA224
+Compression: Uncompressed, ZIP, ZLIB, BZIP2
+
+C:\Program Files (x86)\GnuPG>gpg --list-secret-keys
+C:/gpg/keys-dh/pubring.kbx
+--------------------------
+sec   rsa4096 2021-07-05 [SC]
+      14912E2F9B4D33703F5241ED90A2D107CF1C45C4
+uid           [ultimate] David Holberton <dph@gmail.com>
+ssb   rsa4096 2021-07-05 [E]
+
+
+C:\Program Files (x86)\GnuPG>
+
+
+
+
+
+
