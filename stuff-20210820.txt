@@ -1,0 +1,803 @@
+7:13 AM 8/20/2021
+
+https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement
+https://phoenixnap.com/kb/generate-ssh-key-windows-10
+
+ssh-keygen
+
+https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
+https://docs.joyent.com/public-cloud/getting-started/ssh-keys/generating-an-ssh-key-manually/manually-generating-your-ssh-key-in-windows
+
+ssh-keygen.exe
+
+https://virtualizationreview.com/articles/2020/05/18/ssh-on-windows.aspx
+https://mkyong.com/linux/check-openssh-version/
+
+On Linux, we can use ssh -v localhost or ssh -V to check the OpenSSH version currently installed.
+
+C:\Users\David Holberton>ssh -V
+OpenSSH_for_Windows_8.1p1, LibreSSL 3.0.2
+
+C:\Users\David Holberton>
+
+https://ubuntu.com/tutorials/ssh-keygen-on-windows#1-overview
+
+All you need is a PC running Windows and one of the following installed:
+
+    Ubuntu on WSL for Windows 10
+    The OpenSSH client built into Windows 10
+    The puttygen.exe executable from PuTTY for Windows 7 or 8.1
+
+ssh-keygen -t rsa
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\David Holberton>
+C:\Users\David Holberton>ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (C:\Users\David Holberton/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in C:\Users\David Holberton/.ssh/id_rsa.
+Your public key has been saved in C:\Users\David Holberton/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:wKItXJ6Ev07ZRzXql359W4WO43oo+YKKFAirjEgHxjw david holberton@dphxps15
+The key's randomart image is:
++---[RSA 3072]----+
+|                 |
+|o  . .           |
+|.E. + o   o      |
+|o+oB o . o .   . |
+|o.=.=   S     . .|
+|* .o + o   . o  .|
+|+.. + ..o.o.o.. .|
+| . +  ..+o..o.. o|
+|  . o.   +++.  o.|
++----[SHA256]-----+
+
+C:\Users\David Holberton>dir /o:gd .ssh
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\.ssh
+
+08/20/2021  07:11 AM    <DIR>          save1
+08/20/2021  07:31 AM    <DIR>          ..
+08/20/2021  07:31 AM    <DIR>          .
+12/23/2020  08:13 AM             3,031 known_hosts
+08/20/2021  07:31 AM             2,610 id_rsa
+08/20/2021  07:31 AM               579 id_rsa.pub
+               3 File(s)          6,220 bytes
+               3 Dir(s)  36,283,064,320 bytes free
+
+C:\Users\David Holberton>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://confluence.atlassian.com/bitbucketserver/creating-ssh-keys-776639788.html
+
+ssh-keygen -t rsa -C "your_email@example.com"
+
+ssh-keygen -t rsa -C "ashburndev@gmail.com"
+
+C:\Users\David Holberton>
+C:\Users\David Holberton>del .ssh\id*
+
+C:\Users\David Holberton>ssh-keygen -t rsa -C "ashburndev@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (C:\Users\David Holberton/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in C:\Users\David Holberton/.ssh/id_rsa.
+Your public key has been saved in C:\Users\David Holberton/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:dsbWvH3O9bNCWDziAMMlegi1t9I+SEPoiBGg4enGCK8 ashburndev@gmail.com
+The key's randomart image is:
++---[RSA 3072]----+
+|=  .......       |
+|oo. o ++.        |
+|+o . = oo   .    |
+|*oo . + .o + +   |
+|o=.. + oS B * .  |
+|..  . =. + o +   |
+|E    . o    o . o|
+|        .    . =o|
+|              ..*|
++----[SHA256]-----+
+
+C:\Users\David Holberton>
+C:\Users\David Holberton>dir /o:gd .ssh
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\.ssh
+
+08/20/2021  07:11 AM    <DIR>          save1
+08/20/2021  07:35 AM    <DIR>          ..
+08/20/2021  07:35 AM    <DIR>          .
+12/23/2020  08:13 AM             3,031 known_hosts
+08/20/2021  07:35 AM               575 id_rsa.pub
+08/20/2021  07:35 AM             2,610 id_rsa
+               3 File(s)          6,216 bytes
+               3 Dir(s)  36,282,494,976 bytes free
+
+C:\Users\David Holberton>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://www.unixtutorial.org/how-to-inspect-ssh-key-fingerprints/
+
+greys@server:~/.ssh$ cp id_rsa ..
+greys@server:~/.ssh$ cd ..
+greys@server:~$ ssh-keygen -l -f id_rsa
+Enter PEM pass phrase:
+2048 SHA256:z96jtEGIqfLoaq1INIBFI/3K2M+f9xZUyupsm3itgvI no comment (RSA)
+
+greys@server:~/.ssh$ cp id_rsa ..
+greys@server:~/.ssh$ cd ..
+greys@server:~$ ssh-keygen -l -E md5 -f id_rsa
+Enter PEM pass phrase:
+2048 MD5:06:6e:bc:f4:4e:03:90:b7:ba:99:8d:a5:71:1e:dc:22 no comment (RSA)
+
+C:\Users\David Holberton\.ssh>
+C:\Users\David Holberton\.ssh>copy id_rsa ..
+        1 file(s) copied.
+C:\Users\David Holberton\.ssh>cd ..
+C:\Users\David Holberton>ssh-keygen -l -f id_rsa
+3072 SHA256:dsbWvH3O9bNCWDziAMMlegi1t9I+SEPoiBGg4enGCK8 ashburndev@gmail.com (RSA)
+C:\Users\David Holberton>
+
+C:\Users\David Holberton>type .ssh\id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC9qp+aq9cXpD0/rwhG5r5M4l/i4ucnmhPRl1ZiwN7ixamytQyKF78BWx7/0Mn1Ix/SqgFzXlPeiryVmIVSPMSHF/Zgc1x5Oc/KbySJwQgM74GEMM2hZQIS9VHOJ7fJXR/ttpdN3xOjYCehbjcQ5fyPAmB08x/8l4VimXo3el9krRvP/0ECWhnaOKMTtGrY299v0ZW2++iRU0r9BNdtWSHSeuljlUAVlVaFjfHwjiFo/pDvxCkhib7Zq/jfYpvwR/oi3f2UMizb48pgfGa4droPt9lgPP3WJs5BOnPeNHaWoaHZWbf6pHOtpYwe+BWuRLiFz4dj8avI3cj0LcqFvI0cIxhz3USMCntKP2opGHRe0VRhFKaEzqOkhIBItYT5s3nHCWEScVthxxBwpOJrDKY6Au6Ttbi6+1WuVp/N3PmAZEkXUlHRVhSmtGCzTCewctkO66gOiIc5A/lT5/NQLqraEuUqXym3vGRSthR+TwLIq0ICGdZGhiGBCu3jRaywaic= ashburndev@gmail.com
+
+C:\Users\David Holberton>
+
+https://www.ssh.com/academy/ssh/keygen
+
+The algorithm is selected using the -t option and key size using the -b option. The following commands illustrate:
+
+ssh-keygen -t rsa -b 4096 
+ssh-keygen -t dsa 
+ssh-keygen -t ecdsa -b 521 
+ssh-keygen -t ed25519
+
+Normally, the tool prompts for the file in which to store the key. However, it can also be specified on the command line using the -f <filename> option.
+
+ssh-keygen -f ~/tatu-key-ecdsa -t ecdsa -b 521
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://github.com/settings/keys
+
+SSH keys
+
+This is a list of SSH keys associated with your account. Remove any keys that you do not recognize.
+
+SSH
+ssh-key-xps15
+SHA256:KflU1B3q0XJnGd3RStq54WggM/jGTzoswgxBsPV0778 Added on Oct 12, 2020 unverified automatically (private key found in a public repository) — Read/write
+SSH
+ssh-key-nuc4
+SHA256:wx5gSvcCH8stwv+QX8KrQ53KLZdbZhF/EWdFudwgtOg Added on Nov 11, 2020 Last used within the last 10 months — Read/write
+SSH
+ssh-key-macmini2
+SHA256:std2Mvl/X67d6tpmum1ADwwm269cE5IqXen+FRU2ekk Added on Aug 19, 2021 Never used — Read/write 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+SSH keys
+
+This is a list of SSH keys associated with your account. Remove any keys that you do not recognize.
+
+SSH
+ssh-key-xps15
+SHA256:KflU1B3q0XJnGd3RStq54WggM/jGTzoswgxBsPV0778 Added on Oct 12, 2020 unverified automatically (private key found in a public repository) — Read/write
+SSH
+ssh-key-nuc4
+SHA256:wx5gSvcCH8stwv+QX8KrQ53KLZdbZhF/EWdFudwgtOg Added on Nov 11, 2020 Last used within the last 10 months — Read/write
+SSH
+ssh-key-macmini2
+SHA256:std2Mvl/X67d6tpmum1ADwwm269cE5IqXen+FRU2ekk Added on Aug 19, 2021 Never used — Read/write
+SSH
+ssh-key-xps15b
+SHA256:dsbWvH3O9bNCWDziAMMlegi1t9I+SEPoiBGg4enGCK8 Added on Aug 20, 2021 Never used — Read/write 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\David Holberton\.m2\repository>dir /o:gn
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\.m2\repository
+
+08/11/2021  10:00 AM    <DIR>          .
+08/11/2021  10:00 AM    <DIR>          ..
+05/19/2021  07:40 AM    <DIR>          antlr
+05/19/2021  07:52 AM    <DIR>          asm
+05/19/2021  07:40 AM    <DIR>          avalon-framework
+05/19/2021  07:39 AM    <DIR>          backport-util-concurrent
+05/22/2021  10:08 AM    <DIR>          biz
+05/19/2021  07:39 AM    <DIR>          classworlds
+08/11/2021  01:37 PM    <DIR>          com
+05/19/2021  07:40 AM    <DIR>          commons-beanutils
+05/19/2021  07:40 AM    <DIR>          commons-chain
+05/19/2021  07:39 AM    <DIR>          commons-cli
+05/13/2021  07:10 AM    <DIR>          commons-codec
+05/19/2021  07:40 AM    <DIR>          commons-collections
+05/19/2021  07:40 AM    <DIR>          commons-digester
+05/19/2021  07:40 AM    <DIR>          commons-io
+05/19/2021  07:39 AM    <DIR>          commons-lang
+05/19/2021  07:40 AM    <DIR>          commons-logging
+05/19/2021  07:40 AM    <DIR>          commons-validator
+05/19/2021  07:40 AM    <DIR>          dom4j
+08/11/2021  10:00 AM    <DIR>          index
+08/11/2021  01:37 PM    <DIR>          io
+08/11/2021  09:47 AM    <DIR>          jakarta
+08/02/2021  07:23 AM    <DIR>          javax
+05/13/2021  07:10 AM    <DIR>          jline
+05/22/2021  09:32 AM    <DIR>          joda-time
+05/13/2021  07:10 AM    <DIR>          junit
+05/22/2021  10:08 AM    <DIR>          kr
+05/19/2021  07:39 AM    <DIR>          log4j
+05/19/2021  07:40 AM    <DIR>          logkit
+05/19/2021  07:52 AM    <DIR>          net
+08/02/2021  07:23 AM    <DIR>          org
+05/19/2021  07:40 AM    <DIR>          oro
+05/22/2021  10:09 AM    <DIR>          regexp
+05/22/2021  09:32 AM    <DIR>          software
+05/19/2021  07:40 AM    <DIR>          sslext
+05/19/2021  07:40 AM    <DIR>          xerces
+05/19/2021  07:40 AM    <DIR>          xml-apis
+05/22/2021  10:09 AM    <DIR>          xmlpull
+08/07/2021  09:28 AM    <DIR>          xpp3
+               0 File(s)              0 bytes
+              40 Dir(s)  36,280,680,448 bytes free
+
+C:\Users\David Holberton\.m2\repository>
+
+C:\Users\David Holberton\.m2\repository\org\glassfish\jersey>tree /a
+Folder PATH listing
+Volume serial number is 4603-A8D3
+C:.
++---archetypes
+|   +---jersey-heroku-webapp
+|   |   \---2.34
+|   +---jersey-quickstart-grizzly2
+|   |   \---2.34
+|   +---jersey-quickstart-webapp
+|   |   +---2.29.1
+|   |   \---2.34
+|   \---project
+|       \---2.34
++---containers
+|   +---jersey-container-grizzly2-http
+|   |   \---2.34
+|   +---jersey-container-servlet-core
+|   |   +---2.29.1
+|   |   \---2.34
+|   \---project
+|       +---2.29.1
+|       \---2.34
++---core
+|   +---jersey-client
+|   |   +---2.29.1
+|   |   \---2.34
+|   +---jersey-common
+|   |   +---2.29.1
+|   |   \---2.34
+|   \---jersey-server
+|       +---2.29.1
+|       \---2.34
++---inject
+|   +---jersey-hk2
+|   |   +---2.29.1
+|   |   \---2.34
+|   \---project
+|       +---2.29.1
+|       \---2.34
++---jersey-bom
+|   +---2.27
+|   +---2.29.1
+|   \---2.34
++---media
+|   +---jersey-media-jaxb
+|   |   \---2.29.1
+|   \---project
+|       \---2.29.1
+\---project
+    +---2.29.1
+    \---2.34
+
+C:\Users\David Holberton\.m2\repository\org\glassfish\jersey>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\LocalApps\eclipse-jee-2021-06-R-win32-x86_64>cd ..
+
+C:\LocalApps>dir /o:gn | findstr /i "eclipse"
+06/15/2020  07:45 AM    <DIR>          eclipse-java-2020-06-R-win32-x86_64
+09/12/2020  07:15 PM    <DIR>          eclipse-jee-2018-12-R-win32-x86_64
+06/17/2019  05:11 AM    <DIR>          eclipse-jee-2019-03-R-win32-x86_64
+08/15/2021  10:23 AM    <DIR>          eclipse-jee-2019-06-R-win32-x86_64
+06/15/2020  07:51 AM    <DIR>          eclipse-jee-2020-06-R-win32-x86_64
+09/10/2020  12:23 PM    <DIR>          eclipse-jee-2020-09-R-win32-x86_64
+12/10/2020  12:36 PM    <DIR>          eclipse-jee-2020-12-R-win32-x86_64
+03/12/2021  07:14 AM    <DIR>          eclipse-jee-2021-03-R-win32-x86_64
+06/12/2021  08:39 PM    <DIR>          eclipse-jee-2021-06-R-win32-x86_64
+04/01/2020  06:47 PM    <DIR>          eclipse-jee-neon-3-win32-x86_64
+06/19/2018  06:28 PM    <DIR>          eclipse-jee-oxygen-3a-win32-x86_64
+
+C:\LocalApps>
+C:\LocalApps>eclipse-jee-2021-06-R-win32-x86_64\eclipse.exe
+
+C:\Users\David Holberton\eclipse-workspace-2021-06
+
+    com.sun.jersey.archtypes           jersey-quickstart-webapp    1.19.4
+    org.glassfish.jersey.archetypes    jersey-quickstart-webapp    3.0.2   (also 2.9.1, 2.34, 2.29.1, 2.29, 2.26, several others)
+
+C:\Users\David Holberton\eclipse-workspace-2021-06>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\eclipse-workspace-2021-06
+
+08/11/2021  09:39 AM    <DIR>          .metadata
+08/11/2021  06:02 PM    <DIR>          Servers
+08/11/2021  06:15 PM    <DIR>          JerseyDemo
+08/20/2021  08:20 AM    <DIR>          ..
+08/20/2021  08:20 AM    <DIR>          .
+08/20/2021  08:20 AM    <DIR>          LZBroker
+               0 File(s)              0 bytes
+               6 Dir(s)  36,272,254,976 bytes free
+
+C:\Users\David Holberton\eclipse-workspace-2021-06>cd LZBroker
+
+C:\Users\David Holberton\eclipse-workspace-2021-06\LZBroker>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\eclipse-workspace-2021-06\LZBroker
+
+08/20/2021  08:20 AM    <DIR>          target
+08/20/2021  08:20 AM    <DIR>          ..
+08/20/2021  08:20 AM    <DIR>          .
+08/20/2021  08:20 AM    <DIR>          src
+08/20/2021  08:20 AM    <DIR>          .settings
+08/20/2021  08:20 AM             2,289 pom.xml
+08/20/2021  08:20 AM             1,350 .classpath
+08/20/2021  08:20 AM             1,084 .project
+               3 File(s)          4,723 bytes
+               5 Dir(s)  36,272,033,792 bytes free
+
+C:\Users\David Holberton\eclipse-workspace-2021-06\LZBroker>
+C:\Users\David Holberton\eclipse-workspace-2021-06\LZBroker>tree /a
+Folder PATH listing
+Volume serial number is 4603-A8D3
+C:.
++---.settings
++---src
+|   \---main
+|       +---java
+|       |   \---com
+|       |       \---ashburndev
+|       |           \---LZBroker
+|       +---resources
+|       \---webapp
+|           \---WEB-INF
+\---target
+    +---classes
+    |   \---com
+    |       \---ashburndev
+    |           \---LZBroker
+    +---m2e-wtp
+    |   \---web-resources
+    |       \---META-INF
+    |           \---maven
+    |               \---com.ashburndev
+    |                   \---LZBroker
+    \---test-classes
+
+C:\Users\David Holberton\eclipse-workspace-2021-06\LZBroker>
+C:\Users\David Holberton\eclipse-workspace-2021-06\LZBroker>tree /a /f
+Folder PATH listing
+Volume serial number is 4603-A8D3
+C:.
+|   .classpath
+|   .project
+|   pom.xml
+|
++---.settings
+|       .jsdtscope
+|       org.eclipse.core.resources.prefs
+|       org.eclipse.jdt.core.prefs
+|       org.eclipse.m2e.core.prefs
+|       org.eclipse.wst.common.component
+|       org.eclipse.wst.common.project.facet.core.prefs.xml
+|       org.eclipse.wst.common.project.facet.core.xml
+|       org.eclipse.wst.jsdt.ui.superType.container
+|       org.eclipse.wst.jsdt.ui.superType.name
+|       org.eclipse.wst.validation.prefs
+|
++---src
+|   \---main
+|       +---java
+|       |   \---com
+|       |       \---ashburndev
+|       |           \---LZBroker
+|       |                   MyResource.java
+|       |
+|       +---resources
+|       \---webapp
+|           |   index.jsp
+|           |
+|           \---WEB-INF
+|                   web.xml
+|
+\---target
+    +---classes
+    |   \---com
+    |       \---ashburndev
+    |           \---LZBroker
+    |                   MyResource.class
+    |
+    +---m2e-wtp
+    |   \---web-resources
+    |       \---META-INF
+    |           \---maven
+    |               \---com.ashburndev
+    |                   \---LZBroker
+    |                           pom.properties
+    |                           pom.xml
+    |
+    \---test-classes
+
+C:\Users\David Holberton\eclipse-workspace-2021-06\LZBroker>
+C:\Users\David Holberton\eclipse-workspace-2021-06\LZBroker>code .
+
+C:\Users\David Holberton\eclipse-workspace-2021-06\LZBroker>mvn dependency:tree
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ----------------------< com.ashburndev:LZBroker >-----------------------
+[INFO] Building LZBroker 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO]
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ LZBroker ---
+[INFO] com.ashburndev:LZBroker:war:0.0.1-SNAPSHOT
+[INFO] +- org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.34:compile
+[INFO] |  +- org.glassfish.hk2.external:jakarta.inject:jar:2.6.1:compile
+[INFO] |  +- org.glassfish.jersey.core:jersey-common:jar:2.34:compile
+[INFO] |  |  +- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+[INFO] |  |  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.3:compile
+[INFO] |  +- org.glassfish.jersey.core:jersey-server:jar:2.34:compile
+[INFO] |  |  +- org.glassfish.jersey.core:jersey-client:jar:2.34:compile
+[INFO] |  |  \- jakarta.validation:jakarta.validation-api:jar:2.0.2:compile
+[INFO] |  \- jakarta.ws.rs:jakarta.ws.rs-api:jar:2.1.6:compile
+[INFO] \- org.glassfish.jersey.inject:jersey-hk2:jar:2.34:compile
+[INFO]    +- org.glassfish.hk2:hk2-locator:jar:2.6.1:compile
+[INFO]    |  +- org.glassfish.hk2.external:aopalliance-repackaged:jar:2.6.1:compile
+[INFO]    |  +- org.glassfish.hk2:hk2-api:jar:2.6.1:compile
+[INFO]    |  \- org.glassfish.hk2:hk2-utils:jar:2.6.1:compile
+[INFO]    \- org.javassist:javassist:jar:3.25.0-GA:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.981 s
+[INFO] Finished at: 2021-08-20T08:26:47-04:00
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\David Holberton\eclipse-workspace-2021-06\LZBroker>
+C:\Users\David Holberton\eclipse-workspace-2021-06\LZBroker>type pom.xml
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.ashburndev</groupId>
+    <artifactId>LZBroker</artifactId>
+    <packaging>war</packaging>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>LZBroker</name>
+
+    <build>
+        <finalName>LZBroker</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <inherited>true</inherited>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.glassfish.jersey</groupId>
+                <artifactId>jersey-bom</artifactId>
+                <version>${jersey.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.glassfish.jersey.containers</groupId>
+            <artifactId>jersey-container-servlet-core</artifactId>
+            <!-- use the following artifactId if you don't need servlet 2.x compatibility -->
+            <!-- artifactId>jersey-container-servlet</artifactId -->
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.inject</groupId>
+            <artifactId>jersey-hk2</artifactId>
+        </dependency>
+        <!-- uncomment this to get JSON support
+        <dependency>
+            <groupId>org.glassfish.jersey.media</groupId>
+            <artifactId>jersey-media-json-binding</artifactId>
+        </dependency>
+        -->
+    </dependencies>
+    <properties>
+        <jersey.version>2.34</jersey.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+</project>
+
+C:\Users\David Holberton\eclipse-workspace-2021-06\LZBroker>
+C:\Users\David Holberton\eclipse-workspace-2021-06\LZBroker>type src\main\webapp\WEB-INF\web.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This web.xml file is not required when using Servlet 3.0 container,
+     see implementation details http://jersey.java.net/nonav/documentation/latest/jax-rs.html -->
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <servlet>
+        <servlet-name>Jersey Web Application</servlet-name>
+        <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+        <init-param>
+            <param-name>jersey.config.server.provider.packages</param-name>
+            <param-value>com.ashburndev.LZBroker</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Jersey Web Application</servlet-name>
+        <url-pattern>/webapi/*</url-pattern>
+    </servlet-mapping>
+</web-app>
+
+C:\Users\David Holberton\eclipse-workspace-2021-06\LZBroker>
+C:\Users\David Holberton\eclipse-workspace-2021-06\LZBroker>type src\main\webapp\index.jsp
+<html>
+<body>
+    <h2>Jersey RESTful Web Application!</h2>
+    <p><a href="webapi/myresource">Jersey resource</a>
+    <p>Visit <a href="http://jersey.java.net">Project Jersey website</a>
+    for more information on Jersey!
+</body>
+</html>
+
+C:\Users\David Holberton\eclipse-workspace-2021-06\LZBroker>
+
+git remote add origin git@github.com:ashburndev/LZBroker.git
+git branch -M main
+git push -u origin main
+
+C:\Users\David Holberton\eclipse-workspace-2021-06\LZBroker>
+C:\Users\David Holberton\eclipse-workspace-2021-06\LZBroker>mvn package
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ----------------------< com.ashburndev:LZBroker >-----------------------
+[INFO] Building LZBroker 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ LZBroker ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ LZBroker ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\David Holberton\eclipse-workspace-2021-06\LZBroker\target\classes
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ LZBroker ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\David Holberton\eclipse-workspace-2021-06\LZBroker\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ LZBroker ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ LZBroker ---
+[INFO]
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ LZBroker ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [LZBroker] in [C:\Users\David Holberton\eclipse-workspace-2021-06\LZBroker\target\LZBroker]
+[INFO] Processing war project
+[INFO] Copying webapp resources [C:\Users\David Holberton\eclipse-workspace-2021-06\LZBroker\src\main\webapp]
+[INFO] Webapp assembled in [116 msecs]
+[INFO] Building war: C:\Users\David Holberton\eclipse-workspace-2021-06\LZBroker\target\LZBroker.war
+[INFO] WEB-INF\web.xml already added, skipping
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.997 s
+[INFO] Finished at: 2021-08-20T08:59:19-04:00
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\David Holberton\eclipse-workspace-2021-06\LZBroker>
+
+http://localhost/LZBroker/
+http://localhost/LZBroker/webapi/myresource
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\David Holberton\eclipse-workspace-2021-06>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\eclipse-workspace-2021-06
+
+08/20/2021  08:40 AM    <DIR>          .
+08/20/2021  08:40 AM    <DIR>          ..
+08/11/2021  09:39 AM    <DIR>          .metadata
+08/20/2021  08:40 AM    <DIR>          dphwebapp
+08/11/2021  06:15 PM    <DIR>          JerseyDemo
+08/20/2021  08:20 AM    <DIR>          LZBroker
+08/11/2021  06:02 PM    <DIR>          Servers
+               0 File(s)              0 bytes
+               7 Dir(s)  36,074,795,008 bytes free
+
+C:\Users\David Holberton\eclipse-workspace-2021-06>cd dphwebapp
+
+C:\Users\David Holberton\eclipse-workspace-2021-06\dphwebapp>code .
+
+C:\Users\David Holberton\eclipse-workspace-2021-06\dphwebapp>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\eclipse-workspace-2021-06\dphwebapp
+
+08/20/2021  08:40 AM    <DIR>          target
+08/20/2021  08:40 AM    <DIR>          ..
+08/20/2021  08:40 AM    <DIR>          .
+08/20/2021  08:40 AM    <DIR>          src
+08/20/2021  08:41 AM    <DIR>          .settings
+08/20/2021  08:40 AM             2,264 pom.xml
+08/20/2021  08:41 AM             1,815 .classpath
+08/20/2021  08:41 AM             1,391 .project
+               3 File(s)          5,470 bytes
+               5 Dir(s)  36,027,133,952 bytes free
+
+C:\Users\David Holberton\eclipse-workspace-2021-06\dphwebapp>tree /a
+Folder PATH listing
+Volume serial number is 4603-A8D3
+C:.
++---.settings
++---src
+|   \---main
+|       \---webapp
+|           \---WEB-INF
+\---target
+    +---classes
+    +---m2e-wtp
+    |   \---web-resources
+    |       \---META-INF
+    |           \---maven
+    |               \---com.ashburndev
+    |                   \---dphwebapp
+    \---test-classes
+
+C:\Users\David Holberton\eclipse-workspace-2021-06\dphwebapp>tree /a /f
+Folder PATH listing
+Volume serial number is 4603-A8D3
+C:.
+|   .classpath
+|   .project
+|   pom.xml
+|
++---.settings
+|       .jsdtscope
+|       org.eclipse.core.resources.prefs
+|       org.eclipse.jdt.apt.core.prefs
+|       org.eclipse.jdt.core.prefs
+|       org.eclipse.m2e.core.prefs
+|       org.eclipse.wst.common.component
+|       org.eclipse.wst.common.project.facet.core.xml
+|       org.eclipse.wst.jsdt.ui.superType.container
+|       org.eclipse.wst.jsdt.ui.superType.name
+|       org.eclipse.wst.validation.prefs
+|
++---src
+|   \---main
+|       \---webapp
+|           |   index.jsp
+|           |
+|           \---WEB-INF
+|                   web.xml
+|
+\---target
+    +---classes
+    +---m2e-wtp
+    |   \---web-resources
+    |       \---META-INF
+    |           |   MANIFEST.MF
+    |           |
+    |           \---maven
+    |               \---com.ashburndev
+    |                   \---dphwebapp
+    |                           pom.properties
+    |                           pom.xml
+    |
+    \---test-classes
+
+C:\Users\David Holberton\eclipse-workspace-2021-06\dphwebapp>
+C:\Users\David Holberton\eclipse-workspace-2021-06\dphwebapp>mvn dependency:tree
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ----------------------< com.ashburndev:dphwebapp >----------------------
+[INFO] Building dphwebapp Maven Webapp 1.0.0
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO]
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ dphwebapp ---
+[INFO] com.ashburndev:dphwebapp:war:1.0.0
+[INFO] \- junit:junit:jar:4.11:test
+[INFO]    \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.150 s
+[INFO] Finished at: 2021-08-20T08:45:38-04:00
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\David Holberton\eclipse-workspace-2021-06\dphwebapp>
+
+git remote add origin git@github.com:ashburndev/dphwebapp.git
+git branch -M main
+git push -u origin main
+
+C:\Users\David Holberton\eclipse-workspace-2021-06\dphwebapp>
+C:\Users\David Holberton\eclipse-workspace-2021-06\dphwebapp>mvn package
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ----------------------< com.ashburndev:dphwebapp >----------------------
+[INFO] Building dphwebapp Maven Webapp 1.0.0
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ dphwebapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\David Holberton\eclipse-workspace-2021-06\dphwebapp\src\main\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ dphwebapp ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ dphwebapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\David Holberton\eclipse-workspace-2021-06\dphwebapp\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ dphwebapp ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ dphwebapp ---
+[INFO]
+[INFO] --- maven-war-plugin:3.2.2:war (default-war) @ dphwebapp ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [dphwebapp] in [C:\Users\David Holberton\eclipse-workspace-2021-06\dphwebapp\target\dphwebapp]
+[INFO] Processing war project
+[INFO] Copying webapp resources [C:\Users\David Holberton\eclipse-workspace-2021-06\dphwebapp\src\main\webapp]
+[INFO] Webapp assembled in [42 msecs]
+[INFO] Building war: C:\Users\David Holberton\eclipse-workspace-2021-06\dphwebapp\target\dphwebapp.war
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.974 s
+[INFO] Finished at: 2021-08-20T09:00:30-04:00
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\David Holberton\eclipse-workspace-2021-06\dphwebapp>
+
