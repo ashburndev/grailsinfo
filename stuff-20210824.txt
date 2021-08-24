@@ -1,0 +1,476 @@
+6:21 AM 8/24/2021
+
+https://dev.mysql.com/doc/refman/8.0/en/option-files.html
+https://dev.mysql.com/doc/refman/8.0/en/windows-installation.html
+https://dev.mysql.com/doc/refman/8.0/en/windows-install-archive.html
+https://dev.mysql.com/doc/refman/8.0/en/data-directory-initialization.html
+https://dev.mysql.com/doc/refman/8.0/en/windows-start-service.html
+
+C:\> "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld"
+          --install MySQL --defaults-file=C:\my-opts.cnf
+
+https://dev.mysql.com/doc/refman/8.0/en/resetting-permissions.html
+https://dev.mysql.com/doc/refman/8.0/en/default-privileges.html
+
+shell> mysql -u root --skip-password
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'root-password';
+
+shell> mysql -u root -p
+Enter password: (enter the random root password here)
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'root-password';
+
+shell> mysqladmin -u root -p shutdown
+Enter password: (enter root password here)
+
+https://dev.mysql.com/doc/mysql-tutorial-excerpt/8.0/en/database-use.html
+https://dev.mysql.com/doc/mysql-tutorial-excerpt/8.0/en/creating-database.html
+
+mysql> CREATE DATABASE menagerie;
+mysql> USE menagerie
+
+https://dev.mysql.com/doc/mysql-tutorial-excerpt/8.0/en/creating-tables.html
+
+mysql> CREATE TABLE pet (name VARCHAR(20), owner VARCHAR(20),
+       species VARCHAR(20), sex CHAR(1), birth DATE, death DATE);
+
+https://dev.mysql.com/doc/mysql-tutorial-excerpt/8.0/en/loading-tables.html
+
+mysql> LOAD DATA LOCAL INFILE '/path/pet.txt' INTO TABLE pet;
+
+mysql> LOAD DATA LOCAL INFILE '/path/pet.txt' INTO TABLE pet
+       LINES TERMINATED BY '\r\n';
+
+mysql> INSERT INTO pet
+       VALUES ('Puffball','Diane','hamster','f','1999-03-30',NULL);
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Microsoft Windows [Version 10.0.19043.1165]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\David Holberton>cd Downloads
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>dir /o:gd mysql*winx64.zip
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\Downloads
+
+08/07/2017  07:20 PM       333,942,828 mysql-5.7.19-winx64.zip
+07/24/2018  08:30 AM       192,214,252 mysql-8.0.11-winx64.zip
+01/30/2019  11:28 AM       198,999,168 mysql-8.0.14-winx64.zip
+02/04/2020  07:24 PM       196,926,353 mysql-8.0.19-winx64.zip
+06/13/2021  09:46 AM       210,976,242 mysql-8.0.25-winx64.zip
+07/29/2021  07:05 AM       218,340,180 mysql-8.0.26-winx64.zip
+               6 File(s)  1,351,399,023 bytes
+               0 Dir(s)  35,573,075,968 bytes free
+
+C:\Users\David Holberton\Downloads>
+
+C:\mysql\mysql-8.0.11-winx64>
+C:\mysql\mysql-8.0.11-winx64>type c:\my.ini
+[mysqld]
+basedir=C:/mysql/mysql-8.0.11-winx64
+datadir=C:/mysql/data
+
+C:\mysql\mysql-8.0.11-winx64>
+C:\mysql\mysql-8.0.11-winx64>rmdir /s /q c:\mysql\data
+
+C:\mysql\mysql-8.0.11-winx64>.\bin\mysqld --defaults-file=c:\my.ini --initialize-insecure --console
+2021-08-24T10:51:31.743234Z 0 [System] [MY-013169] [Server] C:\mysql\mysql-8.0.11-winx64\bin\mysqld.exe (mysqld 8.0.11) initializing of server in progress as process 15372
+2021-08-24T10:51:36.897255Z 5 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2021-08-24T10:51:41.165089Z 0 [System] [MY-013170] [Server] C:\mysql\mysql-8.0.11-winx64\bin\mysqld.exe (mysqld 8.0.11) initializing of server has completed
+
+C:\mysql\mysql-8.0.11-winx64>
+C:\mysql\mysql-8.0.11-winx64>
+C:\mysql\mysql-8.0.11-winx64>dir /o:gd c:\mysql\data
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of c:\mysql\data
+
+08/24/2021  06:51 AM    <DIR>          performance_schema
+08/24/2021  06:51 AM    <DIR>          mysql
+08/24/2021  06:51 AM    <DIR>          sys
+08/24/2021  06:51 AM    <DIR>          ..
+08/24/2021  06:51 AM    <DIR>          .
+08/24/2021  06:51 AM        50,331,648 ib_logfile1
+08/24/2021  06:51 AM                56 auto.cnf
+08/24/2021  06:51 AM             1,676 ca-key.pem
+08/24/2021  06:51 AM             1,112 ca.pem
+08/24/2021  06:51 AM             1,680 server-key.pem
+08/24/2021  06:51 AM             1,112 server-cert.pem
+08/24/2021  06:51 AM             1,676 client-key.pem
+08/24/2021  06:51 AM             1,112 client-cert.pem
+08/24/2021  06:51 AM             1,680 private_key.pem
+08/24/2021  06:51 AM               452 public_key.pem
+08/24/2021  06:51 AM             6,325 ib_buffer_pool
+08/24/2021  06:51 AM        25,165,824 mysql.ibd
+08/24/2021  06:51 AM        10,485,760 undo_002
+08/24/2021  06:51 AM        10,485,760 undo_001
+08/24/2021  06:51 AM        50,331,648 ib_logfile0
+08/24/2021  06:51 AM        12,582,912 ibdata1
+              16 File(s)    159,400,433 bytes
+               5 Dir(s)  35,574,128,640 bytes free
+
+C:\mysql\mysql-8.0.11-winx64>
+C:\mysql\mysql-8.0.11-winx64>.\bin\mysqld --console
+2021-08-24T10:56:19.928883Z 0 [System] [MY-010116] [Server] C:\mysql\mysql-8.0.11-winx64\bin\mysqld.exe (mysqld 8.0.11) starting as process 6004
+2021-08-24T10:56:21.273942Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-08-24T10:56:21.310778Z 0 [System] [MY-010931] [Server] C:\mysql\mysql-8.0.11-winx64\bin\mysqld.exe: ready for connections. Version: '8.0.11'  socket: ''  port: 3306  MySQL Community Server - GPL.
+
+2021-08-24T11:27:00.517395Z 0 [System] [MY-013105] [Server] C:\mysql\mysql-8.0.11-winx64\bin\mysqld.exe: Normal shutdown.
+2021-08-24T11:27:01.327162Z 0 [System] [MY-010910] [Server] C:\mysql\mysql-8.0.11-winx64\bin\mysqld.exe: Shutdown complete (mysqld 8.0.11)  MySQL Community Server - GPL.
+
+C:\mysql\mysql-8.0.11-winx64>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\mysql\mysql-8.0.11-winx64\bin>
+C:\mysql\mysql-8.0.11-winx64\bin>mysql -u root
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 8
+Server version: 8.0.11 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2018, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql>
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+4 rows in set (0.01 sec)
+
+mysql>
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'bananas';
+Query OK, 0 rows affected (0.03 sec)
+
+mysql>
+mysql> quit;
+Bye
+
+C:\mysql\mysql-8.0.11-winx64\bin>mysql -u root -p
+Enter password: *******
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 9
+Server version: 8.0.11 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2018, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> CREATE DATABASE menagerie;
+Query OK, 1 row affected (0.04 sec)
+
+mysql> use menagerie;
+Database changed
+mysql>
+mysql> CREATE TABLE pet (name VARCHAR(20), owner VARCHAR(20),
+    ->        species VARCHAR(20), sex CHAR(1), birth DATE, death DATE);
+Query OK, 0 rows affected (0.08 sec)
+
+mysql> INSERT INTO pet
+    ->        VALUES ('Puffball','Diane','hamster','f','1999-03-30',NULL);
+Query OK, 1 row affected (0.05 sec)
+
+mysql> select * from pet;
++----------+-------+---------+------+------------+-------+
+| name     | owner | species | sex  | birth      | death |
++----------+-------+---------+------+------------+-------+
+| Puffball | Diane | hamster | f    | 1999-03-30 | NULL  |
++----------+-------+---------+------+------------+-------+
+1 row in set (0.00 sec)
+
+mysql> quit;
+Bye
+
+C:\mysql\mysql-8.0.11-winx64\bin>mysqladmin -u root -p shutdown
+Enter password: *******
+
+C:\mysql\mysql-8.0.11-winx64\bin>
+C:\mysql\mysql-8.0.11-winx64\bin>mysqld --install --console
+Service successfully installed.
+
+C:\mysql\mysql-8.0.11-winx64\bin>
+
+
+C:\mysql\mysql-8.0.11-winx64\bin>sc query | findstr /i "apache"
+DISPLAY_NAME: Apache Tomcat 8.5 Tomcat8
+
+C:\mysql\mysql-8.0.11-winx64\bin>sc query | findstr /i "tomcat"
+SERVICE_NAME: Tomcat8
+DISPLAY_NAME: Apache Tomcat 8.5 Tomcat8
+
+C:\mysql\mysql-8.0.11-winx64\bin>sc query Tomcat8
+
+SERVICE_NAME: Tomcat8
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+C:\mysql\mysql-8.0.11-winx64\bin>
+C:\mysql\mysql-8.0.11-winx64\bin>sc query state=all | findstr /i "mysql"
+
+C:\mysql\mysql-8.0.11-winx64\bin>
+C:\mysql\mysql-8.0.11-winx64\bin>sc query state=all | findstr /i "mysql"
+
+C:\mysql\mysql-8.0.11-winx64\bin>
+C:\mysql\mysql-8.0.11-winx64\bin>mysqld --install MySQL --defaults-file=C:\my.ini
+Service successfully installed.
+
+C:\mysql\mysql-8.0.11-winx64\bin>
+C:\mysql\mysql-8.0.11-winx64\bin>sc query state=all | findstr /i "MySQL"
+SERVICE_NAME: MySQL
+DISPLAY_NAME: MySQL
+
+C:\mysql\mysql-8.0.11-winx64\bin>sc query MySQL
+
+SERVICE_NAME: MySQL
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 1  STOPPED
+        WIN32_EXIT_CODE    : 1077  (0x435)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+C:\mysql\mysql-8.0.11-winx64\bin>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\mysql>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\mysql
+
+07/01/2021  05:02 AM    <DIR>          mysql-8.0.26-winx64
+08/24/2021  06:36 AM    <DIR>          mysql-8.0.11-winx64
+08/24/2021  07:27 AM    <DIR>          data
+08/24/2021  07:58 AM    <DIR>          ..
+08/24/2021  07:58 AM    <DIR>          .
+               0 File(s)              0 bytes
+               5 Dir(s)  34,639,585,280 bytes free
+
+C:\mysql>
+
+Microsoft Windows [Version 10.0.19043.1165]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>cd \mysql\mysql-8.0.26-winx64\bin
+
+C:\mysql\mysql-8.0.26-winx64\bin>sc delete MySQL
+[SC] DeleteService SUCCESS
+
+C:\mysql\mysql-8.0.26-winx64\bin>mysqld
+mysqld: Can't open shared library 'C:\mysql\mysql-8.0.11-winx64\lib\plugin\component_reference_cache.dll' (errno: 126 The specified module could not be found.)
+mysqld: Cannot load component from specified URN: 'file://component_reference_cache'.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Microsoft Windows [Version 10.0.19043.1165]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>cd \mysql
+
+C:\mysql>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\mysql
+
+07/01/2021  05:02 AM    <DIR>          mysql-8.0.26-winx64
+08/24/2021  06:36 AM    <DIR>          mysql-8.0.11-winx64
+08/24/2021  07:58 AM    <DIR>          ..
+08/24/2021  07:58 AM    <DIR>          .
+08/24/2021  08:02 AM    <DIR>          data
+               0 File(s)              0 bytes
+               5 Dir(s)  34,567,577,600 bytes free
+
+C:\mysql>cd mysql-8.0.26-winx64\bin
+
+C:\mysql\mysql-8.0.26-winx64\bin>mysql -u root -p
+Enter password: *******
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 10
+Server version: 8.0.26 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2021, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| menagerie          |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+5 rows in set (0.00 sec)
+
+mysql> use menagerie;
+Database changed
+mysql>
+mysql> show tables;
++---------------------+
+| Tables_in_menagerie |
++---------------------+
+| pet                 |
++---------------------+
+1 row in set (0.00 sec)
+
+mysql>
+mysql> select * from pet;
++----------+-------+---------+------+------------+-------+
+| name     | owner | species | sex  | birth      | death |
++----------+-------+---------+------+------------+-------+
+| Puffball | Diane | hamster | f    | 1999-03-30 | NULL  |
++----------+-------+---------+------+------------+-------+
+1 row in set (0.00 sec)
+
+mysql>
+mysql> quit;
+Bye
+
+C:\mysql\mysql-8.0.26-winx64\bin>
+C:\mysql\mysql-8.0.26-winx64\bin>mysqladmin -u root -p shutdown
+Enter password: *******
+
+C:\mysql\mysql-8.0.26-winx64\bin>sc query MySQL
+[SC] EnumQueryServicesStatus:OpenService FAILED 1060:
+
+The specified service does not exist as an installed service.
+
+
+C:\mysql\mysql-8.0.26-winx64\bin>mysqld --install MySQL --defaults-file=C:\my.ini
+Service successfully installed.
+
+C:\mysql\mysql-8.0.26-winx64\bin>sc query MySQL
+
+SERVICE_NAME: MySQL
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 1  STOPPED
+        WIN32_EXIT_CODE    : 1077  (0x435)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+C:\mysql\mysql-8.0.26-winx64\bin>
+C:\mysql\mysql-8.0.26-winx64\bin>
+C:\mysql\mysql-8.0.26-winx64\bin>sc query MySQL
+
+SERVICE_NAME: MySQL
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+C:\mysql\mysql-8.0.26-winx64\bin>
+C:\mysql\mysql-8.0.26-winx64\bin>
+C:\mysql\mysql-8.0.26-winx64\bin>mysql -u root -p
+Enter password: *******
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 8
+Server version: 8.0.26 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2021, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| menagerie          |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+5 rows in set (0.01 sec)
+
+mysql> use menagerie;
+Database changed
+mysql>
+mysql> show tables;
++---------------------+
+| Tables_in_menagerie |
++---------------------+
+| pet                 |
++---------------------+
+1 row in set (0.01 sec)
+
+mysql>
+mysql> select * from pet;
++----------+-------+---------+------+------------+-------+
+| name     | owner | species | sex  | birth      | death |
++----------+-------+---------+------+------------+-------+
+| Puffball | Diane | hamster | f    | 1999-03-30 | NULL  |
++----------+-------+---------+------+------------+-------+
+1 row in set (0.01 sec)
+
+mysql>
+mysql> quit;
+Bye
+
+C:\mysql\mysql-8.0.26-winx64\bin>mysql --version
+mysql  Ver 8.0.26 for Win64 on x86_64 (MySQL Community Server - GPL)
+
+C:\mysql\mysql-8.0.26-winx64\bin>
+C:\mysql\mysql-8.0.26-winx64\bin>dir /o:gd \mysql
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\mysql
+
+07/01/2021  05:02 AM    <DIR>          mysql-8.0.26-winx64
+08/24/2021  06:36 AM    <DIR>          mysql-8.0.11-winx64
+08/24/2021  07:58 AM    <DIR>          ..
+08/24/2021  07:58 AM    <DIR>          .
+08/24/2021  08:10 AM    <DIR>          data
+               0 File(s)              0 bytes
+               5 Dir(s)  34,567,557,120 bytes free
+
+C:\mysql\mysql-8.0.26-winx64\bin>
+C:\mysql\mysql-8.0.26-winx64\bin>type c:\my.ini
+[mysqld]
+basedir=C:/mysql/mysql-8.0.26-winx64
+datadir=C:/mysql/data
+
+C:\mysql\mysql-8.0.26-winx64\bin>
+
+
+
