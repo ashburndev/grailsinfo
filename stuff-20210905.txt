@@ -1,0 +1,196 @@
+10:44 AM 9/5/2021
+
+Microsoft Windows [Version 10.0.19043.1165]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\David Holberton>
+
+https://grails.org/
+https://start.grails.org/
+https://docs.grails.org/4.0.12/guide/single.html
+https://docs.grails.org/4.0.12/guide/single.html#introduction
+
+https://grails.org/download.html
+https://github.com/grails/grails-core/releases/tag/v4.0.12
+
+https://code.visualstudio.com/download
+https://code.visualstudio.com/docs/?dv=win64user
+https://code.visualstudio.com/docs/?dv=win64
+https://code.visualstudio.com/docs/?dv=winzip
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\David Holberton\Downloads>dir /o:gd *rail*
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\Downloads
+
+04/17/2021  01:07 PM    <DIR>          tempgrails2
+04/17/2021  01:14 PM    <DIR>          tempgrails
+05/13/2021  10:55 AM    <DIR>          mygrails4010app
+06/08/2017  03:46 PM       533,543,241 groovy-grails-tool-suite-3.6.4.RELEASE-e4.4.2-win32-x86_64.zip
+04/09/2021  07:28 AM       132,381,687 grails-4.0.10.zip
+04/17/2021  01:12 PM         4,923,928 grails-docs-20210417.zip
+05/02/2021  01:51 PM         4,923,928 grails-4.0.10-docs.zip
+06/29/2021  07:50 AM       131,833,883 grails-4.0.11.zip
+06/29/2021  07:50 AM         8,917,608 grails-4.0.11-docs.zip
+09/05/2021  10:37 AM       131,833,883 grails-4.0.11(1).zip
+09/05/2021  10:38 AM       131,829,690 grails-4.0.12.zip
+09/05/2021  10:38 AM         8,917,746 grails-4.0.12-docs.zip
+               9 File(s)  1,089,105,594 bytes
+               3 Dir(s)  34,833,240,064 bytes free
+
+C:\Users\David Holberton\Downloads>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+08/07/2021  09:09 AM        83,230,816 VSCodeUserSetup-x64-1.59.0.exe
+08/07/2021  09:09 AM        83,230,752 VSCodeSetup-x64-1.59.0.exe
+08/07/2021  09:10 AM       114,289,424 VSCode-win32-x64-1.59.0.zip
+08/15/2021  07:45 AM         9,428,963 apache-maven-3.8.2-bin.zip
+08/15/2021  07:46 AM               128 apache-maven-3.8.2-bin.zip.sha512
+08/15/2021  07:47 AM               484 apache-maven-3.8.2-bin.zip.asc
+09/05/2021  10:37 AM       131,833,883 grails-4.0.11(1).zip
+09/05/2021  10:38 AM       131,829,690 grails-4.0.12.zip
+09/05/2021  10:38 AM         8,917,746 grails-4.0.12-docs.zip
+09/05/2021  11:04 AM        79,559,664 VSCodeUserSetup-x64-1.60.0.exe
+09/05/2021  11:05 AM        79,559,336 VSCodeSetup-x64-1.60.0.exe
+09/05/2021  11:06 AM       110,624,073 VSCode-win32-x64-1.60.0.zip
+            1635 File(s) 249,806,904,492 bytes
+              32 Dir(s)  34,554,613,760 bytes free
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>del "grails-4.0.11(1).zip"
+
+C:\Users\David Holberton\Downloads>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://openjdk.java.net/install/
+https://openjdk.java.net/
+https://jdk.java.net/16/
+
+09/05/2021  11:11 AM       183,669,381 openjdk-16.0.2_windows-x64_bin.zip
+09/05/2021  11:11 AM                64 openjdk-16.0.2_windows-x64_bin.zip.sha256
+
+https://developers.redhat.com/products/openjdk/download
+
+09/05/2021  11:19 AM       177,464,750 java-1.8.0-openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64.zip
+09/05/2021  11:21 AM       253,726,073 java-11-openjdk-11.0.12.7-1.windows.redhat.x86_64.zip
+
+https://docs.microsoft.com/en-us/java/openjdk/download
+
+09/05/2021  11:24 AM       186,266,720 microsoft-jdk-11.0.12.7.1-windows-x64.zip
+09/05/2021  11:25 AM               107 microsoft-jdk-11.0.12.7.1-windows-x64.zip.sha256sum.txt
+09/05/2021  11:25 AM               492 microsoft-jdk-11.0.12.7.1-windows-x64.zip.sig
+09/05/2021  11:25 AM       198,724,780 microsoft-jdk-16.0.2.7.1-windows-x64.zip
+09/05/2021  11:25 AM               106 microsoft-jdk-16.0.2.7.1-windows-x64.zip.sha256sum.txt
+09/05/2021  11:25 AM               492 microsoft-jdk-16.0.2.7.1-windows-x64.zip.sig
+
+
+https://github.com/openjdk/
+https://github.com/openjdk/jmc
+https://techoral.com/blog/java/openjdk-install-windows.html
+
+https://aws.amazon.com/corretto/
+https://github.com/corretto/corretto-8/blob/develop/CHANGELOG.md
+https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html
+
+09/05/2021  11:33 AM       122,196,256 amazon-corretto-8.302.08.1-windows-x64-jdk.zip
+09/05/2021  11:33 AM                32 amazon-corretto-8-x64-windows-jdk.zip
+09/05/2021  11:34 AM               543 amazon-corretto-8.302.08.1-windows-x64-jdk.zip.sig
+09/05/2021  11:37 AM             1,695 B04F24E3.pub
+
+https://aws.amazon.com/corretto/
+https://github.com/corretto/corretto-11/blob/develop/CHANGELOG.md
+https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html
+
+09/05/2021  11:39 AM       187,012,234 amazon-corretto-11.0.12.7.1-windows-x64-jdk.zip
+09/05/2021  11:39 AM                32 amazon-corretto-11-x64-windows-jdk.zip
+09/05/2021  11:39 AM               543 amazon-corretto-11.0.12.7.1-windows-x64-jdk.zip.sig
+
+https://aws.amazon.com/corretto/
+https://github.com/corretto/corretto-jdk/blob/develop-jdk16/CHANGELOG.md
+https://docs.aws.amazon.com/corretto/latest/corretto-16-ug/downloads-list.html
+
+09/05/2021  11:44 AM       199,339,375 amazon-corretto-16.0.2.7.1-windows-x64-jdk.zip
+09/05/2021  11:45 AM                32 amazon-corretto-16-x64-windows-jdk.zip
+09/05/2021  11:45 AM               543 amazon-corretto-16.0.2.7.1-windows-x64-jdk.zip.sig
+
+https://adoptopenjdk.net/
+
+24th July 2021: AdoptOpenJDK is moving to the Eclipse Foundation and rebranding.
+Our July 2021 and future releases will come from Adoptium.net
+
+https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=hotspot
+https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot
+https://adoptopenjdk.net/?variant=openjdk16&jvmVariant=hotspot
+
+09/05/2021  11:48 AM        90,106,880 OpenJDK8U-jdk_x64_windows_hotspot_8u302b08.msi
+09/05/2021  11:49 AM       174,997,504 OpenJDK11U-jdk_x64_windows_hotspot_11.0.12_7.msi
+09/05/2021  11:50 AM       181,499,904 OpenJDK16U-jdk_x64_windows_hotspot_16.0.2_7.msi
+
+https://adoptium.net/
+
+https://adoptium.net/?variant=openjdk8&jvmVariant=hotspot
+https://adoptium.net/?variant=openjdk11&jvmVariant=hotspot
+https://adoptium.net/?variant=openjdk16&jvmVariant=hotspot
+
+09/05/2021  11:52 AM        90,106,880 OpenJDK8U-jdk_x64_windows_hotspot_8u302b08(1).msi
+09/05/2021  11:53 AM       174,997,504 OpenJDK11U-jdk_x64_windows_hotspot_11.0.12_7(1).msi
+09/05/2021  11:54 AM       181,499,904 OpenJDK16U-jdk_x64_windows_hotspot_16.0.2_7(1).msi
+
+
+https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+https://www.oracle.com/java/technologies/javase-jdk11-downloads.html
+https://www.oracle.com/java/technologies/javase-jdk16-downloads.html
+
+09/05/2021  11:56 AM       177,687,872 jdk-8u301-windows-x64(1).exe
+09/05/2021  12:00 PM       159,206,224 jdk-11.0.12_windows-x64_bin(1).exe
+09/05/2021  12:00 PM       179,591,451 jdk-11.0.12_windows-x64_bin(1).zip
+09/05/2021  12:02 PM       157,893,968 jdk-16.0.2_windows-x64_bin(1).exe
+09/05/2021  12:02 PM       177,000,115 jdk-16.0.2_windows-x64_bin(1).zip
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

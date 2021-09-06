@@ -1,0 +1,230 @@
+9:49 AM 9/6/2021
+
+https://www.azul.com/downloads/?package=jdk
+https://www.azul.com/downloads/?package=jdk#download-openjdk
+
+09/06/2021  10:04 AM       208,768,802 zulu16.32.15-ca-jdk16.0.2-win_x64.zip
+09/06/2021  10:05 AM                66 zulu16.32.15-ca-jdk16.0.2-win_x64.zip.sha256
+09/06/2021  10:07 AM           127,472 cert.zulu16.32.15-ca-jdk16.0.2-win_x64.zip.pdf
+09/06/2021  10:09 AM            28,490 zulu16.32.15-ca-jdk16.0.2-win_x64.install.txt
+09/06/2021  10:11 AM       108,373,843 zulu8.56.0.21-ca-jdk8.0.302-win_x64.zip
+09/06/2021  10:12 AM                66 zulu8.56.0.21-ca-jdk8.0.302-win_x64.zip.sha256
+09/06/2021  10:12 AM           127,478 cert.zulu8.56.0.21-ca-jdk8.0.302-win_x64.zip.pdf
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://kenkousen.substack.com/p/tales-from-the-jar-side-i-miss-grails
+
+http://docs.grails.org/5.0.0.M1/guide/single.html
+https://docs.grails.org/5.0.0.M1/guide/introduction.html
+https://docs.grails.org/5.0.0.M1/guide/index.html
+https://github.com/grails/grails-core/releases      5.0.0.M2 -> 5.0.0.RC1 -> 5.0.0.RC2
+
+https://groovy.apache.org/download.html
+
+09/06/2021  09:52 AM        44,145,611 apache-groovy-binary-3.0.9.zip
+09/06/2021  09:52 AM               838 apache-groovy-binary-3.0.9.zip.asc
+09/06/2021  09:52 AM                66 apache-groovy-binary-3.0.9.zip.sha256
+09/06/2021  09:53 AM        60,020,145 apache-groovy-sdk-4.0.0-beta-1.zip
+09/06/2021  09:54 AM               838 apache-groovy-sdk-4.0.0-beta-1.zip.asc
+09/06/2021  09:54 AM                66 apache-groovy-sdk-4.0.0-beta-1.zip.sha256
+09/06/2021  09:54 AM        21,988,399 apache-groovy-docs-4.0.0-beta-1.zip
+09/06/2021  09:54 AM               838 apache-groovy-docs-4.0.0-beta-1.zip.asc
+09/06/2021  09:54 AM                66 apache-groovy-docs-4.0.0-beta-1.zip.sha256
+09/06/2021  09:54 AM        75,407,056 apache-groovy-sdk-3.0.9.zip
+09/06/2021  09:55 AM               838 apache-groovy-sdk-3.0.9.zip.asc
+09/06/2021  09:55 AM                66 apache-groovy-sdk-3.0.9.zip.sha256
+09/06/2021  09:55 AM        21,938,975 apache-groovy-docs-3.0.9.zip
+09/06/2021  09:55 AM               838 apache-groovy-docs-3.0.9.zip.asc
+09/06/2021  09:55 AM                66 apache-groovy-docs-3.0.9.zip.sha256
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://mvnrepository.com/tags/jdbc
+https://mvnrepository.com/artifact/mysql/mysql-connector-java
+
+// https://mvnrepository.com/artifact/mysql/mysql-connector-java
+implementation 'mysql:mysql-connector-java:8.0.26'
+
+// https://mvnrepository.com/artifact/mysql/mysql-connector-java
+implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.26'
+
+<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.26</version>
+</dependency>
+
+https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc8
+https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc8/21.3.0.0
+Ojdbc8
+Oracle JDBC Driver compatible with JDK8, JDK11, JDK12, JDK13, JDK14 and JDK15 
+
+// https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc8
+implementation 'com.oracle.database.jdbc:ojdbc8:21.3.0.0'
+
+// https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc8
+implementation group: 'com.oracle.database.jdbc', name: 'ojdbc8', version: '21.3.0.0'
+
+<!-- https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc8 -->
+<dependency>
+    <groupId>com.oracle.database.jdbc</groupId>
+    <artifactId>ojdbc8</artifactId>
+    <version>21.3.0.0</version>
+</dependency>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+http://people.apache.org/~jvanzyl/maven-3.1.1/guides/getting-started/maven-in-five-minutes.html
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+C:\Users\David Holberton\temprepos3>mvn --version
+Apache Maven 3.8.2 (ea98e05a04480131370aa0c110b8c54cf726c06f)
+Maven home: C:\LocalApps\apache-maven-3.8.2
+Java version: 1.8.0_301, vendor: Oracle Corporation, runtime: C:\LocalApps\Java\jdk1.8.0_301\jre
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+
+C:\Users\David Holberton\temprepos3>
+C:\Users\David Holberton\temprepos3\my-app>
+C:\Users\David Holberton\temprepos3\my-app>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\temprepos3\my-app
+
+09/06/2021  09:59 AM    <DIR>          src
+09/06/2021  10:24 AM    <DIR>          ..
+09/06/2021  10:24 AM    <DIR>          .
+09/06/2021  10:24 AM    <DIR>          .settings
+09/06/2021  10:29 AM    <DIR>          target
+09/06/2021  10:24 AM             1,813 .classpath
+09/06/2021  10:24 AM               864 .project
+09/06/2021  10:28 AM             1,301 pom.xml
+               3 File(s)          3,978 bytes
+               5 Dir(s)  32,819,396,608 bytes free
+
+C:\Users\David Holberton\temprepos3\my-app>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mycompany.app</groupId>
+  <artifactId>my-app</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>my-app</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.26</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.26</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc8 -->
+    <dependency>
+      <groupId>com.oracle.database.jdbc</groupId>
+      <artifactId>ojdbc8</artifactId>
+      <version>21.3.0.0</version>
+    </dependency>  
+  </dependencies>
+</project>
+
+
+C:\Users\David Holberton\.m2\repository\mysql>dir /o:gd /s
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\.m2\repository\mysql
+
+09/06/2021  10:25 AM    <DIR>          ..
+09/06/2021  10:25 AM    <DIR>          mysql-connector-java
+09/06/2021  10:25 AM    <DIR>          .
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\David Holberton\.m2\repository\mysql\mysql-connector-java
+
+09/06/2021  10:25 AM    <DIR>          ..
+09/06/2021  10:25 AM    <DIR>          .
+09/06/2021  10:25 AM    <DIR>          8.0.26
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\David Holberton\.m2\repository\mysql\mysql-connector-java\8.0.26
+
+09/06/2021  10:25 AM    <DIR>          ..
+09/06/2021  10:25 AM    <DIR>          .
+09/06/2021  10:25 AM             2,504 mysql-connector-java-8.0.26.pom
+09/06/2021  10:25 AM                41 mysql-connector-java-8.0.26.pom.sha1
+09/06/2021  10:25 AM         2,462,364 mysql-connector-java-8.0.26.jar
+09/06/2021  10:25 AM                41 mysql-connector-java-8.0.26.jar.sha1
+09/06/2021  10:25 AM               226 _remote.repositories
+               5 File(s)      2,465,176 bytes
+
+     Total Files Listed:
+               5 File(s)      2,465,176 bytes
+               8 Dir(s)  32,821,899,264 bytes free
+
+C:\Users\David Holberton\.m2\repository\mysql>
+
+C:\Users\David Holberton\.m2\repository\com\oracle>dir /o:gd /s
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\.m2\repository\com\oracle
+
+09/06/2021  10:28 AM    <DIR>          ..
+09/06/2021  10:28 AM    <DIR>          database
+09/06/2021  10:28 AM    <DIR>          .
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\David Holberton\.m2\repository\com\oracle\database
+
+09/06/2021  10:28 AM    <DIR>          ..
+09/06/2021  10:28 AM    <DIR>          .
+09/06/2021  10:28 AM    <DIR>          jdbc
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\David Holberton\.m2\repository\com\oracle\database\jdbc
+
+09/06/2021  10:28 AM    <DIR>          ..
+09/06/2021  10:28 AM    <DIR>          ojdbc8
+09/06/2021  10:28 AM    <DIR>          .
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\David Holberton\.m2\repository\com\oracle\database\jdbc\ojdbc8
+
+09/06/2021  10:28 AM    <DIR>          ..
+09/06/2021  10:28 AM    <DIR>          .
+09/06/2021  10:28 AM    <DIR>          21.3.0.0
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\David Holberton\.m2\repository\com\oracle\database\jdbc\ojdbc8\21.3.0.0
+
+09/06/2021  10:28 AM    <DIR>          ..
+09/06/2021  10:28 AM    <DIR>          .
+09/06/2021  10:28 AM             1,467 ojdbc8-21.3.0.0.pom
+09/06/2021  10:28 AM                40 ojdbc8-21.3.0.0.pom.sha1
+09/06/2021  10:28 AM         5,056,377 ojdbc8-21.3.0.0.jar
+09/06/2021  10:28 AM                40 ojdbc8-21.3.0.0.jar.sha1
+09/06/2021  10:28 AM               202 _remote.repositories
+               5 File(s)      5,058,126 bytes
+
+     Total Files Listed:
+               5 File(s)      5,058,126 bytes
+              14 Dir(s)  32,821,325,824 bytes free
+
+C:\Users\David Holberton\.m2\repository\com\oracle>
+
