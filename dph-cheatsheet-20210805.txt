@@ -1,0 +1,71 @@
+dph-cheatsheet-20210805
+
+java
+
+
+linux
+
+sed -i '/^$/d' myfile.txt
+sed -i ‘/^ *//‘ myfile.txt [trim left]
+sed -i ‘/ *$//‘ myfile.txt [trim right]
+
+
+mswindows
+
+
+git
+
+git init
+git fetch
+git pull
+git push
+git commit -a -m “comment”
+git rm file
+git status
+
+mvn
+
+mvn clean
+mvn package
+
+
+gradle
+
+
+raspberry pi os
+
+
+macosx
+
+dphmm2:~ davidho$ 
+dphmm2:~ davidho$ touch myurls-20210922-raw.txt
+dphmm2:~ davidho$ open myurls-20210922-raw.txt
+dphmm2:~ davidho$ wc myurls-20210922-raw.txt
+    2140    2148  104747 myurls-20210922-raw.txt
+dphmm2:~ davidho$ sed -i '/^$/d' myurls-20210922-raw.txt
+sed: 1: "myurls-20210922-raw.txt": invalid command code m
+dphmm2:~ davidho$ wc myurls-20210922-raw.txt
+    2140    2148  104747 myurls-20210922-raw.txt
+dphmm2:~ davidho$ open myurls-20210922-raw.txt
+dphmm2:~ davidho$ man sed
+dphmm2:~ davidho$ sed '/^$/d' myurls-20210922-raw.txt > myurls-20210922-nbl.txt
+dphmm2:~ davidho$ wc myurls-20210922-nbl.txt
+    1069    2148  103676 myurls-20210922-nbl.txt
+dphmm2:~ davidho$ open myurls-20210922-nbl.txt
+dphmm2:~ davidho$ 
+dphmm2:~ davidho$ sort -u < myurls-20210922-raw.txt > myurls-20210922-sortu.txt
+dphmm2:~ davidho$ sort -u -k 2 < myurls-20210922-raw.txt > myurls-20210922-sortk2.txt
+dphmm2:~ davidho$ 
+dphmm2:~ davidho$ ls -latr *20210922*
+-rw-r--r--@ 1 davidho  staff  104747 Sep 22 07:17 myurls-20210922-raw.txt
+-rw-r--r--@ 1 davidho  staff  103676 Sep 22 07:37 myurls-20210922-nbl.txt
+-rw-r--r--  1 davidho  staff  103677 Sep 22 07:41 myurls-20210922-sortu.txt
+-rw-r--r--  1 davidho  staff  103676 Sep 22 07:42 myurls-20210922-sortk2.txt
+dphmm2:~ davidho$ 
+
+
+
+
+
+
+
