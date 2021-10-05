@@ -1,0 +1,446 @@
+6:44 AM 10/5/2021
+
+C:\Users\David Holberton\Downloads>dir /o:gd apache-tomcat-9*-windows-x64.zip
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\Downloads
+
+05/30/2018  07:02 AM        11,468,235 apache-tomcat-9.0.8-windows-x64.zip
+08/29/2018  07:04 AM        11,535,460 apache-tomcat-9.0.11-windows-x64.zip
+09/07/2019  09:59 AM        12,856,789 apache-tomcat-9.0.24-windows-x64.zip
+02/23/2020  11:21 AM        12,363,716 apache-tomcat-9.0.31-windows-x64.zip
+03/29/2020  11:38 AM        12,293,630 apache-tomcat-9.0.33-windows-x64.zip
+12/13/2020  01:26 PM        12,706,654 apache-tomcat-9.0.41-windows-x64.zip
+06/13/2021  10:09 AM        12,759,972 apache-tomcat-9.0.46-windows-x64.zip
+07/29/2021  06:57 AM        12,769,478 apache-tomcat-9.0.50-windows-x64.zip
+10/03/2021  07:05 AM        12,836,677 apache-tomcat-9.0.53-windows-x64.zip
+               9 File(s)    111,590,611 bytes
+               0 Dir(s)  28,565,123,072 bytes free
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>dir /o:gd mysql-8*-winx64.zip
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\Downloads
+
+07/24/2018  08:30 AM       192,214,252 mysql-8.0.11-winx64.zip
+01/30/2019  11:28 AM       198,999,168 mysql-8.0.14-winx64.zip
+02/04/2020  07:24 PM       196,926,353 mysql-8.0.19-winx64.zip
+06/13/2021  09:46 AM       210,976,242 mysql-8.0.25-winx64.zip
+07/29/2021  07:05 AM       218,340,180 mysql-8.0.26-winx64.zip
+               5 File(s)  1,017,456,195 bytes
+               0 Dir(s)  28,564,713,472 bytes free
+
+C:\Users\David Holberton\Downloads>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+mkdir c:\mysql
+mkdir c:\mysql\data
+7z x -oC:\ apache-tomcat-9.0.53-windows-x64.zip
+7z x -oC:\mysql mysql-8.0.26-winx64.zip
+
+cd C:\apache-tomcat-9.0.53
+mkdir instances
+mkdir instances\mybooks
+mkdir instances\mymusic
+
+robocopy conf    instances\mybooks\conf    /COPYALL /E /DCOPY:T
+robocopy logs    instances\mybooks\logs    /COPYALL /E /DCOPY:T
+robocopy temp    instances\mybooks\temp    /COPYALL /E /DCOPY:T
+robocopy webapps instances\mybooks\webapps /COPYALL /E /DCOPY:T
+robocopy work    instances\mybooks\work    /COPYALL /E /DCOPY:T
+
+robocopy conf    instances\mymusic\conf    /COPYALL /E /DCOPY:T
+robocopy logs    instances\mymusic\logs    /COPYALL /E /DCOPY:T
+robocopy temp    instances\mymusic\temp    /COPYALL /E /DCOPY:T
+robocopy webapps instances\mymusic\webapps /COPYALL /E /DCOPY:T
+robocopy work    instances\mymusic\work    /COPYALL /E /DCOPY:T
+
+cd C:\apache-tomcat-9.0.53\bin
+set CATALINA_HOME=C:\apache-tomcat-9.0.53
+set CATALINA_BASE=C:\apache-tomcat-9.0.53\instances\mybooks
+service.bat install mybooks
+sc query mybooks
+sc start mybooks
+
+cd C:\apache-tomcat-9.0.53\bin
+set CATALINA_HOME=C:\apache-tomcat-9.0.53
+set CATALINA_BASE=C:\apache-tomcat-9.0.53\instances\mymusic
+service.bat install mymusic
+sc query mymusic
+sc start mymusic
+
+mkdir C:\myapps
+cd C:\myapps
+grails create-app mybooks
+cd mybooks
+grails war target\mybooks.war
+dir /o:gd target
+copy target\mybooks.war C:\apache-tomcat-9.0.53\instances\mybooks\webapps
+
+http://localhost/
+http://localhost/mybooks
+
+grails create-domain-class com.ashburndev.Book
+notepad grails-app\domain\com\ashburndev\Book.groovy
+grails generate-all com.ashburndev.Book
+grails clean
+grails war target\mybooks.war
+dir /o:gd target
+del C:\apache-tomcat-9.0.53\instances\mybooks\webapps\mybooks.war
+rmdir /s /q C:\apache-tomcat-9.0.53\instances\mybooks\webapps\mybooks
+dir /o:gd C:\apache-tomcat-9.0.53\instances\mybooks\webapps
+copy /Y target\mybooks.war C:\apache-tomcat-9.0.53\instances\mybooks\webapps
+
+http://localhost/
+http://localhost/mybooks
+
+sc query mybooks
+sc stop  mybooks
+
+robocopy C:\apache-tomcat-9.0.53 "C:\Program Files\apache-tomcat-9.0.53" /COPYALL /E /DCOPY:T
+
+cd "C:\Program Files\apache-tomcat-9.0.53\bin"
+set CATALINA_HOME=C:\Program Files\apache-tomcat-9.0.53
+set CATALINA_BASE=C:\Program Files\apache-tomcat-9.0.53\instances\mybooks
+service.bat install mybooks
+sc query mybooks
+sc start mybooks
+
+http://localhost/
+http://localhost/mybooks
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+package com.ashburndev
+
+class Book {
+
+  String title
+  String author
+  String publisher
+  Integer newestCopyrightYear
+  String copyright   // might be several comma-separated years
+  String isbn10
+  String isbn13
+  String publisherUrl
+  String amazonUrl
+  // Date pubDate
+
+  static constraints = {
+    title nullable: false, blank: false
+    author nullable: true
+    publisher nullable: true
+    newestCopyrightYear nullable: true
+    copyright nullable: true
+    isbn10 nullable: true
+    isbn13 nullable: true
+    publisherUrl nullable: true
+    amazonUrl nullable: true
+  }
+}
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\apache-tomcat-9.0.53\bin>service.bat install mybooks
+Installing the service 'mybooks' ...
+Using CATALINA_HOME:    "C:\apache-tomcat-9.0.53"
+Using CATALINA_BASE:    "C:\apache-tomcat-9.0.53\instances\mybooks"
+Using JAVA_HOME:        "C:\LocalApps\Java\jdk1.8.0_301"
+Using JRE_HOME:         "C:\LocalApps\Java\jdk1.8.0_301\jre"
+Using JVM:              "C:\LocalApps\Java\jdk1.8.0_301\jre\bin\server\jvm.dll"
+The service 'mybooks' has been installed.
+
+C:\apache-tomcat-9.0.53\bin>
+C:\apache-tomcat-9.0.53\bin>C:\apache-tomcat-9.0.53\bin
+'C:\apache-tomcat-9.0.53\bin' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\apache-tomcat-9.0.53\bin>set CATALINA_HOME=C:\apache-tomcat-9.0.53
+
+C:\apache-tomcat-9.0.53\bin>set CATALINA_BASE=C:\apache-tomcat-9.0.53\instances\mymusic
+
+C:\apache-tomcat-9.0.53\bin>service.bat install mymusic
+Installing the service 'mymusic' ...
+Using CATALINA_HOME:    "C:\apache-tomcat-9.0.53"
+Using CATALINA_BASE:    "C:\apache-tomcat-9.0.53\instances\mymusic"
+Using JAVA_HOME:        "C:\LocalApps\Java\jdk1.8.0_301"
+Using JRE_HOME:         "C:\LocalApps\Java\jdk1.8.0_301\jre"
+Using JVM:              "C:\LocalApps\Java\jdk1.8.0_301\jre\bin\server\jvm.dll"
+The service 'mymusic' has been installed.
+
+C:\apache-tomcat-9.0.53\bin>
+
+C:\Program Files>
+C:\Program Files>cd "C:\Program Files\apache-tomcat-9.0.53\bin"
+
+C:\Program Files\apache-tomcat-9.0.53\bin>set CATALINA_HOME=C:\Program Files\apache-tomcat-9.0.53
+
+C:\Program Files\apache-tomcat-9.0.53\bin>set CATALINA_BASE=C:\Program Files\apache-tomcat-9.0.53\instances\mybooks
+
+C:\Program Files\apache-tomcat-9.0.53\bin>service.bat install mybooks
+Installing the service 'mybooks' ...
+Using CATALINA_HOME:    "C:\Program Files\apache-tomcat-9.0.53"
+Using CATALINA_BASE:    "C:\Program Files\apache-tomcat-9.0.53\instances\mybooks"
+Using JAVA_HOME:        "C:\LocalApps\Java\jdk1.8.0_301"
+Using JRE_HOME:         "C:\LocalApps\Java\jdk1.8.0_301\jre"
+Using JVM:              "C:\LocalApps\Java\jdk1.8.0_301\jre\bin\server\jvm.dll"
+The service 'mybooks' has been installed.
+
+C:\Program Files\apache-tomcat-9.0.53\bin>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\myapps>grails --version
+Grails version: 2.5.4
+
+C:\myapps>java -version
+java version "1.8.0_301"
+Java(TM) SE Runtime Environment (build 1.8.0_301-b09)
+Java HotSpot(TM) 64-Bit Server VM (build 25.301-b09, mixed mode)
+
+C:\myapps>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://www.amazon.com/Real-World-Cryptography-David-Wong/dp/1617296716
+
+https://www.amazon.com/Real-World-Cryptography-David-Wong/dp/1617296716/ref=sr_1_1?crid=1GR76UM7WAB8S&dchild=1&keywords=real+world+cryptography&qid=1633263337&sprefix=real+world+c%2Caps%2C162&sr=8-1
+
+ISBN-13: 978-1617296710
+ISBN-10:     1617296716 
+
+https://www.manning.com/books/real-world-cryptography
+
+Real-World Cryptography
+14 reviews
+David Wong
+
+    September 2021 ISBN 9781617296710 400 pages printed in black & white 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Program Files\apache-tomcat-9.0.53\instances\mybooks>tree /a /f logs
+Folder PATH listing
+Volume serial number is 00000056 4603:A8D3
+C:\PROGRAM FILES\APACHE-TOMCAT-9.0.53\INSTANCES\MYBOOKS\LOGS
+    catalina.2021-10-05.log
+    commons-daemon.2021-10-05.log
+    host-manager.2021-10-05.log
+    localhost.2021-10-05.log
+    localhost_access_log.2021-10-05.txt
+    manager.2021-10-05.log
+    mybooks-stderr.2021-10-05.log
+    mybooks-stdout.2021-10-05.log
+
+No subfolders exist
+
+
+C:\Program Files\apache-tomcat-9.0.53\instances\mybooks>tree /a /f temp
+Folder PATH listing
+Volume serial number is 4603-A8D3
+C:\PROGRAM FILES\APACHE-TOMCAT-9.0.53\INSTANCES\MYBOOKS\TEMP
+    safeToDelete.tmp
+
+No subfolders exist
+
+
+C:\Program Files\apache-tomcat-9.0.53\instances\mybooks>tree /a /f work
+Folder PATH listing
+Volume serial number is 4603-A8D3
+C:\PROGRAM FILES\APACHE-TOMCAT-9.0.53\INSTANCES\MYBOOKS\WORK
+\---Catalina
+    \---localhost
+        +---docs
+        +---examples
+        +---host-manager
+        +---manager
+        |   \---org
+        |       \---apache
+        |           \---jsp
+        |               \---WEB_002dINF
+        |                   \---jsp
+        |                           _401_jsp.class
+        |                           _401_jsp.java
+        |
+        +---mybooks
+        \---ROOT
+            \---org
+                \---apache
+                    \---jsp
+                            index_jsp.class
+                            index_jsp.java
+
+
+C:\Program Files\apache-tomcat-9.0.53\instances\mybooks>
+
+C:\Program Files\apache-tomcat-9.0.53\instances\mybooks\logs>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\mybooks\logs
+
+10/05/2021  07:42 AM    <DIR>          ..
+10/05/2021  07:42 AM    <DIR>          .
+10/05/2021  07:42 AM                 0 host-manager.2021-10-05.log
+10/05/2021  07:42 AM                 0 manager.2021-10-05.log
+10/05/2021  08:10 AM               365 mybooks-stdout.2021-10-05.log
+10/05/2021  08:15 AM             5,202 localhost_access_log.2021-10-05.txt
+10/05/2021  08:23 AM             5,309 localhost.2021-10-05.log
+10/05/2021  08:23 AM            43,797 mybooks-stderr.2021-10-05.log
+10/05/2021  08:23 AM            43,432 catalina.2021-10-05.log
+10/05/2021  08:25 AM             3,827 commons-daemon.2021-10-05.log
+               8 File(s)        101,932 bytes
+               2 Dir(s)  25,033,003,008 bytes free
+
+C:\Program Files\apache-tomcat-9.0.53\instances\mybooks\logs>
+
+C:\Program Files\apache-tomcat-9.0.53\instances\mybooks\temp>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\mybooks\temp
+
+09/06/2021  11:09 PM    <DIR>          ..
+09/06/2021  11:09 PM    <DIR>          .
+09/06/2021  11:09 PM                 0 safeToDelete.tmp
+               1 File(s)              0 bytes
+               2 Dir(s)  25,032,470,528 bytes free
+
+C:\Program Files\apache-tomcat-9.0.53\instances\mybooks\temp>
+
+C:\Program Files\apache-tomcat-9.0.53\instances\mybooks\work>dir /s
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\mybooks\work
+
+10/05/2021  07:42 AM    <DIR>          .
+10/05/2021  07:42 AM    <DIR>          ..
+10/05/2021  07:42 AM    <DIR>          Catalina
+               0 File(s)              0 bytes
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\mybooks\work\Catalina
+
+10/05/2021  07:42 AM    <DIR>          .
+10/05/2021  07:42 AM    <DIR>          ..
+10/05/2021  08:12 AM    <DIR>          localhost
+               0 File(s)              0 bytes
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\mybooks\work\Catalina\localhost
+
+10/05/2021  08:12 AM    <DIR>          .
+10/05/2021  08:12 AM    <DIR>          ..
+10/05/2021  07:42 AM    <DIR>          docs
+10/05/2021  07:42 AM    <DIR>          examples
+10/05/2021  07:42 AM    <DIR>          host-manager
+10/05/2021  08:05 AM    <DIR>          manager
+10/05/2021  08:26 AM    <DIR>          mybooks
+10/05/2021  07:42 AM    <DIR>          ROOT
+               0 File(s)              0 bytes
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\mybooks\work\Catalina\localhost\docs
+
+10/05/2021  07:42 AM    <DIR>          .
+10/05/2021  07:42 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\mybooks\work\Catalina\localhost\examples
+
+10/05/2021  07:42 AM    <DIR>          .
+10/05/2021  07:42 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\mybooks\work\Catalina\localhost\host-manager
+
+10/05/2021  07:42 AM    <DIR>          .
+10/05/2021  07:42 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\mybooks\work\Catalina\localhost\manager
+
+10/05/2021  08:05 AM    <DIR>          .
+10/05/2021  08:05 AM    <DIR>          ..
+10/05/2021  08:05 AM    <DIR>          org
+               0 File(s)              0 bytes
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\mybooks\work\Catalina\localhost\manager\org
+
+10/05/2021  08:05 AM    <DIR>          .
+10/05/2021  08:05 AM    <DIR>          ..
+10/05/2021  08:05 AM    <DIR>          apache
+               0 File(s)              0 bytes
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\mybooks\work\Catalina\localhost\manager\org\apache
+
+10/05/2021  08:05 AM    <DIR>          .
+10/05/2021  08:05 AM    <DIR>          ..
+10/05/2021  08:05 AM    <DIR>          jsp
+               0 File(s)              0 bytes
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\mybooks\work\Catalina\localhost\manager\org\apache\jsp
+
+10/05/2021  08:05 AM    <DIR>          .
+10/05/2021  08:05 AM    <DIR>          ..
+10/05/2021  08:05 AM    <DIR>          WEB_002dINF
+               0 File(s)              0 bytes
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\mybooks\work\Catalina\localhost\manager\org\apache\jsp\WEB_002dINF
+
+10/05/2021  08:05 AM    <DIR>          .
+10/05/2021  08:05 AM    <DIR>          ..
+10/05/2021  08:05 AM    <DIR>          jsp
+               0 File(s)              0 bytes
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\mybooks\work\Catalina\localhost\manager\org\apache\jsp\WEB_002dINF\jsp
+
+10/05/2021  08:05 AM    <DIR>          .
+10/05/2021  08:05 AM    <DIR>          ..
+09/06/2021  11:09 PM             8,841 _401_jsp.class
+09/06/2021  11:09 PM             8,880 _401_jsp.java
+               2 File(s)         17,721 bytes
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\mybooks\work\Catalina\localhost\mybooks
+
+10/05/2021  08:26 AM    <DIR>          .
+10/05/2021  08:26 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\mybooks\work\Catalina\localhost\ROOT
+
+10/05/2021  07:42 AM    <DIR>          .
+10/05/2021  07:42 AM    <DIR>          ..
+10/05/2021  07:42 AM    <DIR>          org
+               0 File(s)              0 bytes
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\mybooks\work\Catalina\localhost\ROOT\org
+
+10/05/2021  07:42 AM    <DIR>          .
+10/05/2021  07:42 AM    <DIR>          ..
+10/05/2021  07:42 AM    <DIR>          apache
+               0 File(s)              0 bytes
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\mybooks\work\Catalina\localhost\ROOT\org\apache
+
+10/05/2021  07:42 AM    <DIR>          .
+10/05/2021  07:42 AM    <DIR>          ..
+10/05/2021  07:42 AM    <DIR>          jsp
+               0 File(s)              0 bytes
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\mybooks\work\Catalina\localhost\ROOT\org\apache\jsp
+
+10/05/2021  07:42 AM    <DIR>          .
+10/05/2021  07:42 AM    <DIR>          ..
+09/06/2021  11:09 PM            18,406 index_jsp.class
+09/06/2021  11:09 PM            31,083 index_jsp.java
+               2 File(s)         49,489 bytes
+
+     Total Files Listed:
+               4 File(s)         67,210 bytes
+              50 Dir(s)  25,032,019,968 bytes free
+
+C:\Program Files\apache-tomcat-9.0.53\instances\mybooks\work>
+
