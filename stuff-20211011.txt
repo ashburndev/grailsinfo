@@ -1,0 +1,135 @@
+9:17 AM 10/11/2021
+
+https://stackoverflow.com/questions/905226/what-is-equivalent-to-linux-mkdir-p-in-windows
+https://dev.mysql.com/doc/mysql-tutorial-excerpt/8.0/en/database-use.html
+https://dev.mysql.com/doc/mysql-tutorial-excerpt/8.0/en/creating-database.html
+https://dev.mysql.com/doc/mysql-tutorial-excerpt/8.0/en/creating-tables.html
+https://dev.mysql.com/doc/mysql-tutorial-excerpt/8.0/en/loading-tables.html
+
+CREATE DATABASE menagerie;
+USE menagerie;
+
+CREATE TABLE pet (name VARCHAR(20), owner VARCHAR(20),
+  species VARCHAR(20), sex CHAR(1), birth DATE, death DATE);
+
+DESCRIBE pet;
+
+LOAD DATA LOCAL INFILE '/path/pet.txt' INTO TABLE pet;
+
+LOAD DATA LOCAL INFILE '/path/pet.txt' INTO TABLE pet
+  LINES TERMINATED BY '\r\n';
+
+INSERT INTO pet VALUES ('Puffball','Diane','hamster','f','1999-03-30',NULL);
+
+LOAD DATA LOCAL INFILE 'C:\Users\David Holberton\pets.txt' INTO TABLE pet;
+
+mysql> LOAD DATA LOCAL INFILE 'C:\Users\David Holberton\pets.txt' INTO TABLE pet;
+ERROR 3948 (42000): Loading local data is disabled; this must be enabled on both the client and server sides
+mysql>
+
+$> mysql -h host -u user -p menagerie
+Enter password: ********
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+1. Decide where to install mysql software (basedir), create directory if needed
+2. Decide where to install mysql database (datadir), create directory if needed
+3. Add <basedir>\bin to path
+4. Create an Option File
+5. Initialize the Data Directory
+6. Start the Server for the First Time
+7. Start MySQL from the Windows Command Line
+8. Assign password to root account
+9. Create first MySQL database
+10. Create additional accounts, assign password, grant access
+11. Shutdown the server
+12. Start MySQL as a Windows Service
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+mkdir C:\mysql
+7z x -oC:\mysql mysql-8.0.26-winx64.zip
+mkdir C:\mysql\data
+REM add C:\mysql\mysql-8.0.26-winx64\bin to path
+notepad C:\mysql\mysql-8.0.26-winx64\my.ini
+cd C:\mysql\data
+mysqld --defaults-file=C:\mysql\mysql-8.0.26-winx64\my.ini --initialize-insecure
+mysqld --defaults-file=C:\mysql\mysql-8.0.26-winx64\my.ini
+mysql -u root --skip-password
+
+SELECT VERSION(), CURRENT_DATE;
+SELECT VERSION(); SELECT NOW();
+
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'root-password';
+SHOW GRANTS FOR 'root'@'localhost';
+
+show databases;
+create database inspire;
+show databases;
+
+CREATE USER 'inspire'@'localhost' IDENTIFIED BY 'inspirepw';
+GRANT ALL
+  ON inspire.*
+  TO 'inspire'@'localhost'
+  WITH GRANT OPTION;
+SHOW GRANTS FOR 'inspire'@'localhost';
+quit;
+
+mysqladmin -u root -p shutdown
+mysqld --install MySQL --defaults-file=C:\mysql\mysql-8.0.26-winx64\my.ini
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\mysql\data>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\mysql\data
+
+10/11/2021  10:09 AM    <DIR>          performance_schema
+10/11/2021  10:09 AM    <DIR>          mysql
+10/11/2021  10:09 AM    <DIR>          sys
+10/11/2021  10:09 AM    <DIR>          #innodb_temp
+10/11/2021  10:09 AM    <DIR>          ..
+10/11/2021  10:09 AM    <DIR>          .
+10/11/2021  10:09 AM                56 auto.cnf
+10/11/2021  10:09 AM        50,331,648 ib_logfile1
+10/11/2021  10:09 AM         8,585,216 #ib_16384_1.dblwr
+10/11/2021  10:09 AM             1,676 ca-key.pem
+10/11/2021  10:09 AM             1,112 ca.pem
+10/11/2021  10:09 AM             1,680 server-key.pem
+10/11/2021  10:09 AM             1,112 server-cert.pem
+10/11/2021  10:09 AM             1,676 client-key.pem
+10/11/2021  10:09 AM             1,112 client-cert.pem
+10/11/2021  10:09 AM               452 public_key.pem
+10/11/2021  10:09 AM             1,680 private_key.pem
+10/11/2021  10:09 AM               795 dphxps15.err
+10/11/2021  10:09 AM             6,349 ib_buffer_pool
+10/11/2021  10:09 AM        16,777,216 undo_001
+10/11/2021  10:09 AM           196,608 #ib_16384_0.dblwr
+10/11/2021  10:09 AM        25,165,824 mysql.ibd
+10/11/2021  10:09 AM        16,777,216 undo_002
+10/11/2021  10:09 AM        50,331,648 ib_logfile0
+10/11/2021  10:09 AM        12,582,912 ibdata1
+              19 File(s)    180,765,988 bytes
+               6 Dir(s)  24,846,974,976 bytes free
+
+C:\mysql\data>type dphxps15.err
+2021-10-11T14:09:32.330931Z 0 [System] [MY-013169] [Server] C:\mysql\mysql-8.0.26-winx64\bin\mysqld.exe (mysqld 8.0.26) initializing of server in progress as process 5184
+2021-10-11T14:09:32.368398Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-10-11T14:09:33.322163Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-10-11T14:09:35.425672Z 0 [Warning] [MY-013746] [Server] A deprecated TLS version TLSv1 is enabled for channel mysql_main
+2021-10-11T14:09:35.428560Z 0 [Warning] [MY-013746] [Server] A deprecated TLS version TLSv1.1 is enabled for channel mysql_main
+2021-10-11T14:09:35.493525Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+
+C:\mysql\data>
+
+
+C:\>type \my.ini
+[mysqld]
+# set basedir to your installation path
+basedir=C:/mysql/mysql-8.0.26-winx64
+# set datadir to the location of your data directory
+datadir=C:/mysql/data
+
+C:\>
