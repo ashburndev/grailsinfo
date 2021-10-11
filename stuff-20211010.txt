@@ -1,0 +1,291 @@
+9:14 AM 10/10/2021
+
+
+
+*** TO DO LIST ***
+download vscode 1.61
+recover/replace mysql root account password
+
+
+laundry
+set up fantasy football roster
+giant
+repair toilet(s)
+
+mow lawn / fertilize lawn
+fertilize azeleas
+repair outdoor faucets
+wash off wheelbarrow and fertilizer spreader
+
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://code.visualstudio.com/download
+
+https://www.techrepublic.com/article/how-to-set-change-and-recover-a-mysql-root-password/
+
+
+
+
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Microsoft Windows [Version 10.0.19043.1237]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\David Holberton>
+
+10/10/2021  09:17 AM        79,609,016 VSCodeUserSetup-x64-1.61.0.exe
+10/10/2021  09:17 AM        79,608,616 VSCodeSetup-x64-1.61.0.exe
+10/10/2021  09:18 AM       110,756,509 VSCode-win32-x64-1.61.0.zip
+            1744 File(s) 258,811,594,203 bytes
+              32 Dir(s)  25,371,262,976 bytes free
+
+C:\Users\David Holberton\Downloads>
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://dev.mysql.com/
+
+https://dev.mysql.com/doc/refman/8.0/en/windows-installation.html
+https://dev.mysql.com/doc/refman/8.0/en/windows-installation-layout.html
+https://dev.mysql.com/doc/refman/8.0/en/windows-choosing-package.html
+https://dev.mysql.com/doc/refman/8.0/en/mysql-installer.html
+https://dev.mysql.com/doc/refman/8.0/en/mysql-installer-setup.html
+https://dev.mysql.com/doc/refman/8.0/en/mysql-installer-change-path-proc.html
+https://dev.mysql.com/doc/refman/8.0/en/mysql-installer-workflow.html
+https://dev.mysql.com/doc/refman/8.0/en/mysql-installer-catalog-dashboard.html
+https://dev.mysql.com/doc/refman/8.0/en/MySQLInstallerConsole.html
+
+https://dev.mysql.com/doc/refman/8.0/en/windows-install-archive.html
+https://dev.mysql.com/doc/refman/8.0/en/windows-extract-archive.html
+https://dev.mysql.com/doc/refman/8.0/en/windows-create-option-file.html
+https://dev.mysql.com/doc/refman/8.0/en/windows-select-server.html
+https://dev.mysql.com/doc/refman/8.0/en/windows-initialize-data-directory.html
+https://dev.mysql.com/doc/refman/8.0/en/windows-server-first-start.html
+https://dev.mysql.com/doc/refman/8.0/en/windows-start-command-line.html
+https://dev.mysql.com/doc/refman/8.0/en/mysql-installation-windows-path.html
+https://dev.mysql.com/doc/refman/8.0/en/windows-start-service.html
+
+https://dev.mysql.com/doc/refman/8.0/en/data-directory-initialization.html
+https://dev.mysql.com/doc/refman/8.0/en/default-privileges.html
+https://dev.mysql.com/doc/refman/8.0/en/option-files.html
+https://dev.mysql.com/doc/refman/8.0/en/creating-accounts.html
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+2.3.4.1 Extracting the Install Archive
+
+To install MySQL manually, do the following:
+
+    If you are upgrading from a previous version please refer to Section 2.11.10, “Upgrading MySQL on Windows”, before beginning the upgrade process.
+
+    Make sure that you are logged in as a user with administrator privileges.
+
+    Choose an installation location. Traditionally, the MySQL server is installed in C:\mysql. If you do not install MySQL at C:\mysql, you must specify the path to the install directory during startup or in an option file. See Section 2.3.4.2, “Creating an Option File”.
+    Note
+
+    The MySQL Installer installs MySQL under C:\Program Files\MySQL.
+
+2.3.4.2 Creating an Option File
+
+If you need to specify startup options when you run the server, you can indicate them on the command line or place them in an option file. For options that are used every time the server starts, you may find it most convenient to use an option file to specify your MySQL configuration. This is particularly true under the following circumstances:
+
+    The installation or data directory locations are different from the default locations (C:\Program Files\MySQL\MySQL Server 8.0 and C:\Program Files\MySQL\MySQL Server 8.0\data).
+
+    You need to tune the server settings, such as memory, cache, or InnoDB configuration information. 
+
+When the MySQL server starts on Windows, it looks for option files in several locations, such as the Windows directory, C:\, and the MySQL installation directory (for the full list of locations, see Section 4.2.2.2, “Using Option Files”). The Windows directory typically is named something like C:\WINDOWS. You can determine its exact location from the value of the WINDIR environment variable using the following command:
+
+C:\> echo %WINDIR%
+
+MySQL looks for options in each location first in the my.ini file, and then in the my.cnf file. However, to avoid confusion, it is best if you use only one file. If your PC uses a boot loader where C: is not the boot drive, your only option is to use the my.ini file. Whichever option file you use, it must be a plain text file.
+Note
+
+When using the MySQL Installer to install MySQL Server, it creates the my.ini at the default location, and the user executing MySQL Installer is granted full permissions to this new my.ini file.
+
+In other words, be sure that the MySQL Server user has permission to read the my.ini file.
+
+You can also make use of the example option files included with your MySQL distribution; see Section 5.1.2, “Server Configuration Defaults”.
+
+An option file can be created and modified with any text editor, such as Notepad. For example, if MySQL is installed in E:\mysql and the data directory is in E:\mydata\data, you can create an option file containing a [mysqld] section to specify values for the basedir and datadir options:
+
+[mysqld]
+# set basedir to your installation path
+basedir=E:/mysql
+# set datadir to the location of your data directory
+datadir=E:/mydata/data
+
+Microsoft Windows path names are specified in option files using (forward) slashes rather than backslashes. If you do use backslashes, double them:
+
+[mysqld]
+# set basedir to your installation path
+basedir=E:\\mysql
+# set datadir to the location of your data directory
+datadir=E:\\mydata\\data
+
+The rules for use of backslash in option file values are given in Section 4.2.2.2, “Using Option Files”.
+
+The ZIP archive does not include a data directory. To initialize a MySQL installation by creating the data directory and populating the tables in the mysql system database, initialize MySQL using either --initialize or --initialize-insecure. For additional information, see Section 2.10.1, “Initializing the Data Directory”.
+
+If you would like to use a data directory in a different location, you should copy the entire contents of the data directory to the new location. For example, if you want to use E:\mydata as the data directory instead, you must do two things:
+
+    Move the entire data directory and all of its contents from the default location (for example C:\Program Files\MySQL\MySQL Server 8.0\data) to E:\mydata.
+
+    Use a --datadir option to specify the new data directory location each time you start the server. 
+
+
+2.3.4.5 Starting the Server for the First Time
+
+Note
+
+The database must be initialized before MySQL can be started. For additional information about the initialization process, see Section 2.10.1, “Initializing the Data Directory”.
+
+To start the server, enter this command:
+
+C:\> "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld" --console
+
+The server continues to write to the console any further diagnostic output it produces. You can open a new console window in which to run client programs.
+
+If you omit the --console option, the server writes diagnostic output to the error log in the data directory (C:\Program Files\MySQL\MySQL Server 8.0\data by default). The error log is the file with the .err extension, and may be set using the --log-error option. 
+
+2.3.4.6 Starting MySQL from the Windows Command Line
+
+ The MySQL server can be started manually from the command line. This can be done on any version of Windows.
+
+To start the mysqld server from the command line, you should start a console window (or “DOS window”) and enter this command:
+
+C:\> "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld"
+
+The path to mysqld may vary depending on the install location of MySQL on your system.
+
+You can stop the MySQL server by executing this command:
+
+C:\> "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqladmin" -u root shutdown
+
+Note
+
+If the MySQL root user account has a password, you need to invoke mysqladmin with the -p option and supply the password when prompted.
+
+2.3.4.7 Customizing the PATH for MySQL Tools
+
+To make it easier to invoke MySQL programs, you can add the path name of the MySQL bin directory to your Windows system PATH environment variable: 
+
+2.3.4.8 Starting MySQL as a Windows Service
+
+ On Windows, the recommended way to run MySQL is to install it as a Windows service, so that MySQL starts and stops automatically when Windows starts and stops. A MySQL server installed as a service can also be controlled from the command line using NET commands, or with the graphical Services utility. Generally, to install MySQL as a Windows service you should be logged in using an account that has administrator rights.
+
+The Services utility (the Windows Service Control Manager) can be found in the Windows Control Panel. To avoid conflicts, it is advisable to close the Services utility while performing server installation or removal operations from the command line.
+Installing the service
+
+Before installing MySQL as a Windows service, you should first stop the current server if it is running by using the following command:
+
+C:\> "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqladmin"
+          -u root shutdown
+
+Note
+
+If the MySQL root user account has a password, you need to invoke mysqladmin with the -p option and supply the password when prompted.
+
+This command invokes the MySQL administrative utility mysqladmin to connect to the server and tell it to shut down. The command connects as the MySQL root user, which is the default administrative account in the MySQL grant system.
+Note
+
+Users in the MySQL grant system are wholly independent from any operating system users under Windows.
+
+Install the server as a service using this command:
+
+C:\> "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld" --install
+
+ As a more complex example, consider the following command:
+
+C:\> "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld" --install MySQL --defaults-file=C:\my-opts.cnf
+
+Note
+
+On Windows, if the server is started with the --defaults-file and --install options, --install must be first. Otherwise, mysqld.exe attempts to start the MySQL server.
+
+Removing the service
+
+To remove a server that is installed as a service, first stop it if it is running by executing SC STOP mysqld_service_name or NET STOP mysqld_service_name. Then use SC DELETE mysqld_service_name to remove it:
+
+C:\> SC DELETE mysql
+
+Alternatively, use the mysqld --remove option to remove the service.
+
+C:\> "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld" --remove
+
+-------------------------------------------
+
+2.10.1 Initializing the Data Directory
+
+Data Directory Initialization Procedure
+
+Change location to the top-level directory of your MySQL installation, which is typically /usr/local/mysql (adjust the path name for your system as necessary):
+
+cd /usr/local/mysql
+
+ On Unix and Unix-like systems, it is important for the database directories and files to be owned by the mysql login account so that the server has read and write access to them when you run it later. To ensure this, start mysqld from the system root account and include the --user option as shown here:
+
+bin/mysqld --initialize --user=mysql
+bin/mysqld --initialize-insecure --user=mysql
+
+It might be necessary to specify other options such as --basedir or --datadir if mysqld cannot identify the correct locations for the installation directory or data directory. For example (enter the command on a single line):
+
+bin/mysqld --initialize --user=mysql
+  --basedir=/opt/mysql/mysql
+  --datadir=/opt/mysql/mysql/data
+
+Alternatively, put the relevant option settings in an option file and pass the name of that file to mysqld. For Unix and Unix-like systems, suppose that the option file name is /opt/mysql/mysql/etc/my.cnf. Put these lines in the file:
+
+[mysqld]
+basedir=/opt/mysql/mysql
+datadir=/opt/mysql/mysql/data
+
+Then invoke mysqld as follows (enter the command on a single line with the --defaults-file option first):
+
+bin/mysqld --defaults-file=/opt/mysql/mysql/etc/my.cnf --initialize --user=mysql
+bin/mysqld --defaults-file=/opt/mysql/mysql/etc/my.cnf --initialize-insecure --user=mysql
+
+mysql -u root -p
+mysql -u root --skip-password
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'root-password';
+
+6.2.8 Adding Accounts, Assigning Privileges, and Dropping Accounts
+
+$> mysql -u root -p
+Enter password: (enter root password here)
+
+CREATE USER 'finley'@'localhost'
+  IDENTIFIED BY 'password';
+GRANT ALL
+  ON *.*
+  TO 'finley'@'localhost'
+  WITH GRANT OPTION;
+
+Checking Account Privileges and Properties
+
+To see the privileges for an account, use SHOW GRANTS:
+
+mysql> SHOW GRANTS FOR 'admin'@'localhost';
++-----------------------------------------------------+
+| Grants for admin@localhost                          |
++-----------------------------------------------------+
+| GRANT RELOAD, PROCESS ON *.* TO `admin`@`localhost` |
++-----------------------------------------------------+
+
+Dropping Accounts
+
+To remove an account, use the DROP USER statement. For example, to drop some of the accounts created previously:
+
+DROP USER 'finley'@'localhost';
+
+
+
+
+
