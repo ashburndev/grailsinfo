@@ -1,0 +1,438 @@
+5:57 AM 10/20/2021
+
+Microsoft Windows [Version 10.0.19043.1288]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>sc delete mymusic
+[SC] DeleteService SUCCESS
+
+C:\WINDOWS\system32>sc delete mybooks
+[SC] DeleteService SUCCESS
+
+C:\WINDOWS\system32>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+sc stop mybooks
+sc stop mymusic
+sc delete mybooks
+sc delete mymusic
+
+rmdir /s /q  C:\apache-tomcat-9.0.53
+rmdir /s /q "C:\Program Files\apache-tomcat-9.0.53"
+
+
+7z x -o"C:\Program Files\" apache-tomcat-9.0.53-windows-x64.zip
+
+cd "\Program Files\apache-tomcat-9.0.53"
+
+mkdir instances
+mkdir instances\inspire
+mkdir instances\upgrader
+
+robocopy conf    instances\inspire\conf    /COPYALL /E /DCOPY:T
+robocopy logs    instances\inspire\logs    /COPYALL /E /DCOPY:T
+robocopy temp    instances\inspire\temp    /COPYALL /E /DCOPY:T
+robocopy webapps instances\inspire\webapps /COPYALL /E /DCOPY:T
+robocopy work    instances\inspire\work    /COPYALL /E /DCOPY:T
+
+robocopy conf    instances\upgrader\conf    /COPYALL /E /DCOPY:T
+robocopy logs    instances\upgrader\logs    /COPYALL /E /DCOPY:T
+robocopy temp    instances\upgrader\temp    /COPYALL /E /DCOPY:T
+robocopy webapps instances\upgrader\webapps /COPYALL /E /DCOPY:T
+robocopy work    instances\upgrader\work    /COPYALL /E /DCOPY:T
+
+cd "C:\Program Files\apache-tomcat-9.0.53\instances\inspire\conf"
+copy server.xml server.xml.orig
+notepad server.xml
+REM replace "8080" with "80"
+
+cd "C:\Program Files\apache-tomcat-9.0.53\instances\upgrader\conf"
+copy server.xml server.xml.orig
+notepad server.xml
+REM replace "8080" with "81"
+REM replace "8005" with "8006"
+
+cd "C:\Program Files\apache-tomcat-9.0.53\bin"
+set CATALINA_HOME=C:\Program Files\apache-tomcat-9.0.53
+set CATALINA_BASE=C:\Program Files\apache-tomcat-9.0.53\instances\inspire
+service.bat install inspire
+sc query inspire
+sc start inspire
+
+cd "C:\Program Files\apache-tomcat-9.0.53\bin"
+set CATALINA_HOME=C:\Program Files\apache-tomcat-9.0.53
+set CATALINA_BASE=C:\Program Files\apache-tomcat-9.0.53\instances\upgrader
+service.bat install upgrader
+sc query upgrader
+sc start upgrader
+
+REM use firefox to browse URL http://localhost:80
+REM use firefox to browse URL http://localhost:80/docs
+REM use firefox to browse URL http://localhost:80/examples
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Program Files\apache-tomcat-9.0.53\bin>service.bat install inspire
+Installing the service 'inspire' ...
+Using CATALINA_HOME:    "C:\Program Files\apache-tomcat-9.0.53"
+Using CATALINA_BASE:    "C:\Program Files\apache-tomcat-9.0.53\instances\inspire"
+Using JAVA_HOME:        "C:\LocalApps\Java\jdk1.8.0_301"
+Using JRE_HOME:         "C:\LocalApps\Java\jdk1.8.0_301\jre"
+Using JVM:              "C:\LocalApps\Java\jdk1.8.0_301\jre\bin\server\jvm.dll"
+The service 'inspire' has been installed.
+
+C:\Program Files\apache-tomcat-9.0.53\bin>service.bat install upgrader
+Installing the service 'upgrader' ...
+Using CATALINA_HOME:    "C:\Program Files\apache-tomcat-9.0.53"
+Using CATALINA_BASE:    "C:\Program Files\apache-tomcat-9.0.53\instances\upgrader"
+Using JAVA_HOME:        "C:\LocalApps\Java\jdk1.8.0_301"
+Using JRE_HOME:         "C:\LocalApps\Java\jdk1.8.0_301\jre"
+Using JVM:              "C:\LocalApps\Java\jdk1.8.0_301\jre\bin\server\jvm.dll"
+The service 'upgrader' has been installed.
+
+C:\Program Files\apache-tomcat-9.0.53\bin>
+
+C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps>dir /o:gn
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps
+
+09/06/2021  11:09 PM    <DIR>          .
+09/06/2021  11:09 PM    <DIR>          ..
+09/06/2021  11:09 PM    <DIR>          docs
+09/06/2021  11:09 PM    <DIR>          examples
+09/06/2021  11:09 PM    <DIR>          host-manager
+09/06/2021  11:09 PM    <DIR>          manager
+09/06/2021  11:09 PM    <DIR>          ROOT
+               0 File(s)              0 bytes
+               7 Dir(s)  13,995,524,096 bytes free
+
+C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps>
+
+C:\Program Files\apache-tomcat-9.0.53\instances\inspire\logs>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\inspire\logs
+
+10/20/2021  06:16 AM    <DIR>          .
+10/20/2021  06:16 AM    <DIR>          ..
+10/20/2021  06:16 AM               344 commons-daemon.2021-10-20.log
+10/20/2021  06:16 AM                 0 inspire-stderr.2021-10-20.log
+10/20/2021  06:16 AM                 0 inspire-stdout.2021-10-20.log
+               3 File(s)            344 bytes
+               2 Dir(s)  13,993,648,128 bytes free
+
+C:\Program Files\apache-tomcat-9.0.53\instances\inspire\logs>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+The following is after I edited the properties of the inspire service,
+changing the "Log on as:" from "Local Service" to "Local System account"
+
+C:\Program Files\apache-tomcat-9.0.53\instances\inspire>dir /o:gd logs
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\inspire\logs
+
+10/20/2021  06:34 AM    <DIR>          ..
+10/20/2021  06:34 AM    <DIR>          .
+10/20/2021  06:34 AM                73 inspire-stdout.2021-10-20.log
+10/20/2021  06:34 AM                 0 manager.2021-10-20.log
+10/20/2021  06:34 AM                 0 host-manager.2021-10-20.log
+10/20/2021  06:34 AM                 0 localhost_access_log.2021-10-20.txt
+10/20/2021  06:36 AM               663 localhost.2021-10-20.log
+10/20/2021  06:36 AM             7,532 inspire-stderr.2021-10-20.log
+10/20/2021  06:36 AM             7,459 catalina.2021-10-20.log
+10/20/2021  06:36 AM             1,211 commons-daemon.2021-10-20.log
+               8 File(s)         16,938 bytes
+               2 Dir(s)  13,988,868,096 bytes free
+
+C:\Program Files\apache-tomcat-9.0.53\instances\inspire>dir /o:gd temp
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\inspire\temp
+
+10/20/2021  06:38 AM    <DIR>          ..
+10/20/2021  06:38 AM    <DIR>          .
+09/06/2021  11:09 PM                 0 safeToDelete.tmp
+               1 File(s)              0 bytes
+               2 Dir(s)  13,988,933,632 bytes free
+
+C:\Program Files\apache-tomcat-9.0.53\instances\inspire>dir /o:gd work
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\inspire\work
+
+10/20/2021  06:34 AM    <DIR>          ..
+10/20/2021  06:34 AM    <DIR>          Catalina
+10/20/2021  06:34 AM    <DIR>          .
+               0 File(s)              0 bytes
+               3 Dir(s)  13,987,745,792 bytes free
+
+C:\Program Files\apache-tomcat-9.0.53\instances\inspire>tree /a /f work
+Folder PATH listing
+Volume serial number is 0000004F 4603:A8D3
+C:\PROGRAM FILES\APACHE-TOMCAT-9.0.53\INSTANCES\INSPIRE\WORK
+\---Catalina
+    \---localhost
+        +---docs
+        +---examples
+        +---host-manager
+        +---manager
+        \---ROOT
+            \---org
+                \---apache
+                    \---jsp
+                            index_jsp.class
+                            index_jsp.java
+
+
+C:\Program Files\apache-tomcat-9.0.53\instances\inspire>
+C:\Program Files\apache-tomcat-9.0.53\instances\inspire>type logs\inspire-stdout.2021-10-20.log
+
+2021-10-20 06:34:58 Apache Commons Daemon procrun stdout initialized.
+
+2021-10-20 06:36:12 Apache Commons Daemon procrun stdout initialized.
+
+C:\Program Files\apache-tomcat-9.0.53\instances\inspire>
+C:\Program Files\apache-tomcat-9.0.53\instances\inspire>type logs\localhost.2021-10-20.log
+20-Oct-2021 06:34:59.578 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+20-Oct-2021 06:34:59.579 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+20-Oct-2021 06:34:59.580 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@623a8092')
+20-Oct-2021 06:36:07.028 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+20-Oct-2021 06:36:07.029 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+20-Oct-2021 06:36:13.480 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+20-Oct-2021 06:36:13.480 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+20-Oct-2021 06:36:13.481 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@623a8092')
+
+C:\Program Files\apache-tomcat-9.0.53\instances\inspire>type logs\localhost_access_log.2021-10-20.txt
+127.0.0.1 - - [20/Oct/2021:06:37:11 -0400] "GET / HTTP/1.1" 200 11354
+127.0.0.1 - - [20/Oct/2021:06:37:11 -0400] "GET /tomcat.css HTTP/1.1" 200 5895
+127.0.0.1 - - [20/Oct/2021:06:37:11 -0400] "GET /bg-upper.png HTTP/1.1" 200 3103
+127.0.0.1 - - [20/Oct/2021:06:37:11 -0400] "GET /bg-nav.png HTTP/1.1" 200 1401
+127.0.0.1 - - [20/Oct/2021:06:37:11 -0400] "GET /asf-logo-wide.svg HTTP/1.1" 200 8192
+127.0.0.1 - - [20/Oct/2021:06:37:11 -0400] "GET /bg-middle.png HTTP/1.1" 200 1918
+127.0.0.1 - - [20/Oct/2021:06:37:11 -0400] "GET /bg-button.png HTTP/1.1" 200 713
+127.0.0.1 - - [20/Oct/2021:06:37:21 -0400] "GET /docs/images/tomcat.png HTTP/1.1" 200 5103
+127.0.0.1 - - [20/Oct/2021:06:37:21 -0400] "GET /docs/images/asf-logo.svg HTTP/1.1" 200 8192
+127.0.0.1 - - [20/Oct/2021:06:37:21 -0400] "GET /docs/images/fonts/fonts.css HTTP/1.1" 200 1996
+127.0.0.1 - - [20/Oct/2021:06:37:21 -0400] "GET /docs/images/docs-stylesheet.css HTTP/1.1" 200 6082
+127.0.0.1 - - [20/Oct/2021:06:37:21 -0400] "GET /docs/images/fonts/OpenSans400.woff HTTP/1.1" 200 8192
+127.0.0.1 - - [20/Oct/2021:06:37:21 -0400] "GET /docs/images/fonts/OpenSans600.woff HTTP/1.1" 200 8192
+127.0.0.1 - - [20/Oct/2021:06:37:21 -0400] "GET /docs/images/fonts/OpenSans400italic.woff HTTP/1.1" 200 8192
+127.0.0.1 - - [20/Oct/2021:06:37:21 -0400] "GET /docs/images/fonts/OpenSans700.woff HTTP/1.1" 200 8192
+127.0.0.1 - - [20/Oct/2021:06:37:29 -0400] "GET /examples/ HTTP/1.1" 200 1156
+127.0.0.1 - - [20/Oct/2021:06:37:32 -0400] "GET /examples/servlets HTTP/1.1" 302 -
+127.0.0.1 - - [20/Oct/2021:06:37:32 -0400] "GET /examples/servlets/ HTTP/1.1" 200 6789
+127.0.0.1 - - [20/Oct/2021:06:37:32 -0400] "GET /examples/servlets/images/return.gif HTTP/1.1" 200 1231
+127.0.0.1 - - [20/Oct/2021:06:37:32 -0400] "GET /examples/servlets/images/execute.gif HTTP/1.1" 200 1242
+127.0.0.1 - - [20/Oct/2021:06:37:32 -0400] "GET /examples/servlets/images/code.gif HTTP/1.1" 200 292
+127.0.0.1 - - [20/Oct/2021:06:37:36 -0400] "GET /examples/jsp HTTP/1.1" 302 -
+127.0.0.1 - - [20/Oct/2021:06:37:36 -0400] "GET /examples/jsp/ HTTP/1.1" 200 14614
+127.0.0.1 - - [20/Oct/2021:06:37:36 -0400] "GET /examples/jsp/images/code.gif HTTP/1.1" 200 292
+127.0.0.1 - - [20/Oct/2021:06:37:36 -0400] "GET /examples/jsp/images/execute.gif HTTP/1.1" 200 1242
+127.0.0.1 - - [20/Oct/2021:06:37:36 -0400] "GET /examples/jsp/images/return.gif HTTP/1.1" 200 1231
+127.0.0.1 - - [20/Oct/2021:06:37:39 -0400] "GET /examples/websocket/index.xhtml HTTP/1.1" 200 1299
+127.0.0.1 - - [20/Oct/2021:06:37:42 -0400] "GET /examples/websocket/echo.xhtml HTTP/1.1" 200 7247
+127.0.0.1 - - [20/Oct/2021:06:37:45 -0400] "GET /examples/websocket/chat.xhtml HTTP/1.1" 200 4697
+127.0.0.1 - - [20/Oct/2021:06:37:45 -0400] "GET /examples/websocket/chat HTTP/1.1" 101 -
+127.0.0.1 - - [20/Oct/2021:06:37:50 -0400] "GET /examples/websocket/snake.xhtml HTTP/1.1" 200 9636
+127.0.0.1 - - [20/Oct/2021:06:37:50 -0400] "GET /examples/websocket/snake HTTP/1.1" 101 -
+127.0.0.1 - - [20/Oct/2021:06:38:07 -0400] "GET /examples/websocket/drawboard HTTP/1.1" 101 -
+127.0.0.1 - - [20/Oct/2021:06:38:07 -0400] "GET /examples/websocket/drawboard.xhtml HTTP/1.1" 200 8192
+
+C:\Program Files\apache-tomcat-9.0.53\instances\inspire>
+C:\Program Files\apache-tomcat-9.0.53\instances\inspire>type logs\catalina.2021-10-20.log
+20-Oct-2021 06:34:58.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.53
+20-Oct-2021 06:34:58.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 6 2021 19:09:00 UTC
+20-Oct-2021 06:34:58.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.53.0
+20-Oct-2021 06:34:58.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+20-Oct-2021 06:34:58.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Oct-2021 06:34:58.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Oct-2021 06:34:58.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\LocalApps\Java\jdk1.8.0_301\jre
+20-Oct-2021 06:34:58.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_301-b09
+20-Oct-2021 06:34:58.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Oct-2021 06:34:58.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\apache-tomcat-9.0.53\instances\inspire
+20-Oct-2021 06:34:58.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\apache-tomcat-9.0.53
+20-Oct-2021 06:34:58.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\apache-tomcat-9.0.53
+20-Oct-2021 06:34:58.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\apache-tomcat-9.0.53\instances\inspire
+20-Oct-2021 06:34:58.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=C:\Program Files\apache-tomcat-9.0.53\endorsed
+20-Oct-2021 06:34:58.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\apache-tomcat-9.0.53\instances\inspire\temp
+20-Oct-2021 06:34:58.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2021 06:34:58.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\apache-tomcat-9.0.53\instances\inspire\conf\logging.properties
+20-Oct-2021 06:34:58.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+20-Oct-2021 06:34:58.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+20-Oct-2021 06:34:58.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+20-Oct-2021 06:34:58.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+20-Oct-2021 06:34:58.537 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+20-Oct-2021 06:34:58.537 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+20-Oct-2021 06:34:58.537 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20-Oct-2021 06:34:58.541 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+20-Oct-2021 06:34:58.851 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+20-Oct-2021 06:34:58.873 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [497] milliseconds
+20-Oct-2021 06:34:58.901 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Oct-2021 06:34:58.901 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.53]
+20-Oct-2021 06:34:58.909 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps\docs]
+20-Oct-2021 06:34:59.275 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [183] milliseconds.
+20-Oct-2021 06:34:59.293 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps\docs] has finished in [384] ms
+20-Oct-2021 06:34:59.294 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps\examples]
+20-Oct-2021 06:34:59.587 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps\examples] has finished in [293] ms
+20-Oct-2021 06:34:59.588 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps\host-manager]
+20-Oct-2021 06:34:59.618 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps\host-manager] has finished in [31] ms
+20-Oct-2021 06:34:59.618 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps\manager]
+20-Oct-2021 06:34:59.641 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps\manager] has finished in [23] ms
+20-Oct-2021 06:34:59.642 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps\ROOT]
+20-Oct-2021 06:34:59.662 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps\ROOT] has finished in [19] ms
+20-Oct-2021 06:34:59.665 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+20-Oct-2021 06:34:59.676 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [802] milliseconds
+20-Oct-2021 06:36:06.847 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-80"]
+20-Oct-2021 06:36:07.020 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Oct-2021 06:36:07.037 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-80"]
+20-Oct-2021 06:36:07.067 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-80"]
+20-Oct-2021 06:36:12.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.53
+20-Oct-2021 06:36:12.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 6 2021 19:09:00 UTC
+20-Oct-2021 06:36:12.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.53.0
+20-Oct-2021 06:36:12.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+20-Oct-2021 06:36:12.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Oct-2021 06:36:12.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Oct-2021 06:36:12.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\LocalApps\Java\jdk1.8.0_301\jre
+20-Oct-2021 06:36:12.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_301-b09
+20-Oct-2021 06:36:12.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Oct-2021 06:36:12.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\apache-tomcat-9.0.53\instances\inspire
+20-Oct-2021 06:36:12.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\apache-tomcat-9.0.53
+20-Oct-2021 06:36:12.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\apache-tomcat-9.0.53
+20-Oct-2021 06:36:12.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\apache-tomcat-9.0.53\instances\inspire
+20-Oct-2021 06:36:12.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=C:\Program Files\apache-tomcat-9.0.53\endorsed
+20-Oct-2021 06:36:12.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\apache-tomcat-9.0.53\instances\inspire\temp
+20-Oct-2021 06:36:12.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2021 06:36:12.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\apache-tomcat-9.0.53\instances\inspire\conf\logging.properties
+20-Oct-2021 06:36:12.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+20-Oct-2021 06:36:12.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+20-Oct-2021 06:36:12.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+20-Oct-2021 06:36:12.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+20-Oct-2021 06:36:12.451 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+20-Oct-2021 06:36:12.451 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+20-Oct-2021 06:36:12.451 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20-Oct-2021 06:36:12.455 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+20-Oct-2021 06:36:12.769 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+20-Oct-2021 06:36:12.793 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [512] milliseconds
+20-Oct-2021 06:36:12.828 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Oct-2021 06:36:12.829 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.53]
+20-Oct-2021 06:36:12.836 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps\docs]
+20-Oct-2021 06:36:13.177 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [170] milliseconds.
+20-Oct-2021 06:36:13.195 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps\docs] has finished in [359] ms
+20-Oct-2021 06:36:13.195 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps\examples]
+20-Oct-2021 06:36:13.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps\examples] has finished in [294] ms
+20-Oct-2021 06:36:13.490 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps\host-manager]
+20-Oct-2021 06:36:13.522 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps\host-manager] has finished in [32] ms
+20-Oct-2021 06:36:13.522 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps\manager]
+20-Oct-2021 06:36:13.550 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps\manager] has finished in [28] ms
+20-Oct-2021 06:36:13.551 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps\ROOT]
+20-Oct-2021 06:36:13.569 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps\ROOT] has finished in [18] ms
+20-Oct-2021 06:36:13.572 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+20-Oct-2021 06:36:13.583 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [790] milliseconds
+
+C:\Program Files\apache-tomcat-9.0.53\instances\inspire>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+copy C:\myapps\mybooks\target\mybooks.war "C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps"
+
+C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps
+
+09/06/2021  11:09 PM    <DIR>          host-manager
+09/06/2021  11:09 PM    <DIR>          manager
+09/06/2021  11:09 PM    <DIR>          docs
+09/06/2021  11:09 PM    <DIR>          examples
+09/06/2021  11:09 PM    <DIR>          ROOT
+10/20/2021  07:16 AM    <DIR>          .
+10/20/2021  07:16 AM    <DIR>          ..
+10/20/2021  07:16 AM    <DIR>          mybooks
+10/05/2021  07:59 AM        49,684,308 mybooks.war
+               1 File(s)     49,684,308 bytes
+               8 Dir(s)  13,883,428,864 bytes free
+
+C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps>
+C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps>dir /o:gd mybooks
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps\mybooks
+
+10/20/2021  07:16 AM    <DIR>          css
+10/20/2021  07:16 AM    <DIR>          js
+10/20/2021  07:16 AM    <DIR>          images
+10/20/2021  07:16 AM    <DIR>          ..
+10/20/2021  07:16 AM    <DIR>          .
+10/20/2021  07:16 AM    <DIR>          plugins
+10/20/2021  07:16 AM    <DIR>          WEB-INF
+10/20/2021  07:16 AM    <DIR>          assets
+10/20/2021  07:16 AM    <DIR>          META-INF
+               0 File(s)              0 bytes
+               9 Dir(s)  13,883,658,240 bytes free
+
+C:\Program Files\apache-tomcat-9.0.53\instances\inspire\webapps>
+
+REM use firefox to browse URL http://localhost:80/mybooks
+
+C:\Program Files\apache-tomcat-9.0.53\instances\inspire>type logs\localhost_access_log.2021-10-20.txt
+127.0.0.1 - - [20/Oct/2021:06:37:11 -0400] "GET / HTTP/1.1" 200 11354
+127.0.0.1 - - [20/Oct/2021:06:37:11 -0400] "GET /tomcat.css HTTP/1.1" 200 5895
+127.0.0.1 - - [20/Oct/2021:06:37:11 -0400] "GET /bg-upper.png HTTP/1.1" 200 3103
+127.0.0.1 - - [20/Oct/2021:06:37:11 -0400] "GET /bg-nav.png HTTP/1.1" 200 1401
+127.0.0.1 - - [20/Oct/2021:06:37:11 -0400] "GET /asf-logo-wide.svg HTTP/1.1" 200 8192
+127.0.0.1 - - [20/Oct/2021:06:37:11 -0400] "GET /bg-middle.png HTTP/1.1" 200 1918
+127.0.0.1 - - [20/Oct/2021:06:37:11 -0400] "GET /bg-button.png HTTP/1.1" 200 713
+127.0.0.1 - - [20/Oct/2021:06:37:21 -0400] "GET /docs/images/tomcat.png HTTP/1.1" 200 5103
+127.0.0.1 - - [20/Oct/2021:06:37:21 -0400] "GET /docs/images/asf-logo.svg HTTP/1.1" 200 8192
+127.0.0.1 - - [20/Oct/2021:06:37:21 -0400] "GET /docs/images/fonts/fonts.css HTTP/1.1" 200 1996
+127.0.0.1 - - [20/Oct/2021:06:37:21 -0400] "GET /docs/images/docs-stylesheet.css HTTP/1.1" 200 6082
+127.0.0.1 - - [20/Oct/2021:06:37:21 -0400] "GET /docs/images/fonts/OpenSans400.woff HTTP/1.1" 200 8192
+127.0.0.1 - - [20/Oct/2021:06:37:21 -0400] "GET /docs/images/fonts/OpenSans600.woff HTTP/1.1" 200 8192
+127.0.0.1 - - [20/Oct/2021:06:37:21 -0400] "GET /docs/images/fonts/OpenSans400italic.woff HTTP/1.1" 200 8192
+127.0.0.1 - - [20/Oct/2021:06:37:21 -0400] "GET /docs/images/fonts/OpenSans700.woff HTTP/1.1" 200 8192
+127.0.0.1 - - [20/Oct/2021:06:37:29 -0400] "GET /examples/ HTTP/1.1" 200 1156
+127.0.0.1 - - [20/Oct/2021:06:37:32 -0400] "GET /examples/servlets HTTP/1.1" 302 -
+127.0.0.1 - - [20/Oct/2021:06:37:32 -0400] "GET /examples/servlets/ HTTP/1.1" 200 6789
+127.0.0.1 - - [20/Oct/2021:06:37:32 -0400] "GET /examples/servlets/images/return.gif HTTP/1.1" 200 1231
+127.0.0.1 - - [20/Oct/2021:06:37:32 -0400] "GET /examples/servlets/images/execute.gif HTTP/1.1" 200 1242
+127.0.0.1 - - [20/Oct/2021:06:37:32 -0400] "GET /examples/servlets/images/code.gif HTTP/1.1" 200 292
+127.0.0.1 - - [20/Oct/2021:06:37:36 -0400] "GET /examples/jsp HTTP/1.1" 302 -
+127.0.0.1 - - [20/Oct/2021:06:37:36 -0400] "GET /examples/jsp/ HTTP/1.1" 200 14614
+127.0.0.1 - - [20/Oct/2021:06:37:36 -0400] "GET /examples/jsp/images/code.gif HTTP/1.1" 200 292
+127.0.0.1 - - [20/Oct/2021:06:37:36 -0400] "GET /examples/jsp/images/execute.gif HTTP/1.1" 200 1242
+127.0.0.1 - - [20/Oct/2021:06:37:36 -0400] "GET /examples/jsp/images/return.gif HTTP/1.1" 200 1231
+127.0.0.1 - - [20/Oct/2021:06:37:39 -0400] "GET /examples/websocket/index.xhtml HTTP/1.1" 200 1299
+127.0.0.1 - - [20/Oct/2021:06:37:42 -0400] "GET /examples/websocket/echo.xhtml HTTP/1.1" 200 7247
+127.0.0.1 - - [20/Oct/2021:06:37:45 -0400] "GET /examples/websocket/chat.xhtml HTTP/1.1" 200 4697
+127.0.0.1 - - [20/Oct/2021:06:37:45 -0400] "GET /examples/websocket/chat HTTP/1.1" 101 -
+127.0.0.1 - - [20/Oct/2021:06:37:50 -0400] "GET /examples/websocket/snake.xhtml HTTP/1.1" 200 9636
+127.0.0.1 - - [20/Oct/2021:06:37:50 -0400] "GET /examples/websocket/snake HTTP/1.1" 101 -
+127.0.0.1 - - [20/Oct/2021:06:38:07 -0400] "GET /examples/websocket/drawboard HTTP/1.1" 101 -
+127.0.0.1 - - [20/Oct/2021:06:38:07 -0400] "GET /examples/websocket/drawboard.xhtml HTTP/1.1" 200 8192
+127.0.0.1 - - [20/Oct/2021:07:04:15 -0400] "GET /docs HTTP/1.1" 302 -
+127.0.0.1 - - [20/Oct/2021:07:04:39 -0400] "GET /examples/servlets HTTP/1.1" 302 -
+127.0.0.1 - - [20/Oct/2021:07:20:25 -0400] "GET /mybooks HTTP/1.1" 302 -
+127.0.0.1 - - [20/Oct/2021:07:20:25 -0400] "GET /mybooks/ HTTP/1.1" 200 5161
+127.0.0.1 - - [20/Oct/2021:07:20:26 -0400] "GET /mybooks/assets/application-749a1e0829918907ce689c593afc09f3.css HTTP/1.1" 200 2828
+127.0.0.1 - - [20/Oct/2021:07:20:26 -0400] "GET /mybooks/assets/grails_logo-eabe4af98753b0163266d7e68bbd32e3.png HTTP/1.1" 200 10172
+127.0.0.1 - - [20/Oct/2021:07:21:41 -0400] "GET /mybooks/book/index HTTP/1.1" 200 2828
+127.0.0.1 - - [20/Oct/2021:07:21:43 -0400] "GET /mybooks/book/create HTTP/1.1" 200 3636
+127.0.0.1 - - [20/Oct/2021:07:21:43 -0400] "GET /mybooks/assets/skin/database_table-c413540d7e3545ace2c445fe686e915f.png HTTP/1.1" 200 726
+127.0.0.1 - - [20/Oct/2021:07:22:23 -0400] "POST /mybooks/book/save HTTP/1.1" 302 -
+127.0.0.1 - - [20/Oct/2021:07:22:23 -0400] "GET /mybooks/book/show/1 HTTP/1.1" 200 4482
+127.0.0.1 - - [20/Oct/2021:07:22:29 -0400] "GET /mybooks/book/index HTTP/1.1" 200 3080
+127.0.0.1 - - [20/Oct/2021:07:22:31 -0400] "GET /mybooks/book/show/1 HTTP/1.1" 200 4419
+
+C:\Program Files\apache-tomcat-9.0.53\instances\inspire>
+
