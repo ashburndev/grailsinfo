@@ -1,0 +1,66 @@
+8:04 AM 10/27/2021
+
+Microsoft Windows [Version 10.0.19043.1288]
+(c) Microsoft Corporation. All rights reserved.
+
+https://www.oracle.com/java/technologies/downloads/
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>dir /o:gd eclipse*
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\Downloads
+
+06/20/2021  09:23 AM       541,618,756 eclipse-jee-2021-06-R-win32-x86_64.zip
+06/20/2021  09:25 AM               170 eclipse-jee-2021-06-R-win32-x86_64.zip.sha512
+06/20/2021  09:27 AM       335,099,276 eclipse-java-2021-06-R-win32-x86_64.zip
+06/20/2021  09:28 AM               171 eclipse-java-2021-06-R-win32-x86_64.zip.sha512
+06/20/2021  09:34 AM       116,146,208 eclipse-inst-jre-win64(1).exe
+09/22/2021  08:52 PM       541,823,490 eclipse-jee-2021-09-R-win32-x86_64.zip
+09/22/2021  08:53 PM               170 eclipse-jee-2021-09-R-win32-x86_64.zip.sha512
+09/22/2021  08:55 PM       337,853,234 eclipse-java-2021-09-R-win32-x86_64.zip
+09/22/2021  08:56 PM               171 eclipse-java-2021-09-R-win32-x86_64.zip.sha512
+               9 File(s)  1,872,541,646 bytes
+               0 Dir(s)  231,271,067,648 bytes free
+
+10/14/2021  08:41 AM       170,139,256 grails-5.0.0.zip
+10/14/2021  08:41 AM         9,140,432 grails-5.0.0-docs.zip
+10/23/2021  11:23 AM       776,424,056 ideaIU-2021.2.3.exe
+10/23/2021  11:24 AM                86 ideaIU-2021.2.3.exe.sha256
+10/23/2021  11:25 AM       960,946,468 ideaIU-2021.2.3.win.zip
+10/23/2021  11:25 AM                90 ideaIU-2021.2.3.win.zip.sha256
+10/23/2021  11:25 AM       682,448,648 ideaIC-2021.2.3.exe
+10/23/2021  11:26 AM                86 ideaIC-2021.2.3.exe.sha256
+10/23/2021  11:26 AM       829,852,315 ideaIC-2021.2.3.win.zip
+10/23/2021  11:26 AM                90 ideaIC-2021.2.3.win.zip.sha256
+10/23/2021  11:28 AM        79,683,384 VSCodeUserSetup-x64-1.61.2.exe
+10/23/2021  11:29 AM        79,683,104 VSCodeSetup-x64-1.61.2.exe
+10/23/2021  11:29 AM       110,869,819 VSCode-win32-x64-1.61.2.zip
+10/27/2021  08:05 AM       179,128,454 jdk-17_windows-x64_bin.zip
+10/27/2021  08:06 AM                64 jdk-17_windows-x64_bin.zip.sha256
+10/27/2021  08:06 AM       159,410,512 jdk-17_windows-x64_bin.exe
+10/27/2021  08:06 AM                64 jdk-17_windows-x64_bin.exe.sha256
+10/27/2021  08:06 AM       158,248,960 jdk-17_windows-x64_bin.msi
+10/27/2021  08:06 AM                64 jdk-17_windows-x64_bin.msi.sha256
+10/27/2021  08:09 AM       146,624,336 jdk-11.0.13_windows-x64_bin.exe
+10/27/2021  08:10 AM       164,923,298 jdk-11.0.13_windows-x64_bin.zip
+10/27/2021  08:11 AM            11,835 11-0-13-checksum.html
+10/27/2021  08:12 AM       165,017,408 jdk-8u311-windows-i586.exe
+10/27/2021  08:12 AM       178,858,304 jdk-8u311-windows-x64.exe
+10/27/2021  08:12 AM            15,737 8u311checksum.html
+10/27/2021  08:13 AM         2,103,104 jre-8u311-windows-i586-iftw.exe
+10/27/2021  08:13 AM        74,676,544 jre-8u311-windows-i586.exe
+10/27/2021  08:13 AM        85,675,840 jre-8u311-windows-x64.exe
+10/27/2021  08:13 AM        73,538,516 jre-8u311-windows-i586.tar.gz
+10/27/2021  08:14 AM        79,693,056 jre-8u311-windows-x64.tar.gz
+10/27/2021  08:14 AM        52,534,690 server-jre-8u311-windows-x64.tar.gz
+10/27/2021  08:14 AM        55,894,931 jdk-8u311-windows-i586-demos.zip
+10/27/2021  08:14 AM        55,915,652 jdk-8u311-windows-x64-demos.zip
+            1081 File(s) 54,855,797,143 bytes
+              32 Dir(s)  231,272,132,608 bytes free
+
+C:\Users\David Holberton\Downloads>
+
