@@ -1,0 +1,204 @@
+
+https://stackoverflow.com/questions/33079290/version-number-in-java-and-ant-script 20211121.073922 
+https://mkyong.com/ant/ant-how-to-create-a-java-project/ 20211126.030012 
+https://howtodoinjava.com/ant/ant-build-jar-file-example/ 20211126.072546 
+https://howtodoinjava.com/ant/apache-ant-build-war-file-example/ 20211126.072601 
+https://ant.apache.org/manual/using.html 20211129.020005 
+https://ant.apache.org/manual/Tasks/war.html 20211129.030113 
+http://www.avajava.com/tutorials/lessons/how-do-i-build-a-war-file-with-ant.html 20211129.030646 
+http://www.avajava.com/tutorials/categories/ant 20211129.031253 
+http://www.java2s.com/Code/Java/Ant/Referenceantprojectname.htm 20211129.063523 
+https://www.csc2.ncsu.edu/faculty/mpsingh/local/EBT/s05/info/ant.html 20211129.063755 
+https://stackoverflow.com/questions/19496964/can-i-declare-and-initialize-a-variable-in-an-ant-script 20211129.064139 
+https://www.oreilly.com/library/view/ant-the-definitive/0596006098/ch01.html 20211129.064306 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+<project name="AntJavaProject" default="main" basedir=".">
+	<description>
+		Create a Java Project (JAR) with Ant build script
+	</description>
+	<property name="projectName" value="DateUtils" />
+	<!-- Java sources -->
+	<property name="src.dir" location="src" />
+	<!-- Java classes -->
+	<property name="build.dir" location="bin" />
+	<!-- Output, Jar -->
+	<property name="dist.dir" location="dist" />
+	<target name="init">
+		<!-- Create the time stamp -->
+		<tstamp />
+		<!-- Create the build directory structure used by compile -->
+		<mkdir dir="${build.dir}" />
+	</target>
+	<target name="compile" depends="init" description="compile the source ">
+		<!-- Compile the java code from ${src.dir} into ${build.dir} -->
+		<javac includeantruntime="false" srcdir="${src.dir}" destdir="${build.dir}" />
+	</target>
+	<target name="dist" depends="compile" description="package, output to JAR">
+		<!-- Create the distribution directory -->
+		<mkdir dir="${dist.dir}" />
+		<!-- Put everything in ${build} into the {$projectName}-${DSTAMP}.jar file -->
+		<jar jarfile="${dist.dir}/${projectName}-${DSTAMP}.jar" basedir="${build.dir}" >
+		    <manifest>
+			<!-- create an executable Jar -->
+			<attribute name="Main-Class" value="com.mkyong.core.utils.DateUtils" />
+		    </manifest>
+		</jar>
+	</target>
+	<target name="clean" description="clean up">
+		<delete dir="${build.dir}" />
+		<delete dir="${dist.dir}" />
+	</target>
+	<!-- Default, run this -->
+	<target name="main" depends="clean, compile, dist" />
+</project>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+<property name="project.version">2.2.3</property>
+
+<jar destfile="build/main/checksites.jar">
+    <fileset dir="build/main/classes" />
+    <manifest>
+        <attribute name="Implementation-Title" value="The name of the project" />
+        <attribute name="Implementation-Version" value="${project.version}" />
+    </manifest>
+</jar>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+<project name="MyApplication" default="dist" basedir=".">
+    <description>
+    simplest example build file
+  </description>
+    <!-- set global properties for this build -->
+    <property name="src" location="src" />
+    <property name="build" location="build" />
+    <property name="dist" location="dist" />
+    <property name="version" value="1.0" />
+    <target name="init">
+        <!-- Create the time stamp -->
+        <tstamp />
+        <!-- Create the build directory structure used by compile -->
+        <mkdir dir="${build}" />
+    </target>
+    <target name="compile" depends="init" description="compile the source">
+        <!-- Compile the java code from ${src} into ${build} -->
+        <javac srcdir="${src}" destdir="${build}" />
+    </target>
+    <target name="dist" depends="compile" description="generate the distribution">
+        <buildnumber />
+        <!-- Create the distribution directory -->
+        <mkdir dir="${dist}/lib" />
+        <!-- Put everything in ${build} into the MyApplication-${version}.${build.number}.jar -->
+        <jar destfile="${dist}/lib/MyApplication-${version}.${build.number}.jar" basedir="${build}" />
+    </target>
+    <target name="clean" description="clean up">
+        <!-- Delete the ${build} and ${dist} directory trees -->
+        <delete dir="${build}" />
+        <delete dir="${dist}" />
+    </target>
+</project>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+<?xml version="1.0" ?> 
+<project name="AntWarFileExample" default="war">
+    <path id="compile.classpath">
+        <fileset dir="WebContent/WEB-INF/lib">
+            <include name="*.jar"/>
+        </fileset>
+    </path>
+    <target name="init">
+        <mkdir dir="build/classes"/>
+        <mkdir dir="dist" />
+    </target>
+    <target name="compile" depends="init" >
+        <javac destdir="build/classes" debug="true" srcdir="src">
+            <classpath refid="compile.classpath"/>
+        </javac>
+    </target>
+    <target name="war" depends="compile">
+        <war destfile="dist/MyWebApplication.war" webxml="WebContent/WEB-INF/web.xml">
+            <fileset dir="WebContent"/>
+            <lib dir="WebContent/WEB-INF/lib"/>
+            <classes dir="build/classes"/>
+        </war>
+    </target>
+    <target name="clean">
+        <delete dir="dist" />
+        <delete dir="build" />
+    </target>
+     
+</project>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="tomcat-demo" default="war" basedir=".">
+	<property name="project-name" value="${ant.project.name}" />
+	<property name="builder" value="TeamCakes" />
+	<property name="war-file-name" value="${project-name}.war" />
+	<property name="source-directory" value="src" />
+	<property name="classes-directory" value="bin" />
+	<property name="web-directory" value="web" />
+	<property name="web-xml-file" value="web/WEB-INF/web.xml" />
+	<tstamp prefix="build-info">
+		<format property="current-date" pattern="d-MMMM-yyyy" locale="en" />
+		<format property="current-time" pattern="hh:mm:ss a z" locale="en" />
+	</tstamp>
+	<property name="build-directory" value="build" />
+	<target name="war" depends="">
+		<mkdir dir="${build-directory}" />
+		<delete file="${build-directory}/${war-file-name}" />
+		<war warfile="${build-directory}/${war-file-name}" webxml="${web-xml-file}">
+			<classes dir="${classes-directory}" />
+			<fileset dir="${web-directory}">
+				<!-- Need to exclude it since webxml is an attribute of the war tag above -->
+				<exclude name="WEB-INF/web.xml" />
+			</fileset>
+			<manifest>
+				<attribute name="Built-By" value="${builder}" />
+				<attribute name="Built-On" value="${build-info.current-date}" />
+				<attribute name="Built-At" value="${build-info.current-time}" />
+			</manifest>
+		</war>
+	</target>
+</project>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="build" name="Agnotion">
+    <property name="JUNIT_HOME" value="eclipse/plugins/org.junit_3.8.1"/>
+    <path id="project.classpath">
+        <pathelement location="build/java"/>
+        <pathelement location="build/test"/>
+        <pathelement location="${JUNIT_HOME}/junit.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="build/test"/>
+        <mkdir dir="build/java"/>
+      <mkdir dir="dist"/>
+    </target>
+    <target name="clean">
+        <delete dir="build/test"/>
+        <delete dir="build/java"/>
+        <delete dir="dist"/>
+    </target>
+    <target depends="init" name="build">
+        <javac destdir="build/java">
+            <src path="src/java"/>
+            <classpath refid="project.classpath"/>
+        </javac>
+        <javac destdir="build/test">
+            <src path="src/test"/>
+            <classpath refid="project.classpath"/>
+        </javac>
+    </target>
+  <target name="dist" depends="build">
+    <jar destfile="dist/${ant.project.name}.jar"
+      basedir="build/java" />
+  </target>
+</project>
