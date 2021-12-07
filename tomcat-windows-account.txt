@@ -1,0 +1,17 @@
+https://superuser.com/questions/1510413/tomcat-service-cant-start-access-denied 20211207.013919 
+https://theitbros.com/using-icacls-to-list-folder-permissions-and-manage-files/ 20211207.014055 
+https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/icacls 20211207.014733 
+http://woshub.com/how-to-backup-and-restore-ntfs-permissions-using-icacls/ 20211207.014822 
+https://stackoverflow.com/questions/59929708/tomcat-service-gets-installed-with-local-service-account 20211207.015322 
+https://infocenter.informationbuilders.com/wf80/index.jsp?topic=%2Fpubdocs%2FInstalls%2FWindows%2Fsource%2Ftopic66.htm 20211207.015500 
+https://tomcat.apache.org/tomcat-8.5-doc/windows-service-howto.html 20211207.015647 
+https://superuser.com/questions/842866/how-do-i-run-tomcat-service-as-a-specific-user-in-windows 20211207.015822 
+https://support.tibco.com/s/article/service-bat-installs-service-as-local-service-instead-of-local-system-causing-file-permissions-issues 20211207.020320 
+
+https://docs.oracle.com/javase/7/docs/api/java/lang/ProcessBuilder.html 20211202.183715 
+https://docs.oracle.com/javase/8/docs/api/java/lang/class-use/ProcessBuilder.html 20211202.183753 
+https://www.baeldung.com/java-lang-processbuilder-api 20211202.184028 
+https://www.demo2s.com/java/java-read-process-output.html 20211202.212939 
+https://zetcode.com/java/processbuilder/ 20211202.213749 
+https://stackoverflow.com/questions/19257310/empty-processbuilder-inputstream 20211202.214116 
+
