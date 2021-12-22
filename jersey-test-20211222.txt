@@ -1,0 +1,517 @@
+https://psamsotha.github.io/jersey/2015/10/10/getting-started-with-jersey2.html
+
+From Command line
+
+You need to have Maven installed on your system to be able to issue these commands. This should all be types on one line (without the \s)
+
+mvn archetype:generate \
+	-DarchetypeArtifactId=jersey-quickstart-webapp \
+	-DarchetypeGroupId=org.glassfish.jersey.archetypes \
+	-DinteractiveMode=false \
+	-DgroupId=com.underdog.jersey \
+	-DartifactId=jersey-getting-started \
+	-Dpackage=com.underdog.jersey \
+	-DarchetypeVersion=2.16
+
+You should see the archetype being created. If you look at the contents, you should be able to navigate a project structure similar to the ones you see in the above images in the IDE sections.
+
+mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-webapp -DarchetypeGroupId=org.glassfish.jersey.archetypes -DinteractiveMode=false -DgroupId=com.underdog.jersey -DartifactId=jersey-getting-started -Dpackage=com.underdog.jersey -DarchetypeVersion=2.16
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Microsoft Windows [Version 10.0.19043.1348]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\David Holberton>mkdir jerseytest
+
+C:\Users\David Holberton>cd jerseytest
+
+C:\Users\David Holberton\jerseytest>mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-webapp -DarchetypeGroupId=org.glassfish.jersey.archetypes -DinteractiveMode=false -DgroupId=com.underdog.jersey -DartifactId=jersey-getting-started -Dpackage=com.underdog.jersey -DarchetypeVersion=2.16
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------< org.apache.maven:standalone-pom >-------------------
+[INFO] Building Maven Stub Project (No POM) 1
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO]
+[INFO] >>> maven-archetype-plugin:3.2.0:generate (default-cli) > generate-sources @ standalone-pom >>>
+[INFO]
+[INFO] <<< maven-archetype-plugin:3.2.0:generate (default-cli) < generate-sources @ standalone-pom <<<
+[INFO]
+[INFO]
+[INFO] --- maven-archetype-plugin:3.2.0:generate (default-cli) @ standalone-pom ---
+[INFO] Generating project in Batch mode
+[INFO] Archetype repository not defined. Using the one from [org.glassfish.jersey.archetypes:jersey-quickstart-webapp:3.0.3] found in catalog remote
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/archetypes/jersey-quickstart-webapp/2.16/jersey-quickstart-webapp-2.16.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/archetypes/jersey-quickstart-webapp/2.16/jersey-quickstart-webapp-2.16.pom (3.3 kB at 63 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/archetypes/project/2.16/project-2.16.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/archetypes/project/2.16/project-2.16.pom (3.7 kB at 124 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/project/2.16/project-2.16.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/project/2.16/project-2.16.pom (67 kB at 1.7 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-bom/2.4.0-b09/hk2-bom-2.4.0-b09.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-bom/2.4.0-b09/hk2-bom-2.4.0-b09.pom (19 kB at 682 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/archetypes/jersey-quickstart-webapp/2.16/jersey-quickstart-webapp-2.16.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/archetypes/jersey-quickstart-webapp/2.16/jersey-quickstart-webapp-2.16.jar (7.1 kB at 254 kB/s)
+[INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Old (1.x) Archetype: jersey-quickstart-webapp:2.16
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: basedir, Value: C:\Users\David Holberton\jerseytest
+[INFO] Parameter: package, Value: com.underdog.jersey
+[INFO] Parameter: groupId, Value: com.underdog.jersey
+[INFO] Parameter: artifactId, Value: jersey-getting-started
+[INFO] Parameter: packageName, Value: com.underdog.jersey
+[INFO] Parameter: version, Value: 1.0-SNAPSHOT
+[INFO] project created from Old (1.x) Archetype in dir: C:\Users\David Holberton\jerseytest\jersey-getting-started
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.784 s
+[INFO] Finished at: 2021-12-22T09:07:43-05:00
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\David Holberton\jerseytest>
+C:\Users\David Holberton\jerseytest>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\jerseytest
+
+12/22/2021  09:07 AM    <DIR>          .
+12/22/2021  09:07 AM    <DIR>          ..
+12/22/2021  09:07 AM    <DIR>          jersey-getting-started
+               0 File(s)              0 bytes
+               3 Dir(s)  173,132,902,400 bytes free
+
+C:\Users\David Holberton\jerseytest>cd jersey-getting-started
+
+C:\Users\David Holberton\jerseytest\jersey-getting-started>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\jerseytest\jersey-getting-started
+
+12/22/2021  09:07 AM    <DIR>          .
+12/22/2021  09:07 AM    <DIR>          ..
+12/22/2021  09:07 AM             2,172 pom.xml
+12/22/2021  09:07 AM    <DIR>          src
+               1 File(s)          2,172 bytes
+               3 Dir(s)  173,132,771,328 bytes free
+
+C:\Users\David Holberton\jerseytest\jersey-getting-started>
+C:\Users\David Holberton\jerseytest\jersey-getting-started>tree /a /f
+Folder PATH listing
+Volume serial number is 4603-A8D3
+C:.
+|   pom.xml
+|
+\---src
+    \---main
+        +---java
+        |   \---com
+        |       \---underdog
+        |           \---jersey
+        |                   MyResource.java
+        |
+        +---resources
+        \---webapp
+            |   index.jsp
+            |
+            \---WEB-INF
+                    web.xml
+
+
+C:\Users\David Holberton\jerseytest\jersey-getting-started>
+C:\Users\David Holberton\jerseytest\jersey-getting-started>type pom.xml
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.underdog.jersey</groupId>
+    <artifactId>jersey-getting-started</artifactId>
+    <packaging>war</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>jersey-getting-started</name>
+
+    <build>
+        <finalName>jersey-getting-started</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.5.1</version>
+                <inherited>true</inherited>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.glassfish.jersey</groupId>
+                <artifactId>jersey-bom</artifactId>
+                <version>${jersey.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.glassfish.jersey.containers</groupId>
+            <artifactId>jersey-container-servlet-core</artifactId>
+            <!-- use the following artifactId if you don't need servlet 2.x compatibility -->
+            <!-- artifactId>jersey-container-servlet</artifactId -->
+        </dependency>
+        <!-- uncomment this to get JSON support
+        <dependency>
+            <groupId>org.glassfish.jersey.media</groupId>
+            <artifactId>jersey-media-moxy</artifactId>
+        </dependency>
+        -->
+    </dependencies>
+    <properties>
+        <jersey.version>2.16</jersey.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+</project>
+
+C:\Users\David Holberton\jerseytest\jersey-getting-started>
+C:\Users\David Holberton\jerseytest\jersey-getting-started>type pom.xml
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.underdog.jersey</groupId>
+    <artifactId>jersey-getting-started</artifactId>
+    <packaging>war</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>jersey-getting-started</name>
+
+    <build>
+        <finalName>jersey-getting-started</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.5.1</version>
+                <inherited>true</inherited>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.glassfish.jersey</groupId>
+                <artifactId>jersey-bom</artifactId>
+                <version>${jersey.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.glassfish.jersey.containers</groupId>
+            <artifactId>jersey-container-servlet-core</artifactId>
+            <!-- use the following artifactId if you don't need servlet 2.x compatibility -->
+            <!-- artifactId>jersey-container-servlet</artifactId -->
+        </dependency>
+        <!-- uncomment this to get JSON support
+        <dependency>
+            <groupId>org.glassfish.jersey.media</groupId>
+            <artifactId>jersey-media-moxy</artifactId>
+        </dependency>
+        -->
+    </dependencies>
+    <properties>
+        <jersey.version>2.16</jersey.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+</project>
+
+C:\Users\David Holberton\jerseytest\jersey-getting-started>
+C:\Users\David Holberton\jerseytest\jersey-getting-started>mvn dependency:list
+[INFO] Scanning for projects...
+[INFO]
+[INFO] -------------< com.underdog.jersey:jersey-getting-started >-------------
+[INFO] Building jersey-getting-started 1.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.16/jersey-container-servlet-core-2.16.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.16/jersey-container-servlet-core-2.16.pom (4.7 kB at 15 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/project/2.16/project-2.16.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/project/2.16/project-2.16.pom (3.8 kB at 136 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b09/javax.inject-2.4.0-b09.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b09/javax.inject-2.4.0-b09.pom (6.5 kB at 224 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/2.4.0-b09/external-2.4.0-b09.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/2.4.0-b09/external-2.4.0-b09.pom (2.9 kB at 104 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-parent/2.4.0-b09/hk2-parent-2.4.0-b09.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-parent/2.4.0-b09/hk2-parent-2.4.0-b09.pom (43 kB at 889 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-common/2.16/jersey-common-2.16.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-common/2.16/jersey-common-2.16.pom (9.6 kB at 247 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.16/jersey-guava-2.16.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.16/jersey-guava-2.16.pom (12 kB at 271 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/repackaged/project/2.16/project-2.16.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/repackaged/project/2.16/project-2.16.pom (2.8 kB at 78 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/project/2.16/project-2.16.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/project/2.16/project-2.16.pom (3.1 kB at 86 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/2.4.0-b09/hk2-api-2.4.0-b09.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/2.4.0-b09/hk2-api-2.4.0-b09.pom (4.5 kB at 123 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/2.4.0-b09/hk2-utils-2.4.0-b09.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/2.4.0-b09/hk2-utils-2.4.0-b09.pom (5.1 kB at 120 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b09/aopalliance-repackaged-2.4.0-b09.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b09/aopalliance-repackaged-2.4.0-b09.pom (6.8 kB at 193 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/2.4.0-b09/hk2-locator-2.4.0-b09.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/2.4.0-b09/hk2-locator-2.4.0-b09.pom (5.5 kB at 129 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-server/2.16/jersey-server-2.16.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-server/2.16/jersey-server-2.16.pom (11 kB at 328 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-client/2.16/jersey-client-2.16.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-client/2.16/jersey-client-2.16.pom (6.0 kB at 173 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-jaxb/2.16/jersey-media-jaxb-2.16.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-jaxb/2.16/jersey-media-jaxb-2.16.pom (6.2 kB at 173 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/project/2.16/project-2.16.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/project/2.16/project-2.16.pom (3.0 kB at 59 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.16/jersey-container-servlet-core-2.16.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-common/2.16/jersey-common-2.16.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b09/javax.inject-2.4.0-b09.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/2.4.0-b09/hk2-api-2.4.0-b09.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.16/jersey-guava-2.16.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.16/jersey-container-servlet-core-2.16.jar (58 kB at 1.3 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b09/javax.inject-2.4.0-b09.jar (6.0 kB at 96 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b09/aopalliance-repackaged-2.4.0-b09.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/2.4.0-b09/hk2-utils-2.4.0-b09.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b09/aopalliance-repackaged-2.4.0-b09.jar (15 kB at 96 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/2.4.0-b09/hk2-locator-2.4.0-b09.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/2.4.0-b09/hk2-utils-2.4.0-b09.jar (95 kB at 470 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-server/2.16/jersey-server-2.16.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/2.4.0-b09/hk2-api-2.4.0-b09.jar (182 kB at 886 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-client/2.16/jersey-client-2.16.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/2.4.0-b09/hk2-locator-2.4.0-b09.jar (171 kB at 764 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-jaxb/2.16/jersey-media-jaxb-2.16.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-client/2.16/jersey-client-2.16.jar (156 kB at 516 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-jaxb/2.16/jersey-media-jaxb-2.16.jar (71 kB at 232 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.16/jersey-guava-2.16.jar (965 kB at 3.0 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-common/2.16/jersey-common-2.16.jar (676 kB at 2.1 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-server/2.16/jersey-server-2.16.jar (924 kB at 2.4 MB/s)
+[INFO]
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ jersey-getting-started ---
+[INFO]
+[INFO] The following files have been resolved:
+[INFO]    org.glassfish.hk2.external:javax.inject:jar:2.4.0-b09:compile
+[INFO]    org.glassfish.jersey.core:jersey-client:jar:2.16:compile
+[INFO]    org.glassfish.jersey.media:jersey-media-jaxb:jar:2.16:compile
+[INFO]    org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile
+[INFO]    org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.16:compile
+[INFO]    javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
+[INFO]    org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.16:compile
+[INFO]    org.glassfish.hk2:hk2-utils:jar:2.4.0-b09:compile
+[INFO]    org.glassfish.jersey.core:jersey-common:jar:2.16:compile
+[INFO]    org.glassfish.jersey.core:jersey-server:jar:2.16:compile
+[INFO]    org.glassfish.hk2:hk2-api:jar:2.4.0-b09:compile
+[INFO]    org.glassfish.hk2:hk2-locator:jar:2.4.0-b09:compile
+[INFO]    javax.validation:validation-api:jar:1.1.0.Final:compile
+[INFO]    org.glassfish.hk2.external:aopalliance-repackaged:jar:2.4.0-b09:compile
+[INFO]    org.javassist:javassist:jar:3.18.1-GA:compile
+[INFO]    javax.annotation:javax.annotation-api:jar:1.2:compile
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.642 s
+[INFO] Finished at: 2021-12-22T09:15:46-05:00
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\David Holberton\jerseytest\jersey-getting-started>
+C:\Users\David Holberton\jerseytest\jersey-getting-started>type src\main\java\com\underdog\jersey\MyResource.java
+package com.underdog.jersey;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+/**
+ * Root resource (exposed at "myresource" path)
+ */
+@Path("myresource")
+public class MyResource {
+
+    /**
+     * Method handling HTTP GET requests. The returned object will be sent
+     * to the client as "text/plain" media type.
+     *
+     * @return String that will be returned as a text/plain response.
+     */
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String getIt() {
+        return "Got it!";
+    }
+}
+
+C:\Users\David Holberton\jerseytest\jersey-getting-started>
+C:\Users\David Holberton\jerseytest\jersey-getting-started>type src\main\webapp\index.jsp
+<html>
+<body>
+    <h2>Jersey RESTful Web Application!</h2>
+    <p><a href="webapi/myresource">Jersey resource</a>
+    <p>Visit <a href="http://jersey.java.net">Project Jersey website</a>
+    for more information on Jersey!
+</body>
+</html>
+
+C:\Users\David Holberton\jerseytest\jersey-getting-started>
+C:\Users\David Holberton\jerseytest\jersey-getting-started>type src\main\webapp\WEB-INF\web.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This web.xml file is not required when using Servlet 3.0 container,
+     see implementation details http://jersey.java.net/nonav/documentation/latest/jax-rs.html -->
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <servlet>
+        <servlet-name>Jersey Web Application</servlet-name>
+        <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+        <init-param>
+            <param-name>jersey.config.server.provider.packages</param-name>
+            <param-value>com.underdog.jersey</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Jersey Web Application</servlet-name>
+        <url-pattern>/webapi/*</url-pattern>
+    </servlet-mapping>
+</web-app>
+
+C:\Users\David Holberton\jerseytest\jersey-getting-started>
+C:\Users\David Holberton\jerseytest\jersey-getting-started>mvn dependency:list
+[INFO] Scanning for projects...
+[INFO]
+[INFO] -------------< com.underdog.jersey:jersey-getting-started >-------------
+[INFO] Building jersey-getting-started 1.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO]
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ jersey-getting-started ---
+[INFO]
+[INFO] The following files have been resolved:
+[INFO]    org.glassfish.hk2.external:javax.inject:jar:2.4.0-b09:compile
+[INFO]    org.glassfish.jersey.core:jersey-client:jar:2.16:compile
+[INFO]    org.glassfish.jersey.media:jersey-media-jaxb:jar:2.16:compile
+[INFO]    org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile
+[INFO]    org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.16:compile
+[INFO]    javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
+[INFO]    org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.16:compile
+[INFO]    org.glassfish.hk2:hk2-utils:jar:2.4.0-b09:compile
+[INFO]    org.glassfish.jersey.core:jersey-common:jar:2.16:compile
+[INFO]    org.glassfish.jersey.core:jersey-server:jar:2.16:compile
+[INFO]    org.glassfish.hk2:hk2-api:jar:2.4.0-b09:compile
+[INFO]    org.glassfish.hk2:hk2-locator:jar:2.4.0-b09:compile
+[INFO]    javax.validation:validation-api:jar:1.1.0.Final:compile
+[INFO]    org.glassfish.hk2.external:aopalliance-repackaged:jar:2.4.0-b09:compile
+[INFO]    org.javassist:javassist:jar:3.18.1-GA:compile
+[INFO]    javax.annotation:javax.annotation-api:jar:1.2:compile
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.244 s
+[INFO] Finished at: 2021-12-22T09:24:11-05:00
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\David Holberton\jerseytest\jersey-getting-started>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-webapp -DarchetypeGroupId=org.glassfish.jersey.archetypes -DinteractiveMode=false -DgroupId=com.ashburndev.jersey -DartifactId=jersey-getting-started -Dpackage=com.ashburndev.jersey -DarchetypeVersion=3.0.3   
+
+mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-webapp -DarchetypeGroupId=org.glassfish.jersey.archetypes -DinteractiveMode=false -DgroupId=com.ashburndev.jersey -DartifactId=lzbroker -Dpackage=com.ashburndev.jersey -DarchetypeVersion=3.0.3   
+
+C:\Users\David Holberton\jerseytest\lzbroker>
+C:\Users\David Holberton\jerseytest\lzbroker>mvn dependency:list
+[INFO] Scanning for projects...
+[INFO]
+[INFO] -------------------< com.ashburndev.jersey:lzbroker >-------------------
+[INFO] Building lzbroker 1.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO]
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ lzbroker ---
+[INFO]
+[INFO] The following files have been resolved:
+[INFO]    jakarta.validation:jakarta.validation-api:jar:3.0.0:compile
+[INFO]    org.glassfish.jersey.core:jersey-client:jar:3.0.3:compile
+[INFO]    org.javassist:javassist:jar:3.25.0-GA:compile
+[INFO]    jakarta.ws.rs:jakarta.ws.rs-api:jar:3.0.0:compile
+[INFO]    org.glassfish.jersey.containers:jersey-container-servlet-core:jar:3.0.3:compile
+[INFO]    org.glassfish.jersey.core:jersey-common:jar:3.0.3:compile
+[INFO]    org.glassfish.jersey.core:jersey-server:jar:3.0.3:compile
+[INFO]    org.glassfish.hk2.external:aopalliance-repackaged:jar:3.0.1:compile
+[INFO]    jakarta.annotation:jakarta.annotation-api:jar:2.0.0:compile
+[INFO]    org.glassfish.jersey.inject:jersey-hk2:jar:3.0.3:compile
+[INFO]    org.glassfish.hk2:hk2-utils:jar:3.0.1:compile
+[INFO]    jakarta.inject:jakarta.inject-api:jar:2.0.0:compile
+[INFO]    org.glassfish.hk2:hk2-api:jar:3.0.1:compile
+[INFO]    org.glassfish.hk2:hk2-locator:jar:3.0.1:compile
+[INFO]    org.glassfish.hk2:osgi-resource-locator:jar:1.0.3:compile
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.284 s
+[INFO] Finished at: 2021-12-22T09:40:00-05:00
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\David Holberton\jerseytest\lzbroker>
+C:\Users\David Holberton\jerseytest\lzbroker>cd ..
+
+C:\Users\David Holberton\jerseytest>tree /a /f
+Folder PATH listing
+Volume serial number is 4603-A8D3
+C:.
++---jersey-getting-started
+|   |   pom.xml
+|   |
+|   \---src
+|       \---main
+|           +---java
+|           |   \---com
+|           |       \---underdog
+|           |           \---jersey
+|           |                   MyResource.java
+|           |
+|           +---resources
+|           \---webapp
+|               |   index.jsp
+|               |
+|               \---WEB-INF
+|                       web.xml
+|
+\---lzbroker
+    |   pom.xml
+    |
+    \---src
+        \---main
+            +---java
+            |   \---com
+            |       \---ashburndev
+            |           \---jersey
+            |                   MyResource.java
+            |
+            +---resources
+            \---webapp
+                |   index.jsp
+                |
+                \---WEB-INF
+                        web.xml
+
+
+C:\Users\David Holberton\jerseytest>
+
