@@ -1,0 +1,8 @@
+https://aaa.com/an-informative-web-page.html 20211221.053000
+https://aaa.com/an-informative-web-page.html 20211220.183000 same as above, but with an earlier date
+https://bbb.com/another-informative-web-page.html 20211221.053001
+https://bbb.com/another-informative-web-page.html 20211221.053001 same as above, but with comment
+https://ccc.com/yet-another-informative-web-page.html 20211221.053002 info about groovy inner classes
+https://www.baeldung.com/groovy-string-to-date 20211221.053004
+https://aaa.com/an-informative-web-page.html 20211221.053005 same URL as first line, but viewed again at a later date
+https://yyy.com/ some comment
