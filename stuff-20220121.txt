@@ -1,0 +1,91 @@
+7:41 AM 1/21/2022
+
+https://www.oracle.com/java/technologies/downloads/
+
+https://code.visualstudio.com/docs/java/java-tutorial
+
+Installing a Java Development Kit (JDK)#
+
+If you have never installed a JDK before and need to install one, we recommend you to choose from one of these sources:
+
+    Amazon Corretto
+    Eclipse Adoptium's Temurin
+    Microsoft Build of OpenJDK
+    Oracle Java SE
+    Red Hat build of OpenJDK
+    SapMachine
+
+https://aws.amazon.com/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc
+https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html
+https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html
+https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/downloads-list.html
+
+https://adoptium.net/?variant=openjdk8&jvmVariant=hotspot
+
+18th January 2022: We are creating the January 2022 PSU binaries for Eclipse Temurin 8u322, 11.0.14 and 17.0.2.
+You can follow the status in this issue. Windows, Linux and MacOS on x64 are being prioritised. 
+
+Prebuilt OpenJDK Binaries for Free!
+
+Java™ is the world's leading programming language and platform.
+The Adoptium Working Group promotes and supports high-quality, TCK certified
+runtimes and associated technology for use across the Java™ ecosystem.
+Eclipse Temurin is the name of the OpenJDK distribution from Adoptium.
+Download Temurin for Windows x64
+
+https://developers.redhat.com/products/openjdk/download
+
+
+01/21/2022  07:47 AM       179,404,488 jdk-8u321-windows-x64.exe
+01/21/2022  07:49 AM        85,969,096 jre-8u321-windows-x64.exe
+01/21/2022  07:49 AM        79,802,933 jre-8u321-windows-x64.tar.gz
+01/21/2022  07:50 AM        52,618,633 server-jre-8u321-windows-x64.tar.gz
+01/21/2022  07:51 AM        55,926,718 jdk-8u321-windows-x64-demos.zip
+01/21/2022  07:53 AM            11,524 8u321checksum.html
+01/21/2022  07:53 AM       147,052,760 jdk-11.0.14_windows-x64_bin.exe
+01/21/2022  07:54 AM       165,457,105 jdk-11.0.14_windows-x64_bin.zip
+01/21/2022  07:54 AM             7,622 11-0-14-checksum.html
+01/21/2022  07:56 AM       179,660,173 jdk-17_windows-x64_bin(1).zip
+01/21/2022  07:56 AM       159,834,328 jdk-17_windows-x64_bin(1).exe
+01/21/2022  07:57 AM       158,666,752 jdk-17_windows-x64_bin(1).msi
+01/21/2022  08:03 AM       116,929,536 amazon-corretto-8.322.06.1-windows-x64-jdk.msi
+01/21/2022  08:04 AM                32 amazon-corretto-8-x64-windows-jdk.msi.txt
+01/21/2022  08:05 AM       122,243,868 amazon-corretto-8.322.06.1-windows-x64-jdk.zip
+01/21/2022  08:07 AM                34 amazon-corretto-8.322.06.1-windows-x64-jdk.zip.txt
+01/21/2022  08:08 AM       169,085,952 amazon-corretto-11.0.14.9.1-windows-x64.msi
+01/21/2022  08:09 AM                34 amazon-corretto-11.0.14.9.1-windows-x64.msi.txt
+01/21/2022  08:09 AM       187,063,380 amazon-corretto-11.0.14.9.1-windows-x64-jdk.zip
+01/21/2022  08:10 AM                34 amazon-corretto-11.0.14.9.1-windows-x64-jdk.zip.txt
+01/21/2022  08:11 AM       167,581,184 amazon-corretto-17.0.2.8.1-windows-x64.msi
+01/21/2022  08:11 AM                34 amazon-corretto-17.0.2.8.1-windows-x64.msi.txt
+01/21/2022  08:12 AM       185,617,288 amazon-corretto-17.0.2.8.1-windows-x64-jdk.zip
+01/21/2022  08:13 AM                34 amazon-corretto-17.0.2.8.1-windows-x64-jdk.zip.txt
+01/21/2022  08:17 AM        90,120,192 OpenJDK8U-jdk_x64_windows_hotspot_8u312b07.msi
+01/21/2022  08:18 AM       175,078,400 OpenJDK11U-jdk_x64_windows_hotspot_11.0.13_8.msi
+01/21/2022  08:19 AM       168,541,696 OpenJDK17U-jdk_x64_windows_hotspot_17.0.1_12.msi
+01/21/2022  08:23 AM       177,485,245 java-1.8.0-openjdk-1.8.0.312-2.b07.dev.redhat.windows.x86_64.zip
+01/21/2022  08:28 AM       221,564,928 java-1.8.0-openjdk-1.8.0.312-2.b07.dev.redhat.windows.x86_64.msi
+01/21/2022  08:34 AM       253,720,646 java-11-openjdk-11.0.13.8-1.windows.redhat.x86_64.zip
+01/21/2022  08:34 AM       255,053,824 java-11-openjdk-11.0.13.8-1.windows.redhat.x86_64.msi
+01/21/2022  08:53 AM       257,800,762 java-17-openjdk-17.0.1.0.12-1.win.x86_64.zip
+01/21/2022  08:54 AM       258,682,880 java-17-openjdk-17.0.1.0.12-1.win.x86_64.msi
+01/21/2022  08:58 AM       689,525,288 ideaIU-2021.3.1.exe
+01/21/2022  08:58 AM                86 ideaIU-2021.3.1.exe.sha256
+01/21/2022  08:59 AM       951,283,705 ideaIU-2021.3.1.win.zip
+01/21/2022  08:59 AM                90 ideaIU-2021.3.1.win.zip.sha256
+01/21/2022  08:59 AM       588,824,240 ideaIC-2021.3.1.exe
+01/21/2022  08:59 AM                86 ideaIC-2021.3.1.exe.sha256
+01/21/2022  08:59 AM       800,340,284 ideaIC-2021.3.1.win.zip
+01/21/2022  09:00 AM                90 ideaIC-2021.3.1.win.zip.sha256
+01/21/2022  09:00 AM        79,933,432 VSCodeUserSetup-x64-1.63.2(1).exe
+01/21/2022  09:01 AM        79,931,960 VSCodeSetup-x64-1.63.2(1).exe
+01/21/2022  09:01 AM       111,602,804 VSCode-win32-x64-1.63.2(1).zip
+01/21/2022  09:02 AM       534,141,416 eclipse-jee-2021-12-R-win32-x86_64.zip
+01/21/2022  09:04 AM               170 eclipse-jee-2021-12-R-win32-x86_64.zip.sha512
+01/21/2022  09:05 AM       321,161,648 eclipse-java-2021-12-R-win32-x86_64.zip
+01/21/2022  09:05 AM               171 eclipse-java-2021-12-R-win32-x86_64.zip.sha512
+            1173 File(s) 81,121,266,543 bytes
+              37 Dir(s)  165,345,038,336 bytes free
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>
