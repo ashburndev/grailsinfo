@@ -1,0 +1,392 @@
+6:33 AM 1/24/2022
+
+https://adoptium.net/archive.html?variant=openjdk8&jvmVariant=hotspot
+https://adoptium.net/archive.html?variant=openjdk11&jvmVariant=hotspot
+https://adoptium.net/archive.html?variant=openjdk17&jvmVariant=hotspot
+
+https://www.azul.com/downloads/?package=jdk
+https://www.azul.com/downloads/?package=jdk
+https://www.azul.com/downloads/?version=java-8-lts&os=windows
+
+https://logging.apache.org/log4j/2.x/download.html
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Installation on Windows Using the Zulu ZIP File
+
+Before you install Zulu, complete the tasks in the section, Preparing the Zulu Installation Platform.
+
+    Extract the content of the archive to a folder. This folder is your Azul Zulu installation folder.
+
+    To verify that the package was extracted correctly, run the following command from a command prompt.
+
+    <installation_folder>\bin\java -version
+
+    You should see output similar to the following:
+
+    > <installation_folder>\bin\java -version
+    openjdk version "16" 2021-03-16
+    OpenJDK Runtime Environment Zulu16.28+11-CA (build 16+36)
+    OpenJDK 64-Bit Server VM Zulu16.28+11-CA (build 16+36, mixed mode, sharing)
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+It is essential that you verify the integrity of the downloaded files using the PGP and SHA512 signatures. Please read Verifying Apache HTTP Server Releases for more information on why you should verify our releases.
+
+The PGP signatures can be verified using PGP or GPG. First download the KEYS as well as the asc signature file for the relevant distribution. Make sure you get these files from the main distribution directory, rather than from a mirror. Then verify the signatures using
+
+gpg --import KEYS
+gpg --verify apache-log4j-2.17.1-bin.tar.gz.asc
+
+Apache Log4j 2.17.1 is signed by Matt Sicker (D7C92B70FA1C814D)
+
+Alternatively, you can verify the SHA512 signature on the files. A Unix program called sha or sha512sum is included in many Unix distributions.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+01/21/2022  08:17 AM        90,120,192 OpenJDK8U-jdk_x64_windows_hotspot_8u312b07.msi
+01/21/2022  08:18 AM       175,078,400 OpenJDK11U-jdk_x64_windows_hotspot_11.0.13_8.msi
+01/21/2022  08:19 AM       168,541,696 OpenJDK17U-jdk_x64_windows_hotspot_17.0.1_12.msi
+
+mkdir temurin-save
+copy OpenJDK8U-jdk_x64_windows_hotspot_8u312b07.msi temurin-save
+copy OpenJDK11U-jdk_x64_windows_hotspot_11.0.13_8.msi temurin-save
+copy OpenJDK17U-jdk_x64_windows_hotspot_17.0.1_12.msi temurin-save
+
+del OpenJDK8U-jdk_x64_windows_hotspot_8u312b07.msi
+del OpenJDK11U-jdk_x64_windows_hotspot_11.0.13_8.msi
+del OpenJDK17U-jdk_x64_windows_hotspot_17.0.1_12.msi
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+01/21/2022  07:47 AM       179,404,488 jdk-8u321-windows-x64.exe
+01/21/2022  07:49 AM        85,969,096 jre-8u321-windows-x64.exe
+01/21/2022  07:49 AM        79,802,933 jre-8u321-windows-x64.tar.gz
+01/21/2022  07:50 AM        52,618,633 server-jre-8u321-windows-x64.tar.gz
+01/21/2022  07:51 AM        55,926,718 jdk-8u321-windows-x64-demos.zip
+01/21/2022  07:53 AM            11,524 8u321checksum.html
+01/21/2022  07:53 AM       147,052,760 jdk-11.0.14_windows-x64_bin.exe
+01/21/2022  07:54 AM       165,457,105 jdk-11.0.14_windows-x64_bin.zip
+01/21/2022  07:54 AM             7,622 11-0-14-checksum.html
+01/21/2022  07:56 AM       179,660,173 jdk-17_windows-x64_bin(1).zip
+01/21/2022  07:56 AM       159,834,328 jdk-17_windows-x64_bin(1).exe
+01/21/2022  07:57 AM       158,666,752 jdk-17_windows-x64_bin(1).msi
+01/21/2022  08:03 AM       116,929,536 amazon-corretto-8.322.06.1-windows-x64-jdk.msi
+01/21/2022  08:04 AM                32 amazon-corretto-8-x64-windows-jdk.msi.txt
+01/21/2022  08:05 AM       122,243,868 amazon-corretto-8.322.06.1-windows-x64-jdk.zip
+01/21/2022  08:07 AM                34 amazon-corretto-8.322.06.1-windows-x64-jdk.zip.txt
+01/21/2022  08:08 AM       169,085,952 amazon-corretto-11.0.14.9.1-windows-x64.msi
+01/21/2022  08:09 AM                34 amazon-corretto-11.0.14.9.1-windows-x64.msi.txt
+01/21/2022  08:09 AM       187,063,380 amazon-corretto-11.0.14.9.1-windows-x64-jdk.zip
+01/21/2022  08:10 AM                34 amazon-corretto-11.0.14.9.1-windows-x64-jdk.zip.txt
+01/21/2022  08:11 AM       167,581,184 amazon-corretto-17.0.2.8.1-windows-x64.msi
+01/21/2022  08:11 AM                34 amazon-corretto-17.0.2.8.1-windows-x64.msi.txt
+01/21/2022  08:12 AM       185,617,288 amazon-corretto-17.0.2.8.1-windows-x64-jdk.zip
+01/21/2022  08:13 AM                34 amazon-corretto-17.0.2.8.1-windows-x64-jdk.zip.txt
+01/21/2022  08:23 AM       177,485,245 java-1.8.0-openjdk-1.8.0.312-2.b07.dev.redhat.windows.x86_64.zip
+01/21/2022  08:28 AM       221,564,928 java-1.8.0-openjdk-1.8.0.312-2.b07.dev.redhat.windows.x86_64.msi
+01/21/2022  08:34 AM       253,720,646 java-11-openjdk-11.0.13.8-1.windows.redhat.x86_64.zip
+01/21/2022  08:34 AM       255,053,824 java-11-openjdk-11.0.13.8-1.windows.redhat.x86_64.msi
+01/21/2022  08:53 AM       257,800,762 java-17-openjdk-17.0.1.0.12-1.win.x86_64.zip
+01/21/2022  08:54 AM       258,682,880 java-17-openjdk-17.0.1.0.12-1.win.x86_64.msi
+01/21/2022  08:58 AM       689,525,288 ideaIU-2021.3.1.exe
+01/21/2022  08:58 AM                86 ideaIU-2021.3.1.exe.sha256
+01/21/2022  08:59 AM       951,283,705 ideaIU-2021.3.1.win.zip
+01/21/2022  08:59 AM                90 ideaIU-2021.3.1.win.zip.sha256
+01/21/2022  08:59 AM       588,824,240 ideaIC-2021.3.1.exe
+01/21/2022  08:59 AM                86 ideaIC-2021.3.1.exe.sha256
+01/21/2022  08:59 AM       800,340,284 ideaIC-2021.3.1.win.zip
+01/21/2022  09:00 AM                90 ideaIC-2021.3.1.win.zip.sha256
+01/21/2022  09:00 AM        79,933,432 VSCodeUserSetup-x64-1.63.2(1).exe
+01/21/2022  09:01 AM        79,931,960 VSCodeSetup-x64-1.63.2(1).exe
+01/21/2022  09:01 AM       111,602,804 VSCode-win32-x64-1.63.2(1).zip
+01/21/2022  09:02 AM       534,141,416 eclipse-jee-2021-12-R-win32-x86_64.zip
+01/21/2022  09:04 AM               170 eclipse-jee-2021-12-R-win32-x86_64.zip.sha512
+01/21/2022  09:05 AM       321,161,648 eclipse-java-2021-12-R-win32-x86_64.zip
+01/21/2022  09:05 AM               171 eclipse-java-2021-12-R-win32-x86_64.zip.sha512
+01/24/2022  06:42 AM        90,120,192 OpenJDK8U-jdk_x64_windows_hotspot_8u312b07.msi
+01/24/2022  06:43 AM       104,315,798 OpenJDK8U-jdk_x64_windows_hotspot_8u312b07.zip
+01/24/2022  06:44 AM                66 OpenJDK8U-jdk_x64_windows_hotspot_8u312b07.zip.sha256
+01/24/2022  06:45 AM       175,193,600 OpenJDK11U-jdk_x64_windows_hotspot_11.0.14_9.msi
+01/24/2022  06:45 AM       196,821,226 OpenJDK11U-jdk_x64_windows_hotspot_11.0.14_9.zip
+01/24/2022  06:46 AM                66 OpenJDK11U-jdk_x64_windows_hotspot_11.0.14_9.zip.sha256
+01/24/2022  06:47 AM       168,541,696 OpenJDK17U-jdk_x64_windows_hotspot_17.0.1_12.msi
+01/24/2022  06:47 AM       188,703,137 OpenJDK17U-jdk_x64_windows_hotspot_17.0.1_12.zip
+01/24/2022  06:48 AM                66 OpenJDK17U-jdk_x64_windows_hotspot_17.0.1_12.zip.sha256
+01/24/2022  06:55 AM        92,258,304 zulu8.60.0.21-ca-jdk8.0.322-win_x64.msi
+01/24/2022  06:57 AM                66 zulu8.60.0.21-ca-jdk8.0.322-win_x64.msi.sha256
+01/24/2022  06:57 AM       108,633,142 zulu8.60.0.21-ca-jdk8.0.322-win_x64.zip
+01/24/2022  06:58 AM                66 zulu8.60.0.21-ca-jdk8.0.322-win_x64.zip.sha256
+01/24/2022  07:00 AM       173,686,784 zulu11.54.23-ca-jdk11.0.14-win_x64.msi
+01/24/2022  07:01 AM                66 zulu11.54.23-ca-jdk11.0.14-win_x64.msi.sha256
+01/24/2022  07:01 AM       196,842,501 zulu11.54.23-ca-jdk11.0.14-win_x64.zip
+01/24/2022  07:02 AM                66 zulu11.54.23-ca-jdk11.0.14-win_x64.zip.sha256
+01/24/2022  07:04 AM       171,954,176 zulu17.32.13-ca-jdk17.0.2-win_x64.msi
+01/24/2022  07:05 AM                66 zulu17.32.13-ca-jdk17.0.2-win_x64.msi.sha256
+01/24/2022  07:05 AM       194,319,401 zulu17.32.13-ca-jdk17.0.2-win_x64.zip
+01/24/2022  07:06 AM                66 zulu17.32.13-ca-jdk17.0.2-win_x64.zip.sha256
+01/24/2022  07:12 AM        13,947,943 apache-log4j-2.17.1-bin.tar.gz
+01/24/2022  07:12 AM               128 apache-log4j-2.17.1-bin.tar.gz.sha512
+01/24/2022  07:12 AM               866 apache-log4j-2.17.1-bin.tar.gz.asc
+01/24/2022  07:12 AM        14,174,583 apache-log4j-2.17.1-bin.zip
+01/24/2022  07:13 AM               128 apache-log4j-2.17.1-bin.zip.sha512
+01/24/2022  07:13 AM               866 apache-log4j-2.17.1-bin.zip.asc
+            1197 File(s) 82,577,041,320 bytes
+              38 Dir(s)  162,209,464,320 bytes free
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>7z l apache-log4j-2.17.1-bin.zip
+
+7-Zip 19.00 (x64) : Copyright (c) 1999-2018 Igor Pavlov : 2019-02-21
+
+Scanning the drive for archives:
+1 file, 14174583 bytes (14 MiB)
+
+Listing archive: apache-log4j-2.17.1-bin.zip
+
+--
+Path = apache-log4j-2.17.1-bin.zip
+Type = zip
+Physical Size = 14174583
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2021-12-27 17:29:24 D....            0            0  apache-log4j-2.17.1-bin
+2021-12-27 17:09:06 .....         4843         2059  apache-log4j-2.17.1-bin\RELEASE-NOTES.md
+2021-12-27 17:28:04 .....        49473        43913  apache-log4j-2.17.1-bin\log4j-iostreams-2.17.1.jar
+2021-12-27 17:25:54 .....        12868        10807  apache-log4j-2.17.1-bin\log4j-jcl-2.17.1.jar
+2021-12-27 17:25:54 .....        12856        10677  apache-log4j-2.17.1-bin\log4j-jcl-2.17.1-sources.jar
+2021-12-27 17:25:54 .....        43481        40690  apache-log4j-2.17.1-bin\log4j-jcl-2.17.1-javadoc.jar
+2021-12-27 17:28:12 .....        30007        26844  apache-log4j-2.17.1-bin\log4j-jul-2.17.1-sources.jar
+2021-12-27 17:28:12 .....        97944        92243  apache-log4j-2.17.1-bin\log4j-jul-2.17.1-javadoc.jar
+2021-12-27 17:26:02 .....        37232        34000  apache-log4j-2.17.1-bin\log4j-flume-ng-2.17.1-sources.jar
+2021-12-27 17:25:12 .....       208005       189933  apache-log4j-2.17.1-bin\log4j-1.2-api-2.17.1.jar
+2021-12-27 17:25:48 .....        21267        18741  apache-log4j-2.17.1-bin\log4j-slf4j18-impl-2.17.1.jar
+2021-12-27 17:25:48 .....        63170        59562  apache-log4j-2.17.1-bin\log4j-slf4j18-impl-2.17.1-javadoc.jar
+2021-12-27 17:26:24 .....        60953        57459  apache-log4j-2.17.1-bin\log4j-jmx-gui-2.17.1-javadoc.jar
+2021-12-27 17:26:10 .....        30424        26861  apache-log4j-2.17.1-bin\log4j-web-2.17.1-sources.jar
+2021-12-27 17:27:12 .....        38223        35637  apache-log4j-2.17.1-bin\log4j-couchdb-2.17.1-javadoc.jar
+2021-12-27 17:27:20 .....        21495        18106  apache-log4j-2.17.1-bin\log4j-mongodb3-2.17.1.jar
+2021-12-27 17:27:34 .....        23056        19264  apache-log4j-2.17.1-bin\log4j-cassandra-2.17.1.jar
+2021-12-27 17:27:34 .....        15743        13694  apache-log4j-2.17.1-bin\log4j-cassandra-2.17.1-sources.jar
+2021-12-27 17:27:06 .....        38016        32334  apache-log4j-2.17.1-bin\log4j-jpa-2.17.1-sources.jar
+2021-12-27 17:27:00 .....        21771        17583  apache-log4j-2.17.1-bin\log4j-jdbc-dbcp2-2.17.1.jar
+2021-12-27 17:28:24 .....         9995         8497  apache-log4j-2.17.1-bin\log4j-liquibase-2.17.1-sources.jar
+2021-12-27 17:28:30 .....        15353        12694  apache-log4j-2.17.1-bin\log4j-appserver-2.17.1.jar
+2021-12-27 17:28:30 .....        14899        12284  apache-log4j-2.17.1-bin\log4j-appserver-2.17.1-sources.jar
+2021-12-27 17:28:30 .....        46497        42309  apache-log4j-2.17.1-bin\log4j-appserver-2.17.1-javadoc.jar
+2021-12-27 17:28:56 .....        18715        16008  apache-log4j-2.17.1-bin\log4j-spring-boot-2.17.1-sources.jar
+2021-12-27 17:29:04 .....        14937        12225  apache-log4j-2.17.1-bin\log4j-spring-cloud-config-client-2.17.1.jar
+2021-12-27 17:29:06 .....        14257        11554  apache-log4j-2.17.1-bin\log4j-spring-cloud-config-client-2.17.1-sources.jar
+2021-12-27 17:29:06 .....        37944        34516  apache-log4j-2.17.1-bin\log4j-spring-cloud-config-client-2.17.1-javadoc.jar
+2021-12-27 17:07:32 .....          413          260  apache-log4j-2.17.1-bin\NOTICE.txt
+2021-12-27 17:28:04 .....        43402        37419  apache-log4j-2.17.1-bin\log4j-iostreams-2.17.1-sources.jar
+2021-12-27 17:28:12 .....        30994        27639  apache-log4j-2.17.1-bin\log4j-jul-2.17.1.jar
+2021-12-27 17:26:02 .....        61657        55117  apache-log4j-2.17.1-bin\log4j-flume-ng-2.17.1.jar
+2021-12-27 17:25:12 .....       168863       152767  apache-log4j-2.17.1-bin\log4j-1.2-api-2.17.1-sources.jar
+2021-12-27 17:26:10 .....        90575        84188  apache-log4j-2.17.1-bin\log4j-web-2.17.1-javadoc.jar
+2021-12-27 17:27:34 .....        51643        48344  apache-log4j-2.17.1-bin\log4j-cassandra-2.17.1-javadoc.jar
+2021-12-27 17:27:00 .....        54861        50692  apache-log4j-2.17.1-bin\log4j-jdbc-dbcp2-2.17.1-javadoc.jar
+2021-12-27 17:28:42 .....        18359        15615  apache-log4j-2.17.1-bin\log4j-docker-2.17.1-sources.jar
+2021-12-27 17:28:56 .....        23753        19660  apache-log4j-2.17.1-bin\log4j-spring-boot-2.17.1.jar
+2021-12-27 17:28:56 .....        59717        55564  apache-log4j-2.17.1-bin\log4j-spring-boot-2.17.1-javadoc.jar
+2021-12-27 17:24:38 .....       301873       272081  apache-log4j-2.17.1-bin\log4j-api-2.17.1.jar
+2021-12-27 17:25:48 .....        19704        17036  apache-log4j-2.17.1-bin\log4j-slf4j18-impl-2.17.1-sources.jar
+2021-12-27 17:25:34 .....        17891        15518  apache-log4j-2.17.1-bin\log4j-to-slf4j-2.17.1.jar
+2021-12-27 17:25:34 .....        15708        13359  apache-log4j-2.17.1-bin\log4j-to-slf4j-2.17.1-sources.jar
+2021-12-27 17:26:24 .....        26354        23540  apache-log4j-2.17.1-bin\log4j-jmx-gui-2.17.1.jar
+2021-12-27 17:26:24 .....        19850        17372  apache-log4j-2.17.1-bin\log4j-jmx-gui-2.17.1-sources.jar
+2021-12-27 17:26:16 .....        32730        28465  apache-log4j-2.17.1-bin\log4j-taglib-2.17.1.jar
+2021-12-27 17:26:16 .....        99856        89302  apache-log4j-2.17.1-bin\log4j-taglib-2.17.1-javadoc.jar
+2021-12-27 17:27:20 .....        16097        13930  apache-log4j-2.17.1-bin\log4j-mongodb3-2.17.1-sources.jar
+2021-12-27 17:27:20 .....        54462        50713  apache-log4j-2.17.1-bin\log4j-mongodb3-2.17.1-javadoc.jar
+2021-12-27 17:27:06 .....       133618       122468  apache-log4j-2.17.1-bin\log4j-jpa-2.17.1-javadoc.jar
+2020-04-03 19:05:42 .....        11366         3958  apache-log4j-2.17.1-bin\LICENSE.txt
+2021-12-27 17:28:04 .....       182121       170199  apache-log4j-2.17.1-bin\log4j-iostreams-2.17.1-javadoc.jar
+2021-12-27 17:25:40 .....        24276        21452  apache-log4j-2.17.1-bin\log4j-slf4j-impl-2.17.1.jar
+2021-12-27 17:25:40 .....        24076        21097  apache-log4j-2.17.1-bin\log4j-slf4j-impl-2.17.1-sources.jar
+2021-12-27 17:25:40 .....        92046        86511  apache-log4j-2.17.1-bin\log4j-slf4j-impl-2.17.1-javadoc.jar
+2021-12-27 17:25:34 .....        56711        53342  apache-log4j-2.17.1-bin\log4j-to-slf4j-2.17.1-javadoc.jar
+2021-12-27 17:26:16 .....        33904        29247  apache-log4j-2.17.1-bin\log4j-taglib-2.17.1-sources.jar
+2021-12-27 17:26:10 .....        35961        31128  apache-log4j-2.17.1-bin\log4j-web-2.17.1.jar
+2021-12-27 17:27:12 .....        15174        12400  apache-log4j-2.17.1-bin\log4j-couchdb-2.17.1.jar
+2021-12-27 17:27:12 .....        13043        11174  apache-log4j-2.17.1-bin\log4j-couchdb-2.17.1-sources.jar
+2021-12-27 17:27:26 .....        19050        15615  apache-log4j-2.17.1-bin\log4j-mongodb4-2.17.1.jar
+2021-12-27 17:27:26 .....        14912        12711  apache-log4j-2.17.1-bin\log4j-mongodb4-2.17.1-sources.jar
+2021-12-27 17:27:26 .....        53984        50298  apache-log4j-2.17.1-bin\log4j-mongodb4-2.17.1-javadoc.jar
+2021-12-27 17:27:06 .....        44444        36709  apache-log4j-2.17.1-bin\log4j-jpa-2.17.1.jar
+2021-12-27 17:27:00 .....        14526        12294  apache-log4j-2.17.1-bin\log4j-jdbc-dbcp2-2.17.1-sources.jar
+2021-12-27 17:28:24 .....        10593         9095  apache-log4j-2.17.1-bin\log4j-liquibase-2.17.1.jar
+2021-12-27 17:28:24 .....        30827        28563  apache-log4j-2.17.1-bin\log4j-liquibase-2.17.1-javadoc.jar
+2021-12-27 17:28:42 .....        22107        18162  apache-log4j-2.17.1-bin\log4j-docker-2.17.1.jar
+2021-12-27 17:28:42 .....        79909        74650  apache-log4j-2.17.1-bin\log4j-docker-2.17.1-javadoc.jar
+2021-12-27 17:24:40 .....       266298       245615  apache-log4j-2.17.1-bin\log4j-api-2.17.1-sources.jar
+2021-12-27 17:26:02 .....        97381        92238  apache-log4j-2.17.1-bin\log4j-flume-ng-2.17.1-javadoc.jar
+2021-12-27 17:25:12 .....       705586       659645  apache-log4j-2.17.1-bin\log4j-1.2-api-2.17.1-javadoc.jar
+2021-12-27 17:24:40 .....      1042135       988724  apache-log4j-2.17.1-bin\log4j-api-2.17.1-javadoc.jar
+2021-12-27 17:24:58 .....      1790452      1597432  apache-log4j-2.17.1-bin\log4j-core-2.17.1.jar
+2021-12-27 17:25:02 .....      5446847      5078802  apache-log4j-2.17.1-bin\log4j-core-2.17.1-javadoc.jar
+2021-12-27 17:25:02 .....      1303724      1189524  apache-log4j-2.17.1-bin\log4j-core-2.17.1-sources.jar
+2021-12-27 17:25:02 .....      1696708      1497191  apache-log4j-2.17.1-bin\log4j-core-2.17.1-tests.jar
+------------------- ----- ------------ ------------  ------------------------
+2021-12-27 17:29:24           15473965     14159319  76 files, 1 folders
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>7z l OpenJDK8U-jdk_x64_windows_hotspot_8u312b07.zip | more
+
+7-Zip 19.00 (x64) : Copyright (c) 1999-2018 Igor Pavlov : 2019-02-21
+
+Scanning the drive for archives:
+1 file, 104315798 bytes (100 MiB)
+
+Listing archive: OpenJDK8U-jdk_x64_windows_hotspot_8u312b07.zip
+
+--
+Path = OpenJDK8U-jdk_x64_windows_hotspot_8u312b07.zip
+Type = zip
+Physical Size = 104315798
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2021-10-19 15:57:49 D....            0            0  jdk8u312-b07
+2021-10-19 15:57:45 .....         1522          745  jdk8u312-b07\ASSEMBLY_EXCEPTION
+2021-10-19 16:05:57 D....            0            0  jdk8u312-b07\bin
+2021-10-19 16:04:44 .....        19664        10557  jdk8u312-b07\bin\jrunscript.exe
+2021-10-19 16:04:48 .....        19664        10587  jdk8u312-b07\bin\jsadebugd.exe
+2021-10-19 16:04:53 .....        19664        10542  jdk8u312-b07\bin\jstat.exe
+2021-10-19 16:04:57 .....        19664        10552  jdk8u312-b07\bin\jstatd.exe
+2021-10-19 16:05:00 .....        19664        10553  jdk8u312-b07\bin\keytool.exe
+2021-10-19 16:05:02 .....        19664        10561  jdk8u312-b07\bin\kinit.exe
+2021-10-19 16:05:06 .....        19664        10562  jdk8u312-b07\bin\klist.exe
+2021-10-19 16:05:09 .....        19664        10559  jdk8u312-b07\bin\ktab.exe
+2021-10-19 16:05:12 .....       956112       457502  jdk8u312-b07\bin\msvcr120.dll
+2021-10-19 16:05:14 .....        19664        10566  jdk8u312-b07\bin\native2ascii.exe
+2021-10-19 16:05:17 .....        19664        10626  jdk8u312-b07\bin\orbd.exe
+2021-10-19 16:05:21 .....        19664        10562  jdk8u312-b07\bin\pack200.exe
+2021-10-19 16:05:24 .....        19664        10564  jdk8u312-b07\bin\policytool.exe
+2021-10-19 16:05:27 .....        19664        10546  jdk8u312-b07\bin\rmic.exe
+2021-10-19 16:05:30 .....        19664        10549  jdk8u312-b07\bin\rmid.exe
+2021-10-19 16:05:32 .....        19664        10565  jdk8u312-b07\bin\rmiregistry.exe
+2021-10-19 16:05:36 .....        19664        10565  jdk8u312-b07\bin\schemagen.exe
+2021-10-19 16:05:39 .....        19664        10559  jdk8u312-b07\bin\serialver.exe
+2021-10-19 16:05:42 .....        19664        10568  jdk8u312-b07\bin\servertool.exe
+2021-10-19 16:05:45 .....        19664        10663  jdk8u312-b07\bin\tnameserv.exe
+2021-10-19 16:05:48 .....       203984        85921  jdk8u312-b07\bin\unpack200.exe
+2021-10-19 16:05:51 .....        19664        10557  jdk8u312-b07\bin\wsgen.exe
+2021-10-19 16:05:54 .....        19664        10567  jdk8u312-b07\bin\wsimport.exe
+2021-10-19 16:05:57 .....        19664        10559  jdk8u312-b07\bin\xjc.exe
+2021-10-19 16:03:26 .....        19664        10552  jdk8u312-b07\bin\appletviewer.exe
+2021-10-19 16:03:29 .....        19664        10574  jdk8u312-b07\bin\clhsdb.exe
+
+
+Break signaled
+^C
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>7z l zulu8.60.0.21-ca-jdk8.0.322-win_x64.zip | more
+
+7-Zip 19.00 (x64) : Copyright (c) 1999-2018 Igor Pavlov : 2019-02-21
+
+Scanning the drive for archives:
+1 file, 108633142 bytes (104 MiB)
+
+Listing archive: zulu8.60.0.21-ca-jdk8.0.322-win_x64.zip
+
+--
+Path = zulu8.60.0.21-ca-jdk8.0.322-win_x64.zip
+Type = zip
+Physical Size = 108633142
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2022-01-13 07:01:52 D....            0            0  zulu8.60.0.21-ca-jdk8.0.322-win_x64
+2022-01-13 06:57:48 .....         1522          745  zulu8.60.0.21-ca-jdk8.0.322-win_x64\ASSEMBLY_EXCEPTION
+2022-01-13 07:01:54 D....            0            0  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin
+2022-01-15 14:11:40 .....        20152         9922  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\appletviewer.exe
+2022-01-15 14:11:41 .....        20152        10033  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\clhsdb.exe
+2022-01-15 14:11:42 .....        20152        10012  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\extcheck.exe
+2022-01-15 14:11:44 .....        20152        10027  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\hsdb.exe
+2022-01-15 14:11:45 .....        20152        10023  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\idlj.exe
+2022-01-15 14:11:47 .....        41144        18649  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\jabswitch.exe
+2022-01-15 14:11:48 .....        20152         9997  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\jar.exe
+2022-01-15 14:11:49 .....        20152         9926  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\jarsigner.exe
+2022-01-15 14:11:51 .....        20152         9859  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\java-rmi.exe
+2022-01-15 14:11:52 .....       309432       165621  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\java.exe
+2022-01-15 14:11:53 .....        20152        10015  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\javac.exe
+2022-01-15 14:11:55 .....        20152        10015  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\javadoc.exe
+2022-01-15 14:11:56 .....        20152        10010  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\javah.exe
+2022-01-15 14:11:57 .....        20152        10018  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\javap.exe
+2022-01-15 14:11:59 .....       308920       165761  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\javaw.exe
+2022-01-15 14:12:00 .....        20152         9911  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\jcmd.exe
+2022-01-15 14:12:01 .....        20152        10126  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\jconsole.exe
+2022-01-15 14:12:03 .....        20152        10038  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\jdb.exe
+2022-01-15 14:12:04 .....        20152        10016  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\jdeps.exe
+2022-01-15 14:12:06 .....        20152        10010  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\jfr.exe
+2022-01-15 14:12:07 .....        20152        10001  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\jhat.exe
+2022-01-15 14:12:08 .....        20152        10066  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\jinfo.exe
+2022-01-15 14:12:10 .....        20152        10008  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\jjs.exe
+2022-01-15 14:12:11 .....       280760       152505  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\jli.dll
+2022-01-15 14:12:12 .....        20152        10064  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\jmap.exe
+2022-01-15 14:12:14 .....        20152        10008  zulu8.60.0.21-ca-jdk8.0.322-win_x64\bin\jps.exe
+
+
+Break signaled
+^C
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>7z l amazon-corretto-8.322.06.1-windows-x64-jdk.zip | more
+
+7-Zip 19.00 (x64) : Copyright (c) 1999-2018 Igor Pavlov : 2019-02-21
+
+Scanning the drive for archives:
+1 file, 122243868 bytes (117 MiB)
+
+Listing archive: amazon-corretto-8.322.06.1-windows-x64-jdk.zip
+
+--
+Path = amazon-corretto-8.322.06.1-windows-x64-jdk.zip
+Type = zip
+Physical Size = 122243868
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2022-01-14 00:07:44 D....            0            2  jdk1.8.0_322
+2022-01-14 00:05:44 .....         1522          745  jdk1.8.0_322\ASSEMBLY_EXCEPTION
+2022-01-14 00:07:44 D....            0            2  jdk1.8.0_322\bin
+2022-01-14 00:05:44 .....        26200        10028  jdk1.8.0_322\bin\appletviewer.exe
+2022-01-14 00:05:44 .....        26200        10051  jdk1.8.0_322\bin\clhsdb.exe
+2022-01-14 00:05:44 .....        26200        10033  jdk1.8.0_322\bin\extcheck.exe
+2022-01-14 00:05:44 .....        26200        10044  jdk1.8.0_322\bin\hsdb.exe
+2022-01-14 00:05:44 .....        26200        10043  jdk1.8.0_322\bin\idlj.exe
+2022-01-14 00:05:44 .....        44120        17735  jdk1.8.0_322\bin\jabswitch.exe
+2022-01-14 00:05:44 .....        26200        10011  jdk1.8.0_322\bin\jar.exe
+2022-01-14 00:05:44 .....        26200        10032  jdk1.8.0_322\bin\jarsigner.exe
+2022-01-14 00:05:44 .....        26200         9980  jdk1.8.0_322\bin\java-rmi.exe
+2022-01-14 00:05:44 .....       231000       120377  jdk1.8.0_322\bin\java.exe
+2022-01-14 00:05:44 .....        26200        10017  jdk1.8.0_322\bin\javac.exe
+2022-01-14 00:05:44 .....        26200        10020  jdk1.8.0_322\bin\javadoc.exe
+2022-01-14 00:05:48 .....       158664        84630  jdk1.8.0_322\bin\javafxpackager.exe
+2022-01-14 00:05:44 .....        26200        10022  jdk1.8.0_322\bin\javah.exe
+2022-01-14 00:05:44 .....        26200        10023  jdk1.8.0_322\bin\javap.exe
+2022-01-14 00:05:48 .....       158664        84630  jdk1.8.0_322\bin\javapackager.exe
+2022-01-14 00:05:44 .....       231000       120480  jdk1.8.0_322\bin\javaw.exe
+2022-01-14 00:05:44 .....        26200        10024  jdk1.8.0_322\bin\jcmd.exe
+2022-01-14 00:05:44 .....        26200        10224  jdk1.8.0_322\bin\jconsole.exe
+2022-01-14 00:05:44 .....        26200        10049  jdk1.8.0_322\bin\jdb.exe
+2022-01-14 00:05:44 .....        26200        10027  jdk1.8.0_322\bin\jdeps.exe
+2022-01-14 00:05:44 .....        26200        10020  jdk1.8.0_322\bin\jfr.exe
+2022-01-14 00:05:44 .....        26200        10020  jdk1.8.0_322\bin\jhat.exe
+2022-01-14 00:05:44 .....        26200        10102  jdk1.8.0_322\bin\jinfo.exe
+2022-01-14 00:05:44 .....        26200        10012  jdk1.8.0_322\bin\jjs.exe
+2022-01-14 00:05:44 .....       204376       108076  jdk1.8.0_322\bin\jli.dll
+
+
+Break signaled
+^C
+C:\Users\David Holberton\Downloads>
+
+
+
+
+
+
+
+
