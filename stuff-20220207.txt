@@ -1,0 +1,170 @@
+5:51 AM 2/7/2022
+
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.archive/compress-archive?view=powershell-7.2
+
+This example compresses files from different directories and creates an archive file. A wildcard is used to get all files with a particular file extension. There's no directory structure in the archive file because the Path only specifies file names.
+PowerShell
+
+$compress = @{
+  Path = "C:\Reference\Draftdoc.docx", "C:\Reference\Images\*.vsd"
+  CompressionLevel = "Fastest"
+  DestinationPath = "C:\Archives\Draft.Zip"
+}
+Compress-Archive @compress
+
+$compress = @{
+  Path = "C:\Program Files (x86)\Mozilla Firefox"
+  CompressionLevel = "Fastest"
+  DestinationPath = "C:\temp\zipdir\firefox-96.0.3-ps.zip"
+}
+Compress-Archive @compress
+
+C:\Program Files (x86)\Mozilla Firefox
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Compress-Archive -Path "C:\Program Files (x86)\Mozilla Firefox" -DestinationPath "C:\temp\zipdir\firefox-96.0.3-ps.zip"
+
+PS C:\Users\David Holberton> Compress-Archive -Path "C:\Program Files (x86)\Mozilla Firefox" -DestinationPath "C:\temp\zipdir\firefox-96.0.3-ps.zip"
+PS C:\Users\David Holberton>
+
+C:\Program Files (x86)>dir \temp\zipdir
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\temp\zipdir
+
+02/07/2022  06:17 AM    <DIR>          .
+02/07/2022  06:17 AM    <DIR>          ..
+02/07/2022  05:58 AM        79,727,959 firefox-96.0.3-7z.zip
+02/07/2022  06:17 AM        82,086,585 firefox-96.0.3-ps.zip
+               2 File(s)    161,814,544 bytes
+               2 Dir(s)  147,795,324,928 bytes free
+
+C:\Program Files (x86)>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Microsoft Windows [Version 10.0.19043.1415]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\David Holberton>mkdir c:\temp\zipdir
+
+C:\Users\David Holberton>cd "\Program Files"
+
+C:\Program Files>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Program Files
+
+04/07/2017  03:02 PM    <DIR>          Synaptics
+04/07/2017  03:06 PM    <DIR>          Portrait Displays
+08/12/2017  10:44 AM    <DIR>          Microsoft Office 15
+08/13/2017  08:47 PM    <DIR>          Bonjour
+04/07/2019  08:53 AM    <DIR>          rempl
+12/07/2019  04:14 AM    <DIR>          ModifiableWindowsApps
+12/07/2019  04:31 AM    <DIR>          WindowsPowerShell
+12/07/2019  04:31 AM    <DIR>          Windows Security
+12/07/2019  04:50 AM    <DIR>          Windows NT
+12/07/2019  04:54 AM    <DIR>          Windows Portable Devices
+12/07/2019  04:54 AM    <DIR>          Windows Multimedia Platform
+09/01/2020  05:16 PM    <DIR>          MSBuild
+09/01/2020  05:16 PM    <DIR>          Reference Assemblies
+09/01/2020  05:28 PM    <DIR>          Realtek
+09/01/2020  05:40 PM    <DIR>          UNP
+09/02/2020  07:27 AM    <DIR>          Waves
+09/12/2020  11:04 AM    <DIR>          Common Files
+12/20/2020  08:50 AM    <DIR>          JetBrains
+01/20/2021  10:35 AM    <DIR>          Windows Defender
+01/20/2021  10:35 AM    <DIR>          Windows Photo Viewer
+05/05/2021  07:18 AM    <DIR>          Dell
+07/22/2021  05:08 AM    <DIR>          Windows Mail
+08/15/2021  09:24 AM    <DIR>          NVIDIA Corporation
+10/02/2021  07:22 AM    <DIR>          Internet Explorer
+10/05/2021  06:24 AM    <DIR>          Microsoft Update Health Tools
+10/14/2021  08:04 AM    <DIR>          Windows Media Player
+10/20/2021  05:07 AM    <DIR>          ..
+10/20/2021  05:07 AM    <DIR>          .
+10/20/2021  06:36 AM    <DIR>          apache-tomcat-9.0.53
+12/22/2021  09:05 AM    <DIR>          Git
+12/23/2021  07:47 AM    <DIR>          Windows Defender Advanced Threat Protection
+01/21/2022  07:50 AM    <DIR>          Microsoft Office
+01/21/2022  08:39 AM    <DIR>          Intel
+02/05/2022  11:36 AM    <DIR>          Java
+               0 File(s)              0 bytes
+              34 Dir(s)  148,445,917,184 bytes free
+
+C:\Program Files>
+C:\Program Files (x86)>
+C:\Program Files (x86)>cd "..\Program Files"
+
+C:\Program Files>
+C:\Program Files>
+C:\Program Files>cd "\Program Files (x86)"
+
+C:\Program Files (x86)>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Program Files (x86)
+
+04/07/2017  03:01 PM    <DIR>          ST Microelectronics
+08/13/2017  12:54 PM    <DIR>          HP
+08/13/2017  08:47 PM    <DIR>          Bonjour
+08/13/2017  08:49 PM    <DIR>          DYMO
+03/15/2018  09:44 AM    <DIR>          ASM104xUSB3
+12/07/2019  04:31 AM    <DIR>          WindowsPowerShell
+12/07/2019  04:50 AM    <DIR>          Windows NT
+12/07/2019  04:54 AM    <DIR>          Windows Portable Devices
+12/07/2019  04:54 AM    <DIR>          Windows Multimedia Platform
+01/16/2020  08:45 AM    <DIR>          VulkanRT
+07/15/2020  03:11 PM    <DIR>          Adobe
+09/01/2020  05:16 PM    <DIR>          MSBuild
+09/01/2020  05:16 PM    <DIR>          Reference Assemblies
+09/01/2020  05:40 PM    <DIR>          Microsoft.NET
+09/01/2020  05:40 PM    <DIR>          Common Files
+11/25/2020  06:37 AM    <DIR>          Dell
+12/12/2020  01:18 PM    <DIR>          Windows Defender
+01/20/2021  06:55 AM    <DIR>          Bluetooth Suite
+01/20/2021  10:35 AM    <DIR>          Windows Photo Viewer
+04/11/2021  11:06 AM    <DIR>          TurboTax
+06/01/2021  06:13 AM    <DIR>          Microsoft
+07/03/2021  04:11 PM    <DIR>          GnuPG
+07/03/2021  04:11 PM    <DIR>          Gpg4win
+07/22/2021  05:08 AM    <DIR>          Windows Mail
+08/15/2021  09:24 AM    <DIR>          NVIDIA Corporation
+10/02/2021  07:22 AM    <DIR>          Internet Explorer
+10/14/2021  08:04 AM    <DIR>          Windows Media Player
+11/17/2021  05:16 PM    <DIR>          Raspberry Pi Imager
+01/21/2022  08:37 AM    <DIR>          Realtek
+01/21/2022  08:38 AM    <DIR>          Intel
+02/07/2022  05:54 AM    <DIR>          Mozilla Firefox
+02/07/2022  05:54 AM    <DIR>          .
+02/07/2022  05:54 AM    <DIR>          ..
+02/07/2022  05:54 AM    <DIR>          Mozilla Maintenance Service
+02/07/2022  05:54 AM    <DIR>          Google
+               0 File(s)              0 bytes
+              35 Dir(s)  148,605,276,160 bytes free
+
+C:\Program Files (x86)>
+C:\Program Files (x86)>7z a c:\temp\zipdir\firefox-96.0.3-7z.zip "Mozilla Firefox"
+
+Files read from disk: 90
+Archive size: 79727959 bytes (77 MiB)
+Everything is Ok
+
+C:\Program Files (x86)>dir /o:gd c:\temp\zipdir
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of c:\temp\zipdir
+
+02/07/2022  05:57 AM    <DIR>          ..
+02/07/2022  05:57 AM    <DIR>          .
+02/07/2022  05:58 AM        79,727,959 firefox-96.0.3-7z.zip
+               1 File(s)     79,727,959 bytes
+               2 Dir(s)  148,519,444,480 bytes free
+
+C:\Program Files (x86)>
+
