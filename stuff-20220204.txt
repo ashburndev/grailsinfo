@@ -1,0 +1,91 @@
+8:26 AM 2/4/2022
+
+01/24/2022  06:42 AM        90,120,192 OpenJDK8U-jdk_x64_windows_hotspot_8u312b07.msi
+01/24/2022  06:43 AM       104,315,798 OpenJDK8U-jdk_x64_windows_hotspot_8u312b07.zip
+01/24/2022  06:44 AM                66 OpenJDK8U-jdk_x64_windows_hotspot_8u312b07.zip.sha256
+01/24/2022  06:45 AM       175,193,600 OpenJDK11U-jdk_x64_windows_hotspot_11.0.14_9.msi
+01/24/2022  06:45 AM       196,821,226 OpenJDK11U-jdk_x64_windows_hotspot_11.0.14_9.zip
+01/24/2022  06:46 AM                66 OpenJDK11U-jdk_x64_windows_hotspot_11.0.14_9.zip.sha256
+01/24/2022  06:47 AM       168,541,696 OpenJDK17U-jdk_x64_windows_hotspot_17.0.1_12.msi
+01/24/2022  06:47 AM       188,703,137 OpenJDK17U-jdk_x64_windows_hotspot_17.0.1_12.zip
+01/24/2022  06:48 AM                66 OpenJDK17U-jdk_x64_windows_hotspot_17.0.1_12.zip.sha256
+01/24/2022  06:55 AM        92,258,304 zulu8.60.0.21-ca-jdk8.0.322-win_x64.msi
+01/24/2022  06:57 AM                66 zulu8.60.0.21-ca-jdk8.0.322-win_x64.msi.sha256
+01/24/2022  06:57 AM       108,633,142 zulu8.60.0.21-ca-jdk8.0.322-win_x64.zip
+01/24/2022  06:58 AM                66 zulu8.60.0.21-ca-jdk8.0.322-win_x64.zip.sha256
+01/24/2022  07:00 AM       173,686,784 zulu11.54.23-ca-jdk11.0.14-win_x64.msi
+01/24/2022  07:01 AM                66 zulu11.54.23-ca-jdk11.0.14-win_x64.msi.sha256
+01/24/2022  07:01 AM       196,842,501 zulu11.54.23-ca-jdk11.0.14-win_x64.zip
+01/24/2022  07:02 AM                66 zulu11.54.23-ca-jdk11.0.14-win_x64.zip.sha256
+01/24/2022  07:04 AM       171,954,176 zulu17.32.13-ca-jdk17.0.2-win_x64.msi
+01/24/2022  07:05 AM                66 zulu17.32.13-ca-jdk17.0.2-win_x64.msi.sha256
+01/24/2022  07:05 AM       194,319,401 zulu17.32.13-ca-jdk17.0.2-win_x64.zip
+01/24/2022  07:06 AM                66 zulu17.32.13-ca-jdk17.0.2-win_x64.zip.sha256
+01/24/2022  07:12 AM        13,947,943 apache-log4j-2.17.1-bin.tar.gz
+01/24/2022  07:12 AM               128 apache-log4j-2.17.1-bin.tar.gz.sha512
+01/24/2022  07:12 AM               866 apache-log4j-2.17.1-bin.tar.gz.asc
+01/24/2022  07:12 AM        14,174,583 apache-log4j-2.17.1-bin.zip
+01/24/2022  07:13 AM               128 apache-log4j-2.17.1-bin.zip.sha512
+01/24/2022  07:13 AM               866 apache-log4j-2.17.1-bin.zip.asc
+02/04/2022  08:32 AM       689,545,768 ideaIU-2021.3.2.exe
+02/04/2022  08:32 AM                86 ideaIU-2021.3.2.exe.sha256
+02/04/2022  08:32 AM       951,344,147 ideaIU-2021.3.2.win.zip
+02/04/2022  08:33 AM                90 ideaIU-2021.3.2.win.zip.sha256
+02/04/2022  08:33 AM       588,820,024 ideaIC-2021.3.2.exe
+02/04/2022  08:33 AM                86 ideaIC-2021.3.2.exe.sha256
+02/04/2022  08:33 AM       800,322,806 ideaIC-2021.3.2.win.zip
+02/04/2022  08:34 AM                90 ideaIC-2021.3.2.win.zip.sha256
+02/04/2022  08:35 AM       395,284,216 RubyMine-2021.3.2.exe
+02/04/2022  08:35 AM                88 RubyMine-2021.3.2.exe.sha256
+02/04/2022  08:36 AM       539,383,721 RubyMine-2021.3.2.win.zip
+02/04/2022  08:36 AM                92 RubyMine-2021.3.2.win.zip.sha256
+02/04/2022  08:36 AM        77,274,392 VSCodeUserSetup-x64-1.64.0.exe
+02/04/2022  08:37 AM        77,274,280 VSCodeSetup-x64-1.64.0.exe
+02/04/2022  08:37 AM       108,129,563 VSCode-win32-x64-1.64.0.zip
+02/04/2022  08:38 AM         8,729,987 apache-ant-1.9.16-bin.zip
+02/04/2022  08:38 AM               224 apache-ant-1.9.16-bin.zip.asc
+02/04/2022  08:39 AM               129 apache-ant-1.9.16-bin.zip.sha512
+02/04/2022  08:39 AM        10,228,714 apache-ant-1.10.12-bin.zip
+02/04/2022  08:39 AM               833 apache-ant-1.10.12-bin.zip.asc
+02/04/2022  08:39 AM               129 apache-ant-1.10.12-bin.zip.sha512
+02/04/2022  08:40 AM        29,010,898 apache-groovy-binary-4.0.0.zip
+02/04/2022  08:41 AM               838 apache-groovy-binary-4.0.0.zip.asc
+02/04/2022  08:41 AM                66 apache-groovy-binary-4.0.0.zip.sha256
+02/04/2022  08:41 AM        21,194,535 apache-groovy-docs-4.0.0.zip
+02/04/2022  08:41 AM               838 apache-groovy-docs-4.0.0.zip.asc
+02/04/2022  08:42 AM                66 apache-groovy-docs-4.0.0.zip.sha256
+02/04/2022  08:48 AM        90,146,304 OpenJDK8U-jdk_x64_windows_hotspot_8u322b06.msi
+02/04/2022  08:48 AM       104,347,578 OpenJDK8U-jdk_x64_windows_hotspot_8u322b06.zip
+02/04/2022  08:49 AM                66 OpenJDK8U-jdk_x64_windows_hotspot_8u322b06.zip.sha256
+02/04/2022  08:51 AM       168,619,520 OpenJDK17U-jdk_x64_windows_hotspot_17.0.2_8.msi
+02/04/2022  08:51 AM       188,757,501 OpenJDK17U-jdk_x64_windows_hotspot_17.0.2_8.zip
+02/04/2022  08:53 AM                66 OpenJDK17U-jdk_x64_windows_hotspot_17.0.2_8.zip.sha256
+02/04/2022  09:00 AM     1,306,588,543 2022-01-28-raspios-bullseye-armhf.zip
+02/04/2022  09:04 AM     3,425,721,950 2022-01-28-raspios-bullseye-armhf-full.zip
+02/04/2022  09:05 AM       505,179,990 2022-01-28-raspios-bullseye-armhf-lite.zip
+02/04/2022  09:06 AM               945 2022-01-28-raspberry-pi-os-32-bit-sha256.txt
+02/04/2022  09:06 AM            40,189 2022-01-28-raspios-release_notes.txt
+02/04/2022  09:08 AM     1,189,750,489 2022-01-28-raspios-bullseye-arm64.zip
+02/04/2022  09:11 AM       455,883,729 2022-01-28-raspios-bullseye-arm64-lite.zip
+02/04/2022  09:13 AM               599 2022-01-28-raspberry-pi-os-64-bit-sha256.txt
+            1238 File(s) 94,308,625,495 bytes
+              38 Dir(s)  150,181,240,832 bytes free
+
+C:\Users\David Holberton\Downloads>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\David Holberton\Downloads>java -version
+java version "1.8.0_301"
+Java(TM) SE Runtime Environment (build 1.8.0_301-b09)
+Java HotSpot(TM) 64-Bit Server VM (build 25.301-b09, mixed mode)
+
+C:\Users\David Holberton\Downloads>javac -version
+javac 1.8.0_301
+
+C:\Users\David Holberton\Downloads>
+
+
+
+
+
