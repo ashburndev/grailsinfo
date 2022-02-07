@@ -1,0 +1,199 @@
+10:43 AM 2/5/2022
+
+Microsoft Windows [Version 10.0.19043.1415]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\David Holberton>
+
+def sysprops = System.getProperties();
+// sysprops.print()  // java.util.Properties
+println "sysprops.getClass().getName() = ${sysprops.getClass().getName()}"
+// println "sysprops = ${sysprops}"
+println "----- sysprops.list(System.out) -----"
+sysprops.list(System.out)
+println "----- sysprops.each {prop -> -----"
+sysprops.each {prop ->
+  // println "prop.getClass().getName() = ${prop.getClass().getName()}"  // java.util.Hashtable$Entry
+  // println "prop.getKey() = ${prop.getKey()}     = prop.getValue() = ${prop.getValue()}"
+  //println "${prop.getKey()} = ${prop.getValue()}" 
+}
+def keySet = sysprops.keySet()
+// println"-----"
+// println "keySet = ${keySet}"
+// def keyList = keySet as List
+def keyList = keySet.toList().sort()
+// println"-----"
+// println "keyList = ${keyList}"
+println "----- keyList.each {keyName -> -----"
+keyList.each {keyName ->
+  def propValue = sysprops.get(keyName)
+  println "  ${keyName.padRight(30,' ')} = $propValue"
+}
+def keynames = [
+  "java.runtime.name","java.runtime.version","java.vendor",
+  "java.version","java.vm.name","java.vm.vendor","java.vm.version",
+  "os.arch","os.name","os.version","sun.arch.data.model"]
+println "----- keynames -----"
+keynames.sort().each {keyname ->
+  // println keyname
+  println "  ${keyname.padRight(30,' ')} = ${sysprops.get(keyname)}"
+}
+println "done"
+
+----- keynames -----
+  java.runtime.name              = Java(TM) SE Runtime Environment
+  java.runtime.version           = 1.8.0_301-b09
+  java.vendor                    = Oracle Corporation
+  java.version                   = 1.8.0_301
+  java.vm.name                   = Java HotSpot(TM) 64-Bit Server VM
+  java.vm.vendor                 = Oracle Corporation
+  java.vm.version                = 25.301-b09
+  os.arch                        = amd64
+  os.name                        = Windows 10
+  os.version                     = 10.0
+  sun.arch.data.model            = 64
+done
+
+
+C:\LocalApps>jdk-8u321-windows-x64.exe
+
+C:\LocalApps>dir "\Program Files\Java"
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Program Files\Java
+
+02/05/2022  11:36 AM    <DIR>          .
+02/05/2022  11:36 AM    <DIR>          ..
+09/12/2020  11:04 AM    <DIR>          jdk-11.0.8
+03/15/2018  08:47 AM    <DIR>          jdk-9.0.4
+06/08/2017  01:35 PM    <DIR>          jdk1.8.0_131
+03/15/2018  08:42 AM    <DIR>          jdk1.8.0_162
+02/05/2022  11:35 AM    <DIR>          jdk1.8.0_321
+06/08/2017  01:35 PM    <DIR>          jre1.8.0_131
+02/05/2022  11:36 AM    <DIR>          jre1.8.0_321
+               0 File(s)              0 bytes
+               9 Dir(s)  149,195,419,648 bytes free
+
+C:\LocalApps>
+
+\Program Files\Java\dk1.8.0_321
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Microsoft Windows [Version 10.0.19043.1415]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\David Holberton>java -version
+java version "1.8.0_321"
+Java(TM) SE Runtime Environment (build 1.8.0_321-b07)
+Java HotSpot(TM) 64-Bit Server VM (build 25.321-b07, mixed mode)
+
+C:\Users\David Holberton>javac -version
+javac 1.8.0_321
+
+C:\Users\David Holberton>
+
+----- keynames -----
+  java.runtime.name              = Java(TM) SE Runtime Environment
+  java.runtime.version           = 1.8.0_321-b07
+  java.vendor                    = Oracle Corporation
+  java.version                   = 1.8.0_321
+  java.vm.name                   = Java HotSpot(TM) 64-Bit Server VM
+  java.vm.vendor                 = Oracle Corporation
+  java.vm.version                = 25.321-b07
+  os.arch                        = amd64
+  os.name                        = Windows 10
+  os.version                     = 10.0
+  sun.arch.data.model            = 64
+done
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\LocalApps\openjdk>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\LocalApps\openjdk
+
+01/19/2022  08:16 AM    <DIR>          jdk8u322-b06
+02/05/2022  11:46 AM    <DIR>          ..
+02/05/2022  11:46 AM    <DIR>          .
+02/04/2022  08:48 AM       104,347,578 OpenJDK8U-jdk_x64_windows_hotspot_8u322b06.zip
+               1 File(s)    104,347,578 bytes
+               3 Dir(s)  148,891,906,048 bytes free
+
+C:\LocalApps\openjdk>cd jdk8u322-b06
+
+C:\LocalApps\openjdk\jdk8u322-b06>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\LocalApps\openjdk\jdk8u322-b06
+
+01/19/2022  08:16 AM    <DIR>          lib
+01/19/2022  08:16 AM    <DIR>          sample
+01/19/2022  08:16 AM    <DIR>          include
+01/19/2022  08:16 AM    <DIR>          jre
+01/19/2022  08:16 AM    <DIR>          .
+01/19/2022  08:16 AM    <DIR>          ..
+01/19/2022  08:21 AM    <DIR>          bin
+01/19/2022  08:16 AM           157,063 THIRD_PARTY_README
+01/19/2022  08:16 AM        51,919,695 src.zip
+01/19/2022  08:16 AM             1,522 ASSEMBLY_EXCEPTION
+01/19/2022  08:16 AM            19,274 LICENSE
+01/19/2022  08:16 AM               461 release
+01/19/2022  08:16 AM             2,401 NOTICE
+               6 File(s)     52,100,416 bytes
+               7 Dir(s)  148,891,906,048 bytes free
+
+C:\LocalApps\openjdk\jdk8u322-b06>
+C:\LocalApps\openjdk\jdk8u322-b06>type release
+JAVA_VERSION="1.8.0_322"
+OS_NAME="Windows"
+OS_VERSION="5.2"
+OS_ARCH="amd64"
+SOURCE=" .:OpenJDK: 20c7bb7a16:"
+IMPLEMENTOR="Eclipse Adoptium"
+BUILD_SOURCE="git:7bc9c9a9"
+BUILD_SOURCE_REPO="https://github.com/adoptium/temurin-build.git"
+SOURCE_REPO="https://github.com/adoptium/jdk8u.git"
+FULL_VERSION="1.8.0_322-b06"
+SEMANTIC_VERSION="8.0.322+6"
+BUILD_INFO="OS: Windows Server 2012 R2 Version: 6.3"
+JVM_VARIANT="Hotspot"
+JVM_VERSION="25.322-b06"
+IMAGE_TYPE="JDK"
+
+C:\LocalApps\openjdk\jdk8u322-b06>
+C:\LocalApps\openjdk\jdk8u322-b06>java -version
+openjdk version "1.8.0_322"
+OpenJDK Runtime Environment (Temurin)(build 1.8.0_322-b06)
+OpenJDK 64-Bit Server VM (Temurin)(build 25.322-b06, mixed mode)
+
+C:\LocalApps\openjdk\jdk8u322-b06>javac -version
+javac 1.8.0_322
+
+C:\LocalApps\openjdk\jdk8u322-b06>
+
+----- keynames -----
+  java.runtime.name              = OpenJDK Runtime Environment
+  java.runtime.version           = 1.8.0_322-b06
+  java.vendor                    = Temurin
+  java.version                   = 1.8.0_322
+  java.vm.name                   = OpenJDK 64-Bit Server VM
+  java.vm.vendor                 = Temurin
+  java.vm.version                = 25.322-b06
+  os.arch                        = amd64
+  os.name                        = Windows 10
+  os.version                     = 10.0
+  sun.arch.data.model            = 64
+done
+
+
+
+
+
+
+
+
