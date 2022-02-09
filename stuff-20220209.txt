@@ -1,0 +1,479 @@
+6:37 AM 2/9/2022
+
+https://pragprog.com/
+
+https://pragprog.com/titles/rails6/agile-web-development-with-rails-6/
+https://pragprog.com/titles/rails7/agile-web-development-with-rails-7/
+https://pragprog.com/titles/dcbang2/rails-angular-postgres-and-bootstrap-second-edition/
+
+https://pragmaticstudio.com/
+
+https://pragmaticstudio.com/courses/ruby
+https://pragmaticstudio.com/courses/rails
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://developers.redhat.com/products/openjdk/download
+
+02/09/2022  06:41 AM       177,517,061 java-1.8.0-openjdk-1.8.0.322-2.b06.dev.redhat.windows.x86_64.zip
+02/09/2022  06:44 AM       221,605,888 java-1.8.0-openjdk-1.8.0.322-2.b06.dev.redhat.windows.x86_64.msi
+02/09/2022  06:44 AM       253,857,420 java-11-openjdk-11.0.14.9-1.windows.redhat.x86_64.zip
+02/09/2022  06:45 AM       255,213,568 java-11-openjdk-11.0.14.9-1.windows.redhat.x86_64.msi
+02/09/2022  06:46 AM       257,855,768 java-17-openjdk-17.0.2.0.8-1.win.x86_64.zip
+02/09/2022  06:47 AM       258,736,128 java-17-openjdk-17.0.2.0.8-1.win.x86_64.msi
+
+C:\Users\David Holberton\Downloads>dir /o:gd *openjdk*redhat*
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\Downloads
+
+09/05/2021  10:19 AM       177,464,750 java-1.8.0-openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64.zip
+09/05/2021  10:21 AM       253,726,073 java-11-openjdk-11.0.12.7-1.windows.redhat.x86_64.zip
+01/21/2022  08:23 AM       177,485,245 java-1.8.0-openjdk-1.8.0.312-2.b07.dev.redhat.windows.x86_64.zip
+01/21/2022  08:28 AM       221,564,928 java-1.8.0-openjdk-1.8.0.312-2.b07.dev.redhat.windows.x86_64.msi
+01/21/2022  08:34 AM       253,720,646 java-11-openjdk-11.0.13.8-1.windows.redhat.x86_64.zip
+01/21/2022  08:34 AM       255,053,824 java-11-openjdk-11.0.13.8-1.windows.redhat.x86_64.msi
+02/09/2022  06:41 AM       177,517,061 java-1.8.0-openjdk-1.8.0.322-2.b06.dev.redhat.windows.x86_64.zip
+02/09/2022  06:44 AM       221,605,888 java-1.8.0-openjdk-1.8.0.322-2.b06.dev.redhat.windows.x86_64.msi
+02/09/2022  06:44 AM       253,857,420 java-11-openjdk-11.0.14.9-1.windows.redhat.x86_64.zip
+02/09/2022  06:45 AM       255,213,568 java-11-openjdk-11.0.14.9-1.windows.redhat.x86_64.msi
+              10 File(s)  2,247,209,403 bytes
+               0 Dir(s)  147,443,212,288 bytes free
+
+C:\Users\David Holberton\Downloads>
+
+mkdir C:\temp\openjdk\redhat
+cd "C:\Users\David Holberton\Downloads"
+copy java-1.8.0-openjdk-1.8.0.322-2.b06.dev.redhat.windows.x86_64.zip C:\temp\openjdk\redhat
+cd C:\temp\openjdk\redhat
+dir /o:gd
+7z x java-1.8.0-openjdk-1.8.0.322-2.b06.dev.redhat.windows.x86_64.zip
+dir /o:gd
+REM configure JAVA_HOME and PATH to reflect the redhat jdk
+java -version
+javac -version
+groovy
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\temp\openjdk\redhat>
+C:\temp\openjdk\redhat>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\temp\openjdk\redhat
+
+02/09/2022  06:51 AM    <DIR>          ..
+02/09/2022  06:51 AM    <DIR>          .
+02/09/2022  06:41 AM       177,517,061 java-1.8.0-openjdk-1.8.0.322-2.b06.dev.redhat.windows.x86_64.zip
+               1 File(s)    177,517,061 bytes
+               2 Dir(s)  147,282,718,720 bytes free
+
+C:\temp\openjdk\redhat>
+C:\temp\openjdk\redhat>7z x java-1.8.0-openjdk-1.8.0.322-2.b06.dev.redhat.windows.x86_64.zip
+
+7-Zip 19.00 (x64) : Copyright (c) 1999-2018 Igor Pavlov : 2019-02-21
+
+Scanning the drive for archives:
+1 file, 177517061 bytes (170 MiB)
+
+Extracting archive: java-1.8.0-openjdk-1.8.0.322-2.b06.dev.redhat.windows.x86_64.zip
+--
+Path = java-1.8.0-openjdk-1.8.0.322-2.b06.dev.redhat.windows.x86_64.zip
+Type = zip
+Physical Size = 177517061
+
+Everything is Ok
+
+Folders: 106
+Files: 632
+Size:       292291265
+Compressed: 177517061
+
+C:\temp\openjdk\redhat>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\temp\openjdk\redhat
+
+01/31/2022  12:11 PM    <DIR>          java-1.8.0-openjdk-1.8.0.322-2.b06.dev.redhat.windows.x86_64
+02/09/2022  06:54 AM    <DIR>          ..
+02/09/2022  06:54 AM    <DIR>          .
+02/09/2022  06:41 AM       177,517,061 java-1.8.0-openjdk-1.8.0.322-2.b06.dev.redhat.windows.x86_64.zip
+               1 File(s)    177,517,061 bytes
+               3 Dir(s)  146,987,171,840 bytes free
+
+C:\temp\openjdk\redhat>
+C:\temp\openjdk\redhat>dir /o:gd java-1.8.0-openjdk-1.8.0.322-2.b06.dev.redhat.windows.x86_64
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\temp\openjdk\redhat\java-1.8.0-openjdk-1.8.0.322-2.b06.dev.redhat.windows.x86_64
+
+01/31/2022  12:11 PM    <DIR>          ..
+01/31/2022  12:11 PM    <DIR>          jre
+01/31/2022  12:11 PM    <DIR>          bin
+01/31/2022  12:11 PM    <DIR>          include
+01/31/2022  12:11 PM    <DIR>          .
+01/31/2022  12:11 PM    <DIR>          lib
+01/31/2022  12:11 PM    <DIR>          missioncontrol
+01/31/2022  12:11 PM    <DIR>          webstart
+01/31/2022  12:11 PM           105,303 NEWS
+01/31/2022  12:11 PM                86 release
+01/31/2022  12:11 PM        51,909,731 src.zip
+01/31/2022  12:11 PM            19,274 LICENSE
+01/31/2022  12:11 PM             1,522 ASSEMBLY_EXCEPTION
+01/31/2022  12:11 PM           157,063 THIRD_PARTY_README
+               6 File(s)     52,192,979 bytes
+               8 Dir(s)  146,985,738,240 bytes free
+
+C:\temp\openjdk\redhat>
+
+Microsoft Windows [Version 10.0.19043.1415]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\David Holberton>echo %JAVA_HOME%
+C:\temp\openjdk\redhat\java-1.8.0-openjdk-1.8.0.322-2.b06.dev.redhat.windows.x86_64
+
+C:\Users\David Holberton>java -version
+openjdk version "1.8.0_322"
+OpenJDK Runtime Environment (build 1.8.0_322-b06)
+OpenJDK 64-Bit Server VM (build 25.322-b06, mixed mode)
+
+C:\Users\David Holberton>javac -version
+javac 1.8.0_322
+
+C:\Users\David Holberton>
+C:\Users\David Holberton>groovy mysysprops.groovy
+
+----- keynames -----
+  java.runtime.name              = OpenJDK Runtime Environment
+  java.runtime.version           = 1.8.0_322-b06
+  java.vendor                    = Red Hat, Inc.
+  java.version                   = 1.8.0_322
+  java.vm.name                   = OpenJDK 64-Bit Server VM
+  java.vm.vendor                 = Red Hat, Inc.
+  java.vm.version                = 25.322-b06
+  os.arch                        = amd64
+  os.name                        = Windows 10
+  os.version                     = 10.0
+  sun.arch.data.model            = 64
+done
+
+C:\Users\David Holberton>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+01/21/2022  07:47 AM       179,404,488 jdk-8u321-windows-x64.exe
+01/21/2022  07:49 AM        85,969,096 jre-8u321-windows-x64.exe
+01/21/2022  07:49 AM        79,802,933 jre-8u321-windows-x64.tar.gz
+01/21/2022  07:50 AM        52,618,633 server-jre-8u321-windows-x64.tar.gz
+01/21/2022  07:51 AM        55,926,718 jdk-8u321-windows-x64-demos.zip
+01/21/2022  07:53 AM            11,524 8u321checksum.html
+01/21/2022  07:53 AM       147,052,760 jdk-11.0.14_windows-x64_bin.exe
+01/21/2022  07:54 AM       165,457,105 jdk-11.0.14_windows-x64_bin.zip
+01/21/2022  07:54 AM             7,622 11-0-14-checksum.html
+01/21/2022  07:56 AM       179,660,173 jdk-17_windows-x64_bin(1).zip
+01/21/2022  07:56 AM       159,834,328 jdk-17_windows-x64_bin(1).exe
+01/21/2022  07:57 AM       158,666,752 jdk-17_windows-x64_bin(1).msi
+01/21/2022  08:03 AM       116,929,536 amazon-corretto-8.322.06.1-windows-x64-jdk.msi
+01/21/2022  08:04 AM                32 amazon-corretto-8-x64-windows-jdk.msi.txt
+01/21/2022  08:05 AM       122,243,868 amazon-corretto-8.322.06.1-windows-x64-jdk.zip
+01/21/2022  08:07 AM                34 amazon-corretto-8.322.06.1-windows-x64-jdk.zip.txt
+01/21/2022  08:08 AM       169,085,952 amazon-corretto-11.0.14.9.1-windows-x64.msi
+01/21/2022  08:09 AM                34 amazon-corretto-11.0.14.9.1-windows-x64.msi.txt
+01/21/2022  08:09 AM       187,063,380 amazon-corretto-11.0.14.9.1-windows-x64-jdk.zip
+01/21/2022  08:10 AM                34 amazon-corretto-11.0.14.9.1-windows-x64-jdk.zip.txt
+01/21/2022  08:11 AM       167,581,184 amazon-corretto-17.0.2.8.1-windows-x64.msi
+01/21/2022  08:11 AM                34 amazon-corretto-17.0.2.8.1-windows-x64.msi.txt
+01/21/2022  08:12 AM       185,617,288 amazon-corretto-17.0.2.8.1-windows-x64-jdk.zip
+01/21/2022  08:13 AM                34 amazon-corretto-17.0.2.8.1-windows-x64-jdk.zip.txt
+01/21/2022  08:23 AM       177,485,245 java-1.8.0-openjdk-1.8.0.312-2.b07.dev.redhat.windows.x86_64.zip
+01/21/2022  08:28 AM       221,564,928 java-1.8.0-openjdk-1.8.0.312-2.b07.dev.redhat.windows.x86_64.msi
+01/21/2022  08:34 AM       253,720,646 java-11-openjdk-11.0.13.8-1.windows.redhat.x86_64.zip
+01/21/2022  08:34 AM       255,053,824 java-11-openjdk-11.0.13.8-1.windows.redhat.x86_64.msi
+01/21/2022  08:53 AM       257,800,762 java-17-openjdk-17.0.1.0.12-1.win.x86_64.zip
+01/21/2022  08:54 AM       258,682,880 java-17-openjdk-17.0.1.0.12-1.win.x86_64.msi
+01/21/2022  08:58 AM       689,525,288 ideaIU-2021.3.1.exe
+01/21/2022  08:58 AM                86 ideaIU-2021.3.1.exe.sha256
+01/21/2022  08:59 AM       951,283,705 ideaIU-2021.3.1.win.zip
+01/21/2022  08:59 AM                90 ideaIU-2021.3.1.win.zip.sha256
+01/21/2022  08:59 AM       588,824,240 ideaIC-2021.3.1.exe
+01/21/2022  08:59 AM                86 ideaIC-2021.3.1.exe.sha256
+01/21/2022  08:59 AM       800,340,284 ideaIC-2021.3.1.win.zip
+01/21/2022  09:00 AM                90 ideaIC-2021.3.1.win.zip.sha256
+01/21/2022  09:00 AM        79,933,432 VSCodeUserSetup-x64-1.63.2(1).exe
+01/21/2022  09:01 AM        79,931,960 VSCodeSetup-x64-1.63.2(1).exe
+01/21/2022  09:01 AM       111,602,804 VSCode-win32-x64-1.63.2(1).zip
+01/21/2022  09:02 AM       534,141,416 eclipse-jee-2021-12-R-win32-x86_64.zip
+01/21/2022  09:04 AM               170 eclipse-jee-2021-12-R-win32-x86_64.zip.sha512
+01/21/2022  09:05 AM       321,161,648 eclipse-java-2021-12-R-win32-x86_64.zip
+01/21/2022  09:05 AM               171 eclipse-java-2021-12-R-win32-x86_64.zip.sha512
+01/24/2022  06:42 AM        90,120,192 OpenJDK8U-jdk_x64_windows_hotspot_8u312b07.msi
+01/24/2022  06:43 AM       104,315,798 OpenJDK8U-jdk_x64_windows_hotspot_8u312b07.zip
+01/24/2022  06:44 AM                66 OpenJDK8U-jdk_x64_windows_hotspot_8u312b07.zip.sha256
+01/24/2022  06:45 AM       175,193,600 OpenJDK11U-jdk_x64_windows_hotspot_11.0.14_9.msi
+01/24/2022  06:45 AM       196,821,226 OpenJDK11U-jdk_x64_windows_hotspot_11.0.14_9.zip
+01/24/2022  06:46 AM                66 OpenJDK11U-jdk_x64_windows_hotspot_11.0.14_9.zip.sha256
+01/24/2022  06:47 AM       168,541,696 OpenJDK17U-jdk_x64_windows_hotspot_17.0.1_12.msi
+01/24/2022  06:47 AM       188,703,137 OpenJDK17U-jdk_x64_windows_hotspot_17.0.1_12.zip
+01/24/2022  06:48 AM                66 OpenJDK17U-jdk_x64_windows_hotspot_17.0.1_12.zip.sha256
+01/24/2022  06:55 AM        92,258,304 zulu8.60.0.21-ca-jdk8.0.322-win_x64.msi
+01/24/2022  06:57 AM                66 zulu8.60.0.21-ca-jdk8.0.322-win_x64.msi.sha256
+01/24/2022  06:57 AM       108,633,142 zulu8.60.0.21-ca-jdk8.0.322-win_x64.zip
+01/24/2022  06:58 AM                66 zulu8.60.0.21-ca-jdk8.0.322-win_x64.zip.sha256
+01/24/2022  07:00 AM       173,686,784 zulu11.54.23-ca-jdk11.0.14-win_x64.msi
+01/24/2022  07:01 AM                66 zulu11.54.23-ca-jdk11.0.14-win_x64.msi.sha256
+01/24/2022  07:01 AM       196,842,501 zulu11.54.23-ca-jdk11.0.14-win_x64.zip
+01/24/2022  07:02 AM                66 zulu11.54.23-ca-jdk11.0.14-win_x64.zip.sha256
+01/24/2022  07:04 AM       171,954,176 zulu17.32.13-ca-jdk17.0.2-win_x64.msi
+01/24/2022  07:05 AM                66 zulu17.32.13-ca-jdk17.0.2-win_x64.msi.sha256
+01/24/2022  07:05 AM       194,319,401 zulu17.32.13-ca-jdk17.0.2-win_x64.zip
+01/24/2022  07:06 AM                66 zulu17.32.13-ca-jdk17.0.2-win_x64.zip.sha256
+01/24/2022  07:12 AM        13,947,943 apache-log4j-2.17.1-bin.tar.gz
+01/24/2022  07:12 AM               128 apache-log4j-2.17.1-bin.tar.gz.sha512
+01/24/2022  07:12 AM               866 apache-log4j-2.17.1-bin.tar.gz.asc
+01/24/2022  07:12 AM        14,174,583 apache-log4j-2.17.1-bin.zip
+01/24/2022  07:13 AM               128 apache-log4j-2.17.1-bin.zip.sha512
+01/24/2022  07:13 AM               866 apache-log4j-2.17.1-bin.zip.asc
+02/04/2022  08:32 AM       689,545,768 ideaIU-2021.3.2.exe
+02/04/2022  08:32 AM                86 ideaIU-2021.3.2.exe.sha256
+02/04/2022  08:32 AM       951,344,147 ideaIU-2021.3.2.win.zip
+02/04/2022  08:33 AM                90 ideaIU-2021.3.2.win.zip.sha256
+02/04/2022  08:33 AM       588,820,024 ideaIC-2021.3.2.exe
+02/04/2022  08:33 AM                86 ideaIC-2021.3.2.exe.sha256
+02/04/2022  08:33 AM       800,322,806 ideaIC-2021.3.2.win.zip
+02/04/2022  08:34 AM                90 ideaIC-2021.3.2.win.zip.sha256
+02/04/2022  08:35 AM       395,284,216 RubyMine-2021.3.2.exe
+02/04/2022  08:35 AM                88 RubyMine-2021.3.2.exe.sha256
+02/04/2022  08:36 AM       539,383,721 RubyMine-2021.3.2.win.zip
+02/04/2022  08:36 AM                92 RubyMine-2021.3.2.win.zip.sha256
+02/04/2022  08:36 AM        77,274,392 VSCodeUserSetup-x64-1.64.0.exe
+02/04/2022  08:37 AM        77,274,280 VSCodeSetup-x64-1.64.0.exe
+02/04/2022  08:37 AM       108,129,563 VSCode-win32-x64-1.64.0.zip
+02/04/2022  08:38 AM         8,729,987 apache-ant-1.9.16-bin.zip
+02/04/2022  08:38 AM               224 apache-ant-1.9.16-bin.zip.asc
+02/04/2022  08:39 AM               129 apache-ant-1.9.16-bin.zip.sha512
+02/04/2022  08:39 AM        10,228,714 apache-ant-1.10.12-bin.zip
+02/04/2022  08:39 AM               833 apache-ant-1.10.12-bin.zip.asc
+02/04/2022  08:39 AM               129 apache-ant-1.10.12-bin.zip.sha512
+02/04/2022  08:40 AM        29,010,898 apache-groovy-binary-4.0.0.zip
+02/04/2022  08:41 AM               838 apache-groovy-binary-4.0.0.zip.asc
+02/04/2022  08:41 AM                66 apache-groovy-binary-4.0.0.zip.sha256
+02/04/2022  08:41 AM        21,194,535 apache-groovy-docs-4.0.0.zip
+02/04/2022  08:41 AM               838 apache-groovy-docs-4.0.0.zip.asc
+02/04/2022  08:42 AM                66 apache-groovy-docs-4.0.0.zip.sha256
+02/04/2022  08:48 AM        90,146,304 OpenJDK8U-jdk_x64_windows_hotspot_8u322b06.msi
+02/04/2022  08:48 AM       104,347,578 OpenJDK8U-jdk_x64_windows_hotspot_8u322b06.zip
+02/04/2022  08:49 AM                66 OpenJDK8U-jdk_x64_windows_hotspot_8u322b06.zip.sha256
+02/04/2022  08:51 AM       168,619,520 OpenJDK17U-jdk_x64_windows_hotspot_17.0.2_8.msi
+02/04/2022  08:51 AM       188,757,501 OpenJDK17U-jdk_x64_windows_hotspot_17.0.2_8.zip
+02/04/2022  08:53 AM                66 OpenJDK17U-jdk_x64_windows_hotspot_17.0.2_8.zip.sha256
+02/04/2022  09:00 AM     1,306,588,543 2022-01-28-raspios-bullseye-armhf.zip
+02/04/2022  09:04 AM     3,425,721,950 2022-01-28-raspios-bullseye-armhf-full.zip
+02/04/2022  09:05 AM       505,179,990 2022-01-28-raspios-bullseye-armhf-lite.zip
+02/04/2022  09:06 AM               945 2022-01-28-raspberry-pi-os-32-bit-sha256.txt
+02/04/2022  09:06 AM            40,189 2022-01-28-raspios-release_notes.txt
+02/04/2022  09:08 AM     1,189,750,489 2022-01-28-raspios-bullseye-arm64.zip
+02/04/2022  09:11 AM       455,883,729 2022-01-28-raspios-bullseye-arm64-lite.zip
+02/04/2022  09:13 AM               599 2022-01-28-raspberry-pi-os-64-bit-sha256.txt
+02/09/2022  06:41 AM       177,517,061 java-1.8.0-openjdk-1.8.0.322-2.b06.dev.redhat.windows.x86_64.zip
+02/09/2022  06:44 AM       221,605,888 java-1.8.0-openjdk-1.8.0.322-2.b06.dev.redhat.windows.x86_64.msi
+02/09/2022  06:44 AM       253,857,420 java-11-openjdk-11.0.14.9-1.windows.redhat.x86_64.zip
+02/09/2022  06:45 AM       255,213,568 java-11-openjdk-11.0.14.9-1.windows.redhat.x86_64.msi
+02/09/2022  06:46 AM       257,855,768 java-17-openjdk-17.0.2.0.8-1.win.x86_64.zip
+02/09/2022  06:47 AM       258,736,128 java-17-openjdk-17.0.2.0.8-1.win.x86_64.msi
+            1244 File(s) 95,733,411,328 bytes
+              38 Dir(s)  146,985,107,456 bytes free
+
+C:\Users\David Holberton\Downloads>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+mkdir C:\temp\openjdk\temurin
+cd "C:\Users\David Holberton\Downloads"
+copy OpenJDK8U-jdk_x64_windows_hotspot_8u322b06.zip C:\temp\openjdk\temurin
+cd C:\temp\openjdk\temurin
+dir /o:gd
+7z x OpenJDK8U-jdk_x64_windows_hotspot_8u322b06.zip
+dir /o:gd
+REM configure JAVA_HOME and PATH to reflect the temurin jdk
+java -version
+javac -version
+groovy
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\temp\openjdk\temurin>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\temp\openjdk\temurin
+
+02/09/2022  07:21 AM    <DIR>          ..
+02/09/2022  07:21 AM    <DIR>          .
+02/04/2022  08:48 AM       104,347,578 OpenJDK8U-jdk_x64_windows_hotspot_8u322b06.zip
+               1 File(s)    104,347,578 bytes
+               2 Dir(s)  146,895,589,376 bytes free
+
+C:\temp\openjdk\temurin>
+C:\temp\openjdk\temurin>7z x OpenJDK8U-jdk_x64_windows_hotspot_8u322b06.zip
+
+7-Zip 19.00 (x64) : Copyright (c) 1999-2018 Igor Pavlov : 2019-02-21
+
+Scanning the drive for archives:
+1 file, 104347578 bytes (100 MiB)
+
+Extracting archive: OpenJDK8U-jdk_x64_windows_hotspot_8u322b06.zip
+--
+Path = OpenJDK8U-jdk_x64_windows_hotspot_8u322b06.zip
+Type = zip
+Physical Size = 104347578
+
+Everything is Ok
+
+Folders: 77
+Files: 349
+Size:       194921367
+Compressed: 104347578
+
+C:\temp\openjdk\temurin>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\temp\openjdk\temurin
+
+01/19/2022  08:16 AM    <DIR>          jdk8u322-b06
+02/09/2022  07:23 AM    <DIR>          ..
+02/09/2022  07:23 AM    <DIR>          .
+02/04/2022  08:48 AM       104,347,578 OpenJDK8U-jdk_x64_windows_hotspot_8u322b06.zip
+               1 File(s)    104,347,578 bytes
+               3 Dir(s)  146,698,162,176 bytes free
+
+C:\temp\openjdk\temurin>
+C:\temp\openjdk\temurin>dir /o:gd jdk8u322-b06
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\temp\openjdk\temurin\jdk8u322-b06
+
+01/19/2022  08:16 AM    <DIR>          lib
+01/19/2022  08:16 AM    <DIR>          sample
+01/19/2022  08:16 AM    <DIR>          include
+01/19/2022  08:16 AM    <DIR>          jre
+01/19/2022  08:16 AM    <DIR>          .
+01/19/2022  08:16 AM    <DIR>          ..
+01/19/2022  08:21 AM    <DIR>          bin
+01/19/2022  08:16 AM           157,063 THIRD_PARTY_README
+01/19/2022  08:16 AM        51,919,695 src.zip
+01/19/2022  08:16 AM             1,522 ASSEMBLY_EXCEPTION
+01/19/2022  08:16 AM            19,274 LICENSE
+01/19/2022  08:16 AM               461 release
+01/19/2022  08:16 AM             2,401 NOTICE
+               6 File(s)     52,100,416 bytes
+               7 Dir(s)  146,697,519,104 bytes free
+
+C:\temp\openjdk\temurin>
+C:\temp\openjdk\temurin>type jdk8u322-b06\NOTICE
+# Notices for Eclipse Temurin
+
+This content is produced and maintained by the Eclipse Temurin project.
+
+ * Project home: https://projects.eclipse.org/projects/adoptium.temurin
+
+## Trademarks
+
+Eclipse Temurin is a trademark of the Eclipse Foundation. Eclipse, and the
+Eclipse Logo are registered trademarks of the Eclipse Foundation.
+
+Java and all Java-based trademarks are trademarks of Oracle Corporation in
+the United States, other countries, or both.
+
+## Copyright
+
+All content is the property of the respective authors or their employers.
+For more information regarding authorship of content, please consult the
+listed source code repository logs.
+
+## Declared Project Licenses
+
+This program and the accompanying materials are made available under the terms
+of the GNU General Public License, version 2, with the Classpath Exception.
+
+Additional information relating to the program and accompanying materials
+license and usage is available as follows.
+ * For Eclipse Temurin version 8 see the LICENSE and ASSEMBLY_EXCEPTION files
+in the top level directory of the installation.
+ * For Eclipse Temurin version 9 or later see the files under the legal/
+directory in the top level directory of the installation.
+
+SPDX-License-Identifier: GPL-2.0 WITH Classpath-exception-2.0
+
+## Source Code
+
+The project maintains the following source code repositories which may be
+relevant to this content:
+
+ * https://github.com/adoptium/temurin-build
+ * https://github.com/adoptium/jdk
+ * https://github.com/adoptium/jdk8u
+ * https://github.com/adoptium/jdk11u
+ * https://github.com/adoptium/jdk16u
+ * https://github.com/adoptium/jdk17u
+ * and so on
+
+## Third-party Content
+
+This program and accompanying materials contains third-party content.
+ * For Eclipse Temurin version 8 see the THIRD_PARTY_LICENSE file in the
+top level directory of the installation.
+ * For Eclipse Temurin version 9 or later see the files under the legal/
+directory in the top level directory of the installation.
+
+## Cryptography
+
+Content may contain encryption software. The country in which you are currently
+may have restrictions on the import, possession, and use, and/or re-export to
+another country, of encryption software. BEFORE using any encryption software,
+please check the country's laws, regulations and policies concerning the import,
+possession, or use, and re-export of encryption software, to see if this is
+permitted.
+
+C:\temp\openjdk\temurin>
+
+Microsoft Windows [Version 10.0.19043.1415]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\David Holberton>java -version
+openjdk version "1.8.0_322"
+OpenJDK Runtime Environment (Temurin)(build 1.8.0_322-b06)
+OpenJDK 64-Bit Server VM (Temurin)(build 25.322-b06, mixed mode)
+
+C:\Users\David Holberton>javac -version
+javac 1.8.0_322
+
+C:\Users\David Holberton>
+C:\Users\David Holberton>groovy mysysprops.groovy
+
+----- keynames -----
+  java.runtime.name              = OpenJDK Runtime Environment
+  java.runtime.version           = 1.8.0_322-b06
+  java.vendor                    = Temurin
+  java.version                   = 1.8.0_322
+  java.vm.name                   = OpenJDK 64-Bit Server VM
+  java.vm.vendor                 = Temurin
+  java.vm.version                = 25.322-b06
+  os.arch                        = amd64
+  os.name                        = Windows 10
+  os.version                     = 10.0
+  sun.arch.data.model            = 64
+done
+
+C:\Users\David Holberton>
+
+
+
+
+
+
