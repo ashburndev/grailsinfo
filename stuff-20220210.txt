@@ -1,0 +1,423 @@
+7:32 AM 2/10/2022
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+mkdir C:\temp\openjdk\temurin
+cd "C:\Users\David Holberton\Downloads"
+copy OpenJDK8U-jdk_x64_windows_hotspot_8u322b06.zip C:\temp\openjdk\temurin
+cd C:\temp\openjdk\temurin
+dir /o:gd
+7z x OpenJDK8U-jdk_x64_windows_hotspot_8u322b06.zip
+dir /o:gd
+dir /o:gd jdk8u322-b06
+
+REM configure JAVA_HOME and PATH to reflect the eclipse foundation temurin jdk
+java -version
+javac -version
+groovy mysysprops.groovy
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+mkdir C:\temp\openjdk\redhat
+cd "C:\Users\David Holberton\Downloads"
+copy java-1.8.0-openjdk-1.8.0.322-2.b06.dev.redhat.windows.x86_64.zip C:\temp\openjdk\redhat
+cd C:\temp\openjdk\redhat
+dir /o:gd
+7z x java-1.8.0-openjdk-1.8.0.322-2.b06.dev.redhat.windows.x86_64.zip
+dir /o:gd
+dir /o:gd java-1.8.0-openjdk-1.8.0.322-2.b06.dev.redhat.windows.x86_64
+
+REM configure JAVA_HOME and PATH to reflect the redhat jdk
+java -version
+javac -version
+groovy mysysprops.groovy
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+mkdir C:\temp\openjdk\azul
+cd "C:\Users\David Holberton\Downloads"
+copy zulu8.60.0.21-ca-jdk8.0.322-win_x64.zip C:\temp\openjdk\azul
+cd C:\temp\openjdk\azul
+dir /o:gd
+7z x zulu8.60.0.21-ca-jdk8.0.322-win_x64.zip
+dir /o:gd
+dir /o:gd zulu8.60.0.21-ca-jdk8.0.322-win_x64
+groovy mysysprops.groovy
+
+REM configure JAVA_HOME and PATH to reflect the azul zulu jdk
+java -version
+javac -version
+groovy mysysprops.groovy
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+mkdir C:\temp\openjdk\corretto
+cd "C:\Users\David Holberton\Downloads"
+copy amazon-corretto-8.322.06.1-windows-x64-jdk.zip C:\temp\openjdk\corretto
+cd C:\temp\openjdk\corretto
+dir /o:gd
+7z x amazon-corretto-8.322.06.1-windows-x64-jdk.zip
+dir /o:gd
+dir /o:gd jdk1.8.0_322
+
+REM configure JAVA_HOME and PATH to reflect the aws corretto jdk
+java -version
+javac -version
+groovy mysysprops.groovy
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\temp\openjdk\azul>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\temp\openjdk\azul
+
+02/10/2022  07:43 AM    <DIR>          ..
+02/10/2022  07:43 AM    <DIR>          .
+01/24/2022  06:57 AM       108,633,142 zulu8.60.0.21-ca-jdk8.0.322-win_x64.zip
+               1 File(s)    108,633,142 bytes
+               2 Dir(s)  146,395,508,736 bytes free
+
+C:\temp\openjdk\azul>
+C:\temp\openjdk\azul>7z x zulu8.60.0.21-ca-jdk8.0.322-win_x64.zip
+
+7-Zip 19.00 (x64) : Copyright (c) 1999-2018 Igor Pavlov : 2019-02-21
+
+Scanning the drive for archives:
+1 file, 108633142 bytes (104 MiB)
+
+Extracting archive: zulu8.60.0.21-ca-jdk8.0.322-win_x64.zip
+--
+Path = zulu8.60.0.21-ca-jdk8.0.322-win_x64.zip
+Type = zip
+Physical Size = 108633142
+
+Everything is Ok
+
+Folders: 149
+Files: 579
+Size:       200682419
+Compressed: 108633142
+
+C:\temp\openjdk\azul>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\temp\openjdk\azul
+
+01/13/2022  07:01 AM    <DIR>          zulu8.60.0.21-ca-jdk8.0.322-win_x64
+02/10/2022  07:43 AM    <DIR>          ..
+02/10/2022  07:43 AM    <DIR>          .
+01/24/2022  06:57 AM       108,633,142 zulu8.60.0.21-ca-jdk8.0.322-win_x64.zip
+               1 File(s)    108,633,142 bytes
+               3 Dir(s)  146,191,171,584 bytes free
+
+C:\temp\openjdk\azul>dir /o:gd zulu8.60.0.21-ca-jdk8.0.322-win_x64
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\temp\openjdk\azul\zulu8.60.0.21-ca-jdk8.0.322-win_x64
+
+01/13/2022  06:57 AM    <DIR>          lib
+01/13/2022  06:57 AM    <DIR>          demo
+01/13/2022  06:57 AM    <DIR>          sample
+01/13/2022  06:57 AM    <DIR>          include
+01/13/2022  07:01 AM    <DIR>          jre
+01/13/2022  07:01 AM    <DIR>          ..
+01/13/2022  07:01 AM    <DIR>          .
+01/13/2022  07:01 AM    <DIR>          bin
+01/13/2022  06:57 AM        52,066,518 src.zip
+01/13/2022  06:57 AM            19,274 LICENSE
+01/13/2022  06:57 AM             1,522 ASSEMBLY_EXCEPTION
+01/13/2022  06:57 AM               239 release
+01/13/2022  07:01 AM             2,758 DISCLAIMER
+01/13/2022  07:01 AM             1,185 readme.txt
+01/13/2022  07:01 AM               552 CLASSPATH_EXCEPTION_NOTE
+01/13/2022  07:01 AM             1,071 Welcome.html
+01/13/2022  07:01 AM           158,075 THIRD_PARTY_README
+               9 File(s)     52,251,194 bytes
+               8 Dir(s)  146,195,320,832 bytes free
+
+C:\temp\openjdk\azul>
+C:\temp\openjdk\azul>
+
+Microsoft Windows [Version 10.0.19043.1415]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\David Holberton>java -version
+openjdk version "1.8.0_322"
+OpenJDK Runtime Environment (Zulu 8.60.0.21-CA-win64) (build 1.8.0_322-b06)
+OpenJDK 64-Bit Server VM (Zulu 8.60.0.21-CA-win64) (build 25.322-b06, mixed mode)
+
+C:\Users\David Holberton>javac -version
+javac 1.8.0_322
+
+C:\Users\David Holberton>groovy mysysprops.groovy
+
+----- keynames -----
+  java.runtime.name              = OpenJDK Runtime Environment
+  java.runtime.version           = 1.8.0_322-b06
+  java.vendor                    = Azul Systems, Inc.
+  java.version                   = 1.8.0_322
+  java.vm.name                   = OpenJDK 64-Bit Server VM
+  java.vm.vendor                 = Azul Systems, Inc.
+  java.vm.version                = 25.322-b06
+  os.arch                        = amd64
+  os.name                        = Windows 10
+  os.version                     = 10.0
+  sun.arch.data.model            = 64
+done
+
+C:\Users\David Holberton>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\temp\openjdk\corretto>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\temp\openjdk\corretto
+
+02/10/2022  07:54 AM    <DIR>          ..
+02/10/2022  07:54 AM    <DIR>          .
+01/21/2022  08:05 AM       122,243,868 amazon-corretto-8.322.06.1-windows-x64-jdk.zip
+               1 File(s)    122,243,868 bytes
+               2 Dir(s)  146,069,168,128 bytes free
+
+C:\temp\openjdk\corretto>7z x amazon-corretto-8.322.06.1-windows-x64-jdk.zip
+
+7-Zip 19.00 (x64) : Copyright (c) 1999-2018 Igor Pavlov : 2019-02-21
+
+Scanning the drive for archives:
+1 file, 122243868 bytes (117 MiB)
+
+Extracting archive: amazon-corretto-8.322.06.1-windows-x64-jdk.zip
+--
+Path = amazon-corretto-8.322.06.1-windows-x64-jdk.zip
+Type = zip
+Physical Size = 122243868
+
+Everything is Ok
+
+Folders: 166
+Files: 701
+Size:       225037893
+Compressed: 122243868
+
+C:\temp\openjdk\corretto>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\temp\openjdk\corretto
+
+01/14/2022  12:07 AM    <DIR>          jdk1.8.0_322
+02/10/2022  07:55 AM    <DIR>          ..
+02/10/2022  07:55 AM    <DIR>          .
+01/21/2022  08:05 AM       122,243,868 amazon-corretto-8.322.06.1-windows-x64-jdk.zip
+               1 File(s)    122,243,868 bytes
+               3 Dir(s)  145,841,385,472 bytes free
+
+C:\temp\openjdk\corretto>dir /o:gd jdk1.8.0_322
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\temp\openjdk\corretto\jdk1.8.0_322
+
+01/14/2022  12:07 AM    <DIR>          demo
+01/14/2022  12:07 AM    <DIR>          sample
+01/14/2022  12:07 AM    <DIR>          include
+01/14/2022  12:07 AM    <DIR>          bin
+01/14/2022  12:07 AM    <DIR>          ..
+01/14/2022  12:07 AM    <DIR>          .
+01/14/2022  12:07 AM    <DIR>          lib
+01/14/2022  12:07 AM    <DIR>          jre
+01/14/2022  12:05 AM            19,274 LICENSE
+01/14/2022  12:05 AM             1,522 ASSEMBLY_EXCEPTION
+01/14/2022  12:05 AM           157,063 THIRD_PARTY_README
+01/14/2022  12:05 AM        51,931,840 src.zip
+01/14/2022  12:05 AM                94 release
+01/14/2022  12:05 AM                11 version.txt
+01/14/2022  12:05 AM         6,536,378 javafx-src.zip
+               7 File(s)     58,646,182 bytes
+               8 Dir(s)  145,841,254,400 bytes free
+
+C:\temp\openjdk\corretto>
+C:\temp\openjdk\corretto>
+
+Microsoft Windows [Version 10.0.19043.1415]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\David Holberton>java -version
+openjdk version "1.8.0_322"
+OpenJDK Runtime Environment Corretto-8.322.06.1 (build 1.8.0_322-b06)
+OpenJDK 64-Bit Server VM Corretto-8.322.06.1 (build 25.322-b06, mixed mode)
+
+C:\Users\David Holberton>javac -version
+javac 1.8.0_322
+
+C:\Users\David Holberton>groovy mysysprops.groovy
+
+----- keynames -----
+  java.runtime.name              = OpenJDK Runtime Environment
+  java.runtime.version           = 1.8.0_322-b06
+  java.vendor                    = Amazon.com Inc.
+  java.version                   = 1.8.0_322
+  java.vm.name                   = OpenJDK 64-Bit Server VM
+  java.vm.vendor                 = Amazon.com Inc.
+  java.vm.version                = 25.322-b06
+  os.arch                        = amd64
+  os.name                        = Windows 10
+  os.version                     = 10.0
+  sun.arch.data.model            = 64
+done
+
+C:\Users\David Holberton>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\temp\openjdk>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\temp\openjdk
+
+02/10/2022  08:05 AM    <DIR>          .
+02/10/2022  08:05 AM    <DIR>          ..
+02/10/2022  07:43 AM    <DIR>          azul
+02/10/2022  08:05 AM    <DIR>          corretto
+02/09/2022  06:54 AM    <DIR>          redhat
+02/09/2022  07:23 AM    <DIR>          temurin
+               0 File(s)              0 bytes
+               6 Dir(s)  145,833,664,512 bytes free
+
+C:\temp\openjdk>
+C:\temp\openjdk>dir azul
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\temp\openjdk\azul
+
+02/10/2022  07:43 AM    <DIR>          .
+02/10/2022  07:43 AM    <DIR>          ..
+01/13/2022  07:01 AM    <DIR>          zulu8.60.0.21-ca-jdk8.0.322-win_x64
+01/24/2022  06:57 AM       108,633,142 zulu8.60.0.21-ca-jdk8.0.322-win_x64.zip
+               1 File(s)    108,633,142 bytes
+               3 Dir(s)  145,837,154,304 bytes free
+
+C:\temp\openjdk>dir corretto
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\temp\openjdk\corretto
+
+02/10/2022  08:05 AM    <DIR>          .
+02/10/2022  08:05 AM    <DIR>          ..
+01/21/2022  08:05 AM       122,243,868 amazon-corretto-8.322.06.1-windows-x64-jdk.zip
+01/14/2022  12:07 AM    <DIR>          jdk1.8.0_322
+               1 File(s)    122,243,868 bytes
+               3 Dir(s)  145,837,154,304 bytes free
+
+C:\temp\openjdk>dir redhat
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\temp\openjdk\redhat
+
+02/09/2022  06:54 AM    <DIR>          .
+02/09/2022  06:54 AM    <DIR>          ..
+01/31/2022  12:11 PM    <DIR>          java-1.8.0-openjdk-1.8.0.322-2.b06.dev.redhat.windows.x86_64
+02/09/2022  06:41 AM       177,517,061 java-1.8.0-openjdk-1.8.0.322-2.b06.dev.redhat.windows.x86_64.zip
+               1 File(s)    177,517,061 bytes
+               3 Dir(s)  145,837,154,304 bytes free
+
+C:\temp\openjdk>dir temurin
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\temp\openjdk\temurin
+
+02/09/2022  07:23 AM    <DIR>          .
+02/09/2022  07:23 AM    <DIR>          ..
+01/19/2022  08:16 AM    <DIR>          jdk8u322-b06
+02/04/2022  08:48 AM       104,347,578 OpenJDK8U-jdk_x64_windows_hotspot_8u322b06.zip
+               1 File(s)    104,347,578 bytes
+               3 Dir(s)  145,837,154,304 bytes free
+
+C:\temp\openjdk>
+
+C:\Program Files\Java>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Program Files\Java
+
+06/08/2017  01:35 PM    <DIR>          jre1.8.0_131
+06/08/2017  01:35 PM    <DIR>          jdk1.8.0_131
+03/15/2018  08:42 AM    <DIR>          jdk1.8.0_162
+03/15/2018  08:47 AM    <DIR>          jdk-9.0.4
+09/12/2020  11:04 AM    <DIR>          jdk-11.0.8
+02/05/2022  11:36 AM    <DIR>          .
+02/05/2022  11:36 AM    <DIR>          ..
+02/05/2022  11:36 AM    <DIR>          jre1.8.0_321
+02/05/2022  11:36 AM    <DIR>          jdk1.8.0_321
+               0 File(s)              0 bytes
+               9 Dir(s)  145,836,515,328 bytes free
+
+C:\Program Files\Java>
+C:\Program Files\Java>dir /o:gd jdk1.8.0_321
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Program Files\Java\jdk1.8.0_321
+
+02/05/2022  11:35 AM    <DIR>          bin
+02/05/2022  11:35 AM    <DIR>          include
+02/05/2022  11:35 AM    <DIR>          jre
+02/05/2022  11:35 AM    <DIR>          legal
+02/05/2022  11:35 AM    <DIR>          lib
+02/05/2022  11:36 AM    <DIR>          .
+02/05/2022  11:36 AM    <DIR>          ..
+12/15/2021  11:49 AM             3,244 COPYRIGHT
+12/15/2021  11:49 AM        21,168,017 src.zip
+02/05/2022  11:35 AM                44 LICENSE
+02/05/2022  11:35 AM               190 THIRDPARTYLICENSEREADME.txt
+02/05/2022  11:35 AM               190 THIRDPARTYLICENSEREADME-JAVAFX.txt
+02/05/2022  11:35 AM               159 README.html
+02/05/2022  11:35 AM         5,236,126 javafx-src.zip
+02/05/2022  11:35 AM               195 jmc.txt
+02/05/2022  11:35 AM               125 release
+               9 File(s)     26,408,290 bytes
+               7 Dir(s)  145,835,802,624 bytes free
+
+C:\Program Files\Java>
+
+Microsoft Windows [Version 10.0.19043.1415]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\David Holberton>java -version
+java version "1.8.0_321"
+Java(TM) SE Runtime Environment (build 1.8.0_321-b07)
+Java HotSpot(TM) 64-Bit Server VM (build 25.321-b07, mixed mode)
+
+C:\Users\David Holberton>javac -version
+javac 1.8.0_321
+
+C:\Users\David Holberton>groovy mysysprops.groovy
+
+----- keynames -----
+  java.runtime.name              = Java(TM) SE Runtime Environment
+  java.runtime.version           = 1.8.0_321-b07
+  java.vendor                    = Oracle Corporation
+  java.version                   = 1.8.0_321
+  java.vm.name                   = Java HotSpot(TM) 64-Bit Server VM
+  java.vm.vendor                 = Oracle Corporation
+  java.vm.version                = 25.321-b07
+  os.arch                        = amd64
+  os.name                        = Windows 10
+  os.version                     = 10.0
+  sun.arch.data.model            = 64
+done
+
+C:\Users\David Holberton>
+
