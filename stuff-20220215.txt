@@ -1,0 +1,249 @@
+8:43 AM 2/15/2022
+
+https://mvnrepository.com/artifact/org.apache.logging.log4j
+
+https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
+https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core/2.17.1
+
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.17.1</version>
+</dependency>
+
+https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api
+https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api/2.17.1
+
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.17.1</version>
+</dependency>
+
+https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl
+https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl/2.17.1
+
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-slf4j-impl</artifactId>
+    <version>2.17.1</version>
+    <scope>test</scope>
+</dependency>
+
+https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-jcl
+https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-jcl/2.17.1
+
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-jcl -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-jcl</artifactId>
+    <version>2.17.1</version>
+</dependency>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://www.baeldung.com/slf4j-with-log4j2-logback
+
+Simple Logging Facade for Java (abbreviated SLF4J) acts as a facade for different logging frameworks (e.g., java.util.logging, logback, Log4j). It offers a generic API, making the logging independent of the actual implementation.
+
+This allows for different logging frameworks to coexist. And it helps migrate from one framework to another. Finally, apart from standardized API, it also offers some “syntactic sugar.”
+
+This tutorial will discuss the dependencies and configuration needed to integrate SLF4J with Log4j, Logback, Log4j 2 and Jakarta Commons Logging.
+
+To use SLF4J with Log4j 2, we add the following libraries to pom.xml:
+
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.7</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.7</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-slf4j-impl</artifactId>
+    <version>2.7</version>
+</dependency>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+mkdir C:\temp\grailsapps
+cd    C:\temp\grailsapps
+grails create-app logtest
+cd logtest
+grails create-controller loginfo
+grails run-app
+grails war
+
+package logtest
+
+class LoginfoController {
+
+    def index() {
+        println"log = ${log}"
+        println "log.getClass().getName() = ${log.getClass().getName()}"
+        log.info("info")
+        log.debug("debug")
+        log.warn("warn")
+        println "done"
+     }
+
+}
+
+log = org.apache.commons.logging.impl.SLF4JLog@15cb64cb
+log.getClass().getName() = org.apache.commons.logging.impl.SLF4JLog
+done
+log = org.apache.commons.logging.impl.SLF4JLog@15cb64cb
+log.getClass().getName() = org.apache.commons.logging.impl.SLF4JLog
+done
+
+C:\temp\grailsapps\logtest>cd target
+
+C:\temp\grailsapps\logtest\target>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\temp\grailsapps\logtest\target
+
+02/15/2022  08:51 AM    <DIR>          .
+02/15/2022  08:51 AM    <DIR>          ..
+02/15/2022  08:51 AM    <DIR>          assets
+02/15/2022  08:50 AM    <DIR>          classes
+02/15/2022  07:56 AM    <DIR>          eclipseclasses
+02/15/2022  08:51 AM        49,572,607 logtest-0.1.war
+02/15/2022  08:15 AM            35,421 stacktrace.log
+02/15/2022  08:51 AM    <DIR>          work
+               2 File(s)     49,608,028 bytes
+               6 Dir(s)  146,379,436,032 bytes free
+
+C:\temp\grailsapps\logtest\target>mkdir unzipthewarfilehere
+
+C:\temp\grailsapps\logtest\target>copy logtest-0.1.war unzipthewarfilehere
+        1 file(s) copied.
+
+C:\temp\grailsapps\logtest\target>cd unzipthewarfilehere
+
+C:\temp\grailsapps\logtest\target\unzipthewarfilehere>7z x logtest-0.1.war
+
+C:\temp\grailsapps\logtest\target\unzipthewarfilehere>dir /o:gd WEB-INF\lib
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\temp\grailsapps\logtest\target\unzipthewarfilehere\WEB-INF\lib
+
+02/15/2022  08:50 AM    <DIR>          ..
+02/15/2022  08:50 AM    <DIR>          .
+03/03/2016  09:17 AM         6,998,724 groovy-all-2.4.4.jar
+03/03/2016  09:17 AM            26,084 slf4j-api-1.7.5.jar
+03/03/2016  09:17 AM            16,517 jcl-over-slf4j-1.7.5.jar
+03/03/2016  09:17 AM            59,716 jsr166y-1.7.0.jar
+03/03/2016  09:17 AM           113,371 hibernate-jpa-2.1-api-1.0.0.Final.jar
+03/03/2016  09:17 AM             4,467 aopalliance-1.0.jar
+03/03/2016  09:17 AM         1,384,400 gpars-1.2.1.jar
+03/03/2016  09:17 AM            33,015 jsr305-1.3.9.jar
+03/03/2016  09:17 AM           232,771 commons-codec-1.6.jar
+03/03/2016  09:17 AM           252,919 spring-tx-4.1.8.RELEASE.jar
+03/03/2016  09:17 AM            69,002 commons-fileupload-1.3.1.jar
+03/03/2016  09:17 AM           173,587 commons-io-2.2.jar
+03/03/2016  09:17 AM           284,220 commons-lang-2.6.jar
+03/03/2016  09:17 AM           426,921 spring-jdbc-4.1.8.RELEASE.jar
+03/03/2016  09:17 AM           176,897 commons-validator-1.4.0.jar
+03/03/2016  09:17 AM           116,575 concurrentlinkedhashmap-lru-1.4.jar
+03/03/2016  09:17 AM           259,227 spring-expression-4.1.8.RELEASE.jar
+03/03/2016  09:17 AM           722,386 spring-web-4.1.8.RELEASE.jar
+03/03/2016  09:17 AM           784,910 spring-webmvc-4.1.8.RELEASE.jar
+03/03/2016  09:17 AM           359,416 spring-aop-4.1.8.RELEASE.jar
+03/03/2016  09:17 AM           190,432 gson-2.2.4.jar
+03/03/2016  09:17 AM           181,191 sitemesh-2.4.jar
+03/03/2016  09:17 AM           276,420 serializer-2.7.2.jar
+03/03/2016  09:17 AM           385,774 grails-datastore-core-3.1.5.RELEASE.jar
+03/03/2016  09:17 AM           563,827 grails-datastore-gorm-3.1.5.RELEASE.jar
+03/03/2016  09:17 AM           179,268 spring-context-support-4.1.8.RELEASE.jar
+03/03/2016  09:17 AM         1,026,870 spring-context-4.1.8.RELEASE.jar
+03/03/2016  09:17 AM           712,470 spring-beans-4.1.8.RELEASE.jar
+03/03/2016  09:17 AM           333,971 grails-datastore-simple-3.1.5.RELEASE.jar
+03/03/2016  09:17 AM         1,865,078 aspectjweaver-1.8.7.jar
+03/03/2016  09:17 AM         1,009,247 spring-core-4.1.8.RELEASE.jar
+03/03/2016  09:17 AM           116,927 aspectjrt-1.8.7.jar
+03/03/2016  09:17 AM           125,457 tomcat-jdbc-7.0.50.jar
+03/03/2016  09:17 AM            56,853 spring-aspects-4.1.8.RELEASE.jar
+03/03/2016  09:17 AM            84,859 tomcat-embed-logging-log4j-7.0.50.jar
+03/03/2016  09:17 AM            55,900 grails-async-2.5.4.jar
+03/03/2016  09:17 AM            38,682 tomcat-juli-7.0.50.jar
+03/03/2016  09:17 AM           784,007 grails-bootstrap-2.5.4.jar
+03/03/2016  09:17 AM         1,659,879 h2-1.3.176.jar
+03/03/2016  09:17 AM           489,884 log4j-1.2.17.jar
+03/03/2016  09:17 AM             4,960 jul-to-slf4j-1.7.5.jar
+03/03/2016  09:17 AM           189,789 grails-encoder-2.5.4.jar
+03/03/2016  09:17 AM            62,472 grails-databinding-2.5.4.jar
+03/03/2016  09:17 AM             2,891 grails-logging-2.5.4.jar
+03/03/2016  09:17 AM           664,368 grails-core-2.5.4.jar
+03/03/2016  09:17 AM            19,008 grails-plugin-databinding-2.5.4.jar
+03/03/2016  09:17 AM            47,233 grails-plugin-async-2.5.4.jar
+03/03/2016  09:17 AM            65,402 grails-plugin-codecs-2.5.4.jar
+03/03/2016  09:17 AM           139,164 grails-plugin-converters-2.5.4.jar
+03/03/2016  09:17 AM           129,533 grails-plugin-controllers-2.5.4.jar
+03/03/2016  09:17 AM            99,306 grails-plugin-domain-class-2.5.4.jar
+03/03/2016  09:17 AM            48,770 grails-plugin-datasource-2.5.4.jar
+03/03/2016  09:17 AM            41,760 grails-plugin-filters-2.5.4.jar
+03/03/2016  09:17 AM           335,116 grails-plugin-gsp-2.5.4.jar
+03/03/2016  09:17 AM            19,245 grails-plugin-i18n-2.5.4.jar
+03/03/2016  09:17 AM            51,932 grails-plugin-log4j-2.5.4.jar
+03/03/2016  09:17 AM            46,343 grails-plugin-mimetypes-2.5.4.jar
+03/03/2016  09:17 AM           176,739 grails-plugin-rest-2.5.4.jar
+03/03/2016  09:17 AM            35,796 grails-plugin-services-2.5.4.jar
+03/03/2016  09:17 AM            42,556 grails-plugin-validation-2.5.4.jar
+03/03/2016  09:17 AM            56,030 grails-plugin-url-mappings-2.5.4.jar
+03/03/2016  09:17 AM            22,343 grails-plugin-servlets-2.5.4.jar
+03/03/2016  09:17 AM           559,755 grails-resources-2.5.4.jar
+03/03/2016  09:17 AM            40,448 grails-spring-2.5.4.jar
+03/03/2016  09:17 AM            44,713 grails-web-gsp-taglib-2.5.4.jar
+03/03/2016  09:17 AM           325,675 grails-web-gsp-2.5.4.jar
+03/03/2016  09:17 AM             2,477 grails-web-fileupload-2.5.4.jar
+03/03/2016  09:17 AM            92,620 grails-web-databinding-2.5.4.jar
+03/03/2016  09:17 AM           199,619 grails-web-common-2.5.4.jar
+03/03/2016  09:17 AM            41,890 grails-web-2.5.4.jar
+03/03/2016  09:17 AM            88,518 grails-validation-2.5.4.jar
+03/03/2016  09:17 AM           141,635 grails-web-jsp-2.5.4.jar
+03/03/2016  09:17 AM            50,182 grails-web-sitemesh-2.5.4.jar
+03/03/2016  09:17 AM           142,390 grails-web-url-mappings-2.5.4.jar
+03/03/2016  09:17 AM            43,626 grails-web-mvc-2.5.4.jar
+05/19/2021  07:40 AM            60,686 commons-logging-1.1.1.jar
+08/25/2021  06:45 AM            63,777 validation-api-1.1.0.Final.jar
+10/05/2021  07:46 AM           634,265 hibernate-validator-5.1.3.Final.jar
+10/05/2021  07:46 AM           135,657 hibernate-ehcache-4.3.10.Final.jar
+10/05/2021  07:46 AM           229,718 asset-pipeline-core-2.5.5.jar
+10/05/2021  07:46 AM            60,282 classmate-1.0.0.jar
+10/05/2021  07:46 AM           533,455 protobuf-java-2.5.0.jar
+10/05/2021  07:46 AM           118,104 closure-compiler-externs-v20141023.jar
+10/05/2021  07:46 AM         3,131,705 closure-compiler-v20141023.jar
+10/05/2021  07:46 AM         2,256,213 guava-18.0.jar
+10/05/2021  07:46 AM            76,551 jandex-1.1.0.Final.jar
+10/05/2021  07:46 AM           711,972 javassist-3.17.1-GA.jar
+10/05/2021  07:46 AM            27,717 jboss-transaction-api_1.2_spec-1.0.0.Final.jar
+10/05/2021  07:46 AM            74,703 args4j-2.0.26.jar
+10/05/2021  07:46 AM           434,157 grails-datastore-gorm-hibernate4-3.1.5.RELEASE.jar
+10/05/2021  07:46 AM           287,441 grails-datastore-gorm-hibernate-core-3.1.5.RELEASE.jar
+10/05/2021  07:46 AM         9,020,232 ehcache-2.9.0.jar
+10/05/2021  07:46 AM           313,898 dom4j-1.6.1.jar
+10/05/2021  07:46 AM            11,558 jboss-logging-annotations-1.2.0.Beta1.jar
+10/05/2021  07:46 AM           376,310 spring-orm-4.1.8.RELEASE.jar
+10/05/2021  07:46 AM            75,311 hibernate-commons-annotations-4.0.4.Final.jar
+10/05/2021  07:46 AM         1,134,765 rhino-1.7R4.jar
+10/05/2021  07:46 AM         5,280,098 hibernate-core-4.3.10.Final.jar
+10/05/2021  07:46 AM           926,426 liquibase-core-2.0.5.jar
+10/05/2021  07:46 AM            45,812 grails-datastore-gorm-plugin-support-3.1.5.RELEASE.jar
+10/05/2021  07:46 AM           445,288 antlr-2.7.7.jar
+10/05/2021  07:46 AM            60,768 jboss-logging-3.1.0.GA.jar
+             102 File(s)     53,233,294 bytes
+               2 Dir(s)  146,272,002,048 bytes free
+
+C:\temp\grailsapps\logtest\target\unzipthewarfilehere>
+C:\temp\grailsapps\logtest\target\unzipthewarfilehere>
+
