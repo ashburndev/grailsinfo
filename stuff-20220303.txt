@@ -370,3 +370,191 @@ C:\Users\David Holberton\tempdir\jersey2\simple-service-webapp>dir /o:gd target\
 
 C:\Users\David Holberton\tempdir\jersey2\simple-service-webapp>
 
+- - - - - 
+
+MyUrls
+
+started Wed Mar  2 05:54:44 EST 2022
+started 20220302.055444
+
+https://www.cnn.com/2022/03/02/tech/apple-march-event/index.html 20220302.145603 
+
+https://www.staples.com/Staples-Glue-Top-Notepads-4-x-6-White/product_163444
+
+https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest3x/index.html  20220302.145750 
+https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest/index.html  20220302.145826 
+
+https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest/index.html  20220302.145835 
+https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest/user-guide.html  20220302.153658 
+
+https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest3x/index.html     Jersey 3.0.4 User Guide
+https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest3x/user-guide.html     Jersey 3.0.4 User Guide
+
+https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest/index.html     Jersey 2.35 User Guide
+https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest/user-guide.html     Jersey 2.35 User Guide
+
+https://search.maven.org/
+
+https://search.maven.org/search?q=g:org.glassfish.jersey    3.0.4
+https://search.maven.org/artifact/org.apache.logging.log4j/log4j     2.17.2     23-FEB-22
+
+https://mvnrepository.com/repos/central
+
+https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-client
+https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-client/3.0.4     Feb 09, 2022
+
+<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-client -->
+<dependency>
+    <groupId>org.glassfish.jersey.core</groupId>
+    <artifactId>jersey-client</artifactId>
+    <version>3.0.4</version>
+</dependency>
+
+https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-server
+https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-server/3.0.4     Feb 09, 2022
+
+<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-server -->
+<dependency>
+    <groupId>org.glassfish.jersey.core</groupId>
+    <artifactId>jersey-server</artifactId>
+    <version>3.0.4</version>
+</dependency>
+
+https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-common
+https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-common/3.0.4     Feb 09, 2022
+
+<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-common -->
+<dependency>
+    <groupId>org.glassfish.jersey.core</groupId>
+    <artifactId>jersey-common</artifactId>
+    <version>3.0.4</version>
+</dependency>
+
+https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-client/2.35     Sep 07, 2021
+<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-client -->
+<dependency>
+    <groupId>org.glassfish.jersey.core</groupId>
+    <artifactId>jersey-client</artifactId>
+    <version>2.35</version>
+</dependency>
+
+https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-server/2.35     Sep 07, 2021
+<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-server -->
+<dependency>
+    <groupId>org.glassfish.jersey.core</groupId>
+    <artifactId>jersey-server</artifactId>
+    <version>2.35</version>
+</dependency>
+
+https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-common/2.35     Sep 07, 2021
+<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-common -->
+<dependency>
+    <groupId>org.glassfish.jersey.core</groupId>
+    <artifactId>jersey-common</artifactId>
+    <version>2.35</version>
+</dependency>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.amazon.com/Belkin-12-Outlet-Pivot-Plug-Power-Protector/dp/B000JE9LD4 20220302.163823 
+
+https://www.staples.com/Staples-Glue-Top-Notepads-4-x-6-White/product_163444 20220302.164913 
+
+https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core 20220302.165226 
+
+https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api 20220302.165256 
+
+https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api/2.17.2 20220302.165310 
+
+https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core/2.17.2 20220302.165332 
+
+https://eclipse-ee4j.github.io/jersey/ 20220302.165502 
+
+https://eclipse-ee4j.github.io/jersey.github.io/apidocs/latest/jersey/index.html 20220302.165540 
+
+https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest3x/index.html 20220302.165551 
+
+https://eclipse-ee4j.github.io/jersey.github.io/apidocs/latest3x/jersey/index.html 20220302.165601 
+
+https://eclipse-ee4j.github.io/jersey/download.html 20220302.165635 
+
+https://eclipse-ee4j.github.io/jersey/download.html 20220302.165650 
+
+https://eclipse-ee4j.github.io/jersey/download.html 20220302.165704 
+
+https://eclipse-ee4j.github.io/jersey/download.html 20220302.165826 
+
+https://logging.apache.org/log4j/2.x/download.html 20220302.170032 
+
+https://www.google.com/search?rlz=1C9BKJA_enUS839US840&hl=en-US&sxsrf=APq-WBshBJmSlxCXqO4tTlEl2YwjZaPTmQ:1646259002306&q=James+Garfield&stick=H4sIAAAAAAAAAONgVuLQz9U3SDIyKn_EeIqFW-Dlj3vCUgdYJq05eY1xJwuXQFBqcmpeSUBRanFmCpBRLBTNxeGTn5xYkpmfJ8Qrxc3FCdJvmWxebiCloMTF29AqLSZqFP_5mJYQJ7eZ0ZOWra9CBJ2233OetNNaRomDg0GAUYJBgclIhItXP13f0DCroMggqTIvTWBe73RGqUYmrn-MXFwFcOtEGRga7CWYtJhS84w4OBiBmpkVuKxuMWaUlBQUW-nrZ-aVAJXp5iQm6SXnFxXopefnp-ekAtm5-oWlqUWZqcX25flF2cUFicmpth6piSlqJYnptpl5KaXJIB-olRanxufnpMQXpyYWJWfYlhSVpqrlJOal26bm6YYGq2Wm2EJkVI0djU2MzAwTU1IsEy2T0lItzVEkUw2TLFItk8xSLCyTUgzNzVB1GqUmGpskGhsYpBiZJCcboUgaJVoaGaeZmCabGpoZmVkaStlzyXAxZeZBfM6sxQp2CdDzTEDP8ykwcclzseYXpaQWiZ74v8xBggWhgBmoQFCBVanaKGPXpWnn2JIEGYDAqijMQcpI8K9Pvs2th-_ttYS42D2LQTGYI8h28ZYI87MWey1hLo6QxIr8vPzcSkEFU8aEz3_f2yspcoK0c559Yw8y50DSTE8HCQ4FBg0GQyDXYf0UwQNaDAcYmZr2rTjEBooaBiMmDgYrJg2mKiDNs4iVzysxN7VYwT2xKC0zNSdlAhsjAEfjHIpuAgAA&sa=X&ved=2ahUKEwjQqqnYuKj2AhXrq3IEHc97CzUQ9OUBegQIBRA3&biw=1024&bih=728&dpr=2 20220302.171124 
+
+https://www.google.com/search?rlz=1C9BKJA_enUS839US840&hl=en-US&sxsrf=APq-WBshBJmSlxCXqO4tTlEl2YwjZaPTmQ:1646259002306&q=James+Garfield&stick=H4sIAAAAAAAAAONgVuLQz9U3SDIyKn_EeIqFW-Dlj3vCUgdYJq05eY1xJwuXQFBqcmpeSUBRanFmCpBRLBTNxeGTn5xYkpmfJ8Qrxc3FCdJvmWxebiCloMTF29AqLSZqFP_5mJYQJ7eZ0ZOWra9CBJ2233OetNNaRomDg0GAUYJBgclIhItXP13f0DCroMggqTIvTWBe73RGqUYmrn-MXFwFcOtEGRga7CWYtJhS84w4OBiBmpkVuKxuMWaUlBQUW-nrZ-aVAJXp5iQm6SXnFxXopefnp-ekAtm5-oWlqUWZqcX25flF2cUFicmpth6piSlqJYnptpl5KaXJIB-olRanxufnpMQXpyYWJWfYlhSVpqrlJOal26bm6YYGq2Wm2EJkVI0djU2MzAwTU1IsEy2T0lItzVEkUw2TLFItk8xSLCyTUgzNzVB1GqUmGpskGhsYpBiZJCcboUgaJVoaGaeZmCabGpoZmVkaStlzyXAxZeZBfM6sxQp2CdDzTEDP8ykwcclzseYXpaQWiZ74v8xBggWhgBmoQFCBVanaKGPXpWnn2JIEGYDAqijMQcpI8K9Pvs2th-_ttYS42D2LQTGYI8h28ZYI87MWey1hLo6QxIr8vPzcSkEFU8aEz3_f2yspcoK0c559Yw8y50DSTE8HCQ4FBg0GQyDXYf0UwQNaDAcYmZr2rTjEBooaBiMmDgYrJg2mKiDNs4iVzysxN7VYwT2xKC0zNSdlAhsjAEfjHIpuAgAA&sa=X&ved=2ahUKEwjQqqnYuKj2AhXrq3IEHc97CzUQ9OUBegQIBRA3&biw=1024&bih=728&dpr=2 20220302.175530 
+
+https://loudounnow.com/2022/03/02/new-redistricting-map-troubles-loudoun-supervisors%EF%BF%BC/ 20220302.200140 
+
+https://loudounnow.com/2022/03/02/new-redistricting-map-troubles-loudoun-supervisors%EF%BF%BC/ 20220302.200540 
+
+https://www.macrumors.com/2022/03/02/when-could-the-spring-apple-event-be/ 20220302.201208 
+
+https://www.macrumors.com/2022/03/02/when-could-the-spring-apple-event-be/ 20220302.201229 
+
+https://www.foxnews.com/auto/cargo-ship-4000-cars-sinks 20220302.202505 
+
+http://www.mastertheboss.com/java/jbang-vs-jshell/ 20220303.020014 
+
+http://www.mastertheboss.com/java/jbang-vs-jshell/ 20220303.020226 
+
+https://www.foxnews.com/auto/cargo-ship-4000-cars-sinks 20220303.020716 
+
+https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest/user-guide.html 20220303.020735 
+
+https://logging.apache.org/log4j/2.x/index.html 20220303.020806 
+
+https://logging.apache.org/log4j/2.x/index.html 20220303.021125 
+
+https://logging.apache.org/log4j/2.x/changes-report.html#a2.17.2 20220303.021344 
+
+https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest/user-guide.html#deployment.servlet 20220303.021410 
+
+https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest/getting-started.html 20220303.021436 
+
+https://howtodoinjava.com/jersey/jersey-quickstart-archetype-hello-world-application-example/ 20220303.021451 
+
+https://gist.github.com/yangkun/5312119 20220303.021514 
+
+https://www.imdb.com/title/tt6264654/faq 20220303.021533 
+
+https://www.space.com/moon-venus-mars-conjunction-february-2022 20220303.021549 
+
+https://www.space.com/moon-venus-mars-conjunction-february-2022 20220303.021559 
+
+https://askubuntu.com/questions/142128/open-windows-in-center-of-screen 20220303.021617 
+
+https://groovy-lang.org/json.html#json_jsonslurper 20220303.021709 
+
+https://grails.org/ 20220303.021739 
+
+https://spring.io/tools 20220303.021753 
+
+https://ubuntu.com/tutorials/install-ubuntu-desktop 20220303.021819 
+
+https://www.howtogeek.com/740795/how-to-update-ubuntu-linux/ 20220303.021834 
+
+https://pragmaticstudio.com/tutorials/what-is-hotwire 20220303.021858 
+
+https://madza.hashnode.dev/19-valuable-github-repositories-for-beginner-developers 20220303.022119 
+
+https://www.fox5dc.com/news/virginia-drivers-experiencing-similar-e-zpass-billing-issues-as-thousands-of-marylanders 20220303.022452 
+
+
