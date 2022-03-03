@@ -1,0 +1,372 @@
+4:16 AM 3/3/2022
+
+Microsoft Windows [Version 10.0.19043.1415]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\David Holberton>
+C:\Users\David Holberton\Downloads>dir grails*.* /w
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\Downloads
+
+grails-1.2.1.zip    grails-1.2.2.zip    grails-1.2.3.zip    grails-1.2.4.zip    grails-1.2.5.zip
+grails-1.3.1.zip    grails-1.3.2.zip    grails-1.3.3.zip    grails-1.3.4.zip    grails-1.3.5.zip
+grails-1.3.6.zip    grails-1.3.7.zip    grails-1.3.8.zip    grails-1.3.9.zip    grails-2.0.0.zip
+grails-2.0.1.zip    grails-2.0.2.zip    grails-2.0.3.zip    grails-2.0.4.zip    grails-2.1.0.zip
+grails-2.1.1.zip    grails-2.1.2.zip    grails-2.1.3.zip    grails-2.1.4.zip    grails-2.1.5.zip
+grails-2.2.0.zip    grails-2.2.1.zip    grails-2.2.2.zip    grails-2.2.3.zip    grails-2.2.4.zip
+grails-2.2.5.zip    grails-2.3.0.zip    grails-2.3.1.zip    grails-2.3.10.zip   grails-2.3.11.zip
+grails-2.3.2.zip    grails-2.3.3.zip    grails-2.3.5.zip    grails-2.3.6.zip    grails-2.3.7.zip
+grails-2.3.8.zip    grails-2.3.9.zip    grails-2.4.0.zip    grails-2.4.1.zip    grails-2.4.2.zip
+grails-2.4.3.zip    grails-2.4.4.zip    grails-2.4.5.zip    grails-2.5.0.zip    grails-2.5.1.zip
+grails-2.5.2.zip    grails-2.5.3.zip    grails-2.5.4.zip    grails-2.5.5.zip    grails-2.5.6.zip
+grails-3.0.0.zip    grails-3.0.1.zip    grails-3.0.10.zip   grails-3.0.2.zip    grails-3.0.3.zip
+grails-3.0.4.zip    grails-3.0.5.zip    grails-3.0.6.zip    grails-3.0.7.zip    grails-3.0.8.zip
+grails-3.0.9.zip    grails-3.1.11.zip   grails-3.2.12.zip   grails-3.2.13.zip   grails-3.3.0.zip
+grails-3.3.1.zip    grails-3.3.10.zip   grails-3.3.11.zip   grails-3.3.2.zip    grails-3.3.3.zip
+grails-3.3.4.zip    grails-3.3.5.zip    grails-3.3.6.zip    grails-3.3.7.zip    grails-3.3.8.zip
+grails-3.3.9.zip    grails-4.0.0.zip    grails-4.0.1.zip    grails-4.0.10.zip   grails-4.0.11.zip
+grails-4.0.12.zip   grails-4.0.13.zip   grails-4.0.2.zip    grails-4.0.3.zip    grails-4.0.4.zip
+grails-4.0.5.zip    grails-4.0.7.zip    grails-4.0.8.zip    grails-4.0.9.zip    grails-5.0.0.zip
+grails-5.0.1.zip    grails-5.0.2.zip    grails-5.0.3.zip    grails-5.1.0.zip    grails-5.1.1.zip
+grails-5.1.2.zip    grails-docs.zip
+             102 File(s) 11,813,132,885 bytes
+               0 Dir(s)  132,171,870,208 bytes free
+
+C:\Users\David Holberton\Downloads>
+03/03/2022  04:23 AM       170,139,256 grails-5.0.0.zip
+03/03/2022  04:23 AM       170,096,967 grails-5.0.1.zip
+03/03/2022  04:23 AM       174,996,765 grails-5.0.2.zip
+03/03/2022  04:23 AM       174,876,911 grails-5.0.3.zip
+03/03/2022  04:23 AM       181,816,574 grails-5.1.0.zip
+03/03/2022  04:24 AM       181,817,862 grails-5.1.1.zip
+03/03/2022  04:24 AM       181,797,388 grails-5.1.2.zip
+03/03/2022  04:25 AM         9,143,102 grails-docs.zip
+            1335 File(s) 106,612,706,907 bytes
+              39 Dir(s)  132,170,764,288 bytes free
+
+C:\Users\David Holberton\Downloads>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://mvnrepository.com/repos/central
+https://mvnrepository.com/artifact/org.apache.logging.log4j
+
+https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
+https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core/2.17.2     Feb 27, 2022
+
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.17.2</version>
+</dependency>
+
+https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api
+https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api/2.17.2     Feb 27, 2022
+
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.17.2</version>
+</dependency>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest3x/index.html     Jersey 3.0.4 User Guide
+
+1.4. Creating a JavaEE Web Application
+
+To create a Web Application that can be packaged as WAR and deployed in a Servlet container follow a similar process to the one described in Section 1.1, “Creating a New Project from Maven Archetype”. In addition to the Grizzly-based archetype, Jersey provides also a Maven archetype for creating web application skeletons. To create the new web application skeleton project, execute the following Maven command in the directory where the new project should reside:
+mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-webapp \
+                -DarchetypeGroupId=org.glassfish.jersey.archetypes -DinteractiveMode=false \
+                -DgroupId=com.example -DartifactId=simple-service-webapp -Dpackage=com.example \
+                -DarchetypeVersion=3.0.4
+
+https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest/getting-started.html
+https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest/index.html     Jersey 2.35 User Guide
+
+1.4. Creating a JavaEE Web Application
+
+To create a Web Application that can be packaged as WAR and deployed in a Servlet container follow a similar process to the one described in Section 1.1, “Creating a New Project from Maven Archetype”. In addition to the Grizzly-based archetype, Jersey provides also a Maven archetype for creating web application skeletons. To create the new web application skeleton project, execute the following Maven command in the directory where the new project should reside:
+mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-webapp \
+                -DarchetypeGroupId=org.glassfish.jersey.archetypes -DinteractiveMode=false \
+                -DgroupId=com.example -DartifactId=simple-service-webapp -Dpackage=com.example \
+                -DarchetypeVersion=2.35
+
+
+mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-webapp -DarchetypeGroupId=org.glassfish.jersey.archetypes -DinteractiveMode=false -DgroupId=com.example -DartifactId=simple-service-webapp -Dpackage=com.example -DarchetypeVersion=2.35
+
+C:\Users\David Holberton\tempdir\jersey2>
+C:\Users\David Holberton\tempdir\jersey2>tree /a /f
+Folder PATH listing
+Volume serial number is 4603-A8D3
+C:.
+\---simple-service-webapp
+    |   pom.xml
+    |
+    \---src
+        \---main
+            +---java
+            |   \---com
+            |       \---example
+            |               MyResource.java
+            |
+            +---resources
+            \---webapp
+                |   index.jsp
+                |
+                \---WEB-INF
+                        web.xml
+
+
+C:\Users\David Holberton\tempdir\jersey2>
+C:\Users\David Holberton\tempdir\jersey2\simple-service-webapp>
+C:\Users\David Holberton\tempdir\jersey2\simple-service-webapp>tree /a /f
+Folder PATH listing
+Volume serial number is 4603-A8D3
+C:.
+|   pom.xml
+|
++---src
+|   \---main
+|       +---java
+|       |   \---com
+|       |       \---example
+|       |               MyResource.java
+|       |
+|       +---resources
+|       \---webapp
+|           |   index.jsp
+|           |
+|           \---WEB-INF
+|                   web.xml
+|
+\---target
+    |   simple-service-webapp.war
+    |
+    +---classes
+    |   \---com
+    |       \---example
+    |               MyResource.class
+    |
+    +---generated-sources
+    |   \---annotations
+    +---maven-archiver
+    |       pom.properties
+    |
+    +---maven-status
+    |   \---maven-compiler-plugin
+    |       \---compile
+    |           \---default-compile
+    |                   createdFiles.lst
+    |                   inputFiles.lst
+    |
+    \---simple-service-webapp
+        |   index.jsp
+        |
+        +---META-INF
+        \---WEB-INF
+            |   web.xml
+            |
+            +---classes
+            |   \---com
+            |       \---example
+            |               MyResource.class
+            |
+            \---lib
+                    aopalliance-repackaged-2.6.1.jar
+                    hk2-api-2.6.1.jar
+                    hk2-locator-2.6.1.jar
+                    hk2-utils-2.6.1.jar
+                    jakarta.annotation-api-1.3.5.jar
+                    jakarta.inject-2.6.1.jar
+                    jakarta.validation-api-2.0.2.jar
+                    jakarta.ws.rs-api-2.1.6.jar
+                    javassist-3.25.0-GA.jar
+                    jersey-client-2.35.jar
+                    jersey-common-2.35.jar
+                    jersey-container-servlet-core-2.35.jar
+                    jersey-hk2-2.35.jar
+                    jersey-server-2.35.jar
+                    osgi-resource-locator-1.0.3.jar
+
+
+C:\Users\David Holberton\tempdir\jersey2\simple-service-webapp>
+C:\Users\David Holberton\tempdir\jersey2\simple-service-webapp>jar tvf target\simple-service-webapp.war
+     0 Thu Mar 03 04:37:40 EST 2022 META-INF/
+   141 Thu Mar 03 04:37:38 EST 2022 META-INF/MANIFEST.MF
+     0 Thu Mar 03 04:37:40 EST 2022 WEB-INF/
+     0 Thu Mar 03 04:37:40 EST 2022 WEB-INF/classes/
+     0 Thu Mar 03 04:37:40 EST 2022 WEB-INF/classes/com/
+     0 Thu Mar 03 04:37:40 EST 2022 WEB-INF/classes/com/example/
+     0 Thu Mar 03 04:37:40 EST 2022 WEB-INF/lib/
+   247 Thu Mar 03 04:35:52 EST 2022 index.jsp
+   551 Thu Mar 03 04:37:38 EST 2022 WEB-INF/classes/com/example/MyResource.class
+ 27006 Thu Jul 22 05:57:34 EDT 2021 WEB-INF/lib/aopalliance-repackaged-2.6.1.jar
+200223 Thu Jul 22 05:57:36 EDT 2021 WEB-INF/lib/hk2-api-2.6.1.jar
+203358 Thu Jul 22 05:57:36 EDT 2021 WEB-INF/lib/hk2-locator-2.6.1.jar
+131590 Thu Jul 22 05:57:36 EDT 2021 WEB-INF/lib/hk2-utils-2.6.1.jar
+ 25058 Thu Jul 22 05:57:32 EDT 2021 WEB-INF/lib/jakarta.annotation-api-1.3.5.jar
+ 18140 Thu Jul 22 05:57:32 EDT 2021 WEB-INF/lib/jakarta.inject-2.6.1.jar
+ 91930 Thu Jul 22 05:57:34 EDT 2021 WEB-INF/lib/jakarta.validation-api-2.0.2.jar
+140376 Thu Jul 22 05:57:34 EDT 2021 WEB-INF/lib/jakarta.ws.rs-api-2.1.6.jar
+780265 Thu Jul 22 05:57:36 EDT 2021 WEB-INF/lib/javassist-3.25.0-GA.jar
+260473 Thu Mar 03 04:37:38 EST 2022 WEB-INF/lib/jersey-client-2.35.jar
+1197783 Thu Mar 03 04:37:38 EST 2022 WEB-INF/lib/jersey-common-2.35.jar
+ 73404 Thu Mar 03 04:37:38 EST 2022 WEB-INF/lib/jersey-container-servlet-core-2.35.jar
+ 78379 Thu Mar 03 04:37:38 EST 2022 WEB-INF/lib/jersey-hk2-2.35.jar
+948875 Thu Mar 03 04:37:38 EST 2022 WEB-INF/lib/jersey-server-2.35.jar
+ 19479 Thu Jul 22 05:57:32 EDT 2021 WEB-INF/lib/osgi-resource-locator-1.0.3.jar
+  1003 Thu Mar 03 04:35:52 EST 2022 WEB-INF/web.xml
+     0 Thu Mar 03 04:37:40 EST 2022 META-INF/maven/
+     0 Thu Mar 03 04:37:40 EST 2022 META-INF/maven/com.example/
+     0 Thu Mar 03 04:37:40 EST 2022 META-INF/maven/com.example/simple-service-webapp/
+  2323 Thu Mar 03 04:35:52 EST 2022 META-INF/maven/com.example/simple-service-webapp/pom.xml
+   129 Thu Mar 03 04:37:40 EST 2022 META-INF/maven/com.example/simple-service-webapp/pom.properties
+
+C:\Users\David Holberton\tempdir\jersey2\simple-service-webapp>
+C:\Users\David Holberton\tempdir\jersey2\simple-service-webapp>jar tvf target\simple-service-webapp.war
+     0 Thu Mar 03 04:50:24 EST 2022 META-INF/
+   141 Thu Mar 03 04:50:22 EST 2022 META-INF/MANIFEST.MF
+     0 Thu Mar 03 04:50:22 EST 2022 WEB-INF/
+     0 Thu Mar 03 04:50:22 EST 2022 WEB-INF/classes/
+     0 Thu Mar 03 04:50:22 EST 2022 WEB-INF/classes/com/
+     0 Thu Mar 03 04:50:22 EST 2022 WEB-INF/classes/com/example/
+     0 Thu Mar 03 04:50:24 EST 2022 WEB-INF/lib/
+   247 Thu Mar 03 04:35:52 EST 2022 index.jsp
+   551 Thu Mar 03 04:50:22 EST 2022 WEB-INF/classes/com/example/MyResource.class
+ 27006 Thu Jul 22 05:57:34 EDT 2021 WEB-INF/lib/aopalliance-repackaged-2.6.1.jar
+200223 Thu Jul 22 05:57:36 EDT 2021 WEB-INF/lib/hk2-api-2.6.1.jar
+203358 Thu Jul 22 05:57:36 EDT 2021 WEB-INF/lib/hk2-locator-2.6.1.jar
+131590 Thu Jul 22 05:57:36 EDT 2021 WEB-INF/lib/hk2-utils-2.6.1.jar
+ 25058 Thu Jul 22 05:57:32 EDT 2021 WEB-INF/lib/jakarta.annotation-api-1.3.5.jar
+ 18140 Thu Jul 22 05:57:32 EDT 2021 WEB-INF/lib/jakarta.inject-2.6.1.jar
+ 91930 Thu Jul 22 05:57:34 EDT 2021 WEB-INF/lib/jakarta.validation-api-2.0.2.jar
+140376 Thu Jul 22 05:57:34 EDT 2021 WEB-INF/lib/jakarta.ws.rs-api-2.1.6.jar
+780265 Thu Jul 22 05:57:36 EDT 2021 WEB-INF/lib/javassist-3.25.0-GA.jar
+260473 Thu Mar 03 04:37:38 EST 2022 WEB-INF/lib/jersey-client-2.35.jar
+1197783 Thu Mar 03 04:37:38 EST 2022 WEB-INF/lib/jersey-common-2.35.jar
+ 73404 Thu Mar 03 04:37:38 EST 2022 WEB-INF/lib/jersey-container-servlet-core-2.35.jar
+ 78379 Thu Mar 03 04:37:38 EST 2022 WEB-INF/lib/jersey-hk2-2.35.jar
+948875 Thu Mar 03 04:37:38 EST 2022 WEB-INF/lib/jersey-server-2.35.jar
+302511 Thu Mar 03 04:48:40 EST 2022 WEB-INF/lib/log4j-api-2.17.2.jar
+1811089 Thu Mar 03 04:48:40 EST 2022 WEB-INF/lib/log4j-core-2.17.2.jar
+ 19479 Thu Jul 22 05:57:32 EDT 2021 WEB-INF/lib/osgi-resource-locator-1.0.3.jar
+  1003 Thu Mar 03 04:35:52 EST 2022 WEB-INF/web.xml
+     0 Thu Mar 03 04:50:24 EST 2022 META-INF/maven/
+     0 Thu Mar 03 04:50:24 EST 2022 META-INF/maven/com.example/
+     0 Thu Mar 03 04:50:24 EST 2022 META-INF/maven/com.example/simple-service-webapp/
+  2887 Thu Mar 03 04:50:06 EST 2022 META-INF/maven/com.example/simple-service-webapp/pom.xml
+   129 Thu Mar 03 04:50:24 EST 2022 META-INF/maven/com.example/simple-service-webapp/pom.properties
+
+C:\Users\David Holberton\tempdir\jersey2\simple-service-webapp>
+C:\Users\David Holberton\tempdir\jersey2\simple-service-webapp>type pom.xml
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example</groupId>
+    <artifactId>simple-service-webapp</artifactId>
+    <packaging>war</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>simple-service-webapp</name>
+
+    <build>
+        <finalName>simple-service-webapp</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <inherited>true</inherited>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.glassfish.jersey</groupId>
+                <artifactId>jersey-bom</artifactId>
+                <version>${jersey.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.glassfish.jersey.containers</groupId>
+            <artifactId>jersey-container-servlet-core</artifactId>
+            <!-- use the following artifactId if you don't need servlet 2.x compatibility -->
+            <!-- artifactId>jersey-container-servlet</artifactId -->
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.inject</groupId>
+            <artifactId>jersey-hk2</artifactId>
+        </dependency>
+        <!-- uncomment this to get JSON support
+        <dependency>
+            <groupId>org.glassfish.jersey.media</groupId>
+            <artifactId>jersey-media-json-binding</artifactId>
+        </dependency>
+        -->
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.17.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.17.2</version>
+        </dependency>
+    </dependencies>
+    <properties>
+        <jersey.version>2.35</jersey.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+</project>
+
+C:\Users\David Holberton\tempdir\jersey2\simple-service-webapp>
+C:\Users\David Holberton\tempdir\jersey2\simple-service-webapp>dir /o:gd target\simple-service-webapp\WEB-INF\lib
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\tempdir\jersey2\simple-service-webapp\target\simple-service-webapp\WEB-INF\lib
+
+03/03/2022  04:50 AM    <DIR>          ..
+03/03/2022  04:50 AM    <DIR>          .
+07/22/2021  04:57 AM            18,140 jakarta.inject-2.6.1.jar
+07/22/2021  04:57 AM            25,058 jakarta.annotation-api-1.3.5.jar
+07/22/2021  04:57 AM            19,479 osgi-resource-locator-1.0.3.jar
+07/22/2021  04:57 AM            91,930 jakarta.validation-api-2.0.2.jar
+07/22/2021  04:57 AM           140,376 jakarta.ws.rs-api-2.1.6.jar
+07/22/2021  04:57 AM            27,006 aopalliance-repackaged-2.6.1.jar
+07/22/2021  04:57 AM           203,358 hk2-locator-2.6.1.jar
+07/22/2021  04:57 AM           131,590 hk2-utils-2.6.1.jar
+07/22/2021  04:57 AM           200,223 hk2-api-2.6.1.jar
+07/22/2021  04:57 AM           780,265 javassist-3.25.0-GA.jar
+03/03/2022  04:37 AM            73,404 jersey-container-servlet-core-2.35.jar
+03/03/2022  04:37 AM            78,379 jersey-hk2-2.35.jar
+03/03/2022  04:37 AM           260,473 jersey-client-2.35.jar
+03/03/2022  04:37 AM           948,875 jersey-server-2.35.jar
+03/03/2022  04:37 AM         1,197,783 jersey-common-2.35.jar
+03/03/2022  04:48 AM           302,511 log4j-api-2.17.2.jar
+03/03/2022  04:48 AM         1,811,089 log4j-core-2.17.2.jar
+              17 File(s)      6,309,939 bytes
+               2 Dir(s)  132,103,106,560 bytes free
+
+C:\Users\David Holberton\tempdir\jersey2\simple-service-webapp>
+
