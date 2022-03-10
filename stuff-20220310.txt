@@ -1,0 +1,119 @@
+6:20 AM 3/10/2022
+
+Firefox Browser 97.0.1 (64-bit)
+http://localhost/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+
+Firefox Browser 98.0 (64-bit)
+http://localhost/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0
+
+https://www.mozilla.org/en-US/firefox/98.0/whatsnew/?oldversion=97.0.1
+
+https://truecolors.firefox.com/?utm_campaign=firefox-disney-us&utm_medium=owned&utm_source=mozilla.org-whatsnew98
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Microsoft Windows [Version 10.0.19043.1415]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\David Holberton>
+
+
+C:\LocalApps>dir /o:gn
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\LocalApps
+
+02/05/2022  11:44 AM    <DIR>          .
+02/05/2022  11:44 AM    <DIR>          ..
+07/13/2020  02:53 PM    <DIR>          7-Zip
+10/09/2017  04:38 PM    <DIR>          7-Zip-x64.16.04
+06/08/2017  02:36 PM    <DIR>          Apache_Tomcat_8.0.27
+11/14/2018  12:54 PM    <DIR>          apache-activemq-5.15.8
+07/10/2018  05:49 AM    <DIR>          apache-ant-1.10.5
+10/24/2018  07:43 PM    <DIR>          apache-maven-3.6.0
+08/04/2021  05:57 PM    <DIR>          apache-maven-3.8.2
+06/25/2021  11:05 PM    <DIR>          apache-tomcat-10.0.8
+04/27/2018  08:26 PM    <DIR>          apache-tomcat-8.5.31
+12/13/2020  02:07 PM    <DIR>          apache-tomcat-8.5.61
+08/14/2019  09:19 PM    <DIR>          apache-tomcat-9.0.24
+04/27/2018  07:34 PM    <DIR>          apache-tomcat-9.0.8
+04/27/2019  11:45 AM    <DIR>          corretto
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://tomcat.apache.org/download-90.cgi
+https://dlcdn.apache.org/ (mirror)
+
+03/10/2022  06:43 AM        12,803,005 apache-tomcat-9.0.59-windows-x64.zip
+03/10/2022  06:43 AM               833 apache-tomcat-9.0.59-windows-x64.zip.asc
+03/10/2022  06:43 AM               166 apache-tomcat-9.0.59-windows-x64.zip.sha512
+
+You must verify the integrity of the downloaded files. We provide OpenPGP signatures for every release file. This signature should be matched against the KEYS file which contains the OpenPGP keys of Tomcat's Release Managers. We also provide SHA-512 checksums for every release file. After you download the file, you should calculate a checksum for your download, and make sure it is the same as ours. 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://logging.apache.org/log4j/2.x/download.html
+https://dlcdn.apache.org/logging/log4j/2.17.2/apache-log4j-2.17.2-bin.zip
+
+03/10/2022  06:43 AM        12,803,005 apache-tomcat-9.0.59-windows-x64.zip
+03/10/2022  06:43 AM               833 apache-tomcat-9.0.59-windows-x64.zip.asc
+03/10/2022  06:43 AM               166 apache-tomcat-9.0.59-windows-x64.zip.sha512
+03/10/2022  06:47 AM        15,624,791 apache-log4j-2.17.2-bin.zip
+03/10/2022  06:49 AM               158 apache-log4j-2.17.2-bin.zip.sha512
+03/10/2022  06:49 AM               858 apache-log4j-2.17.2-bin.zip.asc
+03/10/2022  06:50 AM        15,406,684 apache-log4j-2.17.2-bin.tar.gz
+03/10/2022  06:50 AM               161 apache-log4j-2.17.2-bin.tar.gz.sha512
+03/10/2022  06:51 AM               858 apache-log4j-2.17.2-bin.tar.gz.asc
+
+It is essential that you verify the integrity of the downloaded files using the PGP and SHA512 signatures. Please read Verifying Apache HTTP Server Releases for more information on why you should verify our releases.
+
+The PGP signatures can be verified using PGP or GPG. First download the KEYS as well as the asc signature file for the relevant distribution. Make sure you get these files from the main distribution directory, rather than from a mirror. Then verify the signatures using
+
+gpg --import KEYS
+gpg --verify apache-log4j-2.17.2-bin.tar.gz.asc
+
+Apache Log4j 2.17.2 is signed by Ralph Goers (B3D8E1BA)
+
+Alternatively, you can verify the SHA512 signature on the files. A Unix program called sha or sha512sum is included in many Unix distributions.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+03/10/2022  06:43 AM        12,803,005 apache-tomcat-9.0.59-windows-x64.zip
+03/10/2022  06:43 AM               833 apache-tomcat-9.0.59-windows-x64.zip.asc
+03/10/2022  06:43 AM               166 apache-tomcat-9.0.59-windows-x64.zip.sha512
+03/10/2022  06:47 AM        15,624,791 apache-log4j-2.17.2-bin.zip
+03/10/2022  06:49 AM               158 apache-log4j-2.17.2-bin.zip.sha512
+03/10/2022  06:49 AM               858 apache-log4j-2.17.2-bin.zip.asc
+03/10/2022  06:50 AM        15,406,684 apache-log4j-2.17.2-bin.tar.gz
+03/10/2022  06:50 AM               161 apache-log4j-2.17.2-bin.tar.gz.sha512
+03/10/2022  06:51 AM               858 apache-log4j-2.17.2-bin.tar.gz.asc
+03/10/2022  06:55 AM            14,245 apache-tomcat-9.0.59-windows-x64.zip.KEYS.txt
+03/10/2022  06:58 AM            95,510 apache-log4j-2.17.2-bin.zip.KEYS.txt
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>type apache-tomcat-9.0.59-windows-x64.zip.sha512
+0356fc5e3781dc4d35605926dde35d8a64670a9ec6b714df6f913d82cbfac5a598c746243761cc010074408ceeeb8781e3d97b9892fe0e6f31922ee56a63136c *apache-tomcat-9.0.59-windows-x64.zip
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>type apache-tomcat-9.0.59-windows-x64.zip.asc
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEESPjmn2OQyfJc/tzSaCSJWTWecisFAmIT/fYACgkQaCSJWTWe
+cis55A/6AgKIHq17j41VwQNpy/JNJ1CBATLGrDe8bk/fgPRQ/B95CPcdTU6Zo92p
+Pc6jl2vHhAqNKqTd5mKWTsQuysR4Vj0KNOqvRu8E9Zx2dcTOffZRa5shQ6H2RwaH
+ah73ht9fbaLs59KV7kXXe0gbghpMZ+SlvvSmsEwWbUuylxEYMO4LqTrhY4/0XqF4
+jTLhs8EoANwlWRb2SJdgFxYpT5TuR8RF4TY1T571Q+Cl/IZdQ4HEHoms5Cps1uJ4
+GfFsdqYAnqwDz7g9I305S1RP1/5PCuQyFjHXAzvC1SU2Vq43g1yuG5f3WME++7r5
+5D4fZxRv21E4GL0CMrC8B/wK4NIolb20FbBvRa+2dkz/0y9wXyvttcjNF1b81UwS
+k3d7k3nbPPfZR3Jpco9YiHiSJ5cj8xMHL7KwftB1Y+hDhaTccuEjbrLKnQ86I+dh
+IbitQxkzMLgqNXoX58etqClcma2jZaBaIbmYpEDSPTbXIs6jEP2oGFsRZ1IV/5w4
+3jgfYRn9hfBep/UFp73FfttED6PPKjXMnrKpbFVsSGY0hk4zJsLhrTOekO6djJJ+
+WhcvaicdxCZYa4u+jOQgEJrKqlOM9qd2wB2ZHI/ubyWbRlZJwWq4ewsj7++QpQ02
+z1pu4jjBxDTp/TM6Yw+MYr6NxPr+/fYsk1GMJQc2gG+W/Ocscqo=
+=WW8J
+-----END PGP SIGNATURE-----
+
+C:\Users\David Holberton\Downloads>
+
