@@ -1,0 +1,236 @@
+10:13 AM 4/18/2022
+
+https://tomcat.apache.org/download-80.cgi
+https://tomcat.apache.org/download-90.cgi
+https://www.jetbrains.com/idea/download/#section=windows
+https://www.jetbrains.com/ruby/download/#section=windows
+https://www.jetbrains.com/help/ruby/get-started.html
+https://resources.jetbrains.com/storage/products/rubymine/docs/RubyMine_ReferenceCard.pdf
+https://code.visualstudio.com/Download
+
+C:\Users\David Holberton\Downloads>gpg --verify apache-tomcat-9.0.62-windows-x64.zip.asc apache-tomcat-9.0.62-windows-x64.zip
+gpg: Signature made 3/31/2022 10:36:03 AM Eastern Daylight Time
+gpg:                using RSA key 48F8E69F6390C9F25CFEDCD268248959359E722B
+gpg: Can't check signature: No public key
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>gpg --import apache-tomcat-9.0.62.KEYS.txt
+gpg: key 6FB21E8933C60243: 33 signatures not checked due to missing keys
+gpg: key 6FB21E8933C60243: public key "Mark E D Thomas <markt@apache.org>" imported
+gpg: key 10C01C5A2F6059E7: "Mark E D Thomas <markt@apache.org>" not changed
+gpg: key 68248959359E722B: public key "Remy Maucherat <remm@apache.org>" imported
+gpg: Total number processed: 3
+gpg:               imported: 2
+gpg:              unchanged: 1
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>gpg --verify apache-tomcat-9.0.62-windows-x64.zip.asc apache-tomcat-9.0.62-windows-x64.zip
+gpg: Signature made 3/31/2022 10:36:03 AM Eastern Daylight Time
+gpg:                using RSA key 48F8E69F6390C9F25CFEDCD268248959359E722B
+gpg: Good signature from "Remy Maucherat <remm@apache.org>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 48F8 E69F 6390 C9F2 5CFE  DCD2 6824 8959 359E 722B
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>gpg --list-keys
+C:/gpg/keys-apache/pubring.kbx
+------------------------------
+pub   rsa4096 2021-07-05 [SC]
+      14912E2F9B4D33703F5241ED90A2D107CF1C45C4
+uid           [ultimate] David Holberton <dph@gmail.com>
+sub   rsa4096 2021-07-05 [E]
+
+pub   rsa4096 2021-07-05 [SC]
+      E3D6F0B4BFE739B74B822001378549D87A82554F
+uid           [ unknown] James Bond <agent007@mi6.gov>
+sub   rsa4096 2021-07-05 [E]
+
+pub   rsa4096 2009-09-18 [SC]
+      A9C5DF4D22E99998D9875A5110C01C5A2F6059E7
+uid           [ unknown] Mark E D Thomas <markt@apache.org>
+sub   rsa4096 2009-09-18 [E]
+
+pub   dsa1024 2004-09-12 [SC]
+      DCFD35E0BF8CA7344752DE8B6FB21E8933C60243
+uid           [ unknown] Mark E D Thomas <markt@apache.org>
+uid           [ unknown] Mark E D Thomas <med.thomas@virgin.net>
+uid           [ unknown] Mark E D Thomas <mark.thomas@springsource.com>
+sub   elg2048 2004-09-12 [E]
+
+pub   rsa4096 2019-05-05 [SC]
+      48F8E69F6390C9F25CFEDCD268248959359E722B
+uid           [ unknown] Remy Maucherat <remm@apache.org>
+sub   rsa4096 2019-05-05 [E]
+
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>gpg --list-secret-keys
+C:/gpg/keys-apache/pubring.kbx
+------------------------------
+sec   rsa4096 2021-07-05 [SC]
+      14912E2F9B4D33703F5241ED90A2D107CF1C45C4
+uid           [ultimate] David Holberton <dph@gmail.com>
+ssb   rsa4096 2021-07-05 [E]
+
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>echo %GNUPGHOME%
+C:\gpg\keys-apache
+
+C:\Users\David Holberton\Downloads>echo %GPG_HOME%
+C:\gpg\GnuPG
+
+C:\Users\David Holberton\Downloads>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+03/10/2022  07:43 AM        12,803,005 apache-tomcat-9.0.59-windows-x64.zip
+03/10/2022  07:43 AM               833 apache-tomcat-9.0.59-windows-x64.zip.asc
+03/10/2022  07:43 AM               166 apache-tomcat-9.0.59-windows-x64.zip.sha512
+03/10/2022  07:47 AM        15,624,791 apache-log4j-2.17.2-bin.zip
+03/10/2022  07:49 AM               158 apache-log4j-2.17.2-bin.zip.sha512
+03/10/2022  07:49 AM               858 apache-log4j-2.17.2-bin.zip.asc
+03/10/2022  07:50 AM        15,406,684 apache-log4j-2.17.2-bin.tar.gz
+03/10/2022  07:50 AM               161 apache-log4j-2.17.2-bin.tar.gz.sha512
+03/10/2022  07:51 AM               858 apache-log4j-2.17.2-bin.tar.gz.asc
+03/10/2022  07:55 AM            14,245 apache-tomcat-9.0.59-windows-x64.zip.KEYS.txt
+03/10/2022  07:58 AM            95,510 apache-log4j-2.17.2-bin.zip.KEYS.txt
+03/11/2022  08:40 AM       179,660,173 jdk-17.0.2_windows-x64_bin.zip
+03/11/2022  08:40 AM                64 jdk-17.0.2_windows-x64_bin.zip.sha256
+03/11/2022  08:40 AM       159,834,328 jdk-17.0.2_windows-x64_bin.exe
+03/11/2022  08:41 AM                64 jdk-17.0.2_windows-x64_bin.exe.sha256
+03/11/2022  08:41 AM       158,666,752 jdk-17.0.2_windows-x64_bin.msi
+03/11/2022  08:41 AM                64 jdk-17.0.2_windows-x64_bin.msi.sha256
+03/11/2022  08:45 AM       147,052,760 jdk-11.0.14_windows-x64_bin(1).exe
+03/11/2022  08:45 AM       165,457,105 jdk-11.0.14_windows-x64_bin(1).zip
+03/11/2022  08:47 AM       179,404,488 jdk-8u321-windows-x64(1).exe
+03/11/2022  09:22 AM        75,700,904 VSCodeUserSetup-x64-1.65.2.exe
+03/11/2022  09:22 AM        75,700,672 VSCodeSetup-x64-1.65.2.exe
+03/11/2022  09:22 AM       105,438,974 VSCode-win32-x64-1.65.2.zip
+03/29/2022  04:56 AM        60,364,809 poi-bin-5.2.2-20220312.tgz
+03/29/2022  04:57 AM               488 poi-bin-5.2.2-20220312.tgz.asc
+03/29/2022  04:57 AM                93 poi-bin-5.2.2-20220312.tgz.sha256
+03/29/2022  04:57 AM               157 poi-bin-5.2.2-20220312.tgz.sha512
+03/29/2022  04:57 AM           167,281 poi-bin-5.2.2-20220312.KEYS.txt
+03/29/2022  04:59 AM        60,382,743 poi-bin-5.2.2-20220312.zip
+03/29/2022  04:59 AM               488 poi-bin-5.2.2-20220312.zip.asc
+03/29/2022  04:59 AM                93 poi-bin-5.2.2-20220312.zip.sha256
+03/29/2022  04:59 AM               157 poi-bin-5.2.2-20220312.zip.sha512
+03/29/2022  05:05 AM        52,046,887 tika-app-2.3.0.jar
+03/29/2022  05:06 AM               833 tika-app-2.3.0.jar.asc
+03/29/2022  05:06 AM               129 tika-app-2.3.0.jar.sha512
+03/29/2022  05:07 AM            26,354 tika-app-2.3.0.jar.KEYS.txt
+03/29/2022  07:02 AM        67,628,320 lucene-9.1.0.tgz
+03/29/2022  07:03 AM               853 lucene-9.1.0.tgz.asc
+03/29/2022  07:03 AM               146 lucene-9.1.0.tgz.sha512
+03/29/2022  07:03 AM           321,750 lucene-9.1.0.KEYS.txt
+03/29/2022  07:03 AM             5,671 lucene-8.11.1.tgz
+03/29/2022  07:04 AM               833 lucene-8.11.1.tgz.asc
+03/29/2022  07:04 AM               148 lucene-8.11.1.tgz.sha512
+03/29/2022  07:05 AM            28,696 lucene-8.11.1.zip
+03/29/2022  07:05 AM               833 lucene-8.11.1.zip.asc
+03/29/2022  07:05 AM               148 lucene-8.11.1.zip.sha512
+03/29/2022  07:07 AM       218,076,598 solr-8.11.1.tgz
+03/29/2022  07:07 AM               833 solr-8.11.1.tgz.asc
+03/29/2022  07:07 AM               146 solr-8.11.1.tgz.sha512
+03/29/2022  07:07 AM           321,750 solr-8.11.1.KEYS.txt
+03/29/2022  07:08 AM       219,659,974 solr-8.11.1.zip
+03/29/2022  07:08 AM               833 solr-8.11.1.zip.asc
+03/29/2022  07:08 AM               146 solr-8.11.1.zip.sha512
+03/29/2022  07:11 AM       318,585,988 elasticsearch-8.1.1-windows-x86_64.zip
+03/29/2022  07:11 AM               169 elasticsearch-8.1.1-windows-x86_64.zip.sha512
+03/29/2022  07:12 AM               488 elasticsearch-8.1.1-windows-x86_64.zip.asc
+03/31/2022  08:46 AM            17,742 udev2devsla.docx
+03/31/2022  08:47 AM           632,568 Udev2devSetup.docx
+03/31/2022  08:47 AM             2,829 davihol.p12
+03/31/2022  05:01 PM       180,923,656 jdk-18_windows-x64_bin.zip
+03/31/2022  05:02 PM                64 jdk-18_windows-x64_bin.zip.sha256
+03/31/2022  05:02 PM       160,637,136 jdk-18_windows-x64_bin.exe
+03/31/2022  05:02 PM                64 jdk-18_windows-x64_bin.exe.sha256
+03/31/2022  05:02 PM       159,469,568 jdk-18_windows-x64_bin.msi
+03/31/2022  05:02 PM                64 jdk-18_windows-x64_bin.msi.sha256
+03/31/2022  05:14 PM       538,960,719 eclipse-jee-2022-03-R-win32-x86_64.zip
+03/31/2022  05:15 PM               170 eclipse-jee-2022-03-R-win32-x86_64.zip.sha512
+03/31/2022  05:16 PM       322,677,235 eclipse-java-2022-03-R-win32-x86_64.zip
+03/31/2022  05:16 PM               171 eclipse-java-2022-03-R-win32-x86_64.zip.sha512
+03/31/2022  05:18 PM       318,595,362 elasticsearch-8.1.2-windows-x86_64.zip
+03/31/2022  05:18 PM               169 elasticsearch-8.1.2-windows-x86_64.zip.sha512
+03/31/2022  05:18 PM               488 elasticsearch-8.1.2-windows-x86_64.zip.asc
+03/31/2022  05:21 PM       393,500,579 kibana-8.1.2-windows-x86_64.zip
+03/31/2022  05:21 PM               162 kibana-8.1.2-windows-x86_64.zip.sha512
+03/31/2022  05:21 PM               488 kibana-8.1.2-windows-x86_64.zip.asc
+03/31/2022  05:35 PM       352,073,951 logstash-8.1.2-windows-x86_64.zip
+03/31/2022  05:36 PM               164 logstash-8.1.2-windows-x86_64.zip.sha512
+03/31/2022  05:36 PM               488 logstash-8.1.2-windows-x86_64.zip.asc
+03/31/2022  05:38 PM        29,179,904 metricbeat-8.1.2-windows-x86_64.msi
+03/31/2022  05:38 PM               166 metricbeat-8.1.2-windows-x86_64.msi.sha512
+03/31/2022  05:38 PM               488 metricbeat-8.1.2-windows-x86_64.msi.asc
+03/31/2022  05:49 PM            53,600 elasticsearch-in-action-main.zip
+03/31/2022  07:47 PM       304,227,684 elasticsearch-7.17.2-windows-x86_64.zip
+03/31/2022  07:47 PM               170 elasticsearch-7.17.2-windows-x86_64.zip.sha512
+03/31/2022  07:51 PM       403,752,639 kibana-7.17.2-windows-x86_64.zip
+03/31/2022  07:51 PM               163 kibana-7.17.2-windows-x86_64.zip.sha512
+04/04/2022  07:32 AM               250 wg0.conf
+04/18/2022  10:14 AM            44,901 apache-tomcat-8.5.78.KEYS.txt
+04/18/2022  10:15 AM        11,094,300 apache-tomcat-8.5.78.zip
+04/18/2022  10:15 AM               890 apache-tomcat-8.5.78.zip.asc
+04/18/2022  10:15 AM               154 apache-tomcat-8.5.78.zip.sha512
+04/18/2022  10:15 AM        10,577,344 apache-tomcat-8.5.78.tar.gz
+04/18/2022  10:15 AM               890 apache-tomcat-8.5.78.tar.gz.asc
+04/18/2022  10:15 AM               157 apache-tomcat-8.5.78.tar.gz.sha512
+04/18/2022  10:15 AM        11,617,602 apache-tomcat-8.5.78-windows-x86.zip
+04/18/2022  10:16 AM               890 apache-tomcat-8.5.78-windows-x86.zip.asc
+04/18/2022  10:16 AM               166 apache-tomcat-8.5.78-windows-x86.zip.sha512
+04/18/2022  10:16 AM        11,815,891 apache-tomcat-8.5.78-windows-x64.zip
+04/18/2022  10:16 AM               890 apache-tomcat-8.5.78-windows-x64.zip.asc
+04/18/2022  10:16 AM               166 apache-tomcat-8.5.78-windows-x64.zip.sha512
+04/18/2022  10:16 AM        11,396,136 apache-tomcat-8.5.78.exe
+04/18/2022  10:16 AM               890 apache-tomcat-8.5.78.exe.asc
+04/18/2022  10:16 AM               154 apache-tomcat-8.5.78.exe.sha512
+04/18/2022  10:17 AM         9,621,342 apache-tomcat-8.5.78-fulldocs.tar.gz
+04/18/2022  10:17 AM               890 apache-tomcat-8.5.78-fulldocs.tar.gz.asc
+04/18/2022  10:17 AM               166 apache-tomcat-8.5.78-fulldocs.tar.gz.sha512
+04/18/2022  10:20 AM            14,245 apache-tomcat-9.0.62.KEYS.txt
+04/18/2022  10:20 AM        12,102,301 apache-tomcat-9.0.62.zip
+04/18/2022  10:20 AM               833 apache-tomcat-9.0.62.zip.asc
+04/18/2022  10:20 AM               154 apache-tomcat-9.0.62.zip.sha512
+04/18/2022  10:20 AM        11,560,971 apache-tomcat-9.0.62.tar.gz
+04/18/2022  10:20 AM               833 apache-tomcat-9.0.62.tar.gz.asc
+04/18/2022  10:21 AM               157 apache-tomcat-9.0.62.tar.gz.sha512
+04/18/2022  10:21 AM        12,625,602 apache-tomcat-9.0.62-windows-x86.zip
+04/18/2022  10:21 AM               833 apache-tomcat-9.0.62-windows-x86.zip.asc
+04/18/2022  10:21 AM               166 apache-tomcat-9.0.62-windows-x86.zip.sha512
+04/18/2022  10:21 AM        12,823,891 apache-tomcat-9.0.62-windows-x64.zip
+04/18/2022  10:21 AM               833 apache-tomcat-9.0.62-windows-x64.zip.asc
+04/18/2022  10:21 AM               166 apache-tomcat-9.0.62-windows-x64.zip.sha512
+04/18/2022  10:21 AM        12,376,040 apache-tomcat-9.0.62.exe
+04/18/2022  10:21 AM               833 apache-tomcat-9.0.62.exe.asc
+04/18/2022  10:21 AM               154 apache-tomcat-9.0.62.exe.sha512
+04/18/2022  10:21 AM         9,844,738 apache-tomcat-9.0.62-fulldocs.tar.gz
+04/18/2022  10:22 AM               833 apache-tomcat-9.0.62-fulldocs.tar.gz.asc
+04/18/2022  10:22 AM               166 apache-tomcat-9.0.62-fulldocs.tar.gz.sha512
+04/18/2022  10:45 AM       718,936,088 ideaIU-2022.1.exe
+04/18/2022  10:46 AM                84 ideaIU-2022.1.exe.sha256
+04/18/2022  10:46 AM       996,174,976 ideaIU-2022.1.win.zip
+04/18/2022  10:46 AM                88 ideaIU-2022.1.win.zip.sha256
+04/18/2022  10:47 AM       620,701,320 ideaIC-2022.1.exe
+04/18/2022  10:47 AM                84 ideaIC-2022.1.exe.sha256
+04/18/2022  10:48 AM       848,141,882 ideaIC-2022.1.win.zip
+04/18/2022  10:48 AM                88 ideaIC-2022.1.win.zip.sha256
+04/18/2022  10:49 AM       403,184,896 RubyMine-2022.1.exe
+04/18/2022  10:50 AM                86 RubyMine-2022.1.exe.sha256
+04/18/2022  10:54 AM       562,873,028 RubyMine-2022.1.win.zip
+04/18/2022  10:54 AM                90 RubyMine-2022.1.win.zip.sha256
+04/18/2022  10:55 AM            40,184 RubyMine_ReferenceCard.pdf
+04/18/2022  11:07 AM        79,463,864 VSCodeUserSetup-x64-1.66.2.exe
+04/18/2022  11:09 AM        79,463,544 VSCodeSetup-x64-1.66.2.exe
+04/18/2022  11:09 AM       109,124,276 VSCode-win32-x64-1.66.2.zip
+            1464 File(s) 116,610,456,127 bytes
+              39 Dir(s)  113,661,132,800 bytes free
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>
+

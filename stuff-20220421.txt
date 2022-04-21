@@ -1,0 +1,105 @@
+6:19 AM 4/21/2022
+
+https://blogs.apache.org/
+https://blogs.apache.org/security/
+https://blogs.apache.org/security/entry/cve-2021-44228
+
+Tuesday December 14, 2021
+Apache projects affected by log4j CVE-2021-44228
+
+This entry is where we will collect links to statements provided by ASF projects on if they are affected by CVE-2021-44228, the security issue in Log4j2. 
+
+Apache Lucene 	Affected, update to 8.11.1
+Apache POI 	Not affected, only uses log4j-api
+Apache Solr 	Affected, update to 8.11.1
+Apache Tika 	Affected (1.x is not affected as uses log4j 1.x)
+Apache Tomcat 	Not Affected
+
+https://lists.apache.org/thread/065766dldbv7o37cxopy2w41xws5mffb
+
+[ANNOUNCE] Apache Lucene 8.11.1 released
+Posted to announce@apache.org
+Jan Høydahl - Friday, December 17, 2021 5:54:16 PM EST
+
+The Lucene PMC is pleased to announce the release of Apache Lucene 8.11.1.
+
+Apache Lucene is a high-performance, full-featured text search engine 
+library written entirely in Java. It is a technology suitable for nearly 
+any application that requires full-text search, especially cross-platform.
+
+This release contains one bug fix. The release is available for 
+immediate download at:
+
+   <https://lucene.apache.org/core/downloads.html>
+
+Lucene 8.11.1 Release Highlights:
+
+  * Log4j is upgraded to v2.16.0 to mitigate CVE-2021-44228 (for Luke users)
+
+Attachment(s):
+OpenPGP_signature 840 bytes
+
+https://lucene.apache.org/core/downloads.html
+https://www.apache.org/dyn/closer.cgi#verify
+https://lucene.apache.org/core/systemreqs.html
+https://lucene.apache.org/core/9_1_0/SYSTEM_REQUIREMENTS.html
+https://lucene.apache.org/core/8_11_1/SYSTEM_REQUIREMENTS.html
+https://lucene.apache.org/core/8_11_1/changes/Changes.html
+https://lucene.apache.org/core/9_1_0/changes/Changes.html
+
+Release 9.1.0
+Release 9.0.0 [2021-12-07]
+
+System Requirements   (1)
+    LUCENE-8738: Move to Java 11 as minimum Java version. 
+
+Older Releases
+Release 8.11.1 [2021-12-17]
+
+    Bug Fixes   (1)
+        SOLR-15843: Update Log4J to 2.16
+
+Release 8.11.0 [2021-11-16]
+Release 8.10.1 [2021-10-18]
+Release 8.10.0 [2021-09-27]
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>dir /o:gd apache-tomcat-9.0.62*
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\Downloads
+
+04/18/2022  10:20 AM            14,245 apache-tomcat-9.0.62.KEYS.txt
+04/18/2022  10:20 AM        12,102,301 apache-tomcat-9.0.62.zip
+04/18/2022  10:20 AM               833 apache-tomcat-9.0.62.zip.asc
+04/18/2022  10:20 AM               154 apache-tomcat-9.0.62.zip.sha512
+04/18/2022  10:20 AM        11,560,971 apache-tomcat-9.0.62.tar.gz
+04/18/2022  10:20 AM               833 apache-tomcat-9.0.62.tar.gz.asc
+04/18/2022  10:21 AM               157 apache-tomcat-9.0.62.tar.gz.sha512
+04/18/2022  10:21 AM        12,625,602 apache-tomcat-9.0.62-windows-x86.zip
+04/18/2022  10:21 AM               833 apache-tomcat-9.0.62-windows-x86.zip.asc
+04/18/2022  10:21 AM               166 apache-tomcat-9.0.62-windows-x86.zip.sha512
+04/18/2022  10:21 AM        12,823,891 apache-tomcat-9.0.62-windows-x64.zip
+04/18/2022  10:21 AM               833 apache-tomcat-9.0.62-windows-x64.zip.asc
+04/18/2022  10:21 AM               166 apache-tomcat-9.0.62-windows-x64.zip.sha512
+04/18/2022  10:21 AM        12,376,040 apache-tomcat-9.0.62.exe
+04/18/2022  10:21 AM               833 apache-tomcat-9.0.62.exe.asc
+04/18/2022  10:21 AM               154 apache-tomcat-9.0.62.exe.sha512
+04/18/2022  10:21 AM         9,844,738 apache-tomcat-9.0.62-fulldocs.tar.gz
+04/18/2022  10:22 AM               833 apache-tomcat-9.0.62-fulldocs.tar.gz.asc
+04/18/2022  10:22 AM               166 apache-tomcat-9.0.62-fulldocs.tar.gz.sha512
+              19 File(s)     71,353,749 bytes
+               0 Dir(s)  113,341,566,976 bytes free
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>certUtil -hashfile apache-tomcat-9.0.62-windows-x64.zip SHA512
+SHA512 hash of apache-tomcat-9.0.62-windows-x64.zip:
+fc44356c8b59e878631036bf9fd32203e0eaa66421cd34efc88afc534fd861ea428c3a596f6aff19482529d2422a333f6373eea3167289f0f74fb8c50f6ef62c
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\David Holberton\Downloads>type apache-tomcat-9.0.62-windows-x64.zip.sha512
+fc44356c8b59e878631036bf9fd32203e0eaa66421cd34efc88afc534fd861ea428c3a596f6aff19482529d2422a333f6373eea3167289f0f74fb8c50f6ef62c *apache-tomcat-9.0.62-windows-x64.zip
+C:\Users\David Holberton\Downloads>
