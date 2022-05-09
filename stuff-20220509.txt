@@ -1,0 +1,67 @@
+5:27 AM 5/9/2022
+
+https://portal.udev2dev.com
+https://github.udev2dev.com/   =>   Not signed in (Person 1)
+
+Repositories
+Find a repository…
+davidholrepo1
+davihol / davidholrepo1
+
+https://github.udev2dev.com/new   =>   Signed in as davihol
+https://github.udev2dev.com/davihol   =>   Signed in as davihol
+
+You don't have any public repositories yet.
+
+https://github.udev2dev.com/davihol?tab=repositories
+
+davidholrepo1 Private
+created via google chrome browser running on MS Windows 10 at URL https://github.udev2dev.com/new
+Updated 17 hours ago
+
+https://github.udev2dev.com/maximus
+
+maximus doesn't have any pinned public repositories yet.
+
+https://github.udev2dev.com/orgs/maximus/repositories
+
+This organization has no public repositories.
+
+https://github.udev2dev.com/orgs/maximus/people
+
+This organization has no public members.
+
+git clone git@github.udev2dev.com:davihol/davidholrepo1.git
+
+C:\Users\David Holberton\temp>git clone git@github.udev2dev.com:davihol/davidholrepo1.git
+Cloning into 'davidholrepo1'...
+git@github.udev2dev.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\David Holberton\temp>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://stufidos.udev2dev.com/
+
+Preparing UFidos...
+UFidos instances now launch on-demand for increased security and cost management.
+This should only take a minute or two.
+When your instance is ready, this page will automatically redirect you...
+
+https://stufidos.udev2dev.com/
+
+noVNC
+"Connect" button
+Xfce Desktop Environment in an MS Windows 10 Google Chrome brower tab
+
+
+
+
+
+
+
+

@@ -1,0 +1,547 @@
+1:36 PM 5/4/2022
+
+Microsoft Windows [Version 10.0.19043.1645]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\David Holberton>
+C:\Users\David Holberton>
+
+Once you connected to the Udev2dev Environment, the services you will have access to are listed:  
+General Info for Udev2dev & uFidOS: https://portal.udev2dev.com
+GitHub: https://github.udev2dev.com 
+Jenkins: https://jenkins.udev2dev.com 
+JIRA: https://jira.udev2dev.com
+Confluence: https://confluence.udev2dev.com
+Nexus: https://nexus.udev2dev.com 
+SonarQube: https://sonarqube.udev2dev.com 
+
+2022-05-04 13:35:33 |  b9c | OpenConnect-GUI VPN client (1.5.3) logging started...
+2022-05-04 13:35:37 | 3b2c | POST https://uservpn.udev2dev.com/
+2022-05-04 13:35:37 | 3b2c | Attempting to connect to server 23.22.216.200:443
+2022-05-04 13:35:37 | 3b2c | Connected to 23.22.216.200:443
+2022-05-04 13:35:37 | 3b2c | There was a non-CA certificate in the trusted list: OU=Copyright (c) 1997 Microsoft Corp.,OU=Microsoft Corporation,CN=Microsoft Root Authority.
+2022-05-04 13:35:37 | 3b2c | There was a non-CA certificate in the trusted list: C=US,O=MSFT,CN=Microsoft Authenticode(tm) Root Authority.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=Root Agency.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-04 13:35:38 | 3b2c | Using certificate file C:/Program Files (x86)/OpenConnect-GUI/tmp-certbBcNGv
+2022-05-04 13:35:38 | 3b2c | Using private key file C:/Program Files (x86)/OpenConnect-GUI/tmp-keyYsIunN
+2022-05-04 13:35:38 | 3b2c | Using client certificate 'davihol'
+2022-05-04 13:35:38 | 3b2c | SSL negotiation with uservpn.udev2dev.com
+2022-05-04 13:35:38 | 3b2c | Connected to HTTPS on uservpn.udev2dev.com
+2022-05-04 13:35:38 | 3b2c | Got HTTP response: HTTP/1.1 200 OK
+2022-05-04 13:35:38 | 3b2c | Connection: Keep-Alive
+2022-05-04 13:35:38 | 3b2c | Content-Type: text/xml
+2022-05-04 13:35:38 | 3b2c | Content-Length: 665
+2022-05-04 13:35:38 | 3b2c | X-Transcend-Version: 1
+2022-05-04 13:35:38 | 3b2c | Set-Cookie: webvpncontext=AP4g5R2vcf71FcTqOc6nNpsZqR6uV2lgnOiRYsqXm38=; Secure; HttpOnly
+2022-05-04 13:35:38 | 3b2c | Set-Cookie: webvpn=<elided>; Secure; HttpOnly
+2022-05-04 13:35:38 | 3b2c | Set-Cookie: webvpnc=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; Secure; HttpOnly
+2022-05-04 13:35:38 | 3b2c | Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+2022-05-04 13:35:38 | 3b2c | X-Frame-Options: deny
+2022-05-04 13:35:38 | 3b2c | X-Content-Type-Options: nosniff
+2022-05-04 13:35:38 | 3b2c | Content-Security-Policy: default-src 'none'
+2022-05-04 13:35:38 | 3b2c | X-Permitted-Cross-Domain-Policies: none
+2022-05-04 13:35:38 | 3b2c | Referrer-Policy: no-referrer
+2022-05-04 13:35:38 | 3b2c | Clear-Site-Data: "cache","cookies","storage"
+2022-05-04 13:35:38 | 3b2c | Cross-Origin-Embedder-Policy: require-corp
+2022-05-04 13:35:38 | 3b2c | Cross-Origin-Opener-Policy: same-origin
+2022-05-04 13:35:38 | 3b2c | Cross-Origin-Resource-Policy: same-origin
+2022-05-04 13:35:38 | 3b2c | X-XSS-Protection: 0
+2022-05-04 13:35:38 | 3b2c | Set-Cookie: webvpnc=bu:/&p:t&iu:1/&sh:76241309D1F9E82FE44A8571EE6246F4459AB5D9&lu:/+CSCOT+/translation-table?textdomain%3DAnyConnect%26type%3Dmanifest&fu:profiles
+F/data/2/ocserv/profile.xml&fh:D8E7DA12D898E62719E0D29020D937B569DA0AF7; path=/; Secure; HttpOnly
+2022-05-04 13:35:38 | 3b2c | HTTP body length:  (665)
+2022-05-04 13:35:38 | 3b2c | XML POST enabled
+2022-05-04 13:35:38 | 3b2c | SSL negotiation with uservpn.udev2dev.com
+2022-05-04 13:35:38 | 3b2c | Connected to HTTPS on uservpn.udev2dev.com
+2022-05-04 13:35:38 | 3b2c | Got CONNECT response: HTTP/1.1 200 CONNECTED
+2022-05-04 13:35:38 | 3b2c | X-CSTP-Version: 1
+2022-05-04 13:35:38 | 3b2c | X-CSTP-Server-Name: ocserv 1.1.6
+2022-05-04 13:35:38 | 3b2c | X-CSTP-Hostname: localhost
+2022-05-04 13:35:38 | 3b2c | X-CSTP-DPD: 90
+2022-05-04 13:35:38 | 3b2c | X-CSTP-Default-Domain: udev2dev.com
+2022-05-04 13:35:38 | 3b2c | X-CSTP-Address: 192.168.99.235
+2022-05-04 13:35:38 | 3b2c | X-CSTP-Netmask: 255.255.255.0
+2022-05-04 13:35:38 | 3b2c | X-CSTP-DNS: 172.16.0.2
+2022-05-04 13:35:38 | 3b2c | X-CSTP-Split-DNS: udev2dev.com
+2022-05-04 13:35:38 | 3b2c | X-CSTP-Split-Include: 172.16.0.0/255.255.0.0
+2022-05-04 13:35:38 | 3b2c | X-CSTP-Tunnel-All-DNS: false
+2022-05-04 13:35:38 | 3b2c | X-CSTP-Client-Bypass-Protocol: false
+2022-05-04 13:35:38 | 3b2c | X-CSTP-Keepalive: 3600
+2022-05-04 13:35:38 | 3b2c | X-CSTP-Idle-Timeout: 900
+2022-05-04 13:35:38 | 3b2c | X-CSTP-Smartcard-Removal-Disconnect: true
+2022-05-04 13:35:38 | 3b2c | X-CSTP-DynDNS: true
+2022-05-04 13:35:38 | 3b2c | X-CSTP-Rekey-Time: 43208
+2022-05-04 13:35:38 | 3b2c | X-CSTP-Rekey-Method: ssl
+2022-05-04 13:35:38 | 3b2c | X-CSTP-Session-Timeout: 14400
+2022-05-04 13:35:38 | 3b2c | X-CSTP-Session-Timeout-Remaining: 14400
+2022-05-04 13:35:38 | 3b2c | X-CSTP-Disconnected-Timeout: none
+2022-05-04 13:35:38 | 3b2c | X-CSTP-Keep: true
+2022-05-04 13:35:38 | 3b2c | X-CSTP-TCP-Keepalive: true
+2022-05-04 13:35:38 | 3b2c | X-CSTP-License: accept
+2022-05-04 13:35:38 | 3b2c | X-DTLS-DPD: 90
+2022-05-04 13:35:38 | 3b2c | X-DTLS-Port: 443
+2022-05-04 13:35:38 | 3b2c | X-DTLS-Rekey-Time: 43218
+2022-05-04 13:35:38 | 3b2c | X-DTLS-Rekey-Method: ssl
+2022-05-04 13:35:38 | 3b2c | X-DTLS-Keepalive: 3600
+2022-05-04 13:35:38 | 3b2c | X-DTLS-App-ID: da97785c08072d6d02c903de3c05bd27102c6066eaf52731ff19dc37602c3c8d
+2022-05-04 13:35:38 | 3b2c | X-DTLS-CipherSuite: PSK-NEGOTIATE
+2022-05-04 13:35:38 | 3b2c | X-CSTP-Base-MTU: 1406
+2022-05-04 13:35:38 | 3b2c | X-CSTP-MTU: 1340
+2022-05-04 13:35:38 | 3b2c | X-CSTP-Banner: By using this system you consent that at any time the Government may monitor, intercept, search or seize any transmitted or stored data which may be used for any lawful Government purpose
+2022-05-04 13:35:38 | 3b2c | X-DTLS-Content-Encoding: lzs
+2022-05-04 13:35:38 | 3b2c | X-CSTP-Content-Encoding: lzs
+2022-05-04 13:35:38 | 3b2c | CSTP connected. DPD 90, Keepalive 3600
+2022-05-04 13:35:38 | 3b2c | CSTP Ciphersuite: (TLS1.2)-(ECDHE-RSA-SECP256R1)-(AES-256-GCM)
+2022-05-04 13:35:38 | 3b2c | Opened tun device Ethernet 4
+2022-05-04 13:35:38 | 3b2c | TAP-Windows driver v9.21 (0)
+2022-05-04 13:35:43 | 3b2c | <<-- [EXEC] route print
+2022-05-04 13:35:43 | 3b2c | ===========================================================================
+2022-05-04 13:35:43 | 3b2c | Interface List
+2022-05-04 13:35:43 | 3b2c |  49...........................WireGuard Tunnel
+2022-05-04 13:35:43 | 3b2c |  22...00 e0 4c 68 f1 1e ......Realtek USB GbE Family Controller #2
+2022-05-04 13:35:43 | 3b2c |  13...9c b6 d0 de 1a 3f ......Killer Wireless-n/a/ac 1535 Wireless Network Adapter
+2022-05-04 13:35:43 | 3b2c |   7...9e b6 d0 de 1a 3f ......Microsoft Wi-Fi Direct Virtual Adapter
+2022-05-04 13:35:43 | 3b2c |  14...ae b6 d0 de 1a 3f ......Microsoft Wi-Fi Direct Virtual Adapter #3
+2022-05-04 13:35:43 | 3b2c |  11...00 ff 4e 0c ca ac ......TAP-Windows Adapter V9
+2022-05-04 13:35:43 | 3b2c |   3...9c b6 d0 de 1a 40 ......Bluetooth Device (Personal Area Network) #3
+2022-05-04 13:35:43 | 3b2c |   1...........................Software Loopback Interface 1
+2022-05-04 13:35:43 | 3b2c | ===========================================================================
+2022-05-04 13:35:43 | 3b2c | 
+2022-05-04 13:35:43 | 3b2c | IPv4 Route Table
+2022-05-04 13:35:43 | 3b2c | ===========================================================================
+2022-05-04 13:35:43 | 3b2c | Active Routes:
+2022-05-04 13:35:43 | 3b2c | Network Destination        Netmask          Gateway       Interface  Metric
+2022-05-04 13:35:43 | 3b2c |           0.0.0.0          0.0.0.0     192.168.86.1   192.168.86.247     25
+2022-05-04 13:35:43 | 3b2c |           0.0.0.0          0.0.0.0         On-link         10.0.0.21      0
+2022-05-04 13:35:43 | 3b2c |          10.0.0.0    255.255.255.0         On-link         10.0.0.21    256
+2022-05-04 13:35:43 | 3b2c |         10.0.0.21  255.255.255.255         On-link         10.0.0.21    256
+2022-05-04 13:35:43 | 3b2c |        10.0.0.255  255.255.255.255         On-link         10.0.0.21    256
+2022-05-04 13:35:43 | 3b2c |         127.0.0.0        255.0.0.0         On-link         127.0.0.1    331
+2022-05-04 13:35:43 | 3b2c |         127.0.0.1  255.255.255.255         On-link         127.0.0.1    331
+2022-05-04 13:35:43 | 3b2c |   127.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+2022-05-04 13:35:43 | 3b2c |      192.168.86.0    255.255.255.0         On-link    192.168.86.247    281
+2022-05-04 13:35:43 | 3b2c |    192.168.86.247  255.255.255.255         On-link    192.168.86.247    281
+2022-05-04 13:35:43 | 3b2c |    192.168.86.255  255.255.255.255         On-link    192.168.86.247    281
+2022-05-04 13:35:43 | 3b2c |         224.0.0.0        240.0.0.0         On-link         127.0.0.1    331
+2022-05-04 13:35:43 | 3b2c |         224.0.0.0        240.0.0.0         On-link    192.168.86.247    281
+2022-05-04 13:35:43 | 3b2c |         224.0.0.0        240.0.0.0         On-link                 b    291
+2022-05-04 13:35:43 | 3b2c |   255.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+2022-05-04 13:35:43 | 3b2c |   255.255.255.255  255.255.255.255         On-link    192.168.86.247    281
+2022-05-04 13:35:43 | 3b2c |   255.255.255.255  255.255.255.255         On-link                 b    291
+2022-05-04 13:35:43 | 3b2c | ===========================================================================
+2022-05-04 13:35:43 | 3b2c | Persistent Routes:
+2022-05-04 13:35:43 | 3b2c |   None
+2022-05-04 13:35:43 | 3b2c | 
+2022-05-04 13:35:43 | 3b2c | IPv6 Route Table
+2022-05-04 13:35:43 | 3b2c | ===========================================================================
+2022-05-04 13:35:43 | 3b2c | Active Routes:
+2022-05-04 13:35:43 | 3b2c |  If Metric Network Destination      Gateway
+2022-05-04 13:35:43 | 3b2c |   1    331 ::1/128                  On-link
+2022-05-04 13:35:43 | 3b2c |  22    281 fe80::/64                On-link
+2022-05-04 13:35:43 | 3b2c |  11    291 fe80::/64                On-link
+2022-05-04 13:35:43 | 3b2c |  11    291 fe80::9088:36b6:a994:7b17/128
+2022-05-04 13:35:43 | 3b2c |                                     On-link
+2022-05-04 13:35:43 | 3b2c |  22    281 fe80::e02c:f11b:27b6:8751/128
+2022-05-04 13:35:43 | 3b2c |                                     On-link
+2022-05-04 13:35:43 | 3b2c |   1    331 ff00::/8                 On-link
+2022-05-04 13:35:43 | 3b2c |  22    281 ff00::/8                 On-link
+2022-05-04 13:35:43 | 3b2c |  11    291 ff00::/8                 On-link
+2022-05-04 13:35:43 | 3b2c | ===========================================================================
+2022-05-04 13:35:43 | 3b2c | Persistent Routes:
+2022-05-04 13:35:43 | 3b2c |   None
+2022-05-04 13:35:43 | 3b2c | -->> (exitCode: 0)
+2022-05-04 13:35:43 | 3b2c | Default Gateway:192.168.86.1
+2022-05-04 13:35:43 | 3b2c | VPN Gateway: 23.22.216.200
+2022-05-04 13:35:43 | 3b2c | Internal Address: 192.168.99.235
+2022-05-04 13:35:43 | 3b2c | Internal Netmask: 255.255.255.0
+2022-05-04 13:35:43 | 3b2c | Internal Gateway: 192.168.99.1
+2022-05-04 13:35:43 | 3b2c | Interface idx: 11 ("Ethernet 4")
+2022-05-04 13:35:43 | 3b2c | <<-- [EXEC] route add 23.22.216.200 mask 255.255.255.255 192.168.86.1
+2022-05-04 13:35:43 | 3b2c |  OK!
+2022-05-04 13:35:43 | 3b2c | -->> (exitCode: 0)
+2022-05-04 13:35:43 | 3b2c | MTU: 1340
+2022-05-04 13:35:43 | 3b2c | <<-- [EXEC] netsh interface ipv4 set subinterface 11 mtu=1340 store=active
+2022-05-04 13:35:43 | 3b2c | Ok.
+2022-05-04 13:35:43 | 3b2c | 
+2022-05-04 13:35:43 | 3b2c | -->> (exitCode: 0)
+2022-05-04 13:35:43 | 3b2c | Configuring 11 interface for Legacy IP...
+2022-05-04 13:35:43 | 3b2c | <<-- [EXEC] netsh interface ip set address 11 static 192.168.99.235 255.255.255.0
+2022-05-04 13:35:43 | 3b2c | 
+2022-05-04 13:35:43 | 3b2c | -->> (exitCode: 0)
+2022-05-04 13:35:43 | 3b2c | <<-- [EXEC] netsh interface ip add dns 11 172.16.0.2 index=1
+2022-05-04 13:35:43 | 3b2c | The object is already in the list.
+2022-05-04 13:35:43 | 3b2c | 
+2022-05-04 13:35:43 | 3b2c | 
+2022-05-04 13:35:43 | 3b2c | -->> (exitCode: 1)
+2022-05-04 13:35:43 | 3b2c | done.
+2022-05-04 13:35:43 | 3b2c | Configuring Legacy IP networks:
+2022-05-04 13:35:43 | 3b2c | Waiting for interface to come up...
+2022-05-04 13:35:43 | 3b2c | <<-- [EXEC] route print
+2022-05-04 13:35:43 | 3b2c | ===========================================================================
+2022-05-04 13:35:43 | 3b2c | Interface List
+2022-05-04 13:35:43 | 3b2c |  49...........................WireGuard Tunnel
+2022-05-04 13:35:43 | 3b2c |  22...00 e0 4c 68 f1 1e ......Realtek USB GbE Family Controller #2
+2022-05-04 13:35:43 | 3b2c |  13...9c b6 d0 de 1a 3f ......Killer Wireless-n/a/ac 1535 Wireless Network Adapter
+2022-05-04 13:35:43 | 3b2c |   7...9e b6 d0 de 1a 3f ......Microsoft Wi-Fi Direct Virtual Adapter
+2022-05-04 13:35:43 | 3b2c |  14...ae b6 d0 de 1a 3f ......Microsoft Wi-Fi Direct Virtual Adapter #3
+2022-05-04 13:35:43 | 3b2c |  11...00 ff 4e 0c ca ac ......TAP-Windows Adapter V9
+2022-05-04 13:35:43 | 3b2c |   3...9c b6 d0 de 1a 40 ......Bluetooth Device (Personal Area Network) #3
+2022-05-04 13:35:43 | 3b2c |   1...........................Software Loopback Interface 1
+2022-05-04 13:35:43 | 3b2c | ===========================================================================
+2022-05-04 13:35:43 | 3b2c | 
+2022-05-04 13:35:43 | 3b2c | IPv4 Route Table
+2022-05-04 13:35:43 | 3b2c | ===========================================================================
+2022-05-04 13:35:43 | 3b2c | Active Routes:
+2022-05-04 13:35:43 | 3b2c | Network Destination        Netmask          Gateway       Interface  Metric
+2022-05-04 13:35:43 | 3b2c |           0.0.0.0          0.0.0.0     192.168.86.1   192.168.86.247     25
+2022-05-04 13:35:43 | 3b2c |           0.0.0.0          0.0.0.0         On-link         10.0.0.21      0
+2022-05-04 13:35:43 | 3b2c |          10.0.0.0    255.255.255.0         On-link         10.0.0.21    256
+2022-05-04 13:35:43 | 3b2c |         10.0.0.21  255.255.255.255         On-link         10.0.0.21    256
+2022-05-04 13:35:43 | 3b2c |        10.0.0.255  255.255.255.255         On-link         10.0.0.21    256
+2022-05-04 13:35:43 | 3b2c |     23.22.216.200  255.255.255.255     192.168.86.1   192.168.86.247     26
+2022-05-04 13:35:43 | 3b2c |         127.0.0.0        255.0.0.0         On-link         127.0.0.1    331
+2022-05-04 13:35:43 | 3b2c |         127.0.0.1  255.255.255.255         On-link         127.0.0.1    331
+2022-05-04 13:35:43 | 3b2c |   127.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+2022-05-04 13:35:43 | 3b2c |      192.168.86.0    255.255.255.0         On-link    192.168.86.247    281
+2022-05-04 13:35:43 | 3b2c |    192.168.86.247  255.255.255.255         On-link    192.168.86.247    281
+2022-05-04 13:35:43 | 3b2c |    192.168.86.255  255.255.255.255         On-link    192.168.86.247    281
+2022-05-04 13:35:43 | 3b2c |         224.0.0.0        240.0.0.0         On-link         127.0.0.1    331
+2022-05-04 13:35:43 | 3b2c |         224.0.0.0        240.0.0.0         On-link    192.168.86.247    281
+2022-05-04 13:35:43 | 3b2c |         224.0.0.0        240.0.0.0         On-link                 b    291
+2022-05-04 13:35:43 | 3b2c |   255.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+2022-05-04 13:35:43 | 3b2c |   255.255.255.255  255.255.255.255         On-link    192.168.86.247    281
+2022-05-04 13:35:43 | 3b2c |   255.255.255.255  255.255.255.255         On-link                 b    291
+2022-05-04 13:35:43 | 3b2c | ===========================================================================
+2022-05-04 13:35:43 | 3b2c | Persistent Routes:
+2022-05-04 13:35:43 | 3b2c |   None
+2022-05-04 13:35:43 | 3b2c | 
+2022-05-04 13:35:43 | 3b2c | IPv6 Route Table
+2022-05-04 13:35:43 | 3b2c | ===========================================================================
+2022-05-04 13:35:43 | 3b2c | Active Routes:
+2022-05-04 13:35:43 | 3b2c |  If Metric Network Destination      Gateway
+2022-05-04 13:35:43 | 3b2c |   1    331 ::1/128                  On-link
+2022-05-04 13:35:43 | 3b2c |  22    281 fe80::/64                On-link
+2022-05-04 13:35:43 | 3b2c |  11    291 fe80::/64                On-link
+2022-05-04 13:35:43 | 3b2c |  11    291 fe80::9088:36b6:a994:7b17/128
+2022-05-04 13:35:43 | 3b2c |                                     On-link
+2022-05-04 13:35:43 | 3b2c |  22    281 fe80::e02c:f11b:27b6:8751/128
+2022-05-04 13:35:43 | 3b2c |                                     On-link
+2022-05-04 13:35:43 | 3b2c |   1    331 ff00::/8                 On-link
+2022-05-04 13:35:43 | 3b2c |  22    281 ff00::/8                 On-link
+2022-05-04 13:35:43 | 3b2c |  11    291 ff00::/8                 On-link
+2022-05-04 13:35:43 | 3b2c | ===========================================================================
+2022-05-04 13:35:43 | 3b2c | Persistent Routes:
+2022-05-04 13:35:43 | 3b2c |   None
+2022-05-04 13:35:43 | 3b2c | -->> (exitCode: 0)
+2022-05-04 13:35:43 | 3b2c | Waiting for interface to come up...
+2022-05-04 13:35:43 | 3b2c | <<-- [EXEC] route print
+2022-05-04 13:35:43 | 3b2c | ===========================================================================
+2022-05-04 13:35:43 | 3b2c | Interface List
+2022-05-04 13:35:43 | 3b2c |  49...........................WireGuard Tunnel
+2022-05-04 13:35:43 | 3b2c |  22...00 e0 4c 68 f1 1e ......Realtek USB GbE Family Controller #2
+2022-05-04 13:35:43 | 3b2c |  13...9c b6 d0 de 1a 3f ......Killer Wireless-n/a/ac 1535 Wireless Network Adapter
+2022-05-04 13:35:43 | 3b2c |   7...9e b6 d0 de 1a 3f ......Microsoft Wi-Fi Direct Virtual Adapter
+2022-05-04 13:35:43 | 3b2c |  14...ae b6 d0 de 1a 3f ......Microsoft Wi-Fi Direct Virtual Adapter #3
+2022-05-04 13:35:43 | 3b2c |  11...00 ff 4e 0c ca ac ......TAP-Windows Adapter V9
+2022-05-04 13:35:43 | 3b2c |   3...9c b6 d0 de 1a 40 ......Bluetooth Device (Personal Area Network) #3
+2022-05-04 13:35:43 | 3b2c |   1...........................Software Loopback Interface 1
+2022-05-04 13:35:43 | 3b2c | ===========================================================================
+2022-05-04 13:35:43 | 3b2c | 
+2022-05-04 13:35:43 | 3b2c | IPv4 Route Table
+2022-05-04 13:35:43 | 3b2c | ===========================================================================
+2022-05-04 13:35:43 | 3b2c | Active Routes:
+2022-05-04 13:35:43 | 3b2c | Network Destination        Netmask          Gateway       Interface  Metric
+2022-05-04 13:35:43 | 3b2c |           0.0.0.0          0.0.0.0     192.168.86.1   192.168.86.247     25
+2022-05-04 13:35:43 | 3b2c |           0.0.0.0          0.0.0.0         On-link         10.0.0.21      0
+2022-05-04 13:35:43 | 3b2c |          10.0.0.0    255.255.255.0         On-link         10.0.0.21    256
+2022-05-04 13:35:43 | 3b2c |         10.0.0.21  255.255.255.255         On-link         10.0.0.21    256
+2022-05-04 13:35:43 | 3b2c |        10.0.0.255  255.255.255.255         On-link         10.0.0.21    256
+2022-05-04 13:35:43 | 3b2c |     23.22.216.200  255.255.255.255     192.168.86.1   192.168.86.247     26
+2022-05-04 13:35:43 | 3b2c |         127.0.0.0        255.0.0.0         On-link         127.0.0.1    331
+2022-05-04 13:35:43 | 3b2c |         127.0.0.1  255.255.255.255         On-link         127.0.0.1    331
+2022-05-04 13:35:43 | 3b2c |   127.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+2022-05-04 13:35:43 | 3b2c |      192.168.86.0    255.255.255.0         On-link    192.168.86.247    281
+2022-05-04 13:35:43 | 3b2c |    192.168.86.247  255.255.255.255         On-link    192.168.86.247    281
+2022-05-04 13:35:43 | 3b2c |    192.168.86.255  255.255.255.255         On-link    192.168.86.247    281
+2022-05-04 13:35:43 | 3b2c |      192.168.99.0    255.255.255.0         On-link    192.168.99.235    291
+2022-05-04 13:35:43 | 3b2c |    192.168.99.235  255.255.255.255         On-link    192.168.99.235    291
+2022-05-04 13:35:43 | 3b2c |    192.168.99.255  255.255.255.255         On-link    192.168.99.235    291
+2022-05-04 13:35:43 | 3b2c |         224.0.0.0        240.0.0.0         On-link         127.0.0.1    331
+2022-05-04 13:35:43 | 3b2c |         224.0.0.0        240.0.0.0         On-link    192.168.86.247    281
+2022-05-04 13:35:43 | 3b2c |         224.0.0.0        240.0.0.0         On-link    192.168.99.235    291
+2022-05-04 13:35:43 | 3b2c |   255.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+2022-05-04 13:35:43 | 3b2c |   255.255.255.255  255.255.255.255         On-link    192.168.86.247    281
+2022-05-04 13:35:43 | 3b2c |   255.255.255.255  255.255.255.255         On-link    192.168.99.235    291
+2022-05-04 13:35:43 | 3b2c | ===========================================================================
+2022-05-04 13:35:43 | 3b2c | Persistent Routes:
+2022-05-04 13:35:43 | 3b2c |   None
+2022-05-04 13:35:43 | 3b2c | 
+2022-05-04 13:35:43 | 3b2c | IPv6 Route Table
+2022-05-04 13:35:43 | 3b2c | ===========================================================================
+2022-05-04 13:35:43 | 3b2c | Active Routes:
+2022-05-04 13:35:43 | 3b2c |  If Metric Network Destination      Gateway
+2022-05-04 13:35:43 | 3b2c |   1    331 ::1/128                  On-link
+2022-05-04 13:35:43 | 3b2c |  22    281 fe80::/64                On-link
+2022-05-04 13:35:43 | 3b2c |  11    291 fe80::/64                On-link
+2022-05-04 13:35:43 | 3b2c |  11    291 fe80::9088:36b6:a994:7b17/128
+2022-05-04 13:35:43 | 3b2c |                                     On-link
+2022-05-04 13:35:43 | 3b2c |  22    281 fe80::e02c:f11b:27b6:8751/128
+2022-05-04 13:35:43 | 3b2c |                                     On-link
+2022-05-04 13:35:43 | 3b2c |   1    331 ff00::/8                 On-link
+2022-05-04 13:35:43 | 3b2c |  22    281 ff00::/8                 On-link
+2022-05-04 13:35:43 | 3b2c |  11    291 ff00::/8                 On-link
+2022-05-04 13:35:43 | 3b2c | ===========================================================================
+2022-05-04 13:35:43 | 3b2c | Persistent Routes:
+2022-05-04 13:35:43 | 3b2c |   None
+2022-05-04 13:35:43 | 3b2c | -->> (exitCode: 0)
+2022-05-04 13:35:43 | 3b2c | <<-- [EXEC] route add 172.16.0.0 mask 255.255.0.0 192.168.99.1
+2022-05-04 13:35:43 | 3b2c |  OK!
+2022-05-04 13:35:43 | 3b2c | -->> (exitCode: 0)
+2022-05-04 13:35:43 | 3b2c | Route configuration done.
+2022-05-04 13:35:43 | 3b2c | --------------------- BANNER ---------------------
+2022-05-04 13:35:43 | 3b2c | By using this system you consent that at any time the Government may monitor, intercept, search or seize any transmitted or stored data which may be used for any lawful Government purpose
+2022-05-04 13:35:43 | 3b2c | ------------------- BANNER end -------------------
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+I am still seeing a connection failure in the OpenConnect-GUI VPN client logs (see below).  Is the new whitelisting now in effect (for the IP I address I provided yesterday)?
+
+Is there any additional information that I can provide?  Is it possible that, because I waited so long to make my initial attempt to connect, that my davihol authentication information is no longer valid?
+
+I thank you for any and all assistance you can provide that might resolve the issue I am experiencing.
+
+2022-05-04 13:49:35 | 3b2c | POST https://uservpn.udev2dev.com/
+2022-05-04 13:49:35 | 3b2c | Attempting to connect to server 54.163.65.103:443
+2022-05-04 13:49:56 | 3b2c | Failed to connect to 54.163.65.103:443: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2022-05-04 13:49:56 | 3b2c | Attempting to connect to server 23.22.216.200:443
+2022-05-04 13:50:17 | 3b2c | Failed to connect to 23.22.216.200:443: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2022-05-04 13:50:17 | 3b2c | Failed to connect to host uservpn.udev2dev.com
+2022-05-04 13:50:17 | 3b2c | Failed to open HTTPS connection to uservpn.udev2dev.com
+2022-05-04 13:50:17 | 3b2c | Authentication error; cannot obtain cookie
+2022-05-04 13:50:17 |  b9c | Disconnected
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+abouldin@avantusfederal.com
+
+Amy, I attempted to cc you on this email a couple of minutes ago, but I mistyped your email address.  Hopefully I have it correct this time.
+
+

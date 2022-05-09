@@ -1,0 +1,488 @@
+9:12 AM 4/30/2022
+
+https://www.oracle.com/java/technologies/downloads/
+https://docs.oracle.com/javase/8/docs/
+https://www.oracle.com/java/technologies/javase/jdk11-readme.html
+
+The web page said that it was providing Oracle Java 18.0.1 JDK, but the file downloaded did not contain the ".0.1" in the file name(s).  And the files I just downloaded have different file sizes than the Oracle Java 18.0.1 JDK files I downloaded in March 2022.  So I download the files anyway, and renamed them to include the ".0.1" in the file name(s).
+
+I am downloading updated Oracle Java JDK releases in order to run versions that resolved the "psychic signatures" issue (in 15-18?).
+
+https://neilmadden.blog/2022/04/19/psychic-signatures-in-java/
+https://www.techradar.com/news/serious-java-vulnerability-lets-hackers-masquerade-as-anyone-they-please
+https://arstechnica.com/information-technology/2022/04/major-crypto-blunder-in-java-enables-psychic-paper-forgeries/
+
+I observed the same problem when downloading the Oracle Java 17.0.3 JDK files -- no ".0.3" in the downloaded file names.  So I download the files anyway, and renamed them to include the ".0.3" in the file name(s).
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\David Holberton\Downloads>dir /o:gd jdk-18*
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\Downloads
+
+03/31/2022  05:01 PM       180,923,656 jdk-18_windows-x64_bin.zip
+03/31/2022  05:02 PM                64 jdk-18_windows-x64_bin.zip.sha256
+03/31/2022  05:02 PM       160,637,136 jdk-18_windows-x64_bin.exe
+03/31/2022  05:02 PM                64 jdk-18_windows-x64_bin.exe.sha256
+03/31/2022  05:02 PM       159,469,568 jdk-18_windows-x64_bin.msi
+03/31/2022  05:02 PM                64 jdk-18_windows-x64_bin.msi.sha256
+04/30/2022  09:33 AM       180,997,490 jdk-18_windows-x64_bin(1).zip
+04/30/2022  09:34 AM                64 jdk-18.0.1_windows-x64_bin.zip.sha256
+04/30/2022  09:34 AM       160,686,296 jdk-18_windows-x64_bin(1).exe
+04/30/2022  09:35 AM                64 jdk-18.0.1_windows-x64_bin.exe.sha256
+04/30/2022  09:35 AM       159,518,720 jdk-18_windows-x64_bin(1).msi
+04/30/2022  09:35 AM                64 jdk-18.0.1_windows-x64_bin.msi.sha256
+              12 File(s)  1,002,233,250 bytes
+               0 Dir(s)  112,636,833,792 bytes free
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>dir /o:gd jdk-18*
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\Downloads
+
+03/31/2022  05:01 PM       180,923,656 jdk-18_windows-x64_bin.zip
+03/31/2022  05:02 PM                64 jdk-18_windows-x64_bin.zip.sha256
+03/31/2022  05:02 PM       160,637,136 jdk-18_windows-x64_bin.exe
+03/31/2022  05:02 PM                64 jdk-18_windows-x64_bin.exe.sha256
+03/31/2022  05:02 PM       159,469,568 jdk-18_windows-x64_bin.msi
+03/31/2022  05:02 PM                64 jdk-18_windows-x64_bin.msi.sha256
+04/30/2022  09:33 AM       180,997,490 jdk-18.0.1_windows-x64_bin.zip
+04/30/2022  09:34 AM                64 jdk-18.0.1_windows-x64_bin.zip.sha256
+04/30/2022  09:34 AM       160,686,296 jdk-18.0.1_windows-x64_bin.exe
+04/30/2022  09:35 AM                64 jdk-18.0.1_windows-x64_bin.exe.sha256
+04/30/2022  09:35 AM       159,518,720 jdk-18.0.1_windows-x64_bin.msi
+04/30/2022  09:35 AM                64 jdk-18.0.1_windows-x64_bin.msi.sha256
+              12 File(s)  1,002,233,250 bytes
+               0 Dir(s)  112,624,676,864 bytes free
+
+C:\Users\David Holberton\Downloads>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\David Holberton\Downloads>dir /o:gd jdk-17*
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\Downloads
+
+10/27/2021  08:05 AM       179,128,454 jdk-17_windows-x64_bin.zip
+10/27/2021  08:06 AM                64 jdk-17_windows-x64_bin.zip.sha256
+10/27/2021  08:06 AM       159,410,512 jdk-17_windows-x64_bin.exe
+10/27/2021  08:06 AM                64 jdk-17_windows-x64_bin.exe.sha256
+10/27/2021  08:06 AM       158,248,960 jdk-17_windows-x64_bin.msi
+10/27/2021  08:06 AM                64 jdk-17_windows-x64_bin.msi.sha256
+01/21/2022  08:56 AM       179,660,173 jdk-17_windows-x64_bin(1).zip
+01/21/2022  08:56 AM       159,834,328 jdk-17_windows-x64_bin(1).exe
+01/21/2022  08:57 AM       158,666,752 jdk-17_windows-x64_bin(1).msi
+03/11/2022  08:40 AM       179,660,173 jdk-17.0.2_windows-x64_bin.zip
+03/11/2022  08:40 AM                64 jdk-17.0.2_windows-x64_bin.zip.sha256
+03/11/2022  08:40 AM       159,834,328 jdk-17.0.2_windows-x64_bin.exe
+03/11/2022  08:41 AM                64 jdk-17.0.2_windows-x64_bin.exe.sha256
+03/11/2022  08:41 AM       158,666,752 jdk-17.0.2_windows-x64_bin.msi
+03/11/2022  08:41 AM                64 jdk-17.0.2_windows-x64_bin.msi.sha256
+04/30/2022  09:51 AM       179,779,313 jdk-17_windows-x64_bin(2).zip
+04/30/2022  09:51 AM                64 jdk-17.0.3_windows-x64_bin.zip.sha256
+04/30/2022  09:51 AM       159,936,728 jdk-17_windows-x64_bin(2).exe
+04/30/2022  09:52 AM                64 jdk-17.0.3_windows-x64_bin.exe.sha256
+04/30/2022  09:52 AM       158,769,152 jdk-17_windows-x64_bin(2).msi
+04/30/2022  09:52 AM                64 jdk-17.0.3_windows-x64_bin.msi.sha256
+              21 File(s)  1,991,596,201 bytes
+               0 Dir(s)  111,865,171,968 bytes free
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>dir /o:gd jdk-17*
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\Downloads
+
+10/27/2021  08:05 AM       179,128,454 jdk-17_windows-x64_bin.zip
+10/27/2021  08:06 AM                64 jdk-17_windows-x64_bin.zip.sha256
+10/27/2021  08:06 AM       159,410,512 jdk-17_windows-x64_bin.exe
+10/27/2021  08:06 AM                64 jdk-17_windows-x64_bin.exe.sha256
+10/27/2021  08:06 AM       158,248,960 jdk-17_windows-x64_bin.msi
+10/27/2021  08:06 AM                64 jdk-17_windows-x64_bin.msi.sha256
+01/21/2022  08:56 AM       179,660,173 jdk-17_windows-x64_bin(1).zip
+01/21/2022  08:56 AM       159,834,328 jdk-17_windows-x64_bin(1).exe
+01/21/2022  08:57 AM       158,666,752 jdk-17_windows-x64_bin(1).msi
+03/11/2022  08:40 AM       179,660,173 jdk-17.0.2_windows-x64_bin.zip
+03/11/2022  08:40 AM                64 jdk-17.0.2_windows-x64_bin.zip.sha256
+03/11/2022  08:40 AM       159,834,328 jdk-17.0.2_windows-x64_bin.exe
+03/11/2022  08:41 AM                64 jdk-17.0.2_windows-x64_bin.exe.sha256
+03/11/2022  08:41 AM       158,666,752 jdk-17.0.2_windows-x64_bin.msi
+03/11/2022  08:41 AM                64 jdk-17.0.2_windows-x64_bin.msi.sha256
+04/30/2022  09:51 AM       179,779,313 jdk-17.0.3_windows-x64_bin.zip
+04/30/2022  09:51 AM                64 jdk-17.0.3_windows-x64_bin.zip.sha256
+04/30/2022  09:51 AM       159,936,728 jdk-17.0.3_windows-x64_bin.exe
+04/30/2022  09:52 AM                64 jdk-17.0.3_windows-x64_bin.exe.sha256
+04/30/2022  09:52 AM       158,769,152 jdk-17.0.3_windows-x64_bin.msi
+04/30/2022  09:52 AM                64 jdk-17.0.3_windows-x64_bin.msi.sha256
+              21 File(s)  1,991,596,201 bytes
+               0 Dir(s)  111,845,388,288 bytes free
+
+C:\Users\David Holberton\Downloads>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\David Holberton\Downloads>dir /o:gd jdk-8*
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\Downloads
+
+10/27/2021  08:12 AM       165,017,408 jdk-8u311-windows-i586.exe
+10/27/2021  08:12 AM       178,858,304 jdk-8u311-windows-x64.exe
+10/27/2021  08:14 AM        55,894,931 jdk-8u311-windows-i586-demos.zip
+10/27/2021  08:14 AM        55,915,652 jdk-8u311-windows-x64-demos.zip
+01/21/2022  08:47 AM       179,404,488 jdk-8u321-windows-x64.exe
+01/21/2022  08:51 AM        55,926,718 jdk-8u321-windows-x64-demos.zip
+03/11/2022  08:47 AM       179,404,488 jdk-8u321-windows-x64(1).exe
+04/30/2022  10:06 AM       180,917,960 jdk-8u331-windows-x64.exe
+04/30/2022  10:08 AM        55,926,682 jdk-8u331-windows-x64-demos.zip
+04/30/2022  10:09 AM       125,158,225 jdk-8u331-docs-all.zip
+              10 File(s)  1,232,424,856 bytes
+               0 Dir(s)  111,645,917,184 bytes free
+
+C:\Users\David Holberton\Downloads>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+04/30/2022  09:33 AM       180,997,490 jdk-18.0.1_windows-x64_bin.zip
+04/30/2022  09:34 AM                64 jdk-18.0.1_windows-x64_bin.zip.sha256
+04/30/2022  09:34 AM       160,686,296 jdk-18.0.1_windows-x64_bin.exe
+04/30/2022  09:35 AM                64 jdk-18.0.1_windows-x64_bin.exe.sha256
+04/30/2022  09:35 AM       159,518,720 jdk-18.0.1_windows-x64_bin.msi
+04/30/2022  09:35 AM                64 jdk-18.0.1_windows-x64_bin.msi.sha256
+04/30/2022  09:51 AM       179,779,313 jdk-17.0.3_windows-x64_bin.zip
+04/30/2022  09:51 AM                64 jdk-17.0.3_windows-x64_bin.zip.sha256
+04/30/2022  09:51 AM       159,936,728 jdk-17.0.3_windows-x64_bin.exe
+04/30/2022  09:52 AM                64 jdk-17.0.3_windows-x64_bin.exe.sha256
+04/30/2022  09:52 AM       158,769,152 jdk-17.0.3_windows-x64_bin.msi
+04/30/2022  09:52 AM                64 jdk-17.0.3_windows-x64_bin.msi.sha256
+04/30/2022  10:06 AM       180,917,960 jdk-8u331-windows-x64.exe
+04/30/2022  10:07 AM            11,270 8u331checksum.html
+04/30/2022  10:08 AM        55,926,682 jdk-8u331-windows-x64-demos.zip
+04/30/2022  10:08 AM        55,669,983 server-jre-8u331-linux-x64.tar.gz
+04/30/2022  10:09 AM       125,158,225 jdk-8u331-docs-all.zip
+04/30/2022  10:09 AM        10,473,619 javafx-8u331-apidocs.zip
+04/30/2022  10:14 AM       147,118,296 jdk-11.0.15_windows-x64_bin.exe
+04/30/2022  10:14 AM       165,597,051 jdk-11.0.15_windows-x64_bin.zip
+04/30/2022  10:14 AM             7,370 11-0-15-checksum.html
+04/30/2022  10:16 AM        53,805,116 jdk-11.0.15_doc-all.zip
+04/30/2022  10:22 AM        51,328,525 jdk-17.0.3_doc-all.zip
+04/30/2022  10:23 AM        52,231,589 jdk-18.0.1_doc-all.zip
+            1491 File(s) 118,509,806,483 bytes
+              39 Dir(s)  111,860,899,840 bytes free
+
+C:\Users\David Holberton\Downloads>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\David Holberton\Downloads>dir /o:gd jdk-8*x64.exe
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\Downloads
+
+10/27/2021  08:12 AM       178,858,304 jdk-8u311-windows-x64.exe
+01/21/2022  08:47 AM       179,404,488 jdk-8u321-windows-x64.exe
+04/30/2022  10:06 AM       180,917,960 jdk-8u331-windows-x64.exe
+               3 File(s)    539,180,752 bytes
+               0 Dir(s)  111,812,718,592 bytes free
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>javac -version
+javac 1.8.0_321
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>dir /o:gd "C:\Program Files\Java"
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Program Files\Java
+
+06/08/2017  02:35 PM    <DIR>          jre1.8.0_131
+06/08/2017  02:35 PM    <DIR>          jdk1.8.0_131
+03/15/2018  09:42 AM    <DIR>          jdk1.8.0_162
+03/15/2018  09:47 AM    <DIR>          jdk-9.0.4
+09/12/2020  12:04 PM    <DIR>          jdk-11.0.8
+02/05/2022  12:36 PM    <DIR>          .
+02/05/2022  12:36 PM    <DIR>          ..
+02/05/2022  12:36 PM    <DIR>          jre1.8.0_321
+02/05/2022  12:36 PM    <DIR>          jdk1.8.0_321
+               0 File(s)              0 bytes
+               9 Dir(s)  111,811,739,648 bytes free
+
+C:\Users\David Holberton\Downloads>
+
+C:\LocalApps\Java>
+C:\LocalApps\Java>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\LocalApps\Java
+
+03/15/2018  09:38 AM    <DIR>          jre1.8.0_144
+03/15/2018  09:38 AM    <DIR>          jdk1.8.0_144
+03/15/2018  09:42 AM    <DIR>          jre1.8.0_162
+03/15/2018  09:47 AM    <DIR>          jre-9.0.4
+03/15/2018  09:52 AM    <DIR>          jre1.8.0_131
+03/15/2018  09:52 AM    <DIR>          jdk1.8.0_131
+03/15/2018  09:53 AM    <DIR>          jdk1.8.0_162
+03/15/2018  09:53 AM    <DIR>          jdk-9.0.4
+06/19/2018  03:57 PM    <DIR>          jre-10.0.1
+06/19/2018  03:58 PM    <DIR>          jdk-10.0.1
+06/19/2018  06:24 PM    <DIR>          jre1.8.0_172
+06/19/2018  06:24 PM    <DIR>          jdk1.8.0_172
+03/12/2020  06:00 AM    <DIR>          jre1.8.0_241
+03/12/2020  06:00 AM    <DIR>          jdk1.8.0_241
+07/20/2020  07:02 AM    <DIR>          jre1.8.0_261
+07/20/2020  07:02 AM    <DIR>          jdk1.8.0_261
+08/07/2020  08:18 AM    <DIR>          jre1.8.0_251
+08/07/2020  08:18 AM    <DIR>          jdk1.8.0_251
+09/12/2020  12:54 PM    <DIR>          jdk-14.0.1
+09/15/2020  11:58 AM    <DIR>          jdk-11.0.9
+12/08/2020  12:46 PM    <DIR>          jdk-11.0.10
+02/08/2021  07:51 AM    <DIR>          jdk-16
+04/10/2021  04:26 PM    <DIR>          jre1.8.0_281
+04/10/2021  04:26 PM    <DIR>          jdk1.8.0_281
+04/22/2021  05:35 PM    <DIR>          jre1.7.0_79
+04/22/2021  05:35 PM    <DIR>          jdk1.7.0_79
+08/15/2021  08:18 AM    <DIR>          ..
+08/15/2021  08:18 AM    <DIR>          .
+08/15/2021  08:18 AM    <DIR>          jre1.8.0_301
+08/15/2021  08:18 AM    <DIR>          jdk1.8.0_301
+               0 File(s)              0 bytes
+              30 Dir(s)  111,815,286,784 bytes free
+
+C:\LocalApps\Java>
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>certutil -hashfile jdk-8u331-windows-x64.exe SHA256
+SHA256 hash of jdk-8u331-windows-x64.exe:
+b2235c802c3f32475743ce4375a56b822e9ca14428c88daeeaf6f76e82bdbf63
+b2235c802c3f32475743ce4375a56b822e9ca14428c88daeeaf6f76e82bdbf63 <== from https://www.oracle.com/a/tech/docs/8u331checksum.html
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>certutil -hashfile jdk-11.0.15_windows-x64_bin.zip SHA256
+SHA256 hash of jdk-11.0.15_windows-x64_bin.zip:
+cf97cf73734a512e88b52d3ee2f54a5cec989f27bbc8fdbf6b62e9d7fa77179d
+cf97cf73734a512e88b52d3ee2f54a5cec989f27bbc8fdbf6b62e9d7fa77179d <== from https://www.oracle.com/a/tech/docs/11-0-15-checksum.html
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>certutil -hashfile jdk-11.0.15_windows-x64_bin.exe SHA256
+SHA256 hash of jdk-11.0.15_windows-x64_bin.exe:
+b27d3f864ef3a4d6bc86141889e23b7532d69ce284cd801d800da942b1014834
+b27d3f864ef3a4d6bc86141889e23b7532d69ce284cd801d800da942b1014834 <== from https://www.oracle.com/a/tech/docs/11-0-15-checksum.html
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>type jdk-17.0.3_windows-x64_bin.zip.sha256
+15a7515082e602ab2f5acdf0cd8ffe7bf08a6d18e4c2ccf9cfb0b045cad6ec4e
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>certutil -hashfile jdk-17.0.3_windows-x64_bin.zip SHA256
+SHA256 hash of jdk-17.0.3_windows-x64_bin.zip:
+15a7515082e602ab2f5acdf0cd8ffe7bf08a6d18e4c2ccf9cfb0b045cad6ec4e
+15a7515082e602ab2f5acdf0cd8ffe7bf08a6d18e4c2ccf9cfb0b045cad6ec4e <== from jdk-17.0.3_windows-x64_bin.zip.sha256
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\David Holberton\Downloads>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Microsoft Windows [Version 10.0.19043.1645]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\David Holberton>javac -version
+javac 1.8.0_321
+
+C:\Users\David Holberton>echo %JAVA_HOME%
+C:\Program Files\Java\jdk1.8.0_321
+
+C:\Users\David Holberton>dir /o:gd "C:\Program Files\Java"
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Program Files\Java
+
+06/08/2017  02:35 PM    <DIR>          jre1.8.0_131
+06/08/2017  02:35 PM    <DIR>          jdk1.8.0_131
+03/15/2018  09:42 AM    <DIR>          jdk1.8.0_162
+03/15/2018  09:47 AM    <DIR>          jdk-9.0.4
+09/12/2020  12:04 PM    <DIR>          jdk-11.0.8
+02/05/2022  12:36 PM    <DIR>          jre1.8.0_321
+02/05/2022  12:36 PM    <DIR>          jdk1.8.0_321
+04/30/2022  10:52 AM    <DIR>          jdk1.8.0_331
+04/30/2022  10:52 AM    <DIR>          .
+04/30/2022  10:52 AM    <DIR>          ..
+04/30/2022  10:52 AM    <DIR>          jre1.8.0_331
+               0 File(s)              0 bytes
+              11 Dir(s)  110,548,353,024 bytes free
+
+C:\Users\David Holberton>
+C:\Users\David Holberton>set | findstr /i "java_home" | sort
+JAVA_HOME_10=C:\LocalApps\Java\jdk-10.0.1
+JAVA_HOME_11=C:\LocalApps\Java\jdk-11.0.10
+JAVA_HOME_14=C:\LocalApps\Java\jdk-14.0.1
+JAVA_HOME_16=C:\LocalApps\Java\jdk-16
+JAVA_HOME_7=C:\LocalApps\Java\jdk1.7.0_79
+JAVA_HOME_8=C:\Program Files\Java\jdk1.8.0_321
+JAVA_HOME_9=C:\LocalApps\Java\jdk-9.0.4
+JAVA_HOME=C:\Program Files\Java\jdk1.8.0_321
+
+C:\Users\David Holberton>
+
+
+10/03/2021  07:49 AM    <DIR>          ideaIU-2021.2.2.win
+02/05/2022  12:46 PM    <DIR>          openjdk
+03/09/2022  06:47 PM    <DIR>          jdk-17.0.3
+03/09/2022  06:50 PM    <DIR>          jdk-11.0.15
+03/31/2022  08:03 PM    <DIR>          kibana-8.1.2
+04/01/2022  06:20 AM    <DIR>          elasticsearch-8.1.2
+
+C:\LocalApps>
+C:\LocalApps\Java>
+C:\LocalApps\Java>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\LocalApps\Java
+
+03/15/2018  09:38 AM    <DIR>          jre1.8.0_144
+03/15/2018  09:38 AM    <DIR>          jdk1.8.0_144
+03/15/2018  09:42 AM    <DIR>          jre1.8.0_162
+03/15/2018  09:47 AM    <DIR>          jre-9.0.4
+03/15/2018  09:52 AM    <DIR>          jre1.8.0_131
+03/15/2018  09:52 AM    <DIR>          jdk1.8.0_131
+03/15/2018  09:53 AM    <DIR>          jdk1.8.0_162
+03/15/2018  09:53 AM    <DIR>          jdk-9.0.4
+06/19/2018  03:57 PM    <DIR>          jre-10.0.1
+06/19/2018  03:58 PM    <DIR>          jdk-10.0.1
+06/19/2018  06:24 PM    <DIR>          jre1.8.0_172
+06/19/2018  06:24 PM    <DIR>          jdk1.8.0_172
+03/12/2020  06:00 AM    <DIR>          jre1.8.0_241
+03/12/2020  06:00 AM    <DIR>          jdk1.8.0_241
+07/20/2020  07:02 AM    <DIR>          jre1.8.0_261
+07/20/2020  07:02 AM    <DIR>          jdk1.8.0_261
+08/07/2020  08:18 AM    <DIR>          jre1.8.0_251
+08/07/2020  08:18 AM    <DIR>          jdk1.8.0_251
+09/12/2020  12:54 PM    <DIR>          jdk-14.0.1
+09/15/2020  11:58 AM    <DIR>          jdk-11.0.9
+12/08/2020  12:46 PM    <DIR>          jdk-11.0.10
+02/08/2021  07:51 AM    <DIR>          jdk-16
+04/10/2021  04:26 PM    <DIR>          jre1.8.0_281
+04/10/2021  04:26 PM    <DIR>          jdk1.8.0_281
+04/22/2021  05:35 PM    <DIR>          jre1.7.0_79
+04/22/2021  05:35 PM    <DIR>          jdk1.7.0_79
+08/15/2021  08:18 AM    <DIR>          jre1.8.0_301
+08/15/2021  08:18 AM    <DIR>          jdk1.8.0_301
+03/09/2022  06:47 PM    <DIR>          jdk-17.0.3
+03/09/2022  06:50 PM    <DIR>          jdk-11.0.15
+04/30/2022  11:20 AM    <DIR>          .
+04/30/2022  11:20 AM    <DIR>          ..
+               0 File(s)              0 bytes
+              32 Dir(s)  109,739,298,816 bytes free
+
+C:\LocalApps\Java>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Microsoft Windows [Version 10.0.19043.1645]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\David Holberton>javac -version
+javac 1.8.0_331
+
+C:\Users\David Holberton>echo %JAVA_HOME%
+C:\Program Files\Java\jdk1.8.0_331
+
+C:\Users\David Holberton>set | findstr /i "java_home" | sort
+JAVA_HOME_10=C:\LocalApps\Java\jdk-10.0.1
+JAVA_HOME_11=C:\LocalApps\Java\jdk-11.0.15
+JAVA_HOME_14=C:\LocalApps\Java\jdk-14.0.1
+JAVA_HOME_16=C:\LocalApps\Java\jdk-16
+JAVA_HOME_17=C:\LocalApps\Java\jdk-17.0.3
+JAVA_HOME_7=C:\LocalApps\Java\jdk1.7.0_79
+JAVA_HOME_8=C:\Program Files\Java\jdk1.8.0_331
+JAVA_HOME_9=C:\LocalApps\Java\jdk-9.0.4
+JAVA_HOME=C:\Program Files\Java\jdk1.8.0_331
+
+C:\Users\David Holberton>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+update ... ECLIPSE_HOME IDEAIU_HOME TOMCAT_HOME VSCODE_HOME
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>set | findstr /i "home" | sort
+ANT_HOME=C:\LocalApps\apache-ant-1.10.5
+ECLIPSE_HOME=C:\LocalApps\eclipse-jee-2020-12-R-win32-x86_64
+GNUPGHOME=C:\gpg\keys-apache
+GPG_HOME=C:\gpg\GnuPG
+GRADLE_HOME=C:\LocalApps\gradle-6.9
+GRAILS_HOME=C:\LocalApps\grails-2.5.4
+GROOVY_HOME=C:\LocalApps\groovy-3.0.7
+HOMEDRIVE=C:
+HOMEPATH=\Users\David Holberton
+IDEAIU_HOME=C:\LocalApps\ideaIU-2021.2.2.win
+JAVA_HOME_10=C:\LocalApps\Java\jdk-10.0.1
+JAVA_HOME_11=C:\LocalApps\Java\jdk-11.0.15
+JAVA_HOME_14=C:\LocalApps\Java\jdk-14.0.1
+JAVA_HOME_16=C:\LocalApps\Java\jdk-16
+JAVA_HOME_17=C:\LocalApps\Java\jdk-17.0.3
+JAVA_HOME_7=C:\LocalApps\Java\jdk1.7.0_79
+JAVA_HOME_8=C:\Program Files\Java\jdk1.8.0_331
+JAVA_HOME_9=C:\LocalApps\Java\jdk-9.0.4
+JAVA_HOME=C:\Program Files\Java\jdk1.8.0_331
+M2_HOME=C:\LocalApps\apache-maven-3.8.2
+MAVEN_HOME=C:\LocalApps\apache-maven-3.8.2
+MYSQL_HOME=C:\mysql\mysql-8.0.26-winx64
+SUBLIME_HOME=C:\LocalApps\sublimetext3
+TOMCAT_HOME=C:\LocalApps\apache-tomcat-8.5.31
+VSCODE_HOME=C:\LocalApps\VSCode-win32-x64-1.56.0
+
+C:\Users\David Holberton\Downloads>
+
+
+
+C:\Users\David Holberton>
+C:\Users\David Holberton>echo %VSCODE_HOME%
+C:\LocalApps\VSCode-win32-x64-1.66.2
+
+C:\Users\David Holberton>
+C:\Users\David Holberton>code --version
+1.66.2
+dfd34e8260c270da74b5c2d86d61aee4b6d56977
+x64
+
+C:\Users\David Holberton>
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>type ideaIU-2022.1.win.zip.sha256
+388a4b5a6fa022e23eee4743994f9bd8312f6beea2cac9252da7f121568ddb39 *ideaIU-2022.1.win.zip
+
+C:\Users\David Holberton\Downloads>certutil -hashfile ideaIU-2022.1.win.zip SHA256
+SHA256 hash of ideaIU-2022.1.win.zip:
+388a4b5a6fa022e23eee4743994f9bd8312f6beea2cac9252da7f121568ddb39
+388a4b5a6fa022e23eee4743994f9bd8312f6beea2cac9252da7f121568ddb39 <== from ideaIU-2022.1.win.zip.sha256
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\David Holberton\Downloads>
+
+
+
+
+
+
+
+
+
+
+
+

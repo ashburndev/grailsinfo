@@ -1,0 +1,511 @@
+4:32 AM 5/3/2022
+
+https://openconnect.github.io/openconnect-gui/
+https://github.com/openconnect/openconnect-gui/releases
+https://www.wireguard.com/install/
+https://nordvpn.com/what-is-my-ip/
+
+Welcome to the Udev2dev DevOps Environment!
+
+Your Udev2dev certificate and setup instructions are attached to this email. The certificate is password protected. Please call Corey Dyson tomorrow at (571) 467-3515 between the hours of 10am-5pm to receive the password for your certificate. If I am unavailable reach out to UDEV2DEV (CC’d on the email).
+
+Your LDAP group is: maximus
+Your LDAP username is: davihol
+
+Once you connected to the Udev2dev Environment, the services you will have access to are listed:  
+General Info for Udev2dev & uFidOS: https://portal.udev2dev.com
+GitHub: https://github.udev2dev.com 
+Jenkins: https://jenkins.udev2dev.com 
+JIRA: https://jira.udev2dev.com
+Confluence: https://confluence.udev2dev.com
+Nexus: https://nexus.udev2dev.com 
+SonarQube: https://sonarqube.udev2dev.com 
+
+https://support.microsoft.com/en-us/windows/connect-to-a-vpn-in-windows-3d29aeb1-f497-f6b7-7633-115722c1009c#:~:text=Create%20a%20VPN%20profile%201%20Select%20the%20Start,%28built-in%29.%20...%203%20Select%20Save.%20More%20items...%20
+
+
+https://getpocket.com/explore/item/how-qr-codes-work-and-what-makes-them-dangerous-a-computer-scientist-explains?utm_source=pocket-newtab
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\David Holberton\Downloads\tempcert>
+C:\Users\David Holberton\Downloads\tempcert>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\Downloads\tempcert
+
+05/03/2022  04:35 AM    <DIR>          ..
+05/03/2022  04:35 AM    <DIR>          .
+03/31/2022  08:46 AM            17,742 udev2devsla.docx
+03/31/2022  08:47 AM           632,568 Udev2devSetup.docx
+03/31/2022  08:47 AM             2,829 davihol.p12
+05/03/2022  04:34 AM        23,735,729 openconnect-gui-1.5.3-win32.exe
+05/03/2022  04:34 AM               163 openconnect-gui-1.5.3-win32.exe.sha512
+05/03/2022  04:35 AM           472,644 openconnect-gui-1.5.3.zip
+05/03/2022  04:35 AM           427,769 openconnect-gui-1.5.3.tar.gz
+               7 File(s)     25,289,444 bytes
+               2 Dir(s)  103,881,048,064 bytes free
+
+C:\Users\David Holberton\Downloads\tempcert>
+C:\Users\David Holberton\Downloads\tempcert>certutil -hashfile openconnect-gui-1.5.3-win32.exe SHA512
+SHA512 hash of openconnect-gui-1.5.3-win32.exe:
+2055a303ed6a40a0267203bc3c3d4ad14c86f7d690ab3cc85918ff0afc2103b1ca985e28f9e1efa92fb7b3cb41cd0add02aac9439a83b9b42e29e5bd01bff621
+2055a303ed6a40a0267203bc3c3d4ad14c86f7d690ab3cc85918ff0afc2103b1ca985e28f9e1efa92fb7b3cb41cd0add02aac9439a83b9b42e29e5bd01bff621
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\David Holberton\Downloads\tempcert>type openconnect-gui-1.5.3-win32.exe.sha512
+2055a303ed6a40a0267203bc3c3d4ad14c86f7d690ab3cc85918ff0afc2103b1ca985e28f9e1efa92fb7b3cb41cd0add02aac9439a83b9b42e29e5bd01bff621  openconnect-gui-1.5.3-win32.exe
+
+C:\Users\David Holberton\Downloads\tempcert>
+C:\Users\David Holberton\Downloads\tempcert>
+
+
+C:\Users\David Holberton\Downloads\udev2dev>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\Downloads\udev2dev
+
+05/03/2022  05:30 AM    <DIR>          ..
+05/03/2022  05:30 AM    <DIR>          .
+03/31/2022  08:46 AM            17,742 udev2devsla.docx
+03/31/2022  08:47 AM           632,568 Udev2devSetup.docx
+03/31/2022  08:47 AM             2,829 davihol.p12
+04/04/2022  07:32 AM               250 wg0.conf
+05/03/2022  04:34 AM        23,735,729 openconnect-gui-1.5.3-win32.exe
+05/03/2022  04:34 AM               163 openconnect-gui-1.5.3-win32.exe.sha512
+05/03/2022  04:35 AM           472,644 openconnect-gui-1.5.3.zip
+05/03/2022  04:35 AM           427,769 openconnect-gui-1.5.3.tar.gz
+05/03/2022  05:26 AM            87,360 wireguard-installer.exe
+               9 File(s)     25,377,054 bytes
+               2 Dir(s)  103,946,059,776 bytes free
+
+C:\Users\David Holberton\Downloads\udev2dev>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://nordvpn.com/what-is-my-ip/
+
+What is my IP address?
+
+159.89.244.169
+
+Your online activity can be seen by your internet service provider and anyone else spying on your connection.
+
+My IP address location:
+Location country flagUnited States, New Jersey, Clifton
+
+Internet service provider:
+
+Digital Ocean
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+... eventually, OpenConnect was able to connect successfully ...
+
+2022-05-03 04:49:15 | 32b4 | OpenConnect-GUI VPN client (1.5.3) logging started...
+2022-05-03 05:05:27 | 422c | POST https://uservpn.udev2dev.com/
+2022-05-03 05:05:27 | 422c | Attempting to connect to server 23.22.216.200:443
+2022-05-03 05:05:48 | 422c | Failed to connect to 23.22.216.200:443: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2022-05-03 05:05:48 | 422c | Attempting to connect to server 54.163.65.103:443
+2022-05-03 05:06:09 | 422c | Failed to connect to 54.163.65.103:443: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2022-05-03 05:06:09 | 422c | Failed to connect to host uservpn.udev2dev.com
+2022-05-03 05:06:09 | 422c | Failed to open HTTPS connection to uservpn.udev2dev.com
+2022-05-03 05:06:09 | 422c | Authentication error; cannot obtain cookie
+2022-05-03 05:06:09 | 32b4 | Disconnected
+2022-05-03 05:14:27 | 32b4 | Wake up!
+2022-05-03 05:15:56 | 32b4 | Wake up!
+2022-05-03 05:16:13 | 4ac8 | POST https://uservpn.udev2dev.com/
+2022-05-03 05:16:13 | 4ac8 | Attempting to connect to server 54.163.65.103:443
+2022-05-03 05:16:34 | 4ac8 | Failed to connect to 54.163.65.103:443: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2022-05-03 05:16:34 | 4ac8 | Attempting to connect to server 23.22.216.200:443
+2022-05-03 05:16:55 | 4ac8 | Failed to connect to 23.22.216.200:443: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2022-05-03 05:16:55 | 4ac8 | Failed to connect to host uservpn.udev2dev.com
+2022-05-03 05:16:55 | 4ac8 | Failed to open HTTPS connection to uservpn.udev2dev.com
+2022-05-03 05:16:55 | 4ac8 | Authentication error; cannot obtain cookie
+2022-05-03 05:16:55 | 32b4 | Disconnected
+2022-05-03 05:22:05 | 4a8c | POST https://uservpn.udev2dev.com/
+2022-05-03 05:22:05 | 4a8c | Attempting to connect to server 23.22.216.200:443
+2022-05-03 05:22:26 | 4a8c | Failed to connect to 23.22.216.200:443: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2022-05-03 05:22:26 | 4a8c | Attempting to connect to server 54.163.65.103:443
+2022-05-03 05:22:47 | 4a8c | Failed to connect to 54.163.65.103:443: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2022-05-03 05:22:47 | 4a8c | Failed to connect to host uservpn.udev2dev.com
+2022-05-03 05:22:47 | 4a8c | Failed to open HTTPS connection to uservpn.udev2dev.com
+2022-05-03 05:22:47 | 4a8c | Authentication error; cannot obtain cookie
+2022-05-03 05:22:47 | 32b4 | Disconnected
+2022-05-03 05:53:39 | 32b4 | Wake up!
+2022-05-03 05:54:54 | 46c4 | POST https://uservpn.udev2dev.com/
+2022-05-03 05:54:54 | 46c4 | Attempting to connect to server 54.163.65.103:443
+2022-05-03 05:54:54 | 46c4 | Connected to 54.163.65.103:443
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: OU=Copyright (c) 1997 Microsoft Corp.,OU=Microsoft Corporation,CN=Microsoft Root Authority.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: C=US,O=MSFT,CN=Microsoft Authenticode(tm) Root Authority.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=Root Agency.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-03 05:54:54 | 46c4 | Using certificate file C:/Program Files (x86)/OpenConnect-GUI/tmp-certprNnnA
+2022-05-03 05:54:54 | 46c4 | Using private key file C:/Program Files (x86)/OpenConnect-GUI/tmp-keyfuAVxo
+2022-05-03 05:54:54 | 46c4 | Using client certificate 'davihol'
+2022-05-03 05:54:54 | 46c4 | SSL negotiation with uservpn.udev2dev.com
+2022-05-03 05:54:55 | 46c4 | Connected to HTTPS on uservpn.udev2dev.com
+2022-05-03 05:54:55 | 46c4 | Got HTTP response: HTTP/1.1 200 OK
+2022-05-03 05:54:55 | 46c4 | Connection: Keep-Alive
+2022-05-03 05:54:55 | 46c4 | Content-Type: text/xml
+2022-05-03 05:54:55 | 46c4 | Content-Length: 665
+2022-05-03 05:54:55 | 46c4 | X-Transcend-Version: 1
+2022-05-03 05:54:55 | 46c4 | Set-Cookie: webvpncontext=AKbOK0SJg9/NL8J72FNt1UX9QshpF7nPFnTcxzQt44A=; Secure; HttpOnly
+2022-05-03 05:54:55 | 46c4 | Set-Cookie: webvpn=<elided>; Secure; HttpOnly
+2022-05-03 05:54:55 | 46c4 | Set-Cookie: webvpnc=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; Secure; HttpOnly
+2022-05-03 05:54:55 | 46c4 | Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+2022-05-03 05:54:55 | 46c4 | X-Frame-Options: deny
+2022-05-03 05:54:55 | 46c4 | X-Content-Type-Options: nosniff
+2022-05-03 05:54:55 | 46c4 | Content-Security-Policy: default-src 'none'
+2022-05-03 05:54:55 | 46c4 | X-Permitted-Cross-Domain-Policies: none
+2022-05-03 05:54:55 | 46c4 | Referrer-Policy: no-referrer
+2022-05-03 05:54:55 | 46c4 | Clear-Site-Data: "cache","cookies","storage"
+2022-05-03 05:54:55 | 46c4 | Cross-Origin-Embedder-Policy: require-corp
+2022-05-03 05:54:55 | 46c4 | Cross-Origin-Opener-Policy: same-origin
+2022-05-03 05:54:55 | 46c4 | Cross-Origin-Resource-Policy: same-origin
+2022-05-03 05:54:55 | 46c4 | X-XSS-Protection: 0
+2022-05-03 05:54:55 | 46c4 | Set-Cookie: webvpnc=bu:/&p:t&iu:1/&sh:76241309D1F9E82FE44A8571EE6246F4459AB5D9&lu:/+CSCOT+/translation-table?textdomain%3DAnyConnect%26type%3Dmanifest&fu:profiles
+F/data/2/ocserv/profile.xml&fh:D8E7DA12D898E62719E0D29020D937B569DA0AF7; path=/; Secure; HttpOnly
+2022-05-03 05:54:55 | 46c4 | HTTP body length:  (665)
+2022-05-03 05:54:55 | 46c4 | XML POST enabled
+2022-05-03 05:54:55 | 46c4 | SSL negotiation with uservpn.udev2dev.com
+2022-05-03 05:54:55 | 46c4 | Connected to HTTPS on uservpn.udev2dev.com
+2022-05-03 05:54:55 | 46c4 | Got CONNECT response: HTTP/1.1 200 CONNECTED
+2022-05-03 05:54:55 | 46c4 | X-CSTP-Version: 1
+2022-05-03 05:54:55 | 46c4 | X-CSTP-Server-Name: ocserv 1.1.3
+2022-05-03 05:54:55 | 46c4 | X-CSTP-Hostname: localhost
+2022-05-03 05:54:55 | 46c4 | X-CSTP-DPD: 90
+2022-05-03 05:54:55 | 46c4 | X-CSTP-Default-Domain: udev2dev.com
+2022-05-03 05:54:55 | 46c4 | X-CSTP-Address: 192.168.99.235
+2022-05-03 05:54:55 | 46c4 | X-CSTP-Netmask: 255.255.255.0
+2022-05-03 05:54:55 | 46c4 | X-CSTP-DNS: 172.16.0.2
+2022-05-03 05:54:55 | 46c4 | X-CSTP-Split-DNS: udev2dev.com
+2022-05-03 05:54:55 | 46c4 | X-CSTP-Split-Include: 172.16.0.0/255.255.0.0
+2022-05-03 05:54:55 | 46c4 | X-CSTP-Tunnel-All-DNS: false
+2022-05-03 05:54:55 | 46c4 | X-CSTP-Client-Bypass-Protocol: false
+2022-05-03 05:54:55 | 46c4 | X-CSTP-Keepalive: 3600
+2022-05-03 05:54:55 | 46c4 | X-CSTP-Idle-Timeout: 900
+2022-05-03 05:54:55 | 46c4 | X-CSTP-Smartcard-Removal-Disconnect: true
+2022-05-03 05:54:55 | 46c4 | X-CSTP-DynDNS: true
+2022-05-03 05:54:55 | 46c4 | X-CSTP-Rekey-Time: 43196
+2022-05-03 05:54:55 | 46c4 | X-CSTP-Rekey-Method: ssl
+2022-05-03 05:54:55 | 46c4 | X-CSTP-Session-Timeout: 14400
+2022-05-03 05:54:55 | 46c4 | X-CSTP-Session-Timeout-Remaining: 14400
+2022-05-03 05:54:55 | 46c4 | X-CSTP-Disconnected-Timeout: none
+2022-05-03 05:54:55 | 46c4 | X-CSTP-Keep: true
+2022-05-03 05:54:55 | 46c4 | X-CSTP-TCP-Keepalive: true
+2022-05-03 05:54:55 | 46c4 | X-CSTP-License: accept
+2022-05-03 05:54:55 | 46c4 | X-DTLS-DPD: 90
+2022-05-03 05:54:55 | 46c4 | X-DTLS-Port: 443
+2022-05-03 05:54:55 | 46c4 | X-DTLS-Rekey-Time: 43206
+2022-05-03 05:54:55 | 46c4 | X-DTLS-Rekey-Method: ssl
+2022-05-03 05:54:55 | 46c4 | X-DTLS-Keepalive: 3600
+2022-05-03 05:54:55 | 46c4 | X-DTLS-App-ID: 7e7837c8a2d4338ce99de0c4a6bfa5fdbb722e21262864e430be9612627d0aeb
+2022-05-03 05:54:55 | 46c4 | X-DTLS-CipherSuite: PSK-NEGOTIATE
+2022-05-03 05:54:55 | 46c4 | X-CSTP-Base-MTU: 1406
+2022-05-03 05:54:55 | 46c4 | X-CSTP-MTU: 1340
+2022-05-03 05:54:55 | 46c4 | X-CSTP-Banner: By using this system you consent that at any time the Government may monitor, intercept, search or seize any transmitted or stored data which may be used for any lawful Government purpose
+2022-05-03 05:54:55 | 46c4 | X-DTLS-Content-Encoding: lzs
+2022-05-03 05:54:55 | 46c4 | X-CSTP-Content-Encoding: lzs
+2022-05-03 05:54:55 | 46c4 | CSTP connected. DPD 90, Keepalive 3600
+2022-05-03 05:54:55 | 46c4 | CSTP Ciphersuite: (TLS1.2)-(ECDHE-RSA-SECP256R1)-(AES-256-GCM)
+2022-05-03 05:54:55 | 46c4 | Opened tun device Ethernet 4
+2022-05-03 05:54:55 | 46c4 | TAP-Windows driver v9.21 (0)
+2022-05-03 05:55:05 | 46c4 | Failed to spawn script 'C:/Program Files (x86)/OpenConnect-GUI\vpnc-script.js' for connect: The handle is invalid.
+2022-05-03 05:55:05 | 46c4 | <<-- [EXEC] route print
+2022-05-03 05:55:05 | 46c4 | ===========================================================================
+2022-05-03 05:55:05 | 46c4 | Interface List
+2022-05-03 05:55:05 | 46c4 |  49...........................WireGuard Tunnel
+2022-05-03 05:55:05 | 46c4 |  21...00 e0 4c 68 f1 1e ......Realtek USB GbE Family Controller #2
+2022-05-03 05:55:05 | 46c4 |  12...9c b6 d0 de 1a 3f ......Killer Wireless-n/a/ac 1535 Wireless Network Adapter
+2022-05-03 05:55:05 | 46c4 |   7...9e b6 d0 de 1a 3f ......Microsoft Wi-Fi Direct Virtual Adapter
+2022-05-03 05:55:05 | 46c4 |  13...ae b6 d0 de 1a 3f ......Microsoft Wi-Fi Direct Virtual Adapter #3
+2022-05-03 05:55:05 | 46c4 |  45...00 ff 4e 0c ca ac ......TAP-Windows Adapter V9
+2022-05-03 05:55:05 | 46c4 |   3...9c b6 d0 de 1a 40 ......Bluetooth Device (Personal Area Network) #3
+2022-05-03 05:55:05 | 46c4 |   1...........................Software Loopback Interface 1
+2022-05-03 05:55:05 | 46c4 | ===========================================================================
+2022-05-03 05:55:05 | 46c4 | 
+2022-05-03 05:55:05 | 46c4 | IPv4 Route Table
+2022-05-03 05:55:05 | 46c4 | ===========================================================================
+2022-05-03 05:55:05 | 46c4 | Active Routes:
+2022-05-03 05:55:05 | 46c4 | Network Destination        Netmask          Gateway       Interface  Metric
+2022-05-03 05:55:05 | 46c4 |           0.0.0.0          0.0.0.0     192.168.86.1   192.168.86.247     25
+2022-05-03 05:55:05 | 46c4 |           0.0.0.0          0.0.0.0         On-link         10.0.0.21      0
+2022-05-03 05:55:05 | 46c4 |          10.0.0.0    255.255.255.0         On-link         10.0.0.21    256
+2022-05-03 05:55:05 | 46c4 |         10.0.0.21  255.255.255.255         On-link         10.0.0.21    256
+2022-05-03 05:55:05 | 46c4 |        10.0.0.255  255.255.255.255         On-link         10.0.0.21    256
+2022-05-03 05:55:05 | 46c4 |         127.0.0.0        255.0.0.0         On-link         127.0.0.1    331
+2022-05-03 05:55:05 | 46c4 |         127.0.0.1  255.255.255.255         On-link         127.0.0.1    331
+2022-05-03 05:55:05 | 46c4 |   127.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+2022-05-03 05:55:05 | 46c4 |      192.168.86.0    255.255.255.0         On-link    192.168.86.247    281
+2022-05-03 05:55:05 | 46c4 |    192.168.86.247  255.255.255.255         On-link    192.168.86.247    281
+2022-05-03 05:55:05 | 46c4 |    192.168.86.255  255.255.255.255         On-link    192.168.86.247    281
+2022-05-03 05:55:05 | 46c4 |         224.0.0.0        240.0.0.0         On-link         127.0.0.1    331
+2022-05-03 05:55:05 | 46c4 |         224.0.0.0        240.0.0.0         On-link    192.168.86.247    281
+2022-05-03 05:55:05 | 46c4 |         224.0.0.0        240.0.0.0         On-link                2d    291
+2022-05-03 05:55:05 | 46c4 |   255.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+2022-05-03 05:55:05 | 46c4 |   255.255.255.255  255.255.255.255         On-link    192.168.86.247    281
+2022-05-03 05:55:05 | 46c4 |   255.255.255.255  255.255.255.255         On-link                2d    291
+2022-05-03 05:55:05 | 46c4 | ===========================================================================
+2022-05-03 05:55:05 | 46c4 | Persistent Routes:
+2022-05-03 05:55:05 | 46c4 |   None
+2022-05-03 05:55:05 | 46c4 | 
+2022-05-03 05:55:05 | 46c4 | IPv6 Route Table
+2022-05-03 05:55:05 | 46c4 | ===========================================================================
+2022-05-03 05:55:05 | 46c4 | Active Routes:
+2022-05-03 05:55:05 | 46c4 |  If Metric Network Destination      Gateway
+2022-05-03 05:55:05 | 46c4 |   1    331 ::1/128                  On-link
+2022-05-03 05:55:05 | 46c4 |  21    281 fe80::/64                On-link
+2022-05-03 05:55:05 | 46c4 |  45    291 fe80::/64                On-link
+2022-05-03 05:55:05 | 46c4 |  45    291 fe80::9088:36b6:a994:7b17/128
+2022-05-03 05:55:05 | 46c4 |                                     On-link
+2022-05-03 05:55:05 | 46c4 |  21    281 fe80::e02c:f11b:27b6:8751/128
+2022-05-03 05:55:05 | 46c4 |                                     On-link
+2022-05-03 05:55:05 | 46c4 |   1    331 ff00::/8                 On-link
+2022-05-03 05:55:05 | 46c4 |  21    281 ff00::/8                 On-link
+2022-05-03 05:55:05 | 46c4 |  45    291 ff00::/8                 On-link
+2022-05-03 05:55:05 | 46c4 | ===========================================================================
+2022-05-03 05:55:05 | 46c4 | Persistent Routes:
+2022-05-03 05:55:05 | 46c4 |   None
+2022-05-03 05:55:05 | 46c4 | -->> (exitCode: 0)
+2022-05-03 05:55:05 | 46c4 | Default Gateway:192.168.86.1
+2022-05-03 05:55:05 | 46c4 | VPN Gateway: 54.163.65.103
+2022-05-03 05:55:05 | 46c4 | Internal Address: 192.168.99.235
+2022-05-03 05:55:05 | 46c4 | Internal Netmask: 255.255.255.0
+2022-05-03 05:55:05 | 46c4 | Internal Gateway: 192.168.99.1
+2022-05-03 05:55:05 | 46c4 | Interface idx: 45 ("Ethernet 4")
+2022-05-03 05:55:05 | 46c4 | <<-- [EXEC] route add 54.163.65.103 mask 255.255.255.255 192.168.86.1
+2022-05-03 05:55:05 | 46c4 |  OK!
+2022-05-03 05:55:05 | 46c4 | -->> (exitCode: 0)
+2022-05-03 05:55:05 | 46c4 | MTU: 1340
+2022-05-03 05:55:05 | 46c4 | <<-- [EXEC] netsh interface ipv4 set subinterface 45 mtu=1340 store=active
+2022-05-03 05:55:05 | 46c4 | Ok.
+2022-05-03 05:55:05 | 46c4 | 
+2022-05-03 05:55:05 | 46c4 | -->> (exitCode: 0)
+2022-05-03 05:55:05 | 46c4 | Configuring 45 interface for Legacy IP...
+2022-05-03 05:55:05 | 46c4 | <<-- [EXEC] netsh interface ip set address 45 static 192.168.99.235 255.255.255.0
+2022-05-03 05:55:05 | 46c4 | 
+2022-05-03 05:55:05 | 46c4 | -->> (exitCode: 0)
+2022-05-03 05:55:05 | 46c4 | <<-- [EXEC] netsh interface ip add dns 45 172.16.0.2 index=1
+2022-05-03 05:55:05 | 46c4 | Could not remove C:/Users/David Holberton/AppData/Local/Temp\vpnc.log: 9
+
+
+
+
+

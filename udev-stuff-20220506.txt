@@ -1,0 +1,76 @@
+davihol@davihol ~ > 
+davihol@davihol ~ > date
+Fri May  6 09:33:58 EDT 2022
+davihol@davihol ~ > 
+davihol@davihol ~ > gem install elasticsearch
+Fetching: faraday-em_http-1.0.0.gem (100%)
+Successfully installed faraday-em_http-1.0.0
+Fetching: faraday-em_synchrony-1.0.0.gem (100%)
+Successfully installed faraday-em_synchrony-1.0.0
+Fetching: faraday-excon-1.1.0.gem (100%)
+Successfully installed faraday-excon-1.1.0
+Fetching: faraday-httpclient-1.0.1.gem (100%)
+Successfully installed faraday-httpclient-1.0.1
+Fetching: multipart-post-2.1.1.gem (100%)
+Successfully installed multipart-post-2.1.1
+Fetching: faraday-multipart-1.0.3.gem (100%)
+Successfully installed faraday-multipart-1.0.3
+Fetching: faraday-net_http-1.0.1.gem (100%)
+Successfully installed faraday-net_http-1.0.1
+Fetching: faraday-net_http_persistent-1.2.0.gem (100%)
+Successfully installed faraday-net_http_persistent-1.2.0
+Fetching: faraday-patron-1.0.0.gem (100%)
+Successfully installed faraday-patron-1.0.0
+Fetching: faraday-rack-1.0.0.gem (100%)
+Successfully installed faraday-rack-1.0.0
+Fetching: faraday-retry-1.0.3.gem (100%)
+Successfully installed faraday-retry-1.0.3
+Fetching: ruby2_keywords-0.0.5.gem (100%)
+Successfully installed ruby2_keywords-0.0.5
+Fetching: faraday-1.10.0.gem (100%)
+Successfully installed faraday-1.10.0
+Fetching: elastic-transport-8.0.0.gem (100%)
+Successfully installed elastic-transport-8.0.0
+Fetching: elasticsearch-api-8.2.0.gem (100%)
+Successfully installed elasticsearch-api-8.2.0
+Fetching: elasticsearch-8.2.0.gem (100%)
+Successfully installed elasticsearch-8.2.0
+Parsing documentation for faraday-em_http-1.0.0
+Installing ri documentation for faraday-em_http-1.0.0
+Parsing documentation for faraday-em_synchrony-1.0.0
+Installing ri documentation for faraday-em_synchrony-1.0.0
+Parsing documentation for faraday-excon-1.1.0
+Installing ri documentation for faraday-excon-1.1.0
+Parsing documentation for faraday-httpclient-1.0.1
+Installing ri documentation for faraday-httpclient-1.0.1
+Parsing documentation for multipart-post-2.1.1
+Installing ri documentation for multipart-post-2.1.1
+Parsing documentation for faraday-multipart-1.0.3
+Installing ri documentation for faraday-multipart-1.0.3
+Parsing documentation for faraday-net_http-1.0.1
+Installing ri documentation for faraday-net_http-1.0.1
+Parsing documentation for faraday-net_http_persistent-1.2.0
+Installing ri documentation for faraday-net_http_persistent-1.2.0
+Parsing documentation for faraday-patron-1.0.0
+Installing ri documentation for faraday-patron-1.0.0
+Parsing documentation for faraday-rack-1.0.0
+Installing ri documentation for faraday-rack-1.0.0
+Parsing documentation for faraday-retry-1.0.3
+Installing ri documentation for faraday-retry-1.0.3
+Parsing documentation for ruby2_keywords-0.0.5
+Installing ri documentation for ruby2_keywords-0.0.5
+Parsing documentation for faraday-1.10.0
+Installing ri documentation for faraday-1.10.0
+Parsing documentation for elastic-transport-8.0.0
+Installing ri documentation for elastic-transport-8.0.0
+Parsing documentation for elasticsearch-api-8.2.0
+Installing ri documentation for elasticsearch-api-8.2.0
+Parsing documentation for elasticsearch-8.2.0
+Installing ri documentation for elasticsearch-8.2.0
+Done installing documentation for faraday-em_http, faraday-em_synchrony, faraday-excon, faraday-httpclient, multipart-post, faraday-multipart, faraday-net_http, faraday-net_http_persistent, faraday-patron, faraday-rack, faraday-retry, ruby2_keywords, faraday, elastic-transport, elasticsearch-api, elasticsearch after 7 seconds
+16 gems installed
+davihol@davihol ~ > 
+davihol@davihol ~ > 
+
+https://github.udev2dev.com/davihol
+

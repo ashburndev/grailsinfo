@@ -1,0 +1,237 @@
+
+12:26 PM 5/8/2022
+
+https://docs.xfce.org/xfce/xfwm4/start
+https://docs.xfce.org/xfce/xfwm4/workspaces
+https://docs.xfce.org/xfce/xfwm4/getting-started
+https://defkey.com/xfce-shortcuts
+https://www.tutorialspoint.com/ruby-on-rails/rails-installation.htm
+
+
+
+https://portal.udev2dev.com   =>   https://pages.github.udev2dev.com/Foundry/userportal/
+
+https://pages.github.udev2dev.com/Foundry/userportal/
+
+https://pages.github.udev2dev.com/Foundry/userportal/docs/services/ufidos
+
+https://github.udev2dev.com/
+
+https://github.udev2dev.com/davihol   =>   "signed in as davihol"
+
+https://github.udev2dev.com/settings/keys
+
+SSH keys
+This is a list of SSH keys associated with your account. Remove any keys that you do not recognize.
+
+SSH
+ssh-rsa AAAAB3NzaC1yc2EAAA
+SHA256:kTzfeYhCn1dlghnikwSb3AXyKmJO8E5P9bxd1fpbU+A
+Added on May 5, 2022
+Never used — Read/write
+Check out our guide to generating SSH keys or troubleshoot common SSH problems.
+
+GPG keys
+There are no GPG keys associated with your account.
+
+Learn how to generate a GPG key and add it to your account.
+
+https://github.udev2dev.com/new
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+# davidholrepo1
+created via google chrome browser running on MS Windows 10 at URL https://github.udev2dev.com/new
+
+I used a laptop (MS Windows 10) running the Google Chrome browser and the URL https://github.udev2dev.com/new to create this private "davidholrepo1" repository.
+
+I created a README.md file and .gitignore file (the latter using the "rails" template
+
+*.rbc
+capybara-*.html
+.rspec
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/*.sqlite3-[0-9]*
+/public/system
+/coverage/
+/spec/tmp
+*.orig
+rerun.txt
+pickle-email-*.html
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# TODO Comment out this rule if you are OK with secrets being uploaded to the repo
+config/initializers/secret_token.rb
+config/master.key
+
+# Only include if you have production secrets in this file, which is no longer a Rails default
+# config/secrets.yml
+
+# dotenv
+# TODO Comment out this rule if environment variables can be committed
+.env
+
+## Environment normalization:
+/.bundle
+/vendor/bundle
+
+# these should all be checked in to normalize the environment:
+# Gemfile.lock, .ruby-version, .ruby-gemset
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+.rvmrc
+
+# if using bower-rails ignore default bower_components path bower.json files
+/vendor/assets/bower_components
+*.bowerrc
+bower.json
+
+# Ignore pow environment settings
+.powenv
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Ignore node_modules
+node_modules/
+
+# Ignore precompiled javascript packs
+/public/packs
+/public/packs-test
+/public/assets
+
+# Ignore yarn files
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\David Holberton\.ssh>
+C:\Users\David Holberton\.ssh>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\.ssh
+
+08/20/2021  07:11 AM    <DIR>          save1
+08/20/2021  07:35 AM    <DIR>          ..
+08/20/2021  07:35 AM    <DIR>          .
+08/20/2021  07:35 AM               575 id_rsa.pub
+08/20/2021  07:35 AM             2,610 id_rsa
+03/21/2022  08:55 AM             3,235 known_hosts
+               3 File(s)          6,420 bytes
+               3 Dir(s)  113,492,135,936 bytes free
+
+C:\Users\David Holberton\.ssh>
+C:\Users\David Holberton\.ssh>type id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC9qp+aq9cXpD0/rwhG5r5M4l/i4ucnmhPRl1ZiwN7ixamytQyKF78BWx7/0Mn1Ix/SqgFzXlPeiryVmIVSPMSHF/Zgc1x5Oc/KbySJwQgM74GEMM2hZQIS9VHOJ7fJXR/ttpdN3xOjYCehbjcQ5fyPAmB08x/8l4VimXo3el9krRvP/0ECWhnaOKMTtGrY299v0ZW2++iRU0r9BNdtWSHSeuljlUAVlVaFjfHwjiFo/pDvxCkhib7Zq/jfYpvwR/oi3f2UMizb48pgfGa4droPt9lgPP3WJs5BOnPeNHaWoaHZWbf6pHOtpYwe+BWuRLiFz4dj8avI3cj0LcqFvI0cIxhz3USMCntKP2opGHRe0VRhFKaEzqOkhIBItYT5s3nHCWEScVthxxBwpOJrDKY6Au6Ttbi6+1WuVp/N3PmAZEkXUlHRVhSmtGCzTCewctkO66gOiIc5A/lT5/NQLqraEuUqXym3vGRSthR+TwLIq0ICGdZGhiGBCu3jRaywaic= ashburndev@gmail.com
+
+C:\Users\David Holberton\.ssh>
+C:\Users\David Holberton\.ssh>
+
+https://github.udev2dev.com/davihol?tab=repositories
+https://github.udev2dev.com/davihol/davidholrepo1
+
+git@github.udev2dev.com:davihol/davidholrepo1.git
+
+git clone git@github.udev2dev.com:davihol/davidholrepo1.git
+
+
+
+
+
+
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>cd udev2dev
+
+C:\Users\David Holberton\Downloads\udev2dev>git clone git@github.udev2dev.com:davihol/davidholrepo1.git
+Cloning into 'davidholrepo1'...
+The authenticity of host 'github.udev2dev.com (172.16.7.227)' can't be established.
+ECDSA key fingerprint is SHA256:Ma+PZqxBfMqzjqZpu1DbJYDavD4WQpGtd6/jUYDjg6k.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.udev2dev.com' (ECDSA) to the list of known hosts.
+git@github.udev2dev.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\David Holberton\Downloads\udev2dev>
+
+C:\Users\David Holberton\.ssh>
+C:\Users\David Holberton\.ssh>ssh -T git@github.udev2dev.com
+Warning: Permanently added the ECDSA host key for IP address '172.16.9.55' to the list of known hosts.
+git@github.udev2dev.com: Permission denied (publickey).
+
+C:\Users\David Holberton\.ssh>
+C:\Users\David Holberton\.ssh>
+C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>7z l davidholrepo1-main.zip
+
+7-Zip 19.00 (x64) : Copyright (c) 1999-2018 Igor Pavlov : 2019-02-21
+
+Scanning the drive for archives:
+1 file, 2026 bytes (2 KiB)
+
+Listing archive: davidholrepo1-main.zip
+
+--
+Path = davidholrepo1-main.zip
+Type = zip
+Physical Size = 2026
+Comment = 7954d9a868aa2fdd27a2722e6ec88aedaba95a8c
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2022-05-08 12:55:10 D....            0            0  davidholrepo1-main
+2022-05-08 12:55:10 .....         1308          671  davidholrepo1-main\.gitignore
+2022-05-08 12:55:10 .....         1683          859  davidholrepo1-main\README.md
+------------------- ----- ------------ ------------  ------------------------
+2022-05-08 12:55:10               2991         1530  2 files, 1 folders
+
+C:\Users\David Holberton\Downloads>
+
+
+
+
+
+
+https://github.udev2dev.com/maximus/mxms-devsandbox   => 404
+
+https://github.udev2dev.com/maximus   =>   maximus doesn't have any pinned public repositories yet.
+
+https://github.udev2dev.com/   =>   
+
+https://github.udev2dev.com/davihol   =>   You don't have any public repositories yet.
+
+https://github.udev2dev.com/davihol?tab=repositories   =>   shows my (newly created private repository) davidholrepo1
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://stufidos.udev2dev.com/
+
+Preparing UFidos...
+UFidos instances now launch on-demand for increased security and cost management.
+This should only take a minute or two.
+When your instance is ready, this page will automatically redirect you...
+
+
+
+
+
+
+
+
+

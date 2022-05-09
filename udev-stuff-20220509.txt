@@ -1,0 +1,93 @@
+davihol@davihol ~ > date
+Mon May  9 05:51:58 EDT 2022
+davihol@davihol ~ > touch stuff-20220509.txt
+davihol@davihol ~ > code  stuff-20220509.txt
+
+https://github.udev2dev.com
+https://github.udev2dev.com/davihol
+https://github.udev2dev.com/davihol/davidholrepo1
+https://github.udev2dev.com/maximus
+https://github.udev2dev.com/maximus/mxms-devsandbox
+
+Firefox prompted me for a cert to use ...
+
+Issued to: CN=davihol,OU=maximus,O=udev2dev.com
+Serial number: 13:D2
+Valid from Mar 29, 2022, 3:27:20 PM EDT to Mar 29, 2023, 3:27:20 PM EDT
+Key Usages: Digital Signature,Non-Repudiation,Key Encipherment
+Issued by: DC=com,DC=udev2dev,CN=DevOpsFactory
+Stored on:Software Security Device
+
+https://github.udev2dev.com/davihol/davidholrepo1
+https://github.udev2dev.com/maximus
+
+maximus doesn't have any pinned public repositories yet.
+This organization has no public repositories.
+
+https://github.udev2dev.com/maximus/mxms-devsandbox   =>   404
+
+git clone git@github.udev2dev.com:davihol/davidholrepo1.git
+git clone git@github.udev2dev.com:maximus/mxms-devsandbox.git
+
+davihol@davihol ~ > mkdir temp2
+davihol@davihol ~ > cd temp2
+davihol@davihol ~/temp2 > git clone git@github.udev2dev.com:davihol/davidholrepo1.git
+Cloning into 'davidholrepo1'...
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (13/13), done.
+remote: Total 13 (delta 4), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (13/13), done.
+Resolving deltas: 100% (4/4), done.
+davihol@davihol ~/temp2 > 
+
+davihol@davihol ~/temp2 > 
+davihol@davihol ~/temp2 > git clone git@github.udev2dev.com:maximus/mxms-devsandbox.git
+Cloning into 'mxms-devsandbox'...
+Warning: Permanently added the ECDSA host key for IP address '172.16.9.55' to the list of known hosts.
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+davihol@davihol ~/temp2 > 
+
+davihol@davihol ~ > 
+davihol@davihol ~ > cat ~/.gitconfig
+[user]
+	email = davihol@udev2dev.com
+	name = davihol
+davihol@davihol ~ > 
+davihol@davihol ~ > ls -latr ~/.ssh
+total 64
+-r--------.  1 davihol maximus 2829 Mar 29 15:27 davihol.pfx
+-r--------.  1 davihol maximus 3738 May  3 17:32 davihol.pem
+-r--------.  1 davihol maximus 1910 May  3 17:32 davihol.crt
+-r--------.  1 davihol maximus 1463 May  3 17:32 ca.jks
+-r--------.  1 davihol maximus 1819 May  3 17:32 davihol.pem.crt
+-r--------.  1 davihol maximus 1704 May  3 17:32 davihol.pem.key
+-r--------.  1 davihol maximus 1224 May  3 17:32 davihol.der
+-r--------.  1 davihol maximus  381 May  3 17:32 davihol.pub
+-r--------.  1 davihol maximus  381 May  3 17:32 id_rsa.pub
+-r--------.  1 davihol maximus 1679 May  3 17:32 davihol.rsa
+-r--------.  1 davihol maximus 1679 May  3 17:32 id_rsa
+drwxr-x---.  2 davihol maximus 4096 May  3 17:32 .
+drwxr-x---. 31 davihol maximus 4096 May  9 06:02 ..
+-rw-------.  1 davihol maximus 8295 May  9 06:04 known_hosts
+davihol@davihol ~ > 
+davihol@davihol ~ > ruby --version
+ruby 2.5.9p229 (2021-04-05 revision 67939) [x86_64-linux]
+davihol@davihol ~ > 
+davihol@davihol ~ > ruby -ve 'puts $:'
+ruby 2.5.9p229 (2021-04-05 revision 67939) [x86_64-linux]
+/usr/share/gems/gems/did_you_mean-1.2.0/lib
+/usr/local/share/ruby/site_ruby
+/usr/local/lib64/ruby/site_ruby
+/usr/share/ruby/vendor_ruby
+/usr/lib64/ruby/vendor_ruby
+/usr/share/rubygems
+/usr/share/ruby
+/usr/lib64/ruby
+davihol@davihol ~ > 
+davihol@davihol ~ > 
+

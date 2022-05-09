@@ -1,0 +1,502 @@
+7:35 AM 5/6/2022
+
+Microsoft Windows [Version 10.0.19043.1645]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\David Holberton>
+
+https://www.windowscentral.com/how-change-priority-order-network-adapters-windows-10
+https://curl.se/docs/manpage.html
+
+C:\Users\David Holberton\Downloads\udev2dev>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\Downloads\udev2dev
+
+05/05/2022  08:36 AM    <DIR>          ..
+05/05/2022  08:36 AM    <DIR>          .
+03/31/2022  08:46 AM            17,742 udev2devsla.docx
+03/31/2022  08:47 AM           632,568 Udev2devSetup.docx
+03/31/2022  08:47 AM             2,829 davihol.p12
+05/03/2022  04:34 AM        23,735,729 openconnect-gui-1.5.3-win32.exe
+05/03/2022  04:34 AM               163 openconnect-gui-1.5.3-win32.exe.sha512
+05/03/2022  04:35 AM           472,644 openconnect-gui-1.5.3.zip
+05/03/2022  04:35 AM           427,769 openconnect-gui-1.5.3.tar.gz
+               7 File(s)     25,289,444 bytes
+               2 Dir(s)  102,933,704,704 bytes free
+amy
+C:\Users\David Holberton\Downloads\udev2dev>
+
+
+Udev2dev Sites:
+
+General Info for Udev2dev & uFidOS: https://portal.udev2dev.com
+GitHub: https://github.udev2dev.com 
+Jenkins: https://jenkins.udev2dev.com  
+Jira: https://jira.udev2dev.com  
+Nexus: https://nexus.udev2dev.com  
+SonarQube: https://sonarqube.udev2dev.com 
+uFidOS Desktop (must be approved): https://stufidos.udev2dev.com
+
+https://pages.github.udev2dev.com/Foundry/userportal/
+https://github.udev2dev.com/
+https://jenkins.udev2dev.com/
+https://jira.udev2dev.com/secure/Dashboard.jspa
+https://jira.udev2dev.com/browse/US-163   US-163 GOTS Pipeline Access Request
+https://jira.udev2dev.com/browse/US-165   US-165 Rapid7 blocked on uFidos
+https://jira.udev2dev.com/browse/MAX-1    MAX-1 TEST Ticket  (Brent Taylor / Kyle Mueller)
+https://nexus.udev2dev.com/
+https://sonarqube.udev2dev.com/projects
+https://pages.github.udev2dev.com/Foundry/userportal/#ufidos-overview
+https://pages.github.udev2dev.com/Foundry/userportal/docs/services/ufidos
+
+UFidOS instances also, now, have an automatic shutdown after 1hr of inactivity, so you don’t have to worry about it running without being used, because you forgot to shut it down. You can now, also shut it down manually using the “sudo shutdown now” command if you like, to save even more money! The automatic shutdown job runs on the 1/2hr, and 1hr marks, 24/7, checking for inactivity.
+
+https://stufidos.udev2dev.com
+
+
+
+
+
+
+
+
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+2022-05-06 07:34:34 | 3ec4 | POST https://uservpn.udev2dev.com/
+2022-05-06 07:34:34 | 3ec4 | Attempting to connect to server 23.22.216.200:443
+2022-05-06 07:34:34 | 3ec4 | Connected to 23.22.216.200:443
+2022-05-06 07:34:34 | 3ec4 | There was a non-CA certificate in the trusted list: OU=Copyright (c) 1997 Microsoft Corp.,OU=Microsoft Corporation,CN=Microsoft Root Authority.
+2022-05-06 07:34:34 | 3ec4 | There was a non-CA certificate in the trusted list: C=US,O=MSFT,CN=Microsoft Authenticode(tm) Root Authority.
+2022-05-06 07:34:34 | 3ec4 | There was a non-CA certificate in the trusted list: CN=Root Agency.
+2022-05-06 07:34:34 | 3ec4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-06 07:34:34 | 3ec4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-06 07:34:34 | 3ec4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-06 07:34:34 | 3ec4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-06 07:34:34 | 3ec4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-06 07:34:34 | 3ec4 | There was a non-CA certificate in the trusted list: CN=dphxps15.
+2022-05-06 07:34:34 | 3ec4 | There was a non-CA certificate in the trusted list: CN=LAPTOP-H2R4EKMU.
+2022-05-06 07:34:34 | 3ec4 | Using certificate file C:/Program Files (x86)/OpenConnect-GUI/tmp-certleLYos
+2022-05-06 07:34:34 | 3ec4 | Using private key file C:/Program Files (x86)/OpenConnect-GUI/tmp-keyNGnTXF
+2022-05-06 07:34:34 | 3ec4 | Using client certificate 'davihol'
+2022-05-06 07:34:34 | 3ec4 | SSL negotiation with uservpn.udev2dev.com
+2022-05-06 07:34:34 | 3ec4 | Connected to HTTPS on uservpn.udev2dev.com
+2022-05-06 07:34:34 | 3ec4 | Got HTTP response: HTTP/1.1 200 OK
+2022-05-06 07:34:34 | 3ec4 | Connection: Keep-Alive
+2022-05-06 07:34:34 | 3ec4 | Content-Type: text/xml
+2022-05-06 07:34:34 | 3ec4 | Content-Length: 665
+2022-05-06 07:34:34 | 3ec4 | X-Transcend-Version: 1
+2022-05-06 07:34:34 | 3ec4 | Set-Cookie: webvpncontext=AHZ698dwcuCCEdaWySxBazE+C5GqI/XHm9Htn9DMh3E=; Secure; HttpOnly
+2022-05-06 07:34:34 | 3ec4 | Set-Cookie: webvpn=<elided>; Secure; HttpOnly
+2022-05-06 07:34:34 | 3ec4 | Set-Cookie: webvpnc=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; Secure; HttpOnly
+2022-05-06 07:34:34 | 3ec4 | Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+2022-05-06 07:34:34 | 3ec4 | X-Frame-Options: deny
+2022-05-06 07:34:34 | 3ec4 | X-Content-Type-Options: nosniff
+2022-05-06 07:34:34 | 3ec4 | Content-Security-Policy: default-src 'none'
+2022-05-06 07:34:34 | 3ec4 | X-Permitted-Cross-Domain-Policies: none
+2022-05-06 07:34:34 | 3ec4 | Referrer-Policy: no-referrer
+2022-05-06 07:34:34 | 3ec4 | Clear-Site-Data: "cache","cookies","storage"
+2022-05-06 07:34:34 | 3ec4 | Cross-Origin-Embedder-Policy: require-corp
+2022-05-06 07:34:34 | 3ec4 | Cross-Origin-Opener-Policy: same-origin
+2022-05-06 07:34:34 | 3ec4 | Cross-Origin-Resource-Policy: same-origin
+2022-05-06 07:34:34 | 3ec4 | X-XSS-Protection: 0
+2022-05-06 07:34:34 | 3ec4 | Set-Cookie: webvpnc=bu:/&p:t&iu:1/&sh:76241309D1F9E82FE44A8571EE6246F4459AB5D9&lu:/+CSCOT+/translation-table?textdomain%3DAnyConnect%26type%3Dmanifest&fu:profiles
+F/data/2/ocserv/profile.xml&fh:D8E7DA12D898E62719E0D29020D937B569DA0AF7; path=/; Secure; HttpOnly
+2022-05-06 07:34:34 | 3ec4 | HTTP body length:  (665)
+2022-05-06 07:34:34 | 3ec4 | XML POST enabled
+2022-05-06 07:34:34 | 3ec4 | SSL negotiation with uservpn.udev2dev.com
+2022-05-06 07:34:34 | 3ec4 | Connected to HTTPS on uservpn.udev2dev.com
+2022-05-06 07:34:34 | 3ec4 | Got CONNECT response: HTTP/1.1 200 CONNECTED
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-Version: 1
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-Server-Name: ocserv 1.1.6
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-Hostname: localhost
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-DPD: 90
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-Default-Domain: udev2dev.com
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-Address: 192.168.99.235
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-Netmask: 255.255.255.0
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-DNS: 172.16.0.2
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-Split-DNS: udev2dev.com
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-Split-Include: 172.16.0.0/255.255.0.0
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-Tunnel-All-DNS: false
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-Client-Bypass-Protocol: false
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-Keepalive: 3600
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-Idle-Timeout: 900
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-Smartcard-Removal-Disconnect: true
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-DynDNS: true
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-Rekey-Time: 43229
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-Rekey-Method: ssl
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-Session-Timeout: 14400
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-Session-Timeout-Remaining: 14400
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-Disconnected-Timeout: none
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-Keep: true
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-TCP-Keepalive: true
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-License: accept
+2022-05-06 07:34:34 | 3ec4 | X-DTLS-DPD: 90
+2022-05-06 07:34:34 | 3ec4 | X-DTLS-Port: 443
+2022-05-06 07:34:34 | 3ec4 | X-DTLS-Rekey-Time: 43239
+2022-05-06 07:34:34 | 3ec4 | X-DTLS-Rekey-Method: ssl
+2022-05-06 07:34:34 | 3ec4 | X-DTLS-Keepalive: 3600
+2022-05-06 07:34:34 | 3ec4 | X-DTLS-App-ID: 5e837e28ff334e34a8e3af65df24f7c5380220430c77179f3f500bb23f170a98
+2022-05-06 07:34:34 | 3ec4 | X-DTLS-CipherSuite: PSK-NEGOTIATE
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-Base-MTU: 1406
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-MTU: 1340
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-Banner: By using this system you consent that at any time the Government may monitor, intercept, search or seize any transmitted or stored data which may be used for any lawful Government purpose
+2022-05-06 07:34:34 | 3ec4 | X-DTLS-Content-Encoding: lzs
+2022-05-06 07:34:34 | 3ec4 | X-CSTP-Content-Encoding: lzs
+2022-05-06 07:34:34 | 3ec4 | CSTP connected. DPD 90, Keepalive 3600
+2022-05-06 07:34:34 | 3ec4 | CSTP Ciphersuite: (TLS1.2)-(ECDHE-RSA-SECP256R1)-(AES-256-GCM)
+2022-05-06 07:34:34 | 3ec4 | Opened tun device Ethernet 4
+2022-05-06 07:34:34 | 3ec4 | TAP-Windows driver v9.21 (0)
+2022-05-06 07:34:39 | 3ec4 | <<-- [EXEC] route print
+2022-05-06 07:34:39 | 3ec4 | ===========================================================================
+2022-05-06 07:34:39 | 3ec4 | Interface List
+2022-05-06 07:34:39 | 3ec4 |  13...9c b6 d0 de 1a 3f ......Killer Wireless-n/a/ac 1535 Wireless Network Adapter
+2022-05-06 07:34:39 | 3ec4 |   7...9e b6 d0 de 1a 3f ......Microsoft Wi-Fi Direct Virtual Adapter
+2022-05-06 07:34:39 | 3ec4 |  14...ae b6 d0 de 1a 3f ......Microsoft Wi-Fi Direct Virtual Adapter #3
+2022-05-06 07:34:39 | 3ec4 |  11...00 ff 4e 0c ca ac ......TAP-Windows Adapter V9
+2022-05-06 07:34:39 | 3ec4 |  22...00 e0 4c 68 f1 1e ......Realtek USB GbE Family Controller #2
+2022-05-06 07:34:39 | 3ec4 |   3...9c b6 d0 de 1a 40 ......Bluetooth Device (Personal Area Network) #3
+2022-05-06 07:34:39 | 3ec4 |   1...........................Software Loopback Interface 1
+2022-05-06 07:34:39 | 3ec4 | ===========================================================================
+2022-05-06 07:34:39 | 3ec4 | 
+2022-05-06 07:34:39 | 3ec4 | IPv4 Route Table
+2022-05-06 07:34:39 | 3ec4 | ===========================================================================
+2022-05-06 07:34:39 | 3ec4 | Active Routes:
+2022-05-06 07:34:39 | 3ec4 | Network Destination        Netmask          Gateway       Interface  Metric
+2022-05-06 07:34:39 | 3ec4 |           0.0.0.0          0.0.0.0     192.168.86.1   192.168.86.247     42
+2022-05-06 07:34:39 | 3ec4 |         127.0.0.0        255.0.0.0         On-link         127.0.0.1    331
+2022-05-06 07:34:39 | 3ec4 |         127.0.0.1  255.255.255.255         On-link         127.0.0.1    331
+2022-05-06 07:34:39 | 3ec4 |   127.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+2022-05-06 07:34:39 | 3ec4 |      192.168.86.0    255.255.255.0         On-link    192.168.86.247    297
+2022-05-06 07:34:39 | 3ec4 |    192.168.86.247  255.255.255.255         On-link    192.168.86.247    297
+2022-05-06 07:34:39 | 3ec4 |    192.168.86.255  255.255.255.255         On-link    192.168.86.247    297
+2022-05-06 07:34:39 | 3ec4 |         224.0.0.0        240.0.0.0         On-link         127.0.0.1    331
+2022-05-06 07:34:39 | 3ec4 |         224.0.0.0        240.0.0.0         On-link    192.168.86.247    297
+2022-05-06 07:34:39 | 3ec4 |         224.0.0.0        240.0.0.0         On-link                 b    291
+2022-05-06 07:34:39 | 3ec4 |   255.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+2022-05-06 07:34:39 | 3ec4 |   255.255.255.255  255.255.255.255         On-link    192.168.86.247    297
+2022-05-06 07:34:39 | 3ec4 |   255.255.255.255  255.255.255.255         On-link                 b    291
+2022-05-06 07:34:39 | 3ec4 | ===========================================================================
+2022-05-06 07:34:39 | 3ec4 | Persistent Routes:
+2022-05-06 07:34:39 | 3ec4 |   None
+2022-05-06 07:34:39 | 3ec4 | 
+2022-05-06 07:34:39 | 3ec4 | IPv6 Route Table
+2022-05-06 07:34:39 | 3ec4 | ===========================================================================
+2022-05-06 07:34:39 | 3ec4 | Active Routes:
+2022-05-06 07:34:39 | 3ec4 |  If Metric Network Destination      Gateway
+2022-05-06 07:34:39 | 3ec4 |   1    331 ::1/128                  On-link
+2022-05-06 07:34:39 | 3ec4 |  22    297 fe80::/64                On-link
+2022-05-06 07:34:39 | 3ec4 |  11    291 fe80::/64                On-link
+2022-05-06 07:34:39 | 3ec4 |  11    291 fe80::9088:36b6:a994:7b17/128
+2022-05-06 07:34:39 | 3ec4 |                                     On-link
+2022-05-06 07:34:39 | 3ec4 |  22    297 fe80::e02c:f11b:27b6:8751/128
+2022-05-06 07:34:39 | 3ec4 |                                     On-link
+2022-05-06 07:34:39 | 3ec4 |   1    331 ff00::/8                 On-link
+2022-05-06 07:34:39 | 3ec4 |  22    297 ff00::/8                 On-link
+2022-05-06 07:34:39 | 3ec4 |  11    291 ff00::/8                 On-link
+2022-05-06 07:34:39 | 3ec4 | ===========================================================================
+2022-05-06 07:34:39 | 3ec4 | Persistent Routes:
+2022-05-06 07:34:39 | 3ec4 |   None
+2022-05-06 07:34:39 | 3ec4 | -->> (exitCode: 0)
+2022-05-06 07:34:39 | 3ec4 | Default Gateway:192.168.86.1
+2022-05-06 07:34:39 | 3ec4 | VPN Gateway: 23.22.216.200
+2022-05-06 07:34:39 | 3ec4 | Internal Address: 192.168.99.235
+2022-05-06 07:34:39 | 3ec4 | Internal Netmask: 255.255.255.0
+2022-05-06 07:34:39 | 3ec4 | Internal Gateway: 192.168.99.1
+2022-05-06 07:34:39 | 3ec4 | Interface idx: 11 ("Ethernet 4")
+2022-05-06 07:34:39 | 3ec4 | <<-- [EXEC] route add 23.22.216.200 mask 255.255.255.255 192.168.86.1
+2022-05-06 07:34:39 | 3ec4 |  OK!
+2022-05-06 07:34:39 | 3ec4 | -->> (exitCode: 0)
+2022-05-06 07:34:39 | 3ec4 | MTU: 1340
+2022-05-06 07:34:39 | 3ec4 | <<-- [EXEC] netsh interface ipv4 set subinterface 11 mtu=1340 store=active
+2022-05-06 07:34:39 | 3ec4 | Ok.
+2022-05-06 07:34:39 | 3ec4 | 
+2022-05-06 07:34:39 | 3ec4 | -->> (exitCode: 0)
+2022-05-06 07:34:39 | 3ec4 | Configuring 11 interface for Legacy IP...
+2022-05-06 07:34:39 | 3ec4 | <<-- [EXEC] netsh interface ip set address 11 static 192.168.99.235 255.255.255.0
+2022-05-06 07:34:39 | 3ec4 | 
+2022-05-06 07:34:39 | 3ec4 | -->> (exitCode: 0)
+2022-05-06 07:34:39 | 3ec4 | <<-- [EXEC] netsh interface ip add dns 11 172.16.0.2 index=1
+2022-05-06 07:34:39 | 3ec4 | The object is already in the list.
+2022-05-06 07:34:39 | 3ec4 | 
+2022-05-06 07:34:39 | 3ec4 | 
+2022-05-06 07:34:39 | 3ec4 | -->> (exitCode: 1)
+2022-05-06 07:34:39 | 3ec4 | done.
+2022-05-06 07:34:39 | 3ec4 | Configuring Legacy IP networks:
+2022-05-06 07:34:39 | 3ec4 | Waiting for interface to come up...
+2022-05-06 07:34:39 | 3ec4 | <<-- [EXEC] route print
+2022-05-06 07:34:39 | 3ec4 | ===========================================================================
+2022-05-06 07:34:39 | 3ec4 | Interface List
+2022-05-06 07:34:39 | 3ec4 |  13...9c b6 d0 de 1a 3f ......Killer Wireless-n/a/ac 1535 Wireless Network Adapter
+2022-05-06 07:34:39 | 3ec4 |   7...9e b6 d0 de 1a 3f ......Microsoft Wi-Fi Direct Virtual Adapter
+2022-05-06 07:34:39 | 3ec4 |  14...ae b6 d0 de 1a 3f ......Microsoft Wi-Fi Direct Virtual Adapter #3
+2022-05-06 07:34:39 | 3ec4 |  11...00 ff 4e 0c ca ac ......TAP-Windows Adapter V9
+2022-05-06 07:34:39 | 3ec4 |  22...00 e0 4c 68 f1 1e ......Realtek USB GbE Family Controller #2
+2022-05-06 07:34:39 | 3ec4 |   3...9c b6 d0 de 1a 40 ......Bluetooth Device (Personal Area Network) #3
+2022-05-06 07:34:39 | 3ec4 |   1...........................Software Loopback Interface 1
+2022-05-06 07:34:39 | 3ec4 | ===========================================================================
+2022-05-06 07:34:39 | 3ec4 | 
+2022-05-06 07:34:39 | 3ec4 | IPv4 Route Table
+2022-05-06 07:34:39 | 3ec4 | ===========================================================================
+2022-05-06 07:34:39 | 3ec4 | Active Routes:
+2022-05-06 07:34:39 | 3ec4 | Network Destination        Netmask          Gateway       Interface  Metric
+2022-05-06 07:34:39 | 3ec4 |           0.0.0.0          0.0.0.0     192.168.86.1   192.168.86.247     42
+2022-05-06 07:34:39 | 3ec4 |     23.22.216.200  255.255.255.255     192.168.86.1   192.168.86.247     42
+2022-05-06 07:34:39 | 3ec4 |         127.0.0.0        255.0.0.0         On-link         127.0.0.1    331
+2022-05-06 07:34:39 | 3ec4 |         127.0.0.1  255.255.255.255         On-link         127.0.0.1    331
+2022-05-06 07:34:39 | 3ec4 |   127.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+2022-05-06 07:34:39 | 3ec4 |      192.168.86.0    255.255.255.0         On-link    192.168.86.247    297
+2022-05-06 07:34:39 | 3ec4 |    192.168.86.247  255.255.255.255         On-link    192.168.86.247    297
+2022-05-06 07:34:39 | 3ec4 |    192.168.86.255  255.255.255.255         On-link    192.168.86.247    297
+2022-05-06 07:34:39 | 3ec4 |         224.0.0.0        240.0.0.0         On-link         127.0.0.1    331
+2022-05-06 07:34:39 | 3ec4 |         224.0.0.0        240.0.0.0         On-link    192.168.86.247    297
+2022-05-06 07:34:39 | 3ec4 |         224.0.0.0        240.0.0.0         On-link                 b    291
+2022-05-06 07:34:39 | 3ec4 |   255.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+2022-05-06 07:34:39 | 3ec4 |   255.255.255.255  255.255.255.255         On-link    192.168.86.247    297
+2022-05-06 07:34:39 | 3ec4 |   255.255.255.255  255.255.255.255         On-link                 b    291
+2022-05-06 07:34:39 | 3ec4 | ===========================================================================
+2022-05-06 07:34:39 | 3ec4 | Persistent Routes:
+2022-05-06 07:34:39 | 3ec4 |   None
+2022-05-06 07:34:39 | 3ec4 | 
+2022-05-06 07:34:39 | 3ec4 | IPv6 Route Table
+2022-05-06 07:34:39 | 3ec4 | ===========================================================================
+2022-05-06 07:34:39 | 3ec4 | Active Routes:
+2022-05-06 07:34:39 | 3ec4 |  If Metric Network Destination      Gateway
+2022-05-06 07:34:39 | 3ec4 |   1    331 ::1/128                  On-link
+2022-05-06 07:34:39 | 3ec4 |  22    297 fe80::/64                On-link
+2022-05-06 07:34:39 | 3ec4 |  11    291 fe80::/64                On-link
+2022-05-06 07:34:39 | 3ec4 |  11    291 fe80::9088:36b6:a994:7b17/128
+2022-05-06 07:34:39 | 3ec4 |                                     On-link
+2022-05-06 07:34:39 | 3ec4 |  22    297 fe80::e02c:f11b:27b6:8751/128
+2022-05-06 07:34:39 | 3ec4 |                                     On-link
+2022-05-06 07:34:39 | 3ec4 |   1    331 ff00::/8                 On-link
+2022-05-06 07:34:39 | 3ec4 |  22    297 ff00::/8                 On-link
+2022-05-06 07:34:39 | 3ec4 |  11    291 ff00::/8                 On-link
+2022-05-06 07:34:39 | 3ec4 | ===========================================================================
+2022-05-06 07:34:39 | 3ec4 | Persistent Routes:
+2022-05-06 07:34:39 | 3ec4 |   None
+2022-05-06 07:34:39 | 3ec4 | -->> (exitCode: 0)
+2022-05-06 07:34:39 | 3ec4 | Waiting for interface to come up...
+2022-05-06 07:34:39 | 3ec4 | <<-- [EXEC] route print
+2022-05-06 07:34:39 | 3ec4 | ===========================================================================
+2022-05-06 07:34:39 | 3ec4 | Interface List
+2022-05-06 07:34:39 | 3ec4 |  13...9c b6 d0 de 1a 3f ......Killer Wireless-n/a/ac 1535 Wireless Network Adapter
+2022-05-06 07:34:39 | 3ec4 |   7...9e b6 d0 de 1a 3f ......Microsoft Wi-Fi Direct Virtual Adapter
+2022-05-06 07:34:39 | 3ec4 |  14...ae b6 d0 de 1a 3f ......Microsoft Wi-Fi Direct Virtual Adapter #3
+2022-05-06 07:34:39 | 3ec4 |  11...00 ff 4e 0c ca ac ......TAP-Windows Adapter V9
+2022-05-06 07:34:39 | 3ec4 |  22...00 e0 4c 68 f1 1e ......Realtek USB GbE Family Controller #2
+2022-05-06 07:34:39 | 3ec4 |   3...9c b6 d0 de 1a 40 ......Bluetooth Device (Personal Area Network) #3
+2022-05-06 07:34:39 | 3ec4 |   1...........................Software Loopback Interface 1
+2022-05-06 07:34:39 | 3ec4 | ===========================================================================
+2022-05-06 07:34:39 | 3ec4 | 
+2022-05-06 07:34:39 | 3ec4 | IPv4 Route Table
+2022-05-06 07:34:39 | 3ec4 | ===========================================================================
+2022-05-06 07:34:39 | 3ec4 | Active Routes:
+2022-05-06 07:34:39 | 3ec4 | Network Destination        Netmask          Gateway       Interface  Metric
+2022-05-06 07:34:39 | 3ec4 |           0.0.0.0          0.0.0.0     192.168.86.1   192.168.86.247     42
+2022-05-06 07:34:39 | 3ec4 |     23.22.216.200  255.255.255.255     192.168.86.1   192.168.86.247     42
+2022-05-06 07:34:39 | 3ec4 |         127.0.0.0        255.0.0.0         On-link         127.0.0.1    331
+2022-05-06 07:34:39 | 3ec4 |         127.0.0.1  255.255.255.255         On-link         127.0.0.1    331
+2022-05-06 07:34:39 | 3ec4 |   127.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+2022-05-06 07:34:39 | 3ec4 |      192.168.86.0    255.255.255.0         On-link    192.168.86.247    297
+2022-05-06 07:34:39 | 3ec4 |    192.168.86.247  255.255.255.255         On-link    192.168.86.247    297
+2022-05-06 07:34:39 | 3ec4 |    192.168.86.255  255.255.255.255         On-link    192.168.86.247    297
+2022-05-06 07:34:39 | 3ec4 |      192.168.99.0    255.255.255.0         On-link    192.168.99.235    291
+2022-05-06 07:34:39 | 3ec4 |    192.168.99.235  255.255.255.255         On-link    192.168.99.235    291
+2022-05-06 07:34:39 | 3ec4 |    192.168.99.255  255.255.255.255         On-link    192.168.99.235    291
+2022-05-06 07:34:39 | 3ec4 |         224.0.0.0        240.0.0.0         On-link         127.0.0.1    331
+2022-05-06 07:34:39 | 3ec4 |         224.0.0.0        240.0.0.0         On-link    192.168.86.247    297
+2022-05-06 07:34:39 | 3ec4 |         224.0.0.0        240.0.0.0         On-link    192.168.99.235    291
+2022-05-06 07:34:39 | 3ec4 |   255.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+2022-05-06 07:34:39 | 3ec4 |   255.255.255.255  255.255.255.255         On-link    192.168.86.247    297
+2022-05-06 07:34:39 | 3ec4 |   255.255.255.255  255.255.255.255         On-link    192.168.99.235    291
+2022-05-06 07:34:39 | 3ec4 | ===========================================================================
+2022-05-06 07:34:39 | 3ec4 | Persistent Routes:
+2022-05-06 07:34:39 | 3ec4 |   None
+2022-05-06 07:34:39 | 3ec4 | 
+2022-05-06 07:34:39 | 3ec4 | IPv6 Route Table
+2022-05-06 07:34:39 | 3ec4 | ===========================================================================
+2022-05-06 07:34:39 | 3ec4 | Active Routes:
+2022-05-06 07:34:39 | 3ec4 |  If Metric Network Destination      Gateway
+2022-05-06 07:34:39 | 3ec4 |   1    331 ::1/128                  On-link
+2022-05-06 07:34:39 | 3ec4 |  22    297 fe80::/64                On-link
+2022-05-06 07:34:39 | 3ec4 |  11    291 fe80::/64                On-link
+2022-05-06 07:34:39 | 3ec4 |  11    291 fe80::9088:36b6:a994:7b17/128
+2022-05-06 07:34:39 | 3ec4 |                                     On-link
+2022-05-06 07:34:39 | 3ec4 |  22    297 fe80::e02c:f11b:27b6:8751/128
+2022-05-06 07:34:39 | 3ec4 |                                     On-link
+2022-05-06 07:34:39 | 3ec4 |   1    331 ff00::/8                 On-link
+2022-05-06 07:34:39 | 3ec4 |  22    297 ff00::/8                 On-link
+2022-05-06 07:34:39 | 3ec4 |  11    291 ff00::/8                 On-link
+2022-05-06 07:34:39 | 3ec4 | ===========================================================================
+2022-05-06 07:34:39 | 3ec4 | Persistent Routes:
+2022-05-06 07:34:39 | 3ec4 |   None
+2022-05-06 07:34:39 | 3ec4 | -->> (exitCode: 0)
+2022-05-06 07:34:39 | 3ec4 | <<-- [EXEC] route add 172.16.0.0 mask 255.255.0.0 192.168.99.1
+2022-05-06 07:34:39 | 3ec4 |  OK!
+2022-05-06 07:34:39 | 3ec4 | -->> (exitCode: 0)
+2022-05-06 07:34:39 | 3ec4 | Route configuration done.
+2022-05-06 07:34:39 | 3ec4 | --------------------- BANNER ---------------------
+2022-05-06 07:34:39 | 3ec4 | By using this system you consent that at any time the Government may monitor, intercept, search or seize any transmitted or stored data which may be used for any lawful Government purpose
+2022-05-06 07:34:39 | 3ec4 | ------------------- BANNER end -------------------
+
+
+C:\Users\David Holberton>nslookup portal.udev2dev.com
+Server:  ip-172-16-0-2.ec2.internal
+Address:  172.16.0.2
+
+Non-authoritative answer:
+Name:    portal.udev2dev.com
+Addresses:  172.16.7.227
+          172.16.9.55
+
+
+C:\Users\David Holberton>netstat -rn
+===========================================================================
+Interface List
+ 13...9c b6 d0 de 1a 3f ......Killer Wireless-n/a/ac 1535 Wireless Network Adapter
+  7...9e b6 d0 de 1a 3f ......Microsoft Wi-Fi Direct Virtual Adapter
+ 14...ae b6 d0 de 1a 3f ......Microsoft Wi-Fi Direct Virtual Adapter #3
+ 11...00 ff 4e 0c ca ac ......TAP-Windows Adapter V9
+ 22...00 e0 4c 68 f1 1e ......Realtek USB GbE Family Controller #2
+  3...9c b6 d0 de 1a 40 ......Bluetooth Device (Personal Area Network) #3
+  1...........................Software Loopback Interface 1
+===========================================================================
+
+IPv4 Route Table
+===========================================================================
+Active Routes:
+Network Destination        Netmask          Gateway       Interface  Metric
+          0.0.0.0          0.0.0.0     192.168.86.1   192.168.86.247     42
+    23.22.216.200  255.255.255.255     192.168.86.1   192.168.86.247     42
+        127.0.0.0        255.0.0.0         On-link         127.0.0.1    331
+        127.0.0.1  255.255.255.255         On-link         127.0.0.1    331
+  127.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+       172.16.0.0      255.255.0.0     192.168.99.1   192.168.99.235     36
+     192.168.86.0    255.255.255.0         On-link    192.168.86.247    297
+   192.168.86.247  255.255.255.255         On-link    192.168.86.247    297
+   192.168.86.255  255.255.255.255         On-link    192.168.86.247    297
+     192.168.99.0    255.255.255.0         On-link    192.168.99.235    291
+   192.168.99.235  255.255.255.255         On-link    192.168.99.235    291
+   192.168.99.255  255.255.255.255         On-link    192.168.99.235    291
+        224.0.0.0        240.0.0.0         On-link         127.0.0.1    331
+        224.0.0.0        240.0.0.0         On-link    192.168.86.247    297
+        224.0.0.0        240.0.0.0         On-link    192.168.99.235    291
+  255.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+  255.255.255.255  255.255.255.255         On-link    192.168.86.247    297
+  255.255.255.255  255.255.255.255         On-link    192.168.99.235    291
+===========================================================================
+Persistent Routes:
+  None
+
+IPv6 Route Table
+===========================================================================
+Active Routes:
+ If Metric Network Destination      Gateway
+  1    331 ::1/128                  On-link
+ 22    297 fe80::/64                On-link
+ 11    291 fe80::/64                On-link
+ 11    291 fe80::9088:36b6:a994:7b17/128
+                                    On-link
+ 22    297 fe80::e02c:f11b:27b6:8751/128
+                                    On-link
+  1    331 ff00::/8                 On-link
+ 22    297 ff00::/8                 On-link
+ 11    291 ff00::/8                 On-link
+===========================================================================
+Persistent Routes:
+  None
+
+C:\Users\David Holberton>
+C:\Users\David Holberton>
+
+curl --verbose --get --cert davihol.p12 --output file.txt https://portal.udev2dev.com
+curl --verbose --get --cert davihol.p12:xxxxxxxxxxxxxxxx --output file.txt https://portal.udev2dev.com
+
+C:\Users\David Holberton>
+C:\Users\David Holberton>curl --version
+curl 7.79.1 (Windows) libcurl/7.79.1 Schannel
+Release-Date: 2021-09-22
+Protocols: dict file ftp ftps http https imap imaps pop3 pop3s smtp smtps telnet tftp
+Features: AsynchDNS HSTS IPv6 Kerberos Largefile NTLM SPNEGO SSL SSPI UnixSockets
+
+C:\Users\David Holberton>
+C:\Users\David Holberton>curl --verbose --get --cert davihol.p12 --output file.txt https://portal.udev2dev.com
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 172.16.7.227:443...
+* Connected to portal.udev2dev.com (172.16.7.227) port 443 (#0)
+* schannel: disabled automatic use of client certificate
+* schannel: Failed to import cert file davihol.p12, password is bad
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (58) schannel: Failed to import cert file davihol.p12, password is bad
+
+C:\Users\David Holberton>curl --verbose --get --cert davihol.p12:xxxxxxxxxxxxxxxx --output file.txt https://portal.udev2dev.com
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0*   Trying 172.16.9.55:443...
+* Connected to portal.udev2dev.com (172.16.9.55) port 443 (#0)
+* schannel: disabled automatic use of client certificate
+* schannel: ALPN, offering http/1.1
+* schannel: ALPN, server accepted to use http/1.1
+> GET / HTTP/1.1
+> Host: portal.udev2dev.com
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0* Mark bundle as not supporting multiuse
+< HTTP/1.1 301 Moved Permanently
+< Server: nginx
+< Date: Fri, 06 May 2022 11:52:13 GMT
+< Content-Type: text/html
+< Content-Length: 162
+< Connection: keep-alive
+< Location: https://pages.github.udev2dev.com/Foundry/userportal/
+<
+{ [162 bytes data]
+100   162  100   162    0     0     24      0  0:00:06  0:00:06 --:--:--    37
+* Connection #0 to host portal.udev2dev.com left intact
+
+C:\Users\David Holberton>
+C:\Users\David Holberton>type file.txt
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+C:\Users\David Holberton>
+
+
+
+
+https://github.udev2dev.com
+https://github.udev2dev.com/maximus
+https://github.udev2dev.com/maximus/mxms-devsandbox
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
