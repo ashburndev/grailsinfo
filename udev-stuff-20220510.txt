@@ -1,0 +1,36 @@
+Tue May 10 05:59:14 EDT 2022
+
+davihol@davihol ~ > date
+Tue May 10 05:58:51 EDT 2022
+davihol@davihol ~ > 
+davihol@davihol ~ > date > stuff-20220510.txt
+davihol@davihol ~ > code stuff-20220510.txt 
+
+davihol@davihol ~ > mkdir temp4
+davihol@davihol ~ > cd temp4
+davihol@davihol ~/temp4 > git clone git@github.udev2dev.com:davihol/davidholrepo1.git
+Cloning into 'davidholrepo1'...
+remote: Enumerating objects: 18, done.
+remote: Counting objects: 100% (18/18), done.
+remote: Compressing objects: 100% (18/18), done.
+remote: Total 18 (delta 5), reused 5 (delta 0), pack-reused 0
+Receiving objects: 100% (18/18), 5.55 KiB | 5.55 MiB/s, done.
+Resolving deltas: 100% (5/5), done.
+davihol@davihol ~/temp4 > 
+davihol@davihol ~/temp4 > git clone git@github.udev2dev.com:maximus/mxms-devsandbox.git
+Cloning into 'mxms-devsandbox'...
+remote: Enumerating objects: 104, done.
+remote: Counting objects: 100% (23/23), done.
+remote: Compressing objects: 100% (21/21), done.
+remote: Total 104 (delta 3), reused 8 (delta 0), pack-reused 81
+Receiving objects: 100% (104/104), 23.15 MiB | 47.42 MiB/s, done.
+Resolving deltas: 100% (4/4), done.
+davihol@davihol ~/temp4 > 
+davihol@davihol ~/temp4 > ls -latr
+total 16
+drwxr-x---. 32 davihol maximus 4096 May 10 06:01 ..
+drwxr-x---   3 davihol maximus 4096 May 10 06:01 davidholrepo1
+drwxr-x---   4 davihol maximus 4096 May 10 06:01 .
+drwxr-x---   7 davihol maximus 4096 May 10 06:01 mxms-devsandbox
+davihol@davihol ~/temp4 > 
+
