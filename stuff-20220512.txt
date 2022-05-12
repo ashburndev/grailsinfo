@@ -1,0 +1,281 @@
+7:49 AM 5/12/2022
+
+C:\Users\David Holberton\Downloads>dir /o:gd *elast*
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\Downloads
+
+03/29/2022  07:11 AM       318,585,988 elasticsearch-8.1.1-windows-x86_64.zip
+03/29/2022  07:11 AM               169 elasticsearch-8.1.1-windows-x86_64.zip.sha512
+03/29/2022  07:12 AM               488 elasticsearch-8.1.1-windows-x86_64.zip.asc
+03/31/2022  05:18 PM       318,595,362 elasticsearch-8.1.2-windows-x86_64.zip
+03/31/2022  05:18 PM               169 elasticsearch-8.1.2-windows-x86_64.zip.sha512
+03/31/2022  05:18 PM               488 elasticsearch-8.1.2-windows-x86_64.zip.asc
+03/31/2022  05:49 PM            53,600 elasticsearch-in-action-main.zip
+03/31/2022  07:47 PM       304,227,684 elasticsearch-7.17.2-windows-x86_64.zip
+03/31/2022  07:47 PM               170 elasticsearch-7.17.2-windows-x86_64.zip.sha512
+               9 File(s)    941,464,118 bytes
+               0 Dir(s)  111,560,822,784 bytes free
+
+C:\Users\David Holberton\Downloads>dir /o:gd *kibana*
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\Downloads
+
+03/31/2022  05:21 PM       393,500,579 kibana-8.1.2-windows-x86_64.zip
+03/31/2022  05:21 PM               162 kibana-8.1.2-windows-x86_64.zip.sha512
+03/31/2022  05:21 PM               488 kibana-8.1.2-windows-x86_64.zip.asc
+03/31/2022  07:51 PM       403,752,639 kibana-7.17.2-windows-x86_64.zip
+03/31/2022  07:51 PM               163 kibana-7.17.2-windows-x86_64.zip.sha512
+               5 File(s)    797,254,031 bytes
+               0 Dir(s)  111,560,806,400 bytes free
+
+C:\Users\David Holberton\Downloads>
+
+C:\LocalApps\elasticsearch-8.1.2>
+C:\LocalApps\elasticsearch-8.1.2>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\LocalApps\elasticsearch-8.1.2
+
+03/29/2022  09:22 PM    <DIR>          plugins
+03/29/2022  09:26 PM    <DIR>          lib
+03/29/2022  09:26 PM    <DIR>          jdk
+03/29/2022  09:26 PM    <DIR>          modules
+03/31/2022  08:30 PM    <DIR>          config
+03/31/2022  09:37 PM    <DIR>          bin
+04/01/2022  06:20 AM    <DIR>          .
+04/01/2022  06:20 AM    <DIR>          ..
+04/14/2022  12:18 PM    <DIR>          logs
+04/14/2022  12:32 PM    <DIR>          data
+03/29/2022  09:18 PM             2,710 README.asciidoc
+03/29/2022  09:18 PM             3,860 LICENSE.txt
+03/29/2022  09:22 PM           858,797 NOTICE.txt
+               3 File(s)        865,367 bytes
+              10 Dir(s)  111,326,420,992 bytes free
+
+C:\LocalApps\elasticsearch-8.1.2>
+C:\LocalApps\elasticsearch-8.1.2>dir /o:gd config
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\LocalApps\elasticsearch-8.1.2\config
+
+03/29/2022  09:22 PM    <DIR>          jvm.options.d
+03/31/2022  08:30 PM    <DIR>          certs
+03/31/2022  08:30 PM    <DIR>          ..
+03/31/2022  08:30 PM    <DIR>          .
+03/29/2022  09:18 PM             1,042 elasticsearch-plugins.example.yml
+03/29/2022  09:18 PM             2,992 jvm.options
+03/29/2022  09:21 PM                 0 users
+03/29/2022  09:21 PM               473 role_mapping.yml
+03/29/2022  09:21 PM               197 roles.yml
+03/29/2022  09:21 PM                 0 users_roles
+03/29/2022  09:21 PM            16,644 log4j2.properties
+03/31/2022  08:30 PM               439 elasticsearch.keystore
+03/31/2022  08:30 PM             4,216 elasticsearch.yml
+               9 File(s)         26,003 bytes
+               4 Dir(s)  111,326,306,304 bytes free
+
+C:\LocalApps\elasticsearch-8.1.2>
+C:\LocalApps\elasticsearch-8.1.2>dir /o:gd config\certs
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\LocalApps\elasticsearch-8.1.2\config\certs
+
+03/31/2022  08:30 PM    <DIR>          ..
+03/31/2022  08:30 PM    <DIR>          .
+03/31/2022  08:30 PM             1,946 http_ca.crt
+03/31/2022  08:30 PM             5,822 transport.p12
+03/31/2022  08:30 PM            10,029 http.p12
+               3 File(s)         17,797 bytes
+               2 Dir(s)  111,327,592,448 bytes free
+
+C:\LocalApps\elasticsearch-8.1.2>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://www.elastic.co/downloads/elasticsearch
+https://www.elastic.co/downloads/past-releases#elasticsearch
+
+Elasticsearch 8.2.0	May 03, 2022
+Elasticsearch 8.1.3	April 20, 2022 
+Elasticsearch 8.1.2	March 31, 2022
+Elasticsearch 8.1.1	March 22, 2022
+Elasticsearch 8.1.0	March 08, 2022
+Elasticsearch 8.0.1	March 01, 2022
+Elasticsearch 8.0.0	February 10, 2022
+Elasticsearch 7.17.3	April 20, 2022
+Elasticsearch 7.17.2	March 31, 2022
+Elasticsearch 7.17.1	February 28, 2022
+Elasticsearch 7.17.0	February 01, 2022
+Elasticsearch 7.16.3	January 13, 2022
+Elasticsearch 7.16.2	December 19, 2021
+Elasticsearch 7.16.1	December 13, 2021
+Elasticsearch 7.16.0	December 07, 2021
+Elasticsearch 7.15.2	November 10, 2021
+Elasticsearch 7.15.1	October 14, 2021
+Elasticsearch 7.15.0	September 22, 2021
+Elasticsearch 7.14.2	September 21, 2021
+Elasticsearch 7.14.1	September 01, 2021
+
+https://www.elastic.co/guide/en/elasticsearch/reference/8.2/release-notes-8.2.0.html
+Network     Upgrade Netty to 4.1.74 #84562
+Packaging   Upgrade to JDK 18.0.0+36 #85376 (issue: #85357)
+Search      Upgrade to lucene 9.1.0-snapshot-5b522487ba8 #85025
+
+https://www.elastic.co/guide/en/elasticsearch/reference/7.16/release-notes-7.16.3.html
+Upgrades  Infra/Logging  Upgrade to log4j 2.17.1 #82111
+
+https://www.elastic.co/guide/en/elasticsearch/reference/7.16/release-notes-7.16.2.html
+Upgrades  Infra/Logging  Upgrade to log4j 2.17.0 #81902
+
+https://localhost:9200/
+{
+  "name" : "DPHXPS15",
+  "cluster_name" : "elasticsearch",
+  "cluster_uuid" : "1DtJ9_vkSu-cdpqCDClPrw",
+  "version" : {
+    "number" : "8.1.2",
+    "build_flavor" : "default",
+    "build_type" : "zip",
+    "build_hash" : "31df9689e80bad366ac20176aa7f2371ea5eb4c1",
+    "build_date" : "2022-03-29T21:18:59.991429448Z",
+    "build_snapshot" : false,
+    "lucene_version" : "9.0.0",
+    "minimum_wire_compatibility_version" : "7.17.0",
+    "minimum_index_compatibility_version" : "7.0.0"
+  },
+  "tagline" : "You Know, for Search"
+}
+
+https://localhost:9200/_cat
+=^.^=
+/_cat/allocation
+/_cat/shards
+/_cat/shards/{index}
+/_cat/master
+/_cat/nodes
+/_cat/tasks
+/_cat/indices
+/_cat/indices/{index}
+/_cat/segments
+/_cat/segments/{index}
+/_cat/count
+/_cat/count/{index}
+/_cat/recovery
+/_cat/recovery/{index}
+/_cat/health
+/_cat/pending_tasks
+/_cat/aliases
+/_cat/aliases/{alias}
+/_cat/thread_pool
+/_cat/thread_pool/{thread_pools}
+/_cat/plugins
+/_cat/fielddata
+/_cat/fielddata/{fields}
+/_cat/nodeattrs
+/_cat/repositories
+/_cat/snapshots/{repository}
+/_cat/templates
+/_cat/ml/anomaly_detectors
+/_cat/ml/anomaly_detectors/{job_id}
+/_cat/ml/trained_models
+/_cat/ml/trained_models/{model_id}
+/_cat/ml/datafeeds
+/_cat/ml/datafeeds/{datafeed_id}
+/_cat/ml/data_frame/analytics
+/_cat/ml/data_frame/analytics/{id}
+/_cat/transforms
+/_cat/transforms/{transform_id}
+
+https://localhost:9200/_cat/health
+1652360086 12:54:46 elasticsearch yellow 1 1 17 17 0 0 3 0 - 85.0%
+
+https://localhost:9200/_cat/health?v
+epoch      timestamp cluster       status node.total node.data shards pri relo init unassign pending_tasks max_task_wait_time active_shards_percent
+1652360213 12:56:53  elasticsearch yellow          1         1     17  17    0    0        3             0                  -                 85.0%
+
+https://localhost:9200/_cat/indices
+yellow open books              qUKRcDqJRKqNqwXddZIEJQ 1 1 10 0 19.6kb 19.6kb
+yellow open wiredocs-index-one c4ppDu04REqrHTtgloyBLA 1 1  1 0  9.9kb  9.9kb
+yellow open wiredocs-index-two 0vh5Te9BTViOE8u6ylm-PQ 1 1  5 0 44.1kb 44.1kb
+
+https://localhost:9200/_cat/indices?v
+health status index              uuid                   pri rep docs.count docs.deleted store.size pri.store.size
+yellow open   books              qUKRcDqJRKqNqwXddZIEJQ   1   1         10            0     19.6kb         19.6kb
+yellow open   wiredocs-index-one c4ppDu04REqrHTtgloyBLA   1   1          1            0      9.9kb          9.9kb
+yellow open   wiredocs-index-two 0vh5Te9BTViOE8u6ylm-PQ   1   1          5            0     44.1kb         44.1kb
+
+https://localhost:9200/_cat/count
+1652360509 13:01:49 16
+
+https://localhost:9200/_cat/count/books
+1652360558 13:02:38 10
+
+https://localhost:9200/_cat/count/wiredocs-index-one
+1652360603 13:03:23 1
+
+https://localhost:9200/_cat/count/wiredocs-index-two
+1652360723 13:05:23 5
+
+https://localhost:9200/wiredocs-index-two/_doc/1
+{"_index":"wiredocs-index-two","_id":"1","_version":1,"_seq_no":0,"_primary_term":1,"found":true,"_source":{
+  "title":"Programming Hockey, Baseball, and Football statistics using Java, Ruby, and Cobol in Canada, Japan, and the United States",
+  "summary":"James Gosling and Yukihiro Matsumoto and Grace Hopper describe programming hockey, baseball, and football statistics using Java, Ruby, and Cobol in Canada, Japan, and the United States",
+  "publication_date":"2022-04-14",
+  "authors":["James Gosling", "Yukihiro Matsumoto", "Grace Hopper"],
+  "countries":["CAN", "JPN", "USA"],
+  "topics":["JAVA", "RUBY", "COBOL"],
+  "non_state_actors":["National Hockey League","Major League Baseball","National Football League"]
+}
+}
+
+C:\Users\David Holberton>curl -v -k -u elastic https://localhost:9200
+Enter host password for user 'elastic':
+*   Trying 127.0.0.1:9200...
+* Connected to localhost (127.0.0.1) port 9200 (#0)
+* schannel: disabled automatic use of client certificate
+* schannel: ALPN, offering http/1.1
+* ALPN, server did not agree to a protocol
+* Server auth using Basic with user 'elastic'
+> GET / HTTP/1.1
+> Host: localhost:9200
+> Authorization: Basic ZWxhc3RpYzpJU0hkdHZvS2dmd0stLVJ2KlA0eA==
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< X-elastic-product: Elasticsearch
+< content-type: application/json
+< content-length: 531
+<
+{
+  "name" : "DPHXPS15",
+  "cluster_name" : "elasticsearch",
+  "cluster_uuid" : "1DtJ9_vkSu-cdpqCDClPrw",
+  "version" : {
+    "number" : "8.1.2",
+    "build_flavor" : "default",
+    "build_type" : "zip",
+    "build_hash" : "31df9689e80bad366ac20176aa7f2371ea5eb4c1",
+    "build_date" : "2022-03-29T21:18:59.991429448Z",
+    "build_snapshot" : false,
+    "lucene_version" : "9.0.0",
+    "minimum_wire_compatibility_version" : "7.17.0",
+    "minimum_index_compatibility_version" : "7.0.0"
+  },
+  "tagline" : "You Know, for Search"
+}
+* Connection #0 to host localhost left intact
+
+C:\Users\David Holberton>
+C:\Users\David Holberton>
+
+
+
