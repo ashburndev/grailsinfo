@@ -1,0 +1,1686 @@
+Fri 13 May 2022 04:21:24 AM EDT
+
+ashburndave@dphnuc4:~$ date
+Fri 13 May 2022 04:21:06 AM EDT
+ashburndave@dphnuc4:~$ date > stuff-20220513.txt
+ashburndave@dphnuc4:~$ code stuff-20220513.txt
+ashburndave@dphnuc4:~$ 
+
+
+https://www.elastic.co/downloads/
+https://www.elastic.co/downloads/elasticsearch
+https://www.elastic.co/downloads/kibana
+https://www.elastic.co/downloads/past-releases#elasticsearch
+https://www.elastic.co/downloads/past-releases#kibana
+https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html
+https://www.elastic.co/guide/en/kibana/current/get-started.html
+https://www.elastic.co/guide/en/elasticsearch/reference/current/install-elasticsearch.html
+https://www.elastic.co/guide/en/elasticsearch/reference/current/targz.html
+
+
+wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.2.0-linux-x86_64.tar.gz
+wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.2.0-linux-x86_64.tar.gz.sha512
+shasum -a 512 -c elasticsearch-8.2.0-linux-x86_64.tar.gz.sha512 
+tar -xzf elasticsearch-8.2.0-linux-x86_64.tar.gz
+cd elasticsearch-8.2.0/ 
+
+ashburndave@dphnuc4:~$ ls -latr ~/Downloads/ | tail
+-rw-rw-r--  1 ashburndave ashburndave       2829 May  3 07:55 davihol.p12
+-rw-rw-r--  1 ashburndave ashburndave     632568 May  3 07:55 Udev2devSetup.docx
+drwxr-xr-x 37 ashburndave ashburndave       4096 May 13 04:21 ..
+-rw-rw-r--  1 ashburndave ashburndave  529729465 May 13 04:24 elasticsearch-8.2.0-linux-x86_64.tar.gz
+-rw-rw-r--  1 ashburndave ashburndave        170 May 13 04:24 elasticsearch-8.2.0-linux-x86_64.tar.gz.sha512
+-rw-rw-r--  1 ashburndave ashburndave        488 May 13 04:24 elasticsearch-8.2.0-linux-x86_64.tar.gz.asc
+-rw-rw-r--  1 ashburndave ashburndave  254826037 May 13 04:32 kibana-8.2.0-linux-x86_64.tar.gz
+-rw-rw-r--  1 ashburndave ashburndave        163 May 13 04:32 kibana-8.2.0-linux-x86_64.tar.gz.sha512
+-rw-rw-r--  1 ashburndave ashburndave        488 May 13 04:32 kibana-8.2.0-linux-x86_64.tar.gz.asc
+drwxr-xr-x  3 ashburndave ashburndave       4096 May 13 04:32 .
+ashburndave@dphnuc4:~$ 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+  690  date
+  691  date > stuff-20220419.txt
+  692  code stuff-20220419.txt 
+  693  cd Downloads/
+  694  ls -latr
+  695  sha256sum -c RubyMine-2022.1.tar.gz.sha256
+  696  ls -latr
+  697  rm ideaIC-2022.1.tar.gz
+  698  rm ideaIC-2022.1.tar.gz.sha256
+  699  ls -latr
+  700  rm ideaIU-2022.1.tar.gz
+  701  rm ideaIU-2022.1.tar.gz.sha256
+  702  ls -latr
+  703  date
+  704  ls -latr
+  705  date
+  706  ls -latr
+  707  rm 'RubyMine-2022.1(1).tar.gz'
+  708  ls -latr
+  709  sha256sum -c ideaIU-2022.1.tar.gz.sha256
+  710  sha256sum -c ideaIC-2022.1.tar.gz.sha256
+  711  cd
+  712  ls
+  713  ls -latr
+  714  mkdir txt-files
+  715  mkdir text-files
+  716  rmdir txt-files
+  717  mv *.txt text-files/
+  718  ls -latr
+  719  cd text-files/
+  720  ls -latr
+  721  code .
+  722  cd
+  723  ls -la
+  724  mkdir rubyapps
+  725  cd rubyapps
+  726  gem
+  727  gem list --local
+  728  gem list --local | wc -l
+  729  gem install elasticsearch
+  730  gem list --local | wc -l
+  731  gem list --local | grep -i elastic
+  732  gem install elasticsearch-rails
+  733  gem list --local | wc -l
+  734  gem list --local | grep -i elastic
+  735  history
+  736  gem install elasticsearch-dsl
+  737  gem install elasticsearch-model
+  738  gem list --local | grep -i elastic
+  739  gem install chewy
+  740  gem
+  741  gem help gem-dependencies
+  742  gem help gem_dependencies
+  743  gem help commands
+  744  gem info chewy
+  745  gem info elasticsearch
+  746  gem dependency chewy
+  747  gem dependency elasticsearch
+  748  gem infor rails
+  749  gem info rails
+  750  cd ~/Downloads/
+  751  ls -latr
+  752  tar tzvf RubyMine-2022.1.tar.gz
+  753  tar xzf RubyMine-2022.1.tar.gz -C /opt/
+  754  sudo tar xzf RubyMine-2022.1.tar.gz -C /opt/
+  755  ls -latr /opt
+  756  ls -latr /opt/RubyMine-2022.1/
+  757  ls -latr
+  758  ls -latr /opt/RubyMine-2022.1/bin
+  759  cd /opt/RubyMine-2022.1/bin
+  760  ls
+  761  ls -latr
+  762  ./rubymine.sh
+  763  cd
+  764  ls -latr
+  765  ls -latr text-files/
+  766  ls -latr
+  767  date
+  768  date > stuff-20220507.txt
+  769  code   stuff-20220507.txt 
+  770  ip -r
+  771  nslookup uservpn.udev2dev.com
+  772  iip -r tunnel
+  773  ip -r tunnel
+  774  ip -r address
+  775  ip r
+  776  ifconfig
+  777  apt-get update
+  778  sudo apt-get updagte
+  779  sudo apt-get update
+  780  ipconfig
+  781  ifconfig
+  782  sudo apt install net-tools
+  783  ifconfig
+  784  route -n
+  785  \\\\if
+  786  date
+  787  ifconfig
+  788  route -n
+  789  history
+ashburndave@dphnuc4:~$ 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+  758  ls -latr /opt/RubyMine-2022.1/bin
+  759  cd /opt/RubyMine-2022.1/bin
+  760  ls
+  761  ls -latr
+  762  ./rubymine.sh
+  763  cd
+  764  ls -latr
+  765  ls -latr text-files/
+  766  cd Downloads/
+  767  ls -latr
+  768  cp -p davihol.p12 ..
+  769  cd ..
+  770  ls -latr
+  771  date
+  772  date > stuff-20220503.txt
+  773  code   stuff-20220503.txt 
+  774  openssl pkcs12 -in davihol.p12 -out davihol.crt
+  775  openssl pkcs12 -in davihol.p12 -out davihol.pem -nodes
+  776  ls -latr | tail
+  777  rm davihol.crt
+  778  ashburndave@dphnuc4:~$ 
+  779  ashburndave@dphnuc4:~$ openssl pkcs12 -in davihol.p12 -out davihol.pem -nodes
+  780  Enter Import Password:
+  781  openssl pkcs12 -in davihol.p12 -clcerts -nokeys -out certificate.crt
+  782  ls -latr
+  783  openssl pkcs12 -in davihol.p12 -nocerts -out davihol-encrypted.key
+  784  ls -latr | tail
+  785  openssl pkcs12 -in davihol.p12 -nocerts -out davihol-encrypted.key
+  786  ls -latr
+  787  rm davihol-encrypted.key 
+  788  openssl pkcs12 -in davihol.p12 -nocerts -out davihol-encrypted.key
+  789  openssl rsa -in davihol-encrypted.key -out davihol-decrypted.key
+  790  ls -latr | tail
+  791  cat davihol.p12
+  792  ls -latr
+  793  cat davihol-encrypted.key 
+  794  cat davihol-decrypted.key 
+  795  sudo apt-get update
+  796  sudo apt-get install network-manager-openconnect-gnome
+  797  history
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+ashburndave@dphnuc4:~/Downloads$ tree -d -L 2
+.
+└── elastictemp
+    ├── elasticsearch-8.1.2
+    └── kibana-8.1.2
+
+3 directories
+ashburndave@dphnuc4:~/Downloads$ 
+ashburndave@dphnuc4:~/Downloads$ tree -A -d -L 2
+.
+└── elastictemp
+    ├── elasticsearch-8.1.2
+    └── kibana-8.1.2
+tree -S
+3 directories
+ashburndave@dphnuc4:~/Downloads$
+ashburndave@dphnuc4:~/Downloads$ tree -i -d -L 2
+.
+elastictemp
+elasticsearch-8.1.2
+kibana-8.1.2
+
+3 directories
+ashburndave@dphnuc4:~/Downloads$ 
+ashburndave@dphnuc4:~/Downloads$ shasum -a 512 -c elasticsearch-8.2.0-linux-x86_64.tar.gz.sha512 
+elasticsearch-8.2.0-linux-x86_64.tar.gz: OK
+ashburndave@dphnuc4:~/Downloads$ 
+ashburndave@dphnuc4:~/Downloads$ shasum -a 512 -c kibana-8.2.0-linux-x86_64.tar.gz.sha512
+kibana-8.2.0-linux-x86_64.tar.gz: OK
+ashburndave@dphnuc4:~/Downloads$ 
+ashburndave@dphnuc4:~/Downloads$ cp -p elasticsearch-8.2.0-linux-x86_64.tar.gz elastictemp/
+ashburndave@dphnuc4:~/Downloads$ cp -p kibana-8.2.0-linux-x86_64.tar.gz elastictemp
+ashburndave@dphnuc4:~/Downloads$ cd elastictemp/
+ashburndave@dphnuc4:~/Downloads/elastictemp$ ls -latr
+total 1533784
+-rw-rw-r--  1 ashburndave ashburndave 515831840 Apr  7 03:24 elasticsearch-8.1.2-linux-x86_64.tar.gz
+-rw-rw-r--  1 ashburndave ashburndave 270172155 Apr  7 03:26 kibana-8.1.2-linux-x86_64.tar.gz
+drwxrwxr-x 11 ashburndave ashburndave      4096 Apr  7 03:37 kibana-8.1.2
+drwxr-xr-x 10 ashburndave ashburndave      4096 Apr  7 03:56 elasticsearch-8.1.2
+-rw-rw-r--  1 ashburndave ashburndave 529729465 May 13 04:24 elasticsearch-8.2.0-linux-x86_64.tar.gz
+-rw-rw-r--  1 ashburndave ashburndave 254826037 May 13 04:32 kibana-8.2.0-linux-x86_64.tar.gz
+drwxr-xr-x  3 ashburndave ashburndave      4096 May 13 04:32 ..
+drwxrwxr-x  4 ashburndave ashburndave      4096 May 13 04:48 .
+ashburndave@dphnuc4:~/Downloads/elastictemp$ 
+ashburndave@dphnuc4:~/Downloads/elastictemp$ tar xzf elasticsearch-8.2.0-linux-x86_64.tar.gz 
+ashburndave@dphnuc4:~/Downloads/elastictemp$ tar xzf kibana-8.2.0-linux-x86_64.tar.gz 
+ashburndave@dphnuc4:~/Downloads/elastictemp$ 
+ashburndave@dphnuc4:~/Downloads/elastictemp$ ls -la
+total 1533792
+drwxrwxr-x  6 ashburndave ashburndave      4096 May 13 04:50 .
+drwxr-xr-x  3 ashburndave ashburndave      4096 May 13 04:32 ..
+drwxr-xr-x 10 ashburndave ashburndave      4096 Apr  7 03:56 elasticsearch-8.1.2
+-rw-rw-r--  1 ashburndave ashburndave 515831840 Apr  7 03:24 elasticsearch-8.1.2-linux-x86_64.tar.gz
+drwxr-xr-x  9 ashburndave ashburndave      4096 Apr 20 06:41 elasticsearch-8.2.0
+-rw-rw-r--  1 ashburndave ashburndave 529729465 May 13 04:24 elasticsearch-8.2.0-linux-x86_64.tar.gz
+drwxrwxr-x 11 ashburndave ashburndave      4096 Apr  7 03:37 kibana-8.1.2
+-rw-rw-r--  1 ashburndave ashburndave 270172155 Apr  7 03:26 kibana-8.1.2-linux-x86_64.tar.gz
+drwxrwxr-x 11 ashburndave ashburndave      4096 May 13 04:50 kibana-8.2.0
+-rw-rw-r--  1 ashburndave ashburndave 254826037 May 13 04:32 kibana-8.2.0-linux-x86_64.tar.gz
+ashburndave@dphnuc4:~/Downloads/elastictemp$ 
+ashburndave@dphnuc4:~/Downloads/elastictemp$ cd elasticsearch-8.2.0/
+
+ashburndave@dphnuc4:~/Downloads/elastictemp/elasticsearch-8.2.0$ 
+ashburndave@dphnuc4:~/Downloads/elastictemp/elasticsearch-8.2.0$ ./bin/elasticsearch
+warning: ignoring JAVA_HOME=/home/ashburndave/.sdkman/candidates/java/current; using bundled JDK
+warning: ignoring JAVA_HOME=/home/ashburndave/.sdkman/candidates/java/current; using bundled JDK
+warning: ignoring JAVA_HOME=/home/ashburndave/.sdkman/candidates/java/current; using bundled JDK
+[2022-05-13T04:54:11,193][INFO ][o.e.n.Node               ] [dphnuc4] version[8.2.0], pid[477882], build[default/tar/b174af62e8dd9f4ac4d25875e9381ffe2b9282c5/2022-04-20T10:35:10.180408517Z], OS[Linux/5.13.0-37-generic/amd64], JVM[Eclipse Adoptium/OpenJDK 64-Bit Server VM/18/18+36]
+[2022-05-13T04:54:11,203][INFO ][o.e.n.Node               ] [dphnuc4] JVM home [/home/ashburndave/Downloads/elastictemp/elasticsearch-8.2.0/jdk], using bundled JDK [true]
+[2022-05-13T04:54:11,204][INFO ][o.e.n.Node               ] [dphnuc4] JVM arguments [-Xshare:auto, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -Djava.security.manager=allow, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -XX:+ShowCodeDetailsInExceptionMessages, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j2.formatMsgNoLookups=true, -Djava.locale.providers=SPI,COMPAT, --add-opens=java.base/java.io=ALL-UNNAMED, -XX:+UseG1GC, -Djava.io.tmpdir=/tmp/elasticsearch-1312310948234446084, -XX:+HeapDumpOnOutOfMemoryError, -XX:+ExitOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Xms7948m, -Xmx7948m, -XX:MaxDirectMemorySize=4167041024, -XX:G1HeapRegionSize=4m, -XX:InitiatingHeapOccupancyPercent=30, -XX:G1ReservePercent=15, -Des.path.home=/home/ashburndave/Downloads/elastictemp/elasticsearch-8.2.0, -Des.path.conf=/home/ashburndave/Downloads/elastictemp/elasticsearch-8.2.0/config, -Des.distribution.flavor=default, -Des.distribution.type=tar, -Des.bundled_jdk=true]
+[2022-05-13T04:54:16,253][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [aggs-matrix-stats]
+[2022-05-13T04:54:16,254][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [analysis-common]
+[2022-05-13T04:54:16,254][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [constant-keyword]
+[2022-05-13T04:54:16,255][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [data-streams]
+[2022-05-13T04:54:16,256][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [frozen-indices]
+[2022-05-13T04:54:16,256][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [ingest-common]
+[2022-05-13T04:54:16,257][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [ingest-geoip]
+[2022-05-13T04:54:16,258][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [ingest-user-agent]
+[2022-05-13T04:54:16,258][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [kibana]
+[2022-05-13T04:54:16,259][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [lang-expression]
+[2022-05-13T04:54:16,259][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [lang-mustache]
+[2022-05-13T04:54:16,260][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [lang-painless]
+[2022-05-13T04:54:16,261][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [legacy-geo]
+[2022-05-13T04:54:16,261][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [mapper-extras]
+[2022-05-13T04:54:16,262][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [mapper-version]
+[2022-05-13T04:54:16,262][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [parent-join]
+[2022-05-13T04:54:16,263][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [percolator]
+[2022-05-13T04:54:16,264][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [rank-eval]
+[2022-05-13T04:54:16,264][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [reindex]
+[2022-05-13T04:54:16,265][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [repositories-metering-api]
+[2022-05-13T04:54:16,265][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [repository-azure]
+[2022-05-13T04:54:16,266][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [repository-encrypted]
+[2022-05-13T04:54:16,266][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [repository-gcs]
+[2022-05-13T04:54:16,267][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [repository-s3]
+[2022-05-13T04:54:16,267][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [repository-url]
+[2022-05-13T04:54:16,268][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [runtime-fields-common]
+[2022-05-13T04:54:16,268][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [search-business-rules]
+[2022-05-13T04:54:16,269][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [searchable-snapshots]
+[2022-05-13T04:54:16,269][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [snapshot-based-recoveries]
+[2022-05-13T04:54:16,270][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [snapshot-repo-test-kit]
+[2022-05-13T04:54:16,270][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [spatial]
+[2022-05-13T04:54:16,271][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [transform]
+[2022-05-13T04:54:16,271][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [transport-netty4]
+[2022-05-13T04:54:16,272][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [unsigned-long]
+[2022-05-13T04:54:16,272][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [vector-tile]
+[2022-05-13T04:54:16,273][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [vectors]
+[2022-05-13T04:54:16,273][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [wildcard]
+[2022-05-13T04:54:16,274][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-aggregate-metric]
+[2022-05-13T04:54:16,274][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-analytics]
+[2022-05-13T04:54:16,275][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-async]
+[2022-05-13T04:54:16,275][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-async-search]
+[2022-05-13T04:54:16,276][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-autoscaling]
+[2022-05-13T04:54:16,276][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-ccr]
+[2022-05-13T04:54:16,277][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-core]
+[2022-05-13T04:54:16,278][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-deprecation]
+[2022-05-13T04:54:16,278][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-enrich]
+[2022-05-13T04:54:16,279][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-eql]
+[2022-05-13T04:54:16,280][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-fleet]
+[2022-05-13T04:54:16,281][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-graph]
+[2022-05-13T04:54:16,282][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-identity-provider]
+[2022-05-13T04:54:16,283][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-ilm]
+[2022-05-13T04:54:16,283][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-logstash]
+[2022-05-13T04:54:16,284][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-ml]
+[2022-05-13T04:54:16,285][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-monitoring]
+[2022-05-13T04:54:16,286][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-ql]
+[2022-05-13T04:54:16,286][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-rollup]
+[2022-05-13T04:54:16,287][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-security]
+[2022-05-13T04:54:16,288][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-shutdown]
+[2022-05-13T04:54:16,289][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-sql]
+[2022-05-13T04:54:16,290][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-stack]
+[2022-05-13T04:54:16,290][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-text-structure]
+[2022-05-13T04:54:16,291][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-voting-only-node]
+[2022-05-13T04:54:16,291][INFO ][o.e.p.PluginsService     ] [dphnuc4] loaded module [x-pack-watcher]
+[2022-05-13T04:54:16,293][INFO ][o.e.p.PluginsService     ] [dphnuc4] no plugins loaded
+[2022-05-13T04:54:16,387][INFO ][o.e.e.NodeEnvironment    ] [dphnuc4] using [1] data paths, mounts [[/ (/dev/sda2)]], net usable_space [173.3gb], net total_space [218.5gb], types [ext4]
+[2022-05-13T04:54:16,387][INFO ][o.e.e.NodeEnvironment    ] [dphnuc4] heap size [7.7gb], compressed ordinary object pointers [true]
+[2022-05-13T04:54:16,438][INFO ][o.e.n.Node               ] [dphnuc4] node name [dphnuc4], node ID [6iqsaIFsQhGFW0yVsTpxtQ], cluster name [elasticsearch], roles [data_warm, master, remote_cluster_client, data, data_cold, ingest, data_frozen, ml, data_hot, transform, data_content]
+[2022-05-13T04:54:27,493][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [dphnuc4] [controller/478165] [Main.cc@123] controller (64 bit): Version 8.2.0 (Build a8c0a88ede0ff2) Copyright (c) 2022 Elasticsearch BV
+[2022-05-13T04:54:27,709][INFO ][o.e.x.s.Security         ] [dphnuc4] Security is enabled
+[2022-05-13T04:54:28,130][INFO ][o.e.x.s.a.Realms         ] [dphnuc4] license mode is [trial], currently licensed security realms are [reserved/reserved,file/default_file,native/default_native]
+[2022-05-13T04:54:28,145][INFO ][o.e.x.s.a.s.FileRolesStore] [dphnuc4] parsed [0] roles from file [/home/ashburndave/Downloads/elastictemp/elasticsearch-8.2.0/config/roles.yml]
+
+[2022-05-13T04:54:30,310][INFO ][o.e.t.n.NettyAllocator   ] [dphnuc4] creating NettyAllocator with the following configs: [name=elasticsearch_configured, chunk_size=1mb, suggested_max_allocation_size=1mb, factors={es.unsafe.use_netty_default_chunk_and_page_size=false, g1gc_enabled=true, g1gc_region_size=4mb}]
+[2022-05-13T04:54:30,363][INFO ][o.e.i.r.RecoverySettings ] [dphnuc4] using rate limit [40mb] with [default=40mb, read=0b, write=0b, max=0b]
+[2022-05-13T04:54:30,423][INFO ][o.e.d.DiscoveryModule    ] [dphnuc4] using discovery type [multi-node] and seed hosts providers [settings]
+[2022-05-13T04:54:32,343][INFO ][o.e.n.Node               ] [dphnuc4] initialized
+[2022-05-13T04:54:32,343][INFO ][o.e.n.Node               ] [dphnuc4] starting ...
+[2022-05-13T04:54:32,420][INFO ][o.e.x.s.c.f.PersistentCache] [dphnuc4] persistent cache index loaded
+[2022-05-13T04:54:32,422][INFO ][o.e.x.d.l.DeprecationIndexingComponent] [dphnuc4] deprecation component started
+[2022-05-13T04:54:32,589][INFO ][o.e.t.TransportService   ] [dphnuc4] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2022-05-13T04:54:32,826][WARN ][o.e.b.BootstrapChecks    ] [dphnuc4] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2022-05-13T04:54:32,841][INFO ][o.e.c.c.Coordinator      ] [dphnuc4] setting initial configuration to VotingConfiguration{6iqsaIFsQhGFW0yVsTpxtQ}
+[2022-05-13T04:54:33,115][INFO ][o.e.c.s.MasterService    ] [dphnuc4] elected-as-master ([1] nodes joined)[_FINISH_ELECTION_, {dphnuc4}{6iqsaIFsQhGFW0yVsTpxtQ}{wKB5DppQTOCl2GwCMTN4yw}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw} completing election], term: 1, version: 1, delta: master node changed {previous [], current [{dphnuc4}{6iqsaIFsQhGFW0yVsTpxtQ}{wKB5DppQTOCl2GwCMTN4yw}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}]}
+[2022-05-13T04:54:33,207][INFO ][o.e.c.c.CoordinationState] [dphnuc4] cluster UUID set to [6nf3DyuFRDm4QXuubwXjNw]
+[2022-05-13T04:54:33,301][INFO ][o.e.c.s.ClusterApplierService] [dphnuc4] master node changed {previous [], current [{dphnuc4}{6iqsaIFsQhGFW0yVsTpxtQ}{wKB5DppQTOCl2GwCMTN4yw}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2022-05-13T04:54:33,361][INFO ][o.e.h.AbstractHttpServerTransport] [dphnuc4] publish_address {192.168.86.88:9200}, bound_addresses {[::]:9200}
+[2022-05-13T04:54:33,362][INFO ][o.e.n.Node               ] [dphnuc4] started
+[2022-05-13T04:54:33,520][INFO ][o.e.g.GatewayService     ] [dphnuc4] recovered [0] indices into cluster_state
+[2022-05-13T04:54:33,871][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding index template [.monitoring-ent-search-mb] for index patterns [.monitoring-ent-search-8-*]
+[2022-05-13T04:54:34,070][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding index template [.monitoring-es-mb] for index patterns [.monitoring-es-8-*]
+[2022-05-13T04:54:34,229][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding index template [.monitoring-beats-mb] for index patterns [.monitoring-beats-8-*]
+[2022-05-13T04:54:34,337][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding template [.monitoring-beats] for index patterns [.monitoring-beats-7-*]
+[2022-05-13T04:54:34,464][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding template [.monitoring-es] for index patterns [.monitoring-es-7-*]
+[2022-05-13T04:54:34,574][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding template [.monitoring-kibana] for index patterns [.monitoring-kibana-7-*]
+[2022-05-13T04:54:34,685][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding template [.monitoring-alerts-7] for index patterns [.monitoring-alerts-7]
+[2022-05-13T04:54:34,779][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding index template [.ml-state] for index patterns [.ml-state*]
+[2022-05-13T04:54:34,897][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding index template [.ml-anomalies-] for index patterns [.ml-anomalies-*]
+[2022-05-13T04:54:35,002][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding template [.monitoring-logstash] for index patterns [.monitoring-logstash-7-*]
+[2022-05-13T04:54:35,125][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding index template [.monitoring-logstash-mb] for index patterns [.monitoring-logstash-8-*]
+[2022-05-13T04:54:35,216][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding index template [.ml-stats] for index patterns [.ml-stats-*]
+[2022-05-13T04:54:35,311][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding index template [.ml-notifications-000002] for index patterns [.ml-notifications-000002]
+[2022-05-13T04:54:35,415][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding index template [.monitoring-kibana-mb] for index patterns [.monitoring-kibana-8-*]
+[2022-05-13T04:54:35,506][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding component template [synthetics-settings]
+[2022-05-13T04:54:35,594][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding component template [metrics-mappings]
+[2022-05-13T04:54:35,676][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding component template [metrics-settings]
+[2022-05-13T04:54:35,761][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding component template [synthetics-mappings]
+[2022-05-13T04:54:35,845][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding component template [data-streams-mappings]
+[2022-05-13T04:54:35,923][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding component template [logs-settings]
+[2022-05-13T04:54:35,999][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding component template [logs-mappings]
+[2022-05-13T04:54:36,144][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding index template [.watch-history-16] for index patterns [.watcher-history-16*]
+[2022-05-13T04:54:36,236][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding index template [ilm-history] for index patterns [ilm-history-5*]
+[2022-05-13T04:54:36,326][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding index template [.slm-history] for index patterns [.slm-history-5*]
+[2022-05-13T04:54:36,407][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding component template [.deprecation-indexing-settings]
+[2022-05-13T04:54:36,482][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding component template [.deprecation-indexing-mappings]
+[2022-05-13T04:54:36,575][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding index template [synthetics] for index patterns [synthetics-*-*]
+[2022-05-13T04:54:36,668][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding index template [metrics] for index patterns [metrics-*-*]
+[2022-05-13T04:54:36,762][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding index template [logs] for index patterns [logs-*-*]
+[2022-05-13T04:54:36,854][INFO ][o.e.c.m.MetadataIndexTemplateService] [dphnuc4] adding index template [.deprecation-indexing-template] for index patterns [.logs-deprecation.*]
+[2022-05-13T04:54:36,931][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [dphnuc4] adding index lifecycle policy [ml-size-based-ilm-policy]
+[2022-05-13T04:54:37,028][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [dphnuc4] adding index lifecycle policy [.monitoring-8-ilm-policy]
+[2022-05-13T04:54:37,109][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [dphnuc4] adding index lifecycle policy [30-days-default]
+[2022-05-13T04:54:37,192][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [dphnuc4] adding index lifecycle policy [logs]
+[2022-05-13T04:54:37,269][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [dphnuc4] adding index lifecycle policy [synthetics]
+[2022-05-13T04:54:37,340][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [dphnuc4] adding index lifecycle policy [7-days-default]
+[2022-05-13T04:54:37,413][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [dphnuc4] adding index lifecycle policy [metrics]
+[2022-05-13T04:54:37,485][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [dphnuc4] adding index lifecycle policy [90-days-default]
+[2022-05-13T04:54:37,559][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [dphnuc4] adding index lifecycle policy [180-days-default]
+[2022-05-13T04:54:37,636][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [dphnuc4] adding index lifecycle policy [365-days-default]
+[2022-05-13T04:54:37,709][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [dphnuc4] adding index lifecycle policy [watch-history-ilm-policy-16]
+[2022-05-13T04:54:37,782][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [dphnuc4] adding index lifecycle policy [ilm-history-ilm-policy]
+[2022-05-13T04:54:37,932][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [dphnuc4] adding index lifecycle policy [slm-history-ilm-policy]
+[2022-05-13T04:54:38,011][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [dphnuc4] adding index lifecycle policy [.deprecation-indexing-ilm-policy]
+[2022-05-13T04:54:38,117][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [dphnuc4] adding index lifecycle policy [.fleet-actions-results-ilm-policy]
+[2022-05-13T04:54:38,335][INFO ][o.e.l.LicenseService     ] [dphnuc4] license [36297828-64de-44aa-b7b5-987b13f811df] mode [basic] - valid
+[2022-05-13T04:54:38,336][INFO ][o.e.x.s.a.Realms         ] [dphnuc4] license mode is [basic], currently licensed security realms are [reserved/reserved,file/default_file,native/default_native]
+[2022-05-13T04:54:38,735][INFO ][o.e.c.m.MetadataCreateIndexService] [dphnuc4] [.geoip_databases] creating index, cause [auto(bulk api)], templates [], shards [1]/[0]
+[2022-05-13T04:54:39,167][INFO ][o.e.c.r.a.AllocationService] [dphnuc4] current.health="GREEN" message="Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[.geoip_databases][0]]])." previous.health="YELLOW" reason="shards started [[.geoip_databases][0]]"
+[2022-05-13T04:54:39,969][INFO ][o.e.i.g.DatabaseNodeService] [dphnuc4] retrieve geoip database [GeoLite2-ASN.mmdb] from [.geoip_databases] to [/tmp/elasticsearch-1312310948234446084/geoip-databases/6iqsaIFsQhGFW0yVsTpxtQ/GeoLite2-ASN.mmdb.tmp.gz]
+[2022-05-13T04:54:39,972][INFO ][o.e.i.g.GeoIpDownloader  ] [dphnuc4] successfully downloaded geoip database [GeoLite2-ASN.mmdb]
+[2022-05-13T04:54:40,280][INFO ][o.e.i.g.DatabaseNodeService] [dphnuc4] successfully loaded geoip database file [GeoLite2-ASN.mmdb]
+[2022-05-13T04:54:42,459][INFO ][o.e.i.g.DatabaseNodeService] [dphnuc4] retrieve geoip database [GeoLite2-City.mmdb] from [.geoip_databases] to [/tmp/elasticsearch-1312310948234446084/geoip-databases/6iqsaIFsQhGFW0yVsTpxtQ/GeoLite2-City.mmdb.tmp.gz]
+[2022-05-13T04:54:42,485][INFO ][o.e.i.g.GeoIpDownloader  ] [dphnuc4] successfully downloaded geoip database [GeoLite2-City.mmdb]
+[2022-05-13T04:54:42,682][INFO ][o.e.x.s.InitialNodeSecurityAutoConfiguration] [dphnuc4] HTTPS has been configured with automatically generated certificates, and the CA's hex-encoded SHA-256 fingerprint is [94893669df10c4ee61973b97fa0155c593c9d8c0affd3d7aad3d86d9885c099d]
+[2022-05-13T04:54:42,700][INFO ][o.e.x.s.s.SecurityIndexManager] [dphnuc4] security index does not exist, creating [.security-7] with alias [.security]
+[2022-05-13T04:54:42,749][INFO ][o.e.x.s.e.InternalEnrollmentTokenGenerator] [dphnuc4] Will not generate node enrollment token because node is only bound on localhost for transport and cannot connect to nodes from other hosts
+[2022-05-13T04:54:42,852][INFO ][o.e.c.m.MetadataCreateIndexService] [dphnuc4] [.security-7] creating index, cause [api], templates [], shards [1]/[0]
+[2022-05-13T04:54:43,286][INFO ][o.e.i.g.DatabaseNodeService] [dphnuc4] retrieve geoip database [GeoLite2-Country.mmdb] from [.geoip_databases] to [/tmp/elasticsearch-1312310948234446084/geoip-databases/6iqsaIFsQhGFW0yVsTpxtQ/GeoLite2-Country.mmdb.tmp.gz]
+[2022-05-13T04:54:43,293][INFO ][o.e.i.g.GeoIpDownloader  ] [dphnuc4] successfully downloaded geoip database [GeoLite2-Country.mmdb]
+[2022-05-13T04:54:43,370][INFO ][o.e.c.r.a.AllocationService] [dphnuc4] current.health="GREEN" message="Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[.security-7][0]]])." previous.health="YELLOW" reason="shards started [[.security-7][0]]"
+[2022-05-13T04:54:43,465][INFO ][o.e.i.g.DatabaseNodeService] [dphnuc4] successfully loaded geoip database file [GeoLite2-Country.mmdb]
+[2022-05-13T04:54:43,936][INFO ][o.e.i.g.DatabaseNodeService] [dphnuc4] successfully loaded geoip database file [GeoLite2-City.mmdb]
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✅ Elasticsearch security features have been automatically configured!
+✅ Authentication is enabled and cluster connections are encrypted.
+
+ℹ️  Password for the elastic user (reset with `bin/elasticsearch-reset-password -u elastic`):
+  nBkmYzGmbounnrMrRqcw
+
+ℹ️  HTTP CA certificate SHA-256 fingerprint:
+  94893669df10c4ee61973b97fa0155c593c9d8c0affd3d7aad3d86d9885c099d
+
+ℹ️  Configure Kibana to use this cluster:
+• Run Kibana and click the configuration link in the terminal when Kibana starts.
+• Copy the following enrollment token and paste it into Kibana in your browser (valid for the next 30 minutes):
+  eyJ2ZXIiOiI4LjIuMCIsImFkciI6WyIxOTIuMTY4Ljg2Ljg4OjkyMDAiXSwiZmdyIjoiOTQ4OTM2NjlkZjEwYzRlZTYxOTczYjk3ZmEwMTU1YzU5M2M5ZDhjMGFmZmQzZDdhYWQzZDg2ZDk4ODVjMDk5ZCIsImtleSI6InctLWd2SUFCVkh3WFhtaW9tSXdQOldMQ0dXWUxiUlhPYld3MDBrbGFmWlEifQ==
+
+ℹ️  Configure other nodes to join this cluster:
+• On this node:
+  ⁃ Create an enrollment token with `bin/elasticsearch-create-enrollment-token -s node`.
+  ⁃ Uncomment the transport.host setting at the end of config/elasticsearch.yml.
+  ⁃ Restart Elasticsearch.
+• On other nodes:
+  ⁃ Start Elasticsearch with `bin/elasticsearch --enrollment-token <token>`, using the enrollment token that you generated.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+
+^C[2022-05-13T04:55:01,268][INFO ][o.e.x.m.p.NativeController] [dphnuc4] Native controller process has stopped - no new native processes can be started
+[2022-05-13T04:55:01,269][INFO ][o.e.n.Node               ] [dphnuc4] stopping ...
+[2022-05-13T04:55:01,274][INFO ][o.e.x.w.WatcherService   ] [dphnuc4] stopping watch service, reason [shutdown initiated]
+[2022-05-13T04:55:01,275][INFO ][o.e.x.w.WatcherLifeCycleService] [dphnuc4] watcher has stopped and shutdown
+[2022-05-13T04:55:01,549][INFO ][o.e.n.Node               ] [dphnuc4] stopped
+[2022-05-13T04:55:01,549][INFO ][o.e.n.Node               ] [dphnuc4] closing ...
+[2022-05-13T04:55:01,563][INFO ][o.e.i.g.DatabaseReaderLazyLoader] [dphnuc4] evicted [0] entries from cache after reloading database [/tmp/elasticsearch-1312310948234446084/geoip-databases/6iqsaIFsQhGFW0yVsTpxtQ/GeoLite2-Country.mmdb]
+[2022-05-13T04:55:01,563][INFO ][o.e.i.g.DatabaseReaderLazyLoader] [dphnuc4] evicted [0] entries from cache after reloading database [/tmp/elasticsearch-1312310948234446084/geoip-databases/6iqsaIFsQhGFW0yVsTpxtQ/GeoLite2-ASN.mmdb]
+[2022-05-13T04:55:01,564][INFO ][o.e.i.g.DatabaseReaderLazyLoader] [dphnuc4] evicted [0] entries from cache after reloading database [/tmp/elasticsearch-1312310948234446084/geoip-databases/6iqsaIFsQhGFW0yVsTpxtQ/GeoLite2-City.mmdb]
+[2022-05-13T04:55:01,570][INFO ][o.e.n.Node               ] [dphnuc4] closed
+ashburndave@dphnuc4:~/Downloads/elastictemp/elasticsearch-8.2.0$ 
+
+
+https://localhost:9200/
+
+{
+  "name" : "dphnuc4",
+  "cluster_name" : "elasticsearch",
+  "cluster_uuid" : "6nf3DyuFRDm4QXuubwXjNw",
+  "version" : {
+    "number" : "8.2.0",
+    "build_flavor" : "default",
+    "build_type" : "tar",
+    "build_hash" : "b174af62e8dd9f4ac4d25875e9381ffe2b9282c5",
+    "build_date" : "2022-04-20T10:35:10.180408517Z",
+    "build_snapshot" : false,
+    "lucene_version" : "9.1.0",
+    "minimum_wire_compatibility_version" : "7.17.0",
+    "minimum_index_compatibility_version" : "7.0.0"
+  },
+  "tagline" : "You Know, for Search"
+}
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+ashburndave@dphnuc4:~/Downloads/elastictemp$ cd kibana-8.2.0/
+ashburndave@dphnuc4:~/Downloads/elastictemp/kibana-8.2.0$ ls -latr bin
+total 32
+-rwxr-xr-x  1 ashburndave ashburndave  785 Apr 20 06:59 kibana-verification-code
+-rwxr-xr-x  1 ashburndave ashburndave  773 Apr 20 06:59 kibana-setup
+-rwxr-xr-x  1 ashburndave ashburndave  813 Apr 20 06:59 kibana-plugin
+-rwxr-xr-x  1 ashburndave ashburndave  776 Apr 20 06:59 kibana-keystore
+-rwxr-xr-x  1 ashburndave ashburndave  783 Apr 20 06:59 kibana-encryption-keys
+-rwxr-xr-x  1 ashburndave ashburndave  835 Apr 20 06:59 kibana
+drwxr-xr-x  2 ashburndave ashburndave 4096 Apr 20 07:00 .
+drwxrwxr-x 11 ashburndave ashburndave 4096 May 13 04:50 ..
+ashburndave@dphnuc4:~/Downloads/elastictemp/kibana-8.2.0$ ./bin/kibana
+[2022-05-13T05:01:44.520-04:00][INFO ][plugins-service] Plugin "cloudSecurityPosture" is disabled.
+[2022-05-13T05:01:44.546-04:00][INFO ][plugins-service] Plugin "metricsEntities" is disabled.
+[2022-05-13T05:01:44.617-04:00][INFO ][http.server.Preboot] http server running at http://localhost:5601
+[2022-05-13T05:01:44.663-04:00][INFO ][plugins-system.preboot] Setting up [1] plugins: [interactiveSetup]
+[2022-05-13T05:01:44.665-04:00][INFO ][preboot] "interactiveSetup" plugin is holding setup: Validating Elasticsearch connection configuration…
+[2022-05-13T05:01:44.704-04:00][INFO ][root] Holding setup until preboot stage is completed.
+
+
+i Kibana has not been configured.
+
+Go to http://localhost:5601/?code=358963 to get started.
+
+
+[2022-05-13T05:03:55.456-04:00][INFO ][cli] Reloading Kibana configuration (reason: configuration might have changed during preboot stage).
+[2022-05-13T05:03:55.469-04:00][INFO ][cli] Reloaded Kibana configuration (reason: configuration might have changed during preboot stage).
+[2022-05-13T05:03:55.653-04:00][WARN ][config.deprecation] The default mechanism for Reporting privileges will work differently in future versions, which will affect the behavior of this cluster. Set "xpack.reporting.roles.enabled" to "false" to adopt the future behavior before upgrading.
+[2022-05-13T05:03:56.075-04:00][INFO ][plugins-system.standard] Setting up [117] plugins: [translations,monitoringCollection,licensing,globalSearch,globalSearchProviders,features,mapsEms,licenseApiGuard,usageCollection,taskManager,telemetryCollectionManager,telemetryCollectionXpack,kibanaUsageCollection,share,embeddable,uiActionsEnhanced,screenshotMode,screenshotting,banners,newsfeed,fieldFormats,expressions,eventAnnotation,dataViews,charts,esUiShared,bfetch,data,savedObjects,presentationUtil,expressionShape,expressionRevealImage,expressionRepeatImage,expressionMetric,expressionImage,customIntegrations,home,searchprofiler,painlessLab,grokdebugger,management,watcher,advancedSettings,spaces,security,savedObjectsTagging,reporting,lists,fileUpload,ingestPipelines,encryptedSavedObjects,dataEnhanced,cloud,snapshotRestore,telemetry,licenseManagement,eventLog,actions,alerting,triggersActionsUi,transform,stackAlerts,ruleRegistry,savedObjectsManagement,console,controls,graph,fleet,indexManagement,remoteClusters,crossClusterReplication,indexLifecycleManagement,visualizations,canvas,visTypeXy,visTypeVislib,visTypeVega,visTypeTimeseries,rollup,visTypeTimelion,visTypeTagcloud,visTypeTable,visTypeMetric,visTypeHeatmap,visTypeMarkdown,dashboard,dashboardEnhanced,expressionXY,expressionTagcloud,expressionPartitionVis,visTypePie,expressionMetricVis,expressionHeatmap,expressionGauge,visTypeGauge,dataViewFieldEditor,sharedUX,discover,lens,osquery,maps,dataVisualizer,ml,cases,timelines,sessionView,securitySolution,observability,uptime,infra,upgradeAssistant,monitoring,logstash,enterpriseSearch,apm,discoverEnhanced,dataViewManagement]
+[2022-05-13T05:03:56.122-04:00][INFO ][plugins.taskManager] TaskManager is identified by the Kibana UUID: ff5f1a0c-74bb-47c4-ba9f-6e586a91cd8d
+[2022-05-13T05:03:56.442-04:00][WARN ][plugins.security.config] Generating a random key for xpack.security.encryptionKey. To prevent sessions from being invalidated on restart, please set xpack.security.encryptionKey in the kibana.yml or use the bin/kibana-encryption-keys command.
+[2022-05-13T05:03:56.442-04:00][WARN ][plugins.security.config] Session cookies will be transmitted over insecure connections. This is not recommended.
+[2022-05-13T05:03:56.496-04:00][WARN ][plugins.security.config] Generating a random key for xpack.security.encryptionKey. To prevent sessions from being invalidated on restart, please set xpack.security.encryptionKey in the kibana.yml or use the bin/kibana-encryption-keys command.
+[2022-05-13T05:03:56.497-04:00][WARN ][plugins.security.config] Session cookies will be transmitted over insecure connections. This is not recommended.
+[2022-05-13T05:03:56.526-04:00][WARN ][plugins.reporting.config] Generating a random key for xpack.reporting.encryptionKey. To prevent sessions from being invalidated on restart, please set xpack.reporting.encryptionKey in the kibana.yml or use the bin/kibana-encryption-keys command.
+[2022-05-13T05:03:56.542-04:00][WARN ][plugins.encryptedSavedObjects] Saved objects encryption key is not set. This will severely limit Kibana functionality. Please set xpack.encryptedSavedObjects.encryptionKey in the kibana.yml or use the bin/kibana-encryption-keys command.
+[2022-05-13T05:03:56.585-04:00][WARN ][plugins.actions] APIs are disabled because the Encrypted Saved Objects plugin is missing encryption key. Please set xpack.encryptedSavedObjects.encryptionKey in the kibana.yml or use the bin/kibana-encryption-keys command.
+[2022-05-13T05:03:56.624-04:00][WARN ][plugins.alerting] APIs are disabled because the Encrypted Saved Objects plugin is missing encryption key. Please set xpack.encryptedSavedObjects.encryptionKey in the kibana.yml or use the bin/kibana-encryption-keys command.
+[2022-05-13T05:03:56.667-04:00][INFO ][plugins.ruleRegistry] Installing common resources shared between all indices
+[2022-05-13T05:03:57.807-04:00][INFO ][plugins.screenshotting.config] Chromium sandbox provides an additional layer of protection, and is supported for Linux Ubuntu 20.04 OS. Automatically enabling Chromium sandbox.
+[2022-05-13T05:03:58.082-04:00][INFO ][savedobjects-service] Waiting until all Elasticsearch nodes are compatible with Kibana before starting saved objects migrations...
+[2022-05-13T05:03:58.084-04:00][INFO ][savedobjects-service] Starting saved objects migrations
+[2022-05-13T05:03:58.199-04:00][INFO ][savedobjects-service] [.kibana] INIT -> CREATE_NEW_TARGET. took: 59ms.
+[2022-05-13T05:03:58.214-04:00][INFO ][savedobjects-service] [.kibana_task_manager] INIT -> CREATE_NEW_TARGET. took: 68ms.
+[2022-05-13T05:03:59.074-04:00][INFO ][savedobjects-service] [.kibana_task_manager] CREATE_NEW_TARGET -> MARK_VERSION_INDEX_READY. took: 860ms.
+[2022-05-13T05:03:59.256-04:00][INFO ][savedobjects-service] [.kibana] CREATE_NEW_TARGET -> MARK_VERSION_INDEX_READY. took: 1057ms.
+[2022-05-13T05:03:59.375-04:00][INFO ][savedobjects-service] [.kibana_task_manager] MARK_VERSION_INDEX_READY -> DONE. took: 301ms.
+[2022-05-13T05:03:59.375-04:00][INFO ][savedobjects-service] [.kibana_task_manager] Migration completed after 1229ms
+[2022-05-13T05:03:59.489-04:00][INFO ][savedobjects-service] [.kibana] MARK_VERSION_INDEX_READY -> DONE. took: 233ms.
+[2022-05-13T05:03:59.489-04:00][INFO ][savedobjects-service] [.kibana] Migration completed after 1349ms
+[2022-05-13T05:03:59.496-04:00][INFO ][plugins-system.preboot] Stopping all plugins.
+[2022-05-13T05:03:59.497-04:00][INFO ][plugins-system.standard] Starting [117] plugins: [translations,monitoringCollection,licensing,globalSearch,globalSearchProviders,features,mapsEms,licenseApiGuard,usageCollection,taskManager,telemetryCollectionManager,telemetryCollectionXpack,kibanaUsageCollection,share,embeddable,uiActionsEnhanced,screenshotMode,screenshotting,banners,newsfeed,fieldFormats,expressions,eventAnnotation,dataViews,charts,esUiShared,bfetch,data,savedObjects,presentationUtil,expressionShape,expressionRevealImage,expressionRepeatImage,expressionMetric,expressionImage,customIntegrations,home,searchprofiler,painlessLab,grokdebugger,management,watcher,advancedSettings,spaces,security,savedObjectsTagging,reporting,lists,fileUpload,ingestPipelines,encryptedSavedObjects,dataEnhanced,cloud,snapshotRestore,telemetry,licenseManagement,eventLog,actions,alerting,triggersActionsUi,transform,stackAlerts,ruleRegistry,savedObjectsManagement,console,controls,graph,fleet,indexManagement,remoteClusters,crossClusterReplication,indexLifecycleManagement,visualizations,canvas,visTypeXy,visTypeVislib,visTypeVega,visTypeTimeseries,rollup,visTypeTimelion,visTypeTagcloud,visTypeTable,visTypeMetric,visTypeHeatmap,visTypeMarkdown,dashboard,dashboardEnhanced,expressionXY,expressionTagcloud,expressionPartitionVis,visTypePie,expressionMetricVis,expressionHeatmap,expressionGauge,visTypeGauge,dataViewFieldEditor,sharedUX,discover,lens,osquery,maps,dataVisualizer,ml,cases,timelines,sessionView,securitySolution,observability,uptime,infra,upgradeAssistant,monitoring,logstash,enterpriseSearch,apm,discoverEnhanced,dataViewManagement]
+[2022-05-13T05:04:00.956-04:00][INFO ][plugins.monitoring.monitoring] config sourced from: production cluster
+[2022-05-13T05:04:02.737-04:00][INFO ][status] Kibana is now degraded
+[2022-05-13T05:04:02.739-04:00][INFO ][http.server.Kibana] http server running at http://localhost:5601
+[2022-05-13T05:04:03.378-04:00][INFO ][plugins.monitoring.monitoring.kibana-monitoring] Starting monitoring stats collection
+[2022-05-13T05:04:03.380-04:00][INFO ][plugins.fleet] Beginning fleet setup
+[2022-05-13T05:04:04.400-04:00][INFO ][plugins.screenshotting.chromium] Browser executable: /home/ashburndave/Downloads/elastictemp/kibana-8.2.0/x-pack/plugins/screenshotting/chromium/headless_shell-linux_x64/headless_shell
+[2022-05-13T05:04:05.700-04:00][INFO ][plugins.ml] Task ML:saved-objects-sync-task: scheduled with interval 1h
+[2022-05-13T05:04:06.946-04:00][INFO ][plugins.ruleRegistry] Installed common resources shared between all indices
+[2022-05-13T05:04:06.947-04:00][INFO ][plugins.ruleRegistry] Installing resources for index .alerts-security.alerts
+[2022-05-13T05:04:06.948-04:00][INFO ][plugins.ruleRegistry] Installing resources for index .preview.alerts-security.alerts
+[2022-05-13T05:04:06.949-04:00][INFO ][plugins.ruleRegistry] Installing resources for index .alerts-observability.uptime.alerts
+[2022-05-13T05:04:06.949-04:00][INFO ][plugins.ruleRegistry] Installing resources for index .alerts-observability.logs.alerts
+[2022-05-13T05:04:06.950-04:00][INFO ][plugins.ruleRegistry] Installing resources for index .alerts-observability.metrics.alerts
+[2022-05-13T05:04:06.950-04:00][INFO ][plugins.ruleRegistry] Installing resources for index .alerts-observability.apm.alerts
+[2022-05-13T05:04:07.388-04:00][INFO ][plugins.ruleRegistry] Installed resources for index .alerts-observability.logs.alerts
+[2022-05-13T05:04:07.624-04:00][INFO ][plugins.ruleRegistry] Installed resources for index .alerts-observability.uptime.alerts
+[2022-05-13T05:04:07.880-04:00][INFO ][plugins.ruleRegistry] Installed resources for index .alerts-security.alerts
+[2022-05-13T05:04:08.119-04:00][INFO ][plugins.ruleRegistry] Installed resources for index .alerts-observability.metrics.alerts
+[2022-05-13T05:04:08.379-04:00][INFO ][plugins.ruleRegistry] Installed resources for index .alerts-observability.apm.alerts
+[2022-05-13T05:04:09.978-04:00][INFO ][plugins.ml] Task ML:saved-objects-sync-task: 1 ML saved object synced
+[2022-05-13T05:04:10.170-04:00][INFO ][status] Kibana is now available (was degraded)
+[2022-05-13T05:04:10.217-04:00][INFO ][plugins.reporting.store] Creating ILM policy for managing reporting indices: kibana-reporting
+[2022-05-13T05:04:10.573-04:00][INFO ][plugins.fleet] Fleet setup completed
+[2022-05-13T05:04:10.584-04:00][INFO ][plugins.ruleRegistry] Installed resources for index .preview.alerts-security.alerts
+[2022-05-13T05:04:10.645-04:00][INFO ][plugins.securitySolution] Dependent plugin setup complete - Starting ManifestTask
+[2022-05-13T05:04:10.651-04:00][INFO ][plugins.securitySolution.endpoint:metadata-check-transforms-task:0.0.1] no endpoint installation found
+[2022-05-13T05:04:59.581-04:00][INFO ][plugins.security.routes] Logging in with provider "basic" (basic)
+
+
+http://localhost:5601/app/home#/
+http://localhost:5601/app/dev_tools#/console
+
+GET _search
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+{
+  "took" : 0,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 0,
+    "successful" : 0,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 0,
+      "relation" : "eq"
+    },
+    "max_score" : 0.0,
+    "hits" : [ ]
+  }
+}
+
+https://localhost:9200/_cat
+=^.^=
+/_cat/allocation
+/_cat/shards
+/_cat/shards/{index}
+/_cat/master
+/_cat/nodes
+/_cat/tasks
+/_cat/indices
+/_cat/indices/{index}
+/_cat/segments
+/_cat/segments/{index}
+/_cat/count
+/_cat/count/{index}
+/_cat/recovery
+/_cat/recovery/{index}
+/_cat/health
+/_cat/pending_tasks
+/_cat/aliases
+/_cat/aliases/{alias}
+/_cat/thread_pool
+/_cat/thread_pool/{thread_pools}
+/_cat/plugins
+/_cat/fielddata
+/_cat/fielddata/{fields}
+/_cat/nodeattrs
+/_cat/repositories
+/_cat/snapshots/{repository}
+/_cat/templates
+/_cat/component_templates/_cat/ml/anomaly_detectors
+/_cat/ml/anomaly_detectors/{job_id}
+/_cat/ml/trained_models
+/_cat/ml/trained_models/{model_id}
+/_cat/ml/datafeeds
+/_cat/ml/datafeeds/{datafeed_id}
+/_cat/ml/data_frame/analytics
+/_cat/ml/data_frame/analytics/{id}
+/_cat/transforms
+/_cat/transforms/{transform_id}
+
+https://localhost:9200/_cat/count?v
+
+epoch      timestamp count
+1652433796 09:23:16  0
+
+
+https://github.com/madhusudhankonda/elasticsearch-in-action
+
+POST _bulk
+{"index":{"_index":"books","_id":"1"}}
+{"title": "Core Java Volume I – Fundamentals","author": "Cay S. Horstmann","edition": 11, "synopsis": "Java reference book that offers a detailed explanation of various features of Core Java, including exception handling, interfaces, and lambda expressions. Significant highlights of the book include simple language, conciseness, and detailed examples.","amazon_rating": 4.6,"release_date": "2018-08-27","tags": ["Programming Languages, Java Programming"]}
+{"index":{"_index":"books","_id":"2"}}
+{"title": "Effective Java","author": "Joshua Bloch", "edition": 3,"synopsis": "A must-have book for every Java programmer and Java aspirant, Effective Java makes up for an excellent complementary read with other Java books or learning material. The book offers 78 best practices to follow for making the code better.", "amazon_rating": 4.7, "release_date": "2017-12-27", "tags": ["Object Oriented Software Design"]}
+{"index":{"_index":"books","_id":"3"}}
+{"title": "Java: A Beginner’s Guide", "author": "Herbert Schildt","edition": 8,"synopsis": "One of the most comprehensive books for learning Java. The book offers several hands-on exercises as well as a quiz section at the end of every chapter to let the readers self-evaluate their learning.","amazon_rating": 4.2,"release_date": "2018-11-20","tags": ["Software Design & Engineering", "Internet & Web"]}
+{"index":{"_index":"books","_id":"4"}}
+{"title": "Java - The Complete Reference","author": "Herbert Schildt","edition": 11,"synopsis": "Convenient Java reference book examining essential portions of the Java API library, Java. The book is full of discussions and apt examples to better Java learning.","amazon_rating": 4.4,"release_date": "2019-03-19","tags": ["Software Design & Engineering", "Internet & Web", "Computer Programming Language & Tool"]}
+{"index":{"_index":"books","_id":"5"}}
+{"title": "Head First Java","author": "Kathy Sierra and Bert Bates","edition":2, "synopsis": "The most important selling points of Head First Java is its simplicity and super-effective real-life analogies that pertain to the Java programming concepts.","amazon_rating": 4.3,"release_date": "2005-02-18","tags": ["IT Certification Exams", "Object-Oriented Software Design","Design Pattern Programming"]}
+{"index":{"_index":"books","_id":"6"}}
+{"title": "Java Concurrency in Practice","author": "Brian Goetz with Tim Peierls, Joshua Bloch, Joseph Bowbeer, David Holmes, and Doug Lea","edition": 1,"synopsis": "Java Concurrency in Practice is one of the best Java programming books to develop a rich understanding of concurrency and multithreading.","amazon_rating": 4.3,"release_date": "2006-05-09","tags": ["Computer Science Books", "Programming Languages", "Java Programming"]}
+{"index":{"_index":"books","_id":"7"}}
+{"title": "Test-Driven: TDD and Acceptance TDD for Java Developers","author": "Lasse Koskela","edition": 1,"synopsis": "Test-Driven is an excellent book for learning how to write unique automation testing programs. It is a must-have book for those Java developers that prioritize code quality as well as have a knack for writing unit, integration, and automation tests.","amazon_rating": 4.1,"release_date": "2007-10-22","tags": ["Software Architecture", "Software Design & Engineering", "Java Programming"]}
+{"index":{"_index":"books","_id":"8"}}
+{"title": "Head First Object-Oriented Analysis Design","author": "Brett D. McLaughlin, Gary Pollice & David West","edition": 1,"synopsis": "Head First is one of the most beautiful finest book series ever written on Java programming language. Another gem in the series is the Head First Object-Oriented Analysis Design.","amazon_rating": 3.9,"release_date": "2014-04-29","tags": ["Introductory & Beginning Programming", "Object-Oriented Software Design", "Java Programming"]}
+{"index":{"_index":"books","_id":"9"}}
+{"title": "Java Performance: The Definite Guide","author": "Scott Oaks","edition": 1,"synopsis": "Garbage collection, JVM, and performance tuning are some of the most favorable aspects of the Java programming language. It educates readers about maximizing Java threading and synchronization performance features, improve Java-driven database application performance, tackle performance issues","amazon_rating": 4.1,"release_date": "2014-03-04","tags": ["Design Pattern Programming", "Object-Oriented Software Design", "Computer Programming Language & Tool"]}
+{"index":{"_index":"books","_id":"10"}}
+{"title": "Head First Design Patterns", "author": "Eric Freeman & Elisabeth Robson with Kathy Sierra & Bert Bates","edition": 10,"synopsis": "Head First Design Patterns is one of the leading books to build that particular understanding of the Java programming language." ,"amazon_rating": 4.5,"release_date": "2014-03-04","tags": ["Design Pattern Programming", "Object-Oriented Software Design eTextbooks", "Web Development & Design eTextbooks"]}
+
+https://localhost:9200/_cat/count?v
+epoch      timestamp count
+1652434199 09:29:59  10
+
+https://localhost:9200/_cat/indices?v
+health status index uuid                   pri rep docs.count docs.deleted store.size pri.store.size
+yellow open   books zDubTLGfQVe5RcgLw9ramA   1   1         10            0     19.5kb         19.5kb
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+ashburndave@dphnuc4:~/rubycode$ cat rubyinfo.rb
+puts $:
+require "rbconfig"
+puts RbConfig::CONFIG.class
+
+RbConfig::CONFIG.keys.each_with_index do |key, index|
+   value = RbConfig::CONFIG[key]
+   print "key: #{key}, value: #{value}, index: #{index}\n"
+   # use key, value and index as desired
+end
+
+RbConfig::CONFIG.each_with_index do |(key, value), index|
+   print "key: #{key}, value: #{value}, index: #{index}\n"
+   # use key, value and index as desired
+end
+
+puts "done"
+
+
+ashburndave@dphnuc4:~/rubycode$ ruby -v rubyinfo.rb
+ruby 3.0.3p157 (2021-11-24 revision 3fb7d2cadc) [x86_64-linux]
+/home/ashburndave/.rbenv/rbenv.d/exec/gem-rehash
+/home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/site_ruby/3.0.0
+/home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/site_ruby/3.0.0/x86_64-linux
+/home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/site_ruby
+/home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/vendor_ruby/3.0.0
+/home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/vendor_ruby/3.0.0/x86_64-linux
+/home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/vendor_ruby
+/home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/3.0.0
+/home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/3.0.0/x86_64-linux
+Hash
+key: DESTDIR, value: , index: 0
+key: MAJOR, value: 3, index: 1
+key: MINOR, value: 0, index: 2
+key: TEENY, value: 3, index: 3
+key: PATCHLEVEL, value: 157, index: 4
+key: INSTALL, value: /usr/bin/install -c, index: 5
+key: EXEEXT, value: , index: 6
+key: prefix, value: /home/ashburndave/.rbenv/versions/3.0.3, index: 7
+key: ruby_install_name, value: ruby, index: 8
+key: RUBY_INSTALL_NAME, value: ruby, index: 9
+key: RUBY_SO_NAME, value: ruby, index: 10
+key: exec, value: exec, index: 11
+key: ruby_pc, value: ruby-3.0.pc, index: 12
+key: CC_WRAPPER, value: , index: 13
+key: PACKAGE, value: ruby, index: 14
+key: BUILTIN_TRANSSRCS, value:  enc/trans/newline.c, index: 15
+key: MANTYPE, value: doc, index: 16
+key: vendorarchhdrdir, value: /home/ashburndave/.rbenv/versions/3.0.3/include/ruby-3.0.0/vendor_ruby/x86_64-linux, index: 17
+key: sitearchhdrdir, value: /home/ashburndave/.rbenv/versions/3.0.3/include/ruby-3.0.0/site_ruby/x86_64-linux, index: 18
+key: rubyarchhdrdir, value: /home/ashburndave/.rbenv/versions/3.0.3/include/ruby-3.0.0/x86_64-linux, index: 19
+key: vendorhdrdir, value: /home/ashburndave/.rbenv/versions/3.0.3/include/ruby-3.0.0/vendor_ruby, index: 20
+key: sitehdrdir, value: /home/ashburndave/.rbenv/versions/3.0.3/include/ruby-3.0.0/site_ruby, index: 21
+key: rubyhdrdir, value: /home/ashburndave/.rbenv/versions/3.0.3/include/ruby-3.0.0, index: 22
+key: RUBY_SEARCH_PATH, value: , index: 23
+key: UNIVERSAL_INTS, value: , index: 24
+key: UNIVERSAL_ARCHNAMES, value: , index: 25
+key: configure_args, value:  '--prefix=/home/ashburndave/.rbenv/versions/3.0.3' '--enable-shared' 'LDFLAGS=-L/home/ashburndave/.rbenv/versions/3.0.3/lib ' 'CPPFLAGS=-I/home/ashburndave/.rbenv/versions/3.0.3/include ', index: 26
+key: CONFIGURE, value: configure, index: 27
+key: vendorarchdir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/vendor_ruby/3.0.0/x86_64-linux, index: 28
+key: vendorlibdir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/vendor_ruby/3.0.0, index: 29
+key: vendordir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/vendor_ruby, index: 30
+key: sitearchdir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/site_ruby/3.0.0/x86_64-linux, index: 31
+key: sitelibdir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/site_ruby/3.0.0, index: 32
+key: sitedir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/site_ruby, index: 33
+key: rubyarchdir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/3.0.0/x86_64-linux, index: 34
+key: rubylibdir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/3.0.0, index: 35
+key: ruby_version, value: 3.0.0, index: 36
+key: sitearch, value: x86_64-linux, index: 37
+key: arch, value: x86_64-linux, index: 38
+key: sitearchincludedir, value: /home/ashburndave/.rbenv/versions/3.0.3/include/x86_64-linux, index: 39
+key: archincludedir, value: /home/ashburndave/.rbenv/versions/3.0.3/include/x86_64-linux, index: 40
+key: sitearchlibdir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/x86_64-linux, index: 41
+key: archlibdir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/x86_64-linux, index: 42
+key: libdirname, value: libdir, index: 43
+key: RUBY_EXEC_PREFIX, value: /home/ashburndave/.rbenv/versions/3.0.3, index: 44
+key: RUBY_LIB_VERSION, value: , index: 45
+key: RUBY_LIB_VERSION_STYLE, value: 3	/* full */, index: 46
+key: RI_BASE_NAME, value: ri, index: 47
+key: ridir, value: /home/ashburndave/.rbenv/versions/3.0.3/share/ri, index: 48
+key: rubysitearchprefix, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/x86_64-linux, index: 49
+key: rubyarchprefix, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/x86_64-linux, index: 50
+key: MAKEFILES, value: Makefile GNUmakefile, index: 51
+key: PLATFORM_DIR, value: , index: 52
+key: THREAD_MODEL, value: pthread, index: 53
+key: SYMBOL_PREFIX, value: , index: 54
+key: EXPORT_PREFIX, value: , index: 55
+key: COMMON_HEADERS, value: , index: 56
+key: COMMON_MACROS, value: , index: 57
+key: COMMON_LIBS, value: , index: 58
+key: MAINLIBS, value: -lz -lpthread -lrt -lrt -ldl -lcrypt -lm , index: 59
+key: ENABLE_SHARED, value: yes, index: 60
+key: DLDSHARED, value: gcc -shared, index: 61
+key: DLDLIBS, value:  -lc, index: 62
+key: SOLIBS, value: -lz -lpthread -lrt -lrt -ldl -lcrypt -lm , index: 63
+key: LIBRUBYARG_SHARED, value: -Wl,-rpath,/home/ashburndave/.rbenv/versions/3.0.3/lib -L/home/ashburndave/.rbenv/versions/3.0.3/lib -lruby, index: 64
+key: LIBRUBYARG_STATIC, value: -Wl,-rpath,/home/ashburndave/.rbenv/versions/3.0.3/lib -L/home/ashburndave/.rbenv/versions/3.0.3/lib -lruby-static -lz -lpthread -lrt -lrt -ldl -lcrypt -lm , index: 65
+key: LIBRUBYARG, value: -Wl,-rpath,/home/ashburndave/.rbenv/versions/3.0.3/lib -L/home/ashburndave/.rbenv/versions/3.0.3/lib -lruby, index: 66
+key: LIBRUBY, value: libruby.so.3.0.3, index: 67
+key: LIBRUBY_ALIASES, value: libruby.so.3.0 libruby.so, index: 68
+key: LIBRUBY_SONAME, value: libruby.so.3.0, index: 69
+key: LIBRUBY_SO, value: libruby.so.3.0.3, index: 70
+key: LIBRUBY_A, value: libruby-static.a, index: 71
+key: RUBYW_INSTALL_NAME, value: , index: 72
+key: rubyw_install_name, value: , index: 73
+key: EXTDLDFLAGS, value: , index: 74
+key: EXTLDFLAGS, value: , index: 75
+key: strict_warnflags, value: -std=gnu99, index: 76
+key: warnflags, value: -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable, index: 77
+key: debugflags, value: -ggdb3, index: 78
+key: optflags, value: -O3, index: 79
+key: NULLCMD, value: :, index: 80
+key: ENABLE_DEBUG_ENV, value: , index: 81
+key: DLNOBJ, value: dln.o, index: 82
+key: INSTALL_STATIC_LIBRARY, value: no, index: 83
+key: MJIT_SUPPORT, value: yes, index: 84
+key: EXECUTABLE_EXTS, value: , index: 85
+key: ARCHFILE, value: , index: 86
+key: LIBRUBY_RELATIVE, value: no, index: 87
+key: EXTOUT, value: .ext, index: 88
+key: PREP, value: miniruby, index: 89
+key: CROSS_COMPILING, value: no, index: 90
+key: TEST_RUNNABLE, value: yes, index: 91
+key: rubylibprefix, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby, index: 92
+key: setup, value: Setup, index: 93
+key: ENCSTATIC, value: , index: 94
+key: EXTSTATIC, value: , index: 95
+key: SOEXT, value: so, index: 96
+key: TRY_LINK, value: , index: 97
+key: PRELOADENV, value: LD_PRELOAD, index: 98
+key: LIBPATHENV, value: LD_LIBRARY_PATH, index: 99
+key: RPATHFLAG, value:  -Wl,-rpath,%1$-s, index: 100
+key: LIBPATHFLAG, value:  -L%1$-s, index: 101
+key: LINK_SO, value: , index: 102
+key: ASMEXT, value: S, index: 103
+key: LIBEXT, value: a, index: 104
+key: DLEXT2, value: , index: 105
+key: DLEXT, value: so, index: 106
+key: LDSHAREDXX, value: g++ -shared, index: 107
+key: LDSHARED, value: gcc -shared, index: 108
+key: CCDLFLAGS, value: -fPIC, index: 109
+key: STATIC, value: , index: 110
+key: ARCH_FLAG, value: , index: 111
+key: DLDFLAGS, value: -L/home/ashburndave/.rbenv/versions/3.0.3/lib  -Wl,--compress-debug-sections=zlib, index: 112
+key: ALLOCA, value: , index: 113
+key: dsymutil, value: , index: 114
+key: codesign, value: , index: 115
+key: POSTLINK, value: :, index: 116
+key: WERRORFLAG, value: -Werror, index: 117
+key: CHDIR, value: cd -P, index: 118
+key: RMALL, value: rm -fr, index: 119
+key: RMDIRS, value: rmdir --ignore-fail-on-non-empty -p, index: 120
+key: RMDIR, value: rmdir --ignore-fail-on-non-empty, index: 121
+key: CP, value: cp, index: 122
+key: RM, value: rm -f, index: 123
+key: PKG_CONFIG, value: pkg-config, index: 124
+key: DOXYGEN, value: , index: 125
+key: DOT, value: , index: 126
+key: MAKEDIRS, value: /usr/bin/mkdir -p, index: 127
+key: MKDIR_P, value: /usr/bin/mkdir -p, index: 128
+key: INSTALL_DATA, value: /usr/bin/install -c -m 644, index: 129
+key: INSTALL_SCRIPT, value: /usr/bin/install -c, index: 130
+key: INSTALL_PROGRAM, value: /usr/bin/install -c, index: 131
+key: SET_MAKE, value: , index: 132
+key: LN_S, value: ln -s, index: 133
+key: DLLWRAP, value: , index: 134
+key: WINDRES, value: , index: 135
+key: ASFLAGS, value: , index: 136
+key: ARFLAGS, value: rcD , index: 137
+key: try_header, value: , index: 138
+key: CC_VERSION_MESSAGE, value: gcc (Ubuntu 9.4.0-1ubuntu1~20.04) 9.4.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE., index: 139
+key: CC_VERSION, value: gcc --version, index: 140
+key: MJIT_CC, value: /usr/bin/gcc, index: 141
+key: CSRCFLAG, value: , index: 142
+key: COUTFLAG, value: -o , index: 143
+key: OUTFLAG, value: -o , index: 144
+key: CPPOUTFILE, value: -o conftest.i, index: 145
+key: GNU_LD, value: yes, index: 146
+key: GCC, value: yes, index: 147
+key: EGREP, value: /usr/bin/grep -E, index: 148
+key: GREP, value: /usr/bin/grep, index: 149
+key: CPP, value: gcc -E, index: 150
+key: CXXFLAGS, value: , index: 151
+key: OBJEXT, value: o, index: 152
+key: CPPFLAGS, value: -I/home/ashburndave/.rbenv/versions/3.0.3/include   , index: 153
+key: LDFLAGS, value: -L. -L/home/ashburndave/.rbenv/versions/3.0.3/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic, index: 154
+key: CFLAGS, value: -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC, index: 155
+key: STRIP, value: strip -S -x, index: 156
+key: RANLIB, value: gcc-ranlib, index: 157
+key: OBJDUMP, value: objdump, index: 158
+key: OBJCOPY, value: :, index: 159
+key: NM, value: gcc-nm, index: 160
+key: LD, value: ld, index: 161
+key: CXX, value: g++, index: 162
+key: AS, value: as, index: 163
+key: AR, value: gcc-ar, index: 164
+key: CC, value: gcc, index: 165
+key: target_os, value: linux, index: 166
+key: target_vendor, value: pc, index: 167
+key: target_cpu, value: x86_64, index: 168
+key: target, value: x86_64-pc-linux-gnu, index: 169
+key: host_os, value: linux, index: 170
+key: host_vendor, value: pc, index: 171
+key: host_cpu, value: x86_64, index: 172
+key: host, value: x86_64-pc-linux-gnu, index: 173
+key: build_os, value: linux-gnu, index: 174
+key: build_vendor, value: pc, index: 175
+key: build_cpu, value: x86_64, index: 176
+key: build, value: x86_64-pc-linux-gnu, index: 177
+key: RUBY_VERSION_NAME, value: ruby-3.0.0, index: 178
+key: RUBYW_BASE_NAME, value: rubyw, index: 179
+key: RUBY_BASE_NAME, value: ruby, index: 180
+key: RUBY_PROGRAM_VERSION, value: 3.0.3, index: 181
+key: RUBY_API_VERSION, value: 3.0, index: 182
+key: HAVE_GIT, value: yes, index: 183
+key: GIT, value: git, index: 184
+key: cxxflags, value: , index: 185
+key: cppflags, value: , index: 186
+key: cflags, value: -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable, index: 187
+key: target_alias, value: , index: 188
+key: host_alias, value: , index: 189
+key: build_alias, value: , index: 190
+key: LIBS, value: -lm , index: 191
+key: ECHO_T, value: , index: 192
+key: ECHO_N, value: -n, index: 193
+key: ECHO_C, value: , index: 194
+key: DEFS, value: , index: 195
+key: mandir, value: /home/ashburndave/.rbenv/versions/3.0.3/share/man, index: 196
+key: localedir, value: /home/ashburndave/.rbenv/versions/3.0.3/share/locale, index: 197
+key: libdir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib, index: 198
+key: psdir, value: /home/ashburndave/.rbenv/versions/3.0.3/share/doc/ruby, index: 199
+key: pdfdir, value: /home/ashburndave/.rbenv/versions/3.0.3/share/doc/ruby, index: 200
+key: dvidir, value: /home/ashburndave/.rbenv/versions/3.0.3/share/doc/ruby, index: 201
+key: htmldir, value: /home/ashburndave/.rbenv/versions/3.0.3/share/doc/ruby, index: 202
+key: infodir, value: /home/ashburndave/.rbenv/versions/3.0.3/share/info, index: 203
+key: docdir, value: /home/ashburndave/.rbenv/versions/3.0.3/share/doc/ruby, index: 204
+key: oldincludedir, value: /usr/include, index: 205
+key: includedir, value: /home/ashburndave/.rbenv/versions/3.0.3/include, index: 206
+key: runstatedir, value: /home/ashburndave/.rbenv/versions/3.0.3/var/run, index: 207
+key: localstatedir, value: /home/ashburndave/.rbenv/versions/3.0.3/var, index: 208
+key: sharedstatedir, value: /home/ashburndave/.rbenv/versions/3.0.3/com, index: 209
+key: sysconfdir, value: /home/ashburndave/.rbenv/versions/3.0.3/etc, index: 210
+key: datadir, value: /home/ashburndave/.rbenv/versions/3.0.3/share, index: 211
+key: datarootdir, value: /home/ashburndave/.rbenv/versions/3.0.3/share, index: 212
+key: libexecdir, value: /home/ashburndave/.rbenv/versions/3.0.3/libexec, index: 213
+key: sbindir, value: /home/ashburndave/.rbenv/versions/3.0.3/sbin, index: 214
+key: bindir, value: /home/ashburndave/.rbenv/versions/3.0.3/bin, index: 215
+key: exec_prefix, value: /home/ashburndave/.rbenv/versions/3.0.3, index: 216
+key: PACKAGE_URL, value: , index: 217
+key: PACKAGE_BUGREPORT, value: , index: 218
+key: PACKAGE_STRING, value: , index: 219
+key: PACKAGE_VERSION, value: , index: 220
+key: PACKAGE_TARNAME, value: , index: 221
+key: PACKAGE_NAME, value: , index: 222
+key: PATH_SEPARATOR, value: :, index: 223
+key: SHELL, value: /bin/bash, index: 224
+key: UNICODE_VERSION, value: 12.1.0, index: 225
+key: UNICODE_EMOJI_VERSION, value: 12.1, index: 226
+key: archdir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/3.0.0/x86_64-linux, index: 227
+key: topdir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/3.0.0/x86_64-linux, index: 228
+key: DESTDIR, value: , index: 0
+key: MAJOR, value: 3, index: 1
+key: MINOR, value: 0, index: 2
+key: TEENY, value: 3, index: 3
+key: PATCHLEVEL, value: 157, index: 4
+key: INSTALL, value: /usr/bin/install -c, index: 5
+key: EXEEXT, value: , index: 6
+key: prefix, value: /home/ashburndave/.rbenv/versions/3.0.3, index: 7
+key: ruby_install_name, value: ruby, index: 8
+key: RUBY_INSTALL_NAME, value: ruby, index: 9
+key: RUBY_SO_NAME, value: ruby, index: 10
+key: exec, value: exec, index: 11
+key: ruby_pc, value: ruby-3.0.pc, index: 12
+key: CC_WRAPPER, value: , index: 13
+key: PACKAGE, value: ruby, index: 14
+key: BUILTIN_TRANSSRCS, value:  enc/trans/newline.c, index: 15
+key: MANTYPE, value: doc, index: 16
+key: vendorarchhdrdir, value: /home/ashburndave/.rbenv/versions/3.0.3/include/ruby-3.0.0/vendor_ruby/x86_64-linux, index: 17
+key: sitearchhdrdir, value: /home/ashburndave/.rbenv/versions/3.0.3/include/ruby-3.0.0/site_ruby/x86_64-linux, index: 18
+key: rubyarchhdrdir, value: /home/ashburndave/.rbenv/versions/3.0.3/include/ruby-3.0.0/x86_64-linux, index: 19
+key: vendorhdrdir, value: /home/ashburndave/.rbenv/versions/3.0.3/include/ruby-3.0.0/vendor_ruby, index: 20
+key: sitehdrdir, value: /home/ashburndave/.rbenv/versions/3.0.3/include/ruby-3.0.0/site_ruby, index: 21
+key: rubyhdrdir, value: /home/ashburndave/.rbenv/versions/3.0.3/include/ruby-3.0.0, index: 22
+key: RUBY_SEARCH_PATH, value: , index: 23
+key: UNIVERSAL_INTS, value: , index: 24
+key: UNIVERSAL_ARCHNAMES, value: , index: 25
+key: configure_args, value:  '--prefix=/home/ashburndave/.rbenv/versions/3.0.3' '--enable-shared' 'LDFLAGS=-L/home/ashburndave/.rbenv/versions/3.0.3/lib ' 'CPPFLAGS=-I/home/ashburndave/.rbenv/versions/3.0.3/include ', index: 26
+key: CONFIGURE, value: configure, index: 27
+key: vendorarchdir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/vendor_ruby/3.0.0/x86_64-linux, index: 28
+key: vendorlibdir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/vendor_ruby/3.0.0, index: 29
+key: vendordir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/vendor_ruby, index: 30
+key: sitearchdir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/site_ruby/3.0.0/x86_64-linux, index: 31
+key: sitelibdir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/site_ruby/3.0.0, index: 32
+key: sitedir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/site_ruby, index: 33
+key: rubyarchdir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/3.0.0/x86_64-linux, index: 34
+key: rubylibdir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/3.0.0, index: 35
+key: ruby_version, value: 3.0.0, index: 36
+key: sitearch, value: x86_64-linux, index: 37
+key: arch, value: x86_64-linux, index: 38
+key: sitearchincludedir, value: /home/ashburndave/.rbenv/versions/3.0.3/include/x86_64-linux, index: 39
+key: archincludedir, value: /home/ashburndave/.rbenv/versions/3.0.3/include/x86_64-linux, index: 40
+key: sitearchlibdir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/x86_64-linux, index: 41
+key: archlibdir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/x86_64-linux, index: 42
+key: libdirname, value: libdir, index: 43
+key: RUBY_EXEC_PREFIX, value: /home/ashburndave/.rbenv/versions/3.0.3, index: 44
+key: RUBY_LIB_VERSION, value: , index: 45
+key: RUBY_LIB_VERSION_STYLE, value: 3	/* full */, index: 46
+key: RI_BASE_NAME, value: ri, index: 47
+key: ridir, value: /home/ashburndave/.rbenv/versions/3.0.3/share/ri, index: 48
+key: rubysitearchprefix, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/x86_64-linux, index: 49
+key: rubyarchprefix, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/x86_64-linux, index: 50
+key: MAKEFILES, value: Makefile GNUmakefile, index: 51
+key: PLATFORM_DIR, value: , index: 52
+key: THREAD_MODEL, value: pthread, index: 53
+key: SYMBOL_PREFIX, value: , index: 54
+key: EXPORT_PREFIX, value: , index: 55
+key: COMMON_HEADERS, value: , index: 56
+key: COMMON_MACROS, value: , index: 57
+key: COMMON_LIBS, value: , index: 58
+key: MAINLIBS, value: -lz -lpthread -lrt -lrt -ldl -lcrypt -lm , index: 59
+key: ENABLE_SHARED, value: yes, index: 60
+key: DLDSHARED, value: gcc -shared, index: 61
+key: DLDLIBS, value:  -lc, index: 62
+key: SOLIBS, value: -lz -lpthread -lrt -lrt -ldl -lcrypt -lm , index: 63
+key: LIBRUBYARG_SHARED, value: -Wl,-rpath,/home/ashburndave/.rbenv/versions/3.0.3/lib -L/home/ashburndave/.rbenv/versions/3.0.3/lib -lruby, index: 64
+key: LIBRUBYARG_STATIC, value: -Wl,-rpath,/home/ashburndave/.rbenv/versions/3.0.3/lib -L/home/ashburndave/.rbenv/versions/3.0.3/lib -lruby-static -lz -lpthread -lrt -lrt -ldl -lcrypt -lm , index: 65
+key: LIBRUBYARG, value: -Wl,-rpath,/home/ashburndave/.rbenv/versions/3.0.3/lib -L/home/ashburndave/.rbenv/versions/3.0.3/lib -lruby, index: 66
+key: LIBRUBY, value: libruby.so.3.0.3, index: 67
+key: LIBRUBY_ALIASES, value: libruby.so.3.0 libruby.so, index: 68
+key: LIBRUBY_SONAME, value: libruby.so.3.0, index: 69
+key: LIBRUBY_SO, value: libruby.so.3.0.3, index: 70
+key: LIBRUBY_A, value: libruby-static.a, index: 71
+key: RUBYW_INSTALL_NAME, value: , index: 72
+key: rubyw_install_name, value: , index: 73
+key: EXTDLDFLAGS, value: , index: 74
+key: EXTLDFLAGS, value: , index: 75
+key: strict_warnflags, value: -std=gnu99, index: 76
+key: warnflags, value: -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable, index: 77
+key: debugflags, value: -ggdb3, index: 78
+key: optflags, value: -O3, index: 79
+key: NULLCMD, value: :, index: 80
+key: ENABLE_DEBUG_ENV, value: , index: 81
+key: DLNOBJ, value: dln.o, index: 82
+key: INSTALL_STATIC_LIBRARY, value: no, index: 83
+key: MJIT_SUPPORT, value: yes, index: 84
+key: EXECUTABLE_EXTS, value: , index: 85
+key: ARCHFILE, value: , index: 86
+key: LIBRUBY_RELATIVE, value: no, index: 87
+key: EXTOUT, value: .ext, index: 88
+key: PREP, value: miniruby, index: 89
+key: CROSS_COMPILING, value: no, index: 90
+key: TEST_RUNNABLE, value: yes, index: 91
+key: rubylibprefix, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby, index: 92
+key: setup, value: Setup, index: 93
+key: ENCSTATIC, value: , index: 94
+key: EXTSTATIC, value: , index: 95
+key: SOEXT, value: so, index: 96
+key: TRY_LINK, value: , index: 97
+key: PRELOADENV, value: LD_PRELOAD, index: 98
+key: LIBPATHENV, value: LD_LIBRARY_PATH, index: 99
+key: RPATHFLAG, value:  -Wl,-rpath,%1$-s, index: 100
+key: LIBPATHFLAG, value:  -L%1$-s, index: 101
+key: LINK_SO, value: , index: 102
+key: ASMEXT, value: S, index: 103
+key: LIBEXT, value: a, index: 104
+key: DLEXT2, value: , index: 105
+key: DLEXT, value: so, index: 106
+key: LDSHAREDXX, value: g++ -shared, index: 107
+key: LDSHARED, value: gcc -shared, index: 108
+key: CCDLFLAGS, value: -fPIC, index: 109
+key: STATIC, value: , index: 110
+key: ARCH_FLAG, value: , index: 111
+key: DLDFLAGS, value: -L/home/ashburndave/.rbenv/versions/3.0.3/lib  -Wl,--compress-debug-sections=zlib, index: 112
+key: ALLOCA, value: , index: 113
+key: dsymutil, value: , index: 114
+key: codesign, value: , index: 115
+key: POSTLINK, value: :, index: 116
+key: WERRORFLAG, value: -Werror, index: 117
+key: CHDIR, value: cd -P, index: 118
+key: RMALL, value: rm -fr, index: 119
+key: RMDIRS, value: rmdir --ignore-fail-on-non-empty -p, index: 120
+key: RMDIR, value: rmdir --ignore-fail-on-non-empty, index: 121
+key: CP, value: cp, index: 122
+key: RM, value: rm -f, index: 123
+key: PKG_CONFIG, value: pkg-config, index: 124
+key: DOXYGEN, value: , index: 125
+key: DOT, value: , index: 126
+key: MAKEDIRS, value: /usr/bin/mkdir -p, index: 127
+key: MKDIR_P, value: /usr/bin/mkdir -p, index: 128
+key: INSTALL_DATA, value: /usr/bin/install -c -m 644, index: 129
+key: INSTALL_SCRIPT, value: /usr/bin/install -c, index: 130
+key: INSTALL_PROGRAM, value: /usr/bin/install -c, index: 131
+key: SET_MAKE, value: , index: 132
+key: LN_S, value: ln -s, index: 133
+key: DLLWRAP, value: , index: 134
+key: WINDRES, value: , index: 135
+key: ASFLAGS, value: , index: 136
+key: ARFLAGS, value: rcD , index: 137
+key: try_header, value: , index: 138
+key: CC_VERSION_MESSAGE, value: gcc (Ubuntu 9.4.0-1ubuntu1~20.04) 9.4.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE., index: 139
+key: CC_VERSION, value: gcc --version, index: 140
+key: MJIT_CC, value: /usr/bin/gcc, index: 141
+key: CSRCFLAG, value: , index: 142
+key: COUTFLAG, value: -o , index: 143
+key: OUTFLAG, value: -o , index: 144
+key: CPPOUTFILE, value: -o conftest.i, index: 145
+key: GNU_LD, value: yes, index: 146
+key: GCC, value: yes, index: 147
+key: EGREP, value: /usr/bin/grep -E, index: 148
+key: GREP, value: /usr/bin/grep, index: 149
+key: CPP, value: gcc -E, index: 150
+key: CXXFLAGS, value: , index: 151
+key: OBJEXT, value: o, index: 152
+key: CPPFLAGS, value: -I/home/ashburndave/.rbenv/versions/3.0.3/include   , index: 153
+key: LDFLAGS, value: -L. -L/home/ashburndave/.rbenv/versions/3.0.3/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic, index: 154
+key: CFLAGS, value: -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC, index: 155
+key: STRIP, value: strip -S -x, index: 156
+key: RANLIB, value: gcc-ranlib, index: 157
+key: OBJDUMP, value: objdump, index: 158
+key: OBJCOPY, value: :, index: 159
+key: NM, value: gcc-nm, index: 160
+key: LD, value: ld, index: 161
+key: CXX, value: g++, index: 162
+key: AS, value: as, index: 163
+key: AR, value: gcc-ar, index: 164
+key: CC, value: gcc, index: 165
+key: target_os, value: linux, index: 166
+key: target_vendor, value: pc, index: 167
+key: target_cpu, value: x86_64, index: 168
+key: target, value: x86_64-pc-linux-gnu, index: 169
+key: host_os, value: linux, index: 170
+key: host_vendor, value: pc, index: 171
+key: host_cpu, value: x86_64, index: 172
+key: host, value: x86_64-pc-linux-gnu, index: 173
+key: build_os, value: linux-gnu, index: 174
+key: build_vendor, value: pc, index: 175
+key: build_cpu, value: x86_64, index: 176
+key: build, value: x86_64-pc-linux-gnu, index: 177
+key: RUBY_VERSION_NAME, value: ruby-3.0.0, index: 178
+key: RUBYW_BASE_NAME, value: rubyw, index: 179
+key: RUBY_BASE_NAME, value: ruby, index: 180
+key: RUBY_PROGRAM_VERSION, value: 3.0.3, index: 181
+key: RUBY_API_VERSION, value: 3.0, index: 182
+key: HAVE_GIT, value: yes, index: 183
+key: GIT, value: git, index: 184
+key: cxxflags, value: , index: 185
+key: cppflags, value: , index: 186
+key: cflags, value: -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable, index: 187
+key: target_alias, value: , index: 188
+key: host_alias, value: , index: 189
+key: build_alias, value: , index: 190
+key: LIBS, value: -lm , index: 191
+key: ECHO_T, value: , index: 192
+key: ECHO_N, value: -n, index: 193
+key: ECHO_C, value: , index: 194
+key: DEFS, value: , index: 195
+key: mandir, value: /home/ashburndave/.rbenv/versions/3.0.3/share/man, index: 196
+key: localedir, value: /home/ashburndave/.rbenv/versions/3.0.3/share/locale, index: 197
+key: libdir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib, index: 198
+key: psdir, value: /home/ashburndave/.rbenv/versions/3.0.3/share/doc/ruby, index: 199
+key: pdfdir, value: /home/ashburndave/.rbenv/versions/3.0.3/share/doc/ruby, index: 200
+key: dvidir, value: /home/ashburndave/.rbenv/versions/3.0.3/share/doc/ruby, index: 201
+key: htmldir, value: /home/ashburndave/.rbenv/versions/3.0.3/share/doc/ruby, index: 202
+key: infodir, value: /home/ashburndave/.rbenv/versions/3.0.3/share/info, index: 203
+key: docdir, value: /home/ashburndave/.rbenv/versions/3.0.3/share/doc/ruby, index: 204
+key: oldincludedir, value: /usr/include, index: 205
+key: includedir, value: /home/ashburndave/.rbenv/versions/3.0.3/include, index: 206
+key: runstatedir, value: /home/ashburndave/.rbenv/versions/3.0.3/var/run, index: 207
+key: localstatedir, value: /home/ashburndave/.rbenv/versions/3.0.3/var, index: 208
+key: sharedstatedir, value: /home/ashburndave/.rbenv/versions/3.0.3/com, index: 209
+key: sysconfdir, value: /home/ashburndave/.rbenv/versions/3.0.3/etc, index: 210
+key: datadir, value: /home/ashburndave/.rbenv/versions/3.0.3/share, index: 211
+key: datarootdir, value: /home/ashburndave/.rbenv/versions/3.0.3/share, index: 212
+key: libexecdir, value: /home/ashburndave/.rbenv/versions/3.0.3/libexec, index: 213
+key: sbindir, value: /home/ashburndave/.rbenv/versions/3.0.3/sbin, index: 214
+key: bindir, value: /home/ashburndave/.rbenv/versions/3.0.3/bin, index: 215
+key: exec_prefix, value: /home/ashburndave/.rbenv/versions/3.0.3, index: 216
+key: PACKAGE_URL, value: , index: 217
+key: PACKAGE_BUGREPORT, value: , index: 218
+key: PACKAGE_STRING, value: , index: 219
+key: PACKAGE_VERSION, value: , index: 220
+key: PACKAGE_TARNAME, value: , index: 221
+key: PACKAGE_NAME, value: , index: 222
+key: PATH_SEPARATOR, value: :, index: 223
+key: SHELL, value: /bin/bash, index: 224
+key: UNICODE_VERSION, value: 12.1.0, index: 225
+key: UNICODE_EMOJI_VERSION, value: 12.1, index: 226
+key: archdir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/3.0.0/x86_64-linux, index: 227
+key: topdir, value: /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/3.0.0/x86_64-linux, index: 228
+done
+ashburndave@dphnuc4:~/rubycode$ 
+ashburndave@dphnuc4:~/rubycode$ 
+
+ashburndave@dphnuc4:~/.rbenv/versions/3.0.3/lib/ruby$ 
+ashburndave@dphnuc4:~/.rbenv/versions/3.0.3/lib/ruby$ date
+Fri 13 May 2022 07:11:56 AM EDT
+ashburndave@dphnuc4:~/.rbenv/versions/3.0.3/lib/ruby$ 
+ashburndave@dphnuc4:~/.rbenv/versions/3.0.3/lib/ruby$ pwd -P
+/home/ashburndave/.rbenv/versions/3.0.3/lib/ruby
+ashburndave@dphnuc4:~/.rbenv/versions/3.0.3/lib/ruby$ 
+ashburndave@dphnuc4:~/.rbenv/versions/3.0.3/lib/ruby$ tree -d -L 2
+.
+├── 3.0.0
+│   ├── benchmark
+│   ├── bigdecimal
+│   ├── bundler
+│   ├── cgi
+│   ├── csv
+│   ├── did_you_mean
+│   ├── digest
+│   ├── drb
+│   ├── fiddle
+│   ├── forwardable
+│   ├── io
+│   ├── irb
+│   ├── json
+│   ├── logger
+│   ├── matrix
+│   ├── net
+│   ├── openssl
+│   ├── optparse
+│   ├── psych
+│   ├── racc
+│   ├── rdoc
+│   ├── reline
+│   ├── rinda
+│   ├── ripper
+│   ├── rubygems
+│   ├── set
+│   ├── syslog
+│   ├── unicode_normalize
+│   ├── uri
+│   ├── x86_64-linux
+│   └── yaml
+├── gems
+│   └── 3.0.0
+├── site_ruby
+│   └── 3.0.0
+└── vendor_ruby
+    └── 3.0.0
+
+38 directories
+ashburndave@dphnuc4:~/.rbenv/versions/3.0.3/lib/ruby$ 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+ashburndave@dphnuc4:~$ 
+ashburndave@dphnuc4:~$ ruby --version
+ruby 3.0.3p157 (2021-11-24 revision 3fb7d2cadc) [x86_64-linux]
+ashburndave@dphnuc4:~$ 
+ashburndave@dphnuc4:~$ gem list | wc
+    186     493    4397
+ashburndave@dphnuc4:~$ gem list --local | wc
+    186     493    4397
+ashburndave@dphnuc4:~$ 
+ashburndave@dphnuc4:~$ gem list --local
+
+*** LOCAL GEMS ***
+
+abbrev (default: 0.1.0)
+actioncable (7.0.2.3, 6.1.5, 6.1.4)
+actionmailbox (7.0.2.3, 6.1.5, 6.1.4)
+actionmailer (7.0.2.3, 6.1.5, 6.1.4)
+actionpack (7.0.2.3, 6.1.5, 6.1.4)
+actiontext (7.0.2.3, 6.1.5, 6.1.4)
+actionview (7.0.2.3, 6.1.5, 6.1.4)
+activejob (7.0.2.3, 6.1.5, 6.1.4)
+activemodel (7.0.2.3, 6.1.5, 6.1.4)
+activerecord (7.0.2.3, 6.1.5, 6.1.4)
+activestorage (7.0.2.3, 6.1.5, 6.1.4)
+activesupport (7.0.2.3, 6.1.5, 6.1.4)
+addressable (2.8.0)
+ast (2.4.2)
+base64 (default: 0.1.0)
+benchmark (default: 0.1.1)
+bigdecimal (default: 3.0.0)
+bindex (0.8.1)
+bootsnap (1.11.1)
+builder (3.2.4)
+bundler (default: 2.2.32)
+byebug (11.1.3)
+capybara (3.36.0)
+cgi (default: 0.2.1)
+chewy (7.2.5)
+childprocess (4.1.0)
+concurrent-ruby (1.1.10, 1.1.9)
+crass (1.0.6)
+csv (default: 3.1.9)
+date (default: 3.1.3)
+debug (default: 0.2.1)
+delegate (default: 0.2.0)
+did_you_mean (default: 1.5.0)
+digest (default: 3.0.0)
+drb (default: 2.0.5)
+elastic-transport (8.0.0)
+elasticsearch (8.1.2, 7.17.1, 7.13.3)
+elasticsearch-api (8.1.2, 7.17.1, 7.13.3)
+elasticsearch-dsl (0.1.10)
+elasticsearch-model (7.2.1)
+elasticsearch-rails (7.2.1)
+elasticsearch-transport (7.17.1, 7.13.3)
+english (default: 0.7.1)
+erb (default: 2.2.0)
+erubi (1.10.0)
+etc (default: 1.3.0)
+faraday (1.10.0)
+faraday-em_http (1.0.0)
+faraday-em_synchrony (1.0.0)
+faraday-excon (1.1.0)
+faraday-httpclient (1.0.1)
+faraday-multipart (1.0.3)
+faraday-net_http (1.0.1)
+faraday-net_http_persistent (1.2.0)
+faraday-patron (1.0.0)
+faraday-rack (1.0.0)
+faraday-retry (1.0.3)
+fcntl (default: 1.0.1)
+ffi (1.15.5)
+fiddle (default: 1.0.8)
+fileutils (default: 1.5.0)
+find (default: 0.1.0)
+forwardable (default: 1.3.2)
+gdbm (default: 2.1.0)
+getoptlong (default: 0.1.1)
+globalid (1.0.0)
+hashie (5.0.0)
+i18n (1.10.0)
+io-console (default: 0.5.7)
+io-nonblock (default: 0.1.0)
+io-wait (default: 0.2.0)
+ipaddr (default: 1.2.2)
+irb (default: 1.3.5)
+jbuilder (2.11.5)
+json (default: 2.5.1)
+listen (3.7.1)
+logger (default: 1.4.3)
+loofah (2.16.0, 2.15.0)
+mail (2.7.1)
+marcel (1.0.2)
+matrix (0.4.2, default: 0.3.1)
+method_source (1.0.0)
+mini_mime (1.1.2)
+minitest (5.15.0, 5.14.2)
+msgpack (1.5.1, 1.4.5)
+multi_json (1.15.0)
+multipart-post (2.1.1)
+mutex_m (default: 0.1.1)
+mysql2 (0.5.3)
+net-ftp (default: 0.1.2)
+net-http (default: 0.1.1)
+net-imap (default: 0.1.1)
+net-pop (default: 0.1.1)
+net-protocol (default: 0.1.1)
+net-smtp (default: 0.2.1)
+nio4r (2.5.8)
+nkf (default: 0.1.0)
+nokogiri (1.13.4 x86_64-linux, 1.13.3 x86_64-linux)
+observer (default: 0.1.1)
+open-uri (default: 0.1.0)
+open3 (default: 0.1.1)
+openssl (default: 2.2.1)
+optparse (default: 0.1.1)
+ostruct (default: 0.3.1)
+parallel (1.22.1)
+parser (3.1.2.0)
+pathname (default: 0.1.0)
+power_assert (1.2.0)
+pp (default: 0.2.1)
+prettyprint (default: 0.1.1)
+prime (default: 0.1.2)
+pstore (default: 0.1.1)
+psych (default: 3.3.2)
+public_suffix (4.0.7, 4.0.6)
+puma (5.6.4, 5.6.2)
+racc (1.6.0, default: 1.5.2)
+rack (2.2.3)
+rack-mini-profiler (2.3.4)
+rack-proxy (0.7.2)
+rack-test (1.1.0)
+rails (7.0.2.3, 6.1.5, 6.1.4)
+rails-dom-testing (2.0.3)
+rails-html-sanitizer (1.4.2)
+railties (7.0.2.3, 6.1.5, 6.1.4)
+rainbow (3.1.1)
+rake (13.0.6, 13.0.3)
+rb-fsevent (0.11.1)
+rb-inotify (0.10.1)
+rbs (1.4.0)
+rdoc (default: 6.3.3)
+readline (default: 0.0.2)
+readline-ext (default: 0.1.1)
+regexp_parser (2.3.0, 2.2.1)
+reline (default: 0.2.5)
+resolv (default: 0.2.1)
+resolv-replace (default: 0.1.0)
+rexml (3.2.5)
+rinda (default: 0.1.1)
+rss (0.2.9)
+rubocop (1.27.0)
+rubocop-ast (1.17.0)
+ruby-progressbar (1.11.0)
+ruby2_keywords (0.0.5)
+rubyzip (2.3.2)
+sass-rails (6.0.0)
+sassc (2.4.0)
+sassc-rails (2.1.2)
+securerandom (default: 0.1.0)
+selenium-webdriver (4.1.0)
+semantic_range (3.0.0)
+set (default: 1.0.1)
+shellwords (default: 0.1.0)
+singleton (default: 0.1.1)
+spring (4.0.0)
+sprockets (4.0.3)
+sprockets-rails (3.4.2)
+sqlite3 (1.4.2)
+stringio (default: 3.0.1)
+strscan (default: 3.0.1)
+syslog (default: 0.1.0)
+tempfile (default: 0.1.1)
+test-unit (3.3.7)
+thor (1.2.1)
+tilt (2.0.10)
+time (default: 0.1.0)
+timeout (default: 0.1.1)
+tmpdir (default: 0.1.2)
+tracer (default: 0.1.1)
+tsort (default: 0.1.0)
+turbolinks (5.2.1)
+turbolinks-source (5.2.0)
+typeprof (0.15.2)
+tzinfo (2.0.4)
+un (default: 0.1.0)
+unicode-display_width (2.1.0)
+uri (default: 0.10.1)
+weakref (default: 0.1.1)
+web-console (4.2.0)
+webdrivers (5.0.0)
+webpacker (5.4.3)
+websocket-driver (0.7.5)
+websocket-extensions (0.1.5)
+xpath (3.2.0)
+yaml (default: 0.1.1)
+zeitwerk (2.5.4)
+zlib (default: 2.0.0)
+ashburndave@dphnuc4:~$ gem list --local | wc
+    186     493    4397
+ashburndave@dphnuc4:~$ 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+nBkmYzGmbounnrMrRqcw
+
+ashburndave@dphnuc4:~/Downloads/elastictemp/elasticsearch-8.2.0/config/certs$ ls -latr
+total 32
+-rw-rw---- 1 ashburndave ashburndave  1915 May 13 04:54 http_ca.crt
+-rw-rw---- 1 ashburndave ashburndave  5822 May 13 04:54 transport.p12
+-rw-rw---- 1 ashburndave ashburndave 10013 May 13 04:54 http.p12
+drwxr-x--- 2 ashburndave ashburndave  4096 May 13 04:54 .
+drwxr-xr-x 4 ashburndave ashburndave  4096 May 13 04:54 ..
+ashburndave@dphnuc4:~/Downloads/elastictemp/elasticsearch-8.2.0/config/certs$ 
+
+curl -u elastic:<password> <elasticsearch_endpoint>/
+curl -XGET "https://localhost:9200" -u elastic --cert elasticsearch-ca.pem
+curl -XGET "https://localhost:9200" -u elastic --cert ~/Downloads/elastictemp/elasticsearch-8.2.0/config/certs/http_ca_crt
+curl -XGET "https://localhost:9200" --cert ~/Downloads/elastictemp/elasticsearch-8.2.0/config/certs/http.p12
+curl -v -k -u elastic https://localhost:9200
+
+ashburndave@dphnuc4:~/rubycode$ 
+ashburndave@dphnuc4:~/rubycode$ curl -v -k -u elastic https://localhost:9200
+Enter host password for user 'elastic':
+*   Trying 127.0.0.1:9200...
+* TCP_NODELAY set
+* Connected to localhost (127.0.0.1) port 9200 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /etc/ssl/certs/ca-certificates.crt
+  CApath: /etc/ssl/certs
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384
+* ALPN, server did not agree to a protocol
+* Server certificate:
+*  subject: CN=dphnuc4
+*  start date: May 13 08:54:03 2022 GMT
+*  expire date: May 12 08:54:03 2024 GMT
+*  issuer: CN=Elasticsearch security auto-configuration HTTP CA
+*  SSL certificate verify result: self signed certificate in certificate chain (19), continuing anyway.
+* Server auth using Basic with user 'elastic'
+> GET / HTTP/1.1
+> Host: localhost:9200
+> Authorization: Basic ZWxhc3RpYzpuQmttWXpHbWJvdW5uck1yUnFjdw==
+> User-Agent: curl/7.68.0
+> Accept: */*
+> 
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< X-elastic-product: Elasticsearch
+< content-type: application/json
+< content-length: 530
+< 
+{
+  "name" : "dphnuc4",
+  "cluster_name" : "elasticsearch",
+  "cluster_uuid" : "6nf3DyuFRDm4QXuubwXjNw",
+  "version" : {
+    "number" : "8.2.0",
+    "build_flavor" : "default",
+    "build_type" : "tar",
+    "build_hash" : "b174af62e8dd9f4ac4d25875e9381ffe2b9282c5",
+    "build_date" : "2022-04-20T10:35:10.180408517Z",
+    "build_snapshot" : false,
+    "lucene_version" : "9.1.0",
+    "minimum_wire_compatibility_version" : "7.17.0",
+    "minimum_index_compatibility_version" : "7.0.0"
+  },
+  "tagline" : "You Know, for Search"
+}
+* Connection #0 to host localhost left intact
+ashburndave@dphnuc4:~/rubycode$ 
+ashburndave@dphnuc4:~$ 
+ashburndave@dphnuc4:~$ curl -v -k -u elastic https://localhost:9200/books/_doc/1
+Enter host password for user 'elastic':
+*   Trying 127.0.0.1:9200...
+* TCP_NODELAY set
+* Connected to localhost (127.0.0.1) port 9200 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /etc/ssl/certs/ca-certificates.crt
+  CApath: /etc/ssl/certs
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384
+* ALPN, server did not agree to a protocol
+* Server certificate:
+*  subject: CN=dphnuc4
+*  start date: May 13 08:54:03 2022 GMT
+*  expire date: May 12 08:54:03 2024 GMT
+*  issuer: CN=Elasticsearch security auto-configuration HTTP CA
+*  SSL certificate verify result: self signed certificate in certificate chain (19), continuing anyway.
+* Server auth using Basic with user 'elastic'
+> GET /books/_doc/1 HTTP/1.1
+> Host: localhost:9200
+> Authorization: Basic ZWxhc3RpYzpuQmttWXpHbWJvdW5uck1yUnFjdw==
+> User-Agent: curl/7.68.0
+> Accept: */*
+> 
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< X-elastic-product: Elasticsearch
+< content-type: application/json
+< content-length: 554
+< 
+* Connection #0 to host localhost left intact
+{"_index":"books","_id":"1","_version":1,"_seq_no":0,"_primary_term":1,"found":true,"_source":{"title": "Core Java Volume I – Fundamentals","author": "Cay S. Horstmann","edition": 11, "synopsis": "Java reference book that offers a detailed explanation of various features of Core Java, including exception handling, interfaces, and lambda expressions. Significant highlights of the book include simple language, conciseness, and detailed examples.","amazon_rating": 4.6,"release_date": "2018-08-27","tags": ["Programming Languages, Java Programming"]}}ashburndave@dphnuc4:~$ 
+ashburndave@dphnuc4:~$ 
+
+
+https://github.com/elastic/elasticsearch-ruby
+
+ashburndave@dphnuc4:~/rubycode$ 
+ashburndave@dphnuc4:~/rubycode$ cat elastictest.rb 
+require 'elasticsearch'
+require 'elastic-transport'
+require 'elasticsearch-api'
+
+# Colons and uppercase/lowercase don't matter when using
+# the 'ca_fingerprint' parameter
+CERT_FINGERPRINT = '94893669df10c4ee61973b97fa0155c593c9d8c0affd3d7aad3d86d9885c099d'
+
+ELASTIC_USERNAME = "elastic"
+
+# Password for the 'elastic' user generated by Elasticsearch
+ELASTIC_PASSWORD = "nBkmYzGmbounnrMrRqcw"
+
+CERT_DIR = "/home/ashburndave/Downloads/elastictemp/elasticsearch-8.2.0/config/certs/http_ca.crt"
+
+# client = Elasticsearch::Client.new(
+#   hosts:
+# 	  [
+#   	   {
+#     	   host: 'my-protected-host',
+#     	   port: '443',
+#     	   user: 'USERNAME',
+#     	   password: 'PASSWORD',
+#     	   scheme: 'https'
+#   	   }
+# 	  ]
+# )
+
+## https://github.com/elastic/elasticsearch-ruby
+## https://www.elastic.co/guide/en/elasticsearch/client/ruby-api/current/index.html
+## gem install elasticsearch
+
+## client = Elasticsearch::Client.new(log: true)
+
+# client = Elasticsearch::Client.new(
+#     # cloud_id: '<CloudID>'
+#     # user: '<Username>',
+#     # password: '<Password>',
+#     user: 'elastic>',
+#     password: 'nBkmYzGmbounnrMrRqcw'
+# )
+
+# ashburndave@dphnuc4:~/Downloads/elastictemp/elasticsearch-8.2.0/config/certs$ ls -la
+# total 32
+# drwxr-x--- 2 ashburndave ashburndave  4096 May 13 04:54 .
+# drwxr-xr-x 4 ashburndave ashburndave  4096 May 13 04:54 ..
+# -rw-rw---- 1 ashburndave ashburndave  1915 May 13 04:54 http_ca.crt
+# -rw-rw---- 1 ashburndave ashburndave 10013 May 13 04:54 http.p12
+# -rw-rw---- 1 ashburndave ashburndave  5822 May 13 04:54 transport.p12
+# ashburndave@dphnuc4:~/Downloads/elastictemp/elasticsearch-8.2.0/config/certs$ 
+# ashburndave@dphnuc4:~/Downloads/elastictemp/elasticsearch-8.2.0/config/certs$ pwd -P
+# /home/ashburndave/Downloads/elastictemp/elasticsearch-8.2.0/config/certs
+# ashburndave@dphnuc4:~/Downloads/elastictemp/elasticsearch-8.2.0/config/certs$ 
+
+# client = Elasticsearch::Client.new(
+#   host: "https://elastic:#{ELASTIC_PASSWORD}@localhost:9200",
+#   transport_options: { ssl: { ca_path: CERT_DIR } }
+# )
+
+client = Elasticsearch::Client.new(
+  hosts:
+	  [
+  	   {
+    	#    host: 'localhost',
+        #    host: '192.168.86.88',
+           host: '127.0.0.1',
+    	#    port: '443',
+           port: '9200',
+    	   user: ELASTIC_USERNAME,
+    	   password: ELASTIC_PASSWORD,
+    	   scheme: 'https'
+  	   }
+	  ]
+)
+
+# if you specify Elasticsearch host
+# client = Elasticsearch::Client.new url: 'http://localhost:9200', log: true
+
+client.transport.reload_connections!
+
+client.cluster.health
+
+client.search(q: 'test')
+
+ashburndave@dphnuc4:~/rubycode$ ruby -v elastictest.rb 
+ruby 3.0.3p157 (2021-11-24 revision 3fb7d2cadc) [x86_64-linux]
+/home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/elastic-transport-8.0.0/lib/elastic/transport/client.rb:214: warning: method redefined; discarding old add_header
+/home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/elastic-transport-8.0.0/lib/elastic/transport/client.rb:206: warning: previous definition of add_header was here
+/home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/elasticsearch-api-8.1.2/lib/elasticsearch/api/actions/termvectors.rb:59: warning: assigned but unused variable - endpoint
+/home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/3.0.0/net/protocol.rb:46:in `connect_nonblock': SSL_connect returned=1 errno=0 state=error: certificate verify failed (self signed certificate in certificate chain) (Faraday::SSLError)
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/3.0.0/net/protocol.rb:46:in `ssl_socket_connect'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/3.0.0/net/http.rb:1038:in `connect'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/3.0.0/net/http.rb:970:in `do_start'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/3.0.0/net/http.rb:959:in `start'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/faraday-net_http-1.0.1/lib/faraday/adapter/net_http.rb:138:in `request_via_get_method'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/faraday-net_http-1.0.1/lib/faraday/adapter/net_http.rb:129:in `request_with_wrapped_block'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/faraday-net_http-1.0.1/lib/faraday/adapter/net_http.rb:122:in `perform_request'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/faraday-net_http-1.0.1/lib/faraday/adapter/net_http.rb:66:in `block in call'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/faraday-1.10.0/lib/faraday/adapter.rb:50:in `connection'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/faraday-net_http-1.0.1/lib/faraday/adapter/net_http.rb:64:in `call'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/faraday-1.10.0/lib/faraday/rack_builder.rb:154:in `build_response'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/faraday-1.10.0/lib/faraday/connection.rb:516:in `run_request'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/elastic-transport-8.0.0/lib/elastic/transport/transport/http/faraday.rb:49:in `block in perform_request'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/elastic-transport-8.0.0/lib/elastic/transport/transport/base.rb:298:in `perform_request'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/elastic-transport-8.0.0/lib/elastic/transport/transport/http/faraday.rb:36:in `perform_request'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/elastic-transport-8.0.0/lib/elastic/transport/transport/sniffer.rb:72:in `perform_sniff_request'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/elastic-transport-8.0.0/lib/elastic/transport/transport/sniffer.rb:47:in `block in hosts'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/3.0.0/timeout.rb:97:in `block in timeout'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/3.0.0/timeout.rb:107:in `timeout'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/elastic-transport-8.0.0/lib/elastic/transport/transport/sniffer.rb:46:in `hosts'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/elastic-transport-8.0.0/lib/elastic/transport/transport/base.rb:99:in `reload_connections!'
+	from elastictest.rb:79:in `<main>'
+/home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/3.0.0/net/protocol.rb:46:in `connect_nonblock': SSL_connect returned=1 errno=0 state=error: certificate verify failed (self signed certificate in certificate chain) (OpenSSL::SSL::SSLError)
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/3.0.0/net/protocol.rb:46:in `ssl_socket_connect'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/3.0.0/net/http.rb:1038:in `connect'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/3.0.0/net/http.rb:970:in `do_start'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/3.0.0/net/http.rb:959:in `start'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/faraday-net_http-1.0.1/lib/faraday/adapter/net_http.rb:138:in `request_via_get_method'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/faraday-net_http-1.0.1/lib/faraday/adapter/net_http.rb:129:in `request_with_wrapped_block'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/faraday-net_http-1.0.1/lib/faraday/adapter/net_http.rb:122:in `perform_request'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/faraday-net_http-1.0.1/lib/faraday/adapter/net_http.rb:66:in `block in call'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/faraday-1.10.0/lib/faraday/adapter.rb:50:in `connection'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/faraday-net_http-1.0.1/lib/faraday/adapter/net_http.rb:64:in `call'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/faraday-1.10.0/lib/faraday/rack_builder.rb:154:in `build_response'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/faraday-1.10.0/lib/faraday/connection.rb:516:in `run_request'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/elastic-transport-8.0.0/lib/elastic/transport/transport/http/faraday.rb:49:in `block in perform_request'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/elastic-transport-8.0.0/lib/elastic/transport/transport/base.rb:298:in `perform_request'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/elastic-transport-8.0.0/lib/elastic/transport/transport/http/faraday.rb:36:in `perform_request'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/elastic-transport-8.0.0/lib/elastic/transport/transport/sniffer.rb:72:in `perform_sniff_request'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/elastic-transport-8.0.0/lib/elastic/transport/transport/sniffer.rb:47:in `block in hosts'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/3.0.0/timeout.rb:97:in `block in timeout'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/3.0.0/timeout.rb:107:in `timeout'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/elastic-transport-8.0.0/lib/elastic/transport/transport/sniffer.rb:46:in `hosts'
+	from /home/ashburndave/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/elastic-transport-8.0.0/lib/elastic/transport/transport/base.rb:99:in `reload_connections!'
+	from elastictest.rb:79:in `<main>'
+ashburndave@dphnuc4:~/rubycode$ 
+ashburndave@dphnuc4:~/rubycode$ 
